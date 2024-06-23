@@ -1,0 +1,581 @@
+Advances in the smart materials applications in
+the aerospace industries
+AlArshBasheer
+DepartmentofMechanicalandAerospaceEngineering,StateUniversityofNewYork,Buffalo,NewYork,USAand
+ResearchandDevelopmentDivision,OetikerInc.,Lancaster,Buffalo,NewYork,USA
+Abstract
+Purpose–Smartmaterialsalsocalledintelligentmaterialsaregainingimportancecontinuouslyinmanyindustriesincludingaerospaceone.Itis
+because of the unique features of these materials such asself-sensing, self-adaptability, memory capabilitiesand manifold functions. For a long
+time,thereisnoreviewofsmartmaterials.Therefore,itisconsideredworthwhiletowriteareviewonthissubject.
+Design/methodology/approach–AthoroughsearchoftheliteraturewascarriedoutthroughSciFinder,ScienceDirect,SpringerLink,WileyOnline
+Libraryandreputedandpeer-reviewedjournals.Theliteraturewascriticallyanalyzedandareviewwaswritten.
+Findings–Thisstudydescribestheadvancesinsmartmaterialsconcerningtheirapplicationsinaerospaceindustries.Theclassification,working
+principleandrecentdevelopments(nano-smartmaterials)ofsmartmaterialsarediscussed.Besides,thefutureperspectivesofthesematerialsare
+alsohighlighted.Muchresearchhasnotbeendoneinthisarea,whichneedsmoreextensivestudy.
+Originality/value–Certainly,thisstudywillbehighlyusefulforacademicians,researchersandtechnocratsworkinginaerospaceindustries.
+Keywords Smart(intelligent)materials,Classification,Applications,Nano-smartmaterials,Futureperspectives
+PapertypeLiteraturereview
+1.Introduction temperature, stress, magnetic fields, chemicals, electricity,
+nuclear radiation, acidity and hydrostatic pressure. The
+Itis interesting to note that thenumberof passengers will be
+changes may be in the size and shape of the objects, rigidity,
+approximately doubled in 2036; totaling 7.8 billion yearly as
+restrainingandviscosity(Schwartz,2002).Allthesealterations
+perInternationalAirTransportAssociation.Tocompletethis
+areresponsibleforprovidingthevariousnecessaryfunctionsof
+requirement, the aerospace industry is supposed to do great
+the smart materials as per the environmental changes. The
+efforts continuously. In July 2018, Airbus predicted the need
+common smart materials and related stimulus responses are
+for approximately 37,400 new aircraft with $5.8tn in costs
+showninFigure1.
+during the next 20years (Matthew, 2018). For such a huge
+The smart materials are also called as intelligent ones
+numberofpassengersandthedemandfortheaircraft,thereisa
+because of their intellectual performance during the
+great need for advanced technology to meet out the
+environmentalvariations.Thesmartnessofthesematerialslies
+requirements economically with safety. Among various parts/ in the facts of the manifold applications in structural,
+componentsoftheaerospaceindustries,thematerialisoneof aerospace, bionics, mechanical and environment engineering
+themostimportant components.Many typesofmaterials are (Bashir, 2017; Addington and Daniel, 2005). Besides, these
+beingusedinaerospaceindustriesbutthesmartmaterialsare materialscandetecttheerrorsandfissuresandareworkingas
+gaining importance continuously because of their unique diagnostictoolsand,consequently,self-repairingcapabilities–
+features. Basically, the smart materials are new generation calledaself-repairingeffect.Inaerospaceengineering,mostof
+constituents exceeding the conventional functional and theapplicationsarecarriedoutintheopenenvironmentwith
+structural materials. These materials are called smart ones exposure to various changes and, hence, smart materials are
+because of their self-sensing, self-adaptability, memory gaininggreat attention in the aerospace industries. In this way,
+capabilities and manifold functions (Ritter, 2007). The self- thereisagreatdemandforsmartmaterials,relatedstructuresand
+adaptation features of smart materials are of great value in instrumentsintheaerospaceindustries.Athoroughsearchofthe
+embedding the adaptations of smart materials. Nowadays, literature was carried out and no article was found on the
+there is a great demand for the smart materials in various advancement of smart materials in the aerospace industries
+industries because of their capabilities to alter physical duringthepastdecade.Itwasalsorealizedthattherearesome
+properties in a precise way in reaction to the change in the advancesinthesmartmaterialsinaerospaceindustriesduringthe
+environmental factors (stimuli responses). These factors are pastfewyears.Therefore,theeffortsaremadetowriteanarticle
+onthelatestdevelopmentsandapplicationsofsmartmaterialsin
+theaerospaceindustries.Thisarticledescribestheclassification,
+ThecurrentissueandfulltextarchiveofthisjournalisavailableonEmerald
+Insightat:https://www.emerald.com/insight/1748-8842.htm working principle, applications, recent developments (nano-
+smart materials) and future perspectives. Certainly, this article
+AircraftEngineeringandAerospaceTechnology
+92/7(2020)1027–1035 Received10March2020
+©EmeraldPublishingLimited[ISSN1748-8842] Revised23April2020
+[DOI 10.1108/AEAT-02-2020-0040] Accepted28April2020
+1027Advancesinthesmartmaterialsapplications AircraftEngineeringandAerospaceTechnology
+AlArshBasheer Volume92·Number7·2020·1027–1035
+Figure1 Thecommonsmartmaterialsandrelatedstimulusresponses lead zirconate titanate [PZT]), lead magnesium niobate and
+polyvinylidene fluoride polymer. The other piezoelectric
+materials are PbZr0.52Ti0.48O -PZT, Bi Ti O -BiT and
+3 4 3 12
+PZT-BiT composites. These are frequently presented in thin
+sheets and may be easily anchored or fixed in the composite
+structuresorloadedtoformseparatepiezoelectricactuators.
+2.2Magnetostrictivematerials
+These are the materials reacting against the change in the
+magneticproperties.Thesematerialsaremono-polarandnon-
+linear, showing some hysteresis but lesser than piezoelectric
+materials.Thesematerialsundergomechanicalstrainandwork
+asactuatorsandsensors.Thesematerialsproducelowstrains
+andmodestforcesacrossavariedfrequencyrange.Theseare
+thebestmaterialsfortheactuatorsbecauseoftherequiredcoil
+will be highly useful for academicians, researchers and and magnetic return path. Generally, these materials contain
+technocratsworkingintheaerospaceindustries. sensorsandactuatorsandareofnickel,ironandcobalt.Briefly,
+these materials work as permanent magneticbars. Themajor
+2.Classificationofsmartmaterials
+applications of these materials include motors and hydraulic
+The classification of smart materials is based on their actuators and small-frequency high-power sonar transducers.
+The best known magnetostrictive material is Terfenol-D,
+properties. The most important properties exploited are
+whichelongatesonexposingtothemagneticfield.
+thermal, electric, magnetic, etc. The smart materials are
+classified as per the approaches of Addington, Schodek and
+Ritter. These materials are classified based on the changes 2.3Thermo-responsivematerials
+These are the materials reacting against the change in
+occurringinshape,phase,color,energy,matter,adhesionand
+temperature. These materials are also called as temperature-
+rheology. It is not possible to discuss all these materials
+responsive. Generally, these are polymers and show a
+classification but the most important materials used in
+miscibility gap in their temperature-composition diagram.
+aerospaceindustriesarediscussedinbrief.
+These materials are shape memory polymers and shape
+memoryalloys(SMAs)andcanbechangedindifferentshapes
+2.1Piezoelectricmaterials
+bychangingtemperature.Nitinolisanickelandtitaniumalloy
+Thesearethematerialsreactingagainstthechangeinelectric
+and works as anti-corrosion comparable to stainless steel;
+properties.Thesearerelativelylinearatlowfieldsandbipolar
+useful for many applications. The major applications of such
+(positive and negative strain) exhibiting hysteresis. These
+typesofalloysareinsuperelasticspectacleframesandhot-pot
+materials are of polymeric and ceramic types. These have
+thermostat. The major applications include thermostat, air
+properties of wide bandwidth, electromechanical response,
+vehicles,shockabsorbers,breaksandautomotivedampers.
+high generative force and comparatively low-power
+requirements.Thesematerialsundergomechanicalalterations
+2.4Shapememoryalloys
+in changing the electric field (Figure 2). These produce
+SMAs are the materials belonging to the thermo-responsive
+voltageswhenstressisapplied.Contrarily,ifvoltageisapplied,
+materials class. These materials react in the response to the
+stressis produced in thematerials. Consequently, a structure
+temperature. They change the shapes at changing the
+made of these materials can be bent, expand and fold by
+temperature.Theydeformtotheirmartensiticconditionsand
+applyingvoltage.Thesehavegoodapplicationsinthemagnetic
+regaintheiroriginalshapestotheirausteniteconditionswhen
+heads, optical tracking devices, dot-matrix printers, high-
+heated.Theremarkablefeatureofthesematerialsistheirlarge
+frequencystereospeakers,computerkeyboards,microphones,
+changes of modulus of elasticity on heating above the phase
+transducers, sensors, actuators and igniters for gasgrills. The
+change temperature i.e. two to four times low-temperature
+mostwidelyusedpiezoelectricmaterialsarepiezoceramics(e.g.
+value.Avarietyofalloyshavebeenfoundtoshowthiseffectby
+recurrent heat treatments. Examples are of nitinol (NI-Ti
+Figure2 Piezoelectricmaterialshowingtheexchangeofelectricaland alloy), NiTiCu, CuAlNi, CuZnAl, Fe-Pt and Au-Cd. In the
+mechanicalenergy 1980sandearly1990s,somecompaniesstartedtoproduceNi-
+Ti materials, the different components and many other
+products(DesRoches,2002).Thesearethebestmaterialsfor
+manufacturing actuators because of the option of attaining
+largedisplacementsandexcitationforces.Thesematerialsare
+available in thestandard stocks of wires,rods, tubes,springs,
+bands,stripsandsheets.
+2.5Electrostrictivematerials
+These are the piezoelectric materials but the mechanical
+changes are directly proportional to the square of the electric
+1028Advancesinthesmartmaterialsapplications AircraftEngineeringandAerospaceTechnology
+AlArshBasheer Volume92·Number7·2020·1027–1035
+field.Thesearealsoverysensitivetotemperaturebutshowtiny acidity and mechanical loads. The responses of the smart
+hysteresis.Inthesematerials,thedislocationsarealwaysinthe materials are observed in terms of change in shape, viscosity,
+same direction. The most important example is magnesium composition, color, etc. Fundamentally, the smart structures
+niobate.Itrequiresanelectricfieldtocauseinducedstressand include five key essentials, i.e. structural material, distributed
+has the same induced stress ability as piezoelectric materials. sensors and actuators, power conditioning electronics and
+Theseareavailableintheformofstacks,whichmaybeusedto control strategies. These materials work by changing their
+formanydeviceeasily. physical properties. The first smart material transformation
+observationwasrecordedin1932ongold–cadmium.Lateron,
+Hodgson and Brown (2000) observed transformation and
+2.6Rheologicalmaterials
+shape memory effect in nickel–titanium alloy at Naval
+Theseareliquidmaterialsreactingagainstthechangeinelectricor
+OrdinanceLaboratory.
+magnetic or both properties. These are also termed as electro-
+rheologicalfluidandmagneto-rheologicalfluidsasperthechanges Basically, the materials may exist in two different phases at
+various temperatures. These are austenite (exists at high
+becauseofchangeinelectricandmagneticfields.Thereactionsof
+temperature)andmartensite(existsatlowtemperature).These
+thesematerialsagainststimuliareveryfast.Thechangesareinthe
+twophasestransformintoeachotherattheexternaltemperature
+dynamics of liquid and solid phases. The major applications
+or stress condition alters. Besides, martensite exists into two
+includeshockabsorbers,breaksandautomotivedampers.
+different forms, i.e. twinned and detwinned (Figure 3). The
+smart materials show some special features during the
+2.7Photochromicmaterials
+Thesearethematerialsreactingagainstthechangeintheoptical
+properties. The major applications include liquid crystal
+Figure3 Thedifferentphasesofsmartmaterials
+displays, lithium batteries and other electrochromic devices.
+Themostimportantphotochromicmaterialsarespiropyranes,
+naphthopyranes, spirooxazines, chromenes, spirodihydro-
+indolizines, fulgides,diarylethenes,bacteriorhodopsin and azo
+compounds.Thedifferent typesof smartmaterials withinput
+andoutputaregiveninTable1.
+3.Workinginthesmartmaterials
+Fundamentally,thesmartmaterials act againstcertain effects
+suchaselectricity,pressure,temperature,light,magneticfields,
+Table1 Thedifferenttypesofsmartmaterialswithinputandoutput
+Sl.no. Typesofsmartmaterials Input Output
+Type1:Propertychanging
+1 Mechanochromics Twist Colorvariations
+2 Electrochromics Electricpotentialvariations Colorvariations
+3 Photochromics Light(radiation) Colorvariations
+4 Thermochromics Temperaturechanges Colorvariations
+5 Liquidcrystals Electricpotentialvariations Colorvariations
+6 Chemochromics Chemicalquantities Colorvariations
+7 Suspendedparticles Electricpotentialvariations Colorvariations
+8 Magnato-rheological Electricpotentialvariations Stiffnessandviscosityvariations
+9 Electrorheological Electricpotentialvariations Stiffnessandviscosityvariations
+Type2:Energyexchanging(reversible)
+10 Piezoelectric Deformation Electricpotentialdifference
+11 Thermoelectric Temperaturedifference Electricpotentialdifference
+12 Pyroelectric Temperaturedifference Electricpotentialdifference
+13 Magneto-restrictive Magneticfield Twist
+14 Electro-restrictive Electricpotentialdifference Twist
+Type2:Energyexchanging(reversible)
+15 Photoluminescence Radiation(light)
+16 Electroluminescence Electricpotentialdifference Radiation(light)
+17 Thermoluminescence Radiation(light)
+18 Chemoluminescence Radiation(light)
+19 Light-emittingdiodes Electricpotentialdifference Radiation(light)
+20 Photovoltics Radiation(light) Electricpotentialdifference
+1029Advancesinthesmartmaterialsapplications AircraftEngineeringandAerospaceTechnology
+AlArshBasheer Volume92·Number7·2020·1027–1035
+transformations. These are the super-elasticity effect, shape 3.4Activestructures
+memoryeffectandtwo-waymemoryeffect.Thesuper-elasticity These are the structures having the distribution of the
+materials also have some other significant properties such as integrated sensors and actuators. These have load-bearing
+hystereticdamping,excellentfatigueproperties,verydependable capacityi.e.structuralfunctionality.
+energy dissipation ability through repeatable phase conversion
+andgoodcorrosionresistance.Theausteniteoccursatlowstress 3.5Intelligentorsmartstructures
+while it is converted to detwinned martensite at high stress. Theseare thestructureshavinga sub-set ofactivestructures.
+Figure4(a)depictsausualstress–straincurveofsmartmaterials Theseareused fortheextremelyintegratedcontrol logicand
+at these two phases. Figure 4(b) depicts the stress–strain powerelectronics.
+relationshipoftheusualphasechangesofsuper-elasticitysmart
+materialsunderpressure.Theupperplateaushowsanalteration 4.Applications
+fromaustenitetomartensiteinpressurewhilethelowerplateau
+The applications of the smart materials and structures are
+showsthereversephenomenonwithpressurerelease.Thesuper-
+elasticity materials also have some other significant properties increasing continuously in various sectors such as civil
+structures,automotivesystems,roboticsystems,spacevehicles,
+such as hysteretic damping, fatigue properties, reliable energy
+rotary-wingaircraft,fixed-wingaircraft,machinetools,marine
+intemperancecapabilityviarepeatablephasetransformationand
+systemsandmedicalsystems.Theincreasedusesarethrough
+excellentresistancetocorrosion.
+technological revolutions in actuators, sensors, damping of
+In the case of the piezoelectric materials, the transducer
+betweenmechanicalstressandelectricitypropertyisbecauseof vibrations, shock absorption, shape control, stability and
+thecrystallinestructure.Inacrystal,eachmoleculeispolarized damping increase, structural integrity, operational
+having one end negatively charged and the other positively maintenance, automatic on-off switch, image processing and
+charged,i.e.justlikeadipole.Thisarrangementisaffectedby coatingsbecauseofspecialfeaturesofthesematerialssuchas
+thechangesinthemechanicalstressandelectricfield;leading self-adaptation, self-sensing, self-adaptability, memory and
+to transducer property. Briefly, the simple piezoelectricity multiplefunctionalities.Thesematerialscandetectfaultsand
+concept is to alter the alignment of the polarization of the cracks, and hence, are useful as diagnostic tools. These
+molecules.Itiswell-knownthat smartstructuresaremadeof materialsmaybeusedtorepairthefaultduringanymechanical
+different combinations of smart materials. Basically, these operation–thephenomenon iscalled theself-repairingeffect
+smart structures involve the distribution of the actuators and (LiangandRogers,1992;Ghandi,1995;SoroushianandHsu,
+sensors, processors, control logic and power electronics. The 1997;Lagoudasetal.,1999).Ofcourse,thesematerialshavea
+varioussmartstructuresarediscussedbelow. widerangeofapplicationsbutinthisarticle,theeffortswillbe
+madetorestricttheirapplicationsinaerospaceindustriesonly.
+3.1Adaptivestructures ThefeaturesofaircraftapplicationsaregiveninTable2while
+Thesearethestructureshavingthedistributionoftheactuators Table3summarizesvarioussmartmaterialsusedinaerospace
+tochangethecharacteristicsinaprescribedway.Theyinclude industries.
+conventional aircraft wings with ailerons and flaps and rotor Theaerospaceindustriesarefacinggreateconomicpressure
+bladeswithservoflaps. tolowerdownthecosts,withaugmentingtheperformanceand
+sustaining important protection standards. Therefore, the
+defense, commercial airline and space exploration industries
+3.2Sensorystructures
+aresearchingsmartmaterialsforthesepurposes.Theseshould
+Thesearethestructureshavingthedistributionofthesensors
+be consistent, robust and meet the requirements of highly
+to screen the characteristics of the structure i.e. strain,
+specialized applications. The smart materials have good
+temperature, electromagnetic properties, displacement,
+industrial and commercial applications. The engineering
+damageandacceleration.
+applicationsmaybecategorizedintosensorsorsensingdevices
+andmotorsandactuators.Thesmartnessofthesematerialsis
+3.3Controlledstructures
+developedbychangingtheircompositions,specialprocessing,
+Thesearethestructureshavingthedistributionofthesensors
+inducingdefectsandmodificationofmicrostructures.
+and actuators. These are used to actively regulate the
+The smart materials have been used as load-bearing
+characteristicsofthestructure.
+actuators in some composite structures such as aircraft wings
+androtorblades(Liangetal.,1996;Garneretal.,1999;Jardine
+Figure4 Strain–stressrelationshipofausteniteandmartensite
+et al., 1996). There are smart materials that are used to
+overpower vibrations and variation in helicopter rotor blades
+shape.Smartmaterial-actuatedrotortechnologyisbeingused
+in Boeing, which reduces about 80% vibrations, improving
+flight performance. Airbus Helicopters SAS (formerly
+Eurocopter Group) has also developed similar systems.
+Similarly,variousadaptiveregulatorsurfacesareproducedfor
+airplane wings. Also, recently, research is going on to
+emphasizethenewcontroltechniquesforsmartmaterialsand
+design procedures for the locations of the actuators and
+sensors.Theotherapplicationsdealwiththeabilitytoregulate
+1030Advancesinthesmartmaterialsapplications AircraftEngineeringandAerospaceTechnology
+AlArshBasheer Volume92·Number7·2020·1027–1035
+Table2 Thefeatures,requirementsandtheeffectsofaircraftapplications
+Sl.no. Requirements Applicability Effects
+1 Lightweight Allaerospaceschemesand -Semi-monocoquefabrication(thin-walledboxesorreinforcedstructures)
+programs -Useoflow-densitymaterials(wood,alloysandcomposites)
+-Highstrength/weightandhighstiffness/weight
+2 Passengersafety Passengerscarriers -Useoffireretardantmaterials
+-Extensivetesting:crashworthiness
+3 Highreliability Allaerospaceschemesand -Strictqualitycontrol
+programs -Extensivetestingforconsistentdata
+-Certification:proofofdesign
+4 Degradation(radiationandthermal) Spacecraft -Damageissuesandlifespanandextensivetestingforvariedenvironment
+-Thinmaterialswithhighreliability
+5 Sturdiness-exhaustionandcorrosion Aircraft -Extensiveexhaustiontesting/analysis(alloysdonothaveexhaustionlimit)
+-Corrosioninhibitionplans
+6 Aerodynamicpresentation Reusablespacecraft -Deformedshapeaero-elasticity
+-Dynamics
+-Compoundcontouredshapes
+-Manufacturability(moldingandmachining)
+7 Aerodynamicpresentation Aircraft -Greatlycomplexloading
+-Thinbendablewingsandregulatingsurface
+8 Weatheroperation Aircraft -Lightningprotection
+-Erosionresistance
+9 Multi-rolefunctions Allaerospaceschemesand -Efficientdesign
+programs -Compositeswithvariedfunctions
+10 Fly-by-wire Fighterandpassenger -Configurationcontrolexchanges(aero-servo-elasticity)
+Aircraft -Wideuseofcomputersandelectronics
+-Electromagneticshielding
+11 Stealth Specificmilitaryaerospace Specificsurfaceandshapeofaircraft
+uses Stealthcoating
+Table3 Varioussmartmaterialsusedinaerospaceindustries
+Sl.no. Requirements Materials Purposes
+1 Designofsmartmaterialsfor Magneto-responsivematerials -Cyclicandactivecontrol
+actuatorsforrotorcontrol -Leadtoreducedmaneuverenvelopbecauseofweightandvolumeconstraints
+2 Controlpanelasextendingtowings SMAs -Tosolvelimitsofaircraftwingdesign
+ofaircraft
+3 Shape-changingtechnology Shape-alteringsmartmaterials Formilitaryaircraft(nexttonewgenerationaircraft)
+4 Shape-changingtechnology SMAs Engineeringbendingandstretchingabilitiesinwingsandhingelesssystems
+5 Shape-changingtechnology Piezoelectric Engineeringbendingandstretchingabilitiesinwingsandhingelesssystems
+theaero-elasticformofanaircraftwingtodecreasethepulland temperature variations. These are used to manufacture
+increase working efficiency, to regulate vibration of satellites’ various aircraft parts such as fuel line assembly,
+lightweight structures and to observe structural reliability in thermocouplesandgasturbineengines.Aluminaisusedto
+spacestructuresandaircraft. make aircraft parts for thermal shock resistance and high
+Thepiezoelectricanddielectricmaterials(electroceramic temperature, which occur in plasma ignition. Besides,
+materials) are used to make aerospace sensors and aluminaislightinweightanddecreasesthecostsrelatedto
+transducers such as gyroscopes and accelerometers. The the launching of satellites. The piezoelectric actuator may
+gyroscopes are used for measuring the pitch of aircraft, executeamechanismofthecontrolsystembyincreasingthe
+acceleration, satellites and missiles, while accelerometers maneuverabilityandperformanceowingtogoodflexibility.
+are used for vibration measurements. The sensors are used Besides, these materials are used to reduce the vibrations
+tomeasurethelevelsoffueltanks.Forexample,Boeing777 andnoiseintheaircraft.Theceramicfibersareusedasheat
+has piezo ceramic material in 60 ultrasonic fuel tanks. The shieldsforfireprotection and thermalinsulationinaircraft
+smartceramicmaterialsareusedinaircraftbecauseoftheir and space shuttles because they resist heat, and are
+capabilitytobearhighvibrationandmechanicalshockand lightweight and do not corrode. Other significant
+1031Advancesinthesmartmaterialsapplications AircraftEngineeringandAerospaceTechnology
+AlArshBasheer Volume92·Number7·2020·1027–1035
+characteristicsincludehighmeltingtemperature,resiliency, The combination of nanomaterials’ properties and smart
+tensile strength and chemical inertness. Besides, aircraft materials’featuresarethebestcombinationstoachievetheheights
+windshieldsareheatedbyatransparent,electric-conducting in success. These materials will create innovation in aerospace
+ceramic coating embedded in the glass to keep them clear engineering.Forexample,thebodyofaircraftandsatellitesmade
+fromfogandice. ofanano-smart materialcouldpossibly alterthesurfacetexture
+The SMAs are used to overcome the limits of normal depending on temperature, pressure, electric current and other
+airplanewingdesigns.Generally,wingsforhighspeedsfailto features. The smart nanomaterials (especially composites),
+work at low speed and vice versa. But SMAs integration to comprisingsensorsandactuatorsinthelayersofcompositesmay
+airplanewingsmaysolvethisproblem.TheSMAshaveagood detectanycrackintheaircraft.Thesmartnanomaterialscanbe
+future to be used in the wing structure to minimize prepared with layered composition and printed circuit-board
+aerodynamiclossesandtomaximizespeed–wingconcordance. techniques. Ihn and Chang (2004) developed this sort of
+These may be exploited for sound reduction, load reduction techniqueusingsmartlayerstodetectandmonitorhiddenfatigue
+and to meet the motion necessities of the helicopters. Dong crack growth using a built-in piezoelectric sensor/actuator
+etal.(2008)reportedtheapplicationofSMAasanactuatorfor network.Similarly,Akhras(2012)usedsmartandnano-systems
+anadaptiveairfoil.SMAsprings areused toactuateprecisely forapplicationsinnon-destructiveevaluationandperspectives.In
+some points on the skins to reach the target airfoil. It was this system, actuators stimulate the composite material and
+observedthatSMAcouldgetgoodactuatingresults,basedon producewaveswhenacrackisdeveloped.Thesewavesaresensed
+thesimulationstudies.Similarly,Hutapeaetal.(2008)reported anddetectedbythepilotforalarmingthenecessaryaction.The
+asampleofasmartactuationstructureforanadaptiveairfoilby SMAsarebeingmadeinanano-frameforwingsforflappingin
+regulatingtheflaps.SMAspringswerestationaryatoneterminal mannerssimilartobirds(Figure5).Lietal.(2009)describedthe
+tothewingboxtowardtheprimaryedgeoftheairfoilwhereasthe different ways to prepare polymer modified gold nanoparticles.
+otherendwasinvolvedtangentiallytoarevolvingcylinderfixed The authors studied their thermal and pH sensitivities. Such
+totheflap.Thespringactuatorswerecontrolledbysupplyingan nanomaterials may be important in designing and developing
+appliedcurrent.Aspertheauthors,thesamplepreparedshowed future nano-electronics and nano-sensors. The author described
+asturdyprospectiveforfutureuses. the changes in the morphology of the gold nanoparticles as pH
+changeresponse(Figure6).
+5.Nanotechnologyandsmartmaterials Kuilla et al. (2010) prepared graphene-based piezoresistive
+smart nanomaterial and tested its piezoresistive features for
+Of course, nanotechnology has emerged as an independent finding out a possible application in the graphene-based
+researcharea(Ali,2012,2018).Butrecently,thereisgrowing sensors. The authors compared the results with CNTs strain
+interest to apply nanotechnology in the smart materials to sensors. As per the authors, it was observed that the strain
+augment their performance and new designs or/and responseofthegraphene/epoxysensorwasbetterthanCNTs
+applications.Nanotechnologyisatooltotakesmartmaterials and also symmetrical and along with reversible behavior.
+to the next level. Nanotechnology-enabled smart materials Furthermore, the graphene composites exhibited a higher
+exhibit superior performance in their functions (Coyle et al., gaugefactorthan straingaugemadeofhigh-qualitygraphene
+2007). The stimuli responses of the nanomaterials are better film. High gauge factor may be because of the larger inter-
+than the conventional smart material because of small size, contactareasamongthegraphenenano-fillersbecauseoftheir
+surface active sites and, sometimes, larger surface area two-dimensionalstructure.Csetnekietal.(2006)developnew
+(Dahmanetal.,2017).Thesefeaturessensethechangeinthe
+environmentevenatlowmagnitude.Theadvantagesofsmart
+Figure 5 The embedding of smart nanomaterials in composite
+andnano-materialsareasgivenbelow:
+structureusingprintedcircuittechnology
+(cid:1) Optimizationoftheresponsesofcomplexsystems.Thisis
+carried out by creating early cautionary systems,
+increasing the range of survivability situations and/or
+giving adaptive responses to manage unexpected
+situationsandconditions.
+(cid:1) Minimizing the alteration of the responses, augmenting
+the exactness and providing good control of the system.
+This might lead to improving designs and performances
+forspecialapplications.
+(cid:1) Improvement in the functionality of the system by an
+appropriate defensive maintenance and presentation
+optimization.
+(cid:1) Noteworthy influence on engineering and processing
+techniques.
+(cid:1) Improvementinthehealthmonitoringofthesystemand
+goodcontrolofitsdynamicandaddictiveness.
+(cid:1) All these features will open the entry to use more nano-
+smart materials for multifold applications in aerospace
+industries.
+1032Advancesinthesmartmaterialsapplications AircraftEngineeringandAerospaceTechnology
+AlArshBasheer Volume92·Number7·2020·1027–1035
+Figure6 Changeinmorphologyofgoldnanoparticles
+composite gel membranes having nano-channels, which can exfoliated graphite nano-platelets (xGnPs) and nano-graphene
+regulate membrane permeability in response to the external platelets (NGPs). The authors prepared these sheets of various
+stimuli. With increased temperature, the membrane lateral dimensions and lengths using different compositions and
+permeabilityincreased.Thechannelshaveawell-orderedarray combinations. These materials showed piezoresistive
+ofthemagneticpolystyrenelatexparticles,whichunderwentto characteristicsandindicatedavariationinelectricalresistanceon
+alterationinvolumeinreactiontooutsidestimuli.Venturaetal. applyingthestrain.Thedependenceresistancevariationsonstrain
+(2017) described stimuli-responsive materials digitization via weredirectional in nature.The different mixtures ofxGnPsize,
+integration of a network of conductive nanomaterials into an MWCNT length and MWCNT-to-xGnP/NGP ratio showed
+elastomermatrix. Thesensors with a wide range ofdetection various specific surface areas and nanoparticle interactions. The
+abilities become promising. The authors monitored the rate authorsclaimedtheseservingasimportantfactorsforregulating
+anddegreeofmaterial’sexpansiondownhole–suchasinsand the sensitivity of the hybrid sheets. The sensitivity was inversely
+screens or packers. The authors claimed that the developed proportionaltothethicknessesofthesheets.
+approachmaybeusedtodetectdegradation,tooldeployment
+statusandchemicaldetection.Besides,itwasobservedthatthe 5.1Synthesisofnano-smartmaterials
+authors claimed thedetection of thepresence of water,oil or The smart nanoparticles are produced by physical processes,
+precisechemicalsusingtheirwork. based on manufacturing particles from pre-synthesized
+Hwang et al. (2013) reported the preparation of nano-smart polymers (cross-linking among polymers and cores). The
+material of multi-walled carbon nanotubes (MWCNTs), second method is a chemical synthesis of nanoparticles by
+Table4 Theadvantagesanddisadvantagesofthesynthesisofnano-smartmaterials
+Sl.no. Method Advantages Disadvantages Reference
+1 Microwave -Reducedreactionorsynthesis Sometimespoordispersion Liuetal.(2007)
+time
+-Smallparticlesizedispersal
+2 Electronbeamlithography -Wellmanagedinter-particle Highcomplexparaphernalia LinandSamia(2006)
+spacing
+3 Gasphasedeposition -Practicalapproach Sizecontrolofnanoparticles Cuenya(2010)
+4 Supercriticalfluids -Goodcontrolofnanoparticles Needcriticaltemperatureandpressure ZhangandErkey(2006)
+-Nouseoftoxicchemicals
+5 Pulsedlayerablation/laserablation -Facileandsimplemethod Lowmanufacturingrate Zengetal.(2012)
+inliquid -Geometrycontrolpossible
+-Noneedofanyotherchemical
+6 Flowinjection -Reproducibleandhomogeneous Continuousmixingofsolvents Salazar-Alvarezetal.(2006)
+7 Biological(microbialincubation) -Reproducible,scalable,good Time-consuming NarayananandSakthivel(2010)
+yieldandlowcost
+1033Advancesinthesmartmaterialsapplications AircraftEngineeringandAerospaceTechnology
+AlArshBasheer Volume92·Number7·2020·1027–1035
+heterogeneous polymerization. Some methods are discussed ThesmartnanomaterialsmaybeusedinSMAs.Thesemaybe
+below. highly useful materials in changing the shape of wings for
+flappingtheneedforsmoothandeconomicperformance.The
+5.1.1Polymeradsorptiononnanoparticles
+smart nanomaterials are the need for the future and these
+Thisistheclassicalandsimplemethodforthepreparationof
+shouldbepreparedinamoreadvancedwaytomeettheneeds
+stimuli-responsivenanoparticles.Inthisapproach,apolymeris
+of future aerospace technology. The future is looking for
+sorbedontheparticlesurfaceanditcontrolsinteractionsinthe
+automatic damage arrest, shocks absorbers, self-healing and
+colloidal suspension owing to different effects (electrostatic,
+thermal mitigation through nano-smart materials. The nano-
+steric,depletionbridgingandmechanisms).
+smart materials will be highly beneficial and useful in future
+5.1.2Amphiphilicblockcopolymersandmicellesself-assembly space missions, and certainly, will help to make our dreams
+The block copolymers make different types of self-assembled true. But nano-smart materials are just new ones and, thus,
+arrangements from micelles to constant bilayers (subject to only a few industrial products are available in the market.
+solvent selectivity). The swelling and packing of particles Because of patent restrictions, it may take many years for a
+occurred because of solvent compatibility. The common proposed nanomaterial to go from conception to desired
+physicaldeviationswithintheparticlesareinthecollectivesize. application.
+Thechangestothecollectivearchitecture,structureandstimuli
+responsestoionicstrength,pH,thermalandredoxstimuliare
+7.Conclusion
+amongthosewhichareusuallymeasuredmost.Examplesareof
+shearflow,ionicexchangeandosmoticshock.Theadvantages Thedevelopmentofsmartmaterialsisaninterdisciplinaryarea.
+anddisadvantagesofthesynthesisofnano-smartmaterialsare Smartmaterialsarethenewgenerationmaterials,whichhave
+summarizedinTable4. greatlatenttointroducearevolutioninmanyareasincluding
+aerospace industries. The manufacturing of the nano-smart
+6.Futureperspectives materials and understanding of the working mechanism will
+improve the properties and applications in aerospace
+Thesmartmaterialsareprobablytobethemostrecentopening
+industries. The nano-smart materials will be highly useful in
+of humankind for a significant leap to a hopeful future. This
+our space missions. These may be the starting materials to
+centurywillbedominatedbyawidevarietyofsmartmaterials.
+initiatelifeonotherplanets.Thesesmartmaterialsarethehope
+Thesewillbethefrontiermaterialsintheaerospaceindustries.
+of the future and, certainly, will enhance the quality of our
+Thereisaneedtodevelopsmartmaterialsformanufacturing
+living. For a true revolution into aerospace industries,
+airvehicleswiththecapabilitiesofalteringtheirshapesasper
+collaborative efforts are necessary among the academicians,
+the requirements and specifications. There is also a great
+researchers,engineersanddesigners.
+demand of elastomeric matrix materials and CMT structures
+for morphing technology. The properties of smart materials
+accept the challenges in aerospace industries. Therefore, the References
+research on smart materials is a promising field. Certainly,
+Addington,D.M.andDaniel,L.S.(2005),SmartMaterialsand
+themarketforsmartmaterialswillincreaseinthefuture.The
+NewTechnologies,Elsevier.
+importance of smart materials will attract the researchers
+Akhras,G.(2012),“Smartandnano-systems-applicationsfor
+toward solving aerospace engineering problems. Innovative
+NDEandperspectives”,4thInternationalCANDUIn-service
+research is expected for making the control surfaces and
+adaptive wings, which may significantly augment the inspection workshop and NDT in Canada 2012 Conference,
+maneuverability. There is a great need to develop compact Toronto,Ontario,June18-21.
+smartmaterialsforcontrollingnoiseandvibrationcontrol. Ali, I. (2012), “New generation adsorbents for water
+Despite great demand and future applications of smart treatment”, Chemical Reviews, Vol. 112 No. 10,
+materials, there are certain challenges in the development of pp.5073-5091.
+smart materials. These are the qualities and inexpensiveness.
+Ali,I.(2018),“Microwave-assistedtheeconomicsynthesisof
+The researchers are supposed to improve quality without an multi-walledcarbonnanotubesforarsenicspeciesremovalin
+increaseincost.Still,thereisaneedtomakesmartstructures water: batch and column operations”, Journal of Molecular
+feasible by developing excellent smart materials, ease of Liquids,Vol.271,pp.677-682.
+anchoring in laminated structures, couplings between
+Bashir,A.M.(2017),“Smartmaterialsandtheirapplicationsin
+mechanical and electrical properties, increase in performance
+civilengineering:anoverview”,InternationalJournalofCivil
+at low price and advances in microelectronics, information EngineeringandConstructionScience,Vol.4,pp.11-20.
+processingandsensortechnology. Coyle,S.,Wu,Y.,Lau,K.,DeRossi,D.,Wallace,G.G.and
+Nowadays,nanotechnologyisgainingimportanceinalmost Diamond, D. (2007), “Smart nano-textiles: a review of
+every sphere of life. The oil and gas industry already uses materials and applications”, MRS Bulletin, Vol. 32 No. 5,
+stimuli-responsive nano-smart materials for the numerous pp.434-442.
+technologiesincludingswellableelastomersinreactivepackers Csetneki, I., Filipcsei, G. and Zrinyi, M. (2006), “Smart
+and heat/fluid-activated expandable screens. The smart nanocomposite polymer membranes with on/off switching
+environmentally sensitive nano-hydrogels with the ability to control”,Macromolecules,Vol.39No.5,pp.1939-1942.
+sense changes in pH, temperature or the concentration of Cuenya, B.R. (2010), “Synthesis and catalytic properties of
+metabolitecanreleasetheirloadasaresultofsucha change. metalnanoparticles:size,shape,support,composition,and
+1034Advancesinthesmartmaterialsapplications AircraftEngineeringandAerospaceTechnology
+AlArshBasheer Volume92·Number7·2020·1027–1035
+oxidation state effects”, Thin Solid Films, Vol. 518 No. 12, Liang, C., Davidson, F., Schetky, L.M. and Straub, F.K.
+pp.3127-3150. (1996), “Applications of torsional shape memory alloy
+Dahman, Y., Kamil, A. and Baena, D. (2017), “Smart actuators for active rotor blade control-opportunities and
+nanomaterials”, in Dahman, Y. (Ed.) Nanotechnology and limitations”,SPIEProceedingsofMathematicsandControlsin
+FunctionalMaterialsforEngineers,Elsevier. SmartStructures,Vol.2717,pp.91-100.
+DesRoches,R.(2002),“Applicationofshapememoryalloysin Liang, C. and Rogers, C.A. (1992), “One-dimensional
+seismicrehabilitationofbridges,TechnicalReportNCHRP- thermomechanical constitutive relations for shape-memory
+IDEAproject65,Feb.” materials”, Journal of Intelligent Material Systems and
+Dong, Y., Boming, Z. and Jun, L. (2008), “A changeable Structures,Vol.1No.2,pp.207-234.
+aerofoilactuatedbyshapememoryalloysprings”,Materials Lin,X.M.andSamia,A.C.(2006),“Synthesis,assemblyand
+ScienceandEngineering:A,Vol.485Nos1/2,pp.243-250. physical properties of magnetic nanoparticles”, Journal of
+Garner,L.J.,Wilson,L.N.,Lagoudas,D.C.andRediniotis,O. Magnetism and Magnetic Materials, Vol. 305 No. 1,
+K.(1999),“Developmentofashapememoryalloyactuated pp.100-109.
+biomimetic vehicle”, Smart Materials and Structures, Vol. 9 Liu,Z.,Ling,X.Y.,Guo,B.,Hong,L.andLee,J.Y.(2007),
+No.5,pp.673-683. “PtandPtRunanoparticlesdepositedonsingle-wallcarbon
+Ghandi, K. (1995), “Shape memory ceramic actuation of nanotubesformethanolelectro-oxidation”,JournalofPower
+adaptivestructures”,Masterthesis,MIT. Sources,Vol.167No.2,pp.272-280.
+Hodgson,D.E.andBrown,J.W.(2000),“Usingnitinolalloys: Matthew, P. (2018), Current and Emerging Trends in the
+reportofshapememoryapplicationsInc.” Aerospace Sector: How Shifting Priorities and Developing
+Hutapea, P., Kim, J., Guion, A., Hanna, C. and Heulitt, N. Technologies Are Shaping the Industry Today and into the
+(2008),“Developmentofasmartwing”,AircraftEngineering Future,SNC-Lavalin’sAtkins.
+andAerospaceTechnology,Vol.80No.4,pp.439-444. Narayanan, K.B. and Sakthivel, N. (2010), “Biological
+Hwang, S.H., Park, H.W. and Park, Y.B. (2013), synthesis of metal nanoparticles by microbes”, Advances in
+“Piezoresistivebehaviorandmulti-directionalstrainsensing ColloidandInterfaceScience,Vol.156Nos1/2,pp.1-13.
+ability of carbon nanotube–graphene nanoplatelet hybrid Ritter, A. (2007), Smart Materials in Architecture, Interior
+sheetssmartmater”,SmartMaterialsandStructures,Vol.22 ArchitectureandDesign,BirkhäuserBasel,Frankfurt.
+No.1,p.015013. Salazar-Alvarez, G., Muhammed, M. and Zagorodni, A.A.
+Ihn,J.B.andChang,F.K.(2004),“Detectionandmonitoring (2006), “Novel flow injection synthesis of iron oxide
+ofhiddenfatiguecrackgrowthusingabuilt-inpiezoelectric nanoparticles with narrow size distribution”, Chemical
+sensor/actuator network: II. Validation using riveted joints EngineeringScience,Vol.61No.14,pp.4625-4633.
+andrepairpatches”,SmartMaterialsandStructures,Vol.13 Schwartz, M. (2002), Preface in the Smart Materials
+No.3,pp.621-630. Encyclopedia,JohnWiley&Sons,pp.5-7.
+Jardine,A.P.,Kudva,J.M.,Martin,C.andAppa,K.(1996), Soroushian, P. and Hsu, J.W. (1997), “Superelasticity based
+“Shape memory alloy Ti-Ni actuators for twist control of rehabilitation and post-tensioning of bridge structures,
+smart wing designs”, SPIE Proceedings of Mathematics and NCHRP-96-IDO29,NCHRP-IDEA,Aug.”
+ControlsinSmartStructures,Vol.2717,pp.160-165. Ventura, D., Dolog, R., Darugar, Q., Khabashesku, V. and
+Kuilla,T.,Bhadra,S.,Yao,D.,Kim,N.H.,Bose,S.andLee,J. Hughes, B. (2017), “Nano-enabled smart materials and
+H. (2010), “Recent advances in graphene-based polymer sensors for oil and gas applications”, Document ID: SPE-
+composites”, Progress in Polymer Science, Vol. 35 No. 11, 188345-MS,SocietyofPetroleumEngineers.
+pp.1350-1375. Zeng,H.,Du,X.W.,Singh,S.C.,Kulunich,S.A.,Yang,S.and
+Lagoudas, D., Rediniotis, O.K. and Khan, M.M. (1999), He, J. (2012), “Nanomaterials via laser ablation/irradiation
+“Applicationsofshapememoryalloystobioengineeringand in liquid:a review”, AdvancedFunctional Materials, Vol. 22
+biomedical technology”, Proceeding of 4th International No.7,pp.1333-1353.
+workshop on mathematical methods in scattering theory and Zhang, Y. and Erkey, C. (2006), “Preparation of supported
+biomedicalapplication,Perdika,Greece,pp.195-207, metallic nanoparticles using supercritical fluids: a review”,
+Li, D., He, Q. and Li, J. (2009), “Smart core/shell JournalofSupercriticalFluids,Vol.38No.2,pp.252-267.
+nanocomposites: intelligent polymers modified gold
+nanoparticles”, Advances in Colloid and Interface Science, Correspondingauthor
+Vol.149Nos1/2,pp.28-38. AlArshBasheercanbecontactedat:alarshba@yahoo.com
+Forinstructionsonhowtoorderreprintsofthisarticle,pleasevisitourwebsite:
+www.emeraldgrouppublishing.com/licensing/reprints.htm
+Orcontactusforfurtherdetails:permissions@emeraldinsight.com
+1035

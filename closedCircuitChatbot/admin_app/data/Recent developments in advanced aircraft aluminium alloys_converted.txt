@@ -1,0 +1,692 @@
+MaterialsandDesign56(2014)862–871
+ContentslistsavailableatScienceDirect
+Materials and Design
+journal homepage: www.elsevier.com/locate/matdes
+Review
+Recent developments in advanced aircraft aluminium alloys
+Tolga Dursuna,⇑ , Costas Soutisb
+aAselsanInc,Ankara06750,Turkey
+bAerospaceResearchInstitute,UniversityofManchester,ManchesterM139PL,UK
+a r t i c l e i n f o a b s t r a c t
+Articlehistory: Aluminium alloys have been the primary material for the structural parts of aircraft for more than
+Received16September2013 80years because of their well known performance, well established design methods, manufacturing
+Accepted2December2013 andreliableinspectiontechniques.Nearlyforadecadecompositeshavestartedtobeusedmorewidely
+Availableonline13December2013
+inlargecommercialjetairlinersforthefuselage,wingaswellasotherstructuralcomponentsinplaceof
+aluminiumalloysduetheirhighspecificproperties,reducedweight,fatigueperformanceandcorrosion
+Keywords: resistance.Althoughtheincreaseduseofcompositematerialsreducedtheroleofaluminiumuptosome
+Aircraftstructures
+extent,highstrengthaluminiumalloysremainimportantinairframeconstruction.Aluminiumisarela-
+Aluminiumalloys
+tivelylowcost,lightweightmetalthatcanbeheattreatedandloadedtorelativelyhighlevelofstresses,
+Al–Lialloys
+anditisoneofthemosteasilyproducedofthehighperformancematerials,whichresultsinlowerman-
+Composites
+Mechanicalproperties ufacturing and maintenance costs. There have been important recent advances in aluminium aircraft
+alloysthatcaneffectivelycompetewithmoderncompositematerials.Thisstudycoverslatestdevelop-
+mentsinenhancedmechanicalpropertiesofaluminiumalloys,andhighperformancejoiningtechniques.
+Themechanicalpropertiesonnewlydeveloped2000,7000seriesaluminiumalloysandnewgeneration
+Al–Lialloysarecomparedwiththetraditionalaluminiumalloys.Theadvantagesanddisadvantagesof
+thejoiningmethods,laserbeamweldingandfrictionstirwelding,arealsodiscussed.
+(cid:2)2013ElsevierLtd.Allrightsreserved.
+1.Introduction increasing tensile strength, elastic modulus or damage tolerance
+[1]. Airframe durability is another parameterthat directly affects
+Thecostreductionforaircraftpurchaseandoperationhasbe- costs. The cost of service and maintenance over the 30-year life
+come a driving force in many airline companies. Cost reduction oftheaircraftareestimatedtoexceedtheoriginalpurchaseprice
+canbeachievedbydecreasingthefuelconsumption,maintenance byafactoroftwo[1].Therefore,bothmaterialproducersandair-
+cost, operational costs, frequency of periodical controls and craftdesignersareworkinginharmonytoreduceweight,improve
+increasingtheservicelifeandcarryingmorepassengersatatime. damage tolerance, fatigue and corrosion resistance of the new
+Therefore aircraft manufacturers are competing to meet the metallicalloys.Asaresult,nearfutureprimaryaircraftstructures
+requirementsoftheirairlinecustomers.Weightreductioncanim- willshowanextendedservicelifeandrequirereducedfrequency
+prove fuel consumption, increase payload and increase range. ofinspections.
+Additionally, improved and optimised mechanical properties of Compositematerialsareincreasinglybeingusedinaircraftpri-
+thematerialscanresultinincreasedperiodbetweenmaintenance mary structures (B787, Airbus A380, F35, and Typhoon). Fig. 1
+andreducerepaircosts.Sincethematerialhasagreatimpacton showstheincreasedusageofcompositesinseveraltypesofBoeing
+costreduction,airframemanufacturersandmaterialproducersfo- aircraft.Theattractivenessofcompositesinthemanufacturingof
+cus on the development of new materials to meet customer high performance structures relies on their superior mechanical
+requirements. Hence, a current challenge is to develop materials propertieswhencomparedtometals,suchashigherspecificstiff-
+thatcanbeusedinfuselageandwingconstructionwithimprove- ness,specificstrength(normalisedbydensity),fatigueandcorro-
+mentsinbothstructuralperformanceandlifecyclecost.According sion resistance. Although composites are thought to be the
+tothedesigntrialsitisseenthataneffectivewayofreducingthe preferablematerial for wingand fuselage structures,their higher
+aircraftweightisbyreducingthematerialdensity.Itisfoundthat certificationandproductioncosts,relativelylowresistancetoim-
+the decrease in density is about 3–5 times more effective than pactandcomplicatedmechanicalbehaviourduetochangeinenvi-
+ronmental conditions (moisture absorption, getting soft/brittle
+when exposed to hot/cold environments) make designers to ex-
+⇑
+Correspondngauthor.Tel.:+903128475300. plorealternativematerialsystems.Fibremetallaminates suchas
+E-mail addresses: tdursun@aselsan.com.tr (T. Dursun), constantinos.soutis@ GLARE which combines aluminium layers with glass fibre epoxy
+manchester.ac.uk(C.Soutis).
+0261-3069/$-seefrontmatter(cid:2)2013ElsevierLtd.Allrightsreserved.
+http://dx.doi.org/10.1016/j.matdes.2013.12.002T.Dursun,C.Soutis/MaterialsandDesign56(2014)862–871 863
+plies to improve tensile strength and more importantly damage and Alclad 2524-T3 sheet and 2524-T351 plate for the fuselage
+tolerance are finding great use in aerospace applications [3–12]. skin.Theyalsodeveloped7150-T7751extrusionsforthesupport-
+Impactresistance,effectofdamageonstiffness/strengthespecially ing members of the fuselage structure. The application of these
+whenloadedincompressionanddamageidentificationanddetec- materials saved thousands of pounds of weight for the Boeing
+tion, in addition to joints, repair and recycling remain big chal- 777[19].
+lengesforcompositeswiththeneedoffurtherresearch[13–18]. The aircraft manufacturers are also working to decrease the
+Aluminiumalloyshavebeentheprimarystructuralmaterialfor number of parts in new aircraft. These needs could be met by
+commercialand militaryaircraft for almost 80years due to their applying several approaches. The first method is producing large
+well known mechanical behaviour, easiness with design, mature andthickplateshavingfatigueandfracturecharacteristicsequiv-
+manufacturing processes and inspection techniques, and will re- alenttothoseofathinplate.Thesecondmethodisimplementa-
+mainsoforsometimetocome.However,thenon-metallicmate- tion of joining technologies such as friction stir welding that
+rials, despite the issues mentioned earlier, due to their superior allows the manufacture of large integrally stiffened panels that
+specificstrengthpropertiesprovideaverycompetitivealternative, canbeusedforwingandfuselageskins[20].
+so aluminium producers need to keep investing and put great This review article covers the latest developments related to
+effort in improving the thermo-mechanical propertiesof the alu- aluminium alloys used as aircraft primary structures and high-
+miniumalloystheyproduce. lightsperformanceimprovementsinthe2000,7000seriesalumin-
+Density,strength,Young’smodulus,fatigueresistance,fracture iumalloysaswellasthenewgenerationofAl–Lialloys.Currently
+toughness and corrosion resistance are all important parameters the7000seriesAl–Znalloysareusedwherethemainlimitingde-
+thatneedtobeimproved.Dependingontheparticularcomponent sign parameter is strength; 2000 series Al–Cu alloys are used for
+underconsideration,materialpropertieshavetooutperformthose fatiguecriticalapplicationssincethesealloysaremoredamagetol-
+offered by polymer composites. Chemical composition and erant,whileAl–Lialloysarechosenwherehighstiffnessandlower
+processing control the microstructural features such as precipi- density are required. The advantages and disadvantages of the
+tates,dispersoids,degreeofrecrystallization,grainsizeandshape, joining techniques, laser beam welding and friction stir welding,
+crystallographic texture and intermetallic constituent particles. arealsodiscussed.
+These properties affect the physical, mechanical and corrosion
+characteristics of aluminiumalloys.Therefore material producers 2.Developmentsin2000seriesAl–Cualuminiumalloys
+workingcloselywithaircraftdesignerscoulddesigndifferenttypes
+of metallic alloys where the physical and mechanical properties Thealuminium–copper(2000series)alloysaretheprimaryal-
+havebeentailoredtothespecifiedneeds.Forinstance,theupper loys used in airframe structural applications where the main de-
+sideofthewingismainlysubjectedtocompressionloadingduring sign criterion is damage tolerance. The 2000 series alloys
+flight,butalsoexposedtotensionduringstaticweightandtaxiing, containing magnesium have higher strength resulting from the
+while the opposite happens to the lower part of the wing, hence precipitation of Al Cu and Al CuMg phases and superior damage
+2 2
+carefuloptimisationoftensileandcompressivestrengthproperties tolerance and good resistance to fatigue crack growth compared
+isrequired.Damagetolerance,fatigueandcorrosionresistanceare tootherseriesofaluminiumalloys.2024and2014arewellknown
+also needed making the selection and optimisation more examplesforAl–Cu–Mgalloys.Itiswellknownthatduetodiffer-
+challenging. ent loading conditions each component of the airframe requires
+During the design of Boeing 777, aluminium manufacturers different material properties for optimum and reliable design.
+were asked for improvements in upper-wing structure and fuse- Thefuselageissubjecttocabinpressure(tension)andshearloads,
+lage.Highercompressiveyieldstrengthwasneededfortheupper longitudinalstringersareexposedtothelongitudinaltensionand
+wingstructure.Improvedcorrosionresistancewasalsodesirable. compression loads due to bending, circumferential frames have
+For the case of fuselage, higher damage tolerance and durability tosustainthefuselageshapeandredistributeloadsintotheskin.
+thantheincumbent2024-T3wasneeded.Aluminiummanufactur- Strength,stiffness,fatiguecrackinitiationresistance,fatiguecrack
+ersaccountingforthedesigner’sneedsdevelopedthe7055-T7751 growth rate, fracture toughness and corrosion resistance all are
+plate and 7055-T77511 extrusions for the upper wing structure, important, but fracture toughness (resistance to crack growth) is
+Fig.1. CombinationofmaterialsusedinBoeingAircrafts.Thefigureisbasedon[2].864 T.Dursun,C.Soutis/MaterialsandDesign56(2014)862–871
+often the limiting design parameter [21]. The wing can be 3.Developmentsin7000seriesAl–Znaluminiumalloys
+consideredasacantilevertypeofbeamthatisloadedinbending
+during flight but also torsion. The wing supports both the static The7000seriesofaluminiumalloysshowhigherstrengthwhen
+weightoftheaircraftandanyadditionalloadssubjectedinservice. comparedtootherclassesofaluminiumalloysandareselectedin
+Additional wing loads also come from the landing gear during thefabricationofupperwingskins,stringersandhorizontal/verti-
+taxiing, take-off and landing and from the leading and trailing calstabilizers.Thecompressivestrengthandthefatigueresistance
+edge the flaps and slats that are deployed during take-off and arethecriticalparametersinthedesignofupperwingstructural
+landing to create additional low speed lift. The upper surface components. The tail of the airplane, also called the empennage,
+of the wing is primarily loaded in compression because of the consists of a horizontal stabilizer, a vertical stabilizer or fin, and
+upward bending moment during flight but can be loaded in controlsurfacese.g.elevatorsandrudder.Structuraldesignofboth
+tension while taxiing [21]. Chemical compositions and mechan- thehorizontalandverticalstabilizersisessentiallythesameasfor
+ical properties of some of 2000 series aluminium alloys widely thewing.Boththeupperandlowersurfacesofthehorizontalsta-
+used in airframe design are given in Tables 1 and 2 bilizer are often critical in compression loading due to bending
+respectively. [21].
+The 2024-T3 has been one of the most widely used alloys in Highstrengthaluminiumalloyssuchasthe7075-T6arewidely
+fuselage construction. It has moderate yield strength, very good usedinaircraftstructuresduetotheirhighstrength-to-weightra-
+resistance to fatigue crack growth and good fracture toughness. tio, machinability and relatively low cost. However, due to their
+The2024aluminiumalloyremainsasanimportantaircraftstruc- compositions, these alloys are susceptible to corrosion. It is well
+tural material due to its extremely good damage tolerance and knownthatcorrosionreducesthelifeofaircraftstructuresconsid-
+highresistancetofatiguecrackpropagationinT3agedcondition. erably. During normal operation aircraft are subjected to natural
+The low yield stress level and relatively low fracture toughness, corrosive environments due to humidity, rain, temperature, oil,
+limit the application of this alloy in the highly stressed regions hydraulicfluidsandsaltwater.Amongtheissuesfacingageingair-
+[23]. Microstructural effects on the fatigue properties of alumin- craft,corrosionincombinationwithfatigueisextremelyundesir-
+ium alloys are being investigated intensively. Improvements in able[27].
+compositional control and processing have continually produced The 7000 series alloys are also heat treatable, and the Al–Zn–
+new alloys. It is known that inclusions have substantial effects Mg–Cuversionsprovidethehigheststrengthsofallaluminiumal-
+onthefatiguecrackpropagation.Higherfracturetoughnessvalues loys. Some of the 7000 series alloys contain about 2% copper in
+andbetterresistancetofatiguecrackinitiationand crackgrowth combinationwithmagnesiumandzinctoimprovetheirstrength.
+wereachievedbyreducingimpurities,especiallyironandsilicon. Thesealloysalthougharethestrongesttheyaretheleastcorrosion
+Ithasbeenannouncedthatforthefuselageapplicationsthealloy resistant of the 7000 series. However, newer 7000 series alloys
+2524-T3 has a 15–20% improvement in fracture toughness and introduced have higher fatigue and corrosion resistance which
+twice fatigue crack growth resistance of 2024-T3 [24]. This mayresultinweightsavings.Neweralloyssuchasthe7055-T77,
+improvement leads to weight savings and 30–40% longer service havehigherstrengthanddamagetolerancethanthe7075-T6[1].
+life[25].The2524aluminiumalloyhasreplacedthe2024asfuse- The 7475 (Al–Zn–Mg–Cu) aluminium alloy is a modified version
+lageskinintheBoeing777aircraft.Fatiguetestsonthe2524alloy of7075alloy.The7475alloyisdevelopedforapplicationsthatre-
+showed that fatigue strength of this alloy is 70% of the yield quire a combination of higher strength, fracture toughness and
+strength whereas for 2024-T351 fatigue strength is about 45% of resistance to fatigue crack propagation both in air and corrosive
+theyieldstrength[26].Forthelowerwingskinapplications[27] environment. Both strength and fracture toughness properties of
+the 2224-T351 and 2324-T39 alloys offer higher strength values 7075alloyareimprovedbydecreasingitscontentsofironandsil-
+compared to incumbent 2024-T351 with similar fracture tough- icon,andchangingbothquenchingandageingconditions.Theto-
+ness and corrosion resistance. Compared to 2024, both composi- talironandsiliconcontentin7075is0.90%whereasin7475the
+tional and processing changes for 2224-T351 and 2324-T39 totalcontentislimitedto0.22%.Thesechangesinthe7075alloy
+alloys resulted in improved properties. A lower volume fraction resulted in the development of the 7475 alloy which is having a
+of intermetallic compounds improved fracture toughness. For in- fine grain size, optimum dispersion and highest toughness value
+stancethemaximumironcontentis0.12%andsiliconis0.10%in amongthealuminiumalloysavailableathighstrengthlevel.Itis
+2224-T351 whereas in 2024 0.50% for both impurities. A newly also reported that the corrosion resistance and corrosion fatigue
+developedaluminiumalloy2026isbasedon2024butitcontains behaviour of the 7475 alloy are excellent. In general, its perfor-
+fewerimpuritiessuchasironandsilicon.Additionally,2026con- mance is better than that of much commercially available high
+tainsasmallamountofzirconiumwhichinhibitsrecrystallization strengthaerospacealuminiumalloyssuchas7050and7075alloys
+[28]. 2026 has higher damage tolerance, higher tensile strength, [23].Yieldstrength,%elongation,andK propertiesofwidelyused
+IC
+higher fatigue performance and acceptable fracture toughness 2024and7075alloysarecomparedwith7050and7475inFig.2.
+comparedto2024and2224[29]. ItmaybeseeninFig.2thatthe2024-T351alloyhashighduc-
+AlthoughthecontributionofCuandMginintermetallicphases tilityandgoodfracturetoughness(bothinTLandLTorientations)
+results in high strength however, due to the intermetallic phase buthasrelativelylowyieldstrength.Ontheotherhand,the7075
+particles the corrosion resistance of the alloy significantly drops. alloy under T651 temper condition has yield strength of over
+Several investigations have been done in order to increase both 500MPa. The reported fracture toughness of this alloy (7075-
+p
+corrosionandfatigueresistanceof2000seriesalloys[30–32]. T651) in TL and LT orientations is nearly 24MPa m and
+Table1
+Chemicalcompositionofsome2000seriesaerospacealuminiumalloys[22].
+2000Series Cu Zn Mg Mn Fe Si Cr Zr Ti Al
+2024 4.4 – 1.5 0.6 60.5 60.5 0.1 – 0.15 Remainder
+2026 3.6–4.3 0.1 1.0–1.6 0.3–0.8 0.07 0.05 – 0.05–0.25 0.06 Remainder
+2224 4.1 – 1.5 0.6 60.15 60.12 – – – Remainder
+2324 3.8–4.4 0.25 1.2–1.8 0.3–0.9 0.12 0.1 0.1 – 0.15 Remainder
+2524 4.0–4.5 0.15 1.2–1.6 0.45–0.7 0.12 0.06 0.05 – 0.1 RemainderTable2
+Mechanicalpropertiesofsome2000seriesaerospacealuminiumalloys[22].
+2000Series UTS(MPa) YieldStrength(MPa) FractureToughness,KIC(MPam1/2) Elongation(%)
+2024-T351 428 324 37 21
+2026-T3511 496 365 NA 11
+2224-T39 476 345 53 10
+2324-T39 475 370 38.5–44.0 8
+2524-T3 434 306 40(TL) 24
+p
+27MPa m,respectivelywhichcorrespondstolowlevelofductil-
+ity. The 7475-T7351 alloy has higher fracture toughness
+p p
+(42MPa m and 52MPa m in TL and LT orientations, respec-
+tively)whereas,incomparisontothe7075-T651alloy,the7475-
+T7351 alloy has marginally inferior yield strength but slightly
+superiorductility.Inviewofthesefacts, theuseofappropriately
+treated7475alloyisexpectedtosafelyreducetheoverallweight
+ofaerospacestructure,animportantcriterionforsuchapplications
+[23].
+InFig.3fatiguecrackgrowthratesfordifferentaluminiumal-
+loys are compared. It is shown that the 7475 has higher fatigue
+resistancecomparedtothe2024,whilethe7075-T6hasthelowest
+fatigueresistance.
+Corrosion resistance and fatigue behaviour of alloy 7475 are
+equalto/orbetterthanmanyofthehighstrengthaluminiumalloys
+suchasthe7075,7050and2024.Alloy7475plateandsheetare
+currently being selected for fracture critical components of high
+performanceaircraftapplications[33].
+Alloy7050isanotherimportantalloyhavingthegoodbalance
+of strength, stress corrosion cracking (SCC) resistance and A recent alloy, the 7055-T7751 (Al–8Zn–2.05Mg–2.3Cu–
+toughness. It is particularly suited for plate applications in the 0.16Zr),hasayieldstressthatmayexceed620MPaandtheesti-
+76–152mm thickness range. Alloy 7050 exhibits better tough- mated weight saving attributed to its use for components in the
+ness/corrosion resistance characteristics than alloy 7075 because Boeing aircraft 777 is 635kg [34]. This alloy provided a nearly
+itislessquenchsensitivethanmostaerospacealuminiumalloys. 10%gaininstrength,withhighertoughnessandsignificantlyim-
+The 7050 retainsits strength propertiesin thickersections while provedcorrosionresistance[24].T77temperconsistsofthreestep
+maintaininggoodstresscorrosioncrackingresistanceandfracture ageingprocessthatproducesahigherstrengthanddamagetoler-
+toughnesslevels.Typicalapplicationsforalloy7050platesinclude ance combinations compared to 7050-T76 and 7150-T651 or
+fuselage frames and bulkheads where section thicknesses are T7751. The improved fracture toughness is a result of controlled
+50–152mm.Ontheotherhandalloy7050sheetsareusedinwing volumefractionofcoarseintermetallicparticlesanduncrystallized
+skinsapplications.Long-termcontrolledandin-serviceevaluations grainstructure.Goodcombinationofstrengthandcorrosionresis-
+have shown that alloy 7050 plate and sheet products remain tanceisattributedtothesizeandspatialdistributionandthecop-
+equal exfoliation and stress corrosion resistance at higher stress percontentofthestrengtheningprecipitates.
+levels compared with other high strength aluminiumalloys such Thereexistsacontinuousimprovementinthemechanicalprop-
+as7075. erties of aerospace aluminium alloys. This has resulted in the
+development ofhigh strength 7xxxalloys (e.g. 7075,7150,7055,
+7449,inchronologicalorderofapplication).Thesehighstrengthal-
+600 loys are generally used in compression-dominated parts such as
+upperwingskinswheredamagetoleranceconsiderationsaresec-
+500 ondary.However,recentdevelopmentsshowthatmodificationsin
+solutecontentandinparticularinZn/Mg/Curatioscanenablethe
+developmentof highstrengthproducts withsignificantimprove-
+400
+ments in damage tolerance such as AA7040, AA7140 and
+AA7085. 7085 has been developed as the new generation high
+300 strengththickplatealloytobealternativefor7050/7010products.
+Due to the higher Zinc and lower Cu contents, higher fracture
+toughnessandslowquenchsensitivitywereobtained.Thisproduct
+200
+wasselectedforwingsparapplicationsontheAirbusA380.There
+isalsoanefforttoobtainagoodcombinationofhighstrengthand
+100 good corrosion resistance through the applications of different
+heattreatmentmethods[35].Twoimportantmetallurgicalprinci-
+plesresultinginimprovementsare:adecreaseintheMg/Znratio,
+0
+2024-T351 7050-T73651 7075-T651 7475-T7351 andanoverallreductioninsaturationofthecompositionwithre-
+specttothetheoreticalmaximumsolubility.Thestrongimpactof
+Mgconcentrationincreasesonstrength(beneficial)andontough-
+ness (detrimental) is well known. The basis of the Mg/Zn adjust-
+ments is the observation that a partial replacement of Mg with
+2/1m.aPM1.0xcıK
+,1.0xlE%
+,)aPM(
+SY
+T.Dursun,C.Soutis/MaterialsandDesign56(2014)862–871 865
+Fig.3. S–Ncurvesfordifferentaluminiumalloys[23].
+Yield Strength % Elongation Kıc TL Direction Kıc LT Direction
+Fig. 2. Comparative representation of yield strength, % elongation, and KIC in
+differentaluminiumalloys.Thefigureisbasedon[23].866 T.Dursun,C.Soutis/MaterialsandDesign56(2014)862–871
+Zn(aslightlylesseffectivehardenerperwt.%)enablesanincrease fracturetoughnessproblembeingoneofprimarilylowstrengthin
+in toughness while maintaining adequate strength. The overall theshorttransversedirection[1,21,44,45].
+reductioninsolutesaturationdirectlyaffectsthequenchsensitiv- Thepressureforhigherstrengthandimprovedfracturetough-
+ity,whichiscriticalfordamagetolerancepropertiesofhighsolute nesswithreducedweightinaircraftapplicationshaveresultedin
+alloys. AA7056-T79, developed for the upper wing skin of large thedevelopmentofnewgenerationofAl–Lialloys.Thenewgener-
+commercial aircraft is good example of the improvements in ationofAl–Lialloysprovidesnotonlyweightsavings,duetolower
+strength-toughness balance [34]. On the other hand the addition density,butalsoovercomesthedisadvantageofthepreviousprob-
+ofMnandZrinaluminiumalloyscanformfinedispersoidswhich lems with increased corrosion resistance, good spectrum fatigue
+affect recrystallization characteristics and grain structure. These crackgrowthperformance,agoodstrengthandtoughnesscombi-
+dispersoidsretards recrystallization and grain growth. Zr content nationandcompatibilitywithstandardmanufacturingtechniques.
+inaluminiumalloyscanformA1 Zrdispersoid,whichhavearela- This results in well-balanced, light weight and high performance
+3
+tionship with the matrix and significantly refines the grain size. aluminium alloys [1,44,46]. In the new generation (3rd) Al–Li
+The addition of Zn increases the strength of the alloy, whereas alloysLiconcentrationwasreducedto0.75–1.8wt.%.Theaddition
+the addition of Mn increases the fracture toughness of the alloy ofalloying elements in the 3rd generationAl–Lialloys is used to
+due to the formation of the secondary phase containing Mn and improve the mechanical properties. Poor corrosion resistance of
+Fe,whichdecreasestheadverseeffectsofFeonfracturetoughness 2nd generation Al–Li alloys is eliminated in 3rd generation Al–Li
+[36].Chemicalcompositionofsomeoftheimportant7000series alloys by optimising alloy composition and temper. Also Zn
+aluminiumalloysaregiveninTable3. additions improved corrosion resistance. The additions of Cu, Li
+Fretting,aspecialtypeofwearprocessthatoccursatthecon- and Mg form the strengthening precipitates and small additions
+tact area between two materials under load and subject to very of the dispersoid-forming elements Zr and Mn control the grain
+small amount of relative motion, is another important issue structure and crystallographic texture during thermo-mechanical
+neededtobeunderstoodinbolted/pinnedaircraftjoints.Thereis processing. Crack deviation occurs due to high crystallographic
+a current focus on the prevention of fretting in the aerospace texture in addition with slip planarity. Deviation from expected
+industrysinceduetofretting,crackscaninitiateatstresses(fret- directionofcrackpropagationmakesitdifficulttodefineinspec-
+ting zone), well below the fatigue limit of non-fretted materials tionpointsandthepositioningofcrackarresters.Itwasfoundthat
+andthe structure’s resistancetofatiguecanbedecreasedby 50– inadditiontoreductionofthetexturecomponents,theseverityof
+70%. Introduction of compressive residual stresses at the surface slipplanarityhadtobedecreased.Thisreductionwasachievedby
+ofhole,reductionincoefficientoffriction,increasedsurfacehard- decreasing the amount of (Al Li) phase. This can be achieved by
+3
+ness, changing the surface chemistry and increasing the surface keepingtheamountofLiadditionsbelow1.8wtptc.Thefracture
+roughness are the main methods that are applied to reduce the toughnessof2ndgenerationAl–Lialloyswasoftenlowerthanthe
+nucleationandgrowthoffrettingcracksand improvethefatigue incumbent 2024 alloy products for designs where damage toler-
+lifeofaerospacejointsandimprovefrettingresistance[37–42]. ance is the driving parameter. It was determined that fracture
+toughnessisaffectedonlybyinsolublesecond-phaseparticles.In
+4.Developmentsinaluminium–lithiumalloys 3rdgenerationAl–Lialloyslike2199thisdisadvantageouscondi-
+tion was eliminated by composition optimisation, thermal–
+Reducingthedensityofmaterialsisacceptedasthemosteffec- mechanicalprocessingandprecipitatemicrostructurecontrol.
+tive way of lowering the structural weight of aircraft. Li (density Chemical compositions and mechanical properties of some of
+0.54g/cm3)isoneofthefewelementsthathaveahighsolubility the widely used Al–Li alloys are shown in Tables 4 and 5
+in aluminium. This is significant because, for each 1% added, the respectively.
+densityofanaluminiumalloyisreducedby3%.Lithiumisalsoun- Alloy 2195, a new generation Al–Li alloy, has a lower copper
+iqueamongstthemoresolublealloyingelementsinthatitcausesa contentandhasreplacedthe2219forthecryogenicfueltankon
+considerable increase in the elastic modulus (6% for each 1%Li thespaceshuttlewhereitprovidesahigherstrength,highermod-
+added).Additionaladvantageisthat,aluminiumalloyscontaining ulusandlowerdensitythanthe2219.Otheralloys,includingthe
+Lirespondtoagehardening[43]. 2096, 2097 and 2197, also have lower copper contents but also
+Theuseofaluminium–lithium(Al–Li)alloysinaerospaceappli- haveslightlyhigherlithiumcontentsthan2195[1].Newgenera-
+cationsgoesbackto1950swiththedevelopmentofalloy2020.In tionofAl–LialloyshavehigherCu/Liratiothanthesecondgener-
+the1980s,2ndgenerationofAl–Lialloysweredeveloped.Thesec- ationalloys(2090and2091)asillustratedinFig.4.
+ondgenerationalloysincludedthe2090,2091,8090and8091.The Thenewgenerationof2199Al–Lialloyssheetandplatesfound
+Al–Lialloys2090,2091,8090and8091contain1.9–2.7%lithium, applications in the aircraft for fuselage and lower wing applica-
+whichresultsinanabout10%lowerdensityand25%higherspe- tions,respectivelyandthe2099extrusionsforinternalstructure.
+cificstiffnessthanthe2000and7000seriesalloys.However,due It was determined that the 2199-T8E79 plate for the lower wing
+totechnicalproblemssuchasanisotropyinthemechanicalprop- skin, the 2099-T83 extrusions for lower wing stringers and the
+erties,lowtoughness,poorcorrosionresistance,manufacturingis- 2199-T8 prime sheet for fuselage skin would provide the most
+sues (hole cracking and delamination during drilling), 2nd benefitforthegivenapplicationsexamined.Itisstatedthatcom-
+generationAl–Lialloysdidnot findwideuse inaircraftindustry. pared to 2024, the 2199 plates have lower density, significantly
+Theanisotropyexperiencedbythesealloysisaresultofthestrong betterstresscorrosionandexfoliationcorrosionresistance,signif-
+crystallographictexturesthatdevelopduringprocessing,withthe icantlybetterspectrumfatiguecrack growthperformance, better
+Table3
+Chemicalcompositionofsome7000seriesaerospacealuminiumalloys[22].
+7000Series Cu Zn Mg Mn Fe Si Cr Zr Ti Al
+7050 2.3 6.2 2.25 – 60.15 60.12 – 0.1 – Remainder
+7055 2.0–2.6 7.6–8.4 1.8–2.3 0.05 0.15 0.1 0.04 0.08–0.25 0.06 Remainder
+7075 1.2–2.0 5.1–6.1 2.1–2.9 0.3 0.5 0.4 0.18–0.28 – 0.2 Remainder
+7150 1.9–2.5 5.9–6.9 2.0–2.7 0.1 0.15 0.12 0.04 0.08–0.15 0.06 Remainder
+7475 1.2–1.9 5.2–6.2 1.9–2.6 0.06 0.12 0.10 0.18–0.25 – 0.06 RemainderT.Dursun,C.Soutis/MaterialsandDesign56(2014)862–871 867
+toughness, and higher tensile yield and compressive yield Table5
+strengths. The ultimate tensile strength, bearing and shear MechanicalpropertiesofsomeAl–Lialloys[22].
+strengthsfortheT8E80temperaresimilartothosefor2024,while Al–Li UTS YieldStrength Fracture Elongation
+fortheT8E79temper,thesestrengthstendtobelower.However, alloys (MPa) (MPa) Toughness, (%)
+this reduction in tensile yield strength provides the higher spec- KIC(Mpam1/2)
+trumfatiguecrackgrowthperformance.Thus,oneofthetwotem- 2050-T84 540 500 43(LT) NA
+pers of 2199 may be more suitable for a given application, 2090-T83 531 483 43.9 3
+2098-T82 503 476 NA 6
+dependingonthedesigncriterion[44].
+2099-T83 543 520 30(LT) 7.6
+Al–Li2099alloyhaslowdensity,highstiffness,superiordam-
+27(TL)
+age tolerance, excellent corrosion resistance and weldability for 2199-T8 400 345 53 10
+useinaerospacestructuresthatrequirehighstrength.Alloy2099 8090-T851 500 455 33(LT),30(TL) 12
+extrusions can replace 2xxx, 6xxx, and 7xxxaluminiumalloys in 12.4(SL)
+applications such as statically and dynamically loaded fuselage
+structures and lower wing stringers. 2nd generation Al–Li alloys
+weresusceptibletocrackinganddelaminationduringinstallation improved stress corrosion resistance without any redesign and
+ofinterferencefitfastenersasaresultofcoldworking.Lowelonga- whenstrength,stiffness and fatiguepropertiesare takenintoac-
+tionandworkhardeningpropertiesweretheresultsoftheseprob- count,itcanleadtoweightreductionuptoatotalofabout10%,
+lems. In the 3rd generation Al–Li alloys elongation and cold dependingonthepartdesigndrivers.
+working capability were improved. Alloy 2099 extrusions have Al–Lialloy2198wasdevelopedtoreplace2024and2524inair-
+goodmachining,forming,fastening,andsurfacefinishingproper- craftstructureswheredamagetoleranceisthecriticaldesignfac-
+ties. The 2099 plate and forgings have better strength, modulus, tor. It has a wt.% Cu composition ranging from 2.9% to 3.3% and
+density and corrosion performance than the7075-T73 and 7050- respectiveofLifrom0.9%to1.1%.Underconstantamplitudeload-
+T74 plate products. The T8E67 temper has much higher strength ing and stress ratio R=0.1 the fatigue endurance limit is almost
+thanthe2024-T3511or2026-T3511withbettertoughness,much 40% below the 2024 yield stress, while for 2198-T351 is only 8%
+bettercorrosionresistance(Fig.5)andlowerdensity.Thefatigue lower than the respective yield stress. When taking into account
+crack growth resistance of alloy 2099 also shows improvement density,2198issuperiorto2024inhighcyclefatigueandfatigue
+with respect to the 2024-T3511, which has been a baseline alloy endurancelimitregimes.Forthesamenormalisedappliedstresses,
+forfatiguecriticalcomponents[47]. 2198 was observed to absorb 2–3 times more energy to fracture
+The effects of normal heat treatments and thermomechanical than2024[50,51].Comparingthefatigueresultsinairitwasob-
+heattreatmentsonthemechanicalpropertiesandfracturetough- servedthat2524-T3presentedahigherfatiguestrengthandfati-
+nessofthe2A97newgenerationAl–LialloywerestudiedbyYuan gue limit than the 2198-T851 Al–Li alloy. However, when the
+et al. [48]. The aim was to improve the relationships of strength, alloys were pre-corroded in saline environment they presented
+ductilityandfracturetoughness,andmakepossibletheirapplica- similarfatiguebehaviour[52].
+tions in the aeronautical industries. The Al–Li 2A97 alloy was 2060and2055arethenewest3rdgenerationAl–Lialloys.2060
+developed primarily in an attempt to be used for plates and for- has0.75wt.%ofLi,3.95wt.%ofCuand0.85wt.%ofMgwhereas
+gings as a promising aerospace material. It was stated that the 2055 has 1.15 wt.% of Li, 3.7 wt.% of Cu and 0.4 wt.% of Mg. The
+problemwiththisalloyisthatityieldslowductilityandfracture wt.% of the other alloying elements are approximately same for
+toughnessinT8temperwithahightensilestrength,andityields thesetwoalloys.Thesealloysshowimprovedstrength/toughness
+lowstrengthinT6temperwithahighductilityandfracturetough- relationship. Additionally, these alloys exhibit good thermal
+ness.With4%deformationafterlowtemperatureunderaging,the stability.Both2055and2060haveexcellentcorrosionperformance
+ductilityandfracturetoughnesswereimprovedforthe2A97alu- comparedtothatofcommonaerospacealuminiumalloyssuchas
+p
+minium–lithiumalloy.TheK qvalueo pf43.5MPa mintheT8tem- 2024-T3and7075-T6.Therefore,thesealloyscouldbealternative
+per higher than that of 42.5MPa m in the T6 temper was materialsforfuselage,lowerwingandupperwingconstructions.
+obtained,byheat-treatmentprocessandthermomechanicalheat- Trade study analyses show that implementation of Al–Li alloys
+treatmentprocess[48]. cansavesignificantweightoverthebaseline2000and7000series
+AnothernewgenerationAl–Cu–Lialloy2050wasdevelopedto aluminium alloys. For instance for fuselage skin applications
+replace the 2000 series and 7000 series alloys where medium to 2060-T8cansave7%weightcomparedtothatof2524-T3,forlower
+high strength and high damage tolerance are needed [49]. wingskinapplications2060-T8cansave14%weightcomparedto
+Strength,corrosionresistance,fatigueinitiationandcrackgrowth that of 2024-T351 and for upper wing skin and stringer
+resistancepropertieswerecomparedandaccordingtothetestre- applications, 2055-T8 can save 10% weight compared to that of
+sults it was concluded that the 2050-T84 alloy in addition to its 7055-T7751 [47,53]. The 3rd generation Al–Li alloys offers up to
+density benefit, offers improvements over the 2024-T351 in sta- 10%weightsavings,lowerriskand30%lessexpensivetomanufac-
+tic-related properties and corrosion resistance. When compared ture, operate and repair than composite-intensive planes. In
+toincumbentalloy7050-T7451,the2050-T84offersanimproved addition,thesealloyscanprovidepassengercomfortfeaturesthat
+(strength,toughness)balance,at5%lowerdensityandsignificantly are equivalent to composite-intensive planes, such as large
+Table4
+ChemicalcompositionofsomeAl–Lialloys[22].
+Al–Lialloys Li Cu Zn Mg Mn Fe Si Cr Zr Ti Others
+2050 0.7–1.3 3.2–3.9 0.25 0.2–0.6 0.2–0.5 0.1 0.08 0.05 0.06–0.14 0.1 0.2–0.7Ag
+2090 1.9–2.6 2.4–3.0 0.1 0.25 0.05 0.12 0.10 0.05 0.08–0.15 0.15 –
+2098 0.8–1.3 3.2–3.8 0.35 0.25–0.8 0.35 0.15 0.12 – 0.04–0.18 0.1 0.25–0.6Ag
+2099 1.6–2.0 2.4–3.0 0.4–1.0 0.1–0.5 0.1–0.5 0.07 0.05 0.1–0.5 0.05–0.12 0.1 0.0001Be
+2199 1.4–1.8 2.0–2.9 0.2–0.9 0.05–0.4 0.1–0.5 0.07 0.05 – 0.05–0.12 0.1 0.0001Be
+8090 2.2–2.7 1.0–1.6 0.25 0.6–1.3 0.10 0.30 0.20 0.10 0.04–0.16 0.1 –presentedinFig.6.Itisshownthatallseriesofaluminiumalloys
+canbefrictionstirwelded.
+Therivetingisacceptedasthetraditionaltechniqueofjoining
+fuselageandwingstructureswhicharegenerallymadeofalumin-
+iumalloys.However,rivetingincreasestheweightoftheairframe.
+Riveting also causes stress concentration leading to fatigue crack
+initiation and growth. Another way of joining these structures is
+by welding. Since fuselage and wing parts are made of high
+strength 2000 and 7000 series of aluminium alloys, weldability
+ofthesealloyscanberelativelyverylow.Alsointraditionalweld-
+ingtechniquesmetalisheateduntilmeltingpointwhichcausesa
+largeareaofheataffectedzone(HAZ).HAZreducesthemechanical
+propertiesofthemetalsresultinginreducedstrengthandreduced
+resistancetofatigue.Thedifficultieswiththeweldingofthehigh
+Fig.4. PositioningofselectedAl–Cu–LialloysinLiandCuconcentrations[34].
+strengthaluminiumalloyscanbelistedasfollows[1]:
+a. Thestablesurfaceoxidemustberemovedbyeitherchemi-
+calmethodsorbythoroughlywirebrushingthejointarea.
+400
+b. Weldcrackingordistortionduetoresidualstressesresulting
+350 fromhighcoefficientofthermalexpansion.
+c. The high thermal conductivity of aluminium requires the
+300
+highheatinputduringweldingfurtherleadingtothepossi-
+250 bilityofdistortionorcracking.
+d. Weld cracking due to aluminium’s high solidification
+200
+shrinkage.
+150 e. Aluminium’shighsolubilityforhydrogenwheninthemol-
+tenstateleadstoweldporosity.
+100
+f. Susceptibilityofhighstrength2000and7000seriesalloysto
+50 weldcracking.
+0
+2024-T3 7075-T6 7050-T74 2099-T86 2199-T8E80 2060-T8 AftertheinventionofFrictionStirWelding(FSW)in1991asan
+alternative way of welding, research efforton the applications of
+FSWinaircraftmanufacturingtechnologyincreasedsubstantially.
+Frictionstirwelding(FSW)isasolid-stateprocessthatoperatesby
+windows,higherhumidityandhighercabinpressure,duetotheir generating frictional heat between a rotating tool and the work-
+improvedfatiguebehaviour.Accordingtothetestresultsinaddi- piece. A rotating tool with a shoulder and a threaded pin moves
+tion to the improvements in material properties, the application along the butting surfaces of two rigidly clamped plates placed
+of advanced structural design concept resulted in up to 10 times onabackingplateasshowninFig.7.Theshouldermakesfirmcon-
+improved damage tolerance performance in critical areas. Beside tactwiththetopsurfaceoftheworkpiece.Heatgeneratedbyfric-
+these advantages aluminium–lithium alloys have fusion welding tion at the shoulder softens the material being welded. Higher
+capacity and standardised use of tooling, mature assembly tech- plasticdeformationonthemetaloccursasthetoolismovedalong
+niques, repair and maintenance procedures and ease of recycling theweldingdirection.Materialistransportedfromthefrontofthe
+attheendoftheaircraft’slifemaketheAl–Lialloyscompetewith tool to the trailing edge where it is forged into a joint. Although
+the polymer composites currently used. While Al–Li alloys offer Fig.7showsabuttjointforillustration,othertypesofjointssuch
+improvements,delaminationsinthesealloysplayasignificantrole aslapjointsandfilletjointscanalsobefabricatedbyFSW[57].
+intheirfractureprocesses.Therefore,amorecompleteunderstand- FSWoffersseveraladvantagescomparedtotraditionalwelding
+ingofthefactorsthataffectthebehaviourofthesedelaminations techniques.FSWprocesstakesplaceinthesolidphasebelowthe
+and their corresponding effect on the primary crack behaviour meltingpointof themetals tobe joined.Problemsrelatedto the
+especiallynearholesneedtobewellunderstood[45,54]. solidificationofafusedmaterialareeliminated.Difficulttofusion
+weldmaterialslikethehighstrength2000and7000seriesalumin-
+iumalloys,couldbejoinedwithminorlossinstrength.
+5.Developmentsinjoiningtechniques The main advantages of friction stir welding can be listed as
+follows:
+Aircraft manufacturers have been continuing their research
+activitiesinthefieldoftheconstructionofaircraftfuselagestruc- a. Weldingofbutt,lapandTjointconfigurationsarepossible.
+tures because of the increasing demands on damage tolerance of b. Nospecialneedforjointpreparationisrequired.
+fuselagestructures,increasedcostpressureamongaircraftmanu- c. 2000and7000seriesalloyscouldbewelded.
+facturers, and the requirements of airlines for lower aircraft d. Dissimilaralloyscouldbewelded.
+inspectionandmaintenancecosts.Newtrendsintheconstruction e. NocrackformationoccursduringthefusionandHAZs.
+and manufacture of aircraft fuselage have therefore emerged in f. Noweldporosityoccurs.
+whichwelding,bonding,andextrusionareincreasinglyreplacing g. Nofillermetalsneeded.
+theuseofrivets[55].Thetrendofbuildinglargerstructureswith h. Foraluminiumnorequirementforshieldinggases.
+fewerpartshasledtodemandsforthickerandlongerplatefrom
+which more complex sections can be machined. Alternatively, In general, mechanical properties obtained by FSW are better
+smaller parts can be joined together and welding appears as the than for many other welding processes. For example the static
+most suitable solution [13]. Weldability of aluminium alloys is propertiesofthefrictionstirwelded2024-T351arebetween80%
+aPM
+,ssertS
+dlohserhT
+CCS
+TS
+868 T.Dursun,C.Soutis/MaterialsandDesign56(2014)862–871
+3rd Generation Al-Li Alloys
+Conventional Aerospace Al
+Alloys
+Fig.5. ComparisonofcorrosionresistanceofAl–Lialloyswith2000and7000series
+alloys.Thefigureisbasedon[47,53].T.Dursun,C.Soutis/MaterialsandDesign56(2014)862–871 869
+Fig.6. Weldabilityofvariousaluminiumalloys.Thefigureisbasedon[56].
+weld, researches have been invested to understand the effect of
+theseparameters[61–63].
+Another welding technique under interest is the laser beam
+weldingofhighstrengthaluminiumalloyswhererelativelysmall
+aerospaceproductionofpartsisrequired.Withthisweldingpro-
+cess good weld properties can be obtained at high production
+speeds.Noelectrodeorfillermetalisrequiredandnarrowwelds
+withsmallHAZsareproduced.Laserweldingproducesaconcen-
+tratedhighenergydensityheatsourcethatresultsinverynarrow
+heat affected zones, minimising both distortion and loss of
+strengthinHAZ[1].
+In laser beam welding radiant energy is used to produce the
+heat required to melt the materials to be joined. A concentrated
+beam of coherent, monochromatic light is guided by optical de-
+vices and focused to a small spot, for higher power density, on
+the abutting surfaces of the parts being joined. Dissimilar alloys
+Fig.7. SchematicofFSW[57].
+couldbejoinedinanoncontactprocess.Pulsedorcontinuouswave
+modelasersareusedtojointhemetals.Themainadvantagesofla-
+and90%oftheparentmetal,andthefatiguepropertiesapproach
+serweldingaretheshapeoftheweldandgoodpenetration,high
+thoseoftheparentmetal[1].
+precision, high mechanical properties of the weld, high welding
+Joints produced by FSW have higher strengths than riveted
+speed, low heat input, high flexibility and possibility of automa-
+jointsandmuchlowerresidualstressesthantypicalfusionwelded
+tion. Both very local welds and heat-affected zones occur with
+joints.Inwelding7000seriesaluminiumalloys,postweldageingis
+the help of the high energy density beam, and therefore good
+necessarytostabilisethemicrostructureinthefrictionstirwelded
+mechanicalpropertieswithrelativelylowdistortionofthework-
+regions.Theselectedoveragingtreatmentsalsoimprovecorrosion
+piececouldbeachieved.Themaindisadvantagesaretherelatively
+resistanceofthesealloys[58].
+highcostofinvestmentandtheimportantrequirementsrelatedto
+Due to the high strength of FSW joints, it allows considerable
+the machining of the parts to assure a precise groove (reduced
+weight savings in lightweight construction compared to conven-
+dimensional tolerances). Higher product quality, in terms of im-
+tional joining technologies. The use of welded instead of riveted
+provedin-serviceproperties,couldbeachievedthrough:improved
+jointsisalsoadvantageousbecauseofthelowerproductioncosts.
+tolerances; accurate control of process parameters; selection of
+Therefore, the FSW process has recently been identified as key
+new materials; and product redesign. EADS Airbus has invested
+technologyforfuselageandwingmanufacturingbyleadingaircraft
+inlaserweldingasareplacementforrivetinginnon-criticalappli-
+manufacturers.
+cations.Indouble-sidedlaserbeamweldingofT-jointstheincident
+Asthelargeaircraftexperiencehigherstressesandshorterfati-
+beamposition,incidentbeamangle,andbeamseparationdistance
+gue life, the technology should be applied carefully. There exist
+are the most important welding parameters. The incident beam
+several parameters which have influence on the quality and
+positionhasgreatimpactonjointquality.6xxxseriesAl–Mg–Sial-
+strengthofthefrictionstirweld.Thisprocessmustbeoptimised
+loys are susceptible to hot cracking. Aluminium filler (such as
+foreachspecificapplication.Inordertooptimisetheperformance
+AA4047)wirecontainingexcesssiliconisrecommendedfor6xxx
+oftheFSWjoint,itisimportanttoidentifytheweldingparameters.
+series alloys. It is reported that the crack sensitivity decreases if
+ThemainFSWprocessparametersarethefollowings[59,60]:
+the Silicon content exceeds 1.5% [64]. One application involves
+joining stiffening stringers to the skin of the fuselage. The dam-
+a. Toolgeometry(shoulder,probe).
+age-tolerantalloy6013isthebasematerialand4047isthefiller
+b. Clampingsystem.
+material. The stringers are welded from two sides at 10m/min,
+c. AxialLoad.
+usingtwo2.5kWCO laserbeams.Thejointisdesignedsuchthat
+2
+d. Toolrotationaldirection.
+theHAZiscontainedinthestringer,anddoesnotimpingeonthe
+e. Plungedepthofprobeinworkpieces.
+skin.TheprocesswasfirstusedinseriesproductionoftheAirbus
+f. Plunge speed of the probe in the workpieces at the start
+318,andwasthenimplementedsuccessfullyinotheraircraftmod-
+position.
+els[65].
+g. Dwelltimeatstartoftheweld.
+h. Tiltangle.
+i. Preheating/interpasstemperatureofworkpieces. 6.Conclusions
+j. Controlduringplunge,dwellandweldperiods.
+k. Weldingspeedversusrotationspeed. Aluminiumalloyshavebeensuccessfullyusedasprimarymate-
+rialforthestructuralpartsofaircraftformorethan80years.Air-
+Asmentionedabovesincethereareseveraltoolsandoperating craft designers possess considerable experience in the design,
+parametersthataffectthequalityandstrengthofthefrictionstir production, operation and maintenance of aluminium airframes.870 T.Dursun,C.Soutis/MaterialsandDesign56(2014)862–871
+Theinfrastructureandknowledgebasehasbecomemature.How- Itisbelievedthatdevelopmentsofadvancedhybridmaterials,
+ever,withtheintroductionofhighperformancepolymercompos- like fibre metal laminates could provide additional opportunities
+ites in the application of airframe designs reduced the role of for aluminium alloys and new material options for the airframe
+aluminiumalloysuptosomeextentduecomposites’highspecific industry.
+properties, reduced weight, fatigue performance and corrosion
+resistance(Boeing787,AirbusA350).Inorderforaluminiumalloys
+References
+toremainattractiveintheairframeconstructionandcompetewith
+and/orbecompatiblewithcurrentlyusedpolymercomposites,re- [1] Campbell FC. Manufacturing technology for aerospace structural
+search activities on the improvement of structural performance, materials.Elsevier;2006.
+weight and cost reductions are needed. Recent developments in [2] Warren AS. Developments and challanges for aluminium – A Boeing
+perspective.MaterForum2004;28:24–31.
+highstrength Al–Zn and Al–Lialloys, damage tolerant Al–Cu and [3] HombergsmeierE.Developmentofadvancedlaminatesforaircraftstructures.
+Al–Lialloys,havebeensuccessfulinimprovingthestaticstrength, In: 25th International congress of the aeronautical sciences, Hamburg,
+fracture toughness, fatigue and corrosion resistance through the Germany;2006.
+[4] Vlot A, Vogelesang LB, De Vries TJ. Towards application of fibre metal
+design and control of chemical composition, and/or through the
+laminatesinlargeaircraft.AircrEngAerospTechnol1999;7:558–70.
+development of more effective heat treatments. It has been seen [5] Gunnink JW, Vlot A, De Vries TJ, Van Der Hoeven W. GLARE technology
+from this review that major improvements of aerospace alumin- development1997–2000.ApplComposMater2002;9:201–19.
+[6] Vogelesang LB, Vlot A. Development of fibre metal laminates for advanced
+ium alloys are due to optimised solute content and solute ratios
+aerospacestructures.JMaterProcessTechnol2000;103:1–5.
+inordertoachievebetterpropertybalance.Theuseofnewdisper- [7] Vermeeren CAJR. An historic overview of the development of fibre metal
+soid-processing combinations results in desired grain structures laminates.ApplComposMater2003;10:189–205.
+[8] Wu G, Yang JM. The mechanical behavior of GLARE laminates for aircraft
+that provide better damage tolerance. Improvements in under-
+structures.JOM2005;57:72–9.
+standing and modelling of the hardening system and especially [9] AlderliestenRC,HomanJJ.FatigueanddamagetoleranceissuesofGlarein
+the effect of minor element addition will help improvements in aircraftstructures.IntJFatigue2006;28:1116–23.
+[10] Alderliesten RC, Benedictus R. Fiber/metal composite technology for future
+mechanicalproperties.
+primary aircraft structures. In: 48th AIAA/ASME/ASCE/AHS/ASC structures,
+Currentresearchactivitiesforbothcompositesandaluminium structuraldynamics,andmaterialsconference.Honolulu,Hawaii,23–26April
+include: improvement on mechanical properties, reduction of 2007.
+manufacturing,maintenanceandrepaircosts,preventionofcorro- [11] VermeerenCAJR,BeumlerT,DeKanterJLCG,VanDerJagtOC,OutBCL.Glare
+designaspectsandphilosophies.ApplComposMater2003;10:257–76.
+sionandfatigueandabilitytoperformreliablythroughoutitsser- [12] SoltaniP,KeikhosravyM,OskoueiRH,SoutisC.Studyingthetensilebehaviour
+vicelife. ofGLARElaminates:afiniteelementmodellingapproach.ApplComposMater
+In order touse the advantage of improvementsin mechanical 2011;18:271–82.
+[13] FlowerHM,SoutisC.Materialsforairframes.AeronatJ2003:331–41.
+propertiesofadvancedaluminiumalloysandsustainthestructural
+[14] SoutisC.Recentadvancesinbuildingwithcomposites.PlastRubberCompos:
+integrity in mechanically fastened aircraft structures a special MacromolEng2009;38:359–66.
+attention should be paid on the fretting fatigue. There is need to [15] Diamanti K, Soutis C. Structural health monitoring techniques for aircraft
+compositestructures.ProgAerospSci2010;46:343–52.
+understandthefrettingbehaviourofrecentlydevelopedAl–Lial-
+[16] Giurgiutiu V, Soutis C. Enhanced composites integrity through structural
+loyssuchas2050and2099andfibremetallaminatesinmechan- healthmonitoring.ApplComposMater2012:1–17.
+icallyfastenedaircraftjoints. [17] SoutisC,MohamedG,HodzicA.PerformanceofGLAREpanelssubjectedto
+intensepressurepulseloading.AeronautJ2012;116:667–79.
+Inadditiontoweightreductionandimprovementonthestruc-
+[18] MohamedG,SoutisC,HodzicA.Multi-materialarbitrary-lagrangianeulerian
+turalperformancethematerials,costreductionthroughthedevel- formulation for blast-induced fluid-structure interaction in fibre metal
+opment on the manufacturing techniques is also a key issue. laminates.AIAAJ2012;50:1826–33.
+[19] CassadaW,LiuJ,StaleyJ.Aluminiumalloysforaircraftstructures.AdvMater
+Manufacturingconstitutesthebiggestportionofthecostoftheair-
+Processes2002:27–9.
+frame.Thereforegreateffortisbeingspenttoreducetheproduc- [20] StarkeEA,StaleyJT.Applicationofmodernaluminiumalloystoaircraft.Prog
+tion costs and part count via introducing high-speed machining, AerospSci1996;32:131–72.
+novel assembly techniques such as laser beam welding and fric- [21] WilliamsJC,StarkeEA.Progressinstructuralmaterialsforaerospacesystems.
+ActaMater2003;51:5775–99.
+tion-stirwelding.Forexample,unlikemostconventionalaerospace [22] MeratiA.Materialsreplacementforagingaircraft.RTO-AG-AVT-140[Chapter
+alloys, the fusion weldability of Al–Cu–Li alloys could introduce 24].
+newopportunitiesinthefabricationoffuselage.Therefore,inaddi- [23] Verma BB, Atkinson JD, Kumar M. Study of fatigue behaviour of 7475
+aluminiumalloy.BullMaterSci2001;24:231–6.
+tiontometallurgicaldevelopmentswiththecombinationofother
+[24] SmithB.TheBoeing777.AdvMaterProcesses2003:41–4.
+manufacturing techniques than the riveting will help reach opti- [25] ChenYQ,PanSP,ZhouMZ,YiDQ,XuDZ,XuY.Effectsofinclusions,grain
+miseddamagetolerantdesigns. boundaries and grain orientations on the fatigue crack initiation and
+propagationbehaviorof2524-T3Alalloy.MaterSciEngA2013;580:150–8.
+Highstrain-ratesuperplasticformingandcastingarealsodraw-
+[26] ZhengZQ,CaiB,ZhaiT,LiSC.Thebehavioroffatiguecrackinitiationand
+ing attention as cost effective solutions. Advanced joining tech- propagationinAA2524-T34alloy.MaterSciEngA2011;528:2017–22.
+niqueswillalsomakealuminiumstructuresmoreaffordable. [27] Nec(cid:2)sulescu DA. The effects of corrosion on the mechanical properties of
+aluminumalloy7075–T6.UPBSciBull2011:73.
+The airframes and other structural parts will continue to be
+[28] LamFD,MenzemerCC,SrivatsanTS.Astudytoevaluateandunderstandthe
+composed of different materials including aluminium, titanium, responseofaluminumalloy2026subjectedtotensiledeformation.MaterDes
+steel, polymer composites and fibre metal laminates depending 2010;31:166–75.
+[29] Li JX, Zhai T, Garratt MD, Bray GH. Four point bend fatigue of AA2026
+on the balance of structural and economical factors. Weight sav-
+aluminumalloy.MetullMaterTransA2005;36A:2529–39.
+ing through increased specific strength and/or stiffness and [30] PantelakisSG,ChamosAN,KermanidisA.AcriticalconsiderationofuseofAl-
+affordability (procurement, maintenance and repair costs) are claddingforprotectingaircraftaluminumalloy2024againstcorrosion.Theor
+the major drivers for the development and selection of materials ApplFractMec2012;57:36–42.
+[31] ZiemianCW,SharmaMM,BouffardBD,NissleyT,EdenTJ.Effectofsubstrate
+forcivilairframes.Inselectingnewmaterialsforaircraftapplica- surface roughening and cold spray coating on the fatigue life of AA2024
+tions,thereshouldbenoreductiononthelevelsofsafetythatis specimens.MaterDes2014;54:212–21.
+alreadyreachedwithconventionalalloys.Fatigueresistance,cor- [32] Shi H, Han EH, Liu F, Kallip S. Protection of 2024-T3 aluminium alloy by
+corrosion resistant phytic acid conversion coating. Appl Surf Sci
+rosion resistance and damage tolerance are all very important
+2013;280:325–31.
+mechanical properties of airframe materials that affect the [33] Kim ST, Tadjiev D, Yang HT. Fatigue life prediction under random loading
+inspection,maintenance and repair costs and this is where mod- conditionsin7475–T7351aluminumalloyusingtheRMSmodel.IntJDamage
+Mech2006;15:89–102.
+ern aluminium alloys could compete effectively with polymer
+[34] Warner T. Recently-developed aluminium solutions for aerospace
+composites. applications.MaterSciForum2006;519–521:1271–8.T.Dursun,C.Soutis/MaterialsandDesign56(2014)862–871 871
+[35] ChenS,ChenK,PengG,JiaL,DongP.Effectofheattreatmentonstrength, [50] AlexopoulosND,MigklisE,StylianosA,MyriounisDP.Fatiguebehaviorofthe
+exfoliationcorrosionandelectrochemicalbehaviorof7085aluminumalloy. aeronauticalAl–Li(2198)aluminumalloyunderconstantamplitudeloading.
+MaterDes2012;35:93–8. IntJFatigue2013;56:95–105.
+[36] ZhangJB,ZhangYA,ZhuBH,LiuRQ,WangF,LiangQM.Characterizationof [51] Decreus B, Deschamps A, Donnadieu P, Ehrström JC. On the role of
+microstructure and mechanical properties of Al–Cu–Mg–Ag–(Mn/Zr) alloy microstructure in governing fracture behavior of an aluminum–copper–
+withhighCu:Mg.MaterDes2013;49:311–7. lithiumalloy.MatSciEngA2013;586:418–27.
+[37] Chakherlou TN, Razavi MJ, Aghdam AB, Abazadeh B. An experimental [52] MoretoJA,GamboniO,RuchertCOFT,RomagnoliF,MoreiraMF.BeneduceFea.
+investigation of the bolt clamping force and friction effect on the fatigue CorrosionandfatiguebehaviorofnewAlalloys.ProcEng2011;10:1521–6.
+behavior of aluminum alloy 2024-T3 double shear lap joint. Mater Des [53] RiojRJ,LiuJ.TheevolutionofAl–Libaseproductsforaerospaceandspace
+2011;32:4641–9. applications.MetullMaterTransA2012;43A:3325–37.
+[38] VazquezJ,NavarroC,DominguezJ.Experimentalresultsinfrettingfatigue [54] HamelSF.Aparametricstudyofdelaminationsinanaluminium–lithiumalloy.
+with shot and laser peened Al 7075-T651 specimens. Int J Fatigue In:MSThesis.Champaign:UniversityofIllinoisatUrbana;2010.
+2012;40:143–53. [55] LenczowskiB.Newlightweightalloysforweldedaircraftstructure.In:ICAS
+[39] ChakherlouTN,ShakouriM,AkbarA,AghdamAB.Effectofcoldexpansionand Congress;2002.
+boltclampingonfrettingbehaviorofAl2024-T3indoubleshearlapjoints.Eng [56] ESAB Technical. Friction Stir Welding. <http://www.esab.com> [accessed
+FailAnal2012;25:29–41. 25.01.12].
+[40] OskoueiRH,IbrahimRN.ImprovingfrettingfatiguebehaviourofAl7075-T6 [57] Nandan R, DebRoy T, Bhadeshia HKDH. Recent advances in friction stir
+boltedplatesusingelectrolessNi–Pcoatings.IntJFatigue2012;44:157–67. welding-process, weldment structure and properties. Prog Mater Sci
+[41] OskoueiRH,IbrahimRN.AninvestigationonthefatiguebehaviourofAl7075- 2008;53:980–1023.
+T6 coated with titanium nitride using physical vapour deposition process. [58] Burford D, Widener C, Tweedy B. Advances in friction stir welding for
+MaterDes2012;39:294–302. aerospace application. In: 6th AIAA Aviation Technology, Integration and
+[42] SarhanAAD,ZalnezhadE,HamdiM.Theinfluenceofhighersurfacehardness OperationsConference,Wichita,USA;2006.
+onfrettingfatiguelifeofhardanodizedaerospaceAl7075-T6alloy.MaterSci [59] ColegroveP.Airbusevaluatesfrictionstirwelding.<http://www.comsol.com/
+EngA2013;560:377–87. academic/papers/1614>[accessed20.02.12].
+[43] Polmear IJ. Aluminium alloys – a century of age hardening. Mater Forum [60] Vilaça P, Thomas W. Friction stir welding technology. Adv Struct Mater.
+2004;28:1–14. Heidelberg,Berlin:Springer-Verlag;2011.
+[44] GiummarraC,ThomasB,RiojaRJ.Newaluminiumlithiumalloysforaerospace [61] LertoraE,GambaroC.AA8090Al–Lialloyfswparameterstominimizedefects
+applications.In:Lightmetalstechnologyconference;2007. andincreasefatiguelife.IntJMaterForm2010;3:1003–6.
+[45] Kalyanam S, Beaudoin AJ, Dodds Jr RH, Barlat F. Delamination cracking in [62] Liu H, Zhang H, Pan Q, Yu L. Effect of friction stir welding parameters on
+advancedaluminium–lithiumalloys-experimentalandcomputationalstudies. microstructural characteristics and mechanical properties of 2219–T6
+EngFractMech2009;76:2174–91. aluminiumalloyjoints.IntJMaterForm2011;201:1048–5.
+[46] Soboyejo WO, Srivatsan TS. Properties, design optimization and [63] BuffaG,CampanileG,FratiniL,PriscoA.Frictionstirweldingoflapjoints:
+applications.Taylor&FrancisGroup,LLC;2006. influence of process parameters on the metallurgical and mechanical
+[47] BodilyB,HeinimannM,BrayG,ColvinE,WittersJ.Advancedaluminumand properties.MaterSciEngA2009;519:19–26.
+aluminum–lithium solutions for derivative and next generation aerospace [64] YangZB,TaoW,LiLQ,ChenYB,LiFZ,ZhangYL.Double-sidedlaserbeam
+structures.SAEpaperno2012-01-1874. welded T-joints for aluminum aircraft fuselage panels: process,
+[48] YuanZ,LuZ,XieY,WuX,DaiS,LiuC.Mechanicalpropertiesofanovelhigh- microstructure,andmechanicalproperties.MaterDes2012;33:652–8.
+strengthaluminium–lithiumalloy.MaterSciForum2011;689:385–9. [65] QuintinoL,MirandaR,DiltheyU.Laserweldingofstructuralaluminium.Adv
+[49] Lequeu PH, Smith K, Danie’lou A. Aluminium–copper–lithium alloy 2050 StructMater.Heidelberg,Berlin:Springer-Verlag;2011.
+developedformediumtothickplate.JMEPEG2010;19:841–7.

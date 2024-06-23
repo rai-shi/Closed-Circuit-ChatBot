@@ -1,0 +1,919 @@
+Heliyon10(2024)e24157
+Contents lists available at ScienceDirect
+Heliyon
+journal homepage: www.cell.com/heliyon
+Research article
+Aircraft turbine fan casing and ballistic fan blade impact:
+Geometry and material
+Shade Rouxzeta VAN Der Merwea,*, Dawood Ahmed Desaib, Glen Campbell
+Sneddenc, Daniel Ogochukwu Okanigbed
+aBuilding 3, Office 314, Department of Mechanical Engineering and Mechatronics, Tshwane University of Technology, Main Campus, Pretoria West,
+Private bag X680 Staatsattilerie Road Pretoria 0001, South Africa
+bBuilding 3, Office 307, Department of Mechanical Engineering and Mechatronics, Tshwane University of Technology, Main Campus, Pretoria West,
+Private bag X680 Staatsattilerie Road Pretoria 0001, South Africa
+cMechanical Engineering, Aerospace Systems Research Group, University of KwaZulu-Natal, Gate 3 Rick Turner Road, Glenwood, Durban, 4001,
+South Africa
+dPantheon Virtual Engineering Solutions, (PTY), Nigel,10 Apricot Avenue, Alra Park, 1491, South Africa
+A R T I C L E I N F O A B S T R A C T
+Keywords: If the failed fan blade (FB) is not contained in the fan casing (FC) at the time of failure, a cata-
+PEEK strophic disaster could follow from the failure of the aircraft’s engine turbine. Unfavorable
+Aluminum problems including the aircraft malfunctioning, a potential engine shutdown, and even a crash
+Aircraft engine fan blade containment
+could occur if the detached FB enters the FC. This study employed the Finite Elements Method
+Ballistic blade penetration
+(FEM) to examine the effects of utilizing Polyether Ether Ketone (PEEK) as an alternative FB
+Finite element simulation
+material on the FC in order to address this issue. In order to investigate the effects of PEEK and
+Moment of inertia methodology
+aluminum ballistic FB penetration on FC with thicknesses of 5, 4, 3, and 2 mm at 255 m/s, a FEM
+ballistic model was developed using the ABAQUS/Explicit modeling system. It was found that
+during working conditions, none of these FBs could pierce the FC, regardless of thickness. PEEK
+might be a better alternative, though, as the FC was more obviously deformed by the metal FB.
+The decision was made to conduct additional analytical validation of the developed FE models.
+The moment of inertia methodology, a novel approach, was employed. There was a strong cor-
+relation between the results of the FE models and the analytical answers. Therefore, it may be said
+that PEEK is a better material than aluminum for making blade casings.
+1. Introduction
+Somewhere in the world, a fan blade (FB) of an aircraft turbine engine will fail every few years [1–4]. If the engine FB of an airplane
+is not contained inside the fan casing (FC) when this failure happens, the unlikely but catastrophic outcome would happen. As a result,
+the aircraft’s FC needs to be able to stop damage from a failed FB. An aircraft malfunction that puts the lives of the passengers at danger
+of death could result from the impact of an uncontained failed FB on an aircraft turbine engine. Therefore, it is critical to continue
+researching and improving the field of FB containment [1,5].
+According to the literature that was available, a superior turbine FC structure to avoid failed FB penetration was obtained by
+* Corresponding author.
+E-mail addresses: vandermerweR1@tut.ac.za, rouxzeta@gmail.com (S. Rouxzeta VAN Der Merwe).
+https://doi.org/10.1016/j.heliyon.2024.e24157
+Received 9 September 2023; Received in revised form 8 December 2023; Accepted 4 January 2024
+Availableonline8January2024
+2405-8440/© 2024 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+researching the behavior of various metallic materials and metal matrix composites. Additionally, these studies considered ways to
+reduce weight of the aircraft, which is essential for cost savings and for improved flight performance. For their investigations and
+assessments of FB confinement, the other researchers solely used metallic materials in the fan blades (FBs) they used. Therefore, their
+results confirmed the idea that the metallic FBs either penetrated the FC or result in a dent that has an impact on surrounding FBs and
+other parts both inside and outside the FC [6].
+The containment of an FB that has failed from the rotor hub is reportedly one of the most difficult procedures in aviation engi-
+neering since it operates at high speeds and high energies, If the FB is not contained and fails or suffers secondary event damage, the
+proper operation of numerous engine components, such as the other FBs, the containment structure, surrounding fan casings (FCs),
+bearings, bearing supports, shafts, vanes, and externally mounted components, becomes compromised [7]. When a failed FB detaches
+from its hub and is not contained, such as when an aircraft malfunctions or an engine shuts down, it immediately causes secondary
+event damage. The majority of the time, the FB penetrates the FC, damaging the aircraft body structure. The containment structure,
+rotor, compressor, internal frames, inlet, and FC rub strips are all affected in various instances when the FB develops sharp edges and
+malfunctions [8].
+Records going back decades have shown that secondary events brought on by uncontained engine failure, which has the unex-
+pected effect of diminishing engine power, are the primary cause of the majority of aviation accidents. To prevent uncontained engine
+failure, numerous efforts must be made to develop dependable and efficient containment structures [9]. It is significant that there are
+no studies on polymer FBs in open-source literature. Studying the literature at hand revealed that no research has been done so far to
+examine the ballistic impact of a detached polymer FB on the turbine FC. A test would also be prohibitively expensive, hence it is
+important to perform an efficient computer analysis to mimic a polymer fan-blade out situation [10].
+With the purpose of examining numerically the ballistic effect of a detached FB on its FC and the damage progression events that
+occur when the FB breaks, this study aims to investigate the utilization of metallic and non-metallic (polymer) FB materials. In-
+vestigations were done into the effects of changing the FC’s dimension. The effect of aluminum and Polyether Ether Ketone (PEEK) FBs
+on a turbine FC with different thicknesses is evaluated in this study. The aviation sector may benefit from this study’s recommendation
+of an alternate FB material for FB containment, which might increase aircraft safety and lighten weight.
+2. Methodology
+The methodology entails creating a quantitative numerical model to determine the FB’s ballistic penetration on the FC. This was
+performed in ABAQUS/CAE 2017 by simulating a simple model design scenario for proprietary reasons and to make future experi-
+mental setup simple. The impacts that the two different FB materials (i.e. Aluminium and PEEK) received were taken into account
+when calculating the kinetic energy of each detached FB. Modeling the results of the FC being impacted by the two different FB
+materials was done using the Johnson-Cook damage approach. A recently created innovative methodology called the moment of
+inertia (MI) methodology was utilized to analytically validate the finite elements method (FEM) model [11]. Map forward: Mathe-
+matical modeling, Numerical Modelling, Analytical validation technique: moment of inertia methodology.
+This study did not consider the following: aerospace atmospheric forces, the fatigue failure of the blade, coriolis and gyroscopic
+forces (These forces are critical for consideration only when the blade is attached to the rotor hub and such a scenario was not
+considered in this study), the vibration of the rotor, casing or other blades and simulating destruction processes.
+2.1. Mathematical modeling
+In order to investigate the ballistic impact of the released blade on the engine casing, relevant mathematical models were used to
+characterize the transient dynamic behavior of the FB. This includes the FB Impact Velocity, Impact energies and stresses on the engine
+Fig. 1. Horizontal projectile’s trajectory [12].
+2S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+casing, Failure Modes of the released FB, Critical Velocity for Plate Perforation, Johnson-Cook Damage Model.
+2.1.1. FB impact velocity
+The study made the premise that the FB’s trajectory is linear because of the small amount of distance (i.e. 1 mm) over which an FB
+travels. Fig. 1 depicts the FB that has been separated moving as expected.
+x is ignored in this analysis due to the FB projectile’s (i.e. 1 mm) short distance before hitting the FC. Eqs. (1)–(3)’s descriptions of
+Newton’s laws were used to calculate the ballistic trajectory impact [13]. In Eqn (1): N represents its rotational speed and ω its angular
+velocity. Eq. (2) depicts the turbine’s linear velocity in which initial linear velocity of the FB is taken to be zero, while Vf is the final
+linear velocity and rb1 is the distance from the hub turbine’s center to the outer half of the FB. The projectile time t can be defined as the
+time it takes for the detached FB to touch the FC. x is the tip clearance or distance traveled by the detached FB (from launch to impact
+on the FC).
+π
+ω= N (1)
+60
+V f=ω.r b1 (2)
+x
+t= (3)
+V
+f
+The projectile time t was computed using the following values: N =32 500 r/min, rb1 =0.075 mm, and x =1 mm are given by the
+council for scientific and industrial research (CSIR) [12]. The outcome is that the numerical simulation modeling will start up in 3.99 X
+10(cid:0) 6 s.
+2πX32500
+V = X0.075
+f 60
+=255.25m/s
+0.001m
+t=
+255.25m/s
+=3.99X10(cid:0)6s
+2.1.2. Impact energies and stresses on the engine casing
+A sensitivity analysis was conducted in this work, which examined various FB materials and FC thickness changes. The mass and
+speed of the separated FB, as given in Eq. (4), define the impact energy:
+1
+K= 2mV2 f (4)
+Where m is the mass of the FBs, K is the total kinetic energy prior to impact, and Vf is the previously determined linear impact velocity
+(Eq. (2)). Kinetic energy is the primary factor in fragmentation [14]. In this work, two different ductile materials—aluminum and
+PEEK—are looked into as viable FB materials. The highest bending forces and deflection at the site of impact were thus the study’s
+focus points. Fig. 2 depicts a schematic of the actual FB and FC configuration. According to Sharma et al.’s [15] research of this impact
+issue, shape change or dimensional instability is the factor that influences penetration. Hence, the focus of the study for the bending
+Fig. 2. FB and FC schematic [12].
+3S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+axis was the center axis.
+The MI, which was the main variable used to calculate the impact stress, deflection, and strain energy, is described by the rela-
+tionship stated mathematically (Eq. (5)). I represents the Moment of Inertia in Equation (5), along with the letters b for the FBs breath
+and h for the FC plate’s thickness.
+bh3
+I= (5)
+12
+I represents the Moment of Inertia in Equation (5), along with the letters b for the FBs breath and h for the FC plate’s thickness. Eq.
+(6) establishes the static stress at the FC’s point of impact, according to Moon et al. [16]. Where t denotes the impact simulation time, F
+denotes the impact force, L denotes the FC’s length, and s denotes the static stress impact at the center. The appropriate FC plate
+thickness was determined using the maximum deflection of FC after contact based on Eq. (7) [13,16]. The maximum stress placed on
+the FC after impact was determined using Eq. (8) (Moon et al. [16]). Eq. (9) [7] is used to determine how much energy the FC stored
+due to deformation after impacted. Eq. (10) is used to determine the moment (M).The force of the FB’s impact on the FC is determined
+with Eq. (11), where FBs mass and acceleration are denoted by m and a, respectively.
+Fl2t
+σ s=
+8I
+(6)
+Fl3
+d= (7)
+192EI
+[ ( ) ]
+2hE 0.5
+σ max= 1+ 1+
+Lσ
+(8)
+s
+M2
+U= (9)
+2EI
+FL
+M= (10)
+8
+F=ma (11)
+2.1.3. Failure Modes of the released FB
+The detached FB is released with a specific kinetic energy when the stress surpasses the ultimate tensile strength of the FB material
+[14,17]. In this investigation, it was assumed that the FB material was ductile and that it would plug when the critical impact velocity
+was reached [18].
+2.1.4. Critical Velocity for Plate Perforation
+The speed at which the FB pierces the FC with great force is known as the critical projectile velocity [19] and is represented
+mathematically by Eq. (12). Vx is the minimum perforation velocity and mp is the plug mass.
+[ ]( )
+m 0.5
+V c2=
+m+m
+V f2+V x2 (12)
+p
+2.1.5. Johnson-Cook Damage Model
+Impact research is best solved by the Johnson-Cook (J-C) model, which has the benefit of being able to distinguish between the
+three essential elements of stress, strain hardening, and temperature [20]. Furthermore, for assessments of the current issue, the
+Johnson-Cook model was selected as a more suitable damage model [21]. There is a stress threshold for each material that determines
+when it will completely fail or keep withstanding loads without leading to a corresponding rise in strain [22]. The model is suitable to
+evaluate FB confinement research and has been shown experimentally to be viable for strain rates up to and about 104 s(cid:0) 1 [21]. For
+this analysis, a strain rate of 102 s(cid:0) 1 was used, which is within the allowed range [21]. The J-C model is expressed in Eq. (13) and σ e is
+the von Mises flow stress, A, B, C, n and m are considered to be material constants and εp is the equivalent plastic strain given in Eq.
+(14). Where ε* is the dimensionless strain rate and ε 0 =1s1. The homologous temperature T* is expressed in Eq. (15). T is the absolute
+temperature, To is the room temperature, and Tm is the melting temperature of the material. T temperature rises at the plastic work
+region; the heat produced by plastic work at the impact zone is considered to be adiabatic and is stated in Eq. (18) [23]. The J-C
+damage model is conditioned by damage evolution. The damage D of a material is expressed in Eq. (16). The fracture strain εf is
+expressed in Eq. (17). β is the fraction of plastic work converted, σ s bending stress and σ contact stress.
+[ (cid:0) ) ]
+σ e= A+B εP n [1+Clinἑ∗][1(cid:0) T∗m] (13)
+εp
+ἑ∗
+(14)
+ε
+0
+4S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+T(cid:0) T
+T∗= o
+(15)
+T (cid:0) T
+m o
+∑Δεp
+D= (16)
+ε
+f
+(cid:0) )
+ε f= D 1+D 2eD3σ∗ (1+D 4linἑ∗)(1+D 5T∗) (17)
+∫ (
+β
+T= σ 18)
+σ
+s
+2.2. Numerical Modelling
+The strategies and design techniques used to model the impact interaction between the different materials under evaluation and the
+FB confinement are described in detail, along with the steps taken to create the finite element analysis (FEA) and the method by which
+the FB and FC were simulated in order to develop the appropriate analytical input files.
+2.2.1. Model development
+To simplify the FB model, a rectangular shape with the following dimensions was used: 22 mm for width, 37 mm for length, and 2
+mm for thickness (Fig. 3). The dimensions of a small aircraft engine utilized in the industry were used to build the FB containment
+assembly. The ABAQUS CAE 2017 FEA program was used to construct the model.
+2.2.2. Material properties
+PEEK 1000 and aluminum 6082-T651 were selected as the FB materials in this study, whereas aluminum 6082-T651 was selected as
+the FC material [24]. For this experiment, the materials were deemed to be homogeneous and isotropic. The material properties for
+PEEK (Garcia-Gonzalez, Rusinek, Jankowiak, and Arias [26]) and aluminum (Boldyrev, Shchurov, and Nikonov [25]) are displayed in
+Table 1 through 4. According to He et al. [27], the J-C constitutive relation is a suitable method for this specific engineering problem,
+especially when there are many FB materials and different FC thicknesses. Tables 2 and 3 display the J-C constants and damage
+constants for PEEK and aluminum, respectively. It is assumed that the high velocity impact of the FB onto the FC is adiabatic because
+the heat generated by the plastic work at the impact location does not have enough time to be transferred to the surrounding material.
+Table 4 lists the adiabatic properties of PEEK and aluminum. Aerodynamic forces were thought to have little effect on the analysis, but
+it was found that the aircraft turbine could operate up to 32 500 feet, or 9.75 km, above the ground [24].
+2.2.3. Assembly module
+The assembly module is controlled by the formulas. In this step, the various parts that were generated are combined into a single
+unit. In the assembly module, the components are put together at certain locations. The location of the FB within the assembly affects
+the analysis. The FB was thus placed in the center of the FC. An inappropriately positioned FB in the assembly will immediately change
+the simulation results by increasing the discrepancy between numerical and analytical results. Boundary conditions and interactions,
+including planned loading and interactions, are impacted by the assembly. In the real aircraft turbine engine design, a 1 mm gap is
+permitted between the FB and FC. Consequently, the FB was shifted to the center of the FC with a design clearance of 1 mm, and the FC
+was fixed for the analysis in this study. This is depicted in Fig. 4.
+Fig. 3. Segment of the FB and FC in geometric form.
+5S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+Table 1
+Mechanical material properties of Aluminium and PEEK [25,26].
+Property Units Aluminium PEEK
+Elastic Modulus (E) GPa 70 3.6
+Density (ρ) kg/m3 2700 1304
+Poisson’s ratio(v) 0.33 0.4
+Kinetic Friction coefficient (μ) 1.4 1
+Table 2
+J-C constants of Aluminium and PEEK [25,26].
+Property Units Aluminium PEEK
+Yield strength (A) MPa 324.1 132
+Hardening coefficient (B) MPa 113.8 10
+Strain hardening exponent (n) 0.42 1.2
+Strain rate constant (C) 0.0074 0.034
+Softening exponent (m) 1.4 0.7
+Melting temperature (Tm) K 855 614
+Table 3
+Damage constants of Aluminium and PEEK [25,26].
+Property Aluminium PEEK
+Damage constant (D1) (cid:0) 0.77 0.05
+Damage constant (D2) 1.45 1.2
+Damage constant (D3) (cid:0) 0.47 (cid:0) 0.254
+Damage constant (D4) 0 0
+Damage constant (D5) 1.6 1
+Table 4
+Adiabatic properties of Aluminium and PEEK [25,26].
+Property Units Aluminium PEEK
+Specific heat (Cp) J/kgk 923 2180
+Inelastic 0.9 0.9
+Fig. 4. Assembled model.
+6S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+2.2.4. Step module
+The sequence in which analyses of the generated model were carried out is displayed in the two sections of the step module.
+According to the ABAQUS default setup, the first step is defined first. This step defines all relevant beginning conditions, such as loads,
+interactions, boundary conditions, and predefined fields. The second stage that is developed is the dynamic explicit phase, which is
+intended to mimic the effect of the FB against the FC. The minimum time interval for the dynamic step is set at 0.002 s since this is
+thought to be appropriate for the study and gives enough time to determine if the FB will pierce or just bounce off. The output variables
+employed for this inquiry are the strain energy, the kinetic energy, and the stress in the z direction, which contributed to the model’s
+deformation. The interactions between FB and FC are influenced by each of these factors [28] "Interaction" refers to the relationship
+between the surfaces, e.g., the contact between the FB and FC. Because it is the only method capable of capturing high impact
+deformation during short time dynamic evaluations, an explicit contact interaction strategy was selected for this investigation.
+Throughout the analysis, there is hard contact mechanical behavior because of the tremendous force with which the FB contacts the
+FC. It is anticipated that when the FB hits the FC, friction will cause the surfaces it creates to become heated.
+2.2.5. Mesh generation
+Since mesh generation influences the FE model’s computation time and result correctness, it is an essential part of simulation. The
+more simulation parts there are, the more processing power is needed to do the study. Since local meshing accelerates computation, it
+is believed to be more advantageous to split the component at the location of interest and use it for other portions. Mesh controls were
+used to define the element’s dimensions. Mesh refinement was carried out in the partitioned section (the place of interest) on the FC in
+order to obtain more accurate results. The divided area on the FC is seen in Fig. 5 of the completed model. This work used a dynamic
+explicit analysis, hence a suitable mesh was needed to accurately represent the FB impact. The selection of hexahedral element types
+was based on their improved convergence, lower computational cost and time, and increased precision compared to tetrahedral el-
+ements [29]. Following the guidelines and standards provided by the software, three-dimensional eight-node hexahedral elements of
+type C3D8I were the main elements used. Default hourglass controls were specified in order to prevent shear locking, which could
+result in fake solutions [30]. Table 5 shows the number of nodes and components in the model for each of the possible scenarios.
+Because to FB’s tremendous impact, significant deformation and associated elemental distortion are expected at the impact zone.
+Consequently, adaptive meshing was selected to yield accurate results and a mesh. A mesh quality check was done to evaluate the
+nodes’ stability. As illustrated in Fig. 5, mesh refinement was applied to the partitioned portion.
+2.2.6. Mesh convergence study
+In order to shorten calculation times and generate findings that are sufficient and precise, a mesh convergence research is carried
+out [31]. The mesh seed size is halved after every analysis to increase the number of elements until convergence is achieved. Table 6
+above displays the mesh convergence study for the 5 mm and 4 mm FC thickness, and Table 7 displays the mesh convergence study for
+Fig. 5. Mesh refinement on the whole model: FB and FC.
+7S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+Table 5
+Number of nodes and elements of the model in different FC.
+FC thickness (mm) Number of nodes Number of elements
+2 5442 5406
+3 7612 7668
+4 10 584 13 576
+5 13 781 10 506
+the 3 mm and 2 mm FC thickness. Reducing the seed size resulted in a finer mesh that had a higher element density. The mesh
+convergence analysis presented in Table 6 led to the conclusion that the optimum seed size was 1 mm, since this resulted in results with
+an impact stress deviation of less than 10 % and a deflection deviation of 5 %. Consequently, a mesh size of 1 mm was selected for this
+investigation. Based on the mesh convergence study shown in Tables 7 and it was determined that the seed size of 1 mm was
+dependable when the deflection and impact percentage errors were both less than 10 %. As a result, a 1 mm mesh size was selected.
+2.2.7. Boundary conditions
+In order to imitate the FB containment’s operational restrictions, the model’s boundary conditions were set. The model was given
+displacement and rotation as boundary conditions [28]. There are not many restrictions at the entry and exit of the FC, which is
+essentially cylindrical. Since the impact happens at a specific location (the section under investigation), the boundary conditions in this
+study were predicated on the existence of a beam-like restriction. The following restrictions apply to the simplified FC in Fig. 6. Since
+the impact takes place in the center of the FC, which is split into four equal sections, it was expected that the left and right sides would
+be fixed in a manner akin to a building beam. As a result, the rotation in the x, y, and z axes as well as the displacements on the left and
+right sides of the FC are equal to zero. The top and bottom of the FC were permitted to distort as a result of the impact load produced by
+the FB. As illustrated in Fig. 6, the FC’s top and bottom were only allowed to deform in the z-direction and were not allowed to move or
+rotate in the x- or y-directions, respectively. The boundary conditions are unrestricted because it is assumed that the FB and hub have
+been split apart.
+2.2.8. Predefined field
+The preset field dictates the kind of analysis the model conducts. Aerodynamic forces were assumed to have no effect on the FB
+confinement. However, adiabatic effects were considered because the objective of this analysis was to determine the FC’s deformation
+features that were impacted by different FB materials [8]. The velocity in the z-direction, which was fixed at 255 m/s, was obtained
+using Eq. (2). Jamison, Snedden, and Turner [24] reported that as a result, the FB struck the FC at a speed of 255 m/s. Table 8 displays
+the cases this study looked at.
+2.3. Definition of outputs
+2.3.1. Field outputs
+The field outputs that were needed for this analysis were the components of stress, displacement, strain, and contact forces and
+responses.
+2.3.2. History outputs
+The history outcomes of kinetic energy, strain energy, plastic dissipation, and damage dissipation were selected for this study. Fig. 7
+provides an overview of the approach utilized in the numerical model’s development and analysis.
+2.4. Analytical validation technique: the moment of inertia methodology
+Forward map: developed analytical validation technique, the assumptions for the development of the MI methodology.
+2.4.1. Developed analytical validation technique
+As alluded to earlier, the MI methodology was created to validate the formulated numerical model. Utilizing the newly developed
+MI approach, the stress, deflection, and strain energy of the eight modeling case scenarios—FC thicknesses of 5, 4, 3, and 2 mm struck
+by FBs made of aluminum 6082-T651 and PEEK 1000—were validated. Inertia of the swing of a baseball bat was examined by Koenig
+et al. [32] and their research showed that when swinging a bat to hit a baseball to score, the MI and the mass of the bat are two
+Table 6
+Mesh convergence study on 5 mm and 4 mm FC.
+Mesh size (mm) Stress (MPa) Deflection (mm) Percentage error for stress (%) Percentage error for deflection (%)
+2 18.23 0.535 7 7
+1 20.8 0.548 8 5
+0.5 19 0.636 14 5
+8S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+Table 7
+Mesh convergence study on 3 mm and 2 mm FC.
+Mesh size (mm) Stress (MPa) Deflection (mm) Percentage difference for stress (%) Percentage difference for deflection (%)
+2 218 5.481 30 11
+1 160 5.216 5 9
+0.5 102 5.419 45 14
+Fig. 6. Boundary conditions.
+Table 8
+Case scenarios and descriptions.
+Case scenarios Description
+1 5 mm FC and aluminium FB
+2 5 mm FC and PEEK FB
+3 4 mm FC and aluminium FB
+4 4 mm FC and PEEK FB
+5 3 mm FC and aluminium FB
+6 3 mm FC and PEEK FB
+7 2 mm FC and aluminium FB
+8 2 mm FC and PEEK FB
+important factors to consider. Sharma et al. [15] studied the ballistic impact of three different metals with a target-to-projectile
+thickness ratio of 1:0.5. They noticed that none of the metal bullets penetrated the plate target below a speed of 700 m/s, but that
+when the projectile hit the plate, it bulged and took on a different shape. The MI methodology was created using the combined ap-
+proaches of Sharma et al. [15] and Koenig et al. [32]. In this study, FC to FB ratios of 2.5:1, 2:1, 1.5:1, and 1:1 were considered. The
+projectile’s change in shape was also taken into account. According to the experiments in the Sharma et al. [15] study, the sphere
+projectile’s diameter rose from 10 mm to 14 mm after impact.
+2.4.2. The assumptions for the development of the MI methodology
+The following are the assumptions used to establish the moment of inertia methodology.
+• The projectile’s mass and material properties would remain unchanged after the collision, only its MI would be affected by its
+altered shape.
+9S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+Fig. 7. overview of the approach utilized in the numerical model’s development and analysis.
+• The rectangular projectile’s width would decrease after impact or impact the casing at various increments of the FB width during
+impact.
+• The projectile’s MI would vary with each increment of form change.
+• It was assumed that the surface of the projectile that makes contact with the target changes shape, and that the impact zone of the
+target would deform in the shape of the projectile, implying that the thickness of the target is a key factor in the change of the MI.
+The focus of this study’s investigation on the FC (which came in a variety of thicknesses) was the breadth of the FB. The MI was used
+as the mean variable to determine the deflection, maximum stress, and strain energy at the point of impact. The FB impacts the FC at a
+linear speed of 255 m/s (as the distance considered is very short, i.e. 1 mm). Modeled as a straightforward rectangle plate with
+measurements of 32 mm by 22 mm by 2 mm, the FC was square in shape and was 100 mm by 100 mm. Although the mass and speed
+remained constant, the computer model showed that the FB bulges after impact, changing its shape. Indicating a phenomenon of
+change at the MI during contact on the FC, the FC took on the shape of the FB at the point of impact. As shown in Fig. 8, the blade’s
+shape changes the breadth or height after impact, which changes the magnitude of the MI for the FC. Eq. (5) can be used to calculate
+Fig. 8. the FB shape before impacting FC (left) and the FB shape after impacting FC (right).
+10S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+the MI. The impact force of the FB on the FC is proportional to the width of the FB. Since the blade’s shape changes, this analysis
+assumes that just its breadth does, with all other factors remaining unchanged.
+2.4.3. Illustration and validation of simulations using the MI methodology
+In this investigation, the impact FB’s original width is taken and decreased from 22 mm to 1 mm by 1 mm. The height variable in
+Eq. (5) denotes the thickness of the FC, which ranged from 5 mm to 2 mm. The MI in m4 for various FC thicknesses and widths is shown
+in Table 9.
+Since all other variables depend on the MI, they could all be estimated after the MI in each range was determined. For L =100 mm,
+t =0.002 s, Eq. (6) was used to compute the stress on the FC. Eq. (10) yields the force F, where F for the aluminum FB was measured at
+785.4 N and F for PEEK at 280.5 N. Tables 10 and 11 give the stress from impacts with FBs made of aluminum and PEEK, respectively.
+From Eq. (7), we can calculate the deflection of the FC following impact. The predicted deflection on the FC caused by the impact of
+aluminum and PEEK FC is shown in Tables 12 and 13, respectively.
+Tables 14 and 15, which show the strain energy on the FC affected by an aluminum FB and a PEEK FB, respectively, show the results
+of calculating the strain energy of the FC after impact using Eq. (8).
+3. Results
+3.1. Validation of simulations using the MI methodology
+The simulation results that were verified by the MI approach are presented. Analysis was done on the deflection, maximum stress,
+and strain energy as well as the effects of the aluminum and PEEK FB impacting the aluminum FC. The FC under consideration ranged
+in thickness from 5 mm to 4 mm–3 mm to 2 mm. The study’s main focus was on the effect the FB has on the FC after impact because
+they are thrown away after the incident. It was determined that the damage to the FC was limited to a dent and that no penetration had
+occurred. The degree of the FC’s deformation revealed the recommended FC thickness for use in the final FC designs. As a result, the
+advice was given in an effort to prevent any secondary damaging consequences, such as compressed or damaged wires and sensors,
+which could lead to an aircraft malfunction. Where the FB would penetrate the FC is indicated, by the maximum stress. Eq. (13) was
+used to compute the maximum stress. MI were used for all calculations. The number of elements along the border of the FC thickness
+and the size of the components in the impact zone have a significant impact on the outcome and the relationship between the
+simulation and the MI methodology.
+3.1.1. Stress and deflection
+8 cases were investigated and the results are demonstrated in a sensitivity analysis style. 2 case scenarios of the 8 cases is
+demonstrated explicitly, due to the paper’s maximum size. The simulation’s 3D visualization results, which display deflection
+following impact, are shown in Figs. 9–12. Additionally, they display the maximum stress dissipation of the FC when it is impacted by
+an aluminum or PEEK FB at 1 and 2 ms, respectively; these represent case scenario 1 and case scenario 2. The numbers in Tables 16 and
+17 were calculated using the MI methodology.
+Table 9
+The MI (m4) for the different thicknesses and different breadths.
+Breadth (mm) MI (m4) for different casing thicknesses
+5 mm 4 mm 3 mm 2 mm
+22 2.3 ×10(cid:0)10 1.2 ×10(cid:0)10 4.9 ×10(cid:0)11 1.5 ×10(cid:0)11
+21 2.2 ×10(cid:0)10 1.1 ×10(cid:0)10 4.7 ×10(cid:0)11 1.4 ×10(cid:0)11
+20 2.1 ×10(cid:0)10 1.1 ×10(cid:0)10 4.7 ×10(cid:0)11 1.3 ×10(cid:0)11
+19 1.9 ×10(cid:0)10 1 ×10(cid:0)10 4.3 ×10(cid:0)11 1.3 ×10(cid:0)11
+18 1.8 ×10(cid:0)10 9.6 ×10(cid:0)11 4 ×10(cid:0)11 1.2 ×10(cid:0)11
+17 1.7 ×10(cid:0)10 9.1 ×10(cid:0)11 3.8 ×10(cid:0)11 1.1 ×10(cid:0)11
+16 1.6 ×10(cid:0)10 8.5 ×10(cid:0)11 3.6 ×10(cid:0)11 1 ×10(cid:0)11
+15 1.5 ×10(cid:0)10 8 ×10(cid:0)11 3.4 ×10(cid:0)11 1 ×10(cid:0)11
+14 1.4 ×10(cid:0)10 7.5 ×10(cid:0)11 3.2 ×10(cid:0)11 9.4 ×10(cid:0)12
+13 1.3 ×10(cid:0)10 6.9 ×10(cid:0)11 3 ×10(cid:0)11 8.7 ×10(cid:0)12
+12 1.1 ×10(cid:0)10 6.4 ×10(cid:0)11 2.7 ×10(cid:0)11 8 ×10(cid:0)12
+11 1 ×10(cid:0)10 5.9 ×10(cid:0)11 2.5 ×10(cid:0)11 7.3 ×10(cid:0)12
+10 1 ×10(cid:0)10 5.3 ×10(cid:0)11 2.3 ×10(cid:0)11 6.7 ×10(cid:0)12
+9 9.4 ×10(cid:0)11 4.8 ×10(cid:0)11 2 ×10(cid:0)11 6 ×10(cid:0)12
+8 8 ×10(cid:0)11 4.3 ×10(cid:0)11 1.8 ×10(cid:0)11 5.3 ×10(cid:0)12
+7 7 ×10(cid:0)11 3.7 ×10(cid:0)11 1.6 ×10(cid:0)11 4.7 ×10(cid:0)12
+6 6 ×10(cid:0)11 3.2 ×10(cid:0)11 4 ×10(cid:0)11 4 ×10(cid:0)12
+5 5 ×10(cid:0)11 2.7 ×10(cid:0)11 1.1 ×10(cid:0)11 3.3 ×10(cid:0)12
+4 4 ×10(cid:0)11 2.1 ×10(cid:0)11 9.4 ×10(cid:0)12 2.7 ×10(cid:0)12
+3 3 ×10(cid:0)11 1.6 ×10(cid:0)11 6.7 ×10(cid:0)12 2 ×10(cid:0)12
+2 2 ×10(cid:0)11 1.1 ×10(cid:0)11 4.5 ×10(cid:0)12 1.3 ×10(cid:0)12
+1 1 ×10(cid:0)11 5.3 ×10(cid:0)12 2.3 ×10(cid:0)12 6.7 ×10(cid:0)13
+11S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+Table 10
+Stress on FC caused by Aluminium FB impact.
+Breadth (mm) MI (m4) for different FC thicknesses
+5 mm 4 mm 3 mm 2 mm
+22 9.1 17 40 134
+21 9.5 18 42 140
+20 9.8 18 44 147
+19 10 19 46 155
+18 12 20 48 164
+17 13 22 51 173
+16 14 23 55 184
+15 15 25 58 196
+14 17 26 62 210
+13 18 28 67 227
+12 20 31 73 245
+11 21 33 79 268
+10 22 37 87 295
+9 25 41 97 327
+8 28 46 110 368
+7 30 53 120 421
+6 30 61 150 491
+5 40 74 170 589
+4 50 92 220 736
+3 60 120 290 982
+2 90 180 440 1470
+1 200 370 870 2950
+Table 11
+Stress on FC caused by PEEK FB impact.
+Breadth (mm) MI (m4) for different FC thicknesses
+5 mm 4 mm 3 mm 2 mm
+22 3 6 14 48
+21 3.2 6 15 50
+20 3.5 7 16 53
+19 4 7 16 55
+18 4 7.3 17 58
+17 4.1 8 18 62
+16 4.2 8 19 66
+15 4.8 9 21 70
+14 5 9 22 75
+13 5 10 24 81
+12 6 11 26 88
+11 6 12 28 96
+10 7 15 31 110
+9 7 16 35 120
+8 8 20 39 130
+7 10 20 45 150
+6 10 23 52 180
+5 11 30 62 210
+4 20 30 78 260
+3 20 40 100 350
+2 30 70 160 530
+1 70 100 310 1100
+3.2. Case scenario 1
+Case scenario 1 shows the impact of an aluminum FB on a 5 mm thick FC. The simulated deflection in Fig. 9 was 1.01 mm. The
+dimensional instability is shown in Table 16 to occur at a breadth of 5 mm, a MI of 5.2 x 10(cid:0) 11 m4, and a deflection of 1.11 mm. This
+showed a 9 % difference in percentage between the analytical results and the simulated results. According to Table 16, the static stress
+on the FC at 5.2 x 10(cid:0) 11 m4 of MI is 40 MPa. The maximum stress upon impact (280 MPa), was calculated using Eq. (14) with the static
+stress value of 40 MPa. The analytically estimated stress was 280 MPa and the maximum stress of the simulation in Fig. 10 was 288.7
+MPa, resulting in a 3 % inaccuracy.
+12S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+Table 12
+Deflection of FC impacted with an Aluminium FB.
+Breadth (mm) MI (m4) for different FC thicknesses
+5 mm 4 mm 3 mm 2 mm
+22 0.255 0.498 1.18 3.98
+21 0.267 0.522 1.24 4.17
+20 0.281 0.548 1.3 4.38
+19 0.295 0.577 1.37 4.61
+18 0.312 0.609 1.44 4.87
+17 0.33 0.645 1.53 5.16
+16 0.351 0.685 1.62 5.48
+15 0.374 0.703 1.73 5.84
+14 0.401 0.783 1.86 6.26
+13 0.432 0.843 2 6.74
+12 0.468 0.9137 2.16 7.3
+11 0.51 0.996 2.36 7.97
+10 0.561 1.1 2.6 8.77
+9 0.623 1.22 2.89 9.74
+8 0.701 1.37 3.25 11
+7 0.801 1.57 3.71 12.5
+6 0.935 1.83 4.33 14.6
+5 1.12 2.19 5.19 17.5
+4 1.4 2.74 6.49 21.9
+3 1.87 3.65 8.66 29.1
+2 2.8 5.48 13 43.8
+1 5.61 11 26 87.7
+Table 13
+Deflection of FC impacted with a PEEK FB.
+Breadth (mm) MI (m4) for different FC thicknesses
+5 mm 4 mm 3 mm 2 mm
+22 0.0911 0.178 0.422 1.42
+21 0.0977 0.186 0.442 1.49
+20 0.01 0.196 0.464 1.57
+19 0.0105 0.206 0.488 1.67
+18 0.011 0.217 0.4 1.74
+17 0.0111 0.23 0.546 1.84
+16 0.0125 0.245 0.58 1.96
+15 0.0134 0.261 0.618 2.09
+14 0.0143 0.28 0.663 2.24
+13 0.0154 0.301 0.714 2.41
+12 0.0167 0.326 0.773 2.61
+11 0.0182 0.356 0.843 2.85
+10 0.02 0.391 0.928 3.13
+9 0.0223 0.435 1.03 3.48
+8 0.025 0.489 1.16 3.91
+7 0.0286 0.559 1.33 4.47
+6 0.0334 0.652 1.55 5.22
+5 0.0401 0.783 1.86 6.26
+4 0.0501 0.978 2.32 7.83
+3 0.0668 1.3 3.09 10.4
+2 1 1.96 4.64 15.7
+1 2 3.9 9.28 31.3
+3.3. Case scenario 2
+Case 2 shows the impact of a PEEK FB on a 5 mm thick FC. Fig. 11. It shows that the simulation deflection was 0.41 mm, but
+Table 17 demonstrates that at the breadth of 5 mm, the dimensional instability occurs and determines the MI of 5.2 x 10(cid:0) 11 m4, while
+the deflection was 0.401 mm, giving an error margin of about 2 % between the simulation and analytical results. Similarly, the
+maximum stress of 148 MPa was calculated using the static stress of 13 MPa found in Table 17. After impact, the simulation’s highest
+stress was 137 MPa, which was 7 % higher than the theoretically predicted stress (See Fig. 12). A decrease in tension was seen as it
+approached the support end. This is explained by the force and resistance of the FC at the impact location being rather insignificant.
+3.3.1. Strain energy graphs
+The graphical details of the simulation and analytical strain energy for case scenarios 1 and 2 are shown in Figs. 13 and 14,
+13S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+Table 14
+Strain energy of FC impacted with an aluminium FB.
+Breadth (mm) MI (m4) for different FC thicknesses
+5 mm 4 mm 3 mm 2 mm
+22 1.53 2.99 2.1 2.39
+21 1.61 3.14 2.43 2.51
+20 1.69 3.29 2.81 2.63
+19 1.77 3.47 8.22 2.77
+18 1.87 3.66 8.67 2.93
+17 1.98 3.87 9.18 3.1
+16 2.11 4.12 9.76 3.29
+15 2.25 4.39 10.4 3.51
+14 2.41 4.7 11.2 3.76
+13 2.59 5.07 12 4.09
+12 2.81 5.49 13 4.39
+11 3.07 5.99 14 4.79
+10 3.37 6.59 15.6 5.27
+9 3.75 7.32 17.3 5.85
+8 4.22 8.23 19.5 6.59
+7 4.82 9.41 22.3 7.53
+6 5.62 11 26 8.78
+5 6.74 13.2 31.2 10.5
+4 8.43 16.5 39 13.2
+3 11.3 22 52 17.6
+2 16.9 32.9. 78.1 26.3
+1 33.1 69 156 52.2
+Table 15
+Strain energy of FC impacted with a PEEK FB.
+Breadth (mm) MI (m4) for different FC thicknesses
+5 mm 4 mm 3 mm 2 mm
+22 0.345 0.697 1.65 0.557
+21 0.375 0.73 1.73 0.584
+20 0.392 0.766 1.82 0.613
+19 0.431 0.806 1.91 0.645
+18 0.436 0.851 2.02 0.681
+17 0.461 0.901 2.14 0.721
+16 0.49 0.958 2.27 0.766
+15 0.523 1.02 2.42 0.871
+14 0.56 1.09 2.59 0.876
+13 0.603 1.18 2.79 0.94
+12 0.654 1.28 3.03 1.02
+11 0.713 1.39 3.3 1.11
+10 0.785 1.53 3.63 1.23
+9 0.872 1.75 4.04 1.36
+8 0.981 1.93 4.54 1.53
+7 1.12 2.19 5.19 1.75
+6 1.31 2.55 6.05 2.04
+5 1.57 3.06 7.26 2.45
+4 1.96 3.83 9.08 3.06
+3 7.85 5.11 12.1 4.09
+2 35.7 7.66 18 6.13
+1 37.4 15.1 36.3 12.3
+By reducing the breadth and FC thickness (which reflects the height), the MI methodology’s study has been shown. The numerical model assessed
+the following section of this methodology.
+respectively. The graphs show the same flow of dynamic penetration effects over time for both the simulation and the analytical
+calculations, with case scenario 1’s dynamic impact effect becoming more stable and case scenario 2’s dynamic impact effect becoming
+unstable due to polymer bounce effects on impact. At the point of impact, the strain energy was at its highest; over time, the energy
+decreases. Due to the impact force being higher than that of PEEK FB, FC impact with aluminum FB stores more energy.
+3.3.2. Kinetic energy
+The kinetic energy behavior of the PEEK and aluminum FB is shown in Fig. 15. According to the image, the PEEK FB had a lower
+pitch of kinetic energy than the aluminum FB. Therefore, it is obvious that the FC has suffered more deformation as a result of the
+aluminum FB. The kinetic energy pitch of the PEEK and aluminum FBs persisted for 0.3 ms before stabilizing.
+14S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+Fig. 9. The simulated deflection for case scenario 1.
+Fig. 10. the maximum stress of the simulation for case scenario 1.
+Fig. 11. The simulated deflection for case scenario 2.
+3.3.3. Sensitivity results
+The deflection, maximum stresses, and strain energy of all 8 case scenarios examined in this study were used as the basis for the
+sensitivity analysis. Fig. 16 shows the order of the increase in plastic deformation of the various case scenarios, while Table 18 shows
+15S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+Fig. 12. the maximum stress of the simulation for case scenario 2.
+Table 16
+The MI methodology for case scenario 1.
+Breadth (mm) Moment of Inertia (M4) Deflection (mm) Static Stress (MPa)
+22 2.3 ×10(cid:0)10 0.255 9.1
+21 2.2 ×10(cid:0)10 0.267 9.5
+20 2.1 ×10(cid:0)10 0.281 9.8
+19 1.9 ×10(cid:0)10 0.295 10
+18 1.8 ×10(cid:0)10 0.312 12
+17 1.7 ×10(cid:0)10 0.33 13
+16 1.6 ×10(cid:0)10 0.351 14
+15 1.5 ×10(cid:0)10 0.374 15
+14 1.4 ×10(cid:0)10 0.401 17
+13 1.3 ×10(cid:0)10 0.432 18
+12 1.1 ×10(cid:0)10 0.468 20
+11 1 ×10(cid:0)10 0.51 21
+10 1 ×10(cid:0)10 0.561 22
+9 9.4 ×10(cid:0)11 0.623 25
+8 8 ×10(cid:0)11 0.701 28
+7 7 ×10(cid:0)11 0.801 30
+6 6 ×10(cid:0)11 0.935 30
+5 5.2 ×10(cid:0)11 1.11 40
+4 4 ×10(cid:0)11 1.4 50
+3 3 ×10(cid:0)11 1.87 60
+2 2 ×10(cid:0)11 2.8 90
+1 1 ×10(cid:0)11 5.61 200
+the deflection of the case scenarios upon impact. Table 19 presents the maximum stress analysis after impact for the case scenarios, and
+Table 20 presents the strain energy for each of the eight case scenarios. The intention was to analyze the deflection of the FC in order to
+establish the FB’s maximum deflection or penetration depth. It can be shown that none of the impacts pierced the FCs in any of the
+assessments and outcomes of the case scenarios. The MI methodology and the calculation of the maximum stress and deflection
+correlated well. The simulated strain energy graph and MI methodology exhibit a similar behavior for the strain energy of the case
+scenarios. The case scenarios impacted with the aluminium FB produced more strain energy and more deformation with a stabilized
+dynamic penetration effect in contrast to the case scenarios impacted with PEEK, which took longer to stabilize their penetration effect
+but showed less FC deflection., The FB that would deform the FC more was also determined by the kinetic energy of both FBs.
+4. Discussion and findings
+4.1. Discussion
+The number of elements on the FC’s borders and the mesh size at the impact zone both significantly affected the simulation’s
+outcomes. To achieve good correlation, it was found that the thinner FC plate dimensions needed a coarse mesh size at the impact zone
+and fewer elements on the sides of the edges, whereas the thicker FC plate dimensions needed a finer mesh size at the impact zone and
+more elements on the sides of the edges. Fundamentally, the thickness of the FC decides whether the FB impact will enter the FC or
+16S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+Table 17
+The MI methodology for Case scenario 2.
+Breadth (mm) Moment of Inertia (M4) Deflection (mm) Static Stress (MPa)
+22 2.3 ×10(cid:0)10 0.0911 3
+21 2.2 ×10(cid:0)10 0.0977 3.2
+20 2.1 ×10(cid:0)10 0.1 3.5
+19 1.9 ×10(cid:0)10 0.105 4
+18 1.8 ×10(cid:0)10 0.11 4
+17 1.7 ×10(cid:0)10 0.111 4.1
+16 1.6 ×10(cid:0)10 0.125 4.2
+15 1.5 ×10(cid:0)10 0.134 4.8
+14 1.4 ×10(cid:0)10 0.143 5
+13 1.3 ×10(cid:0)10 0.154 5
+12 1.1 ×10(cid:0)10 0.167 6
+11 1 ×10(cid:0)10 0.182 6
+10 1 ×10(cid:0)10 0.2 7
+9 9.4 ×10(cid:0)11 0.223 7
+8 8 ×10(cid:0)11 0.25 8
+7 7 ×10(cid:0)11 0.286 10
+6 6 ×10(cid:0)11 0.334 10
+5 5.2 ×10(cid:0)11 0.401 13
+4 4 ×10(cid:0)11 0.501 20
+3 3 ×10(cid:0)11 0.668 20
+2 2 ×10(cid:0)11 1 30
+1 1 ×10(cid:0)11 2 70
+Fig. 13. Strain energy of case scenario 1.
+Fig. 14. Strain energy of case scenario 2.
+17S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+Fig. 15. Kinetic energy of the FBs.
+Fig. 16. Order of severity of deformation of the 8 case scenarios.
+Table 18
+Deflection sensitivity of the 8 case scenarios (CS).
+Deflection (mm)
+CS FC thickness and FB material Simulation Analytical % Difference
+1 5 mm FC and Aluminium FB 1.01 1.11 9
+2 5 mm FC and PEEK FB 0.401 0.041 2
+3 4 mm FC and Aluminium FB 2.79 2.74 1.5
+4 4 mm FC and PEEK FB 0.578 0.559 3
+5 3 mm FC and Aluminium FB 4.45 4.33 3
+6 3 mm FC and PEEK FB 0.775 0.773 0.25
+7 2 mm FC and Aluminium FB 9.64 9.74 1
+8 2 mm FC and PEEK FB 4.7 4.47 5
+generate a deflection that will harm nearby wires or sensors. It was found that the deflection sharply increases after the FB to FC ratio
+reaches 1:1.5, at which point the deflection exceeds the thickness of the FC. A deflection ratio of this kind can damage the sensors or
+cables close to the FC. The impact is significantly influenced by the kinetic friction between the projectiles and the FC. As a result, none
+of the FB that pierced the FC showed signs of the friction’s impact resistance; instead, some collisions merely caused the FC to swell.
+Cases 2, 4, and 6 all had modest deflection of the 5 mm, 4 mm, and 3 mm FCs due to the PEEK FB impact. All three of the cases were
+found to be eligible for blade containment since the three deflections were so slight. The deflection for case 8, a 2 mm FC that was
+struck by a PEEK FB, was roughly twice as thick as the FC, preventing the FB from penetrating the FC. However, it was decided that it
+was not suitable for blade confinement since it would cause additional damage to the aircraft engine.
+In cases 1 and 3, the impact of the aluminum FB caused greater damage to the 5 mm and 4 mm FCs, despite the fact that the
+deflection was less than the thicknesses of the FCs. This suggests that the FCs would confine the FB without causing any additional
+damage. However, in cases 5 and 7, which involved FCs with thicknesses of 3 mm and 2 mm, respectively, the aluminium FB severely
+damaged those FCs as a result of the extremely high deflections that it was subjected to. This suggests that taking into account the 3 mm
+18S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+Table 19
+Maximum stress sensitivity of the 8 case scenarios (CS).
+Maximum Stress (MPa)
+CS FC thickness and FB material Simulation Analytical % Difference
+1 5 mm FC and Aluminium FB 288 304 5
+2 5 mm FC and PEEK FB 137 148 7
+3 4 mm FC and Aluminium FB 491 462 6
+4 4 mm FC and PEEK FB 195 188.5 3.5
+5 3 mm FC and Aluminium FB 669 632 6
+6 3 mm FC and PEEK FB 357.5 389.9 8
+7 2 mm FC and Aluminium FB 1798 1619 9
+8 2 mm FC and PEEK FB 679 632 7
+Table 20
+Strain energy of the 8 case scenarios.
+Strain Energy (J)
+CS FC thickness and FB material Simulation Analytical % Difference
+1 5 mm FC and Aluminium FB 11.4 11.2 2
+2 5 mm FC and PEEK FB 8.2 7.85 4
+3 4 mm FC and Aluminium FB 15.58 16.5 6
+4 4 mm FC and PEEK FB 5.4 15.1 6
+5 3 mm FC and Aluminium FB 15.3 15.6 2
+6 3 mm FC and PEEK FB 8.85 9.08 2.5
+7 2 mm FC and Aluminium FB 10 10.5 5
+8 2 mm FC and PEEK FB 4.3 4.09 5
+and 2 mm FCs would be risky. The aircraft would malfunction from this kind of damage, and the engine would probably shut off. The
+visible dents indicate that the cables and sensors may have been damaged. The FB containment simulation was modeled utilizing the J-
+C simulation methodology. The findings showed that the Johnson-Cook model’s plasticity behavior works mediocrely well for blade
+containment issues. This was seen in the behavior of the PEEK and aluminum FBs as they affected the varied thicknesses of aluminum
+FCs in the numerical simulation.
+When the aluminium FB struck the FCs, these FCs underwent significant plastic deformation, but no penetration occurred in any
+simulation. The impacted FCs did not undergo any appreciable plastic deformation in relation to the PEEK FB. The following obser-
+vations from several cases are provided:
+Cases 1 and 2 include the 5 mm casing being struck by aluminium and PEEK FBs, respectively. The results of the MI methodology
+are consistent with the minor deflection that was seen on the FC from the impacts of these FBs. Both FBs were appropriate in this
+situation because none of them managed to breach the 5 mm FC. Additionally, the deflection on both cases is substantially smaller than
+the actual FC thicknesses. The deflections of the PEEK and aluminum FBs were, respectively, 0.41 mm and 1.01 mm. From these
+findings, it was clear that the PEEK FB was better suited due to its contribution to lowering the aircraft’s overall weight, improving fuel
+efficiency, and resulting cost reduction. The PEEK blade does not harm the case as severely as the aluminium blade, according to the
+simulation stress findings of the impacts of both blades. Regarding cases 3 and 4, the 4 mm FC that was struck by the aforementioned
+FBs deflected by 2.7 mm for the aluminium FB and by 0.578 mm for the PEEK FB. But neither of the FBs managed to enter the FC. The
+cables and sensors may be compressed by the FC’s deflection brought on by the aluminum FB. This could lead to the sensors gradually
+failing and the wires connecting the engine and control system malfunctioning, which could lead to an aircraft failure.
+Cases 5 and 6, which had 3 mm FCs, had an aluminum FB impact deflection of 4.45 mm but no penetration. The attached sensors
+would suffer immediate damage even if there was no penetration since the impact of the FB on the FC may create sharp edges that
+could damage the aircraft’s body structure. On the other hand, the PEEK FB’s impact on the FC resulted in a modest 0.56 mm
+deflection. Results from cases 7 and 8 showed that a 2 mm FC that had been struck by both an aluminum and a PEEK FBs deflected by
+9.13 mm and 4.7 mm, respectively. In this instance, neither of the blades broke through the FC. The sensors and cables would suffer
+severe damage since the impact deflections of the FBs are far greater than the thickness of the casing. This demonstrated that the post-
+yield deformation of the 2 mm FC had occurred, which is outside the scope of the current investigation and is not described here. The 2
+mm FC shouldn’t be employed, according to the judgment drawn in this case after observation.
+The MI methodology’s findings were consistent with the deflections of all the FCs. To validate the MI methodology, the stress
+simulation of the analysis on the various casing thicknesses was performed. If the stress and deflection percentage errors are both larger
+than 10 %, it might be wise to conduct experiments to verify the findings. Both the projectile and the target bend when they collide, yet
+the mass and material characteristics are unaltered. These shape alterations have an impact on the MI because of the plastic defor-
+mation. The proposed MI methodology accurately validated the generated numerical model, with good correlations between all eight
+simulated deflections and maximum stresses in both methods. The suggested moment of inertia approach takes into account the
+deformation that occurs between the projectile and target during impact, which modifies the MI. Studies in the literature have
+demonstrated that after an impact, the shapes of two colliding bodies change. As a result, the FC and FB’s moment of inertia were
+19S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+changed for this investigation.
+On the four various thicknesses of the casings, the strain energy exhibited dynamic behavior. According to the examination of the
+FC strain energy, all of the graphs have a single plateau, which is then followed by a slow decline and a stable region. According to
+Olsson, Donadon, and Falzon [33], an impactor will react energetically differently to projectiles of differing masses. The impact of
+PEEK and aluminum FBs in this investigation showed that a tiny mass projectile will not have enough time to deflect and will behave
+transversely from the impactor. Despite sharing the same properties, the strain energy graphs stabilized at different values. As a result,
+it was shown that the dynamic effects on FCs by the PEEK FB are unstable and take some time to stabilize. The time at which the
+deformation occurs is indicated by the plateau. After then, the strain energy steadily drops and stabilizes, leading to a no penetration
+event at 255 m/s in velocity. The strain energy graphs produced by the numerical model and those produced by the MI methodology,
+both demonstrated the same pattern and a very strong correlation, it is crucial to note at this point.
+Findings showed that the high energy of both the aluminum and the PEEK FBs was 0.3 ms (ms), when comparing the kinetic energy
+findings of the two types of FBs. The plateau seen in the graph of the aluminum FB, however, is larger than that of the PEEK FB. If the
+speed were raised, the aluminum FB’s material qualities would cause a distortion that would seriously damage the FC or enter the FC.
+Even if the speed is increased, the PEEK blade is less likely to penetrate since its kinetic energy is roughly one-fourth that of the
+aluminum FB. Instead, it might cause the blade to shatter or the FC to deflect more. The numerical model was unable to account for all
+the incidences that occurred during the experiments, according to Sharma et al. [34], who discussed the noticeable error discrepancy
+between the experimental and numerical assessments. Because the MI methodology in this study is unable to account for the
+temperature-related incidents that happened in the numerical model, it may be concluded that there is an error difference between the
+numerical model and that methodology.
+4.2. Findings
+1. No penetration was seen in any of the cases, regardless of the FB material or FC thickness; nonetheless, the amount of deformation
+decreased as the FC thickness increased.
+2. The strain energy, maximum stress, and deflection sensitivity analysis tables all displayed the same deformation pattern.
+3. Excessive plasticity was present in Cases 8, 7, 5, and 3, in that sequence.
+4. Cases 2, 1, 4, and 6, in the order given, deform within the elastic zone.
+5. The outcomes showed that the model’s plasticity behavior, as predicted by Johnson-Cook, is effective for solving FB containment
+issues.
+6. The proposed MI methodology accurately validated the constructed numerical model, and all of the deflection and maximum
+stresses for the eight simulated cases closely correlated.
+5. Conclusions
+A new methodology MI approach was developed to account for a projectile’s ability to instantly change shape. The simulation
+model and the MI methodology have a high correlation. Prior research on ballistic test experiments has proved to be expensive. Hence,
+the MI methodology has shown to be a practical and affordable way to validate the numerical model. The findings led to the following.
+• The MI of the case was influenced by the FB’s shape, and it influences how resistant it is to deflection.
+• There was a correlation between the simulation (conducted using ABAQUS/Explicit 2017) and the MI methodology.
+• The MI methodology is appropriate for ballistic collisions
+Based on these findings lead it is concluded that PEEK can be utilized to make FBs because of the material’s dependability and
+potential to reduce the risk of non-containment problems. In addition, PEEK material is appropriate for a 2 mm FB with a 5 mm or 4
+mm FC. Another benefit is that manufacturing a PEEK FB only requires two days, compared to seven days for an aluminum FB. The
+order of rank for a different range to choose the best FC would be Case 2, 1, 4, 3, 6, 5, and 7. Using the MI methodology, additional
+research on the impact of various projectile shapes can be conducted.
+Data availability statement
+Data associated with this study has been deposited into Tshwane University of Technology library - Pretoria Campus.
+Additional information
+No additional information is available for this paper.
+CRediT authorship contribution statement
+Shade Rouxzeta VAN Der Merwe: Writing – review & editing, Writing – original draft, Visualization, Validation, Supervision,
+Software, Resources, Project administration, Methodology, Investigation, Funding acquisition, Formal analysis, Data curation,
+Conceptualization, Writing – review & editing, Writing – original draft, Visualization, Validation, Supervision, Software, Resources,
+20S. Rouxzeta VAN Der Merwe et al. H e l i y o n 1 0 (2024)e24157
+Project administration, Methodology, Investigation, Funding acquisition, Formal analysis, Data curation, Conceptualization. Dawood
+Ahmed Desai: Writing – original draft, Visualization, Validation, Supervision, Software, Resources, Project administration, Meth-
+odology, Investigation, Funding acquisition, Formal analysis, Data curation, Conceptualization. Glen Campbell Snedden: Writing –
+original draft, Visualization, Validation, Supervision, Software, Resources, Project administration, Methodology, Investigation,
+Funding acquisition, Formal analysis, Data curation, Conceptualization. Daniel Ogochukwu Okanigbe: Writing – review & editing.
+Declaration of competing interest
+The authors declare the following financial interests/personal relationships which may be considered as potential competing in-
+terests: There are no direct or indirect conflict of interest with respect to this research paper. Hence, the processing of this manuscript
+can proceed without any concern of dispute between direct and indirect parties involved. Thank you.Regards, Ms Shade Rouxzeta VAN
+DER MERWE.
+Acknowledgements
+The authors will want to appreciate Tshwane University of Technology, Pretoria, South Africa, for allowing use of facilities.
+References
+[1] E. Silveira, G. Atxaga, A.M. Irisarri, Failure analysis of two sets of aircraft blades, Eng. Fail. Anal. 17 (3) (2010) 641–647.
+[2] A.C. Kemp, J. Dalal, U. Tassawar, C.T. Lu, Safety analysis of uncontained engine failure-Southwest Airlines flight 1380, International Journal of Crisis
+Management 11 (1) (2021) 13–23.
+[3] A. Kanso, L. Grassmuck, A Crisis in the Air: Analyzing public relations at southwest airlines to restore public trust, in: Competition Forum (Vol. 18, No. 1/2, Pp.
+148-156), American Society for Competitiveness, 2020.
+[4] A.N. Kane, A.S. Jadhav, S. Sahamate, V. Kokare, K.B. Jadhav, Review of aircraft crash reports and engine pod location, in: 2021 IEEE Pune Section International
+Conference (PuneCon), IEEE, 2021, December, pp. 1–9.
+[5] H.J. Xuan, R.R. Wu, Aeroengine turbine blade containment tests using high-speed rotor spin testing facility, Aero. Sci. Technol. 10 (6) (2006) 501–508.
+[6] Z. He, H. Xuan, C. Bai, Y. Hu, P. Cong, H. Bai, Y. Miao, W. Hong, Containment tests and analysis of soft wall casing fabricated by wrapping Kevlar fabric around
+thin metal ring, Aero. Sci. Technol. 61 (2017) 35–44.
+[7] B. Yang, Blade containment evaluation of civil aircraft engines, Chin. J. Aeronaut. 26 (1) (2013) 9–16.
+[8] Q. He, H.J. Xuan, L.F. Liao, W.R. Hong, R.R. Wu, Simulation methodology development for rotating blade containment analysis, J. Zhejiang Univ. - Sci. 13
+(2012) 239–259.
+[9] K.S. Carney, J.M. Pereira, D.M. Revilock, P. Matheny, Jet engine fan blade containment using an alternate geometry, Int. J. Impact Eng. 36 (5) (2009) 720–728.
+[10] B. Horton, J. Bayandor, Numerical investigation of fan-blade out using meso-scale composite modeling, in: 30th Congress of the International Council of the
+Aeronautical Sciences, ICAS, 2016, pp. 1–8.
+[11] W. Li, M.F. Goodchild, R. Church, An efficient measure of compactness for two-dimensional shapes and its application in regionalization problems, Int. J. Geogr.
+Inf. Sci. 27 (6) (2013) 1227–1250.
+[12] S. Selepe, Containments Test Report, CSIR, Aeronautical Systems, 2018.
+[13] J.M. Gere, B.J. Goodno, Mechanics of Materials, Cengage learning, 2012.
+[14] N. Cosme, D. Chevrolet, J. Bonini, B. Peseux, P. Cartraud, Prediction of transient engine loads and damage due to hollow fan blade-off, Revue Europ´eenne des
+El´ements 11 (5) (2002) 651–666.
+[15] P. Sharma, P. Chandel, V. Bhardwaj, M. Singh, P. Mahajan, Ballistic impact response of high strength aluminium alloy 2014-T652 subjected to rigid and
+deformable projectiles, Thin-Walled Struct. 126 (2018) 205–219.
+[16] S.I. Moon, C.H. Kim, J.C. Koo, J.B. Choi, Y.J. Kim, Y.J. Kim, Simplified static analysis for shock behavior evaluation of thin glass plates, Solid State Phenom. 110
+(2005) 263–270.
+[17] Q. He, Z. Xie, H. Xuan, L. Liu, W. Hong, Multi-blade effects on aero-engine blade containment, Aero. Sci. Technol. 49 (2016) 101–111.
+[18] J.F. Chinella, B. Pothier, M.G. Wells, Processing, Mechanical Properties, and Ballistic Impact Effects of Austempered Ductile Iron, Army Research Lab Aberdeen
+Proving Ground Md, 1998.
+[19] C.A. Calder, W. Goldsmith, Plastic deformation and perforation of thin plates resulting from projectile impact, Int. J. Solid Struct. 7 (7) (1971) 863–881.
+[20] H. Amarchinta, Uncertainty Quantification of Residual Stresses Induced by Laser Peening Simulation, 2010.
+[21] Q. He, H.J. Xuan, L.F. Liao, W.R. Hong, R.R. Wu, Simulation methodology development for rotating blade containment analysis, J. Zhejiang Univ. - Sci. 13
+(2012) 239–259.
+[22] A. Hor, F. Morel, J.L. Lebrun, G. Germain, Modelling, identification and application of phenomenological constitutive laws over a large strain rate and
+temperature range, Mech. Mater. 64 (2013) 91–110.
+[23] M. Kumar, U. Deep, P.M. Dixt, Simulation and analysis of ballistic impact using continuum damage mechanics (CDM) model, Procedia Eng. 173 (2017)
+190–197.
+[24] K. Jamison, S. Sneddon, G. Turner, Developing a Ram-Air Turbine (RAT) Power Supply System for a High-Speed, CSIR: Aeronautical Systems, 2018.
+[25] I.S. Boldyrev, I.A. Shchurov, A.V. Nikonov, Numerical simulation of the aluminum 6061-T6 cutting and the effect of the constitutive material model and failure
+criteria on cutting forces’ prediction, Procedia Eng. 150 (2016) 866–870.
+[26] D. Garcia-Gonzalez, A. Rusinek, T. Jankowiak, A. Arias, Mechanical impact behavior of polyether–ether–ketone (PEEK), Compos. Struct. 124 (2015) 88–99.
+[27] Q. He, H.J. Xuan, L.F. Liao, W.R. Hong, R.R. Wu, Simulation methodology development for rotating blade containment analysis, J. Zhejiang Univ. - Sci. 13
+(2012) 239–259.
+[28] DASSAULT. 6.14. Continuum elements. In Guide, A.a.U.S. (Ed.), SIMULIA. Online.
+[29] D.A. Desai, Prediction and Reduction of Low-Frequency Vibro-Acoustic Transmission through Automotive Door Mounts, 2010.
+[30] A.U.S. Manual, Dassault Syst´emes Simulia Corp, providence, Rhode Island, USA, 2012.
+[31] N. Behary, Micro Gas Turbine Parameterised Shaft Design, 2015.
+[32] K. Koenig, N.D. Mitchell, T.E. Hannigan, J.K. Clutter, The influence of moment of inertia on baseball/softball bat swing speed, Sports Eng. 7 (2004) 105–117.
+[33] R. Olsson, M.V. Donadon, B.G. Falzon, Delamination threshold load for dynamic impact on plates, Int. J. Solid Struct. 43 (10) (2006) 3124–3141.
+[34] A. Sharma, R. Mishra, S. Jain, S.S. Padhee, P.K. Agnihotri, Deformation behavior of single and multi-layered materials under impact loading, Thin-Walled Struct.
+126 (2018) 193–204.
+21

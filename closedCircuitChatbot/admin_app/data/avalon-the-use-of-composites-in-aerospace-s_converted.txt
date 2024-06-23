@@ -1,0 +1,591 @@
+The Use of composites in aerospace:
+Past, present and future challenges.
+Dr Faye Smith, CEng, FIMMMContents
+Introduction to composites.
+
+Use of composites in aerospace.
+
+Current challenges and opportunities.
+
+Future challenges and opportunities.
+
+Summary.
+
+2 © 2013 Avalon Consultancy Services LtdIntroduction to Composites
+Introduction to Composites
+3 © 2013 Avalon Consultancy Services LtdMaterial Evolution
+Evolution is driven by economics, logistics and the
+
+expectations of society.
+Evolution is facilitated by developments in materials,
+
+processing methods and design tools (understanding of
+materials).
+4 © 2013 Avalon Consultancy Services LtdMaterial evolution
+Stone age
+Bronze age
+Material Ages
+Iron age
+Steel age of Man
+Plastics age
+Silicon Age
+Designer materials age
+5 © 2013 Avalon Consultancy Services LtdWhat Are Composites?
+A composite material is one which is composed of at
+
+least two elements working together to produce material
+properties that are different to the properties of those
+elements on their own.
+Typically reinforcing fibres in a matrix.
+
+The ultimate ‘designer material’!
+
+6 © 2013 Avalon Consultancy Services LtdA wealth of design options
+7 © 2013 Avalon Consultancy Services LtdComposite properties
+For a given stiffness, composites have low Composites have excellent specific
+density. strength and stiffness.Swot analysis
+Strengths
+Opportunities
+ Properties.
+ Innovative manufacturing
+ High strength to weight ratio.
+(automation, ALM, OOA).
+ Fatigue resistance.
+ Corrosion resistant – reduced life  New recycling technologies.
+cost.
+ Legislation.
+ Tailor properties within a part.
+ Smart/functional materials (self
+ Complex shapes possible.
+healing, heating, morphing,
+ Lower pressure tooling.
+SHM).
+ Reduced part and fastener count.
+ Reduced materials waste.
+Weaknesses Threats
+ High cost.  Titanium – FFC process.
+ Damage tolerance.  Innovation in metals (machining/ ALM/
+ NDT requirements. super plastic forming).
+ Lack of design data and tools  Recycling Issues.
+(improving).  High profile failures.
+ Uncertainties in failure prediction  Material shortages.
+(improving).  Legislation (REACH).
+ Need specialised repair  Cost of oil.
+techniques.
+9 © 2013 Avalon Consultancy Services LtdUse of Composites in Aerospace
+Applications
+Use of Composites in Aerospace Applications
+10 © 2013 Avalon Consultancy Services LtdAircraft Composite Content
+Graph shows:
+Civil aircraft in black, military in
+
+purple.
+)
+t
+ Historically military used more h
+g
+composite than civil.
+ie
+w
+y
+ Since 2005, civil aircraft have b
+(
+e
+dramatically increased the
+t
+is
+o
+composite content. p
+m
+ Airbus has relatively steadily o
+c
+increased its usage of s
+i
+t
+a
+composites over the years. h
+t
+t
+ Boeing has jumped from 12% f a
+r
+c
+composite by weight in the 777, r ia
+f
+to 50% composite by weight in o
+%
+the 787.
+ Next generation single aisle –
+percentage composite and
+launch date still unknown.
+11 © 2013 Avalon Consultancy Services LtdEvolution composite application at Airbus
++ Main Wing
++ Center wing box
++ Fuselage
++ Flaps + Wing ribs
++ Rear bulkhead A350
++ Dry HTP box + Rear unpress.
++ Keel beam
++ LG doors Fuselage
++ J-nose
++ Engine + Cross beams
+A380
+cowlings
++ Elevators
++ VTP box
++ Wet HTP box
++ Rudder + Ailerons A340-600
+Fairings + Spoilers A320
+A330 / A340
+Radome + Airbrakes + Upper Wing
+A310 A400M
+A300
+1970-1980 1980-1990 1990-2000 2000-2013
+A330-300
+A340-600/500
+A310-300 A320-200 A380 A350
+A300-B2 A310-200 A340-300
+A400M
+12 © 2013 Avalon Consultancy Services LtdAircraft composite content
+13 © 2013 Avalon Consultancy Services LtdExplanation
+Development of composites for aerospace use was both costly and
+
+potentially risky, therefore initial development was performed by military who
+had relatively large development budgets and are not so risk averse as the
+civil side.
+On the civil side, composite development was restricted to non-structural
+
+applications.
+However, the drivers to produce light-weight
+
+structures were provided by:
+Price of oil
+
+Change in attitude towards environmental issues
+
+(e.g. the ACARE targets of 50% reduction in C0 ,
+2
+a 50% reduction in perceived noise and an 80%
+Reduction in NO by 2020).
+x
+Predicted increase in airline
+
+traffic.
+14 © 2013 Avalon Consultancy Services LtdExplanation
+Composites give the OEMs the opportunity to produce lightweight
+
+structures thereby reducing fuel bills and reducing emissions.
+The cost of development and introduction of these new structures is
+
+now offset by the gains.
+Hence the increase in the usage of composites in aerostructures.
+
+15 © 2013 Avalon Consultancy Services LtdCurrent Challenges and
+Opportunities:
+1. Manufacturing
+2. MRO
+3. Functional composites
+4. Reputational damage
+16 © 2013 Avalon Consultancy Services Ltd1.Manufacturing
+Prepreg and autoclave cure has traditionally been the standard for
+
+aerospace - necessary to guarantee ultimate quality (high V ).
+f
+Not appropriate for very large scale structures and preparation and
+
+cycle times are long.
+Lay-up process Autoclave Cure process
+17 © 2013 Avalon Consultancy Services LtdManufacturing
+With build rates rising to satisfy demand, the OEMs needed to find a
+
+way, without compromising quality, to:
+Increase production rate.
+
+Eliminate autoclave.
+
+This has produced two trends:
+
+Automated production.
+
+e.g. Automated tape laying (ATL),
+automated fibre placement (AFP).
+Out of autoclave processing.
+
+e.g. Infusion, SCRIMP, RFI, RTM.AFP/ATL
+AFP (automated fibre placement)
+
+and ATL (automated tape laying)
+provide rapid automated
+placement of strips of prepreg
+material onto a mould.
+AFP can be used with much more
+
+complex geometries because it
+lays narrow tows, which can be
+steered over sharply curved
+surfaces whereas wider tapes
+cannot be so placed without
+buckling some of the fibres and
+potentially weakening the
+laminate.
+Cure can either be done in or out
+
+of an autoclave as long as an
+appropriate material is used.
+Examples of usage are 787 nose
+
+and A350 fuselage panels.Out of autoclave processing
+Process involves laying up of dry
+
+fabric and introduction of resin either
+in wet or film form using a vacuum to
+pull it through the fabric.
+There are many variations on the
+
+technique and therefore a wealth of
+names and acronyms – vacuum
+infusion, resin film infusion (RFI),
+vacuum assisted resin transfer
+moulding (VARTM), SCRIMP etc.
+This technique allows the use of
+
+technical textiles, which provides
+more design freedom and enhanced
+through thickness properties.
+However, the resin usually has to
+
+have a relatively low viscosity to
+allow it to flow through the fabric,
+which can mean compromising on
+toughness of the final part.
+Example – A380 rear bulkhead and
+
+A400M cargo door.Textiles
+21 © 2013 Avalon Consultancy Services Ltd2. MRO - Maintenance
+Maintenance, repair and overhaul (MRO) requirements of composites are
+
+very different from those of metals.
+Shorter track record of use than metallic structures, many MRO companies
+
+therefore do not have much experience of maintaining composite structures.
+Parts are designed to cope with typical defects/damage (although given
+
+variations in microstructure in composites, even this can be difficult) but non-
+destructive testing is required to pick up damage/growth beyond these limits.
+Specific challenges with maintenance:
+
+Specific defect types due to inhomogeneous nature of composites.
+
+Defects are initiated during manufacturing as well as in-service.
+
+Inspection regime usually involves use of several NDT techniques.
+
+New and developments in existing techniques offer improvements in
+
+current state of the art, but these need to be validated and certified.
+22 © 2013 Avalon Consultancy Services LtdManufacturing Defect Types
+Fibre misalignment.
+
+Inappropriate fibre volume fraction.
+
+Overlap or gap between fibre bundles.
+
+Knots or missing roving.
+
+Inclusions and contamination.
+
+Uneven, insufficient or over curing.
+
+Non-uniform hardener content.
+
+Cure shrinkage (Delamination, broken & buckled fibres and matrix cracking).
+
+Excessive porosity or voids.
+
+Poor wet-out and/or dry spots.
+
+23 © 2013 Avalon Consultancy Services LtdIn-Service Defect Types
+Impact damage
+
+Ballistic damage
+
+Moisture ingression
+
+Chemical attack.
+
+UV damage & weathering
+
+Erosion or abrasion
+
+Fatigue
+
+24 © 2013 Avalon Consultancy Services LtdNDT Methods
+Visual.
+
+Ultrasonics.
+
+Radiography.
+
+Thermography.
+
+Laser shearography.
+
+Coin and tap testing.
+
+Microwave.
+
+Acoustic.
+
+25 © 2013 Avalon Consultancy Services LtdMRO - Repair
+Damage to composites or repair of damage to
+
+composites involves cutting of fibres,
+therefore strength and stiffness of a repaired
+composite will always be compromised.
+Repair of composites usually uses one of 2
+
+techniques; bolting a patch (potentially metal)
+over the damaged area or scarf repair.
+A bolted patch increases weight.
+
+Scarf repair techniques require clean
+
+conditions, are time consuming and have
+traditionally utilised expensive, and difficult to
+store, prepregs.
+In-field repair techniques based on dry fabric
+
+preforms and infusion are being investigated.
+Possible problems centre around the use of
+brittle resins for infusion and the likelihood of
+poor fatigue life and shock resistance.
+26 © 2013 Avalon Consultancy Services Ltd3. Functional Composites
+By virtue of the fact that composite materials consist of more than one material,
+and the material is formed at the same time as the part, it is possible to
+incorporate other materials or structures during processing to provide
+integrated functionality to the part.
+The following slides provide examples of research being done to provide
+additional functionality to composite structures in the areas of:
+ Self-healing
+ Sensing
+ Morphing
+ Lightning protection
+ Energy storage
+27 © 2013 Avalon Consultancy Services LtdSelf-Healing Composites
+Examples:
+ Hollow fibres. (I. Bond, et al.
+Bristol University)
+ ‘Lost wax’ process. R. Trask et
+al. Bristol University.
+Sheffield Solid State Healing.
+
+Courtesy of Bristol University
+S. Hayes et al. Sheffield
+University
+Courtesy of Sheffield University
+28 © 2013 Avalon Consultancy Services LtdSensing
+In order to trigger self-healing, composites needs to be
+able to detect damage, i.e. contain a health monitoring
+system. There are many approaches under development
+including:
+Fibre Optic/Bragg Gratings
+ (e.g. Aston Uni, Birmingham Uni,
+Insensys, Ulster (woven structures)).
+Carbon nanotubes/graphene
+ (Reading Uni, Imperial, Bristol
+Uni, Cambridge Uni etc.)
+Ferromagnetic microwires
+ (Bristol Uni)
+Acoustic Emission
+ (Airbus)
+.
+29 © 2013 Avalon Consultancy Services LtdMorphing
+Structures that can change shape negate the need for motors and other
+weight adding mechanisms.
+Examples from Bristol University:
+Tow-steered composites with variable stiffness to form bi-stable
+
+structures. A. Panesar and P. Weaver.
+Morphing corrugated structures, C.Thill et al.
+
+Prestressed, bistable composites.
+
+Daynes, S., Weaver, P., Potter, K., and Hardick, M., U.K. Patent
+Application
+30 © 2013 Avalon Consultancy Services LtdLightning Protection
+Two types of effect caused by lightning strike:
+
+ Physical damage at attachment locations.
+ Indirect effects from induced voltage and current.
+Prevention methods in composite structures:
+
+ Cu foils & meshes in the outer plies.
+ Co-bonding Cu strips to the inside skins of panels.
+ Insulation caps on collars, nuts and fasteners.
+ Conductive paints (sprayed metal).
+ Al foil strips for shielding.
+ Nickel-coated carbon fibres.
+Examples of new innovations:
+
+ MAST Consortium (UK MoD programme) developed an integral
+woven SMA/carbon fibre preform. Improved damage tolerance
+AND lightning protection.
+ Bristol, M. Russ et al – CNT coatings for lightning protection.
+31 © 2013 Avalon Consultancy Services LtdEnergy Storage
+Giving a composite structure the added functionality of being
+
+able to store energy could allow further reductions in weight
+through elimination of heavy batteries.
+Work at Imperial College has produced a composite
+
+supercapacitor.
+Prototypes being developed for aircraft tertiary structures and
+
+automotive application.
+Courtesy of Imperial College
+32 © 2013 Avalon Consultancy Services Ltd4. Reputational damage
+It is a dangerous time for the reputation of composite
+
+structures. Increase in their use in aerostructures has
+been widely reported and is being closely monitored by
+the press.
+The Airbus A300 crash in Queens in Nov 2001 and the
+
+Team Phillips catamaran were classic examples of how
+confidence in composites can be damaged despite neither
+failure being due to deficiencies in the composite material
+itself.
+Delays in the production of the 787, which were primarily
+
+due to lessons being learnt by Boeing on outsourcing of
+part production, could be associated with problems in
+composites part production.
+It is a shame that the press is not congratulating the
+
+aerospace industry more for innovation and development
+of the use of new materials.
+The fact that the sector has very strict regulations and
+
+procedures has facilitated the safe implementation of
+these new structures and all industry sectors can learn
+from this.
+33 © 2013 Avalon Consultancy Services LtdFuture Challenges and Opportunities
+Carbon fibre availability
+1.
+Recycling
+2.
+Materials development
+3.
+34 © 2013 Avalon Consultancy Services Ltd1. Carbon fibre availability
+Global usage of carbon fibre is growing in many industry sectors and the
+growth rate is accelerating.
+35 © 2013 Avalon Consultancy Services LtdCarbon fibre availability
+Carbon fibre production globally in
+
+Aircraft Approx Flyaway Total flyaway
+2012 will be ~ 45,000 tonnes. Predicted weight of weight
+Build rate per CFC per a/c
+The aerospace sector is not the
+
+year
+only sector increasing use of
+carbon fibre. There are massive
+Bo eing 777 80 10 tonnes 800
+expansion in the wind and
+Boeing 787 112 35 tonnes 3920
+automotive sectors too.
+ Although current producers are Airbus A380 45 35 Tonnes 1575
+increasing production and new
+Airbus A350 116 61.5 7377
+producers are coming online at a
+high rate, aerospace grade fibres
+Ap prox predicted annual demand from these 4 13672 tonnes
+are the most expensive to produce aircraft
+and need to be certified before use
+therefore increase production may With a fly/buy rate that is between 55 and
+be limited. 60%, carbon fibre demand for these 4
+Shortages in supply of suitable planes alone could be between 23 000 and
+
+fibres will drive prices up and make 24 000 tonnes annually.
+metal again seem like a viable
+option for future designs.
+36 © 2013 Avalon Consultancy Services Ltd2. Recycling
+3000 tonnes CFRP scrap produced
+
+annually, 6000 to 8000 commercial
+planes expected to reach end-of-
+life dismantlement by 2030.
+Neither landfill nor incineration
+
+disposal of CFRP scrap is optimal,
+and environmental regulations may
+eventually lead to a ban on both.
+Therefore work has been done to
+
+develop methods that can be used
+to recycle carbon fibres out of
+CFRP.
+This process has only recently
+
+been commercialised (Recycled
+Carbon Fibre in the UK and CFK-
+Work needs to be done to
+Valley Stade Recycling GmbH in
+demonstrate the properties of the
+Germany).
+recyclate, create a market and give it
+ There is currently no real market a value.
+for the recycled product that is
+produced.
+37 © 2013 Avalon Consultancy Services Ltd3. Materials development
+The recent increase in the use of composites has
+
+involved the development of new/improved
+manufacturing methods.
+These manufacturing techniques are now allowing
+
+us to develop parts that are testing the limitations of
+the materials used.
+Future applications will require developments in
+
+material properties.
+Example:
+The Boeing 787 has a CFRP fuselage.
+
+If Boeing wanted to scale this down to produce a
+
+new 737 with a composite fuselage, hail stones
+could potentially penetrate the fuselage.
+One possible solution – rather than increasing the
+
+thickness of the fuselage and increasing the weight
+of the plane, look to use a tougher composite
+material.
+38 © 2013 Avalon Consultancy Services LtdSummary
+39 © 2013 Avalon Consultancy Services LtdSummary
+Environmental regulations have meant that the cost of introduction of
+
+lightweight composite structures is now often offset by the gains and
+has led to a significant increase in the use of aerospace composite
+structures.
+Current challenges include:
+
+Development of rapid rate manufacturing processes.
+
+Coping with MRO requirements very different to metallic structures.
+
+Avoiding reputational damage while composites are so high profile.
+
+Current opportunities include the ability of composite structures to
+
+include functionality such as morphing, energy storage, damage
+sensing, self repair etc.
+Future challenges include:
+
+Supply of carbon fibre may struggle to match the increase in demand.
+
+Developing applications for recycled carbon fibre.
+
+Developing new materials to optimise output from new production methods.
+
+40 © 2013 Avalon Consultancy Services Ltdwww.avaloncsl.com
+41 © 2013 Avalon Consultancy Services Ltd

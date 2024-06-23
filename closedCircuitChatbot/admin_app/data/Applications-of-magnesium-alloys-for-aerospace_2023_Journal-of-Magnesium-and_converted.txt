@@ -1,0 +1,609 @@
+Available online at www.sciencedirect.com
+Journal of Magnesium and Alloys 11 (2023) 3609–3619
+www.elsevier.com/locate/jma
+Review
+Applications of magnesium alloys for aerospace: A review
+Jingying Baia , b, Yan Yanga, ∗ , Chen Wenb ,∗ , Jing Chena, Gang Zhoua, Bin Jianga,
+Xiaodong Penga, Fusheng Pana
+a School of Material Science and Engineering, Chongqing University, Chongqing 400044, China
+b Beijing Spacecrafts Manufacturing Co., Ltd, China Academy of Space Technology, Beijing 100094, China
+Received 29 June 2023; received in revised form 13 September 2023; accepted 18 September 2023
+Available online 4 November 2023
+Abstract
+With the increasingly excellent performance of magnesium alloy materials, magnesium alloys are increasingly widely used under the urgent
+need for weight reduction in aerospace applications. However, due to the severe aviation environment, the strength, corrosion resistance
+and electrical conductivity of magnesium alloy materials need to be further improved. Many scholars are committed to studying higher
+comprehensive mechanical properties. Besides, they have studied surface treatment processes with space application characteristics, such as
+high emissivity oxidation and high anti-corrosion electroplating. To further improve the safety and reliability of magnesium alloys and expand
+their applications, this paper discusses several kinds of magnesium alloys and summarizes their research progress. The whole manuscript
+should be revised by an expert who has more experience on English writing. At the same time, the surface treatments of magnesium alloy
+materials for aerospace are analyzed. Besides, the application of magnesium alloy in aerospace field is summarized. With the in-depth research
+of many scholars, the improvement of material properties and the development of surface protection and functional technology, it is believed
+that magnesium alloys will be used in more and more aerospace applications and make more contributions to the aerospace field.
+© 2023 Chongqing University. Publishing services provided by Elsevier B.V. on behalf of KeAi Communications Co. Ltd.
+This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ )
+Peer review under responsibility of Chongqing University
+Keywords: Magnesium alloy; Aerospace; Application; Review; Surface treatment.
+1. Introduction must consider strength, modulus, adaptability to space
+environment, and electrical conductivity or anti-corrosion
+As the development of space technology, it is urgent to properties [9–13] .
+reduce the weight of structural materials to improve the car- With the development of magnesium alloy, the application
+rying capacity of payloads and comprehensive performance of magnesium alloys in space aerospace field has become
+of spacecraft. Magnesium (Mg) alloys have great advantages more and more diverse. They are used as structural materials
+such as low density, high specific strength, good biocompat- and energy materials, including rockets, planetary missions,
+ibility and good electromagnetic shielding, which is an ideal resource utilization and spacecraft [14–17] .
+metal structure material for weight reduction in aerospace ap- Magnesium combustion in CO
+2
+is considered as the pri-
+plications [1–3] . However, as the spacecraft should go through mary energy production cycle [16] . In order to fully develop
+special service environments such as launch vibration, vac- the resource for Mars missions, the Mg powder is employed
+uum, atomic oxygen, ultraviolet irradiation, electron irradia- to react with CO
+2
+. It is found that the Mg powder and liquid
+tion environment [4–6] and manned space mission environ- CO
+2
+bipropellant rocket engine can work properly, delivering
+ment [7 , 8] , the structural materials used in the aerospace a qualified ignition and good combustion performance, which
+is shown in Fig. 1 [18 , 19] . The 200 kg hopper with the 25–
+∗ Corresponding authors.
+30 kg CO
+2
+/Mg rocket propulsion system and 9–13 kg CO
+2
+acquisition unit can perform 10–15 hops on Mars’s surface
+E-mail addresses: yanyang@cqu.edu.cn (Y. Yang),
+13552907280@163.com (C. Wen) . with a total range of 10–15 km for 180 Martian days, which
+https://doi.org/10.1016/j.jma.2023.09.015
+2213-9567/©2023 Chongqing University. Publishing services provided by Elsevier B.V. on behalf of KeAi Communications Co. Ltd. This is an open access
+article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ) Peer review under responsibility of Chongqing University3610 J. Bai, Y. Yang, C. Wen et al. / Journal of Magnesium and Alloys 11 (2023) 3609–3619
+Fig. 1. Experimental system of powdered Mg and liquid CO2 (a) and results of stable flame under different operating conditions (b) [18] .
+can significantly increase the range of hopper and decrease 2.1. RE-free Mg alloys
+the duration of mission [20] .
+Magnesium has been found in the form of olivine (Mg, According to whether the main elements added are rare
+Fe
+2
+SiO
+4
+), containing 32% of magnesium oxide (MgO) [21] . earth elements (RE), magnesium alloys are divided into RE-
+Magnesium can be used to form stand-alone structural mem- free Mg alloys and containing RE Mg alloys. RE-free Mg
+bers and has unique physical characteristics, such as elec- alloys mainly include Mg-Al-based and Mg-Zn-based alloys.
+tromagnetic shielding, which makes it suitable for extrater- Mg-Al-based alloys are the most widely used, including AZ
+restrial construction [22 , 23] . To reduce the cost of sustained series (Mg-Al-Zn), AM series (Mg-Al-Mn) and AS series
+space program, the magnesium obtained from asteroidal and (Mg-Al-Si), etc. [33] . Mg-Zn alloy has poor high tempera-
+planetary soils is identified as possible fuel for the hy- ture performance, and the aging strengthening ability is weak
+brid rocket propellants, thereby facilitating the exploration [49] . Appropriate addition of zirconium (Zr) can refine the
+and industrialization of the inner solar system [24] . It has grain and improve the mechanical properties of the alloy. ZK
+been proposed to use combustion of lunar regolith with Mg series (Mg-Zn-Zr) is one of the most widely used Mg-Zn-
+for the production of construction materials on the Moon based alloys [50] .
+missions [25] . AZ series is the most widely used die-casting mag-
+In this paper, it is focused on the application of magne- nesium alloy. However, the mechanical properties of AZ
+sium alloys in spacecraft. The application and needs of spe- series are relatively poor. So far, much research has been
+cial properties of magnesium alloys for space service are re- carried out to solve the problem, including adding alloying
+viewed. By discussing the differences in surface function be- elements [29 , 41] , work hardening [36 , 49] , etc. Idris Gokalp
+tween space and earth, some suggestions are listed to promote et al. [29] investigated the effect of Ca addition on elevated
+the application and development of new magnesium alloys in temperature mechanical properties of AZ series magnesium
+the aerospace field. alloys. With the increase of added Ca and Al content, more
+(Mg,Al)
+2
+Ca and Al
+2
+Ca phases precipitated in grain bound-
+2. Development of Mg alloys for space applications aries and interiors. AZX211 alloy possesses the optimum ten-
+sile properties. The tensile and yield strengths at 25 °C are
+As the lightest metal structural engineering material, mag- 152 ±5.4 MPa and 95 ±4.1 MPa, respectively. Chaudry et al.
+nesium alloys show important application prospects in trans- [51] studied the superplasticity of AZ31 magnesium alloy
+portation, energy, aerospace and other fields because of containing 0.5 wt.% Ca. The addition of Ca results in the
+its high specific strength, high specific stiffness, strong precipitation of fine second phase particles at grain bound-
+damping and vibration reduction, good liquid formability, aries, and the microstructure stability is improved, leading to
+shielding electromagnetic radiation, and easy recycling, etc. the alloy’s superplasticity of the alloy at 300 °C.
+[26–29] . However, the poor high temperature strength and AM series has excellent toughness and plasticity, and is
+poor corrosion resistance severely limit the wide applica- used for workpieces with high impact load and bending re-
+tion of magnesium alloys [9 , 30 , 31] . Adding alloying ele- sistance requirements. It is often used in wheels, doors, seat
+ments is an effective method to solve this problem. By frames and equipment dashboards. However, due to the poor
+adding different alloying elements (such as Al [32 , 33] , thermal stability of the β-Mg 17 Al 12 phase, the heat resistance
+Mn [34 , 35] , Zn [36–38] , Si [39 , 40] , Ca [29 , 41 , 42] , Li of AM magnesium alloy is poor, which limits its application
+[43 , 44] , RE [9 , 45–48] , etc.), the microstructure and struc- to a certain extent. Rare earth elements combined with Al
+ture of the alloys can be adjusted to achieve the expected in magnesium alloy produce Al-RE compounds with a high
+properties. melting point, which is beneficial for improving high temper-J. Bai, Y. Yang, C. Wen et al. / Journal of Magnesium and Alloys 11 (2023) 3609–3619 3611
+ature performance [52] . Han et al. [34] studied the effects of resistance of the alloy, and the β’ phase content precipitated
+different Ce content on the microstructure and tensile prop- by aging plays a decisive role in the corrosion resistance of
+erties of AM80 alloy at room and high temperatures. With the alloy [61] . Other Mg-Gd-RE alloys developed on this ba-
+the addition of Ce, the alloy consisted of α-Mg, β-Mg
+17
+Al
+12
+sis, such as Mg-Gd-Nd [62] , Mg-Gd-Y-Nd [63] and Mg-Gd-
+and Al
+4
+Ce, and the microstructure was refined. When the Sm [64] , have good performance at room temperature and
+amount of Ce is 1.5 wt.%, the maximum tensile strengths at high temperature. The JDM2 alloy developed by Shanghai
+room temperature and high temperature are 175.9 MPa and Jiao Tong University is a high-strength Mg-Gd-Y alloy with
+146 MPa, respectively. more than 10 wt.% Gd [27] . At room temperature, the tensile
+AS series containing a low aluminum content possesses strength and yield strength are 370 MPa and 240 MPa, re-
+good strength and excellent toughness. Due to the addition of spectively, and the elongation is about 4%. Chongqing Univer-
+Si, the stable precipitated Mg
+2
+Si phase with fine and disper- sity has studied the Mg-xGd-0.6Zr alloy with 2 wt.%–6 wt.%
+sive distribution is formed at the grain boundary, and the creep Gd [65] , and developed the high plasticity Mg-Gd alloy with
+resistance of the alloy is improved. The morphology, size and moderate strength, and the plasticity is more than 30%. Gao
+distribution of the Mg
+2
+Si phase significantly influence the al- et al. [66] studied the mechanical properties of Mg-Gd-RE
+loys’ properties. Fine and dispersive particles are beneficial alloy with Zn or Ag element, and found that the mechanical
+for improving the mechanical properties of the alloy, whereas properties of Mg-Gd-RE alloy under peak aging condition
+coarse Mg
+2
+Si particles can deteriorate the mechanical proper- were higher than those of Mg-Gd-RE alloy with β’ phase as
+ties of the alloy [39] . The refinement and uniform distribution strengthening phase precipitated only on the prismatic surface.
+of Mg
+2
+Si particles is the key to improving the properties of Due to the high solubility of Y in the α-Mg matrix and
+alloys. Chen et al. [53] refined the grains and Mg
+17
+Al
+12
+s the strong aging hardening ability of magnesium alloys con-
+phase of AS41 magnesium alloy by alternating frequency ul- taining Y, Mg-Y alloys have attracted wide attention [48 , 67] .
+trasonic melting technology eliminating the accumulation of Mg-Y-RE ternary alloy has been widely studied and applied
+Mg2Si and improving the strength of the alloy. due to its good high temperature strength and creep resistance
+ZK series has good comprehensive mechanical properties. [68] . Currently, two kinds of alloys, WE43 and WE54, with
+According to ASTM standard, Mg-Zn-Zr alloy mainly in- the highest degree of commercialization, have been devel-
+cludes ZK21A, ZK31, ZK40A, ZK60A, ZK51A and ZK61, oped, which can maintain excellent mechanical properties in
+etc. [54] . Among them, ZK60 alloy is a typical superplastic the service environment up to 300 °C and are widely used in
+magnesium alloy with good comprehensive properties at room aerospace power system components [69 , 70] . The addition of
+temperature, and the extrusion elongation is more than 17% 0.2% Zn to WE43 alloy can significantly shorten the alloy’s
+[55] , which has attracted more and more attention. Liang et al. peak aging time, and the alloy’s tensile properties, especially
+[56] fabricated ZK60 Mg alloy by laser powder bed fusion the elongation, are significantly improved [71] . The oxida-
+(LPBF), and analyzed the effect of preheating temperature tion tendency of rare earth element Y is greater than that of
+on microstructure and mechanical properties of LPBF-treated Mg and other rare earth elements at high temperatures, which
+ZK60 alloy. The specimens treated at a preheating temper- leads to the oxidation and burning loss of Mg-Y alloys in the
+ature of 180 °C exhibit the best comprehensive mechanical casting process, and the introduction of Y2O3 inclusions into
+properties (yield strength of 201 ± 5 MPa, ultimate tensile the melt affects the purity of the melt. In order to solve this
+strength of 291 ± 7 MPa, and elongation of 14.7% ± 0.8%). problem, Gd element can be used to partially replace Y ele-
+ment while keeping the total amount of rare earth elements
+2.2. Containing RE Mg alloy unchanged. The optimized Mg-2Y-3Gd-2Nd-0.5Zn alloy has
+not only good casting process performance but also its room
+Rare earth elements (RE) in magnesium alloys can not temperature and high temperature mechanical properties are
+only be dissolved but also form high melting point intermetal- equivalent to WE43 alloy, which is more suitable for produc-
+lic compounds with different types, distributions and mor- ing thin-walled complex aerospace casting products [72] .
+phologies, refined grains, and improve the casting properties Nd is a light rare earth element, and its maximum solid
+and mechanical properties of alloys. At present, the widely solubility in magnesium can reach 3.6%. The Mg-Nd alloy
+used Mg-RE alloys are Mg-Gd, Mg-Y, Mg-Nd, Mg-Sm, etc. with solution treatment can precipitate a series of metastable
+[33 , 57 , 58] . Compared with the traditional Mg-Al or Mg-Zn strengthening phases during aging, which has a strong aging
+series alloys, the developed high performance Mg-RE alloys strengthening effect [73] . The grains of cast Mg-Nd binary
+have higher mechanical properties and relative density. alloys are often coarse and cannot meet the service perfor-
+The limit solubility of Gd in magnesium is extensive, mance requirements as structural materials. Therefore, it is
+reaching 24 wt.% at 542 °C, and the solution solubility usually necessary to add Zr to refine the grains to improve
+decreases with the decrease of temperature, reaching only the mechanical properties. Wang et al. [74] studied the ef-
+4 wt.% at 200 °C. Mg-Gd alloy is a typical aging strength- fect of adding 0.5% Zr on the microstructure and properties
+ening alloy, and many nanoscale precipitates formed during of Mg-2.7Nd-0.6Zn alloy. It was found that Zn
+2
+Zr
+3
+nano-
+aging make the alloy have excellent mechanical properties at strengthening phase was formed in the alloy after solution
+room temperature and high temperature [31 , 59 , 60] . In addi- treatment, which significantly improved the hardness of the
+tion, the addition of Gd element also improves the corrosion alloy. In addition, the high-strength heat-resistant Mg-Nd-Zn-3612 J. Bai, Y. Yang, C. Wen et al. / Journal of Magnesium and Alloys 11 (2023) 3609–3619
+Zr alloy (ZM6) has excellent mechanical properties (tensile LA alloys are one of the most commonly used alloys in
+strength > 250 MPa, elongation > 7%) and corrosion resis- Mg-Li alloys and have been used in weapons and aerospace.
+tance [75] . It is stable in the high temperature environment The density of Al is similar to Mg, and the Al element has an
+of 250 °C and has been widely used in defense industry. excellent solid solution strengthening effect in Mg-Li alloys.
+Sm has high solid solubility in magnesium [76] . At the However, ternary Mg-Li-Al alloys have the problems of low
+eutectic temperature of 542 °C, the maximum solid solubil- mechanical properties and poor thermal stability. Guo et al.
+ity of Sm in Mg is 5.8 wt.%, so Sm has good solid so- [84] studied the effect of solution treatment on Mg-9Li-6Al
+lution strengthening and aging strengthening effects in Mg alloy. The result shows that MgLi2Al dissolved in the β-Li
+alloys. For Mg-Sm binary alloys, scholars have conducted a phase and the AlLi phase precipitated in the α-Mg phase dur-
+lot of research on the aging precipitation process and pre- ing the solid solution. Meanwhile, the hardness of the alloy is
+cipitates of Mg-Sm binary alloys. Xie et al. uncovered a improved after solution treatment. Al element refines the grain
+diffusional-displacive dominated formation mechanism for the of as-cast Mg-14Li alloy with the influence of solute elements
+β1 phase of Mg-Sm binary alloy [77] . Li et al. [6] found that [85] . Takahiro Mineta et al. [86] prepared Mg-Li-Al alloy by
+the aging precipitation sequence of Mg-4Sm-0.4Zr alloy is multi-directional forging and heat treatment process. The spe-
+super-saturated solid solutions (S.S.S.S) → β’’ → β’ → β1 cific yield strength of LA143 alloy reached 263 kN ·m ·kg-1.
+(fcc) → β (bct). After continuous in-depth research, people Tang et al. [87] investigated grain boundary decohesion in
+have deepened the understanding of the aging process of Mg- Mg-Li-Al alloy. The results showed that the grain boundary
+Sm alloy. Compared with other high strength magnesium al- precipitation (GBPs) formed by Al-rich ordered phases would
+loys, the strength level of Mg-Sm binary alloy is still low. In weaken the bonding between the atoms in the grains. Particles
+order to further improve its mechanical properties, other rare free zone (PFZ) would be formed near the GB, which would
+earth or non-rare earth elements, such as Gd [46] , Y [78] , Zr easily lead to local stress exceeding the cohesion of the grain
+[54] , Zn [64] and Yb [47] , were added to the Mg-Sm binary boundary, resulting in intergranular/cleavage fracture of the
+alloy for multi-alloying to optimize the microstructure of the alloy.
+alloy. The mechanical properties of the Mg-Sm alloy were LZ series are also common Mg-Li alloys with good me-
+improved by fine grain strengthening, solid solution strength- chanical properties and clinical application potential. Wu et al.
+ening and second phase strengthening. Mao et al. [46] studied [88] studied the corrosion resistance of LZ61-KBMS (Kumta
+the effect of Y element on the microstructure and mechani- Bioresorbable Magnesium Stents) alloy was evaluated in a
+cal properties of Mg-4Sm-0.6Zn-0.5Zr alloy. The mechanical simulated dynamic flow environment juxtaposed. They real-
+properties of Mg-4Sm-7Y-0.6Zn-0.5Zr alloy increase with the ized the feasibility of ultra-high ductility LZ61-KBMS alloy
+increase of Y content. When the Y content reaches 6.89%, biodegradable airway stents. Zhou et al. [89] studied the mi-
+the yield strength, tensile strength and elongation of as-cast crostructure and mechanical properties of LZ91 alloy after
+Mg-4Sm-7Y-0.6Zn-0.5Zr alloy are 118 MPa, 193 MPa and friction stir welding (FSW). The results show that the stir
+10.5%, respectively. zone of the alloy is composed of fine equiaxed α-Mg and β-Li
+phases, and they realized the optimized strength and ductility
+in the stir zone. Zhang et al. [90] prepared high strength Mg-
+2.3. Superlight Mg-Li alloys 13Li-9Zn by solid solution, annealing and rolling. The pure
+grain boundary supersaturated solid solution obtained during
+Mg-Li alloys have attracted much attention due to their annealing contributes to the introduction of α-Mg nanoparti-
+advantages of high specific strength, good damping proper- cles and ordered B2 nanoparticles into the β-Li matrix during
+ties, excellent electromagnetic shielding properties, and good subsequent rolling. The yield strength of the alloy is 380 MPa
+forming properties [79 , 80] . Moreover, the density of Mg-Li and the specific yield strength is 251 kN ·m ·kg-1 . Yang et al.
+alloy is 1.35–1.65 g/cm3 , which is 1/3–1/4 lighter than the [91] studied rolling and annealing processes on LZ91 alloy.
+traditional Mg alloy [81–83] . Thus, Mg-Li series alloys are With increasing the rolling reduction and adequate anneal-
+a class of ultra-light alloys that can effectively promote the ing process, the corrosion resistance of the alloy continues to
+lightweight process in aerospace, 3C, et al. At present, the increase.
+most commercial Mg-Li alloys are LA141, LA91, LAZ933, LT series has good thermal stability and high mechanical
+etc. The microstructure and mechanical properties of Mg-Li properties, which are a kind of alloy with great development
+alloys will differ with the Li content change. When the Li potential. Sn element can refine the grains of as-cast alloy
+content is below 5.7 wt.%, the Mg-Li alloy is α-Mg phase and promote Mg-Li alloy to obtain equiaxed grains. Besides,
+(hexagonal crystal structure, HCP); when the Li content is adding Sn can form dispersed Mg
+2
+Sn and Li
+2
+MgSn phases
+5.7 wt.%–11.5 wt.%, it is α-Mg phase and β-Li phase (body- with good strengthening effects and thermal stability in the
+centered cubic structure, BCC); when the Li content is more Mg-Li alloy. Zhou et al. [92] studied the effect of extru-
+than 11.5 wt.%, the Mg-Li alloy is the β-Li phase. How- sion on Mg-Li-Al-Sn alloy. The results show that after ex-
+ever, the low absolute strength and poor corrosion resistance trusion, abundant dispersed Sn-rich phases exist in the alloy,
+of Mg-Li alloy greatly limit its further application. Therefore, and massive (cid:4) c + a (cid:5) dislocations are activated, which con-
+many researchers consider methods such as alloying and de- tributes to the improvement of the strength and plasticity of
+formation to strengthen Mg-Li alloys. the alloy. The room temperature tensile strength and elonga-J. Bai, Y. Yang, C. Wen et al. / Journal of Magnesium and Alloys 11 (2023) 3609–3619 3613
+tion of Mg-7Li-2Al-1.5Sn alloy reached 324 MPa and 11.9%,
+respectively. The high temperature (423 K) tensile strength
+and elongation of Mg-7Li-2Al-1.5Sn alloy reached 237 MPa
+and 26.7%, respectively. Maurya et al. [93] prepared LAT971
+alloy by solution treatment. The AlLi phases are entirely dis-
+solved in the matrix after the alloy is dissolved above 350 °C.
+At the same time, the existence of thermal stable Mg
+2
+Sn
+phases improves the hardness and tribological properties of
+the alloy after solid solution. Acikgoz S compared the effect
+of Sn, Nd, and Ca elements on Mg-8Li-2Al alloy [94] . The
+results show that adding Sn element has the best effect on Fig. 2. Morphology of micro-arc oxidation coatings with thermal control of
+improving the alloy’s mechanical and corrosion properties. magnesium alloys [110] .
+LX series alloys, as a kind of alloy with good biocompati-
+bility, have also received extensive attention from researchers to the high electrochemical activity of magnesium [103 , 104] .
+[95] . The Ca element can improve the microstructure and me- Many efforts have been made to improve the corrosion prop-
+chanical properties of Mg-Li alloys. Gao et al. [96] investi- erties of magnesium alloys, such as treatments, electroplat-
+gated the microstructure and mechanical properties of Mg-9Li ing, chemical conversion films, oxidation films, coatings and
+alloy and Mg-9Li-0.3Ca alloy after extrusion by comparative other related surface-treating processes [105–109] . However,
+analysis. The results show that adding Ca weakens the texture there is something different about the surface treatment of
+and increases the proportion of DRX grains to improve the magnesium alloys for aerospace applications compared with
+plasticity of the alloy. In addition, Ca, as a major component that used in earth. It should satisfy the function demands and
+of human bone, can be combined with Mg-Li alloys to play space environment requirements, which need to add thermal
+an important role in biomedicine. Cui et al. [97] prepared control, electrical conductivity, welding and other functions
+an infection-resistant coating on biomedical Mg-Li-Ca alloys. in addition to anti-corrosion.
+Mg-1Li-1Ca alloy has good antibacterial properties and corro-
+sion resistance with Ca-P-Sn coating. Han et al. [98] studied 3.1. Thermal control coatings of magnesium alloys
+the corrosion characteristics of as-extruded dual-phase Mg-
+Li-Ca alloy in Hank’s solution. As-extruded Mg-Li-Ca al- Thermal control coatings are the most commonly used
+loys undergo overall corrosion, and the corrosion products are aerospace functional coating, which is used to control the
+jammed into the micro-cracks of the natural oxide film. In ad- temperature by the ratio of solar absorptance ( αS) and emit-
+dition, they proposed a new concept of the Pilling-Bedworth tance ( ɛ ) on the surface, namely αs/ ɛ . Electrochemical conver-
+ratio to elucidate the corrosion mechanism of dual-phase Mg- sion coatings by chemical oxidation, micro-arc oxidation and
+Li-Ca alloys. so on are often employed to obtain thermal control coatings
+Moreover, the addition of Mn [99] , Nd [100] , Er [101] , [110 , 111] . By adding iron salt and vanadium salt in the micro-
+Y [102] , and other elements can also improve the mechan- arc oxidation process, a thermal control film with infrared
+ical properties and damping properties of Mg-Li alloys. For emissivity ɛ ≥0.85 was obtained, and it had good corrosion
+example, Yang et al. [99] reported that as-extruded Mg-4Li- resistance and was successfully applied in aerospace ( Fig. 2 )
+3Al-0.3Mn alloy has high strength and damping properties. [110 , 112 , 113] . Wang et al. [114] prepared several colorized
+Wu et al. [101] investigated the origin of age hardening and coatings with solar absorptance from 0.439 to 0.918, expand-
+age softening of Mg-Li-Zn alloy. They improved the age soft- ing the application of magnesium alloys. The electrolytes have
+ening of Mg-Li alloy by adding Er element. Although Mg-Li a great influence on the property of the coating: Phosphate is
+alloy research has made many achievements, critical issues of about equal to silicate, and silicate is greater than aluminate.
+Mg-Li alloys still need to be solved. For instance, the cor- The thermal control performance of phosphate coating is the
+rosion mechanism of Mg-Li alloy has not been thoroughly best. The higher the blackness of the coating, the better the
+studied, and the alloying mechanism of Mg-Li alloy is un- absorption of the coating [115] . However, the corrosion prop-
+clear, especially the influence of different alloying elements erties of the thermal control coating still have to be improved.
+within the dual-phase matrix.
+3.2. Conductive coating of magnesium alloys
+3. Surface treatment of magnesium alloys for space
+applications Nickel-plating technology is another common surface treat-
+ment process for aerospace, which can obtain good conduc-
+Although magnesium offers the potential for considerable tive corrosion resistance and meet the welding needs of mag-
+weight savings, it does not come without some drawbacks, nesium alloy [1 , 2] . The process, corrosion properties, and
+namely corrosion and flammability. With the use of Wenchang deposition mechanism of Ni-P coating are widely studied
+launch site, the corrosion of magnesium alloy is one of the [116–121] . The Ni-P coatings are not only formed during
+key problems affecting its aerospace applications. The cor- the coating growth stage, but also generated in the initial de-
+rosion resistance of magnesium alloy is extremely poor due position stage of electroless Ni-P plating [117] . The typical3614 J. Bai, Y. Yang, C. Wen et al. / Journal of Magnesium and Alloys 11 (2023) 3609–3619
+Fig. 3. Initial deposition process of electroless Ni-P coating on ZK60 (a) and ME20 (b) alloys [2] .
+growth mechanism of Ni-P plating of ZK60 and ME20 is cabin. By adding antibacterial metallic elements or biopoly-
+given in Fig. 3 . The initial deposition of the coating on ZK60 mer/calcium phosphate coating based on micro-arc oxidation
+alloy occurs preferentially on highly active Zn-Zr precipitates coatings can improve these properties [124] .
+and the compactness of the MgF
+2
+film mainly control the
+initial deposition of the coating on ME20 alloy. The coating
+4. Spacecraft applications of magnesium alloys
+properties can be improved by a ternary ligand system [118] ,
+transition layer [119 , 120] , pretreatment [121] , and so on. The
+In the 1950s and 1960s, the United States carried out a
+bi-layer coating is formed, composed of a micro-arc oxida-
+lot of research on magnesium-lithium alloys, and used them
+tion coating (MAO) and an electroless plated Ni-P coating,
+as secondary structural materials such as brackets, bushing,
+and the corrosion property is improved by 2.8 times [122] .
+beams and other structures in the aerospace field. The So-
+viet Union also developed MA21 and other brands for lunar
+3.3. Other functional surface treatment of magnesium alloys landers ( Fig. 4 ) [56 , 126 , 127] .
+Magnesium alloy components have also been used in satel-
+Other coatings with special properties, such as wear, anti- lites and spacecraft in China. Beijing Spacecrafts Manufac-
+corrosion et al., may also be used in aerospace [106 , 123– turing Factory Co., Ltd. solved the anti-corrosion treatment,
+125] . Sun et al. [123] fabricates a Fe-based amorphous coat- machining and welding technology problems of large mag-
+ing, the wear property of which is 170 times higher than that nesium alloy surfaces, and has realized the application of
+of the bare LA141 magnesium alloy substrates, which may large magnesium alloy structures on multiple spacecraft. The
+be applicable to aerospace structures or mechanisms. Wang G04 magnesium alloy developed by the Institute of Metals of
+et al. prepares a super-hydrophobic and corrosion-resistant the Chinese Academy of Sciences has been successfully used
+coating with thin thickness [125] , which may be used inside in the electric cabinet of the Shenzhou VI manned space-
+the manned cabin. The high bactericidal property and low vac- craft, reducing its weight by about 13 kg. The National En-
+uum performance are also expected when used in the manned gineering Research Center for Light Alloy Precision Form-J. Bai, Y. Yang, C. Wen et al. / Journal of Magnesium and Alloys 11 (2023) 3609–3619 3615
+Fig. 6. Composition (a) and structure (b) of panel for panel extension satellite
+[131] .
+Fig. 4. The Mg alloy developed by Lockheed for the satellites. (The gyro-
+scope installation frame plate, the vibration diaphragm at the load transfer
+joint, the corner tray for installing electronic devices, the drawer partition, Although it is not as strong as aluminum on a weight ba-
+and the microwave device installation frame, respectively). sis, magnesium is approximately 30% lighter. Application of
+magnesium in electronic chassis can result in weight savings
+of approximately 25% over aluminum, containing the plating
+on the magnesium surface ( 8 ).
+With the improvement of magnesium alloy’s toughness,
+corrosion resistance, forming performance, etc., magnesium
+is gradually considered for use in products such as brackets,
+storage tanks, heat pipes, honeycomb panel skins, and embed-
+ded parts [14 , 133 , 134] . However, the lightweight of structure
+causes a lowering of stiffness, thus the way for weight saving
+for some structures is not so flexible, and the same value of
+stiffness must be kept while weight saving. Moreover, some
+other properties need to be considered. When used as the seat
+structure, the flammability properties are needed to be con-
+Fig. 5. Satellite bracket. sidered. Two types of magnesium alloys are investigated in
+separate tests and the results showed that the magnesium al-
+loy of WE43 has a well-performing, a poor-performing for
+ing of Shanghai Jiao Tong University has prepared a variety
+AZ31, respectively [135 , 136] .
+of aerospace components, which meet the operating require-
+Magnesium alloys may also be used in structural plates.
+ments of a satellite and Mars probe and achieve a weight
+Through the development of magnesium alloy skin and hon-
+reduction effect of 20%–30% ( Fig. 5 ) [128–130] .
+eycomb, the weight of the structural plate can be effectively
+reduced. Magnesium foam has been studied and the foam
+4.1. Applications for structure material of spacecraft with 50 wt.% carbamide sintered at 630 °C has a density of
+platform 0.61 g/cm3 , porosity of 64.7% and compressive strength of
+5 MPa [137] . Chongqing University independently developed
+The structural material is the main body of the satellite and a new type of high-strength rare earth magnesium alloy, and
+accounts for the main weight of the satellite platform. When trial produced components for a certain type of spacecraft
+used magnesium for structural materials instead of aluminum with low pressure casting [138] . The engineering application
+alloy, the traditional aerospace metal structural material, it can research of large and complex magnesium alloy components
+reduce the weight of the structure obviously. A panel for panel has also been developed and successfully realized. Shanghai
+extension satellite is shown in Fig. 6 , the test model made by Aerospace Precision Machinery Research Institute s has car-
+aluminum is about 700 g. Moreover, it can be calculated that ried out research on the engineering application of magnesium
+the weight of this design made of magnesium is less than alloy for large-size and complex components in recent year.
+500 g [131] . They developed the high-performance heat-resistant casting
+Electronic chassis is one of the most widely used magne- VW63Z, which has realized the batch engineering application
+sium alloys. A typical electronic package for spacecraft appli- of VW63Z magnesium alloy in the aircrafts with high me-
+cation consists of Printed Circuit Boards (PCBs), electronic chanical properties under the engineering conditions of large
+components and supporting structures. With trade-off between melting volume and slow cooling of the sand. It meets the
+weight, strength, stiffness, radiation and Electro Magnetic In- indexes of room-temperature tensile strength of the casting
+terference (EMI) protection, magnesium is always used as body ≥ 300 MPa and high-temperature tensile strength of ≥
+the supporting structure, as shown in Figs. 7 and 8 [132] . 280 MPa [139] .3616 J. Bai, Y. Yang, C. Wen et al. / Journal of Magnesium and Alloys 11 (2023) 3609–3619
+Fig. 7. The application of magnesium as structure (a) and its electronic package (b), and random vibration test (c) [132] .
+Fig. 8. Large-size magnesium alloy products developed by Shanghai Space-
+flight Precision Machinery Institute.
+Fig. 10. The scientific payloads of CE-5 [142] .
+magnesium alloy for some effective loads can reduce weight
+and optimize performance.
+The antenna is a typical payload, which is often used in
+various space communication systems. The antenna consists
+Fig. 9. Disturbance-Free payload architecture of spacecraft [140] .
+of a conical corrugated horn, waveguide, and feed generating
+high-frequency electromagnetic radiation, shown in Fig. 11
+4.2. Applications in spacecraft payload [143–145] . To perform successfully during launch and on-
+orbit, space antennas must be strong, stiff, and lightweight
+Payload is the most important part of the satellite, which with small thermal distortions [146] . With specific strength,
+has an important influence on the performance of the satel- specific rigidity, elastic modulus and good high and low tem-
+lite. The typical payload layout and load type are shown in perature toughness, magnesium has been tried to use as the
+Fig. 9 and Fig. 10 , respectively [140–142] . The application of waveguide of the antenna [147 , 148] . Li et al. [147] pointedJ. Bai, Y. Yang, C. Wen et al. / Journal of Magnesium and Alloys 11 (2023) 3609–3619 3617
+Fig. 12. The fabricated 175-mm spherical magnesium-alloy mirror. The left
+and the right panels show the mirror surface and backside of the mirror,
+Fig. 11. Metallic corrugated horn antenna (a), corrugated horn feeds (b) and
+respectively.
+conventional designs of the offset mirror antennas (Courtesy of ISS –Reshet-
+nev Company) (c) [143 , 144] .
+advanced metal hydrides is studied for the heating and cool-
+Table 1 ing of cabins in electric vehicles [156] .
+Key parameter comparisons between magnesium and lithium metals for
+Fuel cell is one of the most important energy sets, which
+rechargeable metal ion batteries [151 , 155] .
+may be applied to aerospace and the hydrogen storage ability
+Information Lithium Magnesium is the key problem of lightweight in space application for the
+Market price (k$/ton) 64.8 2.7 fuel cells. Hydrogen storage in magnesium compounds is be-
+Volumetric capacity (mAh ·cm−3 ) 2061 3833 lieved to be one of the most promising hydrogen-storage tech-
+Gravimetric capacity (mAh ·g−1 ) 3884 2206
+nologies for high efficiency, low risk and low cost [157 , 158] .
+Anode potential versus SHE (V) –3.04 –2.36
+Stability in air? No Yes
+The hydrogen capacities can reach 14.9 wt.% by mass and
+Dendrite growth? Yes No 145–147 kg ·cm−3 by volume, which has a significant weight
+Atomic weight 6.9 24.3 advantage over current cylinder hydrogen storage. Thus, it
+Cationic radius (nm) 0.068 0.065 is a promising hydrogen storage material for space fuel cell
+applications.
+out that the weight of the antenna parts could be reduced
+Declaration of competing interest
+by about 20%, considering the structure strength and the an-
+tenna products based on magnesium alloy would be more
+The authors declare that there is no conflict of interests
+widely used in the aerospace field. S. F. Zhou and Z. X. Xu
+regarding the publication of this article.
+demonstrated that after seven months of ground environment
+and more than one year of space environment test, the gold- References
+plated magnesium alloy layer of the communication satellite
+omnidirectional antenna has been in good use, and the signal [1] L. Chen, T. Ye, Y. Wang, D. Zhou, T. Suo, Q. Deng, F. Zhao, Q. Wang,
+returned to the ground is clear and normal [149 , 150] . Mater. Charact. 182 (2021) 111535–111543 .
+[2] L. Feng, Y.W. Zhang, C. Wen, S.Z. Li, J.F. Li, D. Cheng, J.Y. Bai,
+Magnesium alloys are also designed and fabricated for ap-
+Q.X. Cui, L.G. Zhang, Trans. Nonferr. Met. Soc. China 31 (8) (2021)
+plications to space-borne telescopes and optics in instruments.
+2307–2322 .
+A 175-mm magnesium-alloy mirror with a spherical mirror [3] L. Feng, C. Wen, J. Li, S. Li, D. Cheng, J. Bai, Q. Cui, Mater. Res.
+surface and a backside hexagonal cutout structure reduce the Express 6 (5) (2019) 056548–056560 .
+mass of the mirror, as shown in Fig. 12 [151] . [4] R. Min, Z. Chen, Y. Wang, Z. Deng, Y. Zhang, Y. Deng, J. Proteom.
+237 (2021) 104144 .
+[5] R. Verker, A. Bolker, Y. Carmiel, I. Gouzman, E. Grossman,
+4.3. Applications in energy subsystem of spacecraft T.K. Minton, S. Remaury, Acta Astronaut. 173 (2020) 333–343 .
+[6] T. Maclay, D. McKnight, J. Space Saf. Eng. 8 (1) (2021) 93–97 .
+[7] F. Xu, X. Jia, W. Lu, C. Zhou, Y. Guo, J. Fei, C. Yang, Acta Astronaut.
+Magnesium alloys have good energy storage and electri-
+151 (2018) 585–594 .
+cal properties, so they are widely studied as energy materi-
+[8] F. Winterberg, Acta Astronaut. 162 (2019) 373–375 .
+als, which can be used in the energy subsystem of spacecraft [9] J.M. Meier, J. Caris, A.A. Luo, J. Magnes. Alloys 10 (6) (2022)
+[152–154] . 1401–1427 .
+Mg is a lightweight metal (1.74 g ·cm–3 density) yield- [10] H.L. Shi, C. Xu, X.S. Hu, W.M. Gan, K. Wu, X.J. Wang, J. Magnes.
+Alloys 10 (8) (2022) 2009–2024 .
+ing a theoretical volumetric capacity of magnesium (3833
+[11] J. Ni, L. Jin, J. Zeng, J. Li, F.L. Wang, F.H. Wang, S. Dong, J. Dong,
+mA ·h ·cm−3 ) that is twice that of lithium (2061 mA ·h ·cm–3 ),
+J. Magnes. Alloys 11 (1) (2023) 1–14 .
+and the properties compared with Li-ion batteries are listed in [12] L. Sun, Y. Ma, B.F. Fan, S. Wang, Z.Y. Wang, J. Magnes. Alloys 10
+Table 1 [151 , 155] . According to the table data, rechargeable (10) (2022) 2875–2888 .
+magnesium battery is a high-safety energy storage technology [13] L. Liu, X. Chen, F. Pan, J. Magnes. Alloys 9 (6) (2021) 1906–1921 .
+[14] X.L. Zhang, G.K. Yu, W.B. Zou, Y.S. Ji, Y.Z. Liu, J.L. Cheng, China
+that may have potential applications in aerospace. Magnesium
+Foundry 15 (6) (2018) 418–421 .
+can also be used as energy carriers for renewable and ther-
+[15] D.K. Bond, B. Goddard, R.C. Singleterry, S. Bilbao y León, Acta
+mal energy storage. A concept of thermal battery based on Astronaut. 165 (2019) 68–95 .3618 J. Bai, Y. Yang, C. Wen et al. / Journal of Magnesium and Alloys 11 (2023) 3609–3619
+[16] M. Smirnova, Acta Astronaut. 103 (2014) 250–256 . [53] X. Chen, Z. Yin, Q. Le, S. Ning, F. Yu, Int. J. Metalcast. 16 (1) (2021)
+[17] Labukas J., N.F. Landers, L.M. Blohm, V. Rodriguez-Santiago, T. 474–480 .
+Parker, Report of US Army Res (2016). [54] X. Gao, H. Yan, J. Chen, W. Xia, B. Su, X. Zhou, Heat Treat. Met.
+[18] J. Hu, C. Hu, Y. Che, X. Zhu, J. Yang, M. Li, C. Li, Acta Astronaut. 44 (1) (2019) 81–85 .
+184 (2021) 274–285 . [55] L.L. Chang, X.J. Su, J.L. Qin, Mater. Lett. 325 (2022) 132666 .
+[19] Y. Li, C. Hu, X. Zhu, J. Hu, X. Hu, C. Li, Y. Cai, Acta Astronaut. [56] J. Liang, S. Wu, Z. Lei, Y. Chen, X. Zhang, B. Li, M. Jiang, Y. Chen,
+155 (2019) 334–349 . Mater. Charact. (2022) 112361 .
+[20] E. Shafirovich, M. Salomon, I. Gökalp, Acta Astronaut. 59 (8–11) [57] B. Jiang, W. Liu, L. Xiao, H. Dong, N. Zhang, R. Cheng, J. Song,
+(2006) 710–716 . D. Zhang, F. Pan, Aerospace 36 (2) (2019) 22–30 Shanghai .
+[21] I.S. McCallum, M.C. Domeneghetti, J.M. Schwartz, E.K. Mullen, [58] J. Song, J. Chen, X. Xiong, X. Peng, D. Chen, F. Pan, J. Magnes.
+M. Zema, F. Cámara, C. McCammon, J. Ganguly, Geochim. Cos- Alloys 10 (4) (2022) 863–898 .
+mochim. Acta 70 (24) (2006) 6068–6078 . [59] C. Tang, G. Zuo, Z. Li, X. Sun, Q. Li, Mater. Rep. 32 (11) (2018)
+[22] M.Z. Naser, Acta Astronaut. 155 (2019) 264–273 . 3760–3767 .
+[23] S. Mottaghi, H. Benaroya, J. Aerosp. Eng. 28 (1) (2015) 705–747 . [60] J. Wang, T. Li, H.X. Li, Y.Z. Ma, K.N. Zhao, C.L. Yang, J.S. Zhang,
+[24] D.R. Sparks, Acta Astronaut. 17 (10) (1988) 1093–1097 . J. Magnes. Alloys 9 (5) (2021) 1632–1643 .
+[25] A. Delgado, in: Magnesium-Based Combustion Synthesis of Advanced [61] L. Yuan, W. Shi, W. Jiang, Z. Zhao, D. Shan, Mater. Sci. Eng. A 658
+Materials for Energy and Space Applications, University of Texas at (2016) 339–347 .
+El Paso, 2016, p. 341 . [62] F. Qi, X. Zhang, G. Wu, W. Liu, X. He, W. Ding, Mater. Sci. Eng. A
+[26] M. Rakshith, P. Seenuvasaperumal, J. Magnes. Alloys 9 (5) (2021) 813 (2021) 141172 .
+1692–1714 . [63] L. Guan, Y. Deng, A. Luo, X. Guo, C. Tang, Mater. Sci. Eng. A 804
+[27] G. Wu, C. Wang, M. Sun, W. Ding, J. Magnes. Alloys 9 (1) (2021) (2021) 140736 .
+1–20 . [64] M. Yuan, C. He, J. Zhao, H. Yang, Y. Song, B. Lei, X. Qian, Z. Dong,
+[28] Y. Yang, X. Xiong, J. Chen, X. Peng, D. Chen, F. Pan, J. Magnes. Q. Li, B. Jiang, F. Pan, J. Mater. Res. Technol. 15 (2021) 2518–
+Alloys 9 (3) (2021) 705–747 . 2528 .
+[29] I. Gokalp, A. Incesu, Int. J. Metalcast. 17 (2) (2022) 1402–1412 . [65] Y.B. Hu, J. Deng, C. Zhao, J.F. Wang, F.S. Pan, Trans. Nonferr. Met.
+[30] B. Li, J. Dong, Z. Zhang, J.F. Nie, L. Bourgeois, L. Peng, Mater. Des. Soc. China 21 (4) (2011) 732–738 .
+116 (2017) 419–426 . [66] X. Gao, J.F. Nie, Scr. Mater. 58 (8) (2008) 619–622 .
+[31] H. Liu, Y. Gao, J.Z. Liu, Y.M. Zhu, Y. Wang, J.F. Nie, Acta Mater. [67] W. Yang, G.F. Quan, B. Ji, Y.F. Wan, H. Zhou, J. Zheng, D.D. Yin, J.
+61 (2) (2013) 453–466 . Magnes. Alloys 10 (1) (2022) 195–208 .
+[32] H. Liao, M. Zhan, C. Li, Z. Ma, J. Du, J. Magnes. Alloys 9 (4) (2021) [68] X. Tong, G. Wu, L. Zhang, Y. Wang, W. Liu, W. Ding, J. Magnes.
+1211–1219 . Alloys 10 (1) (2022) 180–194 .
+[33] Z.Z. Jin, M. Zha, S.Q. Wang, S.C. Wang, C. Wang, H.L. Jia, [69] J. Li, R. Chen, Y. Ma, W. Ke, J. Magnes. Alloys 1 (4) (2013) 346–351 .
+H.Y. Wang, J. Magnes. Alloys 10 (5) (2022) 1191–1206 . [70] Y.H. Kang, Z.H. Huang, S.C. Wang, H. Yan, R.S. Chen, J.C. Huang,
+[34] Q. Han, Y. Wu, J. Shi, C. Li, W. Li, C. Liu, C. Lan, J. Ordnance J. Magnes. Alloys 8 (1) (2020) 103–110 .
+Equip. Eng. 43 (2022) 355 . [71] Y.H. Kang, D. Wu, R.S. Chen, E.H. Han, J. Magnes. Alloys 2 (2)
+[35] Y. Liu, W.L. Cheng, X.J. Gu, Y.H. Liu, Z.Q. Cui, L.F. Wang, (2014) 109–115 .
+H.X. Wang, J. Magnes. Alloys 9 (5) (2021) 1656–1668 . [72] K. Luo, L. Zhang, G. Wu, W. Liu, W. Ding, J. Magnes. Alloys 7 (2)
+[36] S. LI, Hot Work. Technol. 49 (15) (2020) 83 . (2019) 345–354 .
+[37] W.J. Yin, F. Briffod, T. Shiraiwa, M. Enoki, J. Magnes. Alloys 10 (8) [73] C. Ha, J. Bohlen, X. Zhou, H.G. Brokmeier, K.U. Kainer, N. Schell,
+(2022) 2158–2172 . D. Letzig, S. Yi, Mater. Charact. 175 (2021) 111044 .
+[38] Q. Zeng, Y.B. Zhang, K.N. Li, Y. Zhuang, J.H. Li, Y.J. Yuan, D.D. Yin, [74] W.Z. Wang, D. Wu, R.S. Chen, Y. Qi, H.Q. Ye, Z.Q. Yang, J. Alloys
+J. Magnes. Alloys 11 (2) (2023) 533–542 . Compd. 832 (2020) 155016 .
+[39] C. Li, J.Shaanxi Univ. Technol. (Nat. Sci. Ed.) 30 (5) (2014) 277–291 . [75] Y. Gao, C. Liu, S. Fu, J. Jin, X. Shu, Y. Gao, Surf. Coat. Technol.
+[40] W.P. Yang, Y. Wang, H.B. Cui, G.X. Fan, X.F. Guo, J. Magnes. Alloys 204 (21–22) (2010) 3629–3635 .
+10 (11) (2022) 3234–3249 . [76] K. Guan, R. Ma, J. Zhang, R. Wu, Q. Yang, J. Meng, J. Magnes.
+[41] C. Ma, W. Yu, X. Pi, A. Guitton, J. Magnes. Alloys 8 (4) (2020) Alloys 9 (3) (2021) 1098–1109 .
+1084–1089 . [77] H. Xie, X. Zhao, J. Jiang, J. Bai, S. Li, H. Pan, X. Pang, H. Li, Y. Ren,
+[42] M.R. Sahu, T.S.S. Kumar, U. Chakkingal, J. Magnes. Alloys 10 (8) G. Qin, Mater. Charact. 174 (2021) 163732–163736 .
+(2022) 2094–2117 . [78] H. Mao, X. Bai, Y. Tian, Z. Yin, Y. Wang, H. Xu, P. Sun, Y. Ge, Spec.
+[43] X. Yu, J. Cui, C. Liu, F. Yuan, Y. Guo, T. Deng, Chem. Eng. Sci. 229 Cast. Nonferr. Alloys 4 (2) (2022) 194–199 .
+(2021) 116019–116026 . [79] Y. Guo, G. Quan, M. Celikin, L. Ren, Y. Zhan, L. Fan, H. Pan, J.
+[44] C. Li, Y. He, H. Huang, J. Magnes. Alloys 9 (2) (2021) 569–580 . Magnes. Alloys 10 (7) (2022) 1930–1940 .
+[45] Y. Wang, D. Zhang, S. Zhong, Q. Dai, J. Hua, Y. Luo, G. Hu, J. Xu, [80] B.B. Yang, C.Y. Shi, S.Y. Zhang, J.J. Hu, J.W. Teng, Y.J. Cui, Y.P. Li,
+B. Jiang, F. Pan, J. Mater. Res. Technol. 20 (2022) 3735–3749 . A. Chiba, J. Magnes. Alloys 10 (10) (2022) 2775–2787 .
+[46] H. Xie, W. Lou, X. Zhao, S. Li, H. Pan, N. Xiao, H. Li, J. Bai, Y. Ren, [81] J. Wang, Y. Jin, R. Wu, D. Wang, B. Qian, J. Zhang, L. Hou, J. Alloys
+G. Qin, Mater. Charact. 170 (2020) 132666–132669 . Compd. 927 (2022) 1816–1825 .
+[47] D. Zhang, Q. Yang, B. Li, K. Guan, N. Wang, B. Jiang, C. Sun, [82] T. Xin, S. Tang, F. Ji, L. Cui, B. He, X. Lin, X. Tian, H. Hou, Y. Zhao,
+D. Zhang, X. Li, Z. Cao, J. Meng, J. Alloys Compd. 805 (2019) M. Ferry, Acta Mater. 239 (2022) 285–290 .
+811–821 . [83] C.Q. Li, X. Liu, L.J. Dong, B.Q. Shi, S. Tang, Y. Dong, Z.R. Zhang,
+[48] J. Zhang, S. Liu, R. Wu, L. Hou, M. Zhang, J. Magnes. Alloys 6 (3) Mater. Lett. 301 (2021) 4749–4762 .
+(2018) 277–291 . [84] X. Guo, R. Wu, J. Zhang, B. Liu, M. Zhang, Mater. Des. 53 (2014)
+[49] Y. Liu, Y. Li, Q. Zhu, H. Zhang, X. Qi, J. Wang, P. Jin, X. Zeng, J. 528–533 .
+Magnes. Alloys 9 (2) (2021) 499–504 . [85] Y. Zeng, B. Jiang, R. Li, H. Yin, S. Al-Ezzi, Metals 7 (5) (2017)
+[50] C. Cui, W.C. Zhang, W.Z. Chen, J. He, X.M. Chen, J.B. Hou, J. 143844–143854 .
+Magnes. Alloys 10 (10) (2022) 2745–2760 . [86] T. Mineta, K. Hasegawa, H. Sato, Mater. Sci. Eng. A 773 (2020)
+[51] U.M. Chaudry, K. Hamad, Y.G. Ko, Mater. Sci. Eng. A 815 (2021) 254–265 .
+140874 . [87] S. Tang, T. Xin, T. Luo, F. Ji, C. Li, T. Feng, S. Lan, J. Alloys Compd.
+[52] A.A. Luo, Int. Mater. Rev. 49 (1) (2004) 13–30 . 902 (2022) 69–82 .J. Bai, Y. Yang, C. Wen et al. / Journal of Magnesium and Alloys 11 (2023) 3609–3619 3619
+[88] J. Wu, L.J. Mady, A. Roy, A.M. Aral, B. Lee, F. Zheng, T. Catalin, [122] C.A. Chen, S.Y. Jian, C.H. Lu, C.Y. Lee, S.L. Aktug˘, M.D. Ger, J.
+Y. Chun, W.R. Wagner, K. Yang, H.E. Trejo Bittar, D. Chi, P.N. Kumta, Mater. Res. Technol. 9 (6) (2020) 13902–13913 .
+Commun. Biol. 3 (1) (2020) 787 . [123] Y.J. Sun, R. Yang, L. Xie, W.R. Wang, Y.B. Li, S.L. Wang, H.X. Li,
+[89] M. Zhou, Y. Morisada, H. Fujii, J.Y. Wang, Mater. Sci. Eng. A 773 J.M. Zhang, J.S. Zhang, Surf. Coat. Technol. 426 (2021) 1–5 .
+(2020) 11763–11777 . [124] Z. Lin, T. Wang, X. Yu, X. Sun, H. Yang, J. Alloys Compd. 879 (2021)
+[90] S. Zhang, C. Du, R. Wu, H. Jia, Q. Wu, J. Zhang, L. Hou, Mater. Sci. 160453–160461 .
+Eng. A 850 (2022) 111972–111981 . [125] G. Wang, D. Song, Y. Qiao, J. Cheng, H. Liu, J. Jiang, A. Ma, X. Ma,
+[91] L.N. Ma, Y. Yang, G. Zhou, F.J. Ren, H.J. Deng, G.B. Wei, X.D. Peng, J. Magnes. Alloys 11 (4) (2023) 1422–1439 .
+Trans. Nonferr. Met. Soc. China 30 (7) (2020) 1816–1825 . [126] F. Czerwinski, Corros. Sci. 86 (2014) 1–16 .
+[92] G. Zhou, Y. Yang, H. Zhang, F. Hu, X. Zhang, C. Wen, W. Xie, [127] B. Xue, Z.B. Xu, X.Y. Zhang, G.M. Li, Q.W. Huo, X.Y. Zhou, Foundry
+B. Jiang, X. Peng, F. Pan, J. Mater. Sci. Technol. 103 (2022) 186–196 . Technology 43 (04) (2022) 290–294 .
+[93] R. Maurya, D. Mittal, K. Balani, J. Mater. Res. Technol. 9 (3) (2020) [128] W. Ding, G. Wu, Z. Li, L. Xiao, Y. Chen, Aerospace 36 (2) (2019)
+4749–4762 . 1–8 Shanghai .
+[94] S. Acikgoz, S.C. Kurnaz, Int. J. Metalcast. 17 (3) (2022) 1580–1595 . [129] G.H. Wu, W.J. Ding, Manned Spacefl22 (3) (2016) 281–292 .
+[95] H.W. Chen, B. Yuan, R. Zhao, X. Yang, Z.W. Xiao, A. Aurora, B.A. Iu- [130] F.P. Ding Wenjiang, P. Liming, J. Haiyan, W. Yingxin, W. Guohua,
+lia, X.D. Zhu, A.V. Iulian, X.D. Zhang, J. Magnes. Alloys 10 (12) D. Jie, G. Xingwu, Spacecr. Environ. Eng. 28 (2) (2011) 103–109 .
+(2022) 3380–3396 . [131] Y. Sugawara, S. Nakasuka, K. Higashi, C. Kobayashi, K. Koyama,
+[96] W. Gao, X. Dong, Y. Fan, H. Zhao, C. Guo, K. Weng, Y. Xiao, Mater. T. Okada, Acta Astronaut. 65 (7–8) (2009) 958–966 .
+Sci. Eng. A 854 (2022) 143844–143854 . [132] P. Veeramuthuvel, K. Shankar, K.K. Sairajan, Acta Astronaut. 127
+[97] L.Y. Cui, G.B. Wei, Z.Z. Han, R.C. Zeng, L. Wang, Y.H. Zou, S.Q. Li, (2016) 260–270 .
+D.K. Xu, S.K. Guan, J. Mater. Sci. Technol. 35 (3) (2019) 254–265 . [133] G.P.I.J. Polmear, Y. Barbaux, H. Octor, C. Sanchez, A.J. Morton,
+[98] R.C. Zeng, L. Sun, Y.F. Zheng, H.Z. Cui, E.H. Han, Corros. Sci. 79 W.E. Borbidge, S. Rogers, Mater. Sci. Technol. 15 (1999) 645–653 .
+(2014) 69–82 . [134] Y.H.I. Ostrovsky, 2007.
+[99] G. Zhou, Y. Yang, L. Sun, J. Liu, H. Deng, C. Wen, G. Wei, B. Jiang, [135] D. Kumar, R.K. Phanden, L. Thakur, Mater. Today Proc. 38 (2021)
+X. Peng, F. Pan, J. Mater. Res. Technol. 19 (2022) 4197–4208 . 359–364 .
+[100] H. Liu, J. Ma, W. Liu, G. Wu, J. Sun, X. Tong, P. Chen, J. Mater. [136] T.R. Marker, Development of a LaboratoryScale Flammability Test for-
+Res. Technol. 20 (2022) 4114–4129 . Magnesium Alloys Used in Aircraft Seat Construction, National Tech-
+[101] H. Ji, G. Wu, W. Liu, X. Zhang, L. Zhang, M. Wang, Acta Mater. 226 nical Information Services (NTIS), 2014 .
+(2022) 151–155 . [137] S.F. Aida, H. Zuhailawati, A.S. Anasyida, Procedia Eng. 184 (2017)
+[102] W. Song, J. Liu, S. He, J. Shen, G. Yang, Y. Liu, Y. Chen, Q. Wei, 290–297 .
+Mater. Charact. 189 (2022) 1731–1736 . [138] X.Z.X. Bin, Z.H.A.N.G Xiaoyan, L.I. Guangming, H. Qingwen, Z. Xi-
+[103] W. Yang, Z. Liu, H. Huang, Corros. Sci. 188 (2021) 2478–2488 . angyu, Foundry Technol. 43 (4) (2022) 290–294 .
+[104] S.V.S. Prasad, S.B. Prasad, K. Verma, R.K. Mishra, V. Kumar, [139] Z.Q. Hou B. Jiang, Y.Y. Wang, J.F. Song, L. Xiao and F.S. Pan, Aerosp.
+S. Singh, J. Magnes. Alloys 10 (1) (2022) 1–61 . Shanghai (Chin. Engl.) , 38 (2), 2021, 119–133.
+[105] H. Zhang, S. Wang, X. Yang, S. Hao, Y. Chen, H. Li, D. Pan, Surf. [140] H. Yang, L. Liu, H. Yun, X. Li, Acta Astronaut. 164 (2019) 415–424 .
+Coat. Technol. 425 (2021) 3014–3022 . [141] S. Rawal, Acta Astronaut. 146 (2018) 151–160 .
+[106] X. Jia, J. Song, B. Xiao, Q. Liu, H. Zhao, Z. Yang, J. liao, L. Wu, [142] C. Zhou, L. Yang, X. Su, B. Li, Adv. Space Res. 70 (10) (2022)
+B. Jiang, A. Atrens, F. Pan, J. Mater. Res. Technol. 14 (2021) 2878–2893 .
+1739–1753 . [143] E.V. Morozov, A.V. Lopatin, V.B. Taygin, Compos. Struct. 136 (2016)
+[107] R.W. Burrows, 2013. 505–512 .
+[108] B.E.L. Placzankis, JP.; Charleton, E.; Miller, C.E., 2014. [144] E.V. Morozov, A.V. Lopatin, V.B. Taygin, Compos. Struct. 134 (2015)
+[109] F. Peng, D. Zhang, X. Liu, Y. Zhang, J. Magnes. Alloys 9 (5) (2021) 645–653 .
+1471–1486 . [145] Q. Wei, L. Yuan, X. Ma, M. Zheng, D. Shan, B. Guo, Mater. Sci. Eng.
+[110] S. Li, J. Bai, L. Feng, L. Zhang, Q. Cui, W. Jiang, G. Zhao, Phys. A 831 (2022) 40203–40216 .
+Procedia 50 (2013) 185–190 . [146] T.A. Dougherty, J.W. Young, Acta Astronaut. 4 (1977) 833–846 .
+[111] N.A.E. Mahallawy, M.A. Shoeib, M.H. Abouelenain, J. Surf. Eng. [147] Y.L. Li, B. Xue, Z.X. Bo, Z. Feng, L. Jing, J. Phys. Conf. Ser. (2021)
+Mater. Adv. Technol. 01 (02) (2011) 62–72 . 1885: 052001(1-4) .
+[112] D. Wu, W. Ren, Y. NuLi, J. Yang, J. Wang, J. Mater. Sci. Technol. 91 [148] S. Wang, Y. Wang, G. Cao, J. Chen, Y. Zou, B. Yang, J. Ouyang,
+(2021) 168–177 . D. Jia, Y. Zhou, Ceram. Int. 47 (24) (2021) 35037–35047 .
+[113] K. Cao, J. Bai, J. Wang, L. Li, Z. Zhao, Funct. Mater. 45 (5) (2014) [149] S. Zhou, Aerosp. Mater. Technol. 119 (1989) 06 .
+05144–05147 . [150] Z. Xu, Aerosp. Mater. Technol. 53 (1987) 05 .
+[114] L. Wang, J. Zhou, J. Liang, J. Chen, Appl. Surf. Sci. 280 (2013) [151] M. Asif, S. Kilian, M. Rashad, Energy Storage Mater. 42 (2021)
+151–155 . 129–144 .
+[115] Z.D. Wu, C.N. Li, Q.X. Xia, Z.P. Yao and Z.H. Jiang, J. Chin. Ceram. [152] Q. Li, X. Peng, F. Pan, J. Magnes. Alloys 9 (6) (2021) 2223–2224 .
+Soc. , 43 (12), 2015, 1731–1736. [153] F. Tong, S. Wei, X. Chen, W. Gao, J. Magnes. Alloys 9 (6) (2021)
+[116] P. Shoghi, D. Seifzadeh, M. Gholizadeh-Gheshlaghi, A. Habibi-Yang- 1861–1883 .
+jeh, Trans. Nonferr. Met. Soc. China 28 (12) (2018) 2478–2488 . [154] F. Tong, X. Chen, S. Wei, J. Malmstrom, J. Vella, W. Gao, J. Magnes.
+[117] T.N. Qin, L.Q. Ma, Y. Yao, C. Ni, X.Y. Zhao, Y. Ding, Trans. Nonferr. Alloys 9 (6) (2021) 1967–1976 .
+Met. Soc. China 21 (12) (2011) 2790–2797 . [155] M. Rashad, M. Asif, Z. Ali, Coord. Chem. Rev. 415 (2020)
+[118] H.L. Wang, L.Y. Liu, W.F. Jiang, Trans. Nonferr. Met. Soc. China 24 213312–213338 .
+(9) (2014) 3014–3022 . [156] C. Zhou, in: A Study of Advanced Magnesium-Based Hydride and
+[119] W. Liu, D.D. Xu, X.Y. Duan, G.S. Zhao, L.M. Chang, X. Li, Trans. Development of a Metal Hydride Thermal Battery System, The Uni-
+Nonferr. Met. Soc. China 25 (5) (2015) 1506–1516 . versity of Utah, 2015, pp. 5–15 .
+[120] D. Seifzadeh, Z. Rajabalizadeh, Surf. Coat. Technol. 218 (2013) [157] Y. Lv, Y. Wu, Prog. Nat. Sci. Mater. Int. 31 (6) (2021) 809–820 .
+119–126 . [158] Z. Tian, Z. Wang, P. Yao, C. Xia, T. Yang, Q. Li, Int. J. Hydrog.
+[121] X. Lei, G. Yu, X. Gao, L. Ye, J. Zhang, B. Hu, Surf. Coat. Technol. Energy 46 (80) (2021) 40203–40216 .
+205 (16) (2011) 4058–4063 .

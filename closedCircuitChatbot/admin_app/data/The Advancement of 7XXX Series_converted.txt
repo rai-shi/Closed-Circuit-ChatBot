@@ -1,0 +1,1802 @@
+metals
+Review
+The Advancement of 7XXX Series Aluminum Alloys for Aircraft
+Structures: A Review
+BoZhou,BoLiu* andShengenZhang*
+InstituteforAdvancedMaterialsandTechnology,UniversityofScienceandTechnologyBeijing,
+Beijing100083,China;b20170572@xs.ustb.edu.cn
+* Correspondence:liubo@ustb.edu.cn(B.L.);zhangshengen@mater.ustb.edu.cn(S.Z.)
+Abstract: 7XXXseriesaluminumalloys(Al7XXXalloys)arewidelyusedinbearingcomponents,
+suchasaircraftframe,sparsandstringers,fortheirhighspecificstrength,highspecificstiffness,high
+toughness,excellentprocessing,andweldingperformance.Therefore,Al7XXXalloysarethemost
+importantstructuralmaterialsinaviation.Inthispresentreview,thedevelopmenttendencyandthe
+mainapplicationsofAl7XXXalloysforaircraftstructuresareintroduced,andtheexistingproblems
+aresimplydiscussed.Also,theheattreatmentprocessesforimprovingthepropertiesarecompared
+andanalyzed.Itisthemostimportantmeasuresthatoptimizingalloycompositionandimproving
+heattreatmentprocessaretoenhancethecomprehensivepropertiesofAl7XXXalloys.Amongthe
+method,solidsolution,quenching,andagingofAl7XXXalloysarethemostsignificant.Weintroduce
+theeffectsofthethreemethodsontheproperties,andforecastthedevelopmentdirectionofthe
+properties,compositions,andheattreatmentsandthesolutiontothecorrosionpredictionproblem
+forthenextgenerationofAl7XXXalloysforaircraftstructures.ThenextgenerationofAl7XXXalloys
+(cid:1)(cid:2)(cid:3)(cid:1)(cid:4)(cid:5)(cid:6)(cid:7)(cid:8)(cid:1) shouldbehigherstrength,highertoughness,higherdamagetolerance,higherhardenability,and
+(cid:1)(cid:2)(cid:3)(cid:4)(cid:5)(cid:6)(cid:7)
+bettercorrosionresistance.Itisurgentrequirementstodeveloporinventnewheattreatmentregime.
+Citation: Zhou,B.;Liu,B.;Zhang,S. WeshouldconstructanovelcorrosionpredictionmodelforAl7XXXalloysviaconfirmingthesurface
+TheAdvancementof7XXXSeries corrosionenvironmentsandselectingtheaccurateandreliableelectrochemicalmeasurements.
+AluminumAlloysforAircraft
+Structures:AReview.Metals2021,11, Keywords:Al7XXXalloys;machiningtechnology;mechanicalproperties;corrosionproperties;heat
+718. https://doi.org/10.3390/
+treatment;corrosionprediction
+met11050718
+AcademicEditor:Babak
+ShalchiAmirkhiz
+1. Introduction
+Received:24March2021 Withthedevelopmentofmoderntechnology,allwalksoflifehavesetoffawaveof
+Accepted:20April2021 lightweightmaterials[1],especiallyintheaerospaceandautomotivefields.Manycountries
+Published:27April2021 andenterprisesarecommittedtoin-depthresearchonnewhigh-strengthaluminumalloys
+andexpecttoreducetheweightofthematerialstothemaximumwhilemaintainingthe
+Publisher’sNote:MDPIstaysneutral stabilityofmechanicsandcorrosionresistancefortheoverallstructure,soastoreplace
+withregardtojurisdictionalclaimsin traditionalmaterialssuchassteel[2–5].
+publishedmapsandinstitutionalaffil- InfluencedbyCOVID-19in2020,theglobalairpassengertraffichasreduced,butthe
+iations. averageannualgrowthofglobalairpassengertrafficwillreach4.0%in20yearsbasedon
+Boeing’sReport. 22,420additionalpassengerandcargoaircraftswillbeincreased,while
+the total number of aircraft is expected to come up to more than double between 2019
+and2039accordingtoBoeing’sforecast,whichisdemonstratedinFigure1. Inaddition,
+Copyright: © 2021 by the authors. approximately20,690low-fuel-efficientpassengerandcargoaircraftswillbereplacedby
+Licensee MDPI, Basel, Switzerland. new [6,7]. The rapid development of the aviation industry contributes to the progress
+This article is an open access article ofnewmaterials. Althoughtheproportionoftitaniumalloysandcompositematerials
+distributed under the terms and hasincreasedinnewlydevelopedaircraft,theuseofhigh-strengthaluminumalloysstill
+conditionsoftheCreativeCommons accountsforalargeproportion,whichmakesitindispensableintheaerospacefield[8].
+Attribution(CCBY)license(https://
+creativecommons.org/licenses/by/
+4.0/).
+Metals2021,11,718.https://doi.org/10.3390/met11050718 https://www.mdpi.com/journal/metalsMetals 2021, 11, x FOR PEER REVIEW 2 of 30
+alloys still accounts for a large proportion, which makes it indispensable in the aerospace
+Metals2021,11,718 2of29 field [8].
+50,000
+22,420
+40,000
+0
+30,000
+25,900
+20,000
+10,000
+5210
+0
+2019 2039E
+Figure 1. Boeing forecasts global aircraft demand [6].
+As shown in Figure 2a, aircraft structural materials have shown a steady develop-
+ment trend from the Boeing 747 to the new generation of aircraft represented by the
+Boeing 777 and Airbus A380, and the amount of aluminum alloys used in civil aircraft
+accounts for more than 70%. In military aircraft, although the main structure materials
+have undergone great changes, it is still aluminum alloys that occupy the main position.
+As shown in Figure 2b, the proportion of aluminum alloys used in military aircraft is
+more than 35% except for F-22 [9]. According to statistics, global aviation aluminum
+demand has exceeded 2 million tons, with an annual average of more than 400 thousand
+tons from 2016 to 2020.
+senalp
+fo
+rebmuN
+Year
+inventory Substitute Increment
+100%
+80%
+60%
+40%
+20%
+0%
+egatnecreP
+Metals 2021, 11, x FOR PEER REVIEW 2 of 30
+alloys still accounts for a large proportion, which makes it indispensable in the aerospace
+field [8].
+50,000
+22,420
+40,000
+0
+30,000
+25,900
+20,000
+10,000
+5210
+0
+2019 2039E
+Figure1.Boeingforecastsglobalaircraftdemand[6].
+Figure 1. Boeing forecasts global aircraft demand [6].
+AsshowninFigure2a,aircraftstructuralmaterialshaveshownasteadydevelopment
+As shown in Figure 2a, aircraft structural materials have shown a steady develop-
+trendfromtheBoeing747tothenewgenerationofaircraftrepresentedbytheBoeing777 ment trend from the Boeing 747 to the new generation of aircraft represented by the
+BaonedinAg i7r7b7u asnAd 3A8i0r,bauns dAt3h8e0,a amndo uthnet oamfaoluunmt ionfu amlumalilnouyms uaslleodysi nusceivdi lina icricvrial fatiraccrcaoftu ntsfor
+amccooruentths afnor7 m0%or.eI nthmani li7t0a%ry. Ianir cmrialfitta,raylt haiorucrgahft,t haelthmoauignhs tthrue cmtuarien mstarutecrtuiarles mhaavteeriuanlsd ergone
+hgarveea utncdhearnggoense, gitreiast scthiallnagleus,m iti nisu smtilla allluomysintuhmat aollcocyusp tyhatth oeccmupayin thpeo msiatiionn p.osAitsiosnh. own in
+AFsi gsuhroew2nb ,int hFeigpurroep 2obr,t itohne porfoaplourmtioinnu omf aallulmoyinsuumse adllionysm uilsietda riyn amiriclirtaafrtyi saimrcroarfet tihs an35%
+mexocree ptthfaonr 3F5-2%2 e[9x]c.eAptc cfoorr dFi-n2g2 t[o9]s.t aAticsctoicrsd,ingglo btoa lsatavtiiasttiicosn, aglluobmailn auvmiatdioenm aalnudmhinausmex ceeded
+d2emmailnlido hnatso enxsc,eweditehd a2n mainllniouna tloanvse, rwaigthe oanf manonrueatlh aavner4a0g0e tohfo muosaren dthatonn 4s0f0r othmou2s0a1n6d to2020.
+tons from 2016 to 2020.
+Civil aircraft type
+(a)
+Aluminium alloy Steel Titanium alloy composite material Others
+senalp
+fo
+rebmuN
+Year
+inventory Substitute Increment
+100%
+80%
+60%
+40%
+20%
+0%
+egatnecreP
+Metals 2021, 11, x FOR PEER REVIEW 3 of 30
+Civil aircraft type
+(a)
+Aluminium alloy Steel Titanium alloy composite material Others
+100%
+80%
+60%
+40%
+20%
+0%
+Figure 2. Ratio of materials used in Aircrafts: (a) civil (b) military [9].
+Traditional aluminum alloys for aircraft structures are principally high-strength Al
+2XXX alloys (2024, 2224, 2324, 2424, 2524, etc.) and ultra-high-strength Al 7XXX alloys
+(7075, 7475, 7050, 7150, 7055, 7085, etc.) [10]. After the 1980s, new materials including
+aluminum–lithium alloys, rapid solidification aluminum alloys, and aluminum matrix
+composite materials have been rapidly developed [11,12]. The traditional 2XXX series
+and Al 7XXX alloy materials were greatly affected, but they still show strong vitality
+with their superior performance [13–16]. According to statistics, high-performance 2XXX
+series and Al 7XXX alloys are still mostly used in more than 70% structural materials of
+aircraft. According to the application classification, aviation aluminum can be divided
+into casting aluminum alloy, extruded aluminum alloy, rolled aluminum alloy, forged
+aluminum alloy, etc. [17] The aluminum proportional distribution for aviation is shown
+in Figure 3.
+Figure 3. Aluminum proportional distribution for aviation (mass fraction, %) [9].
+As the main part of high-strength and high-toughness aluminum alloy, Al 7XXX
+alloys have high specific strength, high specific stiffness, high toughness, excellent pro-
+cessing and welding performance. They are widely applied in the manufacture of air-
+craft frame, spars, and stringers as load-bearing components, and have become one of
+the most important structural materials in this field [18].
+Due to the combined effect of the service environment and the bearing load during
+actual use, the stress corrosion has always been a fatal defect of Al 7XXX alloys as air-
+craft structural materials, which has caused many aircraft accidents [19]. Therefore, in
+order to deal with the problems in the harsh and long-term working environment dur-
+ing the service process of the aircraft, the aircraft structural materials not only need high
+static strength, high fracture toughness, high fatigue strength, and excellent high tem-
+egatnecreP
+Military aircraft type
+(b)
+Aluminium alloy Steel Titanium alloy Composite material Others
+Figure2.RatioofmaterialsusedinAircrafts:(a)civil(b)military[9].Metals 2021, 11, x FOR PEER REVIEW 3 of 30
+100%
+80%
+60%
+40%
+20%
+0%
+Metals2021,11,718 3of29
+Figure 2. Ratio of materials used in Aircrafts: (a) civil (b) military [9].
+Traditional aluminum alloys for aircraft structures are principally high-strength Al
+2XXX alloys (2024, 2224, 2324, 2424, 2524, etc.) and ultra-high-strength Al 7XXX alloys
+Traditionalaluminumalloysforaircraftstructuresareprincipallyhigh-strengthAl
+(7075, 7475, 7050, 7150,2 X70X5X5, a7ll0o8y5s, (e2t0c.2)4 [,1202]2. 4A,f2t3er2 4t,h2e4 12948,02s5,2 n4e,wet cm.)aatnerdiaulsl trinac-hluigdhin-sgt rengthAl7XXXalloys
+aluminum–lithium allo(y7s0,7 r5a,p7i4d7 5so,l7id05if0ic,a7t1io5n0, a7l0u5m5,in7u0m85 ,aelltocy.)s[, 1a0n].d Aaflutemritnhuem19 m80ast,rnixe w materials including
+composite materials haavleu mbeinenu mra–pliitdhliyu mdeavlellooypse,dr a[p1i1d,1s2o].l idTihfiec atrtiaodnitiaolunaml i2nXuXmXa slleoryiess, and aluminum matrix
+and Al 7XXX alloy mactoermiaplso switeerme agtreeraitallys ahfafvecetebde,e nburta pthidelyy sdtielvl eslhoopwed st[r1o1n,1g2 ]v.itTahlietyt raditional 2XXX series
+with their superior perfaonrmdAanlc7eX [X13X–a1l6l]o.y Amccaoterdriianlgs wtoe srteagtirsetaictsly, haifgfehc-tpeedr,fborumttahnecye s2tXillXsXh owstrongvitalitywith
+series and Al 7XXX allotyhse iarrseu spteilrli omropsetrlyfo urmseadn cine [m13o–r1e6 t]h.aAnc c7o0r%d isntgrutcotustraatli smticast,erhiiaglhs -opfe rformance2XXXseries
+aircraft. According to tahned aAppll7iXcaXtXional lcolaysssaifriecasttiiollnm, aovstilaytiuosne daluinmminouremt hcaann 7b0e% dsitvriudcetdu ralmaterialsofaircraft.
+into casting aluminum Aacllcooyr,d einxgtrtuodtehde aalpupmliicnautimon aclllaosys,i fircoallteiodn a,lauvmiaitniounma laulmloiyn, ufmorgcaend bedividedintocasting
+aluminum alloy, etc. [17a]lu Tmhien aulmumalilnouym,e xptrroupdoedrtiaolnuaml idniusmtribaullotiyo,nr ofollre davailautmioinn uism shaollwoyn, forgedaluminumalloy,
+in Figure 3. etc.[17]ThealuminumproportionaldistributionforaviationisshowninFigure3.
+Figure 3. Aluminum proportional distribution for aviation (mass fraction, %) [9].
+As the main part of high-strength and high-toughness aluminum alloy, Al 7XXX
+alloys have high specific strength, high specific stiffness, high toughness, excellent pro-
+cessing and welding performance. They are widely applied in the manufacture of air-
+craft frame, spars, and stringers as load-bearing components, and have become one of
+the most important structural materials in this field [18].
+Due to the combined effect of the service environment and the bearing load during
+actual use, the stress corrosion has always been a fatal defect of Al 7XXX alloys as air-
+craft structural materials, which has caused many aircraft accidents [19]. Therefore, in
+order to deal with the problems in the harsh and long-term working environment dur-
+ing the service process of the aircraft, the aircraft structural materials not only need high
+static strength, high fracture toughness, high fatigue strength, and excellent high tem-
+egatnecreP
+Military aircraft type
+(b)
+Aluminium alloy Steel Titanium alloy Composite material Others
+Figure3.Aluminumproportionaldistributionforaviation(massfraction,%)[9].
+Asthemainpartofhigh-strengthandhigh-toughnessaluminumalloy,Al7XXXalloys
+havehighspecificstrength,highspecificstiffness,hightoughness,excellentprocessingand
+weldingperformance. Theyarewidelyappliedinthemanufactureofaircraftframe,spars,
+andstringersasload-bearingcomponents,andhavebecomeoneofthemostimportant
+structuralmaterialsinthisfield[18].
+Duetothecombinedeffectoftheserviceenvironmentandthebearingloadduring
+actualuse,thestresscorrosionhasalwaysbeenafataldefectofAl7XXXalloysasaircraft
+structuralmaterials,whichhascausedmanyaircraftaccidents[19]. Therefore,inorder
+todealwiththeproblemsintheharshandlong-termworkingenvironmentduringthe
+serviceprocessoftheaircraft,theaircraftstructuralmaterialsnotonlyneedhighstatic
+strength,highfracturetoughness,highfatiguestrength,andexcellenthightemperature
+performance,itisalsonecessarytohavegoodstresscorrosionresistance. Asaresponseto
+thesevariousneeds,theheattreatmentprocessesofAl7XXXalloysarecorrespondingly
+produced,mainlyincludinghomogenizationtreatment,thermaldeformationlikerolling,
+extrusion,solidsolution,quenching,andagingtreatment[20,21].
+Thispaperreviewsthedevelopmenttendency,requirementstage,mainbandsand
+applications,joiningandmillingtechniques,andadditivemanufacturingtechnologyofAl
+7XXXalloysforaircraftstructures,andthemainproblemsfacedintheapplicationsare
+pointedout. Furthermore,themainmeasurestoimprovetheperformancearediscussed,
+mainlyintroducingtheeffectsofsolution,quenchingandagingprocessesontheproperties.
+Moreover,thedevelopmentdirectiontothenewgenerationofAl7XXXalloysforaircraft
+structureandthecorrosionpredictionarediscussed.
+2. DevelopmentofAl7XXXAlloysforAircraftStructures
+2.1. DevelopmentTendency
+From1923to1924,GermanscientistsSanderandMeissneretal.[22]discoveredthat
+theAl-Mg-ZnalloyformedMgZn strengtheningphaseaftersolidsolution,quenching
+2
+andagingtreatment,whichgreatlyimprovedthestrength. Sincethen,researchonAl7XXX
+alloyshasbegun. In1932,Webberetal. foundthatasmallamountofCuandMnelementsMetals2021,11,718 4of29
+containedinAl-Mg-Znalloyscanimprovetheirstresscorrosionresistance,anddeveloped
+theearliestAl7XXXalloys,whichlaterAl7XXXalloysarebasedontodevelop.
+From1935to1939,JapanesescientistIgarashiaddedCr,Mn,andMotoAl-Mg-Zn-Cu
+alloystodevelopanewhigh-strengthextrasuperduraluminalloy,whichwasfirstused
+incarrier-basedaircraftsbecauseofitshighstrengthandgoodstresscorrosionresistance.
+Soonafterwards,theUnitedStatesdevelopedtheAl7075alloyin1943andapplieditto
+theB-29bomber,whichgreatlypromotedthedevelopmentofhigh-strengthaluminum
+alloysintheaviationfield. In1948, theformerSovietUniondevelopedB95aluminum
+alloywhichwassimilartotheAl7075alloy.
+In1954, theUnitedStatesdevelopedanAl7178-T651alloywithahigherstrength
+thanAl7075-T651alloybyincreasingthealloyelementcontentonthebasisofAl7075
+alloy,whichwasusedonBoeing707,737,andDC8passengeraircraft. In1956,theformer
+SovietUnionaddedZrelementtoAl-Zn-Mg-Cuseriesalloysforthefirsttimetosuppress
+therecrystallization,whichdevelopedB96ualuminumalloywithhighstrengthandhigh
+alloydegree[23]. In1960,thedoubleagingprocessT73wasdevelopedandappliedtoAl
+7075alloytoreducethesusceptibilityofstresscorrosionandexfoliationcorrosion,which
+especiallysolvedtheproblemofstresscorrosiononthicksections. Inthemid-1960s,the
+T76agingprocesswasdeveloped,whichimprovedthestrengthofthealloycomparedto
+theT73stateandmettherequirementsfortheresistancetostresscorrosionandexfoliation
+corrosion[24,25].
+In1968,basedontheAl7001alloy,thecontentofCuandCrwasreduced,andthe
+Zn/Mg ratio was increased, while the toughness and stress corrosion resistance of the
+alloywereimproved,sothattheAl7049alloywassuccessfullydeveloped. In1969,the
+Al7475alloywiththehighestfracturetoughnessamongAl-Zn-Mg-Cuseriesalloyswas
+successfullydeveloped,whichwasmadeonthebasisoftheimprovedpurityoftheAl
+7075alloy[26].
+In1971,basedontheAl7075alloy,theUnitedStatesincreasedtheZnandCucontent,
+andtheCu/Mgratiotoincreasethestrengthofthealloy. TheyalsoaddedZrinsteadofCr
+toovercomethequenchingsensitivityandadjustthegrainsize,whichmeansAl7050alloy
+wasexploitedwithhigherstrength,fracturetoughness,andstresscorrosionresistance. In
+1978,basedontheoptimizationofthemainAl7050alloycomposition,AmericanAlcoa
+increasedtheZncontentandreducedthequantityoftheFeandSiimpurityphases,thus
+developedanewAl7150alloywithbettertoughnessandresistancetoexfoliationcorrosion.
+In1989,theAlcoadevelopedtheT77treatmentprocessandappliedto7150alloyto
+obtaintheT6statestrengthandT73statecorrosionresistance,andthestrengthoftheAl
+7055alloythroughT77agingwashigher. In1992,JapaneseSumitomoLightMetalsCo.,
+Ltd. producedultra-high-strengthaluminumalloyswiththetensilestrengthofmorethan
+700MPainthelaboratoryusingvacuumcompactingandsinteringprocesses. Attheend
+ofthe1990s,theUnitedStates,Japan,andothernationsdevelopedanewgenerationof
+ultra-high-strengthaluminumalloyswiththeZncontentofmorethan8wt%,thetensile
+strengthof760-810MPa,andtheelongationof8–13%byusingsprayformingtechnology.
+It was used for manufacturing structural parts in transportation and other high-stress
+structuralpartsthatrequiredhighstrengthandresistancetostresscorrosion.
+In2003,Alcoalaunchedanewgenerationofhigh-strengthandhigh-toughnessAl
+7085 alloy. Due to its good casting properties and excellent hardenability, it has great
+application potential in new-generation aircraft components. It has been reported that
+thecomprehensivepropertiesofAl7085alloyhasexceededAl7050alloy. Atthesame
+process,thestresscorrosionresistanceandfracturetoughnessofAl7085alloycomponent
+areequivalenttoAl7050alloy,butitsstrengthcanbeincreasedby15%,anditsmaximum
+thicknessisupto305mm. Untilnow,Al7085alloyisoneofthemostadvancedaluminum
+alloysintheworld[3,18,25,27–29].
+Inshort,thedevelopmentlawofAl7XXXalloysisbasedontheexistingproperties
+to greatly improve other aspects of the alloy. Specifically, in terms of alloy design, the
+contentofimpuritiessuchasFeandSiisgettinglower,andthealloyingdegreeisgettingMetals 2021, 11, x FOR PEER REVIEW 5 of 30
+In 1989, the Alcoa developed the T77 treatment process and applied to 7150 alloy to
+obtain the T6 state strength and T73 state corrosion resistance, and the strength of the Al
+7055 alloy through T77 aging was higher. In 1992, Japanese Sumitomo Light Metals Co.,
+Ltd. produced ultra-high-strength aluminum alloys with the tensile strength of more
+than 700 MPa in the laboratory using vacuum compacting and sintering processes. At
+the end of the 1990s, the United States, Japan, and other nations developed a new gener-
+ation of ultra-high-strength aluminum alloys with the Zn content of more than 8 wt %,
+the tensile strength of 760-810 MPa, and the elongation of 8–13% by using spray forming
+technology. It was used for manufacturing structural parts in transportation and other
+high-stress structural parts that required high strength and resistance to stress corrosion.
+In 2003, Alcoa launched a new generation of high-strength and high-toughness Al
+7085 alloy. Due to its good casting properties and excellent hardenability, it has great
+application potential in new-generation aircraft components. It has been reported that
+the comprehensive properties of Al 7085 alloy has exceeded Al 7050 alloy. At the same
+process, the stress corrosion resistance and fracture toughness of Al 7085 alloy compo-
+nent are equivalent to Al 7050 alloy, but its strength can be increased by 15%, and its
+maximum thickness is up to 305 mm. Until now, Al 7085 alloy is one of the most ad-
+vanced aluminum alloys in the world [3,18,25,27–29].
+Metals2021,11,718 5of29
+In short, the development law of Al 7XXX alloys is based on the existing properties
+to greatly improve other aspects of the alloy. Specifically, in terms of alloy design, the
+content of impurities such as Fe and Si is getting lower, and the alloying degree is get-
+ting higher, whhiilgeh tehr,e wtrhaiclee tthraentsriatcioentr garnosuitpio nelegmroeunptse laerme ebnetcsoamreinbge cmomorien gremasoornearbelaes, oansa ble,asshown
+shown in Figurine 4F.i gure4.
+FFiigguurree 44.. FFllooww cchhaarrtt ooff tthhee ddeevveellooppmmeenntt ooff AAll 77XXXXXX aallllooyyss [[33,1,188,2,222––2299]]..
+2.2. Requiremen2t. 2S.taRgeeqsu irementStages
+Metals 2021, 11, x FOR PEER REVIEW 6 of 30
+As shown in FiAgsurseh o5w, tnhein dFevigeulorepm5,etnhte odfe Avel l7oXpXmXe naltlooyfsA clo7uXlXd Xbea lrloouygshcloyu dldivbideerdou ghlydivided
+into five stagesi n[2to,1fi3,v2e6]s.t ages[2,13,26].
+Figure5.ThedevelopmentprocessofAl7XXXalloys[2,13,26,30].
+Figure 5. The development process of Al 7XXX alloys [2,13,26,30].
+ThefirstgenerationofAl7XXXalloysisrepresentedbyhigh-strengthAl7075-T6alloy.
+The first generation of Al 7XXX alloys is represented by high-strength Al 7075-T6
+Atthisstage,thepurposeistoimprovethestaticstrength. Nevertheless,theimportanceof
+alloy. At this stage, the purpose is to improve the static strength. Nevertheless, the im-
+fracturetoughnessandcorrosionresistancehasnotbeentakenintoaccount. Therepresen-
+portance of fracture toughness and corrosion resistance has not been taken into account.
+tativeofthesecondgenerationisAl7475-TXXalloy. Atthisstage,thecorrosionresistance
+The representative of the second generation is Al 7475-TXX alloy. At this stage, the cor-
+of the alloy is improved at the expense of reducing the strength. The representative of
+rosion resistance of the alloy is improved at the expense of reducing the strength. The
+the third generation is Al 7050-TXX alloy. At this stage, the comprehensive properties
+representative ooff tthhee atlhloiryd agreenpeurarstiuoend ,ise sAple c7i0a5l0ly-TiXnXst raellnogyt.h A,ftr athctius rsetatgoeu,g thhnee scsomanpdres-tresscorrosion
+hensive properrteiseiss toafn cthe.e Tahlleorye parrees penutrastuivede,o efstpheecfioaullryt hing esntreernagtitohn, ifsraActlu7r0e5 5to-Tu7g7hnalelsosy . Atthisstage,
+and stress corrosion resistance. The representative of the fourth generation is Al
+7055-T77 alloy. At this stage, the contradiction between strength and stress corrosion re-
+sistance was ameliorated. For instance, Alcoa developed Al 7055-T77 alloy with higher
+strength and better resistance corrosion performance based on retrogression and
+re-aging (RRA). The representative of the fifth generation is Al 7085-T74 alloy. At this
+stage, it aims to develop the aluminum alloys with ultra-high strength, high toughness,
+and high hardenability [30]. Through adjusting the composition of the alloy, the Al 7085
+alloy was born to satisfy the needs of strength, quench sensitivity, fatigue performance,
+and stress corrosion resistance to meet the development of the aviation industry and the
+urgent needs of the large aircraft industry.
+2.3. Main Brands and Applications
+Al 7XXX alloys can be strengthened by heat treatment, which mainly contained Zn
+element. The Al-Zn-Mg alloy, which means that Mg is added to the alloy, is a
+high-strength and weldable aluminum alloy and has good thermal deformation proper-
+ties and a wide quenching range. On appropriate conditions of heat treatment, it can
+obtain higher strength, better welding performance, and better resistance to corrosion
+performance [31,32]. Al-Zn-Mg-Cu alloy is developed by adding Cu on the basis of
+Al-Zn-Mg alloy. Its strength is higher than Al 2XXX alloys, which is generally called ul-
+tra-high-strength aluminum alloy. The yield strength of the alloy is close to the tensile
+strength. The specific strength is also very high, but the plasticity and high-temperature
+strength are low. It is suitable to be used as a load-bearing structural component at room
+temperature or below 120 °C. The alloy is easy to process, and has good corrosion re-
+sistance and high toughness [28,33]. The main brands and chemical compositions of Al
+7XXX alloys are shown in Table 1.
+Table 1. Main brands and chemical compositions of Al 7XXX alloys (mass fraction, %) [2,34–36]Metals2021,11,718 6of29
+thecontradictionbetweenstrengthandstresscorrosionresistancewasameliorated. For
+instance,AlcoadevelopedAl7055-T77alloywithhigherstrengthandbetterresistance
+corrosionperformancebasedonretrogressionandre-aging(RRA).Therepresentativeof
+thefifthgenerationisAl7085-T74alloy. Atthisstage,itaimstodevelopthealuminum
+alloys with ultra-high strength, high toughness, and high hardenability [30]. Through
+adjustingthecompositionofthealloy,theAl7085alloywasborntosatisfytheneedsof
+strength,quenchsensitivity,fatigueperformance,andstresscorrosionresistancetomeet
+thedevelopmentoftheaviationindustryandtheurgentneedsofthelargeaircraftindustry.
+2.3. MainBrandsandApplications
+Al7XXXalloyscanbestrengthenedbyheattreatment,whichmainlycontainedZn
+element. TheAl-Zn-Mgalloy,whichmeansthatMgisaddedtothealloy,isahigh-strength
+andweldablealuminumalloyandhasgoodthermaldeformationpropertiesandawide
+quenchingrange.Onappropriateconditionsofheattreatment,itcanobtainhigherstrength,
+betterweldingperformance,andbetterresistancetocorrosionperformance[31,32]. Al-
+Zn-Mg-CualloyisdevelopedbyaddingCuonthebasisofAl-Zn-Mgalloy. Itsstrengthis
+higherthanAl2XXXalloys,whichisgenerallycalledultra-high-strengthaluminumalloy.
+Theyieldstrengthofthealloyisclosetothetensilestrength. Thespecificstrengthisalso
+veryhigh,buttheplasticityandhigh-temperaturestrengtharelow. Itissuitabletobeused
+asaload-bearingstructuralcomponentatroomtemperatureorbelow120◦C.Thealloyis
+easytoprocess,andhasgoodcorrosionresistanceandhightoughness[28,33]. Themain
+brandsandchemicalcompositionsofAl7XXXalloysareshowninTable1.
+Table1.MainbrandsandchemicalcompositionsofAl7XXXalloys(massfraction,%)[2,34–36]
+Other
+Alloy Zn Mg Cu Cr Fe Si Mn Ti Zr Al
+Each Total
+7075 5.1~6.1 2.1~2.9 1.2~2.0 0.18~0.28 ≤0.50 ≤0.40 ≤0.30 ≤0.20 – ≤0.05 ≤0.15 Bal.
+7178 6.3~7.3 2.4~3.1 1.6~2.4 0.18~0.28 ≤0.50 ≤0.40 ≤0.30 ≤0.20 – ≤0.05 ≤0.15 Bal.
+7001 6.8~8.0 2.6~3.4 1.6~2.6 0.18~0.35 ≤0.40 ≤0.35 ≤0.20 ≤0.20 – ≤0.05 ≤0.15 Bal.
+7079 3.8~4.8 2.9~3.7 0.40~0.80 0.10~0.25 ≤0.40 ≤0.35 0.10~0.25 ≤0.10 – ≤0.05 ≤0.15 Bal.
+7175 5.1~6.1 2.1~2.9 1.2~2.0 0.18~0.28 ≤0.20 ≤0.15 ≤0.10 ≤0.10 – ≤0.05 ≤0.15 Bal.
+7179 3.8~4.8 2.9~3.7 0.40~0.80 0.10~0.25 ≤0.20 ≤0.15 0.10~0.30 ≤0.10 – ≤0.05 ≤0.15 Bal.
+7049 7.2~8.2 2.0~2.9 1.2~1.9 0.10~0.22 ≤0.35 ≤0.25 ≤0.20 ≤0.10 – ≤0.05 ≤0.15 Bal.
+7475 5.2~6.2 1.9~2.6 1.2~1.9 0.18~0.25 ≤0.12 ≤0.10 ≤0.06 ≤0.06 – ≤0.05 ≤0.15 Bal.
+7050 5.7~6.7 1.9~2.6 2.0~2.6 ≤0.04 ≤0.15 ≤0.12 ≤0.10 ≤0.06 0.08~0.15 ≤0.05 ≤0.15 Bal.
+7049A 7.2~8.4 2.1~3.1 1.2~1.9 0.05~0.25 ≤0.50 ≤0.40 ≤0.50 – ≤0.25 ≤0.05 ≤0.15 Bal.
+7009 5.5~6.5 2.1~2.9 0.60~1.3 0.10~0.25 ≤0.20 ≤0.20 ≤0.10 ≤0.10 – ≤0.05 ≤0.15 Bal.
+7109 5.8~6.5 2.2~2.7 0.8~1.3 0.04~0.08 ≤0.15 ≤0.10 ≤0.10 ≤0.10 – ≤0.05 ≤0.15 Bal.
+7010 5.7~6.8 2.1~2.6 1.5~2.0 ≤0.05 ≤0.15 ≤0.12 ≤0.10 – 0.11~0.17 ≤0.05 ≤0.15 Bal.
+7012 5.8~6.5 1.8~2.2 0.8~1.2 ≤0.04 ≤0.25 ≤0.15 0.08~0.15 0.04~0.08 – ≤0.05 ≤0.15 Bal.
+7149 7.2~8.2 2.0~2.9 1.2~1.9 0.10~0.22 ≤0.20 ≤0.15 ≤0.20 ≤0.10 – ≤0.05 ≤0.15 Bal.
+7150 5.9~6.9 2.0~2.7 1.9~2.5 ≤0.04 ≤0.15 ≤0.15 ≤0.10 ≤0.06 0.08~0.15 ≤0.05 ≤0.15 Bal.
+7278 6.6~7.4 2.5~3.2 1.6~2.2 0.17~0.25 ≤0.20 ≤0.15 ≤0.02 ≤0.03 – ≤0.05 ≤0.15 Bal.
+7055 7.6~8.4 1.8~2.3 2.0~2.6 ≤0.04 ≤0.10 ≤0.10 ≤0.05 ≤0.06 0.05~0.25 ≤0.05 ≤0.15 Bal.
+7249 7.5~8.2 2.0~2.4 1.3~1.9 0.12~0.18 ≤0.12 ≤0.10 ≤0.10 ≤0.06 – ≤0.05 ≤0.15 Bal.
+7085 7.0-8.0 1.2-1.8 1.3-2.0 ≤0.04 ≤0.08 ≤0.06 ≤0.04 ≤0.06 0.08~0.15 ≤0.05 ≤0.15 Bal.
+Asthemainpartofhigh-strengthandhigh-toughnessaluminumalloy,Al7XXXalloys
+havehighspecificstrength,highspecificstiffness,hightoughness,excellentprocessing,and
+weldingperformance. Theyarewidelyappliedinthemanufactureofaircraftframe,spars,
+andstringersasload-bearingcomponents,andhavebecomeoneofthemostimportant
+structural materials in this field [18,37]. The performance requirements of the aircraft
+materialsareshowninFigure6[25,35,38].Metals 2021, 11, x FOR PEER REVIEW 7 of 30
+Other
+Alloy Zn Mg Cu Cr Fe Si Mn Ti Zr Al
+Each Total
+7075 5.1~6.1 2.1~2.9 1.2~2.0 0.18~0.28 ≤0.50 ≤0.40 ≤0.30 ≤0.20 – ≤0.05 ≤0.15 Bal.
+7178 6.3~7.3 2.4~3.1 1.6~2.4 0.18~0.28 ≤0.50 ≤0.40 ≤0.30 ≤0.20 – ≤0.05 ≤0.15 Bal.
+7001 6.8~8.0 2.6~3.4 1.6~2.6 0.18~0.35 ≤0.40 ≤0.35 ≤0.20 ≤0.20 – ≤0.05 ≤0.15 Bal.
+7079 3.8~4.8 2.9~3.7 0.40~0.80 0.10~0.25 ≤0.40 ≤0.35 0.10~0.25 ≤0.10 – ≤0.05 ≤0.15 Bal.
+7175 5.1~6.1 2.1~2.9 1.2~2.0 0.18~0.28 ≤0.20 ≤0.15 ≤0.10 ≤0.10 – ≤0.05 ≤0.15 Bal.
+7179 3.8~4.8 2.9~3.7 0.40~0.80 0.10~0.25 ≤0.20 ≤0.15 0.10~0.30 ≤0.10 – ≤0.05 ≤0.15 Bal.
+7049 7.2~8.2 2.0~2.9 1.2~1.9 0.10~0.22 ≤0.35 ≤0.25 ≤0.20 ≤0.10 – ≤0.05 ≤0.15 Bal.
+7475 5.2~6.2 1.9~2.6 1.2~1.9 0.18~0.25 ≤0.12 ≤0.10 ≤0.06 ≤0.06 – ≤0.05 ≤0.15 Bal.
+7050 5.7~6.7 1.9~2.6 2.0~2.6 ≤0.04 ≤0.15 ≤0.12 ≤0.10 ≤0.06 0.08~0.15 ≤0.05 ≤0.15 Bal.
+7049A 7.2~8.4 2.1~3.1 1.2~1.9 0.05~0.25 ≤0.50 ≤0.40 ≤0.50 – ≤0.25 ≤0.05 ≤0.15 Bal.
+7009 5.5~6.5 2.1~2.9 0.60~1.3 0.10~0.25 ≤0.20 ≤0.20 ≤0.10 ≤0.10 – ≤0.05 ≤0.15 Bal.
+7109 5.8~6.5 2.2~2.7 0.8~1.3 0.04~0.08 ≤0.15 ≤0.10 ≤0.10 ≤0.10 – ≤0.05 ≤0.15 Bal.
+7010 5.7~6.8 2.1~2.6 1.5~2.0 ≤0.05 ≤0.15 ≤0.12 ≤0.10 – 0.11~0.17 ≤0.05 ≤0.15 Bal.
+7012 5.8~6.5 1.8~2.2 0.8~1.2 ≤0.04 ≤0.25 ≤0.15 0.08~0.15 0.04~0.08 – ≤0.05 ≤0.15 Bal.
+7149 7.2~8.2 2.0~2.9 1.2~1.9 0.10~0.22 ≤0.20 ≤0.15 ≤0.20 ≤0.10 – ≤0.05 ≤0.15 Bal.
+7150 5.9~6.9 2.0~2.7 1.9~2.5 ≤0.04 ≤0.15 ≤0.15 ≤0.10 ≤0.06 0.08~0.15 ≤0.05 ≤0.15 Bal.
+7278 6.6~7.4 2.5~3.2 1.6~2.2 0.17~0.25 ≤0.20 ≤0.15 ≤0.02 ≤0.03 – ≤0.05 ≤0.15 Bal.
+7055 7.6~8.4 1.8~2.3 2.0~2.6 ≤0.04 ≤0.10 ≤0.10 ≤0.05 ≤0.06 0.05~0.25 ≤0.05 ≤0.15 Bal.
+7249 7.5~8.2 2.0~2.4 1.3~1.9 0.12~0.18 ≤0.12 ≤0.10 ≤0.10 ≤0.06 – ≤0.05 ≤0.15 Bal.
+7085 7.0-8.0 1.2-1.8 1.3-2.0 ≤0.04 ≤0.08 ≤0.06 ≤0.04 ≤0.06 0.08~0.15 ≤0.05 ≤0.15 Bal.
+As the main part of high-strength and high-toughness aluminum alloy, Al 7XXX
+alloys have high specific strength, high specific stiffness, high toughness, excellent pro-
+cessing, and welding performance. They are widely applied in the manufacture of air-
+craft frame, spars, and stringers as load-bearing components, and have become one of
+Metals2021,11,718 7of29
+the most important structural materials in this field [18,37]. The performance require-
+ments of the aircraft materials are shown in Figure 6 [25,35,38].
+Figure6.Performancerequirementsoftheaircraftmaterials[25,35,38,39].(Adaptedwithpermission
+Figufrreo m6. rPeefr.f[o3r5m].aCnocpe yrreiqguhitr1em99e6nEtsls oefv itehre) .aircraft materials [25,35,38,39]. (Adapted with permis-
+sion from ref. [35]. Copyright 1996 Elsevier).
+ThemainfeaturesandapplicationsofAl7XXXalloysareshowninTable2. Itcanbe
+seTehne tmhaatinA lfe7a0t7u5reasl loanyds aarpepmliacaintiloynuss oedf Afol r7fXuXseXla aglelobyusl karhee asdhso,wwni ning uTpabpleer 2s.k Iint sc,awn ing
+be suepenp etrhpata nAell s7,0a7n5d avlelortyisc aalrtea imls.aAinlly74 u7s5eadl lofoyri sfumsealianglye ubsueldkhfoeradwsi,n wgisnkgin us.pApelr7 0s5k0inasl,l oys
+winagr eumppaeinr lypaunseelds,i nanthde vfuersteilcaagle tbauillsk. hAela d7s4.7A5 la7l0lo5y5 aisll omyasianrley muasiendly fours ewdifnogr lsoknignsf.u sAell age
+7050s tarlilnogyesr sa,rfeu msealaingleyb uesaemds i,na tnhde ffuusseellaaggeeu bpuplkerhestardinsg. Aerls .70A5l57 a0l8l5oyasll aoryes maraeinmlyai unlsyedu sfeodr for
+longw fiunsgelsapgaer sstarnindgreirbss,. fuselage beams, and fuselage upper stringers. Al 7085 alloys are
+mainly used for wing spars and ribs.
+Table2.MainfeaturesandapplicationsofAl7XXXalloys[28,40–42].
+Alloy MainFeatures MainProductsandStatus MainApplications
+T6T73T76sheetplate,T651T7651T7351
+Highstrengthatlowtemperature,poor Upperandlowerwingsskins,
+7075 thickplate,T6T73T7352casting,T6511
+weldability,poorSCCresistance stringers,frames
+T3511extrusion
+Insteadof7079,highstrength,goodSCC T3511T76511extrusion,T73T7352forgings,
+7049 Mainlandinggear
+resistance T73sheetandthickplate
+Goodstrength,goodSCCresistance,better T73T74T7452forgings,T7351T76511
+7149 Mainlandinggear
+fracturetoughnessthan7049 extrusion
+T73T74T7452forgings,T7351T76511
+7249 Bettercomprehensivepropertiesthan7149 Mainlandinggear
+extrusion
+7175 Highstrength,goodcorrosionresistance, T66T74T7452forgings,T74T6511extrusion Spars,mainlandinggear
+Highstrength,highfracturetoughness,
+T61T761sheetplate,T651T7351sheetand Fuselageskins,wingskins,central
+7475 goodfatigueresistance,goodcorrosion
+thickplate wingstructures,spars,bulkheads
+resistance
+Highstrength,goodfracturetoughness, T651T7451thickplate,T3511T76511T73511
+Fuselageframe,wingskins,
+7050 goodSCCresistance,goodEXCOresistance, T74511extrusion,T7452T76T7652T74
+bulkheads,stringers,stiffener
+poorhardeningsensitivity forgings,T73wire,T76sheetplate
+Upperwingstructures,fixed
+Highstrength,goodcorrosionresistance, T651T7751thickplate,T6511T77511 leadingedge,upperwing
+7150
+goodfatigueresistance extrusion,T77forgings stringers,fuselagereinforcement,
+skeletons,seattracks
+Highercompressivestrengthandtensile Upperwingskins,stringers,
+T7751thickplate,T77511extrusion,T77
+7055 strengththan7150,similarfracture horizontalstabilizer,skeletons,
+forgings
+toughnessandcorrosionresistanceto7150 seattracks,cargotracks
+Goodcomprehensiveproperties,high
+7085 hardening,highstrength,highfracture T7651thickplate,T7452forgings WingsparsandstringersforA380
+toughness,goodSCCandEXCOresistanceMetals2021,11,718 8of29
+2.4. JoiningandMillingTechniques
+A large number of high-precision connecting holes need to be processed to fasten
+thedissimilarstacksofthefuselagetogetherwithboltsandrivetsintheaircraftassembly
+process. Whereasinfuselagemanufacturing,thedrillingoperationsofdissimilarstack
+materialsarecrucial[43]. Traditionaldrillingwillcauseseveraldefectssuchasdelami-
+nation,tearandburr,sothatthemachiningaccuracyisdifficulttoguarantee. Therefore,
+thedrilling studieshavebeenarousedbymany scholars, mainlyincludingdrillingde-
+fectresearch,tooloptimization,drillingparameteroptimization,andvibrationassisted
+drillingtechnology.
+Denkena et al. [44] applied the helical milling technology to the drilling of CFRP–
+titaniumlayercompoundsandstudiedtheinfluenceofdifferentprocessparameterson
+theprocessingquality. Zitouneetal.[45]foundthatlongermetalchipsleadtoadecrease
+inthesurfacequalityofthecompositemateriallayer’spores,andgoodbrokenchipscan
+improveholequalityandextendtoollife. Wangetal.[46]studiedthetoolwearduring
+drillingexperimentsonstackofcarbonfiberreinforcedplasticandTiAl6V4andfoundthat
+thedifferentwearmechanismsofthetwomaterialscausedthedrillstoweartooquickly.
+BrehlandDowetal.[47]studiedthekinematicrelationshipsof1D(linearvibratorytool
+path)and2DVAM(circular/ellipticaltoolpath)vibration-assistedmachining,andfound
+thattheintermittentcontactbetweenthetoolandtheuncutmaterialworkpiecereduces
+frictionandheating,andimprovessurfacequalityandmachiningaccuracy,sothatextends
+toollife. Lacalleetal.[43]analyzedandmodeledthechipformationprocessofdrilling
+assistedbylow-frequencyvibrationsofFC/Alstackmaterial,andfoundthattheproblems
+forthefinalgeometricalqualityoftheholeandburrformationcanbeavoidedbythechip
+segmentationduringthedrillingoperationresultinginlesstemperatureincreasing.
+However,rivetingincreasestheweightofthefuselageandalsocausesstressconcen-
+trationwhichleadstofatiguecrackinitiationandgrowth. Inordertoreducetheweight
+andtheinspectionandmaintenancecostsfortheaircrafts,newtrendsintheconstruction
+andmanufactureofaircraftfuselagehavethereforeemergedinwhichfriction-stirwelding,
+laserbeamwelding,andmillingmachiningareincreasinglyreplacingtheuseofboltsand
+rivets[2,48].
+Inordertoachievethepurposeoflightweightandmeettherequirementsofaircraft
+performance,manyskeletonparts,especiallymainload-bearingstructuralparts,suchas
+aircraftbeams,bulkheads,andwallpanels,aregenerallyprocessedintocomplexgrooves,
+ribs,bosses,lighteningholes,andotherintegralstructuralpartsthataredirectlyhollowed
+out from a large block of blanks. Therefore, aviation integral structural parts have the
+characteristics of complex structure, large size, high material removal rate, and many
+thin-walledstructuralpartslikeframes,cantileverbeams,andwallpanels[49].
+Due to poor rigidity, thin structural parts are affected by factors such as cutting
+force, cutting heat, cutting chatter, and part cutter relieving during milling. Therefore,
+they are prone to deformation, which seriously affects the dimensional accuracy and
+structurefunction.
+Themainformsofthinstructuralpartdeformationaremachiningvibrationdefor-
+mation,cutterrelievingdeformation,andoverallmachiningdeformation. Whereasthe
+factorsthataffecttheoverallmachiningdeformationaremainlythematerialpropertiesof
+theworkpiece,tongslayoutdesign,processparameters,toolpathstrategies,etc.
+In1997,Tlustyetal.[50]proposedatoolpathoptimizationschemeforthin-walled
+partdeformationbyeffectivelyutilizingtheunprocessedpartofthecomponentsassupport,
+soastomakefulluseoftheintegralrigidityofthecomponents.
+In2004,Ratchevetal.[51]establishedtheanalyticalflexibleforcemodelconsidering
+thegeometriccharacteristics,theimmersionangleandthematerialpropertiesofthetool.
+Combinedwiththefiniteelementtechnology,theyputforwardthestaticmachiningerror
+compensation model for low rigidity components, providing further guidance for NC
+verificationtechniques.Metals2021,11,718 9of29
+In2005, Herranzetal.[49]proposedanapproachfortherightselectionofcutting
+conditions in high-speed milling of low-rigidity parts to avoid the static and dynamic
+problems,localandglobalstructuredeformations,andvibration. Ithasbeenappliedin
+theactualproductionprocess,andtheunrecoveredpartshavebeenreducedby20–26%
+ascalculated.
+In 2008, Jitender et al. [52] developed a milling simulation system based on finite
+element. Thesystemcanpredictthepartthinwalldeflectionsandelasticplasticdefor-
+mations during machining by considering the effects of fixturing, operation sequence,
+toolpath,andcuttingparametersontransientthermalloadingconditions. Thenumerical
+simulationresultsofcuttingforceanddeformationobtainedareingoodagreementwith
+theexperimentaldata.
+In 2016, Ismail et al. [53] established the functional relationship between the me-
+chanicalandthermalloadsontheworkpieceandthemachiningparameterstoapplythe
+combinedeffecttothethinpartandproposedanewmulti-physicsbasedfiniteelement
+modeling (FEM) approach to predict thin part deformation in micromilling. The simu-
+lationresultsareverifiedbyreal-timelasermeasurementandwhitelightinterferometer
+measurementwiththeaverage14%error.
+In2019,Lietal.[54]constructedasemi-analyticalmodelconsideringbiaxialblank
+residualstresstopredictmachiningdeformationsoffivethin-walledpartswithdifferent
+stiffening rib layouts, and the accuracy of the model was verified by FEM simulations
+andmachiningexperiments. Theresultsshowthatthemachiningdeformationdecreases
+withtheincreaseofequivalentbendingstiffnessinthelengthdirection,andtheequivalent
+stiffnessinthewidthdirectionhaslittleeffectontheoverallmachiningdeformation.
+2.5. AdditiveManufacturingTechnology
+Due to the excellent strength-to-weight and stiffness-to-weight ratios with good
+machinability, Al 7XXX alloys are widely applied to manufacturing structural compo-
+nentsintheaerospaceindustry. Intraditionalsubtractivemanufacturingprocesses,the
+geometricalcomplexityofmanyaerospacecomponentsboughtmanydifficulties.However,
+additivemanufacturing(AM)processesarewidelyusedinthisfieldbecauseofthesmall
+size,highvalue,andgeometricalcomplexityforthecomponentsduringthemanufacturing
+processes. Furthermore,throughdesigningandmanufacturingthecomponentswithcom-
+plextopologies,AMprocessesreducethetotalnumberoftheaircraftpartstoenablepart
+consolidation[55].Thepartconsolidationbringsmanybenefitsincludinglowerproduction
+cost,componentfailurerisk,betterproductpropertieslikehighstrength-to-weightratio
+andlightweight, andlowermaterialusagewithpartcomplexityincreasing. Therefore,
+massAMedcomponentshavebeenadoptedtotheaerospaceindustry[56].
+AM processes, also known as 3D printing, produce the complex geometrical com-
+ponentslayerbylayeronthebasisofthree-dimensional(3D)dataobtainedbyscanning
+physicalobjectsorusingdesignsoftware. TherepresentativesofAMtechnologiesinclude
+selectivelasersintering(SLS),selectivelasermelting(SLM),lasernearnetshaping(LENS),
+electronbeammelting(EBM),wirearcadditivemanufacturing(WAAM)[57].
+In1995,theFraunhoferLaserTechnologyInstituteinGermanyfirstcarriedoutselec-
+tivelasermelting(SLM)formingtechnologyresearch[58]. Thistechnologydirectlymelts
+metalpowderbyselectingappropriateprocessparameterstoobtaincomponentswithhigh
+density. Itshowsthataluminumalloysareeasytooxidize,andhavehighreflectivityto
+lasers,sothatSLMformingismoredifficult.
+In2011,Bartkowiaketal.[59]tooktheleadindevelopingSLMformingresearchof
+high-strength aluminum alloy and research the SLM forming feasibility for Al-Cu and
+Al-Znpowderbylowpowerfiberlaser. Sincethen,theresearchonSLMformingofhigh-
+strengthaluminumalloyhasattractedtheattentionoftheindustryanddevelopedrapidly
+inrecentyears.
+Atpresent,theresearchonSLMformingofhigh-strengthaluminumalloysmainly
+focuses on Al-Cu alloys and Al-Zn-Mg-Cu alloys. Compared with Al-Si alloys, Al-CuMetals2021,11,718 10of29
+alloys, and Al-Zn-Mg-Cu alloys are more difficult to form in SLM. Due to the wider
+solidification interval, greater hot cracking tendency, higher thermal conductivity, and
+higheralloyelementcontent,higherlaserenergyisrequiredduringtheformingprocess,
+anditiseasytocauseelementburningloss,sotheadditivemanufacturingtechnologyof
+high-strengthaluminumalloysdevelopsslowly[57].
+In2016,Kaufmannetal.[60]studiedtheinfluenceofSLMprocessparametersonthe
+formingqualityofAl7075alloy,andfinallyobtainedasamplewithadensitygreaterthan
+99%byoptimizingtheparameters. However,apreheatingtemperatureofupto200◦Cdid
+notshowasignificantpositiveeffectonreductionofhotcracks.
+In 2016, Sistiaga et al. [61] added 4 wt % silicon to Al 7075 alloy powder, which
+increasedthedensityofSLMprocessedaluminumalloyto99%andthehardnessto171HV,
+reaching the conventional 7075 hardness level treated with T6. The study show that
+crackscanbeavoidedandmechanicalpropertiescanbeimprovedbyaddingappropriate
+alloyingelements.
+Metals 2021, 11, x FOR PEER REVIEW 11 of 30
+In2017,Singhetal.[62]addednickeltoAl7050alloypowdersediments,andthebrittle
+A1 NiintermetallicwasformedduetoNisegregationatthedendriticboundary,resulting
+3
+inpoortensileductilityofAl7050alloy. Laserdepositedsamplesbyfrictionstirprocessed
+up to 178 MPa, 302 MPa a(nFdSP 6).%T,h reeAsp1eNctiipvaerltyic. lMesoinreαo-vAe1rm, aafttreixr aFrSePre fihneeadt atrnedatumniefonrtm, tlhyed istributed. Theyield
+3
+strength and elongation ares tirnecnrgetahs,etedn sbilye astbroenugtt 1h0,a%n.d elongationofthealuminumalloyareupto178MPa,302MPa
+and6%,respectively. Moreover,afterFSPheattreatment,thestrengthandelongationare
+In 2017, Martin et al. [63] published a high-performance SLM forming method for
+increasedbyabout10%.
+7XXX series ultra-high-strength aluminum alloys. The tensile strength, yield strength
+In2017, Martinetal.[63]publishedahigh-performanceSLMformingmethodfor
+and elongation of the formed Al 7050 alloy samples after T6 heat treatment are 383–417
+7XXXseriesultra-high-strengthaluminumalloys. Thetensilestrength,yieldstrengthand
+MPa, 325–373 MPa, and 3.8%–5.4%, respectively.
+elongationoftheformedAl7050alloysamplesafterT6heattreatmentare383–417MPa,
+325–373MPa,and3.8%–5.4%,respectively.
+3. Main Problems of Al 7XXX Alloys for Aircraft Structures
+3. MainProblemsofAl7XXXAlloysforAircraftStructures
+3.1. Performance Problems
+3.1. PerformanceProblems
+Due to the combined effect of the service environment and the bearing load during
+Duetothecombinedeffectoftheserviceenvironmentandthebearingloadduring
+actual use, the stress corrosion has always been a fatal defect of Al 7XXX alloys as air-
+actualuse,thestresscorrosionhasalwaysbeenafataldefectofAl7XXXalloysasaircraft
+craft structural materials, which has caused many aircraft accidents, thus greatly limit-
+structuralmaterials,whichhascausedmanyaircraftaccidents,thusgreatlylimitingthe
+ing the applications [19,64]a. pApcliccoartidoinnsg[ 1t9o, 6t4h]e. Alictceorradtuinrge,t oththe emliateirna tsutrree,stsh ceomrraoinsisotnre scsraccokrr-osioncracking(SCC)
+ing (SCC) mechanism in Aml 7ecXhXaXni samlloinysA ils7 XanXoXdailcl odyississoalunotidoinc daissssiosltuetdio cnraascskisintegd, chryacdkrion-g,hydrogeninduced
+gen induced cracking, and cpraascskiivneg ,failnmd rpuapsstiuvreefi, lams rsuhpotwurne ,ians Fsihgouwrne i7n [F6i5g]u. re7[65].
+Figure 7. Illustration of mechanisms of SCC for aluminum alloys. (a) Anodic dissolution assisted
+Figure7. IllustrationofmechanismsofSCCforaluminumalloys. (a)Anodicdissolutionassisted
+cracking; (b) Hydrogen induced cracking; (c) Passive film rupture. (Reprinted with permission
+cracking;(b)Hydrogeninducedcracking;(c)Passivefilmrupture.(Reprintedwithpermissionfrom
+from ref. [65]. Copyright 2016 Elsevier).
+ref.[65].Copyright2016Elsevier).
+Anodic dissolution assisted cracking mechanism is shown in Figure 7a. It is a typi-
+cal intergranular corrosion failure mode. When the grain boundaries or grain adjacent
+regions are anodic against to the rest of the microstructure, the anodic dissolution can
+proceed selectively along the boundaries. Hydrogen induced cracking mechanism is
+shown in Figure 7b. The cathode reduction reaction occurs in the alloy to generate the
+hydrogen atoms, and some of the hydrogen atoms diffuse to the alloy interior. When the
+hydrogen atoms are supersaturated in the alloy, they will combine to form H at micro-
+2
+scopic defects. As H concentration increases, the hydrogen pressure rises. When the
+2
+stress generated by the hydrogen pressure is higher than the yield strength of the alu-
+minum alloy, it will be generated partial plastic deformation so that the surface bulges to
+form hydrogen bubbles, which causes internal cracks. Passive film rupture mechanism is
+shown in Figure 7c. There is an oxide film on the surface of the aluminum alloy, which
+has a certain protective effect on the matrix. However, the oxide film can be damaged in
+Cl–-rich atmospheric environment, causing localized corrosion processes like pitting. In
+addition, due to the high alloy element content of Al 7XXX alloys, the formed
+high-density precipitated phases are enriched in a chain-like manner at the grain
+boundaries, resulting in significant alloy cracking, which leads to stress corrosion and
+reduces the service life of the components [66–68].
+3.2. Corrosion Prediction
+The environmental research during the service of the aircraft found that while the
+structural parts of aircraft are in different positions, the corrosion environment will beMetals2021,11,718 11of29
+AnodicdissolutionassistedcrackingmechanismisshowninFigure7a. Itisatypical
+intergranularcorrosionfailuremode. Whenthegrainboundariesorgrainadjacentregions
+areanodicagainsttotherestofthemicrostructure, theanodicdissolutioncanproceed
+selectively along the boundaries. Hydrogen induced cracking mechanism is shown in
+Figure7b. Thecathodereductionreactionoccursinthealloytogeneratethehydrogen
+atoms,andsomeofthehydrogenatomsdiffusetothealloyinterior. Whenthehydrogen
+atomsaresupersaturatedinthealloy,theywillcombinetoformH atmicroscopicdefects.
+2
+AsH concentrationincreases,thehydrogenpressurerises. Whenthestressgeneratedby
+2
+thehydrogenpressureishigherthantheyieldstrengthofthealuminumalloy,itwillbe
+generatedpartialplasticdeformationsothatthesurfacebulgestoformhydrogenbubbles,
+whichcausesinternalcracks. PassivefilmrupturemechanismisshowninFigure7c. There
+isanoxidefilmonthesurfaceofthealuminumalloy,whichhasacertainprotectiveeffecton
+thematrix. However,theoxidefilmcanbedamagedinCl–-richatmosphericenvironment,
+causinglocalizedcorrosionprocesseslikepitting.Inaddition,duetothehighalloyelement
+contentofAl7XXXalloys,theformedhigh-densityprecipitatedphasesareenrichedina
+chain-likemanneratthegrainboundaries,resultinginsignificantalloycracking,which
+leadstostresscorrosionandreducestheservicelifeofthecomponents[66–68].
+3.2. CorrosionPrediction
+Theenvironmentalresearchduringtheserviceoftheaircraftfoundthatwhilethe
+structural parts of aircraft are in different positions, the corrosion environment will be
+different,sothatthecorrosiontypesandcorrosionmechanismswillbedifferent. There-
+fore, the corrosion behavior of Al 7XXX alloys for aircraft structures is not only a very
+complicatedengineeringphenomenon,butalsoamultidisciplinaryscientificproblem. It
+hasbecome anurgent problemthat howtoconstruct areasonable predictionmodel to
+accuratelypredictthecorrosionbehaviorofAl7XXXalloysforaircraftstructures.
+Withtheapplicationofcomputersandthedevelopmentofsolutionelectrochemical
+measurement technology, a series of prediction models were developed to accurately
+predictthecorrosionbehaviorofAl7XXXalloysforaircraftstructures. Atpresent, the
+most common prediction models are based on corrosion electrochemical principle. In
+1964,Fleck[69]usedthefinitedifferencemethod(FDM)forthefirsttimetoevaluatethe
+currentdensitydistributionoftheelectrodesystem. Atthesametime,Klingertetal.[70]
+also explored the current density distribution of the electrode system via a high-speed
+computer. Attheendofthe1970s,Alkireetal.[71]obtainedthesecondarypotentialfield
+distributionintheelectrolysiscellthroughfiniteelementmethod(FEM)andpredictedthe
+changeofelectrodeshape. Afterwards,corrosionpredictionwasappliedtothefieldof
+cathodicprotectionformarinestructures,andengineeringapplicationsweregradually
+realized. AlthoughtheFDMandFEMmethodgaverelativelyaccurateresultsinmany
+practicalapplications,somecomplexstructures,andinfinitedomainproblemscouldnotbe
+handled,duetothelimitationofthecalculationlevelatthattime. FuandChowintroduced
+themoreefficientboundaryelementmethod(BEM)intothecorrosiveelectricnumerical
+calculationfieldfirstandprovedtheaccuracyofthismethod. Helleetal.[72]usedand
+comparedtwonumericalmethodswhensolvingthegalvaniccorrosionproblemofships
+and propellers in seawater. Zamani et al. [73] completed a numerical simulation of a
+Canadianwarship’scathodicprotectionsystemthroughtheboundaryelementmethod.
+ComparisonofnumericalanalysismethodsareshowninTable3.Metals2021,11,718 12of29
+Table3.Comparisonofnumericalanalysismethods[74–84]
+FiniteElementMethod FiniteDifference BoundaryElement
+PredictionModels
+(FEM) Method(FDM) Method(BEM)
+Precisionofsolution Approximatesolution,precisiondeterminedbygridpartition
+Applicablegeometry Solvingcomplexgeometryproblems
+Methodofsolving
+Determinedbythedataofalargenumberofnodes
+voltage
+Methodofsolving Calculatedbythevoltagevaluewiththesame Calculateddirectlyby
+currentdensity accuracy thedataattheboundary
+Knownpotentialattheboundary;Knowncurrentdensityattheboundary;
+Boundaryconditions
+knownfunctionofpotentialandcurrentdensityattheboundary
+Uniform;Heterogeneouscontinuity;Boundedand Uniformand
+Electrolytecharacteristic
+conductive continuouslyconductive
+Solutiondomain Finitefield Infinitedomain
+Thesamenumberasnodesthataredistributedon Thesamenumberas
+Numberofequations
+theentiredomain nodesattheboundary
+Thetheoryandtechnologyfornumericalsimulationandpredictionofcorrosionare
+becomingmoreandmoreadvancedwithalargenumberofresearchers. Relatedscientific
+researchinstituteshavesuccessivelydevelopedaseriesofcorrosionprotectionprediction
+anddesignsoftware,suchastheboundaryelementsoftwarelikePROCATandBEASY,
+andthefiniteelementsoftwarelikeElsycaCorrosionMasterandCOMSOL,etc.,whilethe
+numericalsimulationsoftwarerelatedtocathodicprotectionhasalsobeendevelopedby
+BeijingUniversityofScienceandTechnology. Theaccuracyofthecorrosionprediction
+resultsiscloselyrelatedtotheboundaryconditionsofthenumericalmodel,whichgenerally
+meanstherelationshipbetweenthepotentialandcurrentdensityofthecorrosionelectrode
+system. Strommenetal.[85]gavethreetypesofboundaryconditionswhencalculating
+the cathodic protection of offshore platforms, namely constant current density, linear
+polarizationcurve,andnonlinearpolarizationcurve. Thenonlinearpolarizationcurve
+undoubtedlyincreasesthedifficultyofcalculation,butitisthemostrepresentativeand
+morecommon. Therefore,Iwataetal.[86]proposedapiecewiselinearizationmethodto
+solvethisproblemwhichacceptedandquotedbyotherresearchers.
+With the advancement of electrochemical theory and measurement technology of
+thinelectrolytefilm,thecorrosionpredictionofaviationstructuralmaterialshasaroused
+a new research upsurge. In 2009, Peratta et al. [87] introduced the galvanic corrosion
+modelingoftypicalmacrostructuresinaircraftattheEuropeanCorrosionCongress. By
+thismeans,theyprovedthattheexperimentallymeasuredpotentialdistributionandtotal
+galvaniccurrentarehighlyconsistentwiththecalculationresultsoftheboundaryelement.
+Shietal.[88]modeledandevaluatedthegalvanicinteractionbetweenAl7075alloyand
+noble potential materials by targeting model geometry, noble potential material types,
+andsolutioncompositionasinfluences. Itshowsthatthegalvanicactiongreatlyaffected
+initiation and expansion of localize corrosion for aluminum alloys. Thebault et al. [89]
+usedthefiniteelementmethodtosimulatetheCu-Znbimetalcorrosionunderthethin
+electrolytefilm. TakingintoaccountthetransferofO intheelectrolyte,themodelcalcu-
+2
+latedcurrentdensityintheelectrodeedgebythescanningvibratingelectrodetechnique
+(SVET),whichbasicallymatchesthecalculatedvalue. Mizunoetal.[90]simulatedthegal-
+vaniccorrosionbehaviorofAl5083alloyandAISI4340steelinatmosphericenvironment,
+andpredictedtheinter-granularcorrosiondamageofAl5083alloycausedbygalvanic
+interaction. Crossetal.[91]usedatime-dependentfiniteelementmodeltostudygalvanic
+corrosionbetweenaluminumandzinccoatingsonsteelsurfaces.Metals2021,11,718 13of29
+AlthoughthecorrosionpredictiontechnologyofAl7XXXalloyusedinaircraftstruc-
+tureisbecomingmoreperfect,thereareseveralquestionsremainedtobesolved,suchas
+howtodeterminethecorrosiveenvironmentonthesurfaceofaircraftstructures,howtoac-
+curatelymeasuretheelectrochemicalpropertiesofmaterialsinatmosphericenvironments
+andhowtoselectthecorrosionpredictionmodel[92–96].
+First,thedeterminationofthecorrosionenvironmentonthesurfaceofaircraftstruc-
+turesisthebasisofthecorrosionprediction. Theaircraftstructuresarecomplexandthe
+corrosion environment is changeable. The corrosion medium on the structure surface
+canbesimplydividedintosolutionandthinelectrolytefilmonlyaccordingtodifferent
+positionsinmanystudies. Itisnecessarytocarryoutfurtherresearchonthecausesofthin
+electrolytefilmandtheinfluencingfactorsofelectrolytefilmthickness. Inaddition,the
+corrosivemediumisexistedinalargenumberofcracksintheaircraftstructure,which
+formsanoxygenconcentrationdifferencecell. Theeffectofthisfactorontheelectrolyte
+filmthicknessalsoneedstobelucubrated. Foranother,accurateandreliableelectrochem-
+icalmeasurementdataistheguaranteeofthecorrosionprediction. Atpresent,solution
+electrochemicalmeasurementtechnologyisrelativelymature. Nevertheless,therearetwo
+problemsinthemeasurementofelectrochemicalperformanceofthinelectrolytefilm. On
+theonehand,thechangeoftheelectrolytefilmstateaffectstheelectrodereactionmass
+transferprocess. Ontheotherhand,itisdifficulttomaintainstabilityofelectrolytefilm
+thicknesssothatitinfluencestheaccuracyinthemeasurement. Furthersystematicstudy
+isneededfortheinfluenceofmarineatmosphericenvironmentalfactors,includingCl–
+concentration,temperature,andPH.Moreover,theselectionoftheappropriatecorrosion
+predictionmodelisavitalprocessofthecorrosionprediction. Asteady-statecorrosion
+fieldcanbeusedtomodelforgalvaniccorrosionoftypicalmacrostructuresinsolution
+orthinelectrolytefilm. Whereasthecorrosionmediumchangescontinuouslywithtime
+forthecorrosionthatoccursinnarrowcracks,sothatitisnolongerappropriatetomodel
+through the steady-state corrosion field. At present, there are few studies on transient
+predictionofcrackingcorrosioninaircraftstructures,andfurtherresearchisneededonthe
+quantitativeanalysisofcorrosionprocessandinfluencingfactors.
+4. MainMeasurestoImprovethePerformanceofAl7XXXAlloysfor
+AircraftStructures
+ThepurposeofheattreatmentforAl7XXXalloysistooptimizethethreemicrostruc-
+ture parameters of matrix precipitates (MPt), grain boundary precipitates (GBPs), and
+precipitate-freezone(PFZ),sothatthealloyshavegoodcomprehensiveproperties. The
+heattreatmentprocessofAl7XXXalloysmainlyincludeshomogenization,solidsolution,
+quenching,andaging. ThemicrostructureevolutionofAl7XXXalloysisshowninFigure8
+atdifferentheattreatmentstages. Itcanbeseenthatfromtheas-caststatetotheuniform
+annealedstate,thesphericalintra-granularnon-equilibriumeutecticphaseandanetwork
+of the coarse non-equilibrium eutectic phase at the grain boundaries were basically re-
+dissolvedintothealuminummatrixtoformasupersaturatedsolidsolution, withonly
+a small amount of the impurity phases remained. From the uniform annealed state to
+thefinalstate,alargenumberoftinyanddiffuseneedle-likeandsphericalparticlesare
+precipitatedwithinthegrains,andthegrainboundaryprecipitatesaredistributedinchains
+alongthegrainboundaries[20,21,97,98]. Wemainlydiscusstheeffectsofsolidsolution,
+quenching,andagingonthemicrostructureandpropertiesofAl7XXXalloys.Metals 2021, 11, x FOR PEER REVIEW 14 of 30
+4. Main Measures to Improve the Performance of Al 7XXX Alloys for Aircraft Struc-
+tures
+The purpose of heat treatment for Al 7XXX alloys is to optimize the three micro-
+structure parameters of matrix precipitates (MPt), grain boundary precipitates (GBPs),
+and precipitate-free zone (PFZ), so that the alloys have good comprehensive properties.
+The heat treatment process of Al 7XXX alloys mainly includes homogenization, solid
+solution, quenching, and aging. The microstructure evolution of Al 7XXX alloys is shown
+in Figure 8 at different heat treatment stages. It can be seen that from the as-cast state to
+the uniform annealed state, the spherical intra-granular non-equilibrium eutectic phase
+and a network of the coarse non-equilibrium eutectic phase at the grain boundaries were
+basically re-dissolved into the aluminum matrix to form a supersaturated solid solution,
+with only a small amount of the impurity phases remained. From the uniform annealed
+state to the final state, a large number of tiny and diffuse needle-like and spherical parti-
+cles are precipitated within the grains, and the grain boundary precipitates are distrib-
+uted in chains along the grain boundaries [20,21,97,98]. We mainly discuss the effects of
+Metals2021,11,718 14of29
+solid solution, quenching, and aging on the microstructure and properties of Al 7XXX
+alloys.
+Figure8.MicrostruFcitguureree 8v.o MluitcioronstorfuActlu7rXe XevXoalulltoiyosn [o9f7 A,9l8 ]7.XXX alloys [97,98].
+4.1. SolidSolution
+4.1. Solid Solution
+Solidsolutionisthebasisoftheheat-treatedstrengtheningaluminumalloystoobtain
+Solid solution is the basis of the heat-treated strengthening aluminum alloys to ob-
+highstrength. Itaimstofullydissolvethesolubleelementsinthealloyintothealuminum
+tain high strength. It aims to fully dissolve the soluble elements in the alloy into the
+matrixtoformanearlyuniformlydistributedsupersaturatedsolution, whichfacilitate
+aluminum matrix to form a nearly uniformly distributed supersaturated solution, which
+subsequentagingprecipitationtostrengthenthealloy. Thebasicoperationsofthesolution
+facilitate subsequent aging precipitation to strengthen the alloy. The basic operations of
+treatmentareheatingandholding. Thesolutiontemperatureandholdingtimearethe
+the solution treatment are heating and holding. The solution temperature and holding
+two most important parameters that determine the effect of solution. If the solution
+time are the two most important parameters that determine the effect of solution. If the
+temperatureishigherandtheholdingtimeislonger,thediffusionofsoluteatomsisthe
+solution temperature is higher and the holding time is longer, the diffusion of solute
+morefavorable,sothatthealloyelementsaremorefullydissolvedandtheagingeffectis
+atoms is the more favorable, so that the alloy elements are more fully dissolved and the
+better. However,therecrystallizationfractionwillbeincreasedbyhightemperature,and
+aging effect is better. However, the recrystallization fraction will be increased by high
+long-termholdingwhichwilladverselyaffectthestrength,fracturetoughness,andstress
+temperature, and long-term holding which will adversely affect the strength, fracture
+corrosionresistanceafteraging. Therefore,agoodsolidsolutionregimeshouldbeableto
+toughness, and stress corrosion resistance after aging. Therefore, a good solid solution
+dissolvethesolublesecondphaseasmuchaspossibleintothealuminummatrixwithout
+regime should be able to dissolve the soluble second phase as much as possible into the
+significantlyincreasingtherecrystallizationfractioninthealloy[99].
+aluminum matrix without significantly increasing the recrystallization fraction in the al-
+The solid solution regime for Al 7XXX alloys has developed from single-stage to
+loy [99].
+multi-stage solid solution. Single-stage solid solution, as shown in Figure 9a, refers to
+enhancingthesolidsolutioneffectofthealloyelementbysimplyincreasingthefinalsolid
+solutiontemperatureandextendingthesolidsolutiontimeontheconditionofavoiding
+over-burning. Thedisadvantageofthismethodisthatthesolidsolutiondegreeofalloy-
+ingelementsandtherecrystallizationfractionofthealloyincreasesimultaneouslywith
+the increase of solution temperature and time, and the comprehensive properties after
+ageingarepoor[100]. Somescholarshaveproposedastepwisetemperature-increasing
+solutiontreatmenttoincreasethesolidsolutiondegreeofalloyingelementswhileeffec-
+tivelysuppressingtheincreaseoftherecrystallizationfractionofthealloy. Thestepwise
+temperature-increasingsolidsolutionisshowninFigure9b,whichmeansthatthealloyis
+firstholdatalowertemperatureforacertaintime,andthengraduallyheateduptoahigher
+temperatureandheldon. Throughlow-temperaturesolidsolution,thelow-meltingnon-
+equilibriumeutecticphasecanbepreferentiallydissolved,andthengraduallyincreasedto
+exceedthemulti-phaseeutectictemperature,whichpromotesthemaximumdissolution
+ofthesolublesecondphaseinthealloy. Simultaneously,therecoverytakesplaceinthe
+alloyduringthelow-temperatureholdingprocess,whichsuppressestherecrystallization
+inthesubsequenthigh-temperaturesolidsolution,sothatthecomprehensivepropertiesof
+thealloyaresignificantlyimproved. Inordertoimprovethestresscorrosionresistance
+of Al 7XXX alloys, the near-solvus pre-precipitation following after high temperature
+solutiontreatmenthasbeenproposed,whichmeansthatsolidsolutionoccursfullyathighMetals 2021, 11, x FOR PEER REVIEW 15 of 30
+The solid solution regime for Al 7XXX alloys has developed from single-stage to
+multi-stage solid solution. Single-stage solid solution, as shown in Figure 9a, refers to
+enhancing the solid solution effect of the alloy element by simply increasing the final
+solid solution temperature and extending the solid solution time on the condition of
+avoiding over-burning. The disadvantage of this method is that the solid solution degree
+of alloying elements and the recrystallization fraction of the alloy increase simultane-
+ously with the increase of solution temperature and time, and the comprehensive prop-
+erties after ageing are poor [100]. Some scholars have proposed a stepwise tempera-
+ture-increasing solution treatment to increase the solid solution degree of alloying ele-
+ments while effectively suppressing the increase of the recrystallization fraction of the
+alloy. The stepwise temperature-increasing solid solution is shown in Figure 9b, which
+means that the alloy is first hold at a lower temperature for a certain time, and then
+gradually heated up to a higher temperature and held on. Through low-temperature
+solid solution, the low-melting non-equilibrium eutectic phase can be preferentially dis-
+solved, and then gradually increased to exceed the multi-phase eutectic temperature,
+which promotes the maximum dissolution of the soluble second phase in the alloy. Sim-
+ultaneously, the recovery takes place in the alloy during the low-temperature holding
+process, which suppresses the recrystallization in the subsequent high-temperature solid
+solution, so that the comprehensive properties of the alloy are significantly improved. In
+order to improve the stress corrosion resistance of Al 7XXX alloys, the near-solvus
+Metals2021,11,718 15of29
+pre-precipitation following after high temperature solution treatment has been proposed,
+which means that solid solution occurs fully at high temperature and then holds near the
+limit temperature of solid solution [101]. As shown in Figure 9c, when cooling from a
+temperatureandthenholdsnearthelimittemperatureofsolidsolution[101]. Asshownin
+high temperature to a lower temperature and holding, the super-saturation of the alloy is
+Figure9c,whencoolingfromahightemperaturetoalowertemperatureandholding,the
+reduced with the temperature decreasing. When cooling at a slower rate from a high
+super-saturationofthealloyisreducedwiththetemperaturedecreasing. Whencooling
+temperature to a lower temperature for holding, due to the low speed of cooling, the
+ataslowerratefromahightemperaturetoalowertemperatureforholding,duetothe
+temperature gradient changes a little, so that the precipitation power is small, and the
+lowspeedofcooling,thetemperaturegradientchangesalittle,sothattheprecipitation
+precipitates preferpeonwtiearlliys snmuaclll,eaantdest haet ptrheeci pgitraatiens pbroeufenrednatriaiellsy. nIunc ltehaete ssuatbtsheeqgureanint baoguinndga ries. Inthe
+process, the agings upbrseecqiupeintattaegsi ncganp rogcreosws, tuhep aoginn gthper ecbiapsiitsa teosf ctahneg roorwiguinpaol nptrheecibpaistiastoefs.t heoriginal
+Thereby, the grainp breocuipnitdaatersy. Tphreerceibpyi,tathteesg rbaeincobmouensd caorayrpsree cainpdita itse sdbiesccoomnteisncuooaursse danisdtriisbdui-scontinuous
+tion, and the residstiastnrcibeu ttioo ns,tarensds thceorrreosissitoann cies toimstprersosvceodr.r oOsinon tihsei mopthroevr edh.anOdn, ththeeo tihne-rhand, the
+intra-granularprecipitatesistinyanddispersed,andthealloyhashighstrength[102].
+tra-granular precipitates is tiny and dispersed, and the alloy has high strength [102].
+FigurFei9g.u(rae) S9i.n (gal)e -Ssitnaggeles-ostliadgseo sluoltiiodn s;o(blu)tSiotenp;w (bis)e Stteemppweirsaet uterem-ipncerreaatsuinreg-isnocluretiaosni;n(gc )sNoleuatri-osnol;v (ucs) pre-precipitation
+followNinegara-fstoerlvhuigsh ptreem-ppreercaitpuriteastoiolunt ifoonll[o1w00i–n1g0 2a]f.ter high temperature solution [100–102].
+Duringthesolidsolutionprocess,thegrainsize,undissolvedsecondphasefraction
+During the solid solution process, the grain size, undissolved second phase fraction
+andsoluteatomdistributionofthealloywillbechanged,whichaffectsthemechanical
+and solute atom distribution of the alloy will be changed, which affects the mechanical
+properties.Xuetal.[103]performedmulti-stagesolidsolutiononaluminumalloyextrusion
+properties. Xu et al. [103] performed multi-stage solid solution on aluminum alloy ex-
+materialsandcharacterizedandtestedtheirmicrostructureandmechanicalproperties.
+trusion materials Tahneds pcehcaifiraccsteorliidzesdo luatniodn tpersoteceds sthiseisrh omwincrionstFriugcutruer1e0 aa.ndT hme reecshualtnsicaarle shown in
+properties. The spFeicgiufirce 1s0obli–dd .sWoliuthtitohne sporliodcseoslsu tiiso nshteomwpner aintu rFeiagnudreti m10eain. cTrehaes erde,siutslststr eanrget hincreases
+shown in Figure t1o0tbh–edm. aWxiimthu mthaet Gso3laidn dstohleuntidoenc reteamseps.eIrnatthueres oalindds otliumtioen ipnrcorceeassseodn, tihtse conditions
+of450◦C×2h+460◦C×2h+470◦C×2h,andtheagingprocesson121◦C×5h+
+strength increases to the maximum at G3 and then decreases. In the solid solution process
+133◦C×16h,aluminumalloyhasexcellentcomprehensivepropertieswithstrengthof
+on the conditions of 450 °C × 2 h + 460 °C × 2 h + 470 °C × 2 h, and the aging process on
+828.0MPaandelongationof8.1%.
+121 °C × 5 h + 133 °C × 16 h, aluminum alloy has excellent comprehensive properties with
+ThestudyofAl7XXXalloysfoundthatthesusceptibilitytoexfoliationcorrosionand
+strength of 828.0 M Pa and elongation of 8.1%.
+stresscorrosiondecreasesfirstandthenincreaseswiththeincreaseofsolutiontemperature
+andtime. Itismainlycausedbythecontinuousdecreaseoftheundissolvedsecondphase
+andtheconstantlyincreaseofrecrystallizationfraction. Shatryetal.[100]studiedtheeffect
+ofsolutiontemperatureonthestresscorrosionpropertiesofAl7075alloy. Theyfound
+thattheelements,suchasMg,Zn,Cu,andsoon,migratedtothegrainboundariesduring
+thesolutionprocess. Inadditionwiththeincreaseofthesolutiontemperature,degreeof
+atomicaggregationatthegrainboundariesdecreasesfirstandthenincreases,resultingin
+thesusceptibilitytostresscorrosiondecreasesfirstandthenincreases.Metals2021,11,718 16of29
+Metals 2021, 11, x FOR PEER REVIEW 16 of 30
+Figure10.(a)Schematicdiagramofsolutionprocess;Mechanicalpropertiesofalloys:(b)hardness,
+Figure 10. (a) Schematic diagram of solution process; Mechanical properties of alloys: (b) hardness,
+(c)tensilestrength,(d)elongationandthecorrespondingstress-straincurvesunderT6,T73,T7X
+(c) tensile strength, (d) elongation. (Reprinted with permission from ref. [103]. Copyright 2019
+Elseviaegr)i.n g.(Reprintedwithpermissionfromref.[103].Copyright2019Elsevier).
+4.2. Quenching
+The study of Al 7XXX alloys found that the susceptibility to exfoliation corrosion
+Quenchingreferstotheoperationofrapidlycoolingthealuminumalloyaftersolid
+and stress corrosion decreases first and then increases with the increase of solution tem-
+solutiontonearroomtemperaturethroughacertainmedium,suchascoldwater,oil,etc.
+perature and time. It is mainly caused by the continuous decrease of the undissolved
+Theintentofquenchingistofixthesupersaturatedsolidsolutioninafastcoolingmanner,
+second phase and the constantly increase of recrystallization fraction. Shatry et al. [100]
+sothatthealloymaintainsacertainsolutesuper-saturationandvacancyconcentration,
+studied the effect of solution temperature on the stress corrosion properties of Al 7075
+soastofacilitatethediffusionofatomsandtheformationofstrengtheningphasesinthe
+alloy. They found that the elements, such as Mg, Zn, Cu, and so on, migrated to the grain
+subsequentagingprocess[104].
+boundaries during the solution process. In addition with the increase of the solution
+Quenchingtransfertimeandcoolingratearetwocrucialparametersthataffectthe
+temperature, degree of atomic aggregation at the grain boundaries decreases first and
+propertiesoftheagetreatedalloy. Whenquenching,theAl7XXXalloysneedtobetrans-
+then increases, resulting in the susceptibility to stress corrosion decreases first and then
+ferredfromthesolidsolutionequipmenttothequenchingequipment[105]. Asthealloy
+increases.
+temperaturecontinuestodecrease,thesoluteatomsuper-saturationcontinuouslyincreases,
+andthesecondphaseiseasytobeprecipitatedfromthesupersaturatedsolidsolution[106].
+4.2. Quenching
+However,theatomicdiffusionratewillconstantlydecreaseasthetemperaturereducing,
+Quenching refers to the operation of rapidly cooling the aluminum alloy after solid
+resultingindifficultiesintheprecipitationofthesecondphase. Whenthealloyislowered
+solution to near room temperature through a certain medium, such as cold water, oil, etc.
+toacertainintermediatetemperature,thesolutesuper-saturationandtheatomicdiffusion
+The intent of quenching is to fix the supersaturated solid solution in a fast cooling man-
+ratearerelativelyhigh,andthesecondphaseprecipitationratecomesuptothemaximum.
+ner, sToh tehaint ttehrem aeldloiyat emtaeimntpaeinrast au rceerrtaanigne siosluretefe srurepdert-osaatsutrhaetiqoune anncdh ivnagcsaenncsyi tcivoencreanntgrea-ofthe
+tion, saoll aosy .toW fahceilnitathtee thque ednifcfhuisniognt roafn astfoemr sti manedi tshleo fnogrmorattihoen qouf estnrcehnigntghecnoionlgin pghraastees iisn slow,
+the sutbhseeηqupehnat saegiisnge apsriolycepsrse [c1i0p4it]a. ted at the grain boundaries of the Al 7XXX alloys. After
+Qaguienngc,hηinpgh atrsaencsofvere rtaimgeea atnthde cgoroaliinngb oruatned aarreie tswoof tchreuaclilaol ypiasrhamighet,ewrsh itchhatr easfufeltcst itnhea high
+propeirnttieers- gorfa nthuel aargceo rtrroesaitoend saelnlosyit.i vWityhe[n10 q7]u.eInnchadindgi,t itohne, tAhel 7laXrXgeX aamlloouyns tnoefepdr etoci pbieta tion
+transfoefrrtehde ηfropmha tsheer esdoluidce ssotlhuetisounp eeqr-usiaptmureantito tno othfeth qeuaelnlocyh,insog tehqautitphmeeangti n[1g0p5r]e. cAips itthaeti onis
+alloy dteifmfipcuelrta,taunrde cthoentsitnruenesg ttho odfetchreeaaslelo, ythies rseodluutcee dat[o1m08 s].uTpheer-rseaftourrea,tiinono rcdoenrttionuoobutasilny high
+increacsoems,p arnedh etnhsei vseecpornodp eprhtiaesseo ifs Aeals7yX tXoX bael lporye,ctihpeitqatueedn fcrhoimng tthrea nssufpeerrtsiamtuermatuedst sboelisdtr ictly
+solution [106]. However, the atomic diffusion rate will constantly decrease as the tem-Metals 2021, 11, x FOR PEER REVIEW 17 of 30
+perature reducing, resulting in difficulties in the precipitation of the second phase. When
+the alloy is lowered to a certain intermediate temperature, the solute super-saturation
+and the atomic diffusion rate are relatively high, and the second phase precipitation rate
+comes up to the maximum. The intermediate temperature range is referred to as the
+quenching sensitive range of the alloy. When the quenching transfer time is long or the
+quenching cooling rate is slow, the η phase is easily precipitated at the grain boundaries
+of the Al 7XXX alloys. After aging, η phase coverage at the grain boundaries of the alloy
+is high, which results in a high inter-granular corrosion sensitivity [107]. In addition, the
+large amount of precipitation of the η phase reduces the super-saturation of the alloy, so
+Metals2021,11,718 17of29
+that the aging precipitation is difficult, and the strength of the alloy is reduced [108].
+Therefore, in order to obtain high comprehensive properties of Al 7XXX alloy, the
+quenching transfer time must be strictly controlled to avoid the alloy temperature falling
+controlledtoavoidthealloytemperaturefallingtothequenchingsensitiverange,andthe
+to the quenching sensitive range, and the alloy temperature must be rapidly reduced
+alloytemperaturemustberapidlyreducedbelowthequenchingsensitiverangewitha
+below the quenching sensitive range with a fast cooling rate [27,107,109–113].
+fastcoolingrate[27,107,109–113].
+Song et al. [110] explored the effect of different quenching transfer time on the exfo-
+Songetal.[110]exploredtheeffectofdifferentquenchingtransfertimeontheexfo-
+liation corrosion of Al 7050-T6 alloy. As shown in Figure 11, the resistance to exfoliation
+liationcorrosionofAl7050-T6alloy. AsshowninFigure11,theresistancetoexfoliation
+corrosion of the alloy decreases with the increase of the quenching transfer time. As
+corrosion of the alloy decreases with the increase of the quenching transfer time. As
+demonstrated in the figure, the coverage rate and the microstructure of the grain
+demonstratedinthefigure,thecoveragerateandthemicrostructureofthegrainboundary
+boundary precipitates are the most important factors affecting the properties of the al-
+precipitatesarethemostimportantfactorsaffectingthepropertiesofthealloy,andthe
+loy, and the solute depleted region at the grain boundaries has a small even no effect on
+solutedepletedregionatthegrainboundarieshasasmallevennoeffectontheproperties.
+the properties.
+Figure 11. SEM images showing grain and sub-grain boundary precipitates in 7050-T6 alloys
+Figure11.SEMimagesshowinggrainandsub-grainboundaryprecipitatesin7050-T6alloystreated
+treated with different transfer times (a) 2 s, (b) 45 s, (c) 120 s; TEM images of 7050-T6 alloys treated
+withdifferenttransfertimes(a)2s,(b)45s,(c)120s;TEMimagesof7050-T6alloystreatedwith
+with different transfer time (d,e) 2 s, (f,g) 45 s, (h,i) 120 s. (Reprinted with permission from ref. [110].
+differenttransfertime(d,e)2s,(f,g)45s,(h,i)120s. (Reprintedwithpermissionfromref.[110].
+Copyright 2014 Elsevier).
+Copyright2014Elsevier).
+Thechemicalcompositionisthemostimportantfactoraffectingthequenchingsen-
+sitivityofthealloy. Thequenchingsensitivitywillbechangedwiththevariationforthe
+contentorproportionofZn,Mg,andCuelementsinthealloy. Yuanetal.[114]studiedthe
+corrosionbehaviorofAl-Zn-Mg-CualloysatdifferentCucontentsandquenchingrates. As
+showninFigure12,throughtheanalysisofthetensilestrengthandelongationofthealloy,
+itwasfoundthatwiththesameCucontent,asthequenchingratedecreases,thetensile
+strengthdecreases,andtheelongationincreasesfirstandthendecreases. Slowquenching
+ratecaneffectivelyimprovetheSCCresistanceofCu-lowalloys,especiallyreducingthe
+crackgrowthrate,whichmeansthatSCCpropagationvelocityofCu-lowalloyswiththe
+slow-quenching-rate and is about an order of magnitude lower than that with the fast
+quenchingrate. However,theslowquenchingratehaslesseffectontheCu-richalloys.Metals 2021, 11, x FOR PEER REVIEW 18 of 30
+The chemical composition is the most important factor affecting the quenching sen-
+sitivity of the alloy. The quenching sensitivity will be changed with the variation for the
+content or proportion of Zn, Mg, and Cu elements in the alloy. Yuan et al. [114] studied
+the corrosion behavior of Al-Zn-Mg-Cu alloys at different Cu contents and quenching
+rates. As shown in Figure 12, through the analysis of the tensile strength and elongation
+of the alloy, it was found that with the same Cu content, as the quenching rate decreases,
+the tensile strength decreases, and the elongation increases first and then decreases.
+Slow quenching rate can effectively improve the SCC resistance of Cu-low alloys, espe-
+cially reducing the crack growth rate, which means that SCC propagation velocity of
+Cu-low alloys with the slow-quenching-rate and is about an order of magnitude lower
+Metals2021,11,718 18of29
+than that with the fast quenching rate. However, the slow quenching rate has less effect
+on the Cu-rich alloys.
+Figure 12. (a) Schematic diagram of heat treatment processing for alloys; (b,c) Tensile strength and
+Figure12.(a)Schematicdiagramofheattreatmentprocessingforalloys;(b,c)Tensilestrengthandelongationcurveofthe
+elongation curve of the well-quenched and aged samples treated by different quench rate; (d) Effect
+well-quenchedandagedsamplestreatedbydifferentquenchrate;(d)EffectofCucontentandquenchrateonareafraction
+of Cu content and quench rate on area fraction of GBPs in alloys; (e,f) Effect of Cu content and
+ofGBPsinalloys;(e,f)EffectofCucontentandquenchrateonthesizeofGBPsandwidthofPFZsinalloys.(Reprinted
+quench rate on the size of GBPs and width of PFZs in alloys. (Reprinted from ref. [114]).
+fromref.[114]).
+During quenching, due to the different cooling rates of the surface and the core in
+Duringquenching,duetothedifferentcoolingratesofthesurfaceandthecorein
+the Al 7XXX alloys, the microstructure and residual stress of the alloys are unevenly dis-
+the Al 7XXX alloys, the microstructure and residual stress of the alloys are unevenly
+tributed, resulting in reduction in the stress corrosion resistance. Therefore, a new
+distributed, resulting in reduction in the stress corrosion resistance. Therefore, a new
+quenching process is required to improve the alloy properties. Xie et al. [115] studied the
+quenchingprocessisrequiredtoimprovethealloyproperties. Xieetal.[115]studiedthe
+effect of step quenching and aging heat treatment on the stress corrosion cracking prop-
+effectofstepquenchingandagingheattreatmentonthestresscorrosioncrackingproperties
+erties of the alloys. The results show that step quenching can significantly improve the
+ofthealloys. Theresultsshowthatstepquenchingcansignificantlyimprovethestress
+stress corrosion resistance. As shown in Figure 13, the stress corrosion cracking re-
+corrosionresistance. AsshowninFigure13,thestresscorrosioncrackingresistancehas
+sistance has been significantly improved through step quenching and aging heat treat-
+beensignificantlyimprovedthroughstepquenchingandagingheattreatment,butithas
+ment, but it habse ebnehena rdhlayrdimlyp irmovperdovthedro uthgrhotuhgehr etghree srseigornesasgioinng aagnidngtw aon-dst atgweoo-svtearg-ea gingtreatment
+over-aging treactommepnat rceodmwpiathrepde awkitahg ipnega.kF oargCinug-.l oFworA Cl-uZ-nlo-Mwg A-Cl-uZanl-lMoygs-,Cthue astllroeysss,c othrreo sionresistance
+stress corrosionw raessiismtapnrcoev wedasa fitmerpsrtoevpeqdu aefntecrh sintegpa qnudeangcihnigngh eaantdt raegaitnmge hnet,amt tarienaltymbeencta, useofthehigh
+Metals 2021, 11, x FOR PEER REVIEW 19 of 30
+mainly becauseC uofc othnete nhtig,lha rCgeu scizoen,taenndt, dlaisrcgoen tsiinzue,o uansdd isdtirsicbountitoinnuoofugsr adiinstbriobuuntdioanr yopf recipitates.
+grain boundary precipitates.
+Figure 13. (a) Schematic diagram of heat treatment for the alloys investigated; (b) dependence of
+Figure13. (a)Schematicdiagramofheattreatmentforthealloysinvestigated;(b)dependenceof
+stress corrosion cracking propagation rate (v) and stress intensity factor (KI) of different heat
+stresscorrosioncrackingpropagationrate(v)andstressintensityfactor(K)ofdifferentheattreat-
+treatments specimens; (c) VⅡ and KISCC values of different heat treatments. (Reprinted with pIer-
+mission fromm erenft. s[1s1p5e].c Cimopeynrsi;g(hct) 2V01II9a EnldsevKieISrC).C valuesofdifferentheattreatments.(Reprintedwithpermission
+fromref.[115].Copyright2019Elsevier).
+Chen et al. [27] explored the effect of quenching rate on the microstructure and
+stress corrosion properties of Al 7085 alloy. With the decrease of the quenching rate, the
+size and inter-particle distance of the grain boundary precipitates and precipitation free
+zone width increase, but the Cu content in the precipitates decreases. In addition, the
+stress corrosion resistance of the alloy increases first and then decreases with the de-
+crease of the quenching rate, as shown in Figure 14. According to analysis, the size, dis-
+tribution, and the Cu content of the precipitations at the grain boundaries are the main
+factors affecting the stress corrosion resistance of the alloy.Metals 2021, 11, x FOR PEER REVIEW 19 of 30
+Figure 13. (a) Schematic diagram of heat treatment for the alloys investigated; (b) dependence of
+Metals2021,11,718 stress corrosion cracking propagation rate (v) and stress intensity factor (KI) of different heat 19of29
+treatments specimens; (c) V
+Ⅱ
+and KISCC values of different heat treatments. (Reprinted with per-
+mission from ref. [115]. Copyright 2019 Elsevier).
+Chen et Calh. e[n27e]t aelx.p[2lo7r]eedx ptlhoer eedfftehcet eofff eqctuoefnqchuienngc hriantge roante tohne tmheicmroicsrtrousctrtuucrteu raendan dstress
+stress corcroorsrioosnio pnropproerpteiersti eosf Aofl A70l8750 8a5lloayll.o Wy.itWh itthhe tdheecdreeacsree aosfe thofe tqhueeqnuchenincgh irnagter, athtee, the size
+andinter-particledistanceofthegrainboundaryprecipitatesandprecipitationfreezone
+size and inter-particle distance of the grain boundary precipitates and precipitation free
+width increase, but the Cu content in the precipitates decreases. In addition, the stress
+zone width increase, but the Cu content in the precipitates decreases. In addition, the
+corrosionresistanceofthealloyincreasesfirstandthendecreaseswiththedecreaseofthe
+stress corrosion resistance of the alloy increases first and then decreases with the de-
+quenchingrate,asshowninFigure14. Accordingtoanalysis,thesize,distribution,and
+crease of the quenching rate, as shown in Figure 14. According to analysis, the size, dis-
+theCucontentoftheprecipitationsatthegrainboundariesarethemainfactorsaffecting
+tribution, and the Cu content of the precipitations at the grain boundaries are the main
+thestresscorrosionresistanceofthealloy.
+factors affecting the stress corrosion resistance of the alloy.
+Figure14.SSRTresultsforAA7085withdifferentquenchingrates(a)inair(b)in3%NaCl+0.5%
+H O solution;TEMmicrostructuresofalloyswithdifferentquenchingconditions: (c)150◦C/s,
+2 2
+(d)50◦C/s,(e)1◦C/s.(Reprintedwithpermissionfromref.[27].Copyright2012Elsevier).
+4.3. Aging
+Agingisamainmethodtooptimizethemicrostructureandcomprehensivepropertiesof
+Al7XXXalloys.AftersolidsolutionandquenchingofAl7XXXalloys,thealloyelementsare
+inasupersaturatedstate,andthedislocationdensityishigh.Whilekeptatroomtemperature,
+thatisnaturalaging,itiseasyforthesecondphase,whichmeansmainlyGPzonesinAl
+7XXXalloys,toprecipitatefromthealloy,sothatthealloyisstrengthened[80,116].However,
+thisprocessisextremelylong.Evenafterkeptforayear,thealloycannotreachastablestate,
+anditsstrengthisstillslowlyrising[117],asshowninFigure15.
+Intheactualproductionprocess,artificialagingisusuallyusedtoachievethedesired
+properties of alloys. That is, the aging precipitation process of the quenched alloy is
+acceleratedbyholdingatahighertemperature[118]. TheartificialagingstateofAl7XXX
+alloyshasinturnexperiencedthedevelopmentprocessofpeakaging(T6), over-aging
+(T7X), and retrogression and re-aging (RRA). In general, the precipitation order of the
+secondphaseintheAl7XXXalloysduringtheartificialagingprocessissupersaturated
+solid solution (SSS), to vacancy rich clusters, to GPIIzones, to η’ (spherical), and to η
+(platelet)[119–121]. InAl7XXXalloysforaircraft,despitethesecondphaseswithGPzones
+→η’→η(MgZn ),otherprecipitatescanbealsoformed[42,119,122]asshowninTable4.
+2Metals 2021, 11, x FOR PEER REVIEW 20 of 30
+Figure 14. SSRT results for AA7085 with different quenching rates (a) in air (b) in 3% NaCl + 0.5%
+H2O2 solution; TEM microstructures of alloys with different quenching conditions: (c) 150 °C/s, (d)
+50 °C/s, (e) 1 °C/s. (Reprinted with permission from ref. [27]. Copyright 2012 Elsevier).
+4.3. Aging
+Aging is a main method to optimize the microstructure and comprehensive proper-
+ties of Al 7XXX alloys. After solid solution and quenching of Al 7XXX alloys, the alloy
+elements are in a supersaturated state, and the dislocation density is high. While kept at
+room temperature, that is natural aging, it is easy for the second phase, which means
+mainly GP zones in Al 7XXX alloys, to precipitate from the alloy, so that the alloy is
+Metals2021,11,71s8trengthened [80,116]. However, this process is extremely long. Even after kept for a 20of29
+year, the alloy cannot reach a stable state, and its strength is still slowly rising [117], as
+shown in Figure 15.
+Figure15.MechanicalpropertiesoftheAl7XXXalloysduringnaturalaging[116].
+Figure 15. Mechanical properties of the Al 7XXX alloys during natural aging [116].
+In the actuaTl apbrloed4u.cOtibosne rpvreodcpesrse,c iaprittiafitceisailn aagiirncrga fits Aulsualalollyy pursoeddu ctots a[4c2h,i1e1v9e,1 t2h2e] de-
+sired properties of alloys. That is, the aging precipitation process of the quenched alloy
+is accelerated by holding at a higher Atellmoyperature [118]. The artificial aging Ostbastee rovfe dAPl recipitate
+7XXX alloys has in turn experienced7X 7th5e development process of peak agingA (lT6M), g Cr
+12 2
+over-aging (T7X), and retrogression a7nXd50 re-aging (RRA). In general, the precipitatAiolnZ r
+3
+order of the second phase in the Al 7X7X0X55 alloys during the artificial aging process is Asul 3-Zr
+persaturated solid solution (SSS), to7 Xva7c5a-Tn6cy rich clusters, to GPhⅡ’(zaopnreesc,u tros oηr' to(shp,hMergi-Zn 2orMg(Zn,Cu,Al) 2)
+cal), and to η (platelet) [119–121]. In Al 7XXX alloys for aircraft, despite the second
+phases with GP4 .z3o.1n.ePs e→ak ηA' g→in g η (MgZn2), other precipitates can be also formed
+[42,119,122] as shown in Table 4.
+Peak aging is an aging heat treatment method that maximizes the strength of the
+Metals 2021, 11, x FOR PEER REVIEW 21 of 30
+alloy. In order to make the alloy obtain the peak strength, it is necessary to precipitate
+Table 4. Observed precipitates in aircraft Al alloy products [42,119,122]
+tinyanddispersedparticleswithinthegrainstoobstructthedislocationmotionduring
+dAeflloorym ation. OnlythecoherentGPOzbosneervseadn Pdretchipeitsaetem i-coherentη’(MgZn )phasewith
+2
+deformati to h7n eX. 7 mO5 n al ty
+ri
+xth ie
+n
+c Aoh le 7r Xe Xnt
+X
+G aP
+ll
+oz yon se cs
+a
+nan ed
+f
+ft eh ce
+ti
+vsAe elm l12yMi- pcgo i2nChre
+m
+re on bt ilη e'( dM isg lZ on c2a)
+t
+ip oh na sse
+a
+nw dit ah
+r efunctioned
+the matrix
+a
+s7inX
+s
+t5A r0
+e
+l
+n
+7 gX tX heX
+n
+a inll goy [s
+1
+2c 3a ]n
+.
+Tef hfe ec rt eiv foe rly
+e,
+p thin
+e
+m ago ib ni gAlel
+t
+3d eZ mirs l po eca rati to un rs
+e
+a sn hd
+o
+ua lr de bfu en cc oti no tn re od
+ll edbelowthe
+as strengthe7n05in5 g [123]. Therefore, the aging temperatuArel3 Zsrh ould be controlled below the
+melting point of the GP zones, or the heating rate should be controlled, so that a large
+melting p7oXin75t -oT6f the GP zones, or thhe' (ha eparteicnugr sroar tteo shh, MouglZdn b2 oer cMong(tZronl,Cleud,A, sl)o2) that a large
+number of GP zones are first precipitated within the grains. Then it is appropriately
+number of GP zones are first precipitated within the grains. Then it is appropriately
+transformedto η’phase. Finally, thetinyand dispersedparticles mainlyincluding the
+4.3.1. Peak Aging
+transformed to η' phase. Finally, the tiny and dispersed particles mainly including the
+GPzonesandη’phaseareformedinthegrains,whichmakesthealloyobtainthehighest
+PeGakP azgoinnegs iasn adn ηa' gpinhgas he eaarte tfroeramtmeedn itn m theteh gorda itnhsa,t wmhaicxhim mizaekse tsh teh est raellnogyt ho botfa itnh et he high-
+strength[41]. However,becausetheagingtemperatureisoftenlowortheagingtimeis
+alloy. Iens to srdtreern tgot hm [a4k1]e. tHhoe walelvoyer ,o bbetacianu tshee t hpee aakg isntgre tnegmthp,e irta itsu rnee cise sosfatreyn tloo wp roerc itphieta ateg ing time
+relatively short, the alloy elements, especially Cu element, occur incomplete diffusion,
+tiny anids rdeilsapteivrseelyd sphaorrtitc, ltehse w ailtlhoiyn etlheem gernatisn, se stop eocbiastlrlyu cCt uth eel edmiseloncta, toicocnu mr iontcioonm dpulertien gd iffusion,
+resultinginahighpotentialdifferencebetweenthegrainsandgrainboundariesinthisheat
+resulting in a high potential difference between the grains and grain boundaries in this
+treatmentmethod. Meanwhile,asshowninFigure16,duetothecontinuityofchain-like
+heat treatment method. Meanwhile, as shown in Figure 16, due to the continuity of
+grainboundaryphasesoftheT6statealloy,itiseasytobecomeacontinuouschannelfor
+chain-like grain boundary phases of the T6 state alloy, it is easy to become a continuous
+corrosionexpansion,sothatthelocalizedcorrosionsusceptibilityishigh.
+channel for corrosion expansion, so that the localized corrosion susceptibility is high.
+Figure 16. Distribution of grain boundary precipitates of T6 high strength aluminum alloy (a) TEM
+Figure16.DistributionofgrainboundaryprecipitatesofT6highstrengthaluminumalloy(a)TEM
+(b) SADPs. (Reprinted with permission from ref. [120]. Copyright 2015 Elsevier).
+(b)SADPs.(Reprintedwithpermissionfromref.[120].Copyright2015Elsevier).
+4.3.2. Over-Aging
+An over-aging heat treatment method is developed to improve the corrosion re-
+sistance of the T6 state alloy. After over-aging heat treatment, the corrosion resistance of
+the alloy is improved, and the residual stress is correspondingly reduced. Also, the di-
+mensional stability of the alloy in high temperature environment is enhanced, which
+makes the service environment and service life of the alloy expanded and improved.
+However, this comes at the expense of losing partial strength. The strength of the
+Al-Zn-Mg-Cu alloy in the T73 and T74 states is 10–15% lower than that of the T6 state
+alloy according to the literature [124,125].
+In order to shorten the time for the alloy to reach the over-ageing state, the
+over-aging treatment usually adopts two-stage aging, including the aging heat treatment
+method of low temperature first, then high temperature or high temperature first and
+then low temperature. T74 (T736) is a typical over-ageing heat treatment through low
+temperature treatment followed by high temperature treatment. Its first-stage
+low-temperature aging is pre-aging with the purpose of precipitating fine and dispersed
+GP zones in the alloy grains. The second-stage high-temperature aging is a stabilization
+stage. During the aging process, the GP zones gradually transforms to η' and η phase
+and grows, and the grain boundary precipitates are coarse and discontinuously distrib-
+uted. Also, the intra-granular precipitates grow and are distributed unevenly. Ultimate-
+ly, the corrosion resistance of the alloy increases, and the strength decreases, as shown in
+Figure 17a [126–128]. The high-temperature followed by low-temperature aging heat
+treatment method is to re-dissolve a small amount of GP zones through
+high-temperature aging, which increase the degree of super-saturation of the alloy, and
+then precipitate a large number of fine and dispersed strengthening phases within
+grains through low-temperature aging. The partial η phase can be precipitated during
+the high-temperature aging stage. Due to the high melting point of the η phase, it is dif-
+ficult to dissolve at the high-temperature stage. It can become a nucleation point at the
+low-temperature aging stage, which promotes the nucleation and growth of the grainMetals2021,11,718 21of29
+4.3.2. Over-Aging
+Anover-agingheattreatmentmethodisdevelopedtoimprovethecorrosionresistance
+oftheT6statealloy. Afterover-agingheattreatment,thecorrosionresistanceofthealloy
+isimproved,andtheresidualstressiscorrespondinglyreduced. Also,thedimensional
+stability of the alloy in high temperature environment is enhanced, which makes the
+serviceenvironmentandservicelifeofthealloyexpandedandimproved. However,this
+comesattheexpenseoflosingpartialstrength. ThestrengthoftheAl-Zn-Mg-Cualloy
+intheT73andT74statesis10–15%lowerthanthatoftheT6statealloyaccordingtothe
+literature[124,125].
+Inordertoshortenthetimeforthealloytoreachtheover-ageingstate,theover-aging
+treatment usually adopts two-stage aging, including the aging heat treatment method
+oflowtemperaturefirst,thenhightemperatureorhightemperaturefirstandthenlow
+temperature. T74(T736)isatypicalover-ageingheattreatmentthroughlowtemperature
+treatmentfollowedbyhightemperaturetreatment. Itsfirst-stagelow-temperatureaging
+ispre-agingwiththepurposeofprecipitatingfineanddispersedGPzonesinthealloy
+grains. Thesecond-stagehigh-temperatureagingisastabilizationstage. Duringtheaging
+process,theGPzonesgraduallytransformstoη’andηphaseandgrows,andthegrain
+boundaryprecipitatesarecoarseanddiscontinuouslydistributed. Also,theintra-granular
+precipitatesgrowandaredistributedunevenly. Ultimately,thecorrosionresistanceofthe
+alloyincreases,andthestrengthdecreases,asshowninFigure17a[126–128]. Thehigh-
+temperaturefollowedbylow-temperatureagingheattreatmentmethodistore-dissolve
+asmallamountofGPzonesthroughhigh-temperatureaging,whichincreasethedegree
+ofsuper-saturationofthealloy,andthenprecipitatealargenumberoffineanddispersed
+strengtheningphaseswithingrainsthroughlow-temperatureaging. Thepartialηphase
+Metals 2021, 11, x FOR PEER REVIEW 22 of 30
+canbeprecipitatedduringthehigh-temperatureagingstage. Duetothehighmeltingpoint
+of the η phase, it is difficult to dissolve at the high-temperature stage. It can become a
+nucleationpointatthelow-temperatureagingstage,whichpromotesthenucleationand
+boundary precipitgartoews. tAhso fa trheesuglrta, itnheb opurencdiparityatperse cairpei tcaotaerss.eA asnda rdeissucoltn,ttihneuopuresclyip ditiast-es are coarse and
+tributed, as shownd iisnc oFnigtuinrue o1u7sbl y[1d2i8s]t.r ibuted,asshowninFigure17b[128].
+Figure 17. Precipitate distribution near the grain boundary of two-stage over aging (a) T74; (b)
+Figure17.Precipitatedistributionnearthegrainboundaryoftwo-stageoveraging(a)T74;(b)high-
+high-temperature followed by low-temperature aging [126–128].
+temperaturefollowedbylow-temperatureaging[126–128].
+4.3.3. Retrogressio4n.3 a.3n.dR Reetr-oAggriensgsi onandRe-Aging
+In order to make IAnl o7rXdXerXt oalmloyask ehaAvle7 hXiXgXh acollroryossihoanv reehsiisgthanccoer rwoshiiolen mreasiinsttaaninciengw hilemaintaining
+high strength, Cinhai geht aslt.r e[1n2g9t]h p,Croipnoaseetda tl.h[e1 2h9e]apt rtroepaotmseedntth perhoceeastst roefa rtmetreongtrpersosicoens saonfdr etrogressionand
+re-aging(RRA) in r1e9-a7g4i. nRge(RtrRoAgr)eisnsi1o9n7 4a.nRde trreo-gagreinssgio ins aanctdurael-lyag ain tghriseea-csttuaaglely aagitnhgre etr-estaatg-eagingtreatment
+ment method, whmichet hinocdlu,wdehsi cphrein-acgluindge,s rpertero-aggriensgs,iorent,r aongdre rsesi-oang,inagn.d Prree--aaggiinngg. mPreea-angsi ntog meanstokeepat
+keep at a low temapleorwatuterme pfoerr aat ulornegfo preariloodn gofp etirmioed. oRfettirmoger.eRsseitornog irse asslwioanyiss tahlwroauygsht har oughacompara-
+comparatively higtihv etleymhpigehratteumrep efroart uar esfhoorrat stihmoret. tRime-ea.gRine-ga grienfgerrse fteor skteoekpe eapt aat alolwowere rtemperaturefor
+temperature for a alolnong gppereiroidod [1[3103]0.] .
+After RRA treatmAefntte,r tRhReA sttrreenatgmthe notf, tthhees tarlelnogyt hiso cfltohseea tlloo ythise cploesaekt,o atnhed ptehaek ,satrnedsst hestresscorrosion
+corrosion resistanrcees,i stfaranccteu,rfera ctotuurgehtnoeusgsh, naensds, afantdigfuaeti grueesirsetasinsctaen caerea rseigsniginfiicfaicnatnlytl yimim-proved[131–134].
+proved [131–134].I tIti sisa tattrtirbiubutetdedt ototh teher ergeuglualtaiotinono foRf RRARAo nonth tehme imcriocsrotrsutrcutucrteuroef othf ethaell oy, including the
+alloy, including the composition, morphology, and distribution of the precipitates.
+However, there are different views which were put forward on the microstructure evo-
+lutions at different stages based on the research results. In general, for the RRA treat-
+ment, the GP zones are precipitated during the pre-aging stage and properly transforms
+to the η' phase and grows. In the stage of high-temperature retrogression, the finer GP
+zones and η' phase are re-dissolved, while the grain boundary precipitates have almost
+no re-dissolution due to the large size and that has been transformed into stable η phase
+[37,131]. During the re-aging process, the fine and dispersed GP zones and η' phase are
+re-precipitated in the alloy grains, and the grain boundary precipitates can nucleate and
+grow based on the existing precipitates, which eventually become discontinuously dis-
+tributed [36,135–137], as shown in Figure 18.
+Figure 18. Microstructure changes near grain boundaries during RRA treatment. (Reprinted with
+permission from ref. [36]. Copyright 2020 Elsevier).Metals 2021, 11, x FOR PEER REVIEW 22 of 30
+boundary precipitates. As a result, the precipitates are coarse and discontinuously dis-
+tributed, as shown in Figure 17b [128].
+Figure 17. Precipitate distribution near the grain boundary of two-stage over aging (a) T74; (b)
+high-temperature followed by low-temperature aging [126–128].
+4.3.3. Retrogression and Re-Aging
+In order to make Al 7XXX alloys have high corrosion resistance while maintaining
+high strength, Cina et al. [129] proposed the heat treatment process of retrogression and
+re-aging(RRA) in 1974. Retrogression and re-aging is actually a three-stage aging treat-
+ment method, which includes pre-aging, retrogression, and re-aging. Pre-aging means to
+keep at a low temperature for a long period of time. Retrogression is always through a
+comparatively high temperature for a short time. Re-aging refers to keep at a lower
+temperature for a long period [130].
+Metals2021,11,718 After RRA treatment, the strength of the alloy is close to the peak, and the stress 22of29
+corrosion resistance, fracture toughness, and fatigue resistance are significantly im-
+proved [131–134]. It is attributed to the regulation of RRA on the microstructure of the
+alloy, including the composition, morphology, and distribution of the precipitates.
+composition,morphology,anddistributionoftheprecipitates.However,therearedifferent
+However, there are different views which were put forward on the microstructure evo-
+viewswhichwereputforwardonthemicrostructureevolutionsatdifferentstagesbased
+lutions at different stages based on the research results. In general, for the RRA treat-
+on the research results. In general, for the RRA treatment, the GP zones are precipitated
+ment, the GP zones are precipitated during the pre-aging stage and properly transforms
+duringthepre-agingstageandproperlytransformstotheη’phaseandgrows.Inthestage
+to the η' phase and grows. In the stage of high-temperature retrogression, the finer GP
+ofhigh-temperatureretrogression,thefinerGPzonesandη’phasearere-dissolved,while
+zones and η' phase are re-dissolved, while the grain boundary precipitates have almost
+the grain boundary precipitates have almost no re-dissolution due to the large size and
+no re-dissolution due to the large size and that has been transformed into stable η phase
+that has been transformed into stable η phase [37,131]. During the re-aging process, the
+[37,131]. During the re-aging process, the fine and dispersed GP zones and η' phase are
+fineanddispersedGPzonesandη’phasearere-precipitatedinthealloygrains, andthe
+re-precipitated in the alloy grains, and the grain boundary precipitates can nucleate and
+grainboundaryprecipitatescannucleateandgrowbasedontheexistingprecipitates,which
+grow based on the existing precipitates, which eventually become discontinuously dis-
+eventuallybecomediscontinuouslydistributed[36,135–137],asshowninFigure18.
+tributed [36,135–137], as shown in Figure 18.
+Metals 2021, 11, x FOR PEER REVIEW 23 of 30
+Figure18.MFiigcruorset r1u8c.t uMreiccrhoasntrguecstunreea rchgaranignebso nuenadr agrrieasind ubroiunngdRaRriAest rdeuartminegn Rt:R(aA) ptrreea-atmgienngt.( b(R)reeptrroingtreeds swiointh( c)re-aging.
+(Reprintedwpeitrhmpisesrimonis fsrioomn frreofm. [3re6f].. [C3o6p].yCriogphyt r2ig02h0t 2E0ls2e0vEielsre).v ier).
+Yang et al. [12Y0a]n gstuetdaiel.d[ 1t2h0e] mstuecdhieadnicthael amnedc hcaonrircoaslioann drecsoirsrtaonsicoen prreospisetartniecse pofr operties of Al-
+Al-6.0Zn-2.3Mg6-.01Z.8nC-u2.-30M.1gZ-r1 .(8wCtu -%0.)1 Zarll(owy to%n) adlilfofyeroenntd iaffgeirnegn ttaregaintmgterneta tcmoenndtitcioonnds.i tiAons s.Asshownin
+shown in FiguFreig 1u9re, t1h9e, tRheRRAR sAtasttea theahsa hsihgihgehre rstsrterennggthth aanndd bbeetttteerr ccoorrrroossioionnr erseissitsatnacneceth antheroutine
+T6andT74states. Theoptimalprocessfortheexperimentalalloyisontheconditionsof
+than the routine T6 and T74 states. The optimal process for the experimental alloy is on
+120◦C×24h+180◦C×60min+120◦C×24h.
+the conditions of 120 °C × 24 h + 180 °C × 60 min + 120 °C × 24 h.
+Figure19. (Fai)gMureec 1h9a.n (iac)a lMperochpaenrtiiceasl; pInrotepregrrtaiensu; lIanrtecrogrrraonsuiolnarm coorrrpohsoiolong myoorfpthhoeloagllyo yofu nthdee raldloifyf eurenndtera gdinifg- treatment
+ferent aging treatment conditions: (b) T6, (c) T74, (d) RRA40, (e) RRA60. (Reprinted with permis-
+conditions:(b)T6,(c)T74,(d)RRA40,(e)RRA60.(Reprintedwithpermissionfromref.[120].Copyright2015Elsevier).
+sion from ref. [120]. Copyright 2015 Elsevier).
+Chenetal.[41]exploredtheeffectsofagingtreatmentonstresscorrosioncracking,
+Chen et alf.r [a4c1t]u erexptolourgehdn tehses ,eafnfedctsst roefn aggthinogf tArela7tm08e5nat lolony .stAressssh coowrrnosinioFni gcruarcek2in0,gc, omparedwith
+fracture toughness, and strength of Al 7085 alloy. As shown in Figure 20, compared with
+T6 state, the fracture toughness of the T74 state is improved by 22.9%, but the strength is
+reduced by 13.6%. The fracture toughness of the RRA state is 14.2% higher than that of
+the T6 state, and the strength is almost unchanged. The fracture toughness of the DRRA
+and T74 state is comparable, but the former strength is increased by 14.6% which com-
+pared to the latter.
+Figure 20. SSRT results of AA7085 under different aging regimes (a) in air (b) in 3% NaCl solution.
+(Reprinted with permission from ref. [41]. Copyright 2014 Elsevier).
+Lin et al. [138] researched the effects of different aging treatments on the tensile
+strength and stress corrosion resistance of Al 7050 alloy in a 3.5% NaCl solution at pH12.
+As shown in Figure 21, the tensile strength is improved in T6 state, but the stress corro-
+sion resistance is reduced. In contrast, the stress corrosion resistance of T74 state is im-
+proved, but the tensile strength is reduced. The tensile strength and stress corrosion re-Metals 2021, 11, x FOR PEER REVIEW 23 of 30
+Yang et al. [120] studied the mechanical and corrosion resistance properties of
+Al-6.0Zn-2.3Mg-1.8Cu-0.1Zr (wt %) alloy on different aging treatment conditions. As
+shown in Figure 19, the RRA state has higher strength and better corrosion resistance
+than the routine T6 and T74 states. The optimal process for the experimental alloy is on
+the conditions of 120 °C × 24 h + 180 °C × 60 min + 120 °C × 24 h.
+Figure 19. (a) Mechanical properties; Intergranular corrosion morphology of the alloy under dif-
+ferent aging treatment conditions: (b) T6, (c) T74, (d) RRA40, (e) RRA60. (Reprinted with permis-
+sion from ref. [120]. Copyright 2015 Elsevier).
+Metals2021,11,718 23of29
+Chen et al. [41] explored the effects of aging treatment on stress corrosion cracking,
+fracture toughness, and strength of Al 7085 alloy. As shown in Figure 20, compared with
+T6 state, the fraTc6tusrtea tteo,utghhenfreascst oufr ethteo uTg7h4n setassteo ifst ihmepTr7o4vsetda tbeyi s22im.9p%r,o bvuetd tbhye s2t2r.e9n%g,thb uist thestrengthis
+reduced by 13.r6e%d.u Tcehde bfrya1ct3u.6r%e .toTuhgehfnraecstsu oref ttohue gRhRnAes sstoafteth ies R14R.A2%st ahtieghise1r 4t.h2a%n htihgahte orft hanthatofthe
+the T6 state, anTd6 tshtea tset,reanngdthth ies satlrmenogstth uinscahlamnogsetdu. nTchhea nfrgaecdtu.rTeh teoufrgahcntuerses toofu tghhen DesRsRoAf theDRRAand
+and T74 state iTs 7c4omstaptaeriasbcleo,m bpuatr tahbele f,obrumtetrh estfroernmgethr sitsr einncgrtehaissedin cbrye a1s4e.d6%b yw1h4i.c6h% cwomhi-chcomparedto
+pared to the lattthere. latter.
+Figure 20. SSRT results of AA7085 under different aging regimes (a) in air (b) in 3% NaCl solution.
+Figure 20. SSRTresultsofAA7085underdifferentagingregimes(a)inair(b)in3%NaClsolution. (Reprintedwith
+(Reprinted with permission from ref. [41]. Copyright 2014 Elsevier).
+permissionfromref.[41].Copyright2014Elsevier).
+Metals 2021, 11, x FOR PEER REVIEW 24 of 30
+Lin et al. [138] researched the effects of different aging treatments on the tensile
+Lin et al. [138] researched the effects of different aging treatments on the tensile
+strength and stress corrosion resistance of Al 7050 alloy in a 3.5% NaCl solution at pH12.
+strengthandstresscorrosionresistanceofAl7050alloyina3.5%NaClsolutionatpH12.
+sA iss t as nh co ew an r ei n b F oi tAg hsu ersneh ho2 aw1 n,n cth einde Ft ie nign us thirleee 2Rs1t Rr,etAhn eg sttthea nti ess i lwiem hsp itcrrehon v ige std hm iin us ciTmh6 p bsretoa tvtt eeer,d b tihunat Tnth6 tesh tesat tr oee t,s hbs eu c rt o ttr whreo o-s tresscorrosion
+msio etn
+h
+ore ds si .s t ance riess irsetdauncceedis. Irne dcuocnetdra.sItn, tchoen tsrtarests,st hcoersrtorseisosnc orerrsoisstiaonncere osifs Tta7n4c estoafteT i7s4 ismta-teisimproved,
+proved, but theb utetntshielet esntrseilnegstthr eins grtehdiuscreedd. uTcheed .teTnhseiltee nstsrielengsttrhe nagntdh satnredssst rceosrsrocsoirorno srieo-nresistanceare
+bothenhancedintheRRAstatewhichismuchbetterthantheothertwomethods.
+Figure21.FSiSgRuTrer e2s1u. lStsSoRfT7 r0e5s0uwltsi tohf d7i0f5fe0r ewnittha gdiinffgerreengtim ageisn(ga )reingiamire(sb ()ai)n in3 %airN (abC) lins o3l%ut iNona;C(lc )soVlaurtiiaotnio; n(c)o fcorrosion
+potentialwViathriatitmioen foofr cvoarrrioosuiosns ppeoctiemnteinasl winit3h. 5t%imNe afoCrl vsoarluiotuiosn saptecpiHm1e2n.s (iRn e3p.5ri%nt eNdawCli tsholpuetriomni sasti opnHf1ro2.m ref.[138].
+Copyright(2R0e0p6rEinlsteevdi ewr)it.h permission from ref. [138]. Copyright 2006 Elsevier).
+Wang et al. [36W] aenxpgloerteadl .t[h3e6 ]efefxepctl oorfe dRRthAe oefnf etchteo mf RicRroAstoruncttuhree,m hicarrodsnterussc taunrde, hardness and
+corrosion resistcaonrcreo soifo nAlr e7s0is8t5a naclleoyo.f IAt lsh70o8w5s atlhloayt .thIte sphroowpsertthieast othf eApl r7o0p8e5r taiellsoyo faArel 7085 alloy are
+sensitive to temspeenrsiintgiv teetmopteemraptuerrein agntde mtimpeer. aAtusr sehaonwdnt iimn eF.igAusresh 2o2w, tnhein aFlliogyu crean2 2o,btthaeina lloycanobtain
+good mechanicgaol oadndm ceocrhraonsiicoanl raensdistcaonrcreo spiornopreerstiisetsa nocne cpornodpietirotine soof n12c0o n°dCi t×io 2n4o hf 1+2 0 ◦C × 24 h +
+160 °C × 1.5 h +1 16200 ◦ °CC ×× 214. 5hh. C+om12p0a◦ rCed× w2it4h hth.eC poemakp aargeidngw, tihthe thhaerdpneeasks aogf iRnRg,At hise ihna-rdness of RRA
+creased by 10.2%is, iwnchriecahs emdabinyly1 0a.t2tr%ib,uwteh tioch thme adiinslpyerastetrdib ruotde-ltioket hηe pdhiasspee rinse tdher omda-ltirkixe. η phase in the
+Also, the corrosmioantr rixe.siAstlasno,ceth ies ciomrprorsoivoendr edsuiset atnoc tehies cimoaprrsoev ηe'd pdhuaeseto otfh tehceo dairsscereηt’ep dhiass-eofthediscrete
+tribution formeddi sbtryi btuheti ohnigfhoermr Cedu bcyonthteenht iganhder tChue ncoanrrtoenwt apnrdectihpeitantaer-rforewe pzroenceip witahtiec-hf reezonewhich
+are approximataelrye 4a5p–p5r0o xnimm aatleolnyg4 t5h–e5 0grnamina bloonugndthaeriegsr.a inboundaries.
+Figure 22. (a) Hardness and conductivity of 7085 alloy with different aging conditions; (b) Effect of
+retrogression treatment on the values of Ecorr and maximum corrosion depth in IGC test. (Re-
+printed with permission from ref. [36]. Copyright 2020 Elsevier).
+5. Conclusions
+As the main part of high strength aluminum alloy, Al 7XXX alloys have been suc-
+cessfully used as the main materials of aircraft structural components. With the applica-
+tion of titanium alloys and composite materials in the fuselage design, the proportion of
+aluminum alloy has been reduced. In order for aluminum alloys to remain attractive in
+the airframe construction, research should be necessarily carried out in terms of struc-
+tural properties, weight reduction, and cost reduction. Therefore, current studies for Al
+7XXX alloys contain improvements on mechanical properties; reduction of manufactur-Metals 2021, 11, x FOR PEER REVIEW 24 of 30
+sistance are both enhanced in the RRA state which is much better than the other two
+methods.
+Figure 21. SSRT results of 7050 with different aging regimes (a) in air (b) in 3% NaCl solution; (c)
+Variation of corrosion potential with time for various specimens in 3.5% NaCl solution at pH12.
+(Reprinted with permission from ref. [138]. Copyright 2006 Elsevier).
+Wang et al. [36] explored the effect of RRA on the microstructure, hardness and
+corrosion resistance of Al 7085 alloy. It shows that the properties of Al 7085 alloy are
+sensitive to tempering temperature and time. As shown in Figure 22, the alloy can obtain
+good mechanical and corrosion resistance properties on condition of 120 °C × 24 h +
+160 °C × 1.5 h + 120 °C × 24 h. Compared with the peak aging, the hardness of RRA is in-
+creased by 10.2%, which mainly attribute to the dispersed rod-like η phase in the matrix.
+Metals2021,11,718 Also, the corrosion resistance is improved due to the coarse η' phase of the discrete dis-24of29
+tribution formed by the higher Cu content and the narrow precipitate-free zone which
+are approximately 45–50 nm along the grain boundaries.
+Figure 22. (a) Hardness and conductivity of 7085 alloy with different aging conditions; (b) Effect of
+Figure22.(a)Hardnessandconductivityof7085alloywithdifferentagingconditions;(b)Effectof
+retrogression treatment on the values of Ecorr and maximum corrosion depth in IGC test. (Re-
+retrogressiontreatmentonthevaluesofEcorrandmaximumcorrosiondepthinIGCtest.(Reprinted
+printed with permission from ref. [36]. Copyright 2020 Elsevier).
+withpermissionfromref.[36].Copyright2020Elsevier).
+5. Co5n.cCluosnicolnuss ions
+As thAes mthaeinm paainrtp oafr thoigfhh isgtrhesntgrethn gatlhumaliunmumin uamlloayl,l oAyl, A7XlX7XXX aXlloayllso yhsavhea vbeeebne esnucsu-ccess-
+cessffuullllyy uusseedd aass tthhee mmaaiinn mmaatteerriiaallss ooff aaiirrccrraafftt ssttrruuccttuurraall ccoommppoonneennttss.. WWiitthh tthhee aapppplliiccaa-tionof
+tion toitfa tnitiaunmiuamll oayllsoaynsd acnodm cpoomspitoesmitea tmeraiatelsriianlst hine ftuhsee flaugseeldagesei gdne,stighne,p trhoep porrotipoonrotifoanl uomf inum
+alumailnlouymh aalslobye ehnasr ebdeuecne dre.dIuncoerdd. eIrn foorrdaelru mfoirn aulmumailnlouyms taollroeyms atoin raetmtraaicnt iavtetriancttihveea iinr frame
+the aciorfnrsatmruec tcioonns,trreuscetaiornch, rsehsoeuarldchb sehnoeucleds sbaer inlyecceasrsraieridlyo cuatrirnietde romust oinf stterrumcstu orfa lsptrruocp-erties,
+turalw periogphetrrteidesu, cwtioeing,hatn rdedcouscttiroend,u acntido nc.oTsth reeredfuocrtei,ocnu. rTrehnetresftourdei,e scuforrreAntl 7stXuXdXieas llfooyr sAclo ntain
+7XXXim apllrooyvse cmoenntatsino inmmpreocvheamniecnatlsp oronp meretciehsa;nriecdalu pctrioopneortfiems;a rneudfuaccttiuornin ogf, mmaaninutfeanctaunrc-e,and
+repaircosts;preventionofcorrosionandfatigue;andabilitytoperformreliablythroughout
+itsservicelife.
+Inrecentyears,Al7XXXalloyshavesuccessfullyimprovedstaticstrength,fracture
+toughness, fatigueandcorrosionresistancethroughcompositiondesignandcontrolof
+chemical composition, as well as via the exploitation of more efficient heat treatment
+methods. ItcanbeseenfromthisreviewthatthemainimprovementofAl7XXXalloysisto
+optimizethesolutecontentandsoluteratiotoachievebetterbalancefortheperformances.
+Therefore,forthedesignofthealloy,thecontentofZnwillbeincreasedtomorethan10%,
+whilethecontentofMgandCuwillbereduced. Also,thecontentofimpurityelements
+suchasFeandSiwillbeevenlower. Ontheotherhand,theadditionoftracetransition
+elementslikeZrandErwillbemorereasonable. Accordingly,MgZn phaseisthemain
+2
+strengtheningprecipitateinAl7XXXalloys. Theformation,distributionandgeometrical
+specificationsofMgZn phasearehighlysensitivetotheprocessingparametersofageing
+2
+andthewayitproceeds. Inordertobettermanipulatethemicrostructureandobtainthe
+bestmechanicalandcorrosionproperties,variousagingprocesseshavebeendeveloped
+forAl7XXXalloys. Atpresent,theheattreatmentregimeisdevelopedalongT6,T73,T76,
+T736 (T74), to T77 (T78, T79). In order to obtain better comprehensive properties of Al
+7XXXalloys,itisnecessarytoimprovetheexistingheattreatmentregimeordevelopa
+newone. Inbrief,thedevelopmentofnewgenerationAl7XXXalloysforaircraftstructure
+shouldgiveconsiderationtohighstrength,hightoughness,highdamagetolerance,high
+quenching,andgoodcorrosionresistance.
+Thedevelopmentsofmanufacturingtechniquesarethekeyissuesfortheweightand
+costreductionexceptfortheimprovementonthestructuralperformance. Manufacturing
+occupiesthebiggestportionofthefuselagecost. Therefore,novelassemblytechniques
+includinglaserbeamweldingandfriction-stirwelding,high-speedmachiningandAM
+techniqueshouldbeintroducedtoreducetheproductioncostsandpartcount.
+Inaddition,Al7XXXalloysissusceptibletocorrosionbyenvironmentduringaircraft
+service, which has an impact on the life and reliability of aircraft. Therefore, corrosion
+prediction technology has a strong practical significance for flight safety. In order to
+solve the problem of corrosion prediction of Al 7XXX alloys for aircraft structures, the
+surfacecorrosionenvironmentneedstobeconfirmedfirst,andtheaccurateandreliable
+electrochemical measurements are required. In this way, the corrosion behavior of AlMetals2021,11,718 25of29
+7XXXalloysforaircraftstructurescanbeaccuratelypredictedbyconstructingareasonable
+predictionmodel.
+AuthorContributions: Conceptualization,B.Z.andS.Z.;literaturesearch,B.Z.;figures,B.Z.;data
+collection,B.Z.;dataanalysis,B.Z.;datainterpretation,B.Z.;writing—originaldraftpreparation,B.Z.;
+writing—reviewandediting,B.Z.andS.Z.;supervision,B.L.andS.Z.;validation,B.L.andS.Z.All
+authorshavereadandagreedtothepublishedversionofthemanuscript.
+Funding: ThisresearchwasfundedbyNationalkeyR&Dprojects,grantnos. 2019YFC1907101,
+2019YFC1907103,2017YFB0702304,KeyR&DprojectinNingxiaHuiAutonomousRegion,grantno.
+2020BCE01001,keyandnormalprojectsNationalNaturalScienceFoundationofChina,grantnos.
+U2002212,51672024,XijiangInnovationandEntrepreneurshipTeam,grantno.2017A0109004,the
+FundamentalResearchFundsfortheCentralUniversities,grantnos.FRF-BD-20-24A,FRF-TP-20-
+031A1,FRF-IC-19-017Z,FRF-GF-19-032B,FRF-TP-20-097A1Z,06500141,andFinancialsupportfrom
+theStateKeyLaboratoryforAdvancedMetalsandMaterials,grantno.2019Z-05.
+DataAvailabilityStatement:Notapplicable.
+Acknowledgments:Theauthorswouldliketothanktheeditorforeditingofthemanuscriptandthe
+anonymousreviewersfortheirdetailedandhelpfulcomments.
+ConflictsofInterest:Theauthorsdeclarenoconflictofinterest.
+References
+1. Graf,A.Chapter3-Aluminumalloysforlightweightautomotivestructures.InMaterials,DesignandManufacturingforLightweight
+Vehicles;WoodheadPublishing:Cambridge,UK,2021;pp.97–123.
+2. Dursun,T.;Soutis,C.Recentdevelopmentsinadvancedaircraftaluminiumalloys.Mater.Des.2014,56,862–871.[CrossRef]
+3. Prabhu, T.R. An Overview of High-Performance Aircraft Structural Al Alloy-AA7085. ACTA Met. Sin. 2015, 28, 909–921.
+[CrossRef]
+4. Schmid-Fetzer,R.;Zhang,F.ThelightalloyCalphaddatabasesPanAlandPanMg.Calphad2018,61,246–263.[CrossRef]
+5. Sharma,K.;Srinivas,G.Flyingsmart:Smartmaterialsusedinaviationindustry.Proc.Mater.Today2020,27,244–250.[CrossRef]
+6. Boeing.CommercialMarketOutlook2020–2039.Availableonline:http://www.boeing.com/resources/boeingdotcom/market/
+assets/downloads/2020_CMO_PDF_Download.pdf(accessedon7April2021).
+7. Sabaghi,M.;Cai,Y.;Mascle,C.;Baptiste,P.Sustainabilityassessmentofdismantlingstrategiesforend-of-lifeaircraftrecycling.
+Resour.Conserv.Recycl.2015,102,163–169.[CrossRef]
+8. Staley,J.T.;Liu,J.;Hunt,W.H.,Jr.Aluminumalloysforaerostructures.Adv.Mater.Process.1997,152,17–20.
+9. ChinaNonferrousMetalsFabricationIndustryAssociation.2017ChinaAluminumProcessingIndustryDevelopmentReport.
+Availableonline:www.cnfa.net.cn(accessedon18July2020).
+10. Koli,D.K.;Agnihotri,G.;Purohit,R.AdvancedAluminiumMatrixComposites:TheCriticalNeedofAutomotiveandAerospace
+EngineeringFields.Mater.TodayProc.2015,2,3032–3041.[CrossRef]
+11. Zhao,K.;Liu,J.-H.;Yu,M.;Li,S.-M.Through-thicknessinhomogeneityofprecipitatedistributionandpittingcorrosionbehavior
+ofAl–Lialloythickplate.Trans.NonferrousMet.Soc.China2019,29,1793–1802.[CrossRef]
+12. Sabirov,I.;Murashkin,M.;Valiev,R.Nanostructuredaluminiumalloysproducedbysevereplasticdeformation:Newhorizonsin
+development.Mater.Sci.Eng.A2013,560,1–24.[CrossRef]
+13. Bucci,R.J.;Warren,C.J.NeedforNewMaterialsinAgingAircraftStructures.J.Aircr.2000,37,122–129.[CrossRef]
+14. Liu,J.ANewParadigmintheDesignofAluminumAlloysforAerospaceApplications.Mater.Forum2000,127–142.[CrossRef]
+15. Patnaik,P.C.;Chen,W.R.Materialsforairandspace.Adv.Mater.Process.2000,158,63–65.
+16. Filatov,Y.A.;Yelagin,V.I.;Zakharov,V.V.NewAl-Mg-Scalloys.Mater.Sci.Eng.2000,280,97–101.[CrossRef]
+17. Georgantzia,E.;Gkantou,M.;Kamaris,G.S.Aluminiumalloysasstructuralmaterial:Areviewofresearch.Eng.Struct.2021,
+227,111372.[CrossRef]
+18. Warren,A.S.DevelopmentsandChallengesforAluminum—ABoeingPerspective.Mater.Forum2004,28,24–31.
+19. Brotzu,A.;DeLellis,G.;Felli,F.;Pilone,D.StudyofdefectformationinAl7050alloys.ProcediaStruct.Integr.2017,3,246–252.
+[CrossRef]
+20. Zhang,J.;Song,B.;Wei,Q.;Bourell,D.;Shi,Y.Areviewofselectivelasermeltingofaluminumalloys:Processing,microstructure,
+propertyanddevelopingtrends.J.Mater.Sci.Technol.2019,35,270–284.[CrossRef]
+21. Imran,M.;Khan,A.A.CharacterizationofAl-7075metalmatrixcomposites:Areview.J.Mater.Res.Technol.2019,8,3347–3356.
+[CrossRef]
+22. Sander,W.;Meissner,K.L.DerEinfluderVerbindungMgZn2aufdieVergütbarkeitvonAluminiumlegierungen.Z.Anorg.Allg.
+Chem.1926,154,144–151.[CrossRef]
+23. Adkins,E.M.;Bell,G.M.LightMetals1981:ProceedingsofTechnicalSessionsSponsoredbytheTMSLightMetalsCommitteeatthe110th
+AIMEAnnualMeeting,Chicago,IL,USA,22–26February1981;MetallurgicalSocietyofAIME:Warrendale,PA,USA,1981.Metals2021,11,718 26of29
+24. Harpur,M.A.StructuralDevelopmentoftheConcorde:Anaccountofthedesignphilosphyadoptedtomeetthenewconsidera-
+tionsinvolvedintheconstructionofasupersonictransport.Aircr.Eng.Aerosp.Technol.1968,3.[CrossRef]
+25. Williams,C.J.;Starke,E.A.Progressinstructuralmaterialsforaerospacesystems.ACTAMater.2003,51,5775–5799.[CrossRef]
+26. Lukasak,A.Aluminumalloydevelopmenteffortsforcompressiondominatedstructureofaircraft.LightMet.Age1991,49,11–15.
+27. Chen,S.-Y.;Chen,K.-H.;Peng,G.-S.;Liang,X.;Chen,X.-H.Effectofquenchingrateonmicrostructureandstresscorrosion
+crackingof7085aluminumalloy.Trans.NonferrousMet.Soc.China2012,22,47–52.[CrossRef]
+28. Kwak,Z.;Rzadkosz,S.;Garbacz-Klempka,A.;Perek-Nowak,M.;Krok,W.ThePropertiesof7xxxSeriesAlloysFormedby
+AlloyingAdditions.Arch.FoundryEng.2015,15,59–64.[CrossRef]
+29. Ashkenazi,D.Howaluminumchangedtheworld:Ametallurgicalrevolutionthroughtechnologicalandculturalperspectives.
+Technol.Forecast.Soc.Chang.2019,143,101–113.[CrossRef]
+30. Dixit,M.;Mishra,R.S.Structure-PropertyCorrelationsinAl7050and7055High-StrengthaluminumAlloys.Mater.Sci.Eng.A
+2008,2007,163–172.[CrossRef]
+31. Pereira,O.;Català,P.;Rodríguez,A.;Ostra,T.;Vivancos,J.;Rivero,A.;López-De-Lacalle,L.TheUseofHybridCO2+MQLin
+MachiningOperations.ProcediaEng.2015,132,492–499.[CrossRef]
+32. Rodríguez,A.;Calleja,A.;DeLacalle,L.N.L.;Pereira,O.;González,H.;Urbikain,G.;Laye,J.BurnishingofFSWAluminum
+Al–Cu–LiComponents.Metals2019,9,260.[CrossRef]
+33. Marlaud, T.; Malki, B.; Hénon, C.; Deschamps, A.; Baroux, B.Relationshipbetweenalloycomposition, microstructureand
+exfoliationcorrosioninAl–Zn–Mg–Cualloys.Corros.Sci.2011,53,3139–3149.[CrossRef]
+34. Rometsch, P.A.; Zhang, Y.; Knight, S. Heat treatment of 7xxx series aluminium alloys—Some recent developments. Trans.
+NonferrousMet.Soc.China2014,24,2003–2017.[CrossRef]
+35. Starke,E.A.Applicationofmodernaluminumalloystoaircraft.Prog.Aerosp.Sci.1996,32.[CrossRef]
+36. Wang,Y.;Cao,L.;Wu,X.;Tong,X.;Liao,B.;Huang,G.;Wang,Z.Effectofretrogressiontreatmentsonmicrostructure,hardness
+andcorrosionbehaviorsofaluminumalloy7085.J.Alloy.Compd.2020,814,152264.[CrossRef]
+37. Jeshvaghani,R.A.;Zohdi,H.;Shahverdi,H.;Bozorg,M.;Hadavi,S.Influenceofmulti-stepheattreatmentsincreepageformingof
+7075aluminumalloy:Optimizationforspringback,strengthandexfoliationcorrosion.Mater.Charact.2012,73,8–15.[CrossRef]
+38. Huda,Z.;Edi,P.Materialsselectionindesignofstructuresandenginesofsupersonicaircrafts:Areview.Mater.Des.2013,46,
+552–560.[CrossRef]
+39. Dababneh,O.;Kipouros,T.Areviewofaircraftwingmassestimationmethods.Aerosp.Sci.Technol.2018,72,256–266.[CrossRef]
+40. Heinz, A.; Keidel, C.Recentdevelopmentinaluminiumalloysforaerospaceapplications. Mater. Sci. Eng. A2000, 280, 5.
+[CrossRef]
+41. Chen,S.-Y.;Chen,K.-H.;Dong,P.-X.;Ye,S.-P.;Huang,L.-P.Effectofheattreatmentonstresscorrosioncracking,fracturetoughness
+andstrengthof7085aluminumalloy.Trans.NonferrousMet.Soc.China2014,24,2320–2325.[CrossRef]
+42. Azarniya, A.; Taheri, A.K.; Taheri, K.K.Recentadvancesinageingof7xxxseriesaluminumalloys: Aphysicalmetallurgy
+perspective.J.Alloy.Compd.2019,781,945–983.[CrossRef]
+43. Lacalle, L.; Val, A.; Penalva, M.; Veiga, F.; Suárez, A. Evaluation on advantages of low frequency assisted drilling (LFAD)
+aluminiumalloyAl7075.Int.J.Mechatron.Manuf.Syst.2020,13,230.
+44. Denkena,B.;Boehnke,D.;Dege,J.HelicalmillingofCFRP–titaniumlayercompounds.CIRPJ.Manuf.Sci.Technol.2008,1,64–69.
+[CrossRef]
+45. Zitoune,R.;Krishnaraj,V.;Collombet,F.Studyofdrillingofcompositematerialandaluminiumstack.Compos.Struct.2010,92,
+1246–1255.[CrossRef]
+46. Wang,X.;Kwon,P.Y.;Sturtevant,C.;Kim,D.;Dae,W.;Lantrip,J.Comparativetoolwearstudybasedondrillingexperimentson
+CFRp/Tistackanditsindividuallayers.Wear2014,317,265–276.[CrossRef]
+47. Brehl,D.;Dow,T.Reviewofvibration-assistedmachining.Precis.Eng.2008,32,153–172.[CrossRef]
+48. Egea,A.S.;Rodríguez,A.;Celentano,D.;Calleja,A.;DeLacalle,L.L.JoiningmetricsenhancementwhencombiningFSWand
+ball-burnishingina2050aluminiumalloy.Surf.Coat.Technol.2019,367,327–335.[CrossRef]
+49. Herranz,S.;Campa,F.J.;DeLacalle,L.N.L.;Rivero,A.;Lamikiz,A.;Ukar,E.A.;Sánchez,J.;Bravo,U.Themillingofairframe
+componentswithlowrigidity:Ageneralapproachtoavoidstaticanddynamicproblems.Proc.Inst.Mech.Eng.Part.BJ.Eng.
+Manuf.2005,219,789–801.[CrossRef]
+50. Tlusty,J.;Smith,S.;Winfough,W.TechniquesfortheUseofLongSlenderEndMillsinHigh-speedMilling.CIRPAnn.1996,45,
+393–396.[CrossRef]
+51. Ratchev,S.;Liu,S.;Huang,W.;Becker,A.A.Aflexibleforcemodelforendmillingoflow-rigidityparts.J.Mater.Process.Technol.
+2004,153–154,134–138.[CrossRef]
+52. Rai,J.K.;Xirouchakis,P.Finiteelementmethodbasedmachiningsimulationenvironmentforanalyzingparterrorsinduced
+duringmillingofthin-walledcomponents.Int.J.Mach.ToolsManuf.2008,48,629–643.[CrossRef]
+53. Lazoglu,I.;Mamedov,A.Deformationofthinpartsinmicromilling.CIRPAnn.2016,65,117–120.[CrossRef]
+54. Li,B.;Gao,H.;Deng,H.;Pan,H.;Wang,B.Investigationontheinfluenceoftheequivalentbendingstiffnessofthethin-walled
+partsonthemachiningdeformation.Int.J.Adv.Manuf.Technol.2018,101,1171–1182.[CrossRef]
+55. Najmon,J.C.;Raeisi,S.;Tovar,A.Reviewofadditivemanufacturingtechnologiesandapplicationsintheaerospacein-dustry-
+ScienceDirect.Addit.Manuf.Aerosp.Ind.2019,9,7–31.Metals2021,11,718 27of29
+56. Kim,S.;Moon,S.K.APartConsolidationDesignMethodforAdditiveManufacturingbasedonProductDisassemblyComplexity.
+Appl.Sci.2020,10,1100.[CrossRef]
+57. Altıparmak,S.C.;Yardley,V.A.;Shi,Z.;Lin,J.Challengesinadditivemanufacturingofhigh-strengthaluminiumalloysand
+currentdevelopmentsinhybridadditivemanufacturing.Int.J.Light.Mater.Manuf.2021,4,246–261.[CrossRef]
+58. Olakanmi,E.;Cochrane,R.;Dalgarno,K.Areviewonselectivelasersintering/melting(SLS/SLM)ofaluminiumalloypowders:
+Processing,microstructure,andproperties.Prog.Mater.Sci.2015,74,401–477.[CrossRef]
+59. Bartkowiak, K.; Ullrich, S.; Frick, T.; Schmidt, M.NewDevelopmentsofLaserProcessingAluminiumAlloysviaAdditive
+ManufacturingTechnique.Phys.Procedia2011,12,393–401.[CrossRef]
+60. Kaufmann,N.;Imran,M.;Wischeropp,T.;Emmelmann,C.;Siddique,S.;Walther,F.InfluenceofProcessParametersonthe
+QualityofAluminiumAlloyENAW7075UsingSelectiveLaserMelting(SLM).Phys.Procedia2016,83,918–926.[CrossRef]
+61. Montero-Sistiaga,M.L.;Mertens,R.;Vrancken,B.;Wang,X.;VanHooreweder,B.;Kruth,J.-P.;VanHumbeeck,J.Changingthe
+alloycompositionofAl7075forbetterprocessabilitybyselectivelasermelting. J.Mater. Process. Technol. 2016,238,437–445.
+[CrossRef]
+62. Singh,A.;Ramakrishnan,A.;Baker,D.;Biswas,A.;Dinda,G.LasermetaldepositionofnickelcoatedAl7050alloy. J.Alloy.
+Compd.2017,719,151–158.[CrossRef]
+63. Martin,J.H.;Yahata,B.D.;Hundley,J.M.;Mayer,J.A.;Schaedler,T.A.;Pollock,T.M.3Dprintingofhigh-strengthaluminium
+alloys.Nat.CellBiol.2017,549,365–369.[CrossRef]
+64. Chemin,A.;Marques,D.;Bisanha,L.;Motheo,A.D.J.;Filho,W.W.B.;Ruchert,C.O.F.InfluenceofAl7Cu2Feintermetallicparticles
+onthelocalizedcorrosionofhighstrengthaluminumalloys.Mater.Des.2014,53,118–123.[CrossRef]
+65. Rao,A.U.;Vasu,V.;Govindaraju,M.;Srinadh,K.S.Stresscorrosioncrackingbehaviourof7xxxaluminumalloys:Aliterature
+review.Trans.NonferrousMet.Soc.China2016,26,1447–1471.[CrossRef]
+66. Bendo,A.;Matsuda,K.;Lee,S.;Nishimura,K.;Toda,H.;Shimizu,K.;Tsuru,T.;Yamaguchi,M.Microstructureevolutionina
+hydrogenchargedandagedAl–Zn–Mgalloy.Materials2018,3,50–56.[CrossRef]
+67. Krishnan,M.A.;Raja,V.DevelopmentofhighstrengthAA7010aluminumalloyresistanttoenvironmentallyassistedcracking.
+Corros.Sci.2016,109,94–100.[CrossRef]
+68. Knight,S.;Pohl,K.;Holroyd,N.;Birbilis,N.;Rometsch,P.;Muddle,B.;Goswami,R.;Lynch,S.Someeffectsofalloycomposition
+onstresscorrosioncrackinginAl–Zn–Mg–Cualloys.Corros.Sci.2015,98,50–62.[CrossRef]
+69. Fleck, R.N.; Hanson, D.N.; Tobias, C.W. Numerical Evaluation of Current Distribution in Electrica Systems. Ph.D. Thesis,
+UniversityofCalifornia,Berkeley,CA,USA,September1964.[CrossRef]
+70. Klingert, J.; Lynn, S.; Tobias, C. Evaluation of current distribution in electrode systems by high-speed digital computers.
+Electrochim.ACTA1964,9,297–311.[CrossRef]
+71. Alkire,R.;Bergh,T.;Sani,R.L.PredictingElectrodeShapeChangewithUseofFiniteElementMethods.J.Electrochem.Soc.1978,
+125,1981–1988.[CrossRef]
+72. Helle,H.P.E.;Beek,G.H.M.;Ligtelijn,J.T.NumericalDeterminationofPotentialDistributionsandCurrentDensitiesinMulti-
+ElectrodeSystems.Corrosion1981,37,522–530.[CrossRef]
+73. Zamani,N.G.BoundaryElementSimulationoftheCathodicProtectionSysteminaPrototypeShip.Appl.Math.Comput.1988,26,
+119–134.[CrossRef]
+74. Wang,K.;Wang,Y.;Yue,X.;Cai,W.MultiphysicsModelingandUncertaintyQuantificationofTribocorrosioninAluminum
+Alloys.Corros.Sci.2020,178,109095.[CrossRef]
+75. Xing,Y.;Song,L.;He,X.;Qiu,C.Ageneralizedfinitedifferencemethodforsolvingellipticinterfaceproblems.Math.Comput.
+Simul.2020,178,109–124.[CrossRef]
+76. Li,G.;Cui,S.GrainmodelingandfiniteelementsimulationofdamageevolutionforAA5182-Oaluminumalloysheet.J.Mater.
+Res.Technol.2020,9,10559–10575.[CrossRef]
+77. Ghafouri,T.;Bafghi,Z.G.;Nouri,N.;Manavizadeh,N.NumericalsolutionoftheSchrödingerequationinnanoscaleside-contacted
+FEDapplyingthefinite-differencemethod.ResultsPhys.2020,19,103502.[CrossRef]
+78. Fan,R.-J.;Attarilar,S.;Shamsborhan,M.;Ebrahimi,M.;Göde,C.;Özkavak,H.V.Enhancingmechanicalpropertiesandcorrosion
+performanceofAA6063aluminumalloysthroughconstrainedgroovepressingtechnique.Trans.NonferrousMet.Soc.China2020,
+30,1790–1802.[CrossRef]
+79. Kuwazuru,O.;Ode,K.;Yamada,M.;Kassab,A.J.;Divo,E.Experimentalandboundaryelementmethodstudyontheeffectof
+stressonthepolarizationcurveofcastaluminumalloyinsodiumchloridesolution.Corros.Sci.2018,132,136–145.[CrossRef]
+80. Liu,S.;Li,C.;Han,S.;Deng,Y.;Zhang,X.Effectofnaturalagingonquench-inducedinhomogeneityofmicrostructureand
+hardnessinhighstrength7055aluminumalloy.J.Alloy.Compd.2015,625,34–43.[CrossRef]
+81. Mandel,M.;Krüger,L.DeterminationofpittingsensitivityofthealuminiumalloyENAW-6060-T6inacarbon-fibrereinforced
+plastic/aluminiumrivetjointbyfiniteelementsimulationofthegalvaniccorrosionprocess. Corros. Sci. 2013, 73, 172–180.
+[CrossRef]
+82. Xiao,J.;Chaudhuri,S.Predictivemodelingoflocalizedcorrosion:Anapplicationtoaluminumalloys.Electrochim.ACTA2011,56,
+5630–5641.[CrossRef]
+83. Varela,F.;Kurata,Y.;Sanada,N.Theinfluenceoftemperatureonthegalvaniccorrosionofacastiron-stainlesssteelcouple
+(predictionbyboundaryelementmethod).Corros.Sci.1997,39,775–788.[CrossRef]Metals2021,11,718 28of29
+84. Aoki,S.;Kishimoto,K.Predictionofgalvaniccorrosionratesbytheboundaryelementmethod.Math.Comput.Model.1991,15,
+11–22.[CrossRef]
+85. Strommen,R.K.;Finnegan,J.AdvancesinOffshoreCathodicProtectionModelingUsingtheBoundaryElementMethod.Mater
+Perform.1987,26.[CrossRef]
+86. Iwata, M.N.K. Numerical Analysis of Potential Distribution in Structures under Cathodic Protection: Application of
+Two-dimentionalBoundaryElementMethod.Ph.D.Thesis,UniversitéPanthéon-Sorbonne-Paris,Paris,France,November1988.
+87. Peratta,A.H.T.;Adey,R.GalvanicCorrosionModellingforAircraftEnvironments.Proc.Eur.Corros.Congr.2009,1–15.
+88. Shi,Y.;Kelly,R.G.ExperimentalEvaluationandModelingofGalvanicInteractionsbetweenAluminumAlloy7075-T6andNoble
+Materials.ECSTrans.2012,41,155–166.[CrossRef]
+89. Thebault,F.V.B.;Oltra,R.ModelingBimetallicCorrosionunderThinElectrolyteFilmsCorrosion.Science2011,53.[CrossRef]
+90. Mizuno,D.;Shi,Y.;Kelly,R.ModelingofGalvanicInteractionsbetweenAA5083andSteelAtmosphericCondition.InProceedings
+oftheCOMSOLConferenceinBoston,Boston,MA,USA,13October2011.
+91. Cross,S.R.G.S.;Schuh,C.A.ValidatedNumericalModelingofGalvanicCorrosionofZincandAluminumCoatings.Corros.Sci.
+2014,88,349–355.[CrossRef]
+92. Khiran,D.Numericalmodelingofmicro-galvaniccorrosion.Electrochim.ACTA2011,56.[CrossRef]
+93. Suter,T.Y.M.;Schmutz,P.MicroelectrochemicalStudiesofPitInitiationonHighPurityandUltraHighPurityAluminum.Adv.
+Eng.Mater.2005,7.[CrossRef]
+94. Suter,T.Microelectrodesforcorrosionstudiesinmicrosystems.Electrochim.ACTA2001,47,1–392.[CrossRef]
+95. Fushimi,K.;Takabatake,Y.;Nakanishi,T.Microelectrodetechniquesforcorrosionresearchofiron.Electrochim.ACTA2013,113,
+741–747.[CrossRef]
+96. Urbikain, G.; Perez, J.M.; De Lacalle, L.N.L.; Andueza, A. Combination of friction drilling and form tapping processes on
+dissimilarmaterialsformakingnutlessjoints.Proc.Inst.Mech.Eng.Part.BJ.Eng.Manuf.2018,232,1007–1020.[CrossRef]
+97. Polmear,I.J.Atraceelementeffectinalloysbasedonthealuminum-zinc-magnesiumsystem.Nature1960,186.[CrossRef]
+98. Fang,H.C.;Chen,K.H.;Chao,H.CurrentresearchstatusandprespectsofultrastrengthAl-Zn-Mg-Cualuminumalloy(in
+chinese).Mater.Sci.Eng.PowderMetall.2009,14,351–358.
+99. Lan,X.; Li,K.; Wang,F.; Su,Y.; Yang,M.; Liu,S.; Wang,J.; Du,Y.Preparationofmillimeterscalesecondphaseparticlesin
+aluminumalloysanddeterminationoftheirmechanicalproperties.J.Alloy.Compd.2019,784,68–75.[CrossRef]
+100. Shastry,C.;Levy,M.;Joshi,A.Theeffectofsolutiontreatmenttemperatureonstresscorrosionsusceptibilityof7075aluminium
+alloy.Corros.Sci.1981,21,673–688.[CrossRef]
+101. Kang-Hua,C.;Lan-Ping,H.Strengthening-tougheningof7xxxserieshighstrengthaluminumalloysbyheattreatment.Mater.
+Sci.Eng.Int.J.2003,13.[CrossRef]
+102. Godard,P.A.D.Hightemperatureprecipitationkineticsandtttcurveofa7xxxalloybyin-situelectricalresistivitymeasurements
+anddifferentialcalorimetry.Scr.Mater.2000,42,675–680.
+103. Xu, X.; Mao, Q.; Jiang, Z.; Vitus, T.; Zhang, T.; Jia, W.; Zhu, C.; Wang, H. Effect of multi-stage solution and aging process
+onmicrostructureandpropertiesofAl-11.2Zn-3.0Mg-1.3Cu-0.2Zraluminumalloyextrusion. Mater. Lett. 2019,254,375–378.
+[CrossRef]
+104. Rokni,M.;Widener,C.;Champagne,V.;Crawford,G.Microstructureandmechanicalpropertiesofcoldsprayed7075deposition
+duringnon-isothermalannealing.Surf.Coat.Technol.2015,276,305–315.[CrossRef]
+105. Robinson,J.;Cudd,R.;Tanner,D.;Dolan,G.Quenchsensitivityandtensilepropertyinhomogeneityin7010forgings.J.Mater.
+Process.Technol.2001,119,261–267.[CrossRef]
+106. Robinson,J.;Tanner,D.;Truman,C.;Paradowska,A.;Wimpory,R.Theinfluenceofquenchsensitivityonresidualstressesinthe
+aluminiumalloys7010and7075.Mater.Charact.2012,65,73–85.[CrossRef]
+107. Liu,S.;Chen,B.;Li,C.;Dai,Y.;Deng,Y.;Zhang,X.Mechanismoflowexfoliationcorrosionresistanceduetoslowquenchingin
+highstrengthaluminiumalloy.Corros.Sci.2015,91,203–212.[CrossRef]
+108. Liu,S.;Li,C.;Deng,Y.;Zhang,X.Influenceofgrainstructureonquenchsensitivityrelativetolocalizedcorrosionofhighstrength
+aluminumalloy.Mater.Chem.Phys.2015,167,320–329.[CrossRef]
+109. Kang,L.;Zhao,G.;Wang,G.-D.;Liu,K.;Tian,N.Effectofdifferentquenchingprocessesfollowingsolid-solutiontreatmenton
+propertiesandprecipitationbehaviorsof7050alloy.Trans.NonferrousMet.Soc.China2018,28,2162–2172.[CrossRef]
+110. Song,F.X.;Zhang,X.M.;Liu,S.D.;Tan,Q.;Li,D.F.Exfoliationcorrosionbehaviorof7050-T6aluminumalloytreatedwithvarious
+quenchtransfertime.Trans.NonferrousMet.Soc.China2014,24,2258–2265.[CrossRef]
+111. Tang,J.-G.;Chen,H.;Zhang,X.-M.;Liu,S.-D.;Liu,W.-J.;Ouyang,H.;Li,H.-P.Influenceofquench-inducedprecipitationon
+agingbehaviorofAl-Zn-Mg-Cualloy.Trans.NonferrousMet.Soc.China2012,22,1255–1263.[CrossRef]
+112. Dumont,D.;Deschamps,A.;Brechet,Y.Ontherelationshipbetweenmicrostructure,strengthandtoughnessinAA7050aluminum
+alloy.Mater.Sci.Eng.A2003,356,326–336.[CrossRef]
+113. Krasnikov,V.S.; Mayer,A.E.Dislocationdynamicsinaluminumcontainingθ’phase: Atomisticsimulationandcontinuum
+modeling.Int.J.Plast.2019,119,21–42.[CrossRef]
+114. Yuan, D.; Chen, K.; Chen, S.; Zhou, L.; Chang, J.; Huang, L.; Yi, Y. Enhancing stress corrosion cracking resistance of low
+Cu-containingAl-Zn-Mg-Cualloysbyslowquenchrate.Mater.Des.2019,164,107558.[CrossRef]Metals2021,11,718 29of29
+115. Xie,P.;Chen,S.;Chen,K.;Jiao,H.;Huang,L.;Zhang,Z.;Yang,Z.Enhancingthestresscorrosioncrackingresistanceofalow-Cu
+containingAl-Zn-Mg-Cualuminumalloybystep-quenchandagingheattreatment.Corros.Sci.2019,161,108184.[CrossRef]
+116. Österreicher,J.A.;Kirov,G.;Gerstl,S.S.;Mukeli,E.;Grabner,F.;Kumar,M.Stabilizationof7xxxaluminiumalloys.J.Alloy.Compd.
+2018,740,167–173.[CrossRef]
+117. InternationalASMHandbook.InHeatTreating;TheMaterialsInformationCompany:MaterialsPark,OH,USA,1991.
+118. Polmear,I.;StJohn,D.;Nie,J.-F.;Qian,M.2-PhysicalMetallurgyofAluminiumAlloys.InLightAlloys;Butterworth-Heinemann:
+Boston,MA,USA,2017.
+119. Zhang, Y.; Pelliccia, D.; Milkereit, B.; Kirby, N.; Starink, M.J.; Rometsch, P.A.AnalysisofagehardeningprecipitatesofAl-
+Zn-Mg-Cu alloys in a wide range of quenching rates using small angle X-ray scattering. Mater. Des. 2018, 142, 259–267.
+[CrossRef]
+120. Yang,W.;Ji,S.;Zhang,Q.;Wang,M.InvestigationofmechanicalandcorrosionpropertiesofanAl–Zn–Mg–Cualloyunder
+variousageingconditionsandinterfaceanalysisofη(cid:48)precipitate.Mater.Des.2015,85,752–761.[CrossRef]
+121. Shan,D.;Zhen,L.Agingbehaviorandmicrostructureevolutionintheprocessingofaluminumalloys.Microstruct.Evol.Metal
+Form.Process.2012,542,267–297.
+122. Li,M.-H.;Yang,Y.-Q.;Feng,Z.-Q.;Huang,B.;Luo,X.;Lou,J.-H.;Ru,J.-G.Precipitationsequenceofηphasealonglow-angle
+grainboundariesinAl-Zn-Mg-Cualloyduringartificialaging.Trans.NonferrousMet.Soc.China2014,24,2061–2066.[CrossRef]
+123. Panigrahi,S.K.;Jayaganthan,R.DevelopmentofultrafinegrainedhighstrengthagehardenableAl7075alloybycryorolling.
+Mater.Des.2011,32,3150–3160.[CrossRef]
+124. Peng,G.-S.;Chen,K.-H.;Chen,S.-Y.;Fang,H.-C.Influenceofdualretrogressionandre-agingtemperonmicrostructure,strength
+andexfoliationcorrosionbehaviorofAl–Zn–Mg–Cualloy.Trans.NonferrousMet.Soc.China2012,22,803–809.[CrossRef]
+125. Rout, P.K.; Ghosh, M.; Ghosh, K.Microstructural, mechanicalandelectrochemicalbehaviourofa7017Al–Zn–Mgalloyof
+differenttempers.Mater.Charact.2015,104,49–60.[CrossRef]
+126. Peng,X.;Guo,Q.;Liang,X.;Deng,Y.;Gu,Y.;Xu,G.;Yin,Z.Mechanicalproperties,corrosionbehaviorandmicrostructuresofa
+non-isothermalageingtreatedAl-Zn-Mg-Cualloy.Mater.Sci.Eng.A2017,688,146–154.[CrossRef]
+127. Li,Z.;Xiong,B.;Zhang,Y.;Zhu,B.;Wang,F.;Liu,H.Investigationofmicrostructuralevolutionandmechanicalpropertiesduring
+two-stepageingtreatmentat115and160◦CinanAl–Zn–Mg–Cualloypre-stretchedthickplate.Mater.Charact.2008,59,278–282.
+[CrossRef]
+128. Huang,L.;Chen,K.;Li,S.Influenceofgrain-boundarypre-precipitationandcorrosioncharacteristicsofinter-granularphaseson
+corrosionbehaviorsofanAl–Zn–Mg–Cualloy.Mater.Sci.Eng.B2012,177,862–868.[CrossRef]
+129. Cina,B.ReducingtheSusceptibilityofAlloys,ParticularlyAluminiumAlloys,toStressCorrosionCracking.U.S.Patent3856584A,
+24December1974.
+130. Li,G.-F.;Zhang,X.-M.;Li,P.-H.;You,J.-H.Effectsofretrogressionheatingrateonmicrostructuresandmechanicalpropertiesof
+aluminumalloy7050.Trans.NonferrousMet.Soc.China2010,20,935–941.[CrossRef]
+131. Li,J.;Birbilis,N.;Li,C.;Jia,Z.;Cai,B.;Zheng,Z.Influenceofretrogressiontemperatureandtimeonthemechanicalproperties
+andexfoliationcorrosionbehaviorofaluminiumalloyAA7150.Mater.Charact.2009,60,1334–1341.[CrossRef]
+132. Krishnanunni,S.;Gupta,R.;Ajithkumar,G.;Kumar,V.A.;Ghosh,R.InvestigationonEffectofOptimizedRRAinStrengthandSCC
+ResistanceforAluminiumAlloyAA7010;ElsevierBV:Amsterdam,TheNetherlands,2020;pp.2385–2389.
+133. Feng,D.;Zhang,X.;Liu,S.;Wang,T.;Wu,Z.;Guo,Y.Theeffectofpre-ageingtemperatureandretrogressionheatingrateonthe
+microstructureandpropertiesofAA7055.Mater.Sci.Eng.A2013,588,34–42.[CrossRef]
+134. Liu,L.;Pan,Q.;Wang,X.;Xiong,S.Theeffectsofagingtreatmentsonmechanicalpropertyandcorrosionbehaviorofspray
+formed7055aluminiumalloy.J.Alloy.Compd.2018,735,261–276.[CrossRef]
+135. Peng,G.;Chen,K.;Chen,S.;Fang,H.Influenceofrepetitious-RRAtreatmentonthestrengthandSCCresistanceofAl–Zn–Mg–Cu
+alloy.Mater.Sci.Eng.A2011,528,4014–4018.[CrossRef]
+136. Ozer,G.;Karaaslan,A.PropertiesofAA7075aluminumalloyinagingandretrogressionandreagingprocess.Trans.Nonferrous
+Met.Soc.China2017,27,2357–2362.[CrossRef]
+137. Xu,D.;Birbilis,N.;Rometsch,P.Theeffectofpre-ageingtemperatureandretrogressionheatingrateonthestrengthandcorrosion
+behaviourofAA7150.Corros.Sci.2012,54,17–25.[CrossRef]
+138. Lin,J.-C.;Liao,H.-L.;Jehng,W.-D.;Chang,C.-H.;Lee,S.-L.EffectofheattreatmentsonthetensilestrengthandSCC-resistanceof
+AA7050inanalkalinesalinesolution.Corros.Sci.2006,48,3139–3156.[CrossRef]

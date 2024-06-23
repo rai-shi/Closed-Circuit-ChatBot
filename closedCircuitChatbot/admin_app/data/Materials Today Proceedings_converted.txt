@@ -1,0 +1,297 @@
+MaterialsToday:Proceedingsxxx(xxxx)xxx
+Contents lists available at ScienceDirect
+Materials Today: Proceedings
+journal homepage: www.elsevier.com/locate/matpr
+A critical review of recent advances in the aerospace materials
+Rahul Soni, Rajeev Verma*, Rajiv Kumar Garg, Varun Sharma
+Department of Industrial and Production Engineering, Dr B R Ambedkar National Institute of Technology, Jalandhar 144027, India
+A R T I C L E I N F O A B S T R A C T
+Keywords: The pursuit for improved performance in the aerospace and aviation industries has inspired the development,
+Aerospace investigation, and research of advanced materials. Since the last few years, a lot of research on different alloys,
+Aluminium alloys composites and some other advanced materials has been performed to perfectly meet the needs of the aerospace
+Titanium alloys
+field such as basic frames of aircraft, fuselages, engine parts, wings etc. Various aluminium, magnesium, tita-
+Application
+nium, and nickel-based alloys have been developed with certain advantages like strength-to-weight ratio,
+corrosion resistance, wear resistance etc. However, there are major challenges to aerospace materials such as
+insufficient mechanical and chemical properties, overall weight of aircraft, fretting wear, stress corrosion
+cracking, incapability at high temperatures, and low oxidation resistance. Therefore, vast studies have been
+conducted for the development of next-generation aerospace materials. In the present article, attention has been
+made to study the contemporary materials, current research going on and future trends on advanced materials in
+the field of aerospace engineering. Aluminium-based alloys are found as the most widely used metal alloys in the
+aerospace sector for their strong mechanical properties. However, polymer matrix composites and metal matrix
+composites have gained popularity due to their exceptional strength and stiffness. Titanium-based alloys are
+favoured for their strength and corrosion resistance, leading to increased adoption.
+1. Introduction Aluminium alloys have been successfully used for over 80 years as the
+principal material for the structural components of aeroplanes [4]. Due
+In this article, aerospace materials are the structural components to their exemplary qualities (i.e., admirable strength with reduced
+used to support the loads applied to the aircraft while it is in flight weight, high corrosion resistance, and decent machinability) as well as
+operation. Structural materials are used as safety–critical airframe their benefits in terms of cost compared to steel and titanium alloys,
+components in the wings, fuselage, empennage, landing gear, tail boom, aluminium alloys are frequently used for the fabrication of structural
+and rotor blades of helicopters, as well as the airframe, skins, and elements used in the defence, automotive, and aerospace sectors [5].
+thermal insulation tiles of spaceships like the space shuttle [1]. The Advanced aluminium alloys for aerospace applications have been
+momentum for the development of aviation materials has accelerated required to allow for high fracture toughness, higher fatigue perfor-
+due to the way the aerospace industry is expanding. The primary mance, high formability, and superplasticity to meet the demands for
+motivating factor is cost reduction via lighter construction and longer- reduced structural weight, more damage tolerance, and more durability
+lasting aircraft parts/structures. Improved mechanical qualities in the [6]. Due to its exceptional blend of strength and lightweight, titanium
+materials used to make lightweight aircraft frames and engines can appeals to aircraft designers. Due to its low machinability, it causes
+enhance payload, extend flight range, and improve fuel efficiency i.e., significant issues in manufacturing [7]. The aerospace material titanium
+all of which immediately lower aircraft operating costs [2]. A wooden alloys must be viewed as being far more modern and superior to steel or
+airframe was used on the first day of flight in 1903, marking the aluminium alloys. In the USA, At the end of the 1940 s, the first alloys
+beginning of the development of aeroplane materials. Through the were developed. Among the available alloys, Ti-6Al-4V still dominates
+advancement of cladding and anodizing processes after 1927, the present aerospace industry in terms of applications [8]. In recent
+aluminium-based alloys took the lead in aircraft materials [3]. decades, the fabrication of titanium alloys with high strength has
+Abbreviations: CFRP, Carbon fibre-reinforced polymer; CNT, Carbon nanotube; HCP, Hexagonal close packing; BCC, Body-centred cubic; UTS, Ultimate tensile
+strength; YS, Yield strength; CMC, Ceramic matrix composite; MMC, Metal matrix composite; PMC, Polymer matrix composite; GNP, Graphene nanoplatelets.
+* Corresponding author.
+E-mail address: vermar@nitj.ac.in (R. Verma).
+https://doi.org/10.1016/j.matpr.2023.08.108
+Received 28 May 2023; Received in revised form 9 August 2023; Accepted 11 August 2023
+2214-7853/Copyright©2023ElsevierLtd. Allrightsreserved. Selectionandpeer-reviewunderresponsibilityofthescientificcommitteeofthe7thInternational
+ConferenceonProductionandIndustrialEngineering.
+Pleasecitethisarticleas: RahulSonietal.,MaterialsToday: Proceedings,https://doi.org/10.1016/j.matpr.2023.08.108R. Soni et al. M a t e r i a l s T o d a y : P r o c e e dingsxxx(xxxx)xxx
+received a great deal of attention from the titanium community, and damage tolerance for long-term use in environments with high levels of
+both theoretical research and technological exploration have produced moisture, ultraviolet light, and extreme temperatures (-30 ◦C to 370 ◦C)
+several promising results [9]. In recent years, CFRP composites i.e., [14].
+carbon fiber-reinforced polymer composites have taken centre stage in
+the manufacturing of aerospace and energy storage equipment due to 2.2. Design requirements for engine and engine parts
+their benefits of being extremely strong, lighter in weight, and resistant
+to corrosion [10]. By merging the winding technique with ultrasonic The material for the aircraft engine and its parts is designed in such a
+tow-spreading technology, carbon fibre-reinforced epoxy composites way that it has low density and sufficient strength to sustain mechanical
+with various CNT content were created. A particular CNT content was and thermal loadings. Operating temperature in different sections of an
+discovered to improve the mechanical properties of the epoxy resin aircraft engine ranges between 300 ◦C and 600 ◦C. Due to these high
+matrix significantly, resulting in structural–functional integrated ultra- operating temperatures and high engine speed, a maximum tangential
+thin CFRP composites, which have applications in energy storage and stress of approximately 600 MPa is induced on the rotor [15].
+aerospace [11]. (See Figs. 1 and 2 Table 1).
+The purpose of the presented article is to study the recent in-
+3. Modern progress in aerospace materials
+vestigations conducted on aerospace materials and contemporary
+research going on in view to enhance the properties of materials to have
+Alloys based on aluminium from the 2000 and 7000 series as well as
+better durability and economy. The article includes cost and weight
+Al-Li alloys are the main topics of recent studies. Even while composites
+consideration for material selection, criteria for selection of materials for
+appear to substantially replace aluminium-based materials, they still
+fuselages and wings, engine and its parts followed by modern progress in
+have several benefits, including low cost, simple manufacturing, lighter
+aerospace materials. This article also exhibits the timeline of the aero-
+weight, and high resistance to sustain with mechanical and thermal
+space industry shift from one to another advanced materials. In the last
+loadings.
+section of this article, the future scope of the article has been presented.
+Al-based alloys from the 2000 series are typically alloyed with cop-
+per. They are being extensively researched as materials for aeroplane
+2. Materials selection criteria in designing the aircraft fuselages since they outperform every other series of Al-based alloys in
+terms of damage tolerance and fatigue resistance [4]. However, due to
+Depending on the specific component under consideration, different their relative weakness, they cannot be used in areas with significant
+aircraft materials have different material property requirements. The levels of stress.
+requirements of design for each component, such as the conditions of The appropriate fusion of these materials with Sn, In, Cd, and Ag can
+loading, ability to be manufactured, geometrical restrictions, surface result in materials with higher mechanical characteristics due to the
+finish, ecological considerations, and ability to be maintained, influence improvement in microstructure and grain size [17]. Reducing the
+the material selection for an aeroplane [13]. number of contaminants like Fe and Si can also improve the mechanical
+qualities.
+2.1. Design criteria for fuselages and wings Al-based alloys from the 7000 range are typically alloyed with zinc.
+Of all the elements, Zn has the maximum solubility in aluminium (31.6%
+The aircraft’s components are made of materials that are intended to weight). Al-Zn-based alloys are employed in the skin of the upper wing,
+last a long time (around 60,000 working hours). Strength and material longerons, and vertical fins because they have the maximum strength
+weight are two important considerations when constructing wings and when compared to other Al-based alloys [4]. Unfortunately, the corro-
+fuselages. For this concept to work, the materials used in the airframe sion resistance, fracture toughness, and damage tolerance of these alloys
+must have lower densities for weight reduction and suitable mechanical are subpar.
+qualities for the application. Additionally, materials must have adequate Their optimal fusion with elements such as Zn or Mn can result in
+Fig. 1. Schematic view of cost weight considerations for material selection [12].
+2R. Soni et al. M a t e r i a l s T o d a y : P r o c e e dingsxxx(xxxx)xxx
+Fig. 2. Timeline in history demonstrating the introduction of important materials selection factors into aeroplane design [1].
+Because of their excellent strength concerning weight, improved
+Table 1
+resistance to corrosion, and effective performance at elevated temper-
+Different materials used in aerospace application [2].
+atures, titanium-based alloys have gradually seen a surge in usage in
+S. Material Application recent years. They serve as components for engine compressors, heli-
+No. copter rotor systems, and aircraft springs. α, β and α-β titanium alloys are
+1 Aluminium Aluminium-Copper Aircraft fuselages the three categories of Ti-based alloys.
+based alloys based alloys α-titanium alloys have a crystal structure known as HCP. In com-
+Aluminium-Zinc Upper-wing skin, stringers, and parison to β-titanium alloys, α-titanium alloys are less dense, exhibit
+based alloys stabilizers
+Aluminium-Lithium Fuselage skin and upper wing higher creep resistance, and exhibit better corrosion resistance. α-tita-
+based alloys skin nium alloys, such as commercially pure Ti and Ti-3Al-2.5V, are therefore
+2 Magnesium based alloys Gearbox transmissions in the utilized in the blades of the compressor of an aeroplane engine. How-
+Helicopter industry
+ever, at high temperatures, their usefulness is severely constrained. Al is
+3 Titanium-based Alpha-Titanium Disc blades of the compressor
+frequently employed to enhance their performance at high temperatures
+alloys alloys
+Beta-Titanium alloys The landing gearbox of aircraft [22].
+and aircraft spring applications β-titanium alloys have a crystal structure called a BCC. They are
+4 Composite Ceramic matrix Exhaust nozzles, aircraft brakes simpler to produce and their tensile and fatigue strength are greater in
+Materials composite materials comparison to α-titanium alloys. β-stabilizers such as vanadium, mo-
+Metal matrix Fuselage skins and wide-body
+composite Materials wings lybdenum, niobium, and chromium can lessen the beta-titanium atomic
+Polymer Matrix Fuselages, ailerons, flaps, and cluster’s binding energy, resulting in stronger bonding between Ti and
+Composites landing-gear doors the alloying atoms and boosting the alloy’s strength. A good example is
+5 Steels Gears, bearings, carriages & the β-titanium alloy Ti-3Al-8V-6Cr-4Mo-4Zr, which is employed in high-
+fasteners
+stress areas of aircraft like landing gears and springs and has a UTS of
+6 Nickel-based superalloys Combustor and turbine section
+1240 MPa [23].
+α-β titanium alloys combine the qualities of α-titanium and β-tita-
+improved mechanical characteristics. For instance, adding Mn to 7000 nium alloys, and they have exceptional strength, improved fracture
+series alloys at 1% weight can increase their fracture toughness by toughness, good ductility, and better corrosion resistance. They account
+roughly 100%. Better mechanical qualities are also offered by reducing for 70% of the titanium market in the United States and are the most
+impurities like Fe and Si [18]. utilized Ti-based alloys. Ti-6Al-4V and other α-β alloys are employed in
+The lightest weight among all Al-based alloys are Al-Li-based alloys the fuselage, landing gear, floor support structures, nacelles, and
+and, in comparison to alloys from the 2000 and 7000 series, they have a compressor discs, among other applications [24].
+lower density and good mechanical characteristics. Al-Li-based alloys Any substance created from two or more constituent materials is
+can save weight by about 10% when used in place of the 2000 and 7000 referred to as a composite material. These constituent materials are
+series alloys on the fuselage and upper wings, respectively [4]. combined to produce a material with characteristics that are distinct
+The problem of anisotropy, or the fluctuation of characteristics in from the constituent parts despite having chemical or physical qualities
+different directions, can occur with Li-Al alloys. Additionally, they have that are noticeably different. According to Fig. 3, Airbus A380 uses more
+weak corrosion resistance and low hardness [19]. than 25% and Boeing 787 uses more than 50% share of composite ma-
+In addressing these inadequacies of recent studies magnesium (Mg) terials in its construction, the utilization of these materials in the aircraft
+is the lightest structural metal. Its use in the aerospace industry is very industry is expanding. Since composite materials are less dense than
+restricted although it can lower the structure’s weight by 33% and 77%, most metals, they have an enhanced strength-to-weight ratio and better
+respectively in comparison to aluminium and steel of the same volume, resistance to corrosion and fatigue.
+[20]. This is because of its inadequate mechanical characteristics and CMCs are composed of ceramic fibres and a ceramic matrix. Even at
+poor corrosion resistance. The mechanical qualities of alloys based on 1400 ◦C, CMCs maintain good high-temperature stability. They also
+magnesium can be enhanced by adding the right amount of aluminium, have excellent hardness and robust corrosion resistance. Examples
+zinc, zirconium, or rare earth metals like yttrium. Corrosion resistance include silicon nitride (Si3N4), silicon carbide (SiC), and alumina. They
+will be improved using Al. Additionally, the strength and ductility of the are thus commonly used in hotspots like exhaust nozzles [25].
+Mg-Al alloy are improved by adding zinc up to a critical level (5% wt). CMCs, however, have weak fracture toughness. Current research has
+Mixing Mg-Zn with Zr or Y greatly increases the strength in the absence concentrated on using GNPs and CNTs to increase the fracture toughness
+of Al. For instance, the Mg97Zn1Y2 alloy, which is based on magnesium, of CMCs. According to scientific tests, adding 1.5 vol% of graphene can
+has the maximum strength (Yield Strength =610 MPa) [21]. raise the fracture toughness of Si3N4 by 235% [26].
+3R. Soni et al. M a t e r i a l s T o d a y : P r o c e e dingsxxx(xxxx)xxx
+Fig. 3. Material used in Boing 787 [16].
+In MMCs, reinforcing elements are spread throughout a metal matrix. based alloys due to their low ductility and abundance are attractive
+MMCs have improved wear resistance, lower thermal expansion, higher candidates for various applications but their use by top aircraft manu-
+yield strength, and fracture toughness. As a matrix, metals such as facturers is very limited due to their poor corrosion resistance. Ti-based
+aluminium, magnesium, titanium, copper, and nickel are employed. alloys are acknowledged for their high specific strength and corrosion
+Glass and carbon fibres are two types of regularly utilized reinforcement resistance. That is why their use has been increased in recent years but
+materials. However, these fibres have already provided everything they the α-phase of these alloys greatly limits its capability at higher tem-
+are capable of. To achieve better mechanical qualities, novel materials peratures. The metal alloys, super alloys, and composites available in the
+including CNTs and graphene nanosheets are under research. The previous literature have majorly better qualities but lag in some other
+regulated inclusion of CNTs has been reported to enhance the mechan- required qualities. Therefore, further investigations and research are
+ical characteristics (such as UTS, YS and hardness) of aluminium, required to be conducted to enhance the properties of materials to a
+magnesium, titanium, copper, and nickel matrix composites [27]. greater extent.
+PMCs are the type of composite materials made up of several short or
+continuous fibres joined by an organic polymer matrix. Commonly used 4. Conclusion & future trends
+fibres include aramid, graphite, and fibreglass. PMCs are divided into
+two categories: thermoset (which cannot be heat remoulded) and ther- The aircraft sector has undoubtedly advanced significantly over the
+moplastic, depending on the properties of the polymer matrix (which past century, and a large portion of this development can be attributed
+can be heat remoulded). Epoxy, polyurethane, polyamide, and other to the advancement and innovation of structural and engine materials.
+thermoset matrices are frequently used to create PMCs for the aerospace The foundation of the present aerospace engineering is high-
+sector, which are employed in ailerons (hinged flight control surface), performance alloys based on aluminium, magnesium, titanium, and
+flaps (ahigh lift deviceconsisting of a hinged panel or panels mounted nickel, along with composite materials. They still deal with several
+on the trailing edge of the wing), and landing gear doors [28]. problems, such as corrosion, stress corrosion cracking, fretting wear, etc.
+The greater specific strengths and specific modulus of PMCs are well Therefore, to increase the safety, effectiveness, and affordability of air
+recognized. For instance, the density of carbon fibre-reinforced alloys in travel, substantial focus should be given to research of new aerospace
+an epoxy matrix binder is half that of alloys based on aluminium, while materials of the next generation with higher mechanical qualities and
+their modulus of elasticity and tensile strength are two and three times better corrosion resistance. In the future, for airframe structures, the
+more than that of alloys based on aluminium, respectively. However, development of new aerospace alloys and composites of high specific
+since they are fragile, carbon fibres are vulnerable to stress concentra- mechanical properties with refined microstructure and thermo-
+tion. So, currently, basalt, carbon nanotubes, graphene, and natural fi- mechanical processing is a major concern. However, for the engine
+bres are being studied as reinforcing elements for polymer matrices and its parts, improvement of high-temperature resistance, high-
+[29]. temperature oxidation resistance and higher fracture toughness is a
+Low specific strength and resistance to corrosion of steel have dras- primary concern.
+tically reduced their utilization in the aircraft sector in recent years. Due
+to its higher density, mild steel has a comparatively high UTS (840 MPa), CRediT authorship contribution statement
+but its unique features make it unsuitable for use in aircraft. However, it
+continues to be a crucial component of fasteners, carriages, and bear- Rahul Soni: . Rajeev Verma: . Rajiv Kumar Garg: Supervision.
+ings. For enhanced particular characteristics and corrosion resistance, Varun Sharma: Supervision, Conceptualization.
+new low alloy steels and nano steels are now being investigated [30].
+Superalloys based on nickel are extremely strong even at high Declaration of Competing Interest
+working temperatures. As a result, they are frequently employed in the
+turbine and combustion chamber of aircraft engines, where the oper- The authors declare that they have no known competing financial
+ating temperatures vary from 1100 to 1250 ◦C [31]. The two most interests or personal relationships that could have appeared to influence
+widely used Ni-based superalloys are Inconel and Nimonic. To increase the work reported in this paper.
+resistance to oxidation of Ni-based superalloys, Al is added [32].
+Literature suggests that due to its well-known mechanical properties, Data availability
+Al-based alloys are the primary material in the aerospace industry but
+the use of PMCs has been amplified in recent years because of their Data will be made available on request.
+excellent specific strength and stiffness. However, the conventional
+PMCs and MMCs are known to suffer stress corrosion cracking. Mg-
+4R. Soni et al. M a t e r i a l s T o d a y : P r o c e e dingsxxx(xxxx)xxx
+References [18] S.W. Nam, D.H. Lee, The effect of Mn on the mechanical behavior of Al alloys, Met.
+Mater. Int. 6 (1) (2000) 13–16, https://doi.org/10.1007/BF03026339.
+[19] S. Kalyanam, A.J. Beaudoin, R.H. Dodds, F. Barlat, Delamination cracking in
+[1] A. P. M. Oxford, Introduction to Aerospace Materials Woodhead Publishing in
+advanced aluminum-lithium alloys - Experimental and computational studies, Eng.
+Materials. 2012.
+[2] X. Zhang, Y. Chen, J. Hu, “Recent advances in the development of aerospace Fract. Mech. 76 (14) (2009) 2174–2191, https://doi.org/10.1016/j.
+materials”, Prog. Aerosp. Sci. 97 (August 2017) (2018) 22–34, https://doi.org/ engfracmech.2009.06.010.
+[20] M. Chandrasekaran, Y.M.S. John, Effect of materials and temperature on the
+10.1016/j.paerosci.2018.01.001.
+forward extrusion of magnesium alloys, Mater. Sci. Eng. A 381 (1–2) (2004)
+[3] E.A. Starke, J.T. Staley, Application of modern aluminum alloys to aircraft, Prog.
+Aerosp. Sci. 32 (2–3) (1996) 131–172, https://doi.org/10.1016/0376-0421(95) 308–319, https://doi.org/10.1016/j.msea.2004.04.057.
+[21] Y. Chen, Z. Xu, C. Smith, J. Sankar, Recent advances on the development of
+00004-6.
+magnesium alloys for biodegradable implants, Acta Biomater. 10 (11) (2014)
+[4] T. Dursun, C. Soutis, Recent developments in advanced aircraft aluminium alloys,
+Mater. Des. 56 (2014) 862–871, https://doi.org/10.1016/j.matdes.2013.12.002. 4561–4573, https://doi.org/10.1016/j.actbio.2014.07.005.
+[5] R. Fu, Y. Guo, Y. Cui, J. Wang, H. Lei, C. Liu, “Large-size ultra-high strength- [22] M. Wollmann, J. Kiese, and L. Wagner, “Properties and applications of titanium
+alloys in transport,” Ti 2011 - Proc. 12th World Conf. Titan., vol. 2, no. December,
+plasticity aluminum alloys fabricated by wire arc additive manufacturing via added
+nanoparticles”, Mater. Sci. Eng. A 864 (October 2022) (2023) 144582, https://doi. pp. 837–844, 2012.
+[23] R.R. Boyer, R.D. Briggs, The use of β titanium alloys in the aerospace industry,
+org/10.1016/j.msea.2023.144582.
+J. Mater. Eng. Perform. 14 (6) (2005) 681–685, https://doi.org/10.1361/
+[6] M. Nakai, T. Eto, New aspect of development of high strength aluminum alloys for
+aerospace applications, Mater. Sci. Eng. A 285 (1–2) (2000) 62–68, https://doi. 105994905X75448.
+[24] G. Salishchev, S. Zherebtsov, S. Malysheva, A. Smyslov, E. Saphin, and N.
+org/10.1016/S0921-5093(00)00667-5.
+Izmaylova, “Mechanical properties of Ti-6Al-4V titanium alloy with
+[7] F. Nabhani, Machining of aerospace titanium alloys, Robot. Comput.-Integr.
+Manuf. 17 (1–2) (2001) 99–106, https://doi.org/10.1016/S0736-5845(00)00042- submicrocrystalline structure produced by multiaxial forging,” Mater. Sci. Forum,
+vol. 584-586 PART 2, no. 9, pp. 783–788, 2008, doi: 10.4028/www.scientific.net/
+9.
+msf.584-586.783.
+[8] M. Peters, J. Kumpfert, C.H. Ward, C. Leyens, Titanium alloys for aerospace
+applications, Adv. Eng. Mater. 5 (6) (2003) 419–427, https://doi.org/10.1002/ [25] I. Ahmad, B. Yazdani, Y. Zhu, Recent advances on carbon nanotubes and graphene
+reinforced ceramics nanocomposites, Nanomaterials 5 (1) (2014) 90–114, https://
+adem.200310095.
+doi.org/10.3390/nano5010090.
+[9] Q. Zhao, et al., High-strength titanium alloys for aerospace engineering
+[26] L.S. Walker, V.R. Marotto, M.A. Rafiee, N. Koratkar, E.L. Corral, Toughening in
+applications: A review on melting-forging process, Mater. Sci. Eng. A 845 (May)
+graphene ceramic composites, ACS Nano 5 (4) (2011) 3182–3190, https://doi.org/
+(2022), 143260, https://doi.org/10.1016/j.msea.2022.143260.
+10.1021/nn200319d.
+[10] R. Ding, Y. Sun, J. Lee, J. Do Nam, J. Suhr, Enhancing interfacial properties of
+[27] S.C. Tjong, Recent progress in the development and properties of novel metal
+carbon fiber reinforced epoxy composites by grafting MXene sheets (Ti2C),
+matrix nanocomposites reinforced with carbon nanotubes and graphene
+Compos. B Eng. 207 (2021), https://doi.org/10.1016/j.compositesb.2020.108580.
+nanosheets, Mater. Sci. Eng. R Reports 74 (10) (2013) 281–350, https://doi.org/
+[11] C. Zhang, Y. Ling, X. Zhang, M. Liang, H. Zou, Ultra-thin carbon fiber reinforced
+10.1016/j.mser.2013.08.001.
+carbon nanotubes modified epoxy composites with superior mechanical and
+[28] S. Pimenta, S.T. Pinho, Recycling carbon fibre reinforced polymers for structural
+electrical properties for the aerospace field, Compos. A Appl. Sci. Manuf. 163
+applications: Technology review and market outlook, Waste Manag. 31 (2) (2011)
+(August) (2022), 107197, https://doi.org/10.1016/j.compositesa.2022.107197.
+378–392, https://doi.org/10.1016/j.wasman.2010.09.019.
+[12] A.S. Warren, Developments and challenges for aluminum - A boeing perspective,
+Mater. Forum 28 (2004) 24–31. [29] N. Saba, M. Jawaid, O.Y. Alothman, M.T. Paridah, A review on dynamic
+mechanical properties of natural fibre reinforced polymer composites, Constr.
+[13] A.I. Ndukwe, Green inhibitors for corrosion of metals in acidic media: A review,
+Acad. J. Manuf. Eng. 20 (2) (2022) 36–50. Build. Mater. 106 (2016) 149–159, https://doi.org/10.1016/j.
+conbuildmat.2015.12.075.
+[14] Z. Huda, P. Edi, Materials selection in design of structures and engines of
+supersonic aircrafts: A review, Mater. Des. 46 (2013) 552–560, https://doi.org/ [30] K. Mo, et al., Synchrotron study on load partitioning between ferrite/martensite
+and nanoparticles of a 9Cr ODS steel, J. Nucl. Mater. 455 (1–3) (2014) 376–381,
+10.1016/j.matdes.2012.10.001.
+[15] R. T. Fingers and C. S. Rubertus, “Application of high temperature magnetic https://doi.org/10.1016/j.jnucmat.2014.06.060.
+materials,” IEEE Trans. Magn., vol. 36, no. 5 I, pp. 3373–3375, 2000, doi: 10.1109/ [31] S.L. Soo, R. Hood, D.K. Aspinwall, W.E. Voice, C. Sage, Machinability and surface
+integrity of RR1000 nickel based superalloy, CIRP Ann. - Manuf. Technol. 60 (1)
+20.908805.
+(2011) 89–92, https://doi.org/10.1016/j.cirp.2011.03.094.
+[16] T.W. Mohammed, D.Y. Taha, R.R. Abdul-Ilah, Evaluation of composite material
+[32] M. S. Chiou, S. R. Jian, A. C. Yeh, and C. M. Kuo, “Effects of Al addition on the high
+used in the wings of typical airplane based on stress analysis, Eur. J. Eng. Res. Sci. 3
+(11) (2018) 37–41, https://doi.org/10.24018/ejers.2018.3.11.921. temperature oxidation behavior of CM-247 LC Ni-based superalloy,” 8th Pacific Rim
+Int. Congr. Adv. Mater. Process. 2013, PRICM 8, vol. 1, pp. 521–527, 2013, doi:
+[17] S. Banerjee, P.S. Robi, A. Srinivasan, P.K. Lakavath, Effect of trace additions of Sn
+10.1002/9781118792148.ch63.
+on microstructure and mechanical properties of Al-Cu-Mg alloys, Mater. Des. 31 (8)
+(2010) 4007–4015, https://doi.org/10.1016/j.matdes.2010.03.012.
+5

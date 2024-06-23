@@ -1,0 +1,684 @@
+aerospace
+Article
+Advanced Materials and Technologies for Compressor Blades of
+†
+Small Turbofan Engines
+DmytroPavlenko1,* ,YaroslavDvirnyk1,2 andRadoslawPrzysowa3
+1 MechanicalEngineeringDepartment,NationalUniversity“ZaporizhzhiaPolytechnic”,64Zhukovskogost,
+69063Zaporizhzhia,Ukraine;dvirnyk@gmail.com
+2 MotorSichJSC,15MotorostroiteleyAve.,69068Zaporizhzhia,Ukraine
+3 InstytutTechnicznyWojskLotniczych,ul.Ksie˛ciaBolesława6,01-494Warsaw,Poland;
+radoslaw.przysowa@itwl.pl
+* Correspondence:dvp1977dvp@gmail.com
+† Thispaperisanextendedversionofourpaperpublishedin10thEASNInternationalConferenceon
+InnovationinAviation&SpacetotheSatisfactionoftheEuropeanCitizens.
+Abstract: Manufacturingcosts,alongwithoperationalperformance,areamongthemajorfactors
+determiningtheselectionofthepropulsionsystemforunmannedaerialvehicles(UAVs),especially
+foraerialtargetsandcruisemissiles.Inthispaper,thedesignrequirementsandoperatingparameters
+ofsmallturbofanenginesforsingle-useandreusableUAVsareanalysedtointroducealternative
+materialsandtechnologiesformanufacturingtheircompressorblades,suchassinteredtitanium,
+anewgenerationofaluminiumalloysand titaniumaluminides.Toassesstheinfluenceofsevere
+plasticdeformation(SPD)onthehardeningefficiencyoftheproposedmaterials,thealloyswith
+thecoarse-grainedandsubmicrocrystallinestructurewerestudied. Changesinthephysicaland
+mechanicalpropertiesofmaterialsweretakenintoaccount. Thethermodynamicanalysisofthe
+compressorwasperformedinafiniteelementanalysissystem(ANSYS)todeterminetheimpact
+ofgaspressureandtemperatureontheaerodynamicsurfacesofcompressorbladesofallstages.
+Basedonthermalandstructuralanalysis,thestressandtemperaturemapsoncompressorblades
+(cid:1)(cid:2)(cid:3)(cid:1)(cid:4)(cid:5)(cid:6)(cid:7)(cid:8)(cid:1) andvaneswereobtained,takingintoaccountthephysicalandmechanicalpropertiesofadvanced
+(cid:1)(cid:2)(cid:3)(cid:4)(cid:5)(cid:6)(cid:7)
+materialsandtechnologiesoftheirprocessing.Thesafetyfactorsofthecomponentswereestablished
+Citation:Pavlenko, D.; Dvirnyk, Y.; basedontheassessmentoftheirstress-strengthcharacteristics.Thankstonomograms,thepossibility
+Przysowa,R.AdvancedMaterialsand of using the new materials in five compressor stages was confirmed in view of the permissible
+TechnologiesforCompressorBlades
+operatingtemperatureandsafetyfactor.Theproposedalternativematerialsforcompressorblades
+ofSmallTurbofanEngines.Aerospace
+andvanesmeetthedesignrequirementsoftheturbofanatlowermanufacturingcosts.
+2021,8,1.https://dx.doi.org/10.3390
+/aerospace8010001
+Keywords:turbofan;unmannedaerialvehicles;cruisemissile;aerialtarget;axialcompressor;blade;
+titaniumalloy;aluminiumalloy;titaniumaluminide;safetyfactor
+Received:5November2020
+Accepted:16December2020
+Published:22December2020
+1. Introduction
+Publisher’sNote: MDPIstaysneu-
+tralwithregardtojurisdictionalclaims Currently, one of the most promising areas in the aerospace and defence industry
+inpublishedmapsandinstitutional is the development of unmanned aerial systems for various purposes. They are based
+affiliations. onunmannedaerialvehicles(UAVs)ofbothreusableandsingleuse. Ukrainian[1]and
+global manufacturers offer gas-turbine engines for UAVs of various types [2,3]. While
+full-scaleturbopropsandturbofans,asarule,arebasedonenginesdesignedformanned
+aircraft[4],smallturbofansarecustom-made [5,6]. Theytypicallyhaveacompactand
+Copyright: ©2020bytheauthors.Li-
+simplifiedsingle-shaftstructure,determinedbythetacticalandtechnicalcharacteristicsof
+censeeMDPI,Basel,Switzerland.This
+theplatform[7].
+articleisanopenaccessarticledistributed
+Smallturbofanengines(Table1)aredesignedfortargetdrones(Streaker,Lakshya)and
+underthetermsandconditionsofthe
+cruisemissilessuchasR-360Neptune,Kite,Kh-55,TomahawkandHarpoon. Theirmain
+CreativeCommonsAttribution(CCBY)
+license(https://creativecommons.org/ performancecharacteristicsincludeashortlifecycle(ifusedasweapons),smallsizeand
+licenses/by/4.0/). weight and, as a result, high thrust-to-weight ratio. Also, operation on an unmanned
+Aerospace2021,8,1.https://dx.doi.org/10.3390/aerospace8010001 https://www.mdpi.com/journal/aerospaceAerospace2021,8,1 2of16
+platformcontributestothefactthattheyarenotsubjecttotheaviationsafetyregulations.
+Such engines are produced by JSC Motor Sich, SE Ivchenko Progress and a number of
+foreignfirms. Enginesofthisclasshavethrustintherangeof1.9–4kN,alowbypassratio
+andasmalldrymassnotexceeding60–85kg. Atthesametime,toensurehighefficiency,
+suchturbofanenginesrotateatseveraltensofthousandsofrevolutionsperminute,which
+imposesspecialrequirementsonthedesignoftheircomponentsandselectionofmaterials.
+Firstofall,theyshouldexhibithighspecificstrengthunderstaticloadsandarelatively
+lowmanufacturingcost. Atthesametime,theirdurability,duetotheshortlifecycleand
+lackofpilot,isnotofprimeimportance.
+Table1.Smallgas-turbineengines.Datafromminijets.org,uasresearch.org,wikipedia.organd[2,3,8].
+Producer Model Thrust Weight Thrust Length Diameter Platform
+kN kg /Weight mm mm
+Turbomeca ArbizonIIIB2 4.02 115 3.56 1361 421 Otomatmissile
+Microturbo TRI60-30 5.70 61 9.53 841 343 Apachemissile
+TeledyneCAE J402-CA-702 4.20 63 6.85 762 317 MQM-107DStreaker
+HAL PTAE-7 3.72 65 5.83 1270 330 LakshyaPTAdrone
+Mitsubishi TJM4 2.84 56 5.19 1092 355 Subarudrone
+WilliamsInt. F107WR402 3.11 66 4.60 1262 305 BGM-109Tomahawk
+MotorSich MS-400 3.92 85 4.70 850 320 R-360Neptunemissile
+IvchenkoProgress AI-305 3.04 61 5.08 650 232 Ultralightaircraft
+Soyuz R95-300 3.55 100 3.62 850 315 Kh-55missile
+Saturn 36MT 4.54 100 4.63 850 330 Kh-59missile
+PriceInduction DGEN380 2.55 85 3.06 1126 469 PersonalLightJet
+In small turbofan engines both radial and axial compressors are used. Currently,
+varioustypesoftitaniumalloysaresuccessfullyusedformanufacturingthebladesand
+vanes of axial compressors [9,10]. The most common are VT6 (Ti-6Al-4V), VT3-1 (Ti-
+6.7Al-2.5Mo-l.8Cr-0.5Fe-0.25Si)andVT8(Ti-6.8Al-3.5Mo-0.32Si). Forcompressorstages
+withincreasedairtemperaturealongthegaspath, heat-resistanttitaniumalloysofthe
+VT25 (Ti-6.8Al-2.0Mo-2.0Zr-2.0Sn-l.0W-0.3Si) type are used [11,12]. For the last stages
+ofthecompressor,takingintoaccountthetemperaturelevel,heat-resistantnickel-based
+alloys such as Inconel 718 (EP718-ID) and similar are used. A common drawback of
+these materials, along with the high cost and energy costs of production, is their poor
+machinability. Havingacombinationofthepropertiesnecessaryforthecompressorblades
+ofamannedaircraft’sengine,theyareredundantwhenusedonUAVs. Thisleadstothe
+increasedcostofenginesandUAVsingeneral. TomeettherequirementsforUAVpower
+plants, it is necessary to introduce new materials and technologies, which reduce their
+manufacturingcost.
+There are several modern technologies which can be used for manufacturing gas
+turbinesforUAVs[13]. Withregardtocompressorblades,anumberofcandidatematerials
+isconsidered,forexample,sinteredpowderalloys; rareearthaluminiumalloys; alloys
+basedontitaniumaluminidesandothers[14,15].
+Atpresent,onlysurfacesofcompressorbladesarehardened [16],primarilybylaser
+shockpeening[17]. However,surfacehardeningdoesnotmodifytheinnerstructureof
+thealloy. Therefore,tosignificantlyincreasethestrengthandductilityofaircraftmaterials,
+severeplasticdeformation(SPD)technologiesareused[18,19]butthesizeofproduced
+ingotsisstilllimited. Whatismore,foreachcompressorstage,therearelimitationsboth
+in the operating temperature and mechanical properties which have to be met by the
+introducedmaterials.
+Inthiswork,toreducethemanufacturingcostofaselectedsmallturbofanengine,
+alternativematerialsandtechnologiesforproducingcompressoraerofoilsareintroduced
+and evaluated. To ensure structural integrity, the static safety factor is assessed for the
+bladesandvanesofindividualstages,takingintoaccounttheiroperatingtemperature. The
+keyobjectivesofthisworkincludematerialselection,strengthtesting,airflowsimulation
+ofthecompressortoobtainpressurefieldsonaerofoilsurfacesofallstagesaswellasgasAerospace2021,8,1 3of16
+temperatureandfinallythestructuralanalysisofcomponentswhichevaluatestheirstress
+andstaticsafetyfactor.
+2. MaterialsandMethods
+2.1. TwistExtrusion
+VariousSPDmethods[20,21]areintroducedtoimprovemechanical,physical,and
+functional properties of metals and alloys by forming their submicrocrystalline struc-
+ture[22,23]. Twistextrusion(TE)isavariantofthesimplesheardeformationprocessthat
+wasintroducedbyBeygelzimer[24]. UnderTEprocessing,aprismaticbilletisextruded
+throughatwistdie.
+Inthiswork,anumberofstandardandpowdermetalalloys(Table2)sourcedfrom
+variouscontractorswereprocessedwithTE.Thetitaniumbilletsweremadefromannealed
+VT8rodsofincreasedquality,32mmindiameter(GOST26492-85),producedbyVSMPO-
+AVISMACorporation. Sinteredtitaniumwassynthesisedinlaboratorybypressingand
+subsequent vacuum sintering of powder mixtures based on PT5 titanium powder (TU
+U14-10-026-98)producedbytheZaporizhzhiaTitanium-MagnesiumPlant. Thegrainsize
+was160–500µm[25].
+Table2.Analysedalloys,theircompositionandrelatedpublications.
+VT8(Ti-6.8Al-3.5Mo-0.32Si),OST190013-81,GOST26492-85,[25–31]
+Composition%mass Impurities%max
+Ti Al Mo Sn Si C Fe Zr O N H
+base 5.8–7.0 2.8–3.8 ≥0.4 0.2–0.4 0.1 0.3 0.5 0.15 0.05 0.015
+γ-TiAl(Ti-46Al-5Nb-2W),[32–34]
+Ti Al Nb W
+Base 44–47 4.2–5.5 1.5–2.5
+7055+Sc(Al-Zn-Mg-Cu-Sc),OST190013–81,[35–40]
+AI Zn Mg Cu Zr Sc Fe Mn Si Ti Cr Ni
+base 6.8–8.4 1.5–2.5 1.6–2.9 0.1–0.5 0.1–0.25 0.13 0.01 0.03 0.01 0.01 0.01
+Thebillet(Figure1)was70mmlongwiththecross-sectionof18×28mm. Itwas
+placedinamatrixwithahelicalchannelofrectangularcrosssectionwithanangleofthe
+helix inclination to the TE axis. The extrusion pressure was FP = 1600 MPa for all the
+studiedalloys. Toincreasetheirplasticity,backpressureBP=200MPawasappliedtothe
+frontendofthebillet. Totransmitbackpressure,adeformablemediumwasused,which
+waseitheramixturebasedonthelow-meltingglassoracopperbillet[41].
+TherearedifferentapproachestomodellingandoptimisingtheTEprocess[42,43],
+usuallybasedonFEmethods. Calculationsandexperimentsareaimedtoobtainhighplas-
+ticstrainanduniformultrafinegrains[21]. InthisworktheBeygelzimer’sapproach[41,44]
+isfollowed. ThetotalrelativesheardeformationΛperpasswascalculatedasfollows[41]:
+2
+Λ = √ tanγ , (1)
+max
+3
+whereγ isthemaximuminclinationanglebetweenthetwistlineandtheextrusionaxis.
+max
+Asthedeflectionangleofthehelicalchannelwas45°forallinvestigatedmaterials,the
+totalsheardeformationperpasswasapproximately1.15. FiveTEpasseswerecarriedout,
+sothetotalrelativesheardeformationofthebilletwas5.77.Aerospace2021,8,1 4of16
+Figure1.Deformationofaporousbilletbytwistextrusion:1—beforeTE;2—deformationzone;
+3—afterTE,FP—forwardpressure,BP—backpressure.
+Theporosityofthespecimenswasmeasuredbythehydrostaticweighingmethod
+(GOST18847-84)andbyanalysingthemicrographsofmetallographicspecimens(GOST
+9391-80)[45]. Inthefirstcase,thespecimensweresubmergedintodistilledwater,whose
+temperaturewasmeasuredbyamercurythermometer.Therewasnoporosityinspecimens
+madeofVT8titaniumalloy.AfterTE,aslight(withinafewpercent)increaseinporositywas
+observed,whichcouldbeassociatedwithanincreaseinthenumberofcrystallatticedefects.
+Fortheinvestigationofstructureandthefractographicanalysisoffracturesurfaces,
+aNEOPHOTlightmicroscopeandaJEOLscanningelectronmicroscopewasused[46].
+TheaveragegrainsizeinthesamplesafterfiveTEpasseswasintherangeof200–500nm
+fortitaniumalloys[45]. Thegrainsizeintheoriginalmaterialwas150–300µm.
+2.2. SinteredTitanium
+One of the well-known methods of reducing the manufacturing cost of the axial
+compressorisusingsinteredtitaniumalloys [47,48]buttheirresidualporosityandlow
+ductility are the reasons for which up to now they are used in aircraft engines for a
+narrow circle of lightly loaded, non-critical components. Therefore, powder materials
+needconsolidationandgrainrefinement,whichcanbeeffectivelyachievedbytheSPD
+processofhigh-pressuretorsion(HPT)[49,50]. However,HPTcanproduceonlyverysmall
+sampleswhichcannotbeusedformanufacturingcompressorblades. Therefore,ourrecent
+paper[51]usesthephysicalsimilarityoftheprocessesoccurringinathinlayerofmaterial
+duringHPTandTEtosimulatetwistextrusionwiththeavailableHPTdata.
+Inthiswork, amongothers, alloyssynthesisedfromamixtureofselectedpowder
+components[25,52]wereevaluated. Dopedelements(pureAl, MoandSimetals)were
+mixed with the matrix titanium powder in a mixer drum at 60–80 rpm to ensure the
+requiredchemicalcompositionofthetestalloyaftersintering. Thepowdersweresubjected
+tosingle-actioncompactioninrigiddiesatroomtemperature. Thecompactionforcewas
+730–760MPa. Thecompactsweresinteredinvacuumintherangeof1250–1270°Cwithan
+isothermalholdingtimeof2.5–3handcooleddowninthefurnaceinvacuum.
+Ourpreviouspaper[46]showedthatthecharacteristicsofsinteredtitaniumalloys
+subjectedtoSPDinsomeindicatorsexceedsimilarvaluesforregularalloysincastand
+deformedstates. Thepreliminarystructuralanalysisofbladesmadeofsinteredtitanium
+withsubsequentSPDconfirmedthattheirsafetymarginmeetstheoperatingconditions[53].Aerospace2021,8,1 5of16
+However,animportantfactorthatlimitstheuseofalloysinthecompressordesignisthe
+elevated temperature caused by air compression in the gas path. Also, given the high
+rotational speed of the engine, close to 40–50 thousand revolutions per minute, stress
+analysisresultsdependheavilyonthecalculatedpressurefield. Astheinformationonthe
+operatingtemperatureandpressureinthecompressorstagesofsmallturbofanenginesis
+verylimited[54,55],airflowandthermalanalysisisperformedinthiswork.
+2.3. Aluminium-BasedAlloys
+Aluminiumalloyswithlithiumandscandiumarewellsuitedtobeusedinturbofan
+engines,giventheirhighspecificstrengthwhichexceedsthoseoftitaniumalloys[35–37].
+SPD effectively hardens the cast structure of aluminium, so it could be used instead
+of homogenization annealing[40,56]. However, it is necessary to take into account the
+operating temperature of components since the heat resistance of aluminium alloys is
+significantlylowerthanthatoftitaniumandnickelones.
+IntermetallicFe Al-basedalloyscouldpotentiallysubstitutemoreexpensivesuper-
+3
+alloysandcreep-resistantsteels. Theyarecharacterizedbyacombinationofinteresting
+functionalcharacteristicssuchasexcellentresistancetooxidation,sulfidationandcarburiz-
+ing,goodresistancetoseawatercorrosion,wear,erosion,orcavitation,andhighstrength
+toweightratio[57,58].
+Inthiswork,avariantofthestandardaerospacealuminiumalloy7055+Scwasused
+(Al-Zn-Mg-Cu-Sc). Itwasobtainedinlaboratorybymeltingwiththeadditiveofscandium.
+Itsinitialporositywas3–4%anditreducedtolessthan1.5%afterTE.
+Lightweight,heat-resistantandweldablealloysbasedontitaniumaluminides[34]
+makeitpossibletodesignmoreefficientcompressors. Thesematerialsofferanumberof
+uniqueproperties—lowdensity,relativelyhighmeltingpoint,highmodulusofelasticity,
+resistancetooxidationandfire,highspecificheatresistance,andsoforth. Theyarewell
+suited for the last stages of compressor blades but their effectiveness is controversial.
+Ononehand, duetothecombinationofspecificstrengthandheatresistance, theycan
+replace traditional nickel-based alloys [33,59]. On the other hand, the technology of
+their manufacturing and processing is quite energy-intensive, which makes them cost-
+ineffectiveinthecaseofsmallturbofanengines. Whileheatexplosionisasignificantly
+cheapertechnologytosynthesisesuchmaterials[60],theirmechanicalpropertiesarenot
+satisfactoryforaircraftcomponents,inparticularforaero-engines.
+Inthiscase,apromising,cost-savingtechnologyforthepreparationofsemi-finishedin-
+termetallicγ-TiAlalloysforaircraft,inparticularcompressorblades,wasself-propagating
+high-temperaturesynthesisandsubsequentTEoftheinitialingots[32]. Theinitialporosity
+oftheγ-TiAlalloywas35–40%anditdecreasedto4–5%afterTE.
+Takingintoaccountthatthistechnologynotonlyreducesthecostofmanufacturing
+compressorblades,butalsoincreasestheleveloftheirmechanicalcharacteristics,assessing
+thepossibilityoftheiruseinthedesignofenginesforUAVsisimportant.
+2.4. StrengthTesting
+Todeterminethemechanicalpropertiesofalloys,11mm×11mm×56mmbillets
+wereusedtoproducestandardtensilesamplesinaccordancewithGOST1497-84. Strength
+testingwascarriedoutontheINSTRON8802servohydraulicmachineunderprogrammed
+loadingatroomandelevatedtemperature. Fivereferencesamples,mass-producedfrom
+VT8alloybars,weremeasuredtovalidatethetestprocedure. Theextensometerspanwas
+25mm. Thespecimentestportionstrainwascontrolledwithanaccuracyof1µm. The
+accuracyofstressmeasurementsinthespecimencross-sectionwas±3MPa. Extensometer
+and spring dynamometer readings were ADC-processed and sampled with a rate of
+∆t=0.01s[25,61]. Theactualtensiletestingcoveredmorethanthreespecimensforeach
+case.
+Table3presentsthephysicalandmechanicalpropertiesofconsideredbladematerials.
+ThelastcolumnshowsthatmaterialssubjectedtoTEbecomelessheat-resistantbecauseAerospace2021,8,1 6of16
+intensivegraingrowbeginsatalowertemperature. TheratioofYoung’smodulusand
+materialultimatestrengthtodensitycharacterisesthespecificstiffnessandspecificstrength
+ofthematerial. Fromthepointofviewofstrength,fortheproductionofaircraftengine
+components, the most promising materials are those with the maximum values of the
+specified characteristics. This makes it possible to ensure not only a high level of their
+strengthreliability(safetyfactor),butalsoadecreaseinthemass. Itisknownthatreducing
+therotormassisoneofthebestwaysforimprovingthedesignofagasturbine,sinceit
+effectivelyreducesthelevelofdynamicloadsandvibration[62].
+Takingintoaccountthattheanalysedtechnologiesforobtainingingotsforcompressor
+components(powdermetallurgyandsevereplasticdeformation)leadtoachangeinthe
+indicatedcharacteristicsofmaterialsatthelevelof10%, theywerenotconsideredasa
+criterionforchoosingaproductiontechnology.Atthesametime,whenchoosingamaterial,
+preferencewasgiventothatmaterial,thespecificstiffnessandstrengthofwhichishigher
+whileensuringequalsafetymargins.
+Table3.Mechanicalandphysicalpropertiesofthealloysconsideredforcompressoraerofoils.
+E ρ UTS σ0.2 ν E/ρ UTS/ρ Tmax°C
+Material MPa kg/m3 MPa MPa Nm/kg Nm/kg
+VT8 (1.20±0.05)e5 4520±198 980±42 850±38 0.30 26.5e6 0.22e6 500+20
+VT8_spd (1.08±0.04)e5 4400±201 1250±34 1150±44 0.38 24.5e6 0.28e6 460+20
+VT8_spk (0.95±0.04)e5 4000±226 700±40 450±42 0.10 23.8e6 0.18e6 500+20
+VT8_spk_spd (1.10±0.05)e5 4400±180 1040±35 960±36 0.32 25.0e6 0.21e6 460+10
+γ-TiAL (9.50±0.43)e4 4200±189 720±32 650±29 0.30 22.6e6 0.17e6 750+20
+γ-TiAL_spd (8.50±0.38)e4 4100±166 920±30 880±36 0.34 20.7e6 0.22e6 680+10
+7055+Sc (6.90±0.30)e3 2700±121 75±3 60±3 0.33 2.6e6 0.03e6 120+20
+7055+Sc_spd (6.20±0.30)e3 2680±114 203±7 180±7 0.35 2.3e6 0.08e6 100+10
+UTS—ultimatetensilestrength,SPD—alloyofasubmicrocrystallinestructureformedbyTESPK(sinteredmetal
+powder)—alloyobtainedbypowdermetallurgymethods.
+2.5. ModellingtheCompressor
+The effectiveness of the use of candidate materials for manufacturing blades and
+vaneswasevaluatedforanaxialcompressorwiththegeometryrepresentativeofsmall
+turbofanengines. Thestress-strainstateofcompressorcomponentswasestimatedbya
+coupledFiniteElement(FE)Analysiswhichincludedaflowcalculationandstressanalysis.
+Theobtainedpressureandtemperaturefieldswereapplieddirectlytoaerofoilsurfacesto
+determinethestressesandstrainsincomponents[63–65]. Theanalysiswasperformedfor
+a6-stageaxialcompressor(Figure2). Thefanisnotconsideredinthispaperasitsblades
+aretoolargeforSPDtechnologyandalsosinteredalloysdonotprovidethenecessarylevel
+ofstrength.
+TheprofilesectionofthefirstcompressorstageisshowninFigure3. Thegeometryof
+thecompressorbladescorrespondstothestandardaerodynamicprofileofNACA7404-
+7405AIRFOIL.ThetotalnumberofbladesinthecompressorstagesisgiveninTable4.
+UsingtheUnigraphicsNXsystem, modelsofbladesandvanes(onepairpereach
+stage) were built. To develop the aerofoil profile, the surface modelling method was
+used,whileforroots,themethodbasedonBooleanoperationswithgeometricprimitives
+(Figure4). Tocreatefiniteelementmodels,anICEMCFDgridgeneratorwasused. The
+mesh models of the blades consisted of 15,000–18,000 hexagonal SOLID 186 elements.
+ANSYSWorkbenchversion2019R3wasusedforthecalculations. Bladeswerefixedatthe
+rootplane.Aerospace2021,8,1 7of16
+Figure2.Axialcompressor.
+(a)hubsection (b)tipsection
+Figure3. Profileofthefirststageblade.
+(a)compressoraerofoils (b)1ststagebladeroot
+Figure4. Structuralmodel.
+Table4.Numberofcompressorblades.
+CompressorStage R1 R2 R3 R4 R5 R6
+Numberofblades 37 43 59 67 73 81
+2.6. CFDModel
+Temperaturealongthecompressorgaspathandpressureontheaerodynamicsurfaces
+ofthebladeswasdeterminedbyflowcalculationinAnsysCFXwiththefiniteelement
+method. TheCFDmodelofthecompressorinter-bladechannelwasobtainedbyarranging
+thedomainsofeachcompressorstageintheaxialandradialdirections. Tobuildameshof
+thecompressorflow,theTurboGridgridgeneratorwasused(Figure5). Volumetricfinite
+elements intended for CFD calculations were used. To reduce the required computing
+power,onebladewasmodelledforeachcompressorstagewiththecyclicsymmetryalong
+theboundariesofthedomain(Figure5c). Theboundaryconditionsweresetintheformof
+totalinletpressure,massflowatthecompressoroutlet,androtationalspeed(Figure5d).Aerospace2021,8,1 8of16
+(a)vane (b)tipclearance (c)gaspath
+(d)boundaryconditions
+Figure5.Airflowmodelofthecompressor.
+Aninterfacebetweenstationaryandrotatingregions(StageMizing-Plane)wasdefined
+on the mating boundaries of regions belonging to different steps, which allows for the
+interpolationbetweenmatinggrids. Asatisfactorycriterionfortheconvergenceofthe
+calculationwasthevalueofthemeansquareresidualatthelevelof10−6. Thisconvergence
+wasachievedat1200–1400iterations. WeusedtheSST(Menter’sShearStressTransport)
+k−ωmodelofturbulence[66,67],asthemostaccurateandreliableforflowswithapositive
+pressuregradientwhenflowingaroundprofiles. Attheinletandoutletofthecompressor,
+themassflowrateandtemperaturecorrespondingtotheengineemergencyoperationwere
+set. Thethesimulationresultswerevalidatedaccordingtothemethodologydescribed
+inReference[68].
+2.7. ThermalStructuralAnalysis
+Toassessthestress-strainstateofthecomponentsandtemperaturedistribution,the
+resultsoftheflowcalculationwereused. Theaerodynamicsurfacesoftheblades(pressure
+and suction sides) were loaded with the pressure and temperature fields obtained as a
+resultofpreliminaryflowcalculation.
+Typically,bothstaticandfatiguestrengthareevaluatedfornewcomponents[69,70]
+whichrequiresreliablematerialdatatocheckthesafetyfactor. Itincludestheendurance
+limitoflaboratorysamplesatoperatingtemperature,theamplitudeofalternatingstress
+at the time of failure, as well as the effective coefficient of stress concentration and the
+magnitude of their variation. Considering that when analysing the suitability of new
+materials,thesedatawerenotavailable,thestaticsafetyfactor(SF)wasevaluatedwiththe
+followingformula[71]:
+σ
+SF = 0.2 , (2)
+σ
+Mises
+whereσ —conditionalyieldstrengthofthebladematerial,σ —maximumvalueof
+0.2 Mises
+thevonMisesstressinthecompressorblades.
+3. ResultsandDiscussion
+Figure6showsthecalculatedpressurefieldsonbladesurfaces,andtheflowtempera-
+ture.Theflowtemperaturewasusedastheinitialdataforthermalanalysisastheboundary
+conditionofthethirdkindtocalculatethesurfacetemperatureoftheblades(Figure7). TheAerospace2021,8,1 9of16
+obtainedoperatingtemperatureofthecompressorbladesmakesitpossibletoevaluatethe
+suitabilityoftheconsideredmaterials. Giventhatthebladehasarelativelysmallprofile
+thickness,thetemperaturedistributionoverthecross-sectionwasconsidereduniform.
+(a)pressurefield (b)temperaturefield
+Figure6.Pressureandtemperaturefieldonbladesurfaces.
+Figure7.Temperaturefieldforbladesandvanesofstage6.
+Thecalculatedstressdistributionintheaerofoils(Figure8)madeitpossibletoevalu-
+atecandidatematerialsandprocessingtechnologiesinviewoftheirstructuralintegrity.
+Valuesofmaximumequivalentstressandstaticsafetyfactorofbladesandvanesmade
+fromadvancedmaterialsandtechnologiesaregiveninTables5and6.Materialswithsafety
+factorlessthanthethresholdof1.1cannotbeusedintheparticularstage[72]. Thisvalue
+wasselectedbythemanufactureronthebasisofindustrialexperienceandreliabilitydata.
+Undercertainconditions,suchalowSFthresholdisacceptableinaircraftcomponents,
+especiallyforunmannedandsingle-useplatforms.
+Analysingtheobtaineddata,wecanconcludethatthecandidatematerialsandpro-
+cessingtechnologiescanbeusedformanufacturingcompressorcomponents. Considering
+thatmaterialselectionbythetemperatureandstrengthcriteriaiscomplicatedduetothe
+varietyoflimitingfactors,nomogramsweredevelopedforthispurpose(Figures9and10).
+ItcanbenotedthatVT8alloyislimitedtorotorstages1–2intermsofitsstrengthreliability.
+TheuseofSPDmethodsexpandsthescopeofitsapplicationuptothe7thstage;however,
+intermsofthetemperaturelimit,VT8usageislimitedtobladesofthefirstfivestages.Aerospace2021,8,1 10of16
+Figure8.VonMissesstressinbladesandvanesmadefromVT8_spk_spdinengineemergencymode.
+Table5.Equivalentstressandstaticsafetyfactorofbladesmadefromcandidatematerials.
+RotorStage R1 R2 R3 R4 R5 R6
+σmax SF σmax SF σmax SF σmax SF σmax SF σmax SF
+Alloy/Process MPa MPa MPa MPa MPa MPa
+VT8 480.2 1.77 481.1 1.77 805.8 1.05 893.3 0.95 717.6 1.19 864.5 0.98
+VT8_spd 481.9 2.39 451.6 2.25 802.4 1.43 859.4 1.34 718.4 1.60 889.4 1.29
+VT8_spk 477.2 0.94 517.3 0.87 801.2 0.56 938.6 0.48 719.9 0.63 882.2 0.51
+VT8_spk_spd 481.7 1.99 474.2 2.02 804.3 1.91 886.0 1.08 717.4 1.33 872.2 1.10
+γTiAl 483.6 1.34 473.6 1.37 803.1 0.81 892.3 0.73 717.2 0.91 873.5 0.74
+γTiAl_spd 483.6 1.82 462.9 1.90 801.3 1.10 877.3 1.00 717.5 1.23 885.5 0.99
+7055+Sc 460.0 0.13 451.1 0.13 789.8 0.08 877.0 0.07 717.0 0.08 922.4 0.07
+7055+Sc_spd 460.0 0.39 450.9 0.40 789.0 0.23 868.7 0.21 717.3 0.25 928.3 0.19
+Table6.Equivalentstressandstaticsafetyfactorofvanesmadefromcandidatematerials.
+StatorStage S1 S2 S3 S4 S5 S6
+σmax SF σmax SF σmax SF σmax SF σmax SF σmax SF
+Alloy/Process MPa MPa MPa MPa MPa MPa
+VT8 8.8 96.2 45.5 18.7 54.0 15.8 133.5 6.4 140.6 6.1 142.4 6.0
+VT8_spd 8.9 129.7 43.6 26.4 53.8 21.4 128.4 9.0 140.8 8.2 146.5 7.9
+VT8_spk 8.8 51.3 48.9 9.2 53.7 8.4 140.2 3.2 141.1 3.2 145.3 3.1
+VT8_spk_spd 8.8 84.6 44.8 16.7 53.9 13.9 132.4 5.7 140.6 5.3 143.6 5.2
+γ-TiAl 8.9 73.0 44.8 14.5 53.8 12.1 133.3 4.9 140.5 4.6 143.8 4.5
+γ-TiAl_spd 8.9 98.9 43.7 20.1 53.7 16.4 131.1 6.7 140.6 6.3 145.8 6.0
+7055+Sc 8.5 7.1 42.6 1.4 52.9 1.1 131.0 0.5 140.5 0.4 151.9 0.4
+7055+Sc_spd 8.5 21.3 42.6 4.2 52.9 3.4 129.8 1.4 140.6 1.3 152.9 1.2
+It can be inferred that the strength of the blades of all compressor stages made of
+sinteredtitanium,isbelowtheacceptablethreshold(SF=1.1). Therefore,theycannotbe
+used,despitethesignificantlylowermanufacturingcostincomparisonwithanalloyin
+adeformedstate. However,theuseofSPDmethods,duetotheeliminationofporosity,
+theformationofasubmicrocrystallinestructureintheentirecross-sectionandthehomog-
+enizationofalloyingelements,contributestoasignificantincreaseinstrengthand,asa
+consequence,theexpansionoftheirapplicationtoallstages.
+Atthesametime,theoperatingtemperatureofthesubmicrocrystallinealloyislower
+thanonewiththestandardstructurewhichdoesnotallowfortheirusein6thstageblades
+(Figure9). Consideringthatthecompressorvanesexperiencealoadonlyfromtheflow,the
+fieldofapplicationoftheVT8alloyislimitedonlybyitsoperatingtemperature,regardless
+ofthetechnologyofproductionandprocessing. Despitethegreatstrength,thesintered
+titaniumprocessedwithTE,incomparisonwiththeregularsinteredalloy,hastheoperating
+temperaturelowerby40°C,whichmaylimititsuse. Takingintoaccountthelowercostof
+obtainingsinteredtitaniumalloys,theiruseisthemostrationalinthebladesofthefirst
+fivestages.Aerospace2021,8,1 11of16
+700
+600
+500
+400
+300
+200
+100
+0
+1 2 3 4 5 6
+Compressor stage
+Co
+erutarepmeT
+Stator
+Rotor
+VT8
+VT8_spd
+VT8_spk
+VT8_spk_spd
+-TiAl
+-TiAl_spd
+7055+Sc
+7055+Sc_spd
+Figure9.Materialmaximumtemperaturevstheoperatingtemperatureofcompressorstages.
+VT8 VT8
+VT8_spd VT8_spd
+VT8_spk VT8_spk
+VT8_spk_spd VT8_spk_spd
+-TiAl -TiAl
+-TiAl_spd -TiAl_spd
+7055+Sc 7055+Sc
+SF_limit SF_limit
+7055+Sc_spd temp_limit 7055+Sc_spd temp_limit
+1 2 3 4 5 6 1 2 3 4 5 6
+Compressor rotor stage Compressor stator stage
+(a)Rotor (b)Stator
+Figure10.Rotorandstatorstagesforwhichthestrengthandtemperaturelimitsofmaterialsaremet.
+Aluminiumalloyswithacoarse-grainedandsubmicrocrystallinestructureaccord-
+ingtothethermalcriterioncanbeappliedonlytobladesofthefirstandsecondstages.
+However, a safety factor assessment indicates that their application is limited to stator
+vanes. Atthesametime,modernaluminiumalloyscanbeusedtomakevaneswithout
+SPDprocessing,whichreducesthemanufacturingcost. Giventhelowweightandcost
+ofaluminiumvanescomparedtotitaniumones,thereplacementofthematerialisjusti-
+fied. Moreover,thewell-knownproblemsofaluminiumalloys,suchaslowhardnessand
+resistancetosanderosion,areanuncriticalfactorforUAVengines.
+Alloysbasedontitaniumaluminidesarethemostheatresistantoftheconsidered
+ones,whichpredeterminestheiruseformanufacturingbladesofthelastcompressorstages.
+Fromthepointofviewofthepermissibleoperatingtemperature,thisalloycanbeapplied
+tobladesofallstagesregardlessoftheirstructuralstate(Table3). Atthesametime,from
+thepointofviewofstrengthreliabilityforblades,theiruseisalloweduptostage2without
+additionalstrainhardeningandupto3rdstagewithTEprocessing(Table5).
+For all stator stages, the safety factor of vanes made from titanium aluminides is
+higherthanthethreshold(Table6). Thus,thisalloycanbeusedformanufacturingvanes
+ofstages5and6,forwhich,duetotemperaturelimitations,lightertitaniumalloysmay
+notbeapplicable. Nevertheless,thereplacementofmoreheat-resistantInconel718alloys
+withtitaniumaluminideswouldreducetheweightofgasturbineengines.
+Itshouldbenotedthattheconsideredtemperaturelimitationsofsubmicrocrystalline
+alloysareassociatedwiththeonsetofrecrystallizationprocesses. Consideringthatthis
+processestakearelativelylongtime,exceedingthemissiontimeofsingle-useUAVs(cruise
+missiles, disposable reconnaissance vehicles, aerial targets, etc.), this restriction can beAerospace2021,8,1 12of16
+removedforsuchturbofanengines. Inthiscase,theirmaximumallowabletemperature
+willbesimilartoalloysinacoarse-crystallinestate. Thecalculatedvaluesofthesafety
+factorsforcompressorcomponentsmadefromconsideredalloysandtechnologiesletus
+proposetheirfieldofapplication(Figure11).
+Figure11.Materialsrecommendedforindividualcompressorstages.
+4. Conclusions
+Theanalysisofthethermalandstress-strainstateofthecompressorbladesandvanes,
+incombinationwiththetensiletestingofthecandidatealloys,madeitpossibletodevelop
+recommendationsfortheiruse:
+1. ItwasfoundthatthevanesofthefirstfifthstatorstagescanbemadeofsinteredVT8
+titaniumalloywithoutstrainhardening. Respectively,thebladesofthefirstfifthrotor
+stagescanbemadeofsinteredVT8titaniumalloy,subjectedtoSPDprocessing.
+2. 7055+Scaluminiumalloy,regardlessoftheuseofTE,canbeusedtomakevanesof
+thefirsttwostages.
+3. Titaniumaluminides(γ-TiAl)processedwithTEcanbeusedforthebladesofstages
+1–3andallstatorstages. Consideringthelowercostofsinteredtitaniumcomparedto
+γ-TiAlalloy,itisreasonabletouseitonlyforthe6th-stagevanes.
+4. Noneofthecandidatematerialsaresuitableformaking6th-stageblades,soasuper-
+alloysuchasInconel718hastobeusedinstead.
+Thethermalandstructuralanalysisofthishigh-speedaxialcompressorshowsthat
+itsbladesareextremelyloadeduptothestrengthandtemperaturelimitsoftheavailable
+alloys. Takingintoaccountthatthechangeinthephysicalandmechanicalpropertiesof
+materialscanaffectnotonlythestress-strainstateofthebladesbutalsotheirdynamic
+characteristics, thenaturalfrequenciesofbladesneedtobeevaluatedinthenextstage
+ofresearch. Forthecompressorunderstudy,Campbelldiagramsandthesurgemargin
+willbecalculated. Also,thedampingpropertiesofalloysinvariousconditionsshould
+beanalysed.
+AuthorContributions: D.P.andY.D.conceivedanddesignedtheresearch; D.Psynthesisedand
+processed the alloys; Y.D. and D.P developed FEM and CFD models and performed structural
+analysis;D.P.andR.P.verifiedandevaluatedtheresults.D.P.,Y.D.andR.P.drewconclusionsand
+producedthepaper.Allauthorshavereadandagreedtothepublishedversionofthemanuscript.
+Funding:Thisresearchreceivednoexternalfunding.
+Acknowledgments: WewouldliketothankWieslawBeresandSylwesterKlyszfortheircomments
+onanearlierversionofthemanuscript,althoughanyerrorsareourownandshouldnottarnishthe
+reputationsoftheseesteemedpersons.
+Conflicts of Interest: The authors declare no conflict of interest. Motor Sich JSC had no role in
+the design, execution, interpretation, or writing the study. The views, information, or opinions
+expressedhereinaresolelythoseoftheauthorsanddonotnecessarilyrepresentthepositionof
+anyorganization.Aerospace2021,8,1 13of16
+Abbreviations
+Thefollowingabbreviationsandsymbolsareusedinthismanuscript:
+ν Poisson’sratio
+ρ density
+σ0.2 conditionalyieldstrength
+σMises vonMisesstress
+BP backpressure
+E Young’smodulus
+FP forwardpressure
+p pressure
+SF safetyfactor
+T temperature
+CFD computationalfluiddynamics
+FE finiteelement
+HPT high-pressuretorsion
+IGV inletguidevanes
+JSC join-stockcompany
+rpm revolutionsperminute
+SE stateenterprise
+SPD severeplasticdeformation
+SPK sinteredmetalpowder
+SST Menter’sShearStressTransportmodelofturbulence
+TE twistextrusion
+UAV unmannedaerialvehicle
+UTS ultimatetensilestrength
+VT8 Titaniumwroughtalloy
+References
+1. Telesyk. MotorSichEnginesforUAVs(Dvigateli“MotorSich”DljaBPLA).Availableonline:https://telesyk.livejournal.com/14
+6218.html(accessedon2November2020).
+2. Brooks,V.E. SmallTurbineEngineEvolution. SAEInt.J.Aerosp.2008,1,2008-01-2874. [CrossRef]
+3. Costa,F.P.;Henrique,L.;Whitacker,L.;Bringhenti,C.;Tomita,J.T. AnOverviewofSmallGasTurbineEngines. InProceedingsof
+the24thISABEconference,Canberra,Australia,22–27September2019;ISABE2019,ISABE-2019-24387.
+4. Weinberg,M.;Wyzykowski,J. DevelopmentandTestingofaCommercialTurbofanEngineforHighAltitudeUAVApplications.
+SAETech.Pap.2001.Availableonline:https://saemobilus.sae.org/content/2001-01-2972/(accessedon8May2020). [CrossRef]
+5. Rodgers,C. AffordableSmallerTurbofans.Volume1:TurboExpo2005.ASMEDC2005,1,1–10. [CrossRef]
+6. Large,J.;Pesyridis,A. Investigationofmicrogasturbinesystemsforhighspeedlongloitertacticalunmannedairsystems.
+Aerospace2019,6,55. [CrossRef]
+7. Nelson,J.R.;Dix,D.M. DevelopmentofEnginesforUnmannedAirVehicles:SomeFactorstoBeConsidered; TechnicalReport;Institute
+forDefenseAnalyses:Alexandria,VA,USA,2003. [CrossRef]
+8. Razinsky,E.;Cae,T.TheJ402-CA-702-AModern1000Lb.ThrustRPVEngine. InProceedingsoftheAIAA/ASME/SAE/ASEE
+24thJointPropulsionConference&Exhibit,Boston,MA,USA,11–13July1988.
+9. Jackson,M. Titanium—21stcentury. Mater.World2007,15,33–34.
+10. Leyens,C.;Peters,M.(Eds.) TitaniumandTitaniumAlloys;Wiley-VCHVerlagGmbH&Co.KGaA:Weinheim,Germany,2003.
+[CrossRef]
+11. Kashapov,O.;Novak,A.;Nochovnaya,N.;Pavlova,T. Sostojanie,problemyiperspektivysozdanijazharoprochnyhtitanovyh
+splavovdljadetalejGTD(State,problemsandprospectsofheat-resistanttitaniumalloysforGTEparts). Proc. VIAM2013,3,
+1–12.
+12. Whittaker,M. TitaniumintheGasTurbineEngine.InAdvancesinGasTurbineTechnology;Benini,E.,Ed.;InTech:Rijeka,Croatia,
+2011;Volume4.[CrossRef]
+13. Moustapha,H. FutureTechnologyChallengesforSmallGasTurbines. In AIAAInternationalAirandSpaceSymposiumand
+Exposition:TheNext100Years;AmericanInstituteofAeronauticsandAstronautics:Reston,VA,USA,2003;pp.1–11. [CrossRef]
+14. Liu, S.; Shin, Y.C. Additive manufacturing of Ti6Al4V alloy: A review. Mater. Des. 2019, 164, 107552.
+doi:10.1016/j.matdes.2018.107552[CrossRef]
+15. Salvati,E.;Lunt,A.J.G.;Ying,S.;Sui,T.;Zhang,H.J.;Heason,C.;Baxter,G.;Korsunsky,A.M. Eigenstrainreconstructionof
+residualstrainsinanadditivelymanufacturedandshotpeenednickelsuperalloycompressorblade. Comput. MethodsAppl.
+Mech.Eng.2017,320,335–351. [CrossRef]
+16. Boguslaev,V.A.;Pukhal’Skaya,G.V.;Koval’,A.D.;Stepanova,L.P.;Tkachenko,V.V. Theeffectofmethodsforhardeningfinish
+treatmentofbladesmadeoftitaniumalloysonthestateoftheirsurfacelayer. Met.Sci.HeatTreat.2008,50,18–24. [CrossRef]
+17. Zou,S.;Wu,J.;Zhang,Y.;Gong,S.;Sun,G.;Ni,Z.;Cao,Z.;Che,Z.;Feng,A.SurfaceintegrityandfatiguelivesofTi17compressor
+bladessubjectedtolasershockpeeningwithsquarespots. Surf.Coat.Technol.2018,347,398–406. [CrossRef]Aerospace2021,8,1 14of16
+18. Azushima,A.;Kopp,R.;Korhonen,A.;Yang,D.Y.;Micari,F.;Lahoti,G.D.;Groche,P.;Yanagimoto,J.;Tsuji,N.;Rosochowski,A.;
+etal. Severeplasticdeformation(SPD)processesformetals. CIRPAnn.Manuf.Technol.2008,57,716–735. [CrossRef]
+19. Segal,V. Review:ModesandProcessesofSeverePlastic. Materials2018,11,1175. [CrossRef][PubMed]
+20. Valiev,R.Z.;Estrin,Y.;Horita,Z.;Langdon,T.G.;Zehetbauer,M.J.;Zhu,Y. ProducingBulkUltrafine-GrainedMaterialsbySevere
+PlasticDeformation:TenYearsLater. JOM2016,68,1216–1226. [CrossRef]
+21. Husaain,Z.;Ahmed,A.;Irfan,O.M.;Al-Mufadi,F. SeverePlasticDeformationandItsApplicationonProcessingTitanium:
+AReview. Int.J.Eng.Technol.2017,9,426. [CrossRef]
+22. Pavlenko,D.V.;Beygelzimer,Y.E. VorticesinNoncompactBlanksDuringTwistExtrusion. PowderMetall. Met. Ceram. 2016,
+54,517–524. [CrossRef]
+23. Estrin,Y.;Vinogradov,A. Extremegrainrefinementbysevereplasticdeformation:Awealthofchallengingscience. ActaMater.
+2013,61,782–817. [CrossRef]
+24. Beygelzimer,Y.E.;Orlov,D.;Korshunov,A.;Synkov,S.;Varyukhin,V.;Vedernikova,I.;Reshetov,A.;Synkov,A.;Polyakov,L.;
+Korotchenkova,I. Featuresoftwistextrusion:Method,structures&materialproperties. SolidStatePhenom.2006,114,69–78.
+[CrossRef]
+25. Bykov,I.O.;Ovchinnikov,A.V.;Pavlenko,D.V.;Lechovitzer,Z.V. Composition,Structure,andPropertiesofSinteredSilicon-
+ContainingTitaniumAlloys. PowderMetall.Met.Ceram.2020,58,613–621. [CrossRef]
+26. Moiseev,V.N. TitaniuminRussia. Met.Sci.HeatTreat.2005,47,371–376. [CrossRef]
+27. Moiseyev,V.N. TitaniumAlloys.RussianAircraftandAerospaceApplications;CRCPress:BocaRaton,FL,USA,2005. doi:10.1201/
+9781420037678.[CrossRef]
+28. Ermachenko,A.G.;Lutfullin,R.Y.;Mulyukov,R.R. Advancedtechnologiesofprocessingtitaniumalloysandtheirapplicationsin
+industry. Rev.Adv.Mater.Sci.2011,29,68–82.
+29. Pavlova,T.;Kashapov,O.;Nochovnaja,N. Titanovyesplavydljagazoturbinnyhdvigatelej(Titaniumalloysforgasturbine
+engines). Proc.VIAM2012,5,8–14.
+30. Kommel,L. Microstructureevolutionintitaniumalloysenforcedbyjouleheatingandsevereplasticdeformationconcurrently.
+J.Manuf.Technol.Res.2010,2,59–75.
+31. Semenova,I.P.;Raab,G.I.;Valiev,R.Z.Nanostructuredtitaniumalloys:Newdevelopmentsandapplicationprospects. Nanotechnol.
+Russ.2014,9,311–324. [CrossRef]
+32. Pavlenko, D.V.; Belokon’, Y.; Tkach, D.V. Resource-Saving Technology of Manufacturing of Semifinished Products from
+Intermetallicγ-TiAlAlloysIntendedforAviationEngineering. Mater.Sci.2020,55,118–124. [CrossRef]
+33. Nochovnaya,N.A.;Panin,P.V.;Kochetkov,A.S.;Bokov,K.A. ModernRefractoryAlloysBasedonTitaniumGamma-Aluminide:
+ProspectsofDevelopmentandApplication. Met.Sci.HeatTreat.2014,56,364–367. [CrossRef]
+34. Appel,F.; Paul,J.D.H.; Oehring,M. GammaTitaniumAluminideAlloys; Wiley-VCHVerlagGmbH&Co. KGaA:Weinheim,
+Germany,2011.
+35. Zakharov,V. EffectofScandiumontheStructureandPropertiesofAluminumAlloys. Met.Sci.HeatTreat.2003,45,246–253.
+[CrossRef]
+36. Røyset,J.;Ryum,N.Scandiuminaluminiumalloys.Int.Mater.Rev.2005,50,19–44.doi:10.1179/174328005X14311.[CrossRef]
+37. Ahmad,Z. Thepropertiesandapplicationofscandium-reinforcedaluminum. JOM2003,55,35–39. doi:10.1007/s11837-003-
+0224-6.[CrossRef]
+38. Liddicoat,P.V.;Liao,X.Z.;Zhao,Y.;Zhu,Y.;Murashkin,M.Y.;Lavernia,E.J.;Valiev,R.Z.;Ringer,S.P.Nanostructuralhierarchy
+increasesthestrengthofaluminiumalloys.Nat.Commun.2010.doi:10.1038/ncomms1062.[CrossRef]
+39. Bahadori,S.R.;Mousavi,S.A.A.A.;Shahab,A.R. Sequenceeffectsoftwistextrusionandrollingonmicrostructureandmechanical
+propertiesofaluminumalloy8112. J.Phys.Conf.Ser.2010,240,012132. doi:10.1088/1742-6596/240/1/012132.[CrossRef]
+40. Seikh,A.H.;Baig,M.;UrRehman,A. EffectofSeverePlasticDeformation,throughEqual-ChannelAngularPressProcessing,on
+theElectrochemicalBehaviorofAl5083Alloy. Appl.Sci.2020,10,7776. [CrossRef]
+41. Beygelzimer, Y.; Kulagin, R.; Estrin, Y.; Toth, L.S.; Kim, H.S.; Latypov, M.I. TwistExtrusionasaPotentToolforObtaining
+AdvancedEngineeringMaterials:AReview. Adv.Eng.Mater.2017,19. [CrossRef]
+42. Yalçinkaya,T.;S¸ims¸ek,Ü.;Miyamoto,H.;Yuasa,M. NumericalAnalysisofaNewNonlinearTwistExtrusionProcess. Metals
+2019,9,513. [CrossRef]
+43. Joudaki,J.; Safari,M.; Alhosseini,S.M. HollowTwistExtrusion: Introduction,StrainDistribution,andProcessParameters
+Investigation. Met.Mater.Int.2019,25,1593–1602. [CrossRef]
+44. Latypov,M.I.;Alexandrov,I.V.;Beygelzimer,Y.E.;Lee,S.;Kim,H.S. Finiteelementanalysisofplasticdeformationintwist
+extrusion. Comput.Mater.Sci.2012,60,194–200. [CrossRef]
+45. Pavlenko, D.V. EffectofPorosityParametersontheStrengthofGasTurbineCompressorBladesMadeofTitaniumAlloys.
+StrengthMater.2019,51,887–899. [CrossRef]
+46. Pavlenko,D.V.;Ovchinnikov,A.V. EffectofDeformationbytheMethodofScrewExtrusionontheStructureandPropertiesof
+VT1-0AlloyinDifferentStates. Mater.Sci.2015,51,52–60. [CrossRef]
+47. Ivasishin,O.M.;Anokhin,V.M.;Demidik,A.N.;Sawakin,D.G. Cost-effectiveblendedelementalpowdermetallurgyoftitanium
+alloysfortransportationapplication. KeyEng.Mater.2000,188,55–62. [CrossRef]Aerospace2021,8,1 15of16
+48. Fang,Z.Z.;Sun,P. Pathwaystooptimizeperformance/costratioofpowdermetallurgytitanium—Aperspective. KeyEng.Mater.
+2012,520,15–23. [CrossRef]
+49. Pavlenko,D. Povyshenietehnologicheskojplastichnostispechennyhtitanovyhsplavov(Improvingthetechnologicalplasticityof
+sinteredtitaniumalloys). Process.Mech.Process.Mach.Build.2015,15,102–112.
+50. Kulagin,R.;Zhao,Y.;Beygelzimer,Y.;Toth,S.L.;Shtern,M. Modelingstrainanddensitydistributionsduringhigh-pressure
+torsionofpre-compactedpowdermaterials. Mater.Res.Lett.2017,5,179–186. [CrossRef]
+51. Pavlenko,D. Structuralandchemicalinhomogeneitiesinthesinteredtitaniumalloysaftersevereplasticdeformation. Metalozn.
+ObrobkaMet.2020,95,37–45. [CrossRef]
+52. Beygelzimer,Y.E.;Pavlenko,D.V.;Synkov,O.S.;Davydenko,O.O. TheEfficiencyofTwistExtrusionforCompactionofPowder
+Materials. PowderMetall.Met.Ceram.2019,58,7–12. [CrossRef]
+53. Pavlenko,D.V.;Pribora,T.I.;Kocjuba,V.J.;Paholka,S.N.PerspektivnyematerialyitehnologiidljadetalejrotorakompressoraGTD
+(Promisingmaterialsandtechnologiesfortherotatingcomponentsofaxialcompressor). Aerosp.Sci.Technol.2016,8,128–138.
+54. Lu,W.;Huang,G.;Xiang,X.;Wang,J.;Yang,Y.Thermodynamicandaerodynamicanalysisofanair-drivenfansysteminlow-cost
+high-bypass-ratioturbofanengine. Energies2019,12,1917. [CrossRef]
+55. Chivukula,V.;Mohla,R.;Srinivas,G.Theflowvisualizationofsmall-scaleaircraftengineaxialflowturbinerotorusingnumerical
+technique. Int.J.Mech.Prod.Eng.Res.Dev.2019,9,777–784. [CrossRef]
+56. Beygelzimer,Y.; Kulagin,R.; Raspornya,D.; Varukhin,D. Deformationhomogenizationofaluminumalloysthroughtwist
+extrusion. InProceedingsofthe10thInternationalConferenceonTechnologyofPlasticity(ICTP2011),Aachen,Germany,25–30
+September2011;pp.241–243.
+57. Łyszkowski, R.; Czujko, T.; Varin, R.A. Multi-axialforgingofFe3Al-baseintermetallicalloyanditsmechanicalproperties.
+J.Mater.Sci.2017,52,2902–2914. [CrossRef]
+58. Łyszkowski,R.;Polkowski,W.;Czujko,T. SevereplasticdeformationofFe-22Al-5Cralloybycross-channelextrusionwithback
+pressure. Materials2018,11,1–17. [CrossRef]
+59. Imayev,V.;Imayev,R.;Gaisin,R.;Nazarova,T.;Shagiev,M.;Mulyukov,R. Heat-resistantintermetallicalloysandcomposites
+basedontitanium:microstructure,mechanicalpropertiesandpossibleapplication. Mater.Phys.Mech.2017,33,80–96. [CrossRef]
+60. Belokon,K.;Belokon,Y.TheUsageofHeatExplosiontoSynthesizeIntermetallicCompoundsandAlloys.InProcessing,Properties,
+andDesignofAdvancedCeramicsandCompositesII:CeramicTransactions;TheAmericanCeramicSociety:Columbus,OH,USA,
+2018;Volume261,pp.109–115. [CrossRef]
+61. Karpinos,B.S.;Pavlenko,D.V.;Kachan,O.Y. DeformationofasubmicrocrystallineVT1-0titaniumalloyunderstaticloading.
+StrengthMater.2012,44,100–107. [CrossRef]
+62. Przysowa,R.;Russhard,P.Non-ContactMeasurementofBladeVibrationinanAxialCompressor. Sensors2020,20,68. [CrossRef]
+[PubMed]
+63. Masud,J.;Ahmed,S. DesignRefinementandPerformanceAnalysisofTwo-StageFanforSmallTurbofanEngines.InProceedings
+ofthe45thAIAAAerospaceSciencesMeetingandExhibit;AmericanInstituteofAeronauticsandAstronautics:Reston,VA,USA,
+2007;Volume1,pp.161–168. [CrossRef]
+64. Patel,K.S.;Ranjan,R.;Maruthi,N.H.;Deshpande,S.M.;Narasimha,R.Predictionsofaero-thermalloadingofanHPTstatorblade
+ofatypicalsmallturbofanengineTurbomachineryFlows. InProceedingsofthe19thAeSIAnnualCFDSymposium,Bengaluru,
+India,10–11August2017.
+65. Rehman,M.;Afzal,R. Designandanalysisofa11:1centrifugalcompressorforasmallturbofanengine. InProceedingsofthe
+201916thInternationalBhurbanConferenceonAppliedSciencesandTechnology(IBCAST),Islamabad,Pakistan,8–12January
+2019;pp.189–196.[CrossRef]
+66. Evans,S.;Lardeau,S. ValidationofaturbulencemethodologyusingtheSSTk-ωmodelforadjointcalculation. InProceedings
+ofthe54thAIAAAerospaceSciencesMeeting,SanDiego,CA,USA,4–8January2016;AmericanInstituteofAeronauticsand
+Astronautics:Reston,VA,USA,2016.[CrossRef]
+67. Piovesan,T.;Magrini,A.;Benini,E. Accurate2-Dmodellingoftransoniccompressorcascadeaerodynamics. Aerospace2019,
+6,1–19. [CrossRef]
+68. Dvirnyk,Y.;Pavlenko,D.;Przysowa,R. DeterminationofServiceabilityLimitsofaTurboshaftEnginebytheCriterionofBlade
+NaturalFrequencyandStallMargin. Aerospace2019,6,132. [CrossRef]
+69. Be¸dkowski,W. Assessmentofthefatiguelifeofmachinecomponentsunderserviceloading—Areviewofselectedproblems.
+J.Theor.Appl.Mech. 2014,52,443–458.Aerospace2021,8,1 16of16
+70. Mehdizadeh,O.;Zhang,C.;Shi,F. Flow-InducedVibratoryStressPredictiononSmallTurbofanEngineCompressorVanes
+UsingFluid-StructureInteractionAnalysis.InProceedingsofthe44thAIAA/ASME/SAE/ASEEJointPropulsionConference&
+Exhibit,Hartford,CT,USA,21–23July2008;AmericanInstituteofAeronauticsandAstronautics:Reston,Virigina,2008;pp.1–8.
+[CrossRef]
+71. Bhandari,V. DesignofMachineElements;TataMcGraw-HillEducation:NewDelhi,India,2010.
+72. Mulville,D.R. StructuraldesignandTestFactorsofSafetyforSpaceflightHardware; TechnicalReport;TechnicalReportNASA-STD-
+5001;NASA:Washington,DC,USA,1996.

@@ -1,0 +1,334 @@
+MaterialsToday:Proceedingsxxx(xxxx)xxx
+ContentslistsavailableatScienceDirect
+Materials Today: Proceedings
+journal homepage: www.elsevier.com/locate/matpr
+Material characterization of polymer nanocomposites for aerospace
+applications
+Nandita Roya,b, S. Gurusideswara,⇑
+aDepartmentofAerospaceEngineering,SRMInstituteofScienceandTechnology,Kattankulathur603203,India
+bDepartmentofMechanicalandAerospaceEngineering,ArizonaStateUniversity,Tempe85281,UnitedStatesofAmerica
+a r t i c l e i n f o a b s t r a c t
+Articlehistory: Nanocompositeshavebeenusedassuitablesubstitutesformetalmatricesandalloysforquitesometime.
+Availableonlinexxxx Inindustrialapplications,carbonfiberreinforcedpolymers(CFRP)andotherfiberreinforcedpolymers
+(FRP) are more prevalent as compared to polymers reinforced with one dimensional nanofillers. It
+Keywords: becomesimportanttoanalyzetheeffectsonthemechanicalpropertiesofpolymermatrixwhenrein-
+Epoxy forced with nanofillers. The nanocomposites are prepared using epoxy resin as the polymer matrix.
+Carbonnanotubes Twonanofillers,namelycarbonnanotubes(CNT)andhalloysitenanotubes(HNT)areusedtocompare
+Halloysitenanotubes
+theimpactofeachonthepolymermatrix.Threedifferentweightpercentagesforeachnanofillercompos-
+Scanningelectronmicroscopy
+itearefabricated:0.5wt%,1wt%&1.5wt%forCNTand1wt%,5wt%&10wt%forHNTisconsidered.The
+Hardness
+microstructural characterization through Scanning Electron Microscopy (SEM) and X-Ray Diffraction
+Mechanicalproperties
+(XRD)providedanin-depthunderstandingofthedispersionofnanofillersinthepolymermatrixand
+thequalityofitsfabrication.TheimagesobtainedfromtheSEMshowthepresenceofmicrovoidsand
+someagglomerationsinthespecimens.TheXRDplotswithpeakbroadeningconfirmthesmallersize
+of crystallite in nanocrystalline materials of the specimens. The mechanical characterization, which
+includes hardness, tensile and flexural showed the effect of nanofillers in the epoxy. However, it can
+beconcludedthattheapplicationof1wt%nanofillersleadstoanoptimumdispersionandimproved
+thepolymermechanicalcapabilities.Afractographyanalysiscanbeconsideredasafuturescopeofthis
+study.
+Copyright(cid:1)2023ElsevierLtd.Allrightsreserved.
+Selectionandpeer-reviewunderresponsibilityoftheInternationalConferenceonFutureTrendsinMate-
+rialsandMechanicalEngineering.
+1.Introduction tiesduetothedispersionofnano-fillersintothepolymermatrix
+andalso,theyaddressedthecost,processingdifficultiesandfuture
+Compositesaremadeoftwoconstituentmaterials,thematrix perspectivesofnanocomposites.Njugunaetal.[2]providedawide
+(binder) and the reinforcement. The matrix surrounds and pre- rangeofmaterials,whicharebeingusedinthestructuralandther-
+servesitsreinforcementrelativelocationandproperties;therefore, mal applications. The review work extracts valuable information
+itprovidessupporttothereinforcement.Since,thereinforcement onfundamentalelementsinvolvingfieldemission,thermalstabil-
+incorporatetheirextraordinarymechanical,chemical,andphysical ity,electrical,opticalaswellasmechanicalpropertiesofpolymer
+qualities into the matrix, the matrix properties need to be nanocomposites for aerospace applicability. It is concluded that
+improved. Rathod et al. [1] reviewed the polymer and ceramic the aerospace industry could be the potential user of polymer
+matrix composites for aerospace applications. The authors pro- nanocomposites. Prabhakar et al. [3] reviewed the tribological
+videdadetaileddiscussionontheinfluenceofmechanicalproper- properties of polymer composites, and addressed the challenges
+ofthecharacterizationofnanocomposites.
+Naturalnanocompositesaremultiphasesolidswithone,two,or
+Abbreviations: CNT, Carbon Nanotubes; HNT, Halloysite Nanotubes; SEM,
+moredimensionswithin100nmandrepeatdistancesbetweenthe
+Scanning Electron Microscopy; XRD, X-Ray Diffraction; FTIR, Fourier Transform
+Infrared;TEM,TransmissionElectronMicroscopy. distinguishablestatesinthenanoscalethatmakeupthematerial.
+⇑ Correspondingauthor. From a fundamental perspective, the nanocomposite is based on
+E-mailaddress:gurusj@alumni.iitm.ac.in(S.Gurusideswar).
+https://doi.org/10.1016/j.matpr.2023.05.606
+2214-7853/Copyright(cid:1)2023ElsevierLtd.Allrightsreserved.
+Selectionandpeer-reviewunderresponsibilityoftheInternationalConferenceonFutureTrendsinMaterialsandMechanicalEngineering.
+Pleasecitethisarticleas:N.RoyandS.Gurusideswar,Materialcharacterizationofpolymernanocompositesforaerospaceapplications,MaterialsToday:
+Proceedings,https://doi.org/10.1016/j.matpr.2023.05.606N.RoyandS.Gurusideswar MaterialsToday:Proceedingsxxx(xxxx)xxx
+the concept of instilling enhanced characteristics to the matrix otubes(HNT)onthemechanicalpropertiesofepoxysystemandto
+with the use of reinforcement at a nano-level. In the concept of identifytheoptimumloadingofcarbonandhalloysitenanotubes.
+nanocomposites, there are two parts; the matrix and
+reinforcement.
+2.Experimentaldetails
+Ain et al. [4] studied the tribological behavior of polymer
+nanocomposites as they find applications in automotive, high-
+2.1.Materials
+barrier food packing films, and extremely hard and wear-
+resistant coatings. In this work, the authors discussed the key
+It is known that there are primarily two types of polymer-
+mechanisms governing the effects of reinforcement on the
+curingmethods,whichclassifytheresinasthermoplasticorther-
+mechanicalandtribologicalbehaviorofpolymernanocomposites.
+moset resins. Uncured thermoplastic resins at room temperature
+Husaen[5]investigatedtheeffectofcarbonnanotubeshavingvar-
+areinsolidstateanditmakestheimpregnationofnanofillersinto
+iousweightpercentageof0.01,0.05,and0.1%inepoxymatrixand
+theresinsystembecomedifficult.Themanufacturingprocedureof
+itseffectonthemechanicalpropertiessuchastensile,bending,and
+thermoplasticcompositesisverytediousincomparisonwithtradi-
+hardness.Fromtheresults,itisobservedthattheflexuralandten-
+tional thermoset composites. Due to this problem, the current
+silemodulusoftheepoxynanocompositeswasfoundtobehigher
+study focusses on thermoset polymer resins, which can be cured
+than the neat epoxy, which could be due to the highmechanical
+atroomtemperature.Onesuchthermosetpolymerresinisepoxy,
+strength of the carbon nanotubes. Njuguna et al. [6] provided a
+whichisbeingusedasamatrixinthecurrentstudy.
+detailed review of nanocomposites and primarily focused on the
+Uncuredthermosetresinsatroomtemperatureareinaliquid
+characterization techniques such as HRSEM, FTIR, XRD, TEM, and
+stateanditmakestheimpregnationofreinforcingthenanofillers
+other methods. Dinca et al. [7] reported that the structural com-
+intotheresin systembecomeconvenient.Duringthecuringpro-
+posites are the most important application of nanocomposites in
+cess, the resin molecules are cross-linked through a catalytic
+aerospaceindustryandalsoitcanbeusedasanti-lightning,anti-
+chemical reaction. This exothermic reaction facilitates the resin
+radarprotectorsandpaints.Theauthorsstudiedtheeffectsofsonic
+tocreateextremelystrongbondswithoneanother,therebychang-
+dispersion of carbon nanotubes and montmorillonite clay on the
+ingfromaliquidtoasolid.Apartfromtheeaseofmanufacturing
+mechanical, electrical, rheological and tribological properties of
+process, thermoset resins also exhibit excellent properties at a
+epoxy polymers and laminated composites, with carbon or glass
+low material cost. The resin used for the research is Araldite CY
+fiber reinforcement, with nonadditive epoxy matrix. Kamal et al.
+205, an aliphatic glycidyl epoxy resin with Araldite hardener HY
+[8] reviewed the various fabrication techniques for polymeric
+951 (N’-[2-(2-aminoethylamino) ethyl] ethane-1,2-diamine). It is
+nanocomposites.Fuetal.[9]discussedthebasicaspectsofpoly-
+important to understand the effects of curing on the mechanical
+mernanocompositesanditsvariousprocessingmethodsandchar-
+capabilitiesofthepolymernanocomposite.
+acterizationtechniques.Askaretal.[10]explainedthebenefitsof
+Basedontheliteraturesurvey,carbonnanotubesandhalloysite
+multifunctional nanocomposites such as wear resistance, optical
+nanotubes were considered as the reinforcing one-dimensional
+transparency,stimuliresponsiveness,surficialwettability,recycla-
+nanofillersforthecurrentstudy.Microstructuralcharacterizations
+bility,andbiodegradability.Inthiswork,theauthorsincorporated
+werecarriedoutusingSEMandXRDandmechanicalcharacteriza-
+halloysitenanotubes(HNT)andcelluloseacetatebutyrate(CAB)as
+tionwascarriedouttounderstandtheinfluenceofnanofillers in
+nanotubes(fillers)anddispersivemolecules.respectively.Kamble
+themechanicalpropertiesoftheepoxysystem.
+etal.[11]explainedthebenefitsofhalloysitenanotubes.Itisnoted
+thatthemechanicallyadvantageousnanomaterialssuchascarbon
+nanotubes, nanofluids, nanoparticles, nanoemulsions, nanocap- 2.2.Compositionandfabrication
+sules,etc.,arehazardoustoenvironment.Inordertoovercomethis
+issue,halloysitenanotubesarepreferred,whichisnaturallyavail- Theexperimentalsetupiscomposedofamoldhavingtwoglass
+ablenanomaterialandeco-friendlyinnature. plateswithtwomylarsheetsandrubberbeading.Glassplatesof
+Inrecentyears,alotofresearchworkhavebeencarriedoutin 300 (cid:1) 300 mm were used as a supporting member and the wax
+natural fiber reinforced composites due to their easy availability, coatedmylarsheetswereusedtogetbettersurfacefinishandto
+low cost, sustainability, eco-friendliness, biodegradability and releasethespecimeneasilyfromthemold.
+recyclability. Kumar et al. [12] presented a review study on the Inordertofabricatetheepoxynanocomposites,threedifferent
+mechanicalpropertiesofbamboofiber,bamboofiber-basedcom- weightpercentagesforeachnanofillercompositewereconsidered
+posites, and hybrid bamboo fiber-based composites. Goyat et al. asfollows:0.5wt%,1wt%and1.5wt%forCNTand1wt%,5wt%
+[13] carried out a detailed review on the mechanical properties and10wt%forHNTisconsidered.Therequiredweightpercentage
+of untreated coir and chemically treated coir composites. Das of nanofiller is incorporated into a calculated 200 g of epoxy.
+etal.[14]presentedadetailedreviewofbiocompositesmadefrom Therefore1g,2g&3gofCNTwasusedand2g,10g,and20g
+various wastes and their related mechanical and fire properties. of HNT was used to prepare the specimens. A mechanical stirrer
+Based on the recent studies, it is concluded that the nanofillers wasusedforadurationof7htofacilitategooddispersionofthe
+can also be added as secondary reinforcement with natural fiber nanofillersintheresin.TheadditionofCNTincreasedtheviscosity
+reinforcedpolymerstoimproveitsmechanicalproperties. oftheepoxyandhenceaspeedof200rpmwassettodispersethe
+Polymercompositeshavebeenresearchedforthepastfewdec- nanofillersinepoxysystem.InthecaseofHNT,theepoxyviscosity
+adesanditisextensivelyusedintheconstruction,automobile,and wasunchanged.Thus,aspeedof300rpmwassettodispersethe
+aerospace industries. Significant changes in the compositions of nanofillers in epoxy system. After dispersion of nanofillers into
+aerospacepartswouldmakethemlighterwithoutcompromising epoxysystem,arequiredamountofhardenerwasaddedandthe
+structural strength. By incorporating proper manufacturing tech- mixturewaspouredintothemold.Theweightofnanofiller,epoxy
+niques,thissmall-scaleevaluationcanbeincorporatedinsolving and hardener were measured carefully using a high-resolution
+real-world mechanical and aerospace problems. In this current weightbalance.Itusuallytakestheepoxyandhardener8htocure,
+study, an attempt is made to enhance the mechanical properties but due to the addition of nanofiller 24 h was set as the curing
+of epoxy matrix by incorporating one-dimensional nanofillers as time.
+reinforcement.Themainobjectiveofthecurrentworkistounder- Aftercuringprocess,thespecimensweremachinedusingwater
+standtheinfluenceofcarbonnanotubes(CNT)andhalloysitenan- jetcuttingmachinetogetdesiredgeometry.Thedimensionofthe
+2N.RoyandS.Gurusideswar MaterialsToday:Proceedingsxxx(xxxx)xxx
+specimens was considered according to ASTM standards. So, the process, each specimen is held between two crossheads and
+cuttingmethodincorporatedwaswater-jetcutting. clamped.Theloadisappliedgraduallyandthespecimenelongates
+whilethetestingprocesscontinuesuntilthespecimenbreaks.The
+graph between elongation with respect to the force applied is
+2.3.Microstructuralcharacterization
+recorded. The suggested test speed is given as a strain rate of
+0.01 min(cid:3)1 or constant crosshead speed of 2 mm/min (0.05 in/
+X-ray diffraction (XRD) is a non-destructive analyzing tech-
+min).Thegeneralpracticeistoconductthetestataconstantcross-
+niqueusedtounderstandthecrystallographicstructureofamate-
+headspeed.
+rial. In this testing, the specimen is placed in the X-ray
+Flexural test or bending test is used to determine the flexural
+diffractometer and illuminated with a beam of X-rays. The X-ray
+strengthandstiffnessofthecompositematerial.Sincecomposites
+tubeandthedetectormoveinasynchronizedway.Theconstruc-
+areanisotropic,thesettingoftestneedstobecarriedoutcarefully
+tiveinterferencewiththeincidentX-rayiscalleddiffraction,which
+andtheflexuraltestsmustbeproperlyconductedtoensureproper
+istheprinciplebehindtheinstrument.Theanglebetweentheinci-
+dentrayandthescatteredbeamiscalled2h.TheX-raydiffraction specimenalignment and loadapplication tothe test specimen.A
+three-point or four-point loading configuration is employed to
+performedinthiscurrentstudyhelpstounderstandthequalityof
+carry out the flexural test. ASTM D790 is used to determine the
+thedispersionofthenanofillersinthespecimen.
+flexural properties of composite materials. Flexural strength, as
+Scanning electron microscopy (SEM) is a technique used to
+well as flexural modulus, is the ability and quantitative value of
+examine the surface images of specimens using a focused beam
+amaterial’scapabilitytoresistcrackingorbreakingunderbending
+of electrons. The electrons penetrate through the specimen till a
+stress. A material with high flexural strength has the ability to
+certain extentand thenget reflectedby thespecimenmolecules.
+resistdeformationwhenaloadisimplementedintensionorcom-
+The reflected electrons are captured and then processed to get
+pression; it inherently withstands bending, stretching, twisting,
+micrographs. In general, the SEM images provide an insight to
+andothertypesofstress.Byusingtheoryofbending,theflexural
+thelevelofdispersionandqualityofthefabricatednanocompos-
+strengthofthespecimenscanbeevaluated.
+ites.Dikinetal.[15]discussedthefactorsinfluencesthescanning
+electronmicroscopy,suchasaccelerationvoltage,conductivityof
+thematerialsofthecomposites,thicknessofthespecimenetc.
+3.Resultsanddiscussion
+2.4.Mechanicalcharacterization
+3.1.Microstructuralcharacterization
+Mechanical characterization was conducted by performing
+hardness, tensile and flexural tests on the composite specimens.
+TheX-raydiffractionwasperformedtocharacterizethequality
+A hardness test is used to test wear resistance, toughness etc. of
+of dispersion of fabricated nanocomposites. The results show an
+the material. Hardness is determined by performing indentation
+exfoliated structure of nanocomposites. From the XRD results, it
+for a specified period of time. The indenting instrument used is
+is noted that the specimens possess a uniform dispersion. Fig. 2
+calleda‘durometer’.Itincludesacalibratedspringwhichismeant
+shows the micrographs obtained from scanning electron micro-
+toapplyadefinedandconstantload.Theindentationhardnessis
+scopy.Fromthemicrographs,itisnotedthatlowerweightfraction
+inversely proportional to the penetration and is dependent on
+ofnanofillersshowauniformdistributionofthe nanofillers with
+theelasticmodulusandviscoelasticityofthematerial.Thehard-
+slight presence of agglomerations and higher weight fraction of
+nesstestusedinthecurrentstudyis‘‘ShoreDhardnessscale”.It
+nanofillers show a lot of micro voids. But the micro voids were
+measuresthehardnessofhardrubbers,semi-rigidpolymers,and
+inevitableduetotheabsenceofvacuumsetup.
+hardpolymers.TheshoreDtestinvolvesaspring-loadedindenting
+machineformeasuringthematerial’shardness.Thetypeofinden-
+tervarieswithrespecttoeachmaterialtobetested.ShoreDhard-
+nesstestemploysasharpconicalpointasindentertipandahigh
+3.2.Mechanicalcharacterization
+stiffnessspringtomakeitidealfortestingharderpolymerssuchas
+curedepoxiesorhighlycross-linkedmaterials.Thespecificationof
+Hardnessisdescribedasaresultofempiricaltestingowingto
+theindenterisasshowninTable1.
+the indentation of a specimen using a durometer. The hardness
+Tensile testing is used to determine the elongation, ultimate
+value of the specimens was measured in the machine and the
+tensile strength and Young’s modulus of the composite material.
+resultsareshowninFig.3.Itisnotedthattheadditionofnanofil-
+Tensiletestingisoneofthedestructivetestscarriedouttounder-
+lers has not impacted the hardness criterion of epoxy. Shore D
+stand the mechanical characteristics of the fabricated nanocom-
+hardness1wt%CNTwithepoxyand1wt%HNTwithepoxyshows
+posites. ASTM D638 is used to test plastics reinforced with
+an improvementin comparison with neat epoxy. Since the hard-
+particles and it is one of the primary tests used to characterise
+nessisasurfaceproperty,itcanbespeculatedthatduetoimper-
+thetensilepropertiesofcompositematerials.Fig.1showstheten-
+fectionsinthespecimen,theregionsofindentationintheCNTand
+silespecimensofepoxyanditsnanocomposites.Duringthetesting
+HNTspecimensmighthavemicrovoids.
+Thetensiletestingwasperformedandtheadditionofnanofil-
+lers considerably increases the tensile strength of epoxy. From
+Table1
+SpecificationsofShoreDhardness. Fig. 4, it is noted that the neat epoxy system shows the lowest
+valueofultimatetensilestrengthand1wt%CNTand1wt%HNT
+Property Value
+showthehighestultimatetensilestrength.Theadditionofnanofil-
+Hardnessscale ShoreD lersatmorethanaspecifiedlevelledtopoordispersionofnanofil-
+Indentertype Conicaltype
+lersintotheepoxysystem.
+Tipangle 30(cid:3)
+TheflexuraltestingwasperformedandtheresultsofbothCNT
+Tipsize 0.1mmradius
+Range 20–90 andHNTisshowninFig.5.Thereasonforthedecrementinflexu-
+Resolution 0.1 ralstrengthcouldbeduetotheexistenceofinevitablemicrovoids
+Testingload 44.64N oragglomerationofnanofillers.
+3N.RoyandS.Gurusideswar MaterialsToday:Proceedingsxxx(xxxx)xxx
+Fig.1. Specimensfortensiletestingofepoxyanditscarbonnanotubes(a)-(d)andhalloysites(e)-(h)nanocomposites(a)Neatepoxy(b)0.5wt%CNT(c)1wt%CNT(d)1.5wt
+%CNT(e)Neatepoxy(f)1wt%HNT(g)5wt%HNT(h)10wt%HNT.
+Fig.2. SEMmicrographsofepoxyanditsnanocomposites(a)Neatepoxy(b)0.5wt%CNT(c)1.5wt%CNT(d)1wt%HNT(e)5wt%HNT(f)10wt%HNT.
+Fig.3. VariationofShoreDHardness(a)CNT(b)HNT.
+4.Conclusion thatitisnotedthatlowerweightfractionofnanofillersshowauni-
+formdistributionofthenanofillerswithslightpresenceofagglom-
+The epoxy/CNT and epoxy/HNT specimens containing various erations and higher weight fraction of nanofillers show a lot of
+weightfractionswerefabricatedusinghandmoldtechnique.The microvoids.Variousmechanicalcharacterization,whichincludes
+quality of the dispersion of nanofillers in the epoxy matrix was hardness,tensileandflexuraltestswerecarriedouttounderstand
+characterizedthroughSEMandXRDtechniques.Theresultsreveal theinfluenceofnanofillersintheepoxysystem.Fromtensiletest-
+ing,itisobservedthattheadditionof1wt%CNTand1wt%HNT
+4N.RoyandS.Gurusideswar MaterialsToday:Proceedingsxxx(xxxx)xxx
+Fig.4. VariationofTensileStrength(a)CNT(b)HNT.
+Fig.5. VariationofFlexuralStrength(a)CNT(b)HNT.
+showedanenhancedstrengthincomparisonwithneatepoxysys- [2] J. Njuguna, K. Pielichowski, Polymer nanocomposites for aerospace
+tem. From hardness and flexural tests, it is noted that the neat applications:properties,Adv.Eng.Mater.5(11)(2003)769–778.
+[3] K.Prabhakar,S.Debnath,R.Ganesan,K.Palanikumar,Areviewofmechanical
+epoxyspecimensshowthehighestvalueofhardnessandflexural
+andtribologicalbehaviourofpolymercompositematerials,in:IOPConference
+strength, which could be due to the presence of agglomerations Series: Materials Science and Engineering, vol. 344, No. 1, p. 012015, IOP
+andmicrovoids. Publishing.
+[4] Q.U. Ain, R. Sehgal, M.F. Wani, M.K. Singh, An overview of polymer
+Polymernanocompositeshavealotofscopeintheimpending
+nanocomposites: Understanding of mechanical and tribological behaviour,
+future and the current study may beextended and the following in:IOPConferenceSeries:MaterialsScienceandEngineering,vol.1189,No.1,
+area may be focused:Fractographyand thermalcharacterization. 2021,p.012010,IOPPublishing.
+[5] S.I.Husaen,Mechanicalpropertiesofcarbonnanotubereinforcedepoxyresin
+Further improvements can also be implemented in fabrication
+composites,BaghdadSci.J.9(2)(2012)330–334.
+methodstoget good specimens. Thenanofillerscanalso beused [6] J. Njuguna, K. Pielichowski, Polymer nanocomposites for aerospace
+as a secondary reinforcement with traditional fiber reinforced applications:characterization,Adv.Eng.Mater.6(4)(2004)204–210.
+[7] I.Dinca,C.Ban,A.Stefan,G.Pelin,Nanocompositesasadvancedmaterialsfor
+polymers.Thelimitationsofpolymernanocompositesneedtobe
+aerospaceindustry,IncasBull.4(4)(2012)73.
+incorporatedinlargescaleaerospaceindustrieswithfurtherexplo- [8] A.Kamal,M.Ashmawy,A.M.Algazzar,A.H.Elsheikh,Fabricationtechniquesof
+rationintopolymerfiberbasedcomposites. polymericnanocomposites:Acomprehensivereview,Proc.Inst.Mech.Eng.
+PartC:J.Mech.Eng.Sci.236(2021)4843–4861.
+[9] S. Fu, Z. Sun, P. Huang, Y. Li, N. Hu, Some basic aspects of polymer
+CRediTauthorshipcontributionstatement nanocomposites:Acriticalreview,NanoMater.Sci.1(1)(2019)2–30.
+[10] K.A.AskarK.SongEpoxy-basedmultifunctionalnanocomposites,in:Polymer-
+basedmultifunctionalnanocompositesandtheirapplications2019111135
+Nandita Roy: Conceptualization, Investigation, Validation,
+[11] R. Kamble, M. Ghag, S. Gaikawad, B.K. Panda, Halloysite nanotubes and
+Writing – original draft. S. Gurusideswar: Methodology, Project applications:Areview,J.Adv.Sci.Res.3(2)(2012)25–29.
+administration, Resources, Supervision, Visualization, Writing – [12] V.Goyat,G.Ghangas, S.Sirohi, A.Kumar, J.Nain,Areview onmechanical
+propertiesofcoirbasedcomposites,Mater.Today:Proc.62(4)(2022)1738–
+review&editing.
+1745.
+[13] J.Kumar,S.Chaudhary,V.Goyat,A.Goyal,Areviewonmechanicalproperties
+Dataavailability of bamboo fiber-based composites, in: C. Pandey, V. Goyat, S. Goel (Eds.),
+Advances in materials and mechanical engineering, Lecture Notes in
+Mechanical Engineering, Springer, Singapore, 2021, https://doi.org/10.1007/
+Datawillbemadeavailableonrequest. 978-981-16-0673-1_7
+[14] OisikDas,KarthikBabu,VigneshwaranShanmugam,KesavaraoSykam,Mike
+Tebyetekerwa,RasoulEsmaeelyNeisiany,MichaelFörsth,GabrielSas,Jaime
+DeclarationofCompetingInterest
+Gonzalez-Libreros, Antonio J. Capezza, Mikael S. Hedenqvist, Filippo Berto,
+Seeram Ramakrishna, Natural and industrial wastes for sustainable and
+Theauthorsdeclarethattheyhavenoknowncompetingfinan- renewable polymer composites, Renew. Sustain. Energy Rev. 158 (2022),
+https://doi.org/10.1016/j.rser.2021.112054.
+cial interests or personal relationships that could have appeared
+[15] D.Dikin,K.Kohlhaas,G.Dommett,S.Stankovich,R.Ruoff,Scanningelectron
+toinfluencetheworkreportedinthispaper. microscopy methods for analysis of polymer nanocomposites, Microsc.
+Microanal.12(S02)(2006)674–675.
+References
+[1] V.T. Rathod, J.S. Kumar, A. Jain, Polymer and ceramic nanocomposites for
+aerospaceapplications,Appl.Nanosci.7(8)(2017)519–548.
+5

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boTai Admin Paneli</title>
+    <link rel="stylesheet" href="{% static  'css/admin.css' %}"> 
+    
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>boTai Administrator</h1>
+            <img src="https://www.tusas.com/Content/images/logoS.svg" alt="">
+            <nav>
+                <ul>
+                    <li>aysenur_tak@tusas.tr</li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="stats">
+            <div class="stat">
+                <h3>Active Users</h3>
+                <p>150</p>
+            </div>
+            <div class="stat">
+                <h3>Chats Today</h3>
+                <p>120</p>
+            </div>
+            <div class="stat">
+                <h3>Chats All</h3>
+                <p>500</p>
+            </div>
+            <div class="stat">
+                <h3>Data Set</h3>
+                <p>5</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <div class="section-header" onclick="toggleSection(this)">
+                    <h3>Add New Dataset</h3>
+                    <span>+</span>
+                </div>
+                <div class="section-content">
+                    <form action="{% url 'admin_app:AdminMain' %}" method="POST" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            {{ form.as_p }}
+                            
+                        </div>
+                        <button type="AdminMain" name="form_type" value="load_data_set" class="btn">Add Dataset</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <div class="section-header" onclick="toggleSection(this)">
+                    <h3>User Information</h3>
+                    <span>+</span>
+                </div>
+                <div class="section-content">
+                    <table>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Actions</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Süveyda Doe</td>
+                            <td>john@tusas.com</td>
+                            <td>
+                                <a href="#" class="btn">Edit</a>
+                                <a href="#" class="btn btn-warning">Suspend</a>
+                                <a href="#" class="btn btn-success">Promote</a>
+                                <a href="#" class="btn btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Zeynep Smith</td>
+                            <td>jane@example.com</td>
+                            <td>
+                                <a href="#" class="btn">Edit</a>
+                                <a href="#" class="btn btn-warning">Suspend</a>
+                                <a href="#" class="btn btn-success">Promote</a>
+                                <a href="#" class="btn btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <div class="section-header" onclick="toggleSection(this)">
+                    <h3>Site Settings</h3>
+                    <span>+</span>
+                </div>
+                <div class="section-content">
+                    <form>
+                        <div class="form-group">
+                            <label for="site-color">Site Color</label>
+                            <input type="color" id="site-color" name="site-color">
+                        </div>
+                        <div class="form-group">
+                            <label for="background-image">Background Image</label>
+                            <input type="file" id="background-image" name="background-image">
+                        </div>
+                        <div class="form-group">
+                            <label for="site-logo">Site Logo</label>
+                            <input type="file" id="site-logo" name="site-logo">
+                        </div>
+                        <button type="submit" class="btn">Save Settings</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="{% static 'js/admin.js' %}"></script>
+</body>
+
+</html>

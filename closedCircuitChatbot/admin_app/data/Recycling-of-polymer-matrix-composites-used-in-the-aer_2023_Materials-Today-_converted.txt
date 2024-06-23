@@ -1,0 +1,391 @@
+MaterialsToday:Proceedingsxxx(xxxx)xxx
+ContentslistsavailableatScienceDirect
+Materials Today: Proceedings
+journal homepage: www.elsevier.com/locate/matpr
+Recycling of polymer-matrix composites used in the aerospace industry-
+A comprehensive review
+⇑
+Nandini Ramawat B.tech-under graduate , Nidhip Sharma B.tech-under graduate,
+Pranaya Yamba B.tech-under graduate, Madhavchary A T Sanidhi B.tech-under graduate
+DepartmentofAeronauticalEngineering,MLRInstituteofTechnology,Hyderabad500043,India
+a r t i c l e i n f o a b s t r a c t
+Articlehistory: Polymermatrixcompositesareinhighdemandinmanyindustries,includingwindturbineblademan-
+Availableonlinexxxx ufacturing,pressurevesselmanufacturing,andaerospace.Inordertoreduceunsustainabledeconstruc-
+tionthatharmstheenvironmentandthepotentiallitigationriskassociatedwiththereintroductionof
+Keywords: uncertifiedsalvagedcomponentstotheaviationmarket,flightvehiclemanufacturershavestartedcollab-
+Matrix oratingwiththerecyclingsector.Polymermatrixcompositeshavestrongmechanicalqualitiesthatmake
+Polymer-matrixcomposites themappealingforawiderangeofapplications,butbecauseoftheirheterogeneousnature,recovering
+Sustainabilityperformance
+compositewasteischallenging.Thispapercomparesvariouspolymer-matrixcomposites(PMC)waste
+recycling techniques utilizing a multi-criteria decision-making approach and a literature study
+(MCDA).PMCwasterecyclingisbecomingmorepopular,muchworkneedstobedonetobuildawide-
+spread,efficientsystemthatisbothfinanciallysustainableandproducesthehighest-qualityrecovered
+materials.
+Copyright(cid:1)2023ElsevierLtd.Allrightsreserved.
+Selectionandpeer-reviewunderresponsibilityofthescientificcommitteeoftheInternationalConfer-
+enceonAdvancementsinMaterialsandManufacturing.
+1.Introduction semi-crystallinepolymers,thermosetandthermoplasticpolymers,
+epoxies,andnon-epoxypolymers[2].
+Initsmostbasicform,whentwoormorecomponentsarecom- Low-viscosity resin is used to create thermoplastic polymers,
+binedtocreateasinglematerialwithbetterqualitiesisknownas which may alter their physical state in response to temperature.
+composites. In reality, most composites are made up of a bulk Compositesmade ofthermosetmaterials cannotbe melted,even
+material (the matrix) and some sort of reinforcement, which is aftercuring[1].Thismakesitmoredifficulttorecycleinexchange
+generally used to boost the matrix’s toughness and rigidity. This for a wider range of uses at higher temperatures. Epoxies, vinyl
+reinforcementcouldtaketheshapeoffibers.Polymermatrixcom- esters,andunsaturatedpolyestersaresomeofthecommonlyused
+posites (PMCs), metal matrix composites (MMCs), and ceramic typesofthermosets.Matrix,whichtypicallytakesabout40–50%of
+matrix composites (CMCs) make up the three primary categories the composite, keeps reinforcing fibers together. The composite
+ofman-madecompositesusedtoday[1].Thepropertiesofpolymer material’s reinforcement fibers, which can make up to 70% of it,
+matrix composites that make them competitive and enable the aretougherandmorepowerfulthanthematrix[3].Glassorara-
+replacementoftraditionalmaterials,suchaswoodandmetal,are midfibersareoftenemployedinFRPcarbon[1].Duetotheirhigh
+theirlightnessandmechanicalstrengthincombinationwiththeir specificmechanicalproperties,carbon-fiberreinforcedpolymersin
+cheaprelativeproductioncosts. particulararefrequentlyutilisedinavarietyofindustries(suchas
+Materialsthatuseorganicpolymersasthematrixandfibersas aerospace, aviation, autos, infrastructures, etc [4].In the last ten
+thereinforcementarecalledaspolymermatrixcomposites(PMC) years, the demand for carbon-fiber reinforced polymers nearly
+or fiber reinforced plastics (FRP). There are many PMC variants tripled, rising from 60 to 170 kilotons. According to Figure, the
+based on the type of polymer used, including amorphous and growth rate of the anticipated demand for these materials is
+expected to slow down over the next 20 years, although there is
+stillachancethatthedemandforcarbon-fiberreinforcedpolymers
+⇑
+Correspondingauthor. will increase globally. Investigating individual fibre and polymer
+E-mailaddress:20r21a2137@mlrinstitutions.ac.in(N.Ramawat).
+https://doi.org/10.1016/j.matpr.2023.05.386
+2214-7853/Copyright(cid:1)2023ElsevierLtd.Allrightsreserved.
+Selectionandpeer-reviewunderresponsibilityofthescientificcommitteeoftheInternationalConferenceonAdvancementsinMaterialsandManufacturing.
+Pleasecitethisarticleas:N.Ramawat,N.Sharma,P.Yambaetal.,Recyclingofpolymer-matrixcompositesusedintheaerospaceindustry-Acomprehen-
+sivereview,MaterialsToday:Proceedings,https://doi.org/10.1016/j.matpr.2023.05.386N.Ramawat,N.Sharma,P.Yambaetal. MaterialsToday:Proceedingsxxx(xxxx)xxx
+demandontheworldmarketisequallyfascinating.Only500mil- 1.1.Trashproductionandrecyclingpotential
+lionmetrictonnesofthe8300millionmetrictonnesofpolymers
+produced between 1950 and 2015 were recycled.The enormous Anaircraft’smanufacturerdetermineshowlongitwilllast.The
+amountofwasteproducedbyfiber-reinforcedpolymercomposites numberofpressurizationcyclesisusedtodetermineanaircraft’s
+madeitimperativetodevelopeffectiverecyclingstrategies.[4]. lifecycle.Thedurationofaflightduringwhichanaircraftiskept
+In-depthresearchanddevelopmenthavebeenputintopolymer under pressure is known as a ‘‘pressurization cycle.” An airplane
+matrixcomposites(PMCs),whichareemployedinarangeoftech- can be between 5 and 70 years old. A typical aircraft has a 20-
+nological fields, including aerospace. In aerospace industry the yearlifetimewithacertainamountofflightcyclesandhours.Most
+demandofcompositesisincreasingduetoitslightweight,which airplanesaretransferredtotheaircraftboneyardaftertheiruseful
+useslessfuelandwhichin-turnsavesmoneyforthefuel,advanced lives.RetiredairplanesarekeptatAircraftBoneyardasstorage.
+lightweightsubstitutesforheaviermaterialsaremadepossibleby By 2010, the most of materials employed by the air transport
+the ability of polymersas the matrix element and the high load- industry were composites, partly due to a dramatic increase in
+bearing properties of the reinforcing phase. Large passenger air- the use of composites as raw goods for production that started
+planes are increasingly using fiber-reinforced polymers (FRPs). back in the 1970 s. Assessing that an aircraft has a lifespan of
+FRPcompositeshavedevelopedintoadifferentrangeofmaterials around 20 to 25 years, reclaiming or reworking the composite
+whichcanofferconsiderablebenefitsintermsofdensityandfati- trashthathascollectedintheaviationsectorovertheyearswould
+gue characteristics over traditional metallic materials. Because becriticalinthreetofivedecades[5].
+thermosetcompositesarelighterthansimilarmetalconstructions, Composite materials account for about 18.7% of the resources
+the aeronautical industry has noticed a growth in their usage of usedbyaerospacecompaniestoconstructaircraftstructures,but
+theminaircraft,particularlyinairliners.FRPcompositesnowmake thisfigureisexpectedtoriseinthecomingyears.Asignificantuser
+upthemajorityofthestructuralmassofanumberofcommercial of composites is the aviation sector [6]. Composites are widely
+aircraft, including the Boeing 787 and Airbus A350 XWB. In the usedinthemarine,pipelinesandtanks,windenergy,construction,
+spaceindustry,compositesplayacrucialroleinthedevelopment andothersectors,whichincreasesthequantityofwasteproduced
+andproductionofspacehabitatsliketheInternationalSpaceSta- andtherequirementforrecycling.Becausethermosetresinisthe
+tionaswellasrockets,satellites,andotherspacecraft.Despitethe most often used composite (62%), and it is largely constituted of
+fact that PMCs, and in particular FRPs, are the most widely used epoxyresin,therecyclingandreuseofthesekindofepoxy-based
+composites in the aerospace industry and have exceptional thermosetcompositesiscritical[75].
+strength-to-weightratiopotential,theiruseisunquestionablycon-
+strained by their inability to deform plastically. As a result, they 1.2.Recyclingwastecompositematerials
+can only absorb energy through damage generation, which leads
+tofailuremechanismslikedelamination,fiber–matrixdebonding, Recyclinggarbageisonlyrankedfourthamongthebestwaysto
+and fibre fracture. Inadequate out-of-plane (impact) loading per- managewastebytheEuropeanUnion,withavoidance,reduction,
+formancesarealsoquiteimportant. and reuse being preferred over recycling. Mechanical, thermal,
+EpoxiesarethemostoftenutilizedpolymersasmatrixinFRPs and chemical waste treatment techniques for FRP may generally
+intheaerospaceindustry.Comparedtootherthermosettingpoly- be split into these three categories. Although the technological
+mers (such as polyesters), epoxies are particularly suited to the techniqueforrecyclingthisformofgarbageistheeasiest,thefinal
+aerospace industry due to their excellent mechanical properties, productisalsotheleastvalued.Chemicalrecyclingtechniquescan
+adhesion to substrates and fibers, resistance to moisture absorp- beusedtoacquirethehighest-gradematerial[8].Chemicaltech-
+tionandresistancetocorrosiveconditions.Theyalsooperatewell niques are still mostly under research and are not employed in
+at high temperatures because of their high glass transition theindustry[7].
+temperatures.
+This study compares different recycling techniques for FRP 1.2.1.Mechanicalrecycling
+trashinordertoassesstheireffectivenessinlightoftheselected Thefirststepinrecyclingmechanicalcompositematerialsisto
+sustainability criteria. To do this, a literature analysis was con- cut them into smaller pieces that have a maximum size of 50 to
+ducted. This sustainability performance evaluation is carried out 100mm.Thepiecesarethenreducedinsizeto10–50mmusing
+to examine the applicability of MCDA for this type of study and a hammer mill or comparable high-speed grinding equipment.
+tobetterunderstandtheissuesrelatedtoFRPwasterecycling.In Compositematerialissortedintofiber-richandmatrix-richcom-
+order to determine the best-performing approach based on the ponentsusingcyclonesandsieves[9].Bothsortingandtheinitial
+selected sustainability factors, this study compares several FRP cutneedlessenergy.Thecrushingoperationconsumesthemajor-
+wasterecyclingsystemsusingmulticriteriaanalysis. ityoftheenergy[710].
+Recyclingoffersasourceofinexpensive,high-qualitymaterial, ThisisthemostpopulartechniqueofrecyclingFRPwastedue
+it can help to lower the high cost of raw materials for aerospace tothetechnologicaleaseoftheprocess,howevergrindingsignifi-
+components. Recycling more complicated materials, such as cantlylowersthevalueofthematerials.Accordingtoprojections,
+polymer-matrix composites, is becoming increasingly feasible as the cost of carbon fiber utilized in the aerospace sector per kilo-
+recycling technology advances. This indicates that the aerospace grammustbe81.90USDonaveragein2018.However,thisprice-
+industry’spotentialusesforrecycledmaterialsaregrowing.Over- less raw material can only be used so much after crushing [7 10
+all, the future potential of recycling polymer-matrix composites 11].Whencarbonfibreandglassfibreareemployedasreinforcing
+utilised in the aerospace sector is positive. Recycling’s economic fibres,mechanicalpolymermatrixcompositesareformed.
+andenvironmentaladvantageswillbecomemoreevidentastech- Sincethefibrearebrokenbycrushing,thuslargerparticlescan
+nology advances, prompting increasing investment in this field. beusedasreinforcingmaterialforotherFRP.Becausethefibrepar-
+Furthermore,theregulatoryclimateisprojectedtobecomemore ticlesarenotcompletelydetachedfromthepolymermatrixafter
+favourabletorecycling,increasingtheindustry’sexpansion. mechanicalprocessing,theyaretoughtouseasreinforcementin
+anotherFRPbecausetheyarenotastightlyconnectedtothepoly-
+mermatrix[71011].
+Toalleviateadverseenvironmentaleffectsofrisingenergyuti-
+lization for fibre creation, more recycled fibres must be used, as
+2N.Ramawat,N.Sharma,P.Yambaetal. MaterialsToday:Proceedingsxxx(xxxx)xxx
+seenbythedisparityinenergy-intensiverecyclingandproduction composite’swasteisbrokenupintobits.Theyarethenintroduced
+procedures [12]. Cement and concrete products, sculpting com- intoatankofliquidsiliconsand.Sandisliquefiedattemperatures
+pounds, roofing materials, drainage, and different boxes made of rangingfrom450to550(cid:3)Cusingahotairornitrogenstream.The
+mechanicallyprocessedpolymermatrixcompositesareallexam- polymermatrixevaporatesinaheatedsandmass,releasingfibres
+plesofFRPapplications. and other components. Heated gases are used to transport solid
+Whencomparedtoalternativemethodsofrecyclingcomposite particles to a ‘‘cyclone,” where they are separated from the gas
+materials,themechanicalprocesshasthebenefitofbeingtechno- mass in a separate area. The afterburner receives polymer resin
+logicallysimple.Boththeprocessingofglassfibrereinforcedpoly- gases, which totally oxidize there at a temperature of 1000 (cid:3)C
+mer composites and carbon fibre reinforced polymer composites andarethenusedforheatrecovery[17].Thetemperatureatwhich
+are acceptable and practicable. In terms of energy consumption, the procedure is carried out has an impact on the quality of the
+mechanical recycling is less hazardous to the environment than treatedfibers,muchlikewiththermalprocessingtechniques.The
+other recycling procedures [12]. Chemical processing procedures tests found that tensile strength declines less at lower tempera-
+needbetween63and91MJ/kg,pyrolysisrequiresbetween3and turesthanitdoesathighertemperatures.
+30 MJ/kg. Due to the significantly poor fibre quality, reuse is no
+morefinanciallyfeasibleaftertworecyclingcycles[10]. 1.2.3.Chemicalrecycling
+Thedisadvantageofchemicalprocessingistherequirementto
+1.2.2.Thermalrecycling applyittorecycledmaterial,dependingonthechemicalstructure.
+Garbageiscookedattemperaturesrangingfrom300to700(cid:3)C Forexample,thebulkofstudiesonepoxyresinmatrixcomposites
+withouttheuseofoxygenduringthepyrolysisprocess.According havebeencompleted,andreinforcingfibresrequirediverserecy-
+toonestudy,thelowestheatingtemperatureforpyrolysisofwind cling fluids, time, environment, and temperature to get the opti-
+turbinewasteis500(cid:3)C.Heatingproducescharandsyntheticgasor mum outcomes. Chemical recycling is also riskier than
+oilasbyproducts[13].Althoughrecoveredfibrescanbereused,the mechanicalandthermalrecyclingsinceitinvolvespotentiallyhaz-
+optionsarelimited,andtheymaybebadlydamageddependingon ardous chemicals that might harm the environment and takes
+theheatingtemperature. placeatpotentiallydangerouslyhightemperatures and pressure.
+Studieshaveshownthatglassfiber-reinforcedpolymermatrix Owing to these considerations, it is difficult to create an
+compositesmayberecoveredwithhigh-qualityfibersatatemper- industrial-scale chemical FRP waste recycling facility since it is
+ature of 450–500 (cid:3)C [14]. Carbon fiber is a more economically bothcostlyandtechnicallydifficult[1819].
+viable option for FRP reinforcement. Moreover, composites con- Low-temperaturechemicalrecycling,alsoknownassolvolysis,
+taining this fibre may be treated at temperatures ranging from occurs at temperatures less than 200 (cid:3)C at normal atmospheric
+450to600(cid:3)C[10].Stilltheinformationavailableshowsthatthe pressure.Throughoutthemethod,acidorothersolventsareused
+glassfiberismainlydeterioratesduringthepyrolysisprocess,low- to break down the chemical linkages that make up the polymer
+eringmechanicalcharacteristicsby50%whencomparedtovirgin matrix.Inacidsolvolysis,pre-treatmentisrequiredtohastenthe
+filaments[15]. polymer’s chemical chain breakdown, particularly when process-
+Theoilgeneratedduringtheprocessorsyntheticgas(typically ingFRPsinceitismadeupofseverallaminasandisthereforesim-
+CH4, H2, CO, and CO2) is used for energy recovery, such as the plertosplit[13].Thechemicalmakeupoftherecycledglassfibers
+pyrolysis process [13]. In theory, it is also possible to use oil to used in this investigation caused variations in the quality of the
+recover the chemical components needed to produce polymer materials. The amount of soluble chemicals recycled fibers have
+resins;forexample,PMMA’smonomermayberecoveredbypyrol- inthematerialusedforsolvolysisaffectstheirquality.Al2O3and
+ysis. Different pyrolysis oils provide 15–20 MJ/kg of combustion CaO, two more soluble chemicals, cause fibers to lose up to 60%
+energycomparedtoPMMA’s25MJ/kg.Dependingontheheating oftheiroriginalweightovertime[20].
+temperature, various oils, synthetic gases, and solids contribute Waterisheatedtoatemperatureexceeding374(cid:3)Candcrushed
+differentlytopyrolysis.Theproportionofsolidsobtainedisgreater toapressureof22.1MPa.Othersolvents,suchasmethanol,etha-
+whenheatingatlowertemperatures,whereasthepercentageofoil nol,propanol,andacetone,canbeemployedwithglycolswithcat-
+andgasobtainedisgreaterwhenheatingathighertemperatures alystsandco-formulantstoreducetherequiredtemperatureand
+[5]. pressure. This technology recovers high-quality recycled carbon
+Thepyrolysisprocessofrecyclingfiberscanalsobeusedtofind andglassfibresfromFRP.
+a use for them in the automobile sector. Despite the numerous In general, temperatures ranging from 230 (cid:3)C to 500 (cid:3)C were
+research on pyrolysis, there are no large-scale enterprises that employed to investigate the chemical FRP waste recycling pro-
+make things from recycled glass or carbon fibre. Moreover, no cessesutilisingsupercriticalwatermixedtovariousliquids.Some
+quality comparisons exist betweenthe same product when recy- studieshavesucceededinobtainingrecycledfibresthathavelost
+cledfibresareusedinplaceofbrand-newfibers[15]. only 0.08% of their weight while retaining their original tensile
+The main difference between microwave and conventional strength,whileothershaveobtainednon-recyclablematerialsthat
+pyrolysisisthatmicrowavesareutilisedtoheatFRPwaste.Micro- arenotsuitableforfulfillingnewmaterialfunctions,beingusedas
+wavesheatuprapidly,andtheheatingtakesplacewithintherecy- amatrix,orbeingusedasreinforcement[21].However,researchis
+clablematerialitself.Additionally,garbageisheatedinanoxygen- conductedinthelabutilizingtinyFRPsamplesandabroadrange
+free atmosphere in this type of pyrolysis. By heating the area ofchemicalcombinations,experimentsetups,andmethodologies.
+around the material as it is heatedfrom the inside, the recycling For supercritical solvolysis, other liquids such as methanol,
+material lowers heat loss that happens during regular pyrolysis. ethanol,propanol,acetone,orglycolareused,aswellascatalysts
+Thissavesenergy.[16]Microwavepyrolysisinanargonenviron- inthecaseofsupercriticalwatersolvolysis.Experimentsthatused
+ment produced the highest quality result, and recycled fibre had thesefluidsastheprincipalelementinsolvolysishadgreatresults
+almostthesametensilestrengthasnewfibre.Whencarbonfibres intermsofrecycledfibrequality,includingglassandcarbonfibre
+are recovered using microwave pyrolysis, the surface is uniform [22]Manystudiesfoundthatthemechanicalpropertiesofrecycled
+and flat, with strength propertiesof 72% and a module of 90% of fibreand fibreusedtoenhancefreshpolymermatrixcomposites
+thenewfibre.[16]. wereequal.Nevertheless,thepolymermatricesusedincomposite
+FortherecoveryoftreatedcarbonandglassfibresforFRPrecy- wasterecyclingarefarfrombeingcommerciallyviableforsuper-
+cling,afluidizedbedgasifierisideal.Theoriginalpolymermatrix criticalsolvolysis.Theexperimentaldesignofthestudyservesas
+3N.Ramawat,N.Sharma,P.Yambaetal. MaterialsToday:Proceedingsxxx(xxxx)xxx
+proof of this. Small samples are investigated, the ideal solvolysis TOPSIS(Technique for Order of Preference by Similarity to Ideal
+conditions are still being sought, different liquids, temperatures, Solution)[28].WhendoingMCDA,thesetwomulticriteriaanalysis
+and pressures are examined, as well as the machinery that is techniques are combined. These may, for example, be used to
+employed to make the recycling of chemical composite waste as assessandcomparethesustainabilityperformanceofvariouselec-
+effectiveasfeasible[23]. tronic waste recycling systems. Despite the fact that the specific
+pieceofliteratureusesfuzzynumbersAHPandTOPSIS,thebasic
+concept is the same as when utilising traditional MCDA
+2.Methodologyandtechniques methodologies.
+Aconcreteandsimple-to-understandresultisachievedthrough
+Thepolymermatrixcompositesareonlyminimallyrecycled.At aclearandsequentialsetofstepsinamulti-criteriaanalysis.Since
+thelocalorinternationallevel,noeffectivetrashrecyclingsystem that the MCDA results may be arbitrary and influenced by the
+hasbeenbuilt.Despiteitsnumerouspotentialuses,itswidespread researchers’ opinions, a sensitivity analysis is also performed to
+adoption is impeded by a lack of market for recovered polymer checkthevalidityoftheresults.
+matrix composite waste. Another difficulty is the expensive and
+complicated technological aspects of recycling FRP. Not only
+should facilities be built so that FRP trash may be recycled, but
+3.Resultsanddiscussion
+the optimal recycling process should also be chosen. Due to the
+multiplicity of variables influencing the most effective option in
+A detailed analysis was carried out for this work in order to
+terms of sustainability, making this decision is challenging. Eco-
+assess and compare various polymer matrix composite material
+nomic, ecological, and social variables are often the three key
+waste recycling systems. The literature research and analysis of
+aspects taken into account in this approach [5]. Despite the fact
+theinformationthatiscurrentlyaccessibleonFRPwasterecycling
+thatalmostallstudiesrelatedtosustainabilityevaluationcontain
+alternatives are done in the introductory chapter. Based on this
+suchaclassification,themostrecentresearchonthesustainability
+information,fourrecyclingsystemsarechosenforfurtherevalua-
+assessment analysed in this study has a bigger categorization of
+tion using specified sustainability criteria and multi-criteria
+criteria that includes also technology and performance manage-
+decision-making analyses, particularly the analytical hierarchy
+ment[24].
+processandTOPSIS.[5].
+Thetwoprimarycategoriesofsustainabilityevaluationcriteria
+Eight sustainability criteria are chosen for MCDA based on
+quantitativeandqualitativeareseparatedintotheaforementioned
+informationgainedfromliteratureresearchonFRPwasterecycling
+basicgroupings.Eachhasadvantagesanddisadvantages.Quantita-
+systemsandmethodologyguidelinesforsustainabilityassessment
+tivecriteriacanbemeasuredandcomputedusingstandardmea-
+framework. The four groupings of criteria—economic, ecological,
+surement and calculation methods and procedures. Energy use
+technological, and social impact—represent the four fundamental
+(kWh/kg trash) and the amount of GHG emissions produced
+SA aspects. Because certain FRP recycling systems have received
+(tCO2/twaste) are two regularly used quantitative sustainability
+moreinvestigationthanothersandbecauseMCDArequirescom-
+measures[25].Thequalitativeaspectsthatmustbequantifieddur-
+parable data, the criteria selection process is constrained by the
+ing the review process are based on surveys or the stakeholders’
+knowledge that is already available [29]. Three criteria make up
+experienceandgeneralknowledge.Innovativenessandpublicper-
+the majority of the technological criteria group, and workplace
+ceptionaretwoexamplesofqualitativecriteria.Qualitativecriteria
+safetymakesupthesolesocialcriterion.
+allow for studies with a broader variety of conclusions—conclu-
+The Fig. 1 above provides the mechanical recycling technique
+sionsforwhichthereareinadequatenumericalmeasurementsor
+has a score of 0.63, making it the closest to the ideal solution Pi
+for which mathematical or physical units cannot be utilised to
+of the four FRP waste recycling methods according to the results
+quantifythem.Yet,applyingqualitativecriteriamakestheresults
+of the MCDA evaluation. Microwave pyrolysis comes in second
+more arbitrary. However, as shown by the scholarly publications
+placewithascoreof0.59,followedbyconventionalpyrolysiswith
+examined in this work, they are often utilized in sustainability
+a score of 0.45, and supercritical watersolvolysis with a score of
+assessment techniques that permit the inclusion of such criteria,
+0.38.Thegreatestchoiceisjust0.13unitshigherthanthehalfway
+suchasmulti-criteriaanalysis[26].
+point to the perfect answer, making all four options far from the
+Arangeofsustainabilityevaluationapproachesareusedinthe
+optimum solution. Additionally, the resulting scores for the top
+scientificliteratureontherecyclingofFRPdebris.Whileidentify-
+and second-best performances are close. However, mechanical
+ingthemostappropriatekindofanalysisforthisstudy,itshould
+recyclingoutperformssupercriticalwatersolvolysisby40%.
+benotedthatmulti-criteriaanalysisiscommonlyusedinresearch
+related to the sustainability evaluation of various trash recycling
+technologies. This method has a wide rangeof applicationssince
+it allows for the selection of numerous indicator types and their
+applicationtotheimportantassessmentofagivenprocess,aswell
+as the precise determination of each criterion’s significance
+throughtheassignmentofaspecificsignificance[27].Toevaluate
+therelevanceofthecriteria,boththesubjectiveanalyticalhierar-
+chy method and the objective entropy technique can be applied.
+TheAHPisbasedonthepairedcomparisonsconcept,whichcom-
+pares each of the two indications and ranks them from 1 to 9
+accordingtoimportance.Oneindicatesthatthecriteriaareequally
+important,whereas9indicatesthattheparticularcriterionismore
+importantthanthecriterionitisbeingcomparedto.TheAHPtech-
+niquemayalsobeusedtonormaliseandassessone’sownsustain-
+ability, however because it does not prioritise alternatives, it is
+simplyutilisedtorankthecriteriainthisstudy[5].Theassessment
+and normalization of sustainability performance are done using Fig.1. TOPSISResults[5].
+4N.Ramawat,N.Sharma,P.Yambaetal. MaterialsToday:Proceedingsxxx(xxxx)xxx
+ForalloftheexaminedFRPwasterecyclingprocesses,itisfar CRediTauthorshipcontributionstatement
+fromthebestoption,whichcanbeunderstoodbyexaminingthe
+patternsofcriterionvalues.Someofthesolutionsthathavebeen NandiniRamawat:Supervision,Resources,Investigation,Data
+compared perform much better in some areas while having the curation, Conceptualization, Writing - original draft, Writing -
+poorest results in others. For instance, mechanical recycling per- review&editing.MadhavcharyATSanidhi:Datacuration.
+forms well across six of the eight criteria, but poorly across the
+othertwo.Mechanicalrecycling,outofthefouroptionsconsidered
+inthisstudy,ispredictedtoperformthebest,butitsperformance Dataavailability
+is hampered by the fact that it is the least effective approach in
+otherareas.Inconclusion,althoughgettingthehighestassessment Datawillbemadeavailableonrequest.
+score,ithasseveralshortcomingsthatareevidentinhowfaritis
+fromtheperfectanswer.[5].
+DeclarationofCompetingInterest
+Microwave pyrolysis is the second-best alternative, according
+to the outcomes of a multi-criteria decision-making study used
+Theauthorsdeclarethattheyhavenoknowncompetingfinan-
+toassessandcomparethesustainabilityperformanceoffourtech-
+cial interests or personal relationships that could have appeared
+nologies for recyclingfiber-reinforced plastic waste. The recycled
+toinfluencetheworkreportedinthispaper.
+fibertensilestrengthperformanceofthisFRPrecyclingprocessis
+the poorest, but it does not outperform any of the other options
+inanyoftheanalyzedcategories.
+References
+Accordingto these findingsand a reviewof theliterature,the
+most sustainable approach for recycling FRP trash is being [1] F.C.Campbell,StructuralCompositeMaterials,ASMInternational,2010.
+employedthemost.Onemayarguethatthisoutcomeisindicative [2] MBuggy,LFarragher,MaddenW.‘‘Recyclingofcompositematerials,JMater
+ProcessTech(1995).
+ofthecurrent state ofFRPrecyclingingeneral.The mostarchaic
+[3] V.Goodship,UK‘‘Recyclingissuesinpolymermatrixcomposites,”2012.
+techniquethathasrelativelyminimalenvironmentalandeconom- [4] YaoQiao;LisaD.Fing;MadhusudhanR.Palleka;Kelvin,SimmonsL‘‘Areview
+icalcosts,ismechanicalrecycling.Also,itdoesnotprovidehigh- of the fabrication methods and mechanical behavior of continuous
+qualityrecoveredfibreormatrix.Otherpolymermatrixcomposite thermoplasticpolymerfiber-thermoplasticpolymermatrixcomposites,”2022.
+[5] Iltina,DelvereMarija;Maxat,Shanbayev;Aray,Abildayvea;Kuzhamberdieva,
+waste recycling techniques have greater ecological effects, but it Svetlana;Danija,Blumberga‘‘Evaluationofpolymermatrixcompositeswaste
+should be noted that this study does not account for indirect recyclingmethods”.
+effects, such as reduced global warming potential, which could [6] ALefeuvre,S.Garnier,LJacquemin,BPillian,Anticipatinginusestocksof
+carbonfiberreinforcedpolymersandrelatedwasteflowsgeneratedbythe
+potentiallyresultinrecoveringhigher-qualitymaterialsthatcould
+commercial aeronautical sector until 2050 Resources, Conservation and
+beusedinhigh-technologycompositesapplications,reducingthe Recycling
+need for new FRP manufacturing, and saving both material and [7] NAShauib,P.TMativenga,Energydemandinmechanicalrecyclingofglass
+fiberreinforcedthermosetplasticcomposites,Journalofcleanerproduction
+energyusedforvirginfibreandpolymerresin.
+(2016).
+[8] WongK;Rudd,C.;Pickering,S.;X.,Liu.‘‘Compositesrecyclingsolutionforthe
+aviationindustry,”2017.
+[9] GNilakantan,SNutt,Reuseandupcyclingofaerospaceprepregscrapand
+waste.,”inReinf,Plastics(2015).
+[10] NVijay,BattacharjeeP.RajkumarV,AssessmentofCompositeWasteDisposal
+inAerospaceindustries,ProcediaEnvironmentalSciences(2016).
+[11] JHowarth,S.S.RMareddy,MativengaP.T.‘‘Energyintensityandenvironmental
+analysisofmechanicalrecyclingofcarbonfibercomposite,JournalofCleaner
+3.1.Conclusion Production(2014).
+[12] Pimenta, S.; S.T., Pinho‘‘Recycling carbon fiber reinforced polymers for
+WhileFRPhasseveraladvantagesoverhomogeneousmaterials, structural applications,” Technology review and market outlook. Waste
+Management,2011.
+recyclingFRPischallengingduetoitscompositenature.Industrial- [13] Blazso,‘‘Pyrolysisforrecyclingwastecomposites,GoodshipV(2010).
+scale application of chemical recycling, which yields the highest [14] YYang,RBoom,BIrion,Recyclingofcompositematerials,ChemEngProcess
+grade recovered materials, is not common [21]. Despite the fact Intensif(,2012).
+[15] SRNaqvi,HMysorePrabhakara,EABarmer,WDierkes,RAkkermanb,GBrem,
+that manufacturing polymer matrix composites is a costly and
+AcriticalReviewonrecyclingofend-of-lifecarbonfiber/glassfiberreinforced
+energy-intensive process, the vast majority of FRP plastic waste composites waste using pyrolysis towards a circular economy, Resources,
+is landfilled. Recycling this sort of rubbish might reduce the ConservationandRecycling(2018).
+[16] S Gharde, B Kandasubramanian, Mechanothermal and chemical recycling
+amountofgarbagediscardedinlandfillsaswellastherequirement
+methodologiesforthefiberreinforcedplastic,EnvironmentalTechnology&
+fornewFRPmanufacture.Asrecycledfibrequality,chemicalcom- Innovation(2019).
+ponentsrecoveredfrompolymerresinmatrix,andperhapsenergy [17] SkGopalRaj,T.Karki,reviewontherecyclingwasteofwastecarbonfiber/glass
+fiber-reinforcedcomposites:fiberrecovery,propertiesandlife-cycleanalysis,
+recoveredamountallimprove,sodoesthecomplexityoftechnol-
+2020.
+ogy. According to research, FRP may be chemically recycled to [18] J Bachmann, C Hidalgo, S Bricout, Environmental analysis of innovative
+recoverhigh-qualityfibresthatcanbeutilisedinthesameapplica- sustainable composites with potential use in aviation sector-a lifecycle
+assessmentreview,2017.
+tions as virgin fibre. Another obstacle to creating a worldwide,
+[19] KumarS;,KrishnanS,‘‘Recyclingofcarbonfiberwithepoxycompositesby
+industrial-scale FRP recycling system is the lack of demand for chemicalrecyclingforfutureperspective:areview,”2020.
+recoveredreinforcingfiber.Basedontheliteraturereview,multi- [20] W,Dang;TsudaK.;KubouchiM;SembokuyaH,‘‘Chemicalrecyclingofglass
+criteria decision-making analysis, and sensitivity analysis per- fiber reinforced epoxy resin cured with amine using nitric acid Polymer.,”
+2005.
+formedinthispapertocompareFRPwasterecyclingmethods,it [21] KhalilY.F.,Sustainabilityassessmentofsolvolysisusingsupercriticalfluidsfor
+is determined that the mechanical recycling method is the most carbonfiberreinforcedpolymerswastemanagement,SustainableProduction
+sustainable when the specific sustainability criteria used in this andConsumption(2019).
+[22] Wu T; Zhang W;JIn X, ‘‘Efficient reclamation of carbon fibers from epoxy
+paper are applied. Further study on polymer matrix composite
+compositewastethroughcatalyticpyrolysisinmoltenZnCl2,”2019.
+waste recycling methods is needed because there is a scarcity of [23] D,He.;V.K.,Soo.;H.C.,KIm.;P.,Compston;Doolan,M.‘‘Comparativelifecycle
+knowledgeonotherpossiblesustainabilitycriteria.Iftherewasa energyanalysisofcarbonfibrepre-processing,processingandpostprocessing
+recyclingmethods,”inResour.Conserv.recycl,2020.
+greaterrangeof correctdata, MCDAresults wouldbe lessreliant
+[24] CYeh,XuY.,‘‘Sustainableplanningofe-wasterecyclingactivitiesusingfuzzy
+onasmallnumberofcriteriaforwhichinformationisaccessible. multicriteriadecisionmaking,Journalofcleanerproduction(,2013).
+5N.Ramawat,N.Sharma,P.Yambaetal. MaterialsToday:Proceedingsxxx(xxxx)xxx
+[25] C.V.,Amaechi.;Agbomerie,C.O;Orok,E.O.;Ye.J.,‘‘EconomicAspectsoffiber [27] H. Li, K. Englund, Recycling of carbon-reinforced thermoplastic composite
+ReinforcedPolymerCompositeRecycling,”inInEncyclopediaofRenewableand wastesfromtheaerospaceindustry,J.Compos.Mater.(2016).
+SustainableMaterials,Oxford,UK,2020. [28] AVivekanand;Singh,RArvind;Jayalakshmi,S;Rao,KSrinivas;XizhangChen,
+[26] ELGCarbonFibre,Ltd,"RecycledCarbonFiberasanEnablerforcosteffective ‘‘Mechanicalandtribologicalpropertiesofnaturalfiberreinforcedpolymer
+lightweightstructures.InGlobalAutomotiveLightweightMaterials,”inELG composites,”2020.
+CarbonFibreLtd,2016. [29] M.R.M.Asyraf;T.Khan;A.Syamsir;A.B.M.Supian,‘‘SyntheticAndnaturalfiber-
+reinforcedpolymermatrixcompositesforadvancedapplications,”2022.
+6

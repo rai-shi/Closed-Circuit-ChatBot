@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Register</title>
+    <link rel="stylesheet" href="{% static  'css/styles.css' %}">
+    
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="logo-container">
+            <img src="{% static  'img/logo_w.png' %}" alt="Logo" class="logo"><p class="logo-text">boTAI</p>
+        </div>
+        <div class="form-box">
+            <div class="button-box">
+                <div id = btn></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <form id="Login" class="input-group" action="{% url 'Login' %}" method="POST">
+                {% csrf_token %}
+               <input type="email" class="input-field" placeholder="Enter email" name="email" required>
+               <input type="password" class="input-field" placeholder="Enter password" name="password" required>
+               <a href="#">Need help?</a>
+               <button type="submit" class="submit-btn" name="form_type", value="Login">Login</button>
+            </form> 
+            <form id="Register" class="input-group" action="{% url 'Register' %}" method="POST">
+                {% csrf_token %}
+                {{form.first_name}}
+                {{form.last_name}}
+                {{form.email}}
+                {{form.title}}
+                {{form.unit}}
+                {{form.password1}}
+                {{form.password2}}
+
+                <!-- <input type="text" class="input-field" placeholder="Enter first name" name="firstname" required>
+                <input type="text" class="input-field" placeholder="Enter last name" name="lastname" required>
+                <input type="text" class="input-field" placeholder="Enter username" name="username" required>
+                <input type="email" class="input-field" placeholder="Enter e-mail" name="email" required>
+                <input type="password" class="input-field" placeholder="Enter password" name="password" required> -->
+                <br>
+                <a href="#">By registering, you agree to the Terms, Data Policy and Cookies Policy.</a>
+                
+                {% if messages %}
+                {% for message in messages %}
+                <div>
+                    {{ message }}
+                    <script>console.log("{{ message }}")</script>
+                </div>
+                {% endfor %}
+                {% endif %}
+                <button type="submit" class="submit-btn" name="form_type", value="Register">Register</button>
+             </form>    
+        </div>
+    </div>
+    
+    
+    <script src="{% static  'js/scripts.js' %}"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

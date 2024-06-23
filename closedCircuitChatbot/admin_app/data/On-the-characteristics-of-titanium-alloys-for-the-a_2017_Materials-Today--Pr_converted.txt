@@ -1,0 +1,511 @@
+Available online at www.sciencedirect.com
+ScienceDirect
+Materials Today: Proceedings 4 (2017) 8971–8982 www.materialstoday.com/proceedings
+ICAAMM-2016
+On the characteristics of titanium alloys for the aircraft applications
+Paramjit Singha,*, Harish Pungotrab, Nirmal S. Kalsib
+aResearch Scholar, I. K. Gujral Punjab Technical University, Kapurthala 144601,India
+bDepartment of Mechanical Engineering, Beant College of Engineering and Technology, Gurdaspur 143521, India
+Abstract
+Complex aerodynamic design, high mechanical and thermal loads, extreme environmental and other service conditions produces
+high magnitude of dynamic stresses in various components of airframe. The magnitude and nature of these stresses further varies
+during different phases of flight. This governs the need to develop special materials having ability to withstand these variable
+stresses. Further high fuel costs, scarcity of raw material sources, need of efficiency improvements, growing demand of new
+aircrafts (both military and civil) and raised environmental standards (less CO emission, less noise pollution, recyclability of
+2
+materials, etc.) are the few factors which forced the engineers to make stronger but ‘as-light-as-possible’ engine, frame and other
+parts of aircrafts. These factors open the door for ‘stronger-but-lighter’ metals like titanium and its alloys for aerospace
+application segment. Titanium and its alloys offers a unique set of physical, mechanical, metallurgical and composite
+compatibility characteristics which helps the aerospace sector to meet economy, fuel efficiency and other global standards in a
+wide range of temperatures and other service conditions. Starting from its first application in 1950s to till date, this wonder-metal
+not only increases its share of presence but becomes the first choice of aircraft fabricators. This paper presents an overview of
+inherent mechanical and metallurgical characteristics of titanium and its alloys which makes it an ideal for the aircraft
+applications. A brief summary of induced stresses in aircraft critical components with advantages of titanium and its alloy to
+manufacture these components is also discussed.
+© 2017 Elsevier Ltd. All rights reserved.
+Selection and Peer-review under responsibility of the Committee Members of International Conference on Advancements in
+Aeromechanical Materials for Manufacturing (ICAAMM-2016).
+Keywords: Aircraft material attributes; titanium and its alloys; alloy composition; characteristics; aircraft applications
+* Corresponding author. Tel.: +91-9855861155; fax: +91-183-506-9535.
+E-mail address: er.pannu266@gmail.com
+2214-7853 © 2017 Elsevier Ltd. All rights reserved.
+Selection and Peer-review under responsibility of the Committee Members of International Conference on Advancements in Aeromechanical
+Materials for Manufacturing (ICAAMM-2016).8972 Paramjit Singh / Materials Today: Proceedings 4 (2017) 8971–8982
+1. Aircraft Material Requirements
+Limited availability of resources (raw materials and fuels) and their continuous consumption forced the design
+engineers to design the aviation transportation systems giving optimum performance with minimum level of energy
+consumption [1]. Long term goals (such as Flightpath-2050 [2] etc.) of aviation research councils (like ACAR in
+Europe etc.) and raised environmental standards [3] around the globe demands improved aircraft designs. Motto to
+Nomenclature
+α alpha
+β beta
+ω omega
+HCP hexagonal-close-packing
+BCC body-cantered-cubic
+TWCA Teledyne Wah Chang Albany
+ACAR Advisory Council for Aviation Research
+CFRPC Carbon fibre reinforced polymer composites
+STA solution treatment and aging
+YS yield strength
+UTS ultimate tensile strength
+H hydrogen
+2
+MPa Mega Pascal
+RMI RMI titanium Co.
+TIMET Titanium Metals Corporation
+PW Pratt and Whitney Co.
+DAC Douglas Aircraft Co.
+fly faster, farter, in larger aircrafts at less fueling costs is translated to complex aerodynamics with less overall
+weight of an aircraft. Improved design for economy of fuel and energy strives to make ‘as light as possible’
+aircrafts. In addition to light-in-weight, the chemistry of the materials must fulfill a set of other properties like high
+heat capacity, toughness, oxidation resistance, thermal conductivity, strength, corrosion resistance and density etc.
+Possibilities to reduce the weight of aircraft component by 10% are list by [1]:
+(a). Reduce the component’s metal density by 10%
+(b). Increase the component’s metal strength by 35%
+(c). Increase the component’s metal stiffness by 50%
+(d). Increase the component’s metal damage tolerance by 100%
+Approach (a) is most effective approach.
+1.1. General Characteristics of a material for aircraft applications
+Following aspects are the behind the uncompromised selection criterion for component materials in aircrafts [4]:
+• Initial cost of purchasing the new aircraft
+• Costs to replace or upgrade the component materials to the latest ones
+• Meeting design requirements/options of complexities of aeroengine and frames
+• Pressure of high fuel consumption costs
+• Level of performance in real conditions (at operational parameters)
+• Power requirements from aeroengine
+• Maintenance (type and costs) of aircraft parts
+• Operational life of aircraft
+• Reliability and safety demands
+• Plan to dispose/recycle dead aircraft
+• Meeting environmental issues/standardsParamjit Singh / Materials Today: Proceedings 4 (2017) 8971–8982 8973
+Figure 1 details basic approaches in aircraft material selection.
+Approach of selecting a material first time for
+the aircraft part
+Revolutionary material
+approach
+Selecting an already usable material to
+manufacture a new part
+Aircraft material
+selection approaches
+Approach of selecting an improved (through
+Evolutionary material
+STOA/STA/Work hardened techniques etc.)
+approach
+but existing material
+Fig. 1. Basic approaches of material selection for aircraft applications.
+Characteristics required in an aerospace material are closely governed by the structure to be made, its design,
+type of loading and the service environmental conditions in which the structure to be worked. In Figure 2 authors
+summarizes basic factors and properties to select a material fir aircraft design.
+Factors/properties of
+aircraft material selection
+Manufacturing
+Structural Environment Economic
+issues Basic/specialist Durability
+properties Impact Issues
+Castibility, properties (Service
+Fatigue strength/life, Emissions Material environments)
+fabricability, Thermal
+impact damage (greenhouse) availability,
+dimensional aspects, expansion, Moisture
+tolerance, during transportation,
+tolerances, conductivity absorption
+rigidity modulus, processing, raw material
+surface quality, (thermal, resistance
+elastic modulus, hazardous waste, cost,
+number of parts electrical) values, and its rate,
+hardness, density, sustainability, maintenance
+required, testing shock (thermal) oxidation rate,
+strength, rupture flammability, cost,
+methods and resistance, corrosion
+stress life, carcinogens regulatory
+procedures, quality stealth rate
+creep rate hazards issues
+assurance
+Fig. 2. Basic factors and properties of a material for aircraft applications.
+In general total ‘take-off-weight’ of an aircraft is composed of about 5-7% weight of engine, 7-12% weight of
+fuselage and 8-14% weight of wings [4]. Due consideration is needed while selecting a weight-efficient material to
+manufacture the engine and other structural components of the aircraft. Authors summarize the general properties of
+a material for aircraft applications in table 1.
+Selecting a material with above listed properties (or most of these) and maintain these during (for the whole life of
+component of aircraft) is always a difficult job. Aerospace engineers have to pick suitable material from about
+120000 competitive materials (65000 metals, 10000 ceramics and 15000 plastics, wood, composites etc.) [4] to
+manufacture a part. However, only 0.05% (of total 120000 materials) are suitable (in respect of needed properties)
+for aerospace components [4].
+2. Titanium and its alloys
+With 4.51 g cm-3 density, titanium is ranked as ninth most abundant element in earth’s crest [7]. This light metal
+also have the honor to be the fourth most plentiful structural material available after aluminum, iron, and magnesium
+[8]. Ti-alloys, a class of chemically very similar but physically different materials, exhibits both hcp and bcc
+structures.8974 Paramjit Singh / Materials Today: Proceedings 4 (2017) 8971–8982
+Table 1: Material properties with their necessities in aircraft components
+Property Necessities of Aircraft components
+High strength and stiffness • Intense static and dynamic landing loads on the components of landing gear during take-off and
+requirement with ability to carry standing situations
+aerodynamic and dead structural • Shell-type-structures of wings, empennage and fuselage generally subjected to compressive and
+loads buckling stresses
+• During landing, compound loading (body-loads and surface-loads) on aircraft’s structure
+produces severe torsion, shear and bending stresses
+• During take-off, tailplane load coupled with wing-box load in fuselage results in severe bending
+stresses in fuselage
+• During flight, both the crown and bottom part of fuselage subjected to tensile and compressive
+stresses respectively.
+• Rolling and turning of aircraft produces high magnitude of shear and twisting stresses
+respectively along the fuselage.
+• Much stiff material is always obliged for aircraft’s wings as they are facing reversal (of tensile
+and compressive) stresses during resting and in-flight moments
+• Pressurization, during flight, causes severe bending in fuselage components
+• Wing angle (dihedral) produces high compression on fuselage
+• High stiffness need for corrugated sheets (in wings) to face regular compression and tension
+• Caps of I-shaped-spars are under stern bending of wings
+• Stern compressive forces on nacelles (due to high engine wieight)
+Good fracture toughness • heavy landing and static loads
+Good fatigue endurance/strength • Superior fatigue resistance if titanium replaces aluminium in fighter aircraft’s frame and
+bulkhead
+• To resist variability in loading at the moments of wind gusting and unavoidable turbulences etc.
+• Military aircrafts faces numerous manoeuvrings during wars and practice sessions
+• High fatigue occurs in fuselage skin material due to cyclic depressurization and pressurization
+• Five out of ten failures in gas-turbine engine’s components are due fatigue failures [5] [6].
+High thermal strength • To withstand about 1500°C temperature in jet engines
+Good corrosion resistance • Flights in hot and freezing temperature conditions
+• Working with corrosive fluids (body paint strippers, jet fuels and lubricants)
+Good impact strength (damage • The movement the bird strikes the aircraft, damage resistance is the key property
+tolerance) properties • During take-off moments, fluttering debris may strike the leading edges of aircraft
+• Intense landing load on components of landing gear during take-off and resting moments
+Good durability • For the entire design life of aircraft (typically 8000-to-4000 and 30000-to-60000 journey hours
+for military aircraft and commercial airliners respectively)
+Light-in-weight • Usually airframe has major share of upto 40% of total weight of any aircraft. Light weight
+material will definitely reduce this burden
+Good Fabricability • Welding and riveting in airframe
+Cost • Initial Cost of purchasing new aircraft
+• Maintenance cost
+Lead time • Less lead time (easy machining) from raw material to finished component
+Allotropy of both hcp and bcc structures widen the range of mechanical properties and hence scope of Ti-alloys
+in aircraft industry. At 1155 K, allotropic adaptation from α-hcp (low temperature) to β-bcc (high temperature)
+provides base to titanium alloys to offer wide range and variety of properties. Further (a) grouping (type and
+content) of alloying elements (b) their effect on physical behavior of possible phases (c) effect on mechanical
+behavior of possible phases (d) stability of phases are the four base reasons for manipulation in properties. In
+addition to (a)(b)(c)(d) reasons, processing routes, treatments methods and welcome by metallurgy (particularly ofParamjit Singh / Materials Today: Proceedings 4 (2017) 8971–8982 8975
+β-alloys) to develop compositions having superior properties are enough to satisfy the needs of aeroengines,
+airframe attachments and components [9].
+2.1 Titanium as candidate in aircraft applications
+Good specific strength (except few composites) and its variation in a wide range with alloys’ possible chemical
+compositions broaden their utilization in wing boxes, undercarriage components, fuselage parts, airframe
+attachments etc.
+Table 2: Titanium properties and their rational in aircraft component applications
+Property Rationale/Description
+Strength to weight ratio with • 40% lesser density than that of steel
+extraordinary flexibility • titanium weighs about 56% of weight of steel
+• 50% lesser modulus than that of steel replacing steel for spring manufacturing in aircrafts
+Application/working temperature • Nearly 600°C temperature of nozzle, plug and engine components [10].
+• Embrittlement of materials due to O contamination at engine temperature
+2
+• Cryogenic temperature of rocket engines and impellers
+• At 270°F, aluminum looses its strength but titanium does not
+Space constraint • In 737, 757 fitting of landing gear beams possible with titanium only
+Good ballistic resistance • 15-35% less weight armor of titanium is equally strong (due to good ballistic resistance)
+with its counterpart made of steel
+High galvanic compatibility • Carbon and titanium are electrochemically compatible with each other which prevents
+galvanic corrosion
+Galvanic Ti—Composites • Among all competitor aerospace metals, titanium offers highest compatibility with CFRPCs
+compatibility [11]
+• Thermal expansion coefficient and stiffness of titanium matched with CFRPCs
+High thermal conductivity • Enormous heat production in aeroengine demands quick release; titanium is suitable for the
+post
+Low expansion coefficient • this property make possibility for titanium to combine with glass, ceramics and composites
+in aerospace applications
+Corrosion resistance • Titanium’s ability to make oxide film (natural) prevents from environmental (oxidizing
+mineral acids, chemicals, water, inorganic salt solutions etc.) attacks
+• Oxide film also prevents cavitations and abrasion (due to dense air flow) during flight
+• Landing gear (made up of titanium) needs less maintenance due to excellent corrosion
+resistance; therefore cost reduction
+• Negligible pitting (in almost all service conditions) in parts made from titanium is
+advantageous compared to competitor metals
+Cost • Titanium’s per kg cost is more than its competitor metals (due to its extraction and melting
+complexities)
+• Titanium ingots are costly (almost six times more pricey) to produce as compare to
+aluminum ingots [12].
+• When cost-of-reliability, density corrected and life cycle costs are taken economics of
+titanium proved it as most economic option in aerospace sector [13].
+Good weldability and joining by • Some Ti-alloys can be easily joined through diffusion bonding or welding [4]; thereby
+diffusion bonding: reduces the number of mechanical fasteners (screws, bolts, rivets) in comparison with
+assemblies made up from aluminium alloys.
+• Weldments of Ti maintains its strength giving almost 100% weld joint efficiency for a
+negligible lose of durability and fracture toughness [14].
+Titanium resists exfoliation, stress corrosion and other corrosion forms far better than aluminium alloys, steels
+etc. Titanium resists the attack of these corrosion agents by forming and maintaining oxide surface layer in
+application environments. Whereas on one hand the ability of titanium to retain its strength in enormous hot8976 Paramjit Singh / Materials Today: Proceedings 4 (2017) 8971–8982
+conditions replaces polymer-fiber composites, on the other hand, its property of being light in weight replaces
+counterpart materials (nickel alloys, steels) for high temperature/load applications. Candidature of Ti and its alloys
+for aerospace applications are based on following aspects (table 2):
+Early, in 1950s, with the use to manufacture few parts in PW’s J57 aeroengine for B52 bomber, titanium is the
+quickest noticed material in aerospace industry. To the next in 1952, firewalls and nacelles of DC-7 aircraft (product
+of DAC) was the second application of titanium in aerospace industry. Since then the unique attributes of this ‘Cold-
+war-metal’ appreciably increases its’ demand in aircraft industry. Thermal stability of Ti-alloys extends their use in
+airframes subjected to frequent aero-kinetic heating.
+2.2. α Titanium Alloys
+Quantity (wt%) of α-stabilizer alloying elements in α-Ti alloys divides it into two classes i.e. super-α-alloys and
+near-α-alloys. Inherent properties of α-Ti alloys like ductility and resistance to creep in hotter environments are
+always welcomed for aeroengine parts. Super-α-alloys (containing > 5 wt% of alloying element) composed only α-
+Ti grains. Ti-5Al-2.5Sn alloy belongs to this class. Near-α-alloys contain β-stabilizers (< 2 wt %) dispersed among
+large volume of α-Ti grains. Solid solution hardening, work hardening (rolling, extrusion and other such plastic
+forming processes), grain size refinement etc. strongly affects the strength of α-Ti alloys. Plastic forming processes
+can even double the tensile strength of these alloys. Presence of aluminium (upto 9%) in the valence shell of Ti
+stabilizes the α-phase thereby rapidly increases its tensile strength. Adding more aluminium (> 9%) has adverse
+effect on ductility and fracture toughness. Important reason for the use of α-Ti alloys in aeroengine parts is their
+ability to retain strength during most heat treatment processes. Both thermal stability and thermal-aging resistance of
+α-Ti alloys does not allow appreciable change in mechanical properties during working in hotter conditions for long
+duration. In the following sections inherent characteristics and aircraft applications of these α-Ti alloys will be
+discussed.
+2.2.1. CP-Ti
+In addition to low specific strength the moderate yield strength (normally in between 170-480 MPa) of CP-Ti
+restricts its use for the aero-structural and engine parts [4]. Presence of small traces of atomic O and Fe as
+2
+impurities in CP-Ti have both advantageous and disadvantageous effects as on the one hand these impurities
+improves ultimate tensile strength (CP-Ti with 0.01% O content have 250 MPa and 0.2-0.4% O content have about
+2 2
+300-450 MPa), on the other hand these impurities reduces creep resistance, thermal stability and ductility of the
+material. Properties like good toughness and strength at cryogenic temperatures (below -220°C) favors the use of
+CP-Ti for making fuel tanks to store H (in liquid form) in space vehicles.
+2
+2.2.2. Ti-3Al-2.5V
+Developed in 1950’s, this ductile alloy of good toughness, exhibits YS and UTS equals to 483 MPa and 620 MPa
+respectively. Both YS and UTS of this cold workable alloy can be enhanced upto 830 MPa and 910 MPa
+respectively by STA treatment. However STA reduces its elongation from 15% at normal temperature to 11% after
+STA. High pressure ducting tubes of aircraft made up of Ti-3Al-2.5V saves 40% weight when compared to tubes
+made up of 21-6-9 steel. Cold workable characteristics of Ti-3Al-2.5V alloy made it feasible to replace CP-Ti in
+fabrication of aircrafts’ honeycomb core. Acceptable corrosion resistance, good weldability and ability to fabricate
+into seamless tubes favors its’ use in aircraft hydraulic tubing.Paramjit Singh / Materials Today: Proceedings 4 (2017) 8971–8982 8977
+2.2.3. Ti-5Al-2.5Sn
+Good stability of Ti-5Al-2.5Sn welded joints offer oxidation resistance upto 1000°F temperature which makes
+Ti-5Al-2.5Sn suitable for fabrication of blades for jet and steam turbines [15]. Ti-5Al-2.5Sn is difficult to forge.
+Forged Ti-5Al-2.5Sn exhibits YS and UTS typically equal to 758 MPa and 792 MPa respectively. Without any
+notable effect on elongation value the annealing of Ti-5Al-2.5Sn plate increases its YS and UTS upto 779MPa and
+827MPa respectively. Inherent capability of Ti-5Al-2.5Sn alloy to retain its ductility and fracture toughness upto
+cryogenic temperatures makes it possible to use this alloy to store H (in liquid form) in turbo pump of space
+2
+vehicles.
+2.2.4. Ti-8Al-1Mo-1V
+In 1960s, metallurgists succeed to develop Ti-8-1-1 alloy which, because of more aluminium content, offers more
+Young’s modulus than all α+β alloys. American-supersonic airplane was the first to use Ti-8Al-1Mo-1V in its
+structure. Its’ heat resistance capability upto 400°C made it a unique material to manufacture compressor blades. A
+normal temperature, Ti-8-1-1 elongates upto 10% and yields at 930 MPa [16]. However, its’ less corrosion
+resistance restricts its extensive use.
+2.2.5. Ti-6-2-4-2 and Ti-5.5A1-3.5Sn-3Zr-1Nb-0.25Mo-0.3Si
+540°C temperature of gas turbine engine requires much stronger, creep resistant and tougher material to
+manufacture its part/components. Ti-6-2-4-2 forged bar (with UTS equals to 999 MPa and YS equals to 930 MPa)
+posses and retains all these characteristics upto 540°C. Jet-engine parts i.e. rotors, discs and blades are manufactured
+from Ti-6-2-4-2 alloy.
+960 MPa yield strength of Ti-5.5A1-3.5Sn-3Zr-1Nb-0.25Mo-0.3Si is almost double than that for counterpart Al-
+alloys. RB211-535-E4 engine of Boeing 757 aircraft utilizes Ti-5.5A1-3.5Sn-3Zr-1Nb-0.25Mo-0.3Si alloy to
+manufacture its spacers, blades and compressor discs. This alloy with enhanced strength through β-STA treatment
+[17] withstands 540°C temperature of aircraft engine.
+2.3. α+β Titanium Alloys
+Adding α-stabilizers (in between 2-6%) and β-stabilizers (in between 6-10%) during formation of grains of α-Ti
+and β-Ti at normal temperature forms the most favorable class of titanium alloys (α+β-Ti) for aircraft component
+manufacturers. Fracture toughness, excellent creep strength, ductility of α+β titanium alloys are superior to α-Ti
+alloys. Tensile strength and fatigue resistance of these alloys are superior to β-Ti alloys. Grain boundary
+strengthening, solid solution hardening, work hardening and to the most β-Ti grains precipitation hardening
+improves strength of α+β-Ti-alloys. Thermal aging transforms some Ti-β-phase to ω precipitates and Ti-α-phase
+thereby improves strength of this class of Ti alloys. Thermal aging (at 480-650°C) can double its proof strength
+compared to simple annealed alloy. In the following sections inherent characteristics and aircraft applications of
+these α+β Ti alloys will be discussed.
+2.3.1. Ti-6Al-4V
+About 80-90% volume of total titanium used in airframe parts (skin panels, stiffeners, wing boxes, spares etc.) is
+made up of Ti-6Al-4V alloy. This alloy have also major share by volume in jet engine parts (60% of total titanium
+consumed) and airframes (80-90% of total titanium consumed). Cooler parts and fan of compressor, blisk of F-35
+Lightening-II fighter and other parts working below 300°C made up of Ti-6Al-4V. Impact strength needed (to
+withstand bird striking) in cockpit windows is often provided by forged Ti-6Al-4V. In helicopters (BK117 and
+BK105) forged Ti-6Al-4V is extensively used in rotor heads.8978 Paramjit Singh / Materials Today: Proceedings 4 (2017) 8971–8982
+2.3.2. Ti-6Al-2Sn-2Zr-2Mo-2Cr + Si
+RMI, in 1970s, developed Ti-6Al-2Sn-2Zr-2Mo-2Cr + Si alloy. This alloy is known for its superplastic
+formability, thermal stability and oxidation resistance. Presence of 0.15% Si further improves its creep resistance.
+Its’ deep hardenability with UTS and YS equal to 1069 MPa and 1034 MPa respectively (annealed conditions) make
+it useful to make aft fudelage, engine mounts, wing structures and bay bulkhead of F/A-22 raptor fighter aircraft.
+Recently this alloy is restructured for Lockheed F-22 raptor.
+2.3.3. Ti-6-2-4-6 and Ti-5AI-2Sn-2Zr-4Mo-4Cr
+Exceptional creep resistance and capacity to resist heat upto 450°C temperature made Ti-6-2-4-6 a unique choice
+for aeroengine components. STA components of Ti-6-2-4-6 can be elongated upto 10% with yield strength of 1105
+MPa.
+In 1970s, USA metallurgists succeed to develop Ti-5AI-2Sn-2Zr-4Mo-4Cr alloy of tensile strength and yield
+strength of 1250 MPa and 1150 MPa respectively. Excellent fracture toughness, superior crack propagation
+resistance and capacity to resist heat upto 350°C recommends this alloy for damage tolerance design of shaft and fan
+as a single unit in aircraft.
+2.4. β Titanium Alloys
+R.I. Jaffee [18] was the first who categorized β-Ti alloys as a distinct class of Ti-alloys. Initial research efforts in
+this direction developed Ti-13V-11Cr-3Al alloy which offered high strength (1276 MPa) but inconsistent response
+to heat treatment. Adding isomorphous β-stabilizers (Hf, V, Ta, Cr, Nb, Mo etc.) to cooling Ti metal, with the
+purpose to resist martensitical decomposition of β-phase, shifts β→α+β transformation boundary towards room
+temperature. Inherent properties of β-Ti alloys like extraordinary fatigue resistance and high tensile strength are
+always welcomed for heavily loaded structural parts. Microstructural alterations in β-Ti alloys through heat
+treatment regimes offers verity in their mechanical properties [19] [20] to suit for airframe components. When
+subjected to STA, all the Ti-β-alloys (except Ti-3Al-8V-6Cr-4Mo-4Zr) lead to develop dispersed secondary α-
+precipitates which improves their tensile strength. In aircraft industry, Ti-15V-3Al-3Sn-3Cr, Ti-10V-2Fe-3Al, Ti-
+5Al-5V-5Mo-3Cr-0.5Fe, Ti-15Mo-3Al-3Nb-0.2Si, Ti-3Al-8V-6Cr-4Mo-4Zr are the six Ti-β-alloys in continuing
+use till date [21][22][23] since their inception as written in Table 3.
+In the following sections inherent characteristics and aircraft applications of these β-Ti alloys will be discussed.
+2.4.1. Ti-10V-2Fe-3Al Alloy
+TIMET, in 1974, filed a patent for the chemical composition of its newly developed titanium alloy Ti-10V-2Fe-
+3Al with exceptionally high fracture toughness, ductility and tensile strength [28] [29]. Initial performance of this
+alloy was checked by making landing gear of Boeing 777 through forging applications [21]. Except outer and inner
+cylinders, all the components of landing gear were made from Ti-10V-2Fe-3Al alloy [30]. Without compromising
+the desired strength of these components, a total reduction of 270 kg weight was achieved in aircraft [31]. Later on
+in 1980, its exceptional properties (UTS = 1240 MPa, Kic = 44 Mpa√m, etc.) forced the design engineers to
+recommend its applications in Boeing 757 airframe as well as future aircraft designs [32]. Table 3 shows that
+dominating share of V (9.0-11.0 wt.%) and Fe (1.6-2.2 wt.%) makes these constituents as prominent β-stabilizers.
+Presence of Fe makes it possible to manage microsegregation and promotes hardenability of this alloy. Al (2.6-3.4
+wt.%) catalyses hardening reaction by providing necessary α-phase whereas oxygen (0.13 wt.%) maintains the
+fracture toughness at optimum strength levels needed in aerospace applications [28] [33].Paramjit Singh / Materials Today: Proceedings 4 (2017) 8971–8982 8979
+2.4.2. Ti-15V-3Cr-3Al-3Sn Alloy
+In 1970, Air Force supported a project to develop a titanium alloy for coldworking applications to manage repair
+works [34]. Lockheed and TIMET, during experimentation, lowers the chromium level to the minimum to develop
+cold rolled coils and sheets of Ti-15V-3Cr-3Al-3Sn alloy. During its first application, more than hundred parts (both
+non structural and structural) of Rockwell-B1B bomber were fabricated and tested successfully. Excellent
+formability of this alloy results in net savings in fabrication cost when compared with its competitor alloys [35]. In
+1990s, Ti-15V-3Cr-3Al-3Sn alloy replaced CPTi material in ducting tubes of Boeing 777 and the results were net
+savings of 63.5 kg weight of Boeing airframe [21][36]. Ti-15V-3Cr-3Al-3Sn springs are of less weight (upto 70%),
+less volume (upto 50%) and more corrosion resistant than that of steel springs.
+2.4.3. Ti-3Al-8V-6Cr-4Mo-4Zr Alloy
+In 1960s, RMI titanium production company took an assignment to develop Ti-3Al-8V-6Cr-4Mo-4Zr alloy as a
+substitute to Ti-13V-11Cr-3Al alloy for airplane frames and components. Without compromising hot and cold
+workability, physical and mechanical properties etc., RMI reduced chromium content to minimize segregation
+tendency of Ti-3Al-8V-6Cr-4Mo-4Zr alloy [37]. Excellent deep hardenability (in more than 150 mm section size),
+good corrosion resistance, light weight and superior strength offered by this alloy cannot break the barrier of its
+limiting production (of about 1% of total Ti production) due to its high initial cost and special attention involved in
+melting and fabrication. Traditionally melted under plasma arc melting [38] and processed by hot working processes
+(extrusion, rolling, gorging etc.) at above 795°C, Ti-3Al-8V-6Cr-4Mo-4Zr alloy possesses good forgability and deep
+hardenability. Solution treatment of Ti-3Al-8V-6Cr-4Mo-4Zr alloy at 790-925°C for about one hour followed by
+suitable method of cooling (in normal air, in forced air or water quenching etc.) increases strength of this alloy [39].
+Further suitable aging treatment (at 470-620°C for 4-12 hours) after solution treatment affects its mechanical
+properties. Ti-3Al-8V-6Cr-4Mo-4Zr exhibits many metastable phases such as α phase, β phase, βʹ phase, ω phase,
+(Ti,Zr) Si and TiCr etc. [37]. When put to applications in fasteners, fittings and landing gear coiled actuation
+5 3 2
+springs of aircraft, Ti-3Al-8V-6Cr-4Mo-4Zr offers improved corrosion resistance and about 70% weight reduction
+when compared with same components manufactured from conventional 17-4PH steel [31].
+2.4.4. Ti-15Mo-3Al-3Nb-0.2Si Alloy
+TIMET, in 1988, developed Ti-15Mo-3Al-3Nb-0.2Si alloy with unique properties like foil-producability,
+extraordinary strength with environmental degradation resistance etc. and ability to maintain these properties at high
+temperatures [40]. Produced through triple VAR, this alloy is generally available to aerospace industries in solution
+heat-treatment condition with only β-structure (single phase). After forging, cold rolling process can reduce its
+thickness less than 4mm for direct use in aircraft parts [41]. Excellent cold-formability and good response to aging
+treatments (without quick workhardening) makes it possible for compressive loads to reduce the Ti-15Mo-3Al-3Nb-
+0.2Si alloy part to 80%. During these compressions part does not lose its inherent properties and any sort of crack
+initiations etc. [23]. After its first application with MMCs in NAP program [40], number of components of both
+military and civil aeroengines’ exhausting parts like plug and nozzle arrangement of Rolls-Royce Trent-400 engine
+on Airbus-A340 and Boeing 777 were manufactured [42]. Practically 164 kg weight of Boeing 777 aircraft was
+reduced when parts made up of Inconel-625 alloy ware replaced with Ti-15Mo-3Al-3Nb-0.2Si alloy [36]. In another
+application, thrust reverser inside wall of CFM leap 1B engine of Boeing 737-MAX aircraft performs better when
+made up of Ti-15Mo-3Al-3Nb-0.2Si alloy material.
+2.4.5. Ti-5Al-5Mo-5V-3Cr Alloy
+Late 1990s was the time aerospace industry felt need of a material with improved processability and in-work
+performance as compare to Ti-10V-2Fe-3Al alloy [43]. VSMPO made compositional alterations (decreased Fe wt.
+content and increased Cr wt. content) in the base material Ti-5Al-5V-5Mo-1Cr-1Fe and developed Ti-5Al-5Mo-5V-8980 Paramjit Singh / Materials Today: Proceedings 4 (2017) 8971–8982
+3Cr alloy having more uniformity in microstructure as well as macrostructure. This new alloy has added advantages
+like more hardenability and ultimate strength compared to conventional Ti-10V-2Fe-3Al alloy and Ti-5Al-5V-5Mo-
+1Cr-1Fe alloy. Further the limited Fe content (wt.%) in Ti-5Al-5Mo-5V-3Cr minimizes segregation chances.
+Thermomechanical processing and heat treatment types affect α and/or β phases in microstructure and mechanical
+properties of this alloy [44]. Aging treatment at low temperatures affects uniformity of α-distributions and hence
+mechanical characteristics of this alloy [45]. In Russian aircrafts, number of components like landing gear parts, lift
+devices and fuselage parts the common applications of Ti-5Al-5Mo-5V-3Cr alloy. Forgings of Ti-5Al-5Mo-5V-3Cr
+fulfill the requirements of landing gear and airframe of Boeing-787 [46]. Parts made from Ti55531 (a version of Ti-
+5Al-5Mo-5V-3Cr with added 1wt.% Zr) are commonly used in Airbus 380 aircraft [47].
+2.4.6. Ti-35V-15Cr Alloy
+In 1980s, failures were noted in exhaust nozzle assembly (made up of conventional Ti alloys) due to high thermal
+stresses of combustion in Pratt and Whitney F-119 engine of F22-Raptor [48] [49]. TWCA developed a stable β
+alloy with compositional elements; V (35 wt.%) and Cr (15 wt.%) [50]. It took almost five years to mature this alloy
+[49]. There is no effect of aging treatment towards α-precipitation in Ti-35V-15Cr; alloy maintains its stability and
+retains β-phase without quenching. Presence of Cr in higher wt.% helps to absorb thermal energy upto ‘heat of
+fusion’ [50] [51]. Presence of V stabilizes β-phase and strengthens the solid solution of Ti-35V-15Cr whereas
+carbon makes carbonitrides [52]. Ti-35V-15Cr alloy offers extraordinary resistance to thermal burning in aircraft’s
+exhausting system. This alloy maintains its strength at extreme temperature conditions though the recommended
+temperature is upto 540°C [48]. In the past decades, China and UK investigated a lot on burn resistant alloys by
+making metallurgical alterations through the addition of Al and C contents [30][53][54].
+3. Summary and Future Work
+This article addresses the basic attributes/characteristics of Ti-alloys and their aircraft (airframe and engine)
+component applications. CP-Ti and commonly used Ti-alloys of three classes (α) (α+β) (β) are discussed. Authors
+summarize the discussion in following bulleted points:
+• Since inception in 1950s, considerable research in the metallurgical and thermomechanical processing of
+titanium alloys made it possible to increase their in-service temperature limit from 300°C to near 600°C.
+• Moderate specific strength of Ti-alloys does not recommend their use to design airframe parts where
+stiffness is the prime requirement.
+• High resistance to creep and oxidation offered by near alpha alloys are the key reason for their suitability at
+elevated temperature applications.
+• Good formability characteristic increases the share of CP-Ti in airframes. Corrosive environment in aircraft
+lavatories and kitchen demands the use of CP-Ti. Heat resistance and strength attributes favors the use of
+Ti-alloys in engine.
+• Presence of Mo, Ta, Nb or V etc. alloying elements hampers the ductility of metastable β alloys at high
+strength levels.
+• Hardening rate and segregation in welded parts are the major drawbacks which limit the weld-ability of
+metastable β alloys and hence use of welded titanium parts in aircraft.
+• Boeing of USA and Airbus of Europe (leader in aircraft manufacturing) forecasted increasing percentage
+share of Ti-alloys per plane and to the overall in aircraft industry in coming years.Paramjit Singh / Materials Today: Proceedings 4 (2017) 8971–8982 8981
+4. Acknowledgement
+I. K. Gujral Punjab Technical University, Kapurthala is gratefully acknowledged for this research work.
+References
+[1]. M. Peters, J. Kumpfert, C.H. Ward, C. Leyens, Titanium Alloys for Aerospace Applications. Adv. Eng. Mater. 5 (2003) 419–427.
+[2]. Flightpath 2050 Europe’s Vision for Aviation, Report of the High-Level Group on Aviation Research, Publications Office of the European
+Union, Luxembourg, 2011.
+[3]. T. Mitsuhiro, K. Masashi, Making lighter aircraft engines with titanium aluminide blades. IHI Eng. Rev. 47. 1. (2014) 10-13.
+[4]. A.P. Mouritz, Introduction to aerospace materials, first ed., Woodhead Publishing, Suite, Philadelphia, USA, 2012.
+[5]. A. Koul et al., in Proc. ASME Turbo Expo, Orlando, FL, 2009.
+[6]. H. Ozaltun J. Seidt et al. in Proc. ASME Turbo Expo, Orlando, FL, 2009.
+[7]. C. Leyens, M. Peters, in: C. Leyens, M. Peters (Eds.), Titanium and Titanium Alloys: Fundamentals and Applications, Wiley-VCH Verlag
+GmbH, Weinheim, (2005).
+[8]. M. Kuttolamadom, J. Jones, L. Mears, T. Kurfess, A. Choragudi, SAE Technical Paper 2010-01-0022, 2010.
+[9]. Banerjee Dipankar, Williams J.C, Perspectives of titanium Science and Technology, Acta Materialia 61, 2013, 844-879.
+[10]. R.R. Boyer. Attribues, Characteristics, and Applications of Titanium and its alloys. JOM. 2010. 62. 5. 21-24.
+[11]. J. Fanning, Titanium Alloys for Composite-Intensive Airframes, TIMET Presentation at IT Conference on Titanium, San Diego, 2006.
+[12]. V. A. R. Henriques, Titanium production for aerospace applications, J. Aerosp. Technol. Manag. 1. 1 (2009) 7-17.
+[13]. F.H. Froes. Titanium: Physical metallurgy, Processing, and Applications, ASM International, first Ed., p. 354.
+[14]. New Materials For Next-Generation Commercial Transports, Committee on New Materials for Advanced Civil Aircraft. National Academy
+Press. Washington, D.C. 1996.
+[15]. Specifications Book, fourth ed., International Titanium Association, Broomfield, USA, 2005.
+[16]. Titanium Pamphlet, The Japan Titanium Society (Ed.), 4, 2007.
+[17]. C. Veiga, J.P. Devim, A.J.R. Loureiro, Rev. Adv. Mater. Sci. 32 (2012) 133-1481.
+[18]. R.I. Jaffee, J. Min. Met. Mat. S. 7, 247 (1955).
+[19]. M. Ikeda, S. Komatsu, I. Sowa, M. Niinomi, Aging behavior of the Ti-29Nb-13Ta-4.6Zr new beta alloy for medical implants, Metallurgical
+and Materials Transactions A, 33, 3 (2002) 487-493.
+[20]. S.M. Abasi, A. Momeni, T. Nonferr. Metal. Soc. 21, 8 (2011) 1728–1734.
+[21]. R. R. Boyer, JOM, 44, 5 (1992) 23-25.
+[22]. D. Eylon. Proc. Int. workshop on Beta Titanium Alloys, Paris, France, 1994, 75-82.
+[23]. James D. Cotton, Robert D. Briggs, Rodney R. Boyer, Sesh Tamirisakandala, Patrick Russo, Nikolay Shchetnikov, John C. Fanning, “State
+of the art in Beta Titanium Alloys for Airframe Applications” June 2015, Volume 67, Issue 6, pp 1281-1303
+[24]. AMS 4914F, Titanium Alloy Cold Rolled Sheet and Strip, 15V-3Al-3Cr-3Sn, Solution Heat Treated.
+[25]. AMS 4957E, Titanium Alloy, Round Bar and Wire, 3AI-8V-6Cr-4Mo-4Zr, Consumable Electrode Melted, Solution Heat Treated and Cold
+Drawn.
+[26]. AMS 4897C, Titanium Alloy, Sheet and Strip, 15Mo-3.0Al-2.8Cb-0.20Si, SAE, 2011.
+[27]. Paul J. Bania. Beta titanium alloys and their role in the titanium industry. JOM. July 1994, Volume 46, Issue 7, pp 16-19.
+[28]. W. Parris and H.W. Rosenberg, U.S. patent US3, 802, 877 (9 April 1974).
+[29]. G.W. Kuhlman, Beta Titanium Alloys in the 1990s, Proceedings Symposium of The Metallurgical Society of AIME, eds. D. Eylon, R.R.
+Boyer, and D.A. Koss (New York: The Minerals, Metals and Materials Society, 1993), pp. 485–512.
+[30]. G. Lutjering, J.C. Williams, Titanium, second ed., Springer-Verlag (2007), 283–336.
+[31]. R. R. Boyer, JOM. 46, 7 (1994) 20-23.
+[32]. R.R. Boyer and H.W. Rosenberg, Proc. symp. Annual Meeting of The Metallurgical Society of AIME, eds. R.R. Boyer and H.W.
+Rosenberg (New York: American Institute of Mining, Metallurgical and Petroleum Engineers, 1984), pp. 441–456.
+[33]. R. R. Boyer, G. W. Kuhlman. Processing properties relationships of Ti-10V-2Fe-3Al. Metallurgical Transactions A. December
+1987, Volume 18, Issue 12, pp 2095-2103.
+[34]. Harry W. Rosenberg. Ti-15-3: A New Cold-Formable Sheet Titanium Alloy. JOM. 1983, Volume 35, Issue 11, pp 30-34
+[35]. M.E. Rosenblum, A. Shames, and W.B. Treppel, Proc. Symp. Annual Meeting of The Metallurgical Society of AIME, eds. R.R. Boyer and
+H.W. Rosenberg (New York: American Institute of Mining, Metallurgical and Petroleum Engineers, 1984), pp. 307–329.
+[36]. L. Fleming, Titanium Prod. Appl., Proc. Tech. Program Int. Conf., 2, (1990), 54–61.
+[37]. D.E. Thomas, S. Ankem, W.D. Goodin, and S.R. Seagle, Industrial Applications of Titanium and Zirconium, vol. 4, ASTM STP 917, eds.
+C.S. Young and J.C. Durham (Philadelphia, PA: American Society for Testing and Materials, 1984), pp. 144–163.
+[38]. K. O. Yu, E. M. Crist, R. Pesa, N. Cecchini, C. M. Bugle, J. Mater. Eng. Perform., 14, 6 (2005) 697-702.
+[39]. AMS 4957E, Titanium Alloy, Round Bar and Wire, 3AI-8V- 6Cr-4Mo-4Zr, Consumable Electrode Melted, Solution Heat Treated and Cold
+Drawn.
+[40]. J.C. Fanning, Beta Titanium Alloys in the 1990s, Proc. Symposium of The Metallurgical Society of AIME, eds. D. Eylon, R.R. Boyer, and
+D.A. Koss (New York: The Minerals, Metals and Materials Society, 1993), pp. 397–410.
+[41]. P.J. Bania, W.M. Parris, Titanium Prod. Appl., Proc. Tech. Program Int. Conf., 2 (1990) 784–793.
+[42]. J. C. Fanning, S. P. Fox, J. Mater. Eng. Perform. 14, 6 (2005) 703-708.
+[43]. V.V. Tetyukhin, Proc. 13th Annual Titanium Conf., San Francisco, CA (1997), 37–54.
+[44]. J. C. Fanning, J. Mater. Eng. Perform. 14, (2005) 788-791.8982 Paramjit Singh / Materials Today: Proceedings 4 (2017) 8971–8982
+[45]. S. Nag, Y. Zheng, R.E.A. Williams, A. Devaraj, A. Boyne, Y. Wang, P.C. Collins, G.B. Viswanathan, J.S. Tiley, B.C. Muddle, R. Banerjee,
+H.L. Fraser, Acta Mater., 60, (2012) 6247-6256.
+[46]. G. Tomchik, T.G. Dunder. Overview of Titanium Applications on Advanced Commercial Transports. 17th AeroMat Conference and
+Exposition, unpublished research, 15 May 2006, Seattle, Washington.
+[47]. J. Pora, Flight Airworth. Support Tech. 32, 3 (2003).
+[48]. TWCA to Commercially Market Alloy C, Teledyne Wah Chang Albany, OUTLOOK Newsletter, 14(1), 1 (1993).
+[49]. D.W. Anderson and A.F. Condliff, Proc. Int. Titanium Associations, TITANIUM 1994, Products and Applications, 191–201.
+[50]. D.M. Berczik, U.S. patent US5,176, 762 (5 January 1993).
+[51]. R. W. Schutz, JOM, 46, 7, (1994) 24-29.
+[52]. G. Li, D. Li, Y. Liu, Q. Wang, and S. Guan, J. Mater. Sci. Tech. 14, 411 (1998).
+[53]. Z. Yongqing, Z. Lian, Z. Kangying, Q. Henglei, and W. Huan, Int. J. Mater. Prod. Tech. 604 (2001).
+[54]. Y.G. Li, M.H. Loretto, D. Rugg, W. Voice, Acta Mater, 49, (2001) 3011–3017.

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Profile</title>
+    <link rel="stylesheet" href="{% static  'css/styles_profile.css' %}">
+</head>
+
+<body>
+    <div class="main">
+        <div class="logo-container">
+            <img src= "{% static  'img/logo1.png' %}" alt="Logo" class="logo">
+            <p class="logo-text">boTAI</p>
+        </div>
+        <div class="form-box">
+            <div class="profile">
+                <div class="profile-container">
+                    <img src="{% static  'img/avatar.png' %}" class="profile-picture" alt="Profile Picture" 
+                    style="max-width: 80px; max-height: 80px;">
+                    <div class="user-info">
+                        <p class="username">{{user.first_name}} {{user.last_name}}</p>
+                        
+                    </div>
+                </div>
+                <p class="unvan" style="color: grey;">{{user_profile.title}}</p>
+                <p style="color: grey;">{{user_profile.unit}}</p>
+                <!-- <p>Karadeniz Teknik Üniversitesi</p>
+                <p>2019-2024</p> -->
+                <a href="{% url 'chatbot_app:home' chat_id=-1 %}" class="return-btn">Return to chat</a>
+                <div class="buttons">
+                    <button class="settings-btn"></i> Settings <i class="fa fa-gear"></i></button>
+                    <form action="{% url 'Logout' %}" method="POST">
+                        {% csrf_token %}
+                        <button href="{% url 'Logout' %}" class="logout-btn"> Log Out <i class="fa fa-sign-out"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="about-me">
+                <h2>About Me</h2>
+                <p>I am a chatbot trained to provide fast and accurate answers to engineers' questions about new materials in aircraft technologies. I can answer your questions based on my own knowledge base and expertise without performing internet searches. My goal is to help engineers learn about new materials and assist them in their research efforts.</p>
+                <br>
+                <div class="capabilities-container">
+                    <h3>My Capabilities</h3>
+                    <ul>
+                        <li>I can provide information about new materials used in aircraft technologies.</li>
+                        <li>I can compare the properties of different materials.</li>
+                        <li>I can provide information about the applications of new materials.</li>
+                        <li>I can provide information about factors engineers should consider when selecting materials.</li>
+                        <li>I can keep track of the latest news and developments related to new materials.</li>
+                    </ul>
+                </div>
+                <br>
+                <div class="limitations-container">
+                    <h3>My Limitations</h3>
+                    <ul>
+                        <li>I cannot perform internet searches.</li>
+                        <li>I cannot answer questions about topics I have not been trained on.</li>
+                        <li>I cannot perform engineering designs or calculations.</li>
+                    </ul>
+                </div>
+                <br>
+                <div class="feedback-container">
+                    <h3>Feedback</h3>
+                    <p>I always welcome your thoughts and feedback. Please feel free to reach out to me via email or chat.</p>
+                    <p>tusas.chatbot@ceng.ktu.edu.tr</p>
+                </div>
+            </div>
+            
+            <div class="change-password-screen" style="display: none;">
+                <form id="Register" class="input-group" action="{% url 'UpdateProfile' %}" method="POST">
+                    {% csrf_token %}
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" name="old_password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword2">New Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword2" name="new_password1" placeholder="New Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword2">Validate New Password</label>
+                        <input type="password" class="form-control" id="exampleInputValidationPassword" name="new_password2" placeholder="New Password">
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary" name="form_type", value="UpdateProfile">Submit</button>
+                  </form>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+    <script src= "{% static  'js/profileScripts.js' %}"></script>
+</body>
+
+
+
+</html>

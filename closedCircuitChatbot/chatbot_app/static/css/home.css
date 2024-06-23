@@ -1,0 +1,111 @@
+.navbar {
+    background-size: 100% 180%; /* Resmi kaplamak için */
+    background-position: center; /* Resmi ortalamak için */
+    height: 140px; /* Navbar yüksekliği */
+    width: 100%; /* Navbar genişliği */
+    border-radius: 10px;
+}
+
+.navbar-brand img {
+    width: 70px; /* Genişlik ayarı */
+    height: auto; /* Yükseklik otomatik ayarı, oranları korumak için */
+}
+
+.logo{
+    color: black;
+    font-size: 30px;
+}
+
+.navbar-nav{
+    margin-left: 1200px;
+}
+
+.sidenav {
+    width: 300px;
+    background-color:#FDF9F2;
+    color: #A7915B;
+    padding: 30px;
+    height: 100vh; /* Sayfa yüksekliğini 100% olarak ayarlar */
+    position: absolute; /* Sayfanın kaydırılmasına bağlı olarak sabit kalmasını sağlar */
+    right: 0; /* Sayfanın solundan başlamasını sağlar */
+    border-radius: 20px;
+}
+
+.sidenav li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ADAAAA;
+    font-size: 14px;
+
+}
+
+.sidenav span{
+    text-align: left;
+}
+
+.sidenav a {
+    text-decoration: none; /* Altı çizili olmayan link */
+    color: #ADAAAA;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.line {
+    border-bottom: 2px solid #A7915B;
+    margin-bottom: 10px;
+}
+
+.sidenav-header{
+    text-align: right;
+    padding: 5px;
+    color: black;
+    padding-right:0 ;
+}
+
+.chat-container {
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    margin: 0;
+    margin-left: 150px; /* Sola kaydırma miktarı */
+}
+
+.message-container{
+    width: 900px; /* Formun genişliğini ayarlar */
+    padding: 20px;
+}
+
+.message{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.input-group{
+    width: 50%; /* Formun genişliğini ayarlar */
+    padding: 20px;
+}
+
+.input-container {
+    display:flex;
+    width: 700px;
+    align-items: center;
+    height: 50vh;
+    margin-left: 300px; /* Sola kaydırma miktarı */
+    
+}
+
+.icon-link{
+    color: black;
+    text-decoration: none; /* Altı çizili olmayan link */
+    font-size: 20px;
+}
+
+.btn-icon{
+    color: #A7915B;
+}
+
+.logout-button{
+    text-align: right;
+    position: absolute;
+    bottom: 0
+}

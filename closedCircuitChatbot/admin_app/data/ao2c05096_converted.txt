@@ -1,0 +1,1466 @@
+http://pubs.acs.org/journal/acsodf Review
+An Overview of Various Additive Manufacturing Technologies and
+Materials for Electrochemical Energy Conversion Applications
+Bulut Hüner, Murat Kıstı, Süleyman Uysal, Il̇ ayda Nur Uzgören, Emre Ö zdoğan, Yakup Ogün Süzen,
+Nesrin Demir, and Mehmet Fatih Kaya*
+CiteThis:ACSOmega2022,7,40638−40658 ReadOnline
+ACCESS
+Metrics&More ArticleRecommendations
+ABSTRACT: Additive manufacturing (AM) technologies have
+many advantages, such as design flexibility, minimal waste,
+manufacturing of very complex structures, cheaper production,
+and rapid prototyping. This technology is widely used in many
+fields,includinghealth,energy,art,design,aircraft,andautomotive
+sectors.Inthemanufacturingprocessof3D printedproducts, itis
+possible to produce different objects with distinctive filament and
+powder materials using various production technologies. AM
+covers several 3D printing techniques such as fused deposition
+modeling (FDM), inkjet printing, selective laser melting (SLM),
+andstereolithography(SLA).Thepresentreviewprovidesanextensiveoverviewoftherecentprogressin3Dprintingmethodsfor
+electrochemicalfields.Adetailedreviewofpolymericandmetallic3Dprintingmaterialsandtheircorrespondingprintingmethods
+for electrodes is also presented. Finally, this paper comprehensively discusses the main benefits and the drawbacks of electrode
+production from AM methods for energy conversion systems.
+1. INTRODUCTION producesmallvolumeparts maybedecreasedsignificantly.7−9
+WhentheIndustrialRevolutionisconsidered,animprovement
+Increasing population growth and rapid industrialization
+require new research studies to meet these energy demands.1 is expected in the manufacturing process of products. For this
+reason,three-dimensional(3D)printingtechnology,knownas
+Due to the people’s high growing energy needs, clean and
+the AM method, accounts for the basis of the Industrial
+environmentally friendly renewable energy technologies may
+Revolution (4.0) among new production techniques. AM
+provide a sustainable solution. To reduce greenhouse gas
+technology provides the rapid production of parts by adding
+emissions, many researchers have turned their search to clean
+objects layer-by-layer from computer-aided 3D geometry
+and environmentally friendly renewable energy sources. The
+interestinuseofsolarenergy,2windenergy,3andenergyfrom models without the constraints of traditional machining,
+biomass4 applications is increasing day by day. The develop- forging, and casting processes. Among the rapid production
+methods, this technology has recently paved the way for the
+ment of renewable energy systems will be promising for the
+improvement of designs for industrial applications and the
+solutionofthemostsignificanttasks,likeimprovingtheenergy
+rapidproductionofcomponents.AvarietyofAMmethodsand
+supply security, biofuel economy, solving local energy and
+the materials are given in Table 1.
+water supply problems, and raising the living standard and
+employment level of the local population.5,6 However, high AM technologies have a great capacity both to decrease
+material waste through the production stages of products and
+cost is one of the biggest obstacles for the common use of
+toreduceenergyconsumptionbecauseithasbeendetermined
+thesesystems.Theproblemofaccesstorawmaterials,whichis
+that there is a significant decrease of up to 27% in global
+among the reasons for high cost, may provide a long-term
+energy demand with the widespreaduse of AM technologies.9
+solution for sustainable development in renewable energy
+In recent times, these technologies have been widely used in
+technologies.Thewidespreaduseofnewtechnologies,suchas
+AM, may contribute to reduce the carbon footprint. The AM
+method, which is claimed to be a green technology, has great Received: August9, 2022
+potential to increase material efficiency, reduce life cycle Accepted: October20,2022
+impact, and reduce the need for special tools in the Published: November3, 2022
+manufacture of parts. It also provides faster production and
+more time savings compared to traditional methods. There-
+fore, the energy consumption in required time and cost to
+©2022TheAuthors.Publishedby
+AmericanChemicalSociety https://doi.org/10.1021/acsomega.2c05096
+40638 ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+Table 1. Various AM Techniques and Their Materials
+process materials methods ref
+directedenergy metals lasermetaldeposition(LMD) 10−12
+deposition
+materialextrusion thermoplasticpolymers fuseddepositionmodeling(FDM) 13−15
+powderbedfusion plastics,metalsandpolymers,ceramicpowders electronbeammelting(EBM),selectivelasermelting(SLM)/ 16−18
+selectivelasersintering(SLS)
+materialjetting polymers multijetmodeling(MJM) 19,20
+binderjetting polymers,metalsandfoundrysands powderbedandinkjethead3Dprinting(PBIH),plaster-based3D 21−23
+printing(PP)
+inkjetbioprinting biomaterialsandhumancells inkjetbioprinting 24,25
+sheetlamination polymers,metalsandceramics laminatedobjectmanufacturing(LOM),ultrasonicadditive 26,27
+manufacturing(UAM)
+vatpolymerization acrylates,epoxides,photoresins,photocurablematerials, photopolymerization,digitallightprocessing(DLP),continuous 28−31
+(VP) polymersandceramics liquidinterfaceproduction(CLIP)
+different energy sectors to enhance their performance and discussed. A future perspective is presented for the new
+increaseenergyefficiencyinthe3Dprintingofproducts.Ithas generation energy conversion applications’ research and
+been especially accepted as one of the new generation development (R&D) studies.
+solutions for energy storage, energy conversion, and electro-
+2. MATERIALS USED IN THE 3D PRINTING METHOD
+chemical applications. For example, in traditional methods,
+there is a disadvantage to produce flow channels, such as 2.1.Polymer-Based Materials.Polymers are preferred in
+electrodes and bipolar plates for energy applications by theAM methoddue totheireasier productionandlower cost
+machining methods, in terms of both cost and their comparedtothoseofotherbuildingmaterials.InFigure1,the
+geometricalstructures.Therefore,theAMmethodhasrecently
+become the lead production system in terms of design
+freedom, material savings, and easy production of complex
+structures.32,33 It was the first application of the photo-
+polymerization method for the 3D printing method. This
+method was introduced in the 1980s by Hideo Kodama. He
+developed the method for creating 3D objects by curing a
+photocuringpolymerunderultraviolet(UV)light.Itisknown
+as the stereolithography (SLA) method.34 The lamination
+method can be realized by stacking materials on each other
+afteralayercontourdefinitionisobtainedwithcuttingtoolsin
+the 3D printing process. The lamination method, which is
+knownaslaminatedobjectfabrication(LOM),wasdiscovered
+atHelisys,Inc.inthelate1980s.Inthismethod,firstalayerof
+materialisloadedontothetableandthentheprofileiscreated
+bycuttingwithalaserorblade.35Aftertheremainingmaterial
+Figure 1. Materials for AM method according to the amount of
+is removed, a second layer is loaded on top of the first layer. material consumptionby weight in 2014. Reprinted with permission
+According to the type of materials, such as paper, metal, or from ref 40.Copyright2015Nova Science Publishers.
+plastic, each layer is obtained by sticking to the previous one
+using adhesive or welding methods.36 Another method is an
+distribution of consumed polymeric materials for the AM
+extrusion-based3Dprintingprocessthatproducesproductsby
+methodin2014canbeseen.Plasticmaterialsrepresent99%of
+directly depositing material with the help of a nozzle after a
+the industry, and they are involved in the development of
+series of pretreatments (liquefaction process). This technique structural mechanical compounds, such as metals.39
+is known as fused deposition modeling (FDM), which creates
+IntheAMmethod,polymershavethepotentialtorepresent
+3D printed objects using polymer materials and was explored
+manymoreapplicationthanmetalsinmanyfieldsfromenergy
+by Scott Crump in 1989.37 The developing 3D printing to sustainable applications and health to biomedical. The
+technologyhasprovidedrapidprototyping,whichiscriticalfor filamentsusedintheFDMmethodrepresentthelargestpartof
+micro- and macrostructure design in energy applications the industry. Although there are several polymeric materials
+because3Dprintingrepresentsanewmanufacturingtechnique available for AM, they vary in the process of 3D printing
+for the production of energy conversion and storage depending on the method and their mechanical properties.
+technologies in the production of functional materials for Polymers, such as acrylonitrile-styrene-butadiene (ABS),41
+energy applications. Among other advantages, AM technolo- polycarbonate (PC),42 polylactic acid (PLA),43 polystyrene
+gies offer the unique ability to increase specific performance (PS),44 polyamide(PA),45 andpolyurethane(PU),46 are used
+perunitmassandvolumeinthemanufactureofenergydevices in the AM method. These materials are used for low-
+with complex shapes.38 performance components or prototype designs. At the same
+In this study, the fabrication of 3D printed products using time, polymers such as polyether ether ketone (PEEK),
+polymer-based and metal powder-based materials, their polyphenylsulfone (PPSU), polyetherimide (PEI), and poly-
+electrochemical applications and coatings, and the studies of phenylene sulfide (PPS) are used in the AM method due to
+3D printed products with different geometries are extensively their heat and chemical resistance.47−49 For this reason, the
+40639 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+interestinthismethodisincreasingdaybydaytoenhancethe atures (between 210 and 250 °C) depending on the
+mechanical properties of composite and nanocomposite applications. A comparison of nozzle and build plate
+materials or to acquire new functions, like thermal and temperature values for the most widely used materials in the
+electrical conductivity for commercially available polymers.50 FDM method is listed in Table 2.
+One of the AM methods, “FDM”, is the most preferred
+methodduetoitslowproductioncosts.Withtheexpirationof Table2.ValuesofTemperatureUsedintheApplicationsof
+Stratasys’ FDM patent after 2009, the spread of FDM Polymeric Materials
+machines in the production of 3D printed products was
+increased. This increase in AM method may accelerate the thermoplastic nozzletemperature build-platetemperature
+materials (°C) (°C) ref
+growth of manufacturing technology of products with the
+development of new smart materials, nanocomposites, and PLA 200−210 60
+biomaterials.37−51 In energy conversion applications, PLA and ABS 225−260 80−90
+ABS-based filaments are the most common thermoplastics.52 PETG/PET 225−245 85 60
+2.1.1. Polylactic Acid Thermoplastics. PLA is a thermo- PP 205−220 85−100
+plastic material that may be obtained from renewable biomass PC 260−280 110
+resources, such as starch, corn starch, sugar cane, or tapioca
+roots, and it belongs to the category of biodegradable To trap the heat in the printing area of the 3D printed
+polymers.53 It has completely biocompostable properties and products for ABS filaments, the 3D printer should be closed
+is able to reduce solid waste disposal problems. PLA-based from all sides. Because ABS filaments can be affected by
+polymers are preferred mostly in the developing bioplastics temperaturechangeeasily.Allfilamentsmayemitodorsduring
+industry due to their easy availability and low cost.54,55 PLA the printing process. Although PLA filaments do not emit a
+materials’ mechanical properties, like tensile strength and foul odor because of its plant-based properties, ABS filaments
+impact strength, are lower than polypropylene (PPy), poly- do emit a distinct odor.61,62 Thanks to the diversity in
+(ethylene terephthalate) (PET), and poly(ethylene tereph- industrial applications, it has a very important opportunity to
+thalate)glycol(PETG)-basedpolymers.Comparedtoconven- improve the properties of ABS and open new areas of
+tional polymers, like PPy, polystyrene (PS), and polyethylene application. New application areas may increase its compet-
+(PE), PLA has a higher mechanical, tensile, and bending itiveness with other polymeric-based 3D printing materials.
+strength. As a semicrystalline or amorphous structure, the Moreover, there are also other thermoplastics such as PETG,
+melting temperature of PLA may change between 55 and 180 PET,andPPythatcanbeusedin3Dprintingprocess.PETG
+°C. The thermal features of PLA can exhibit structural has high strength resistance and low-cost materials, and they
+differences according to their molecular weights and are utilized in many fields such as medical, automotive,
+compositions.56 It can be concluded that PLA has a good aviation, building, and electrical-electronic applications.52 On
+stiffness, tensile strength, and gas permeability comparable to the other hand, PET is one of the most recycled polymeric
+those of synthetic polymers, and it is one of the most materials in high-volume commercial and consumer applica-
+promising materials to replace petroleum-based polymers in tionsbecauseitiswidelyusedinplasticpackagingapplications
+thepackagingindustrysector.Moreover,inthefutureresearch, as a recycling material in the beverage industry.63 PPy is
+PLA will be a low-cost material due to their biodegradable another polymer material and it has gained popularity very
+propertiesandsimpleproductionofcomponentsforindustrial quickly because of having the lowest density among
+applications. Although, nowadays, it has a higher production commercial plastics.64
+costthanpetroleum-derivedplastics,PLA-basedpolymersmay 2.2. Additive Manufacturing of Polymeric Structures
+be used in many different practical applications such as for Energy Conversion Applications. Rapid prototyping,
+agriculture, packaging/food packaging, medical/biomedical transforming complex structures into products, reducing
+industry, energy sector, and automotive industry. printing errors, and improving mechanical properties. These
+2.1.2. Acrylonitrile-Styrene-Butadiene Thermoplastics. are some of the main factors that may have increased the
+High molecular mass styrene-acrylonitrile copolymers and developmentofAMtechnologies.FDMandthemultijetfusion
+butadiene-acrylonitrile copolymers were used to fabricate (MJF) method are commonly used in 3D printing with
+bullet-proof polymer boards during the final years of World polymer-based filaments.65 In the FDM method, a thermo-
+WarII.Thesepolymershavehighimpactstrengthduetotheir plastic polymer filament is used in 3D printing for designed
+low thermoplastic flow properties. ABS is a product of the products. Due to the thermoplastic property of the polymer
+systematic polymerization of acrylonitrile, butadiene, and filament, it provides an important advantage for this method
+styrene. It has also many properties such as good thermal that allows fusing together during 3D printing. Then, it
+stability, high resistance, high toughness (even under cold solidifies at room temperature after the 3D printing process is
+conditions), and hardness. Other important features of ABS finished.Layerthickness,width,fillingrate,andprintingspeed
+polymers are low cost, high strength, and low thermal of the filaments are the main parameters that affect the
+expansion. Moreover, the development of methods like mechanical properties for the formation of parts. Low cost,
+injection molding and graft polymerization has increased the high speed, and simplicity of production steps are the main
+interest in ABS plastics. ABS also may be uses in many fields advantages of the FDM method. However, it has poor
+likedesign,fashion,toys,andmodernart.57,58Thewidespread mechanical properties, poor surface quality, and a limited
+useofFDMtechniqueshasbeenincreasedwiththeutilization number of materials are their main disadvantages.66,67 In
+of ABS polymers in 3D printers.59 In comparison to PLA Figure 2, the production steps of the 3D printed model using
+filaments, ABS polymer filaments require a higher nozzle and the FDM method can be seen.
+bed temperature. They require a wide range of bed AsseeninFigure2,thefirststepof3Dprintingistocreatea
+temperatures (between 80 and 110 °C) and nozzle temper- 3D object using computer-aided design (CAD) software. The
+40640 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+Figure2.Productionstepsof3DprintedproductswiththeFDMmethod:(a)3DCADmodel,(b)conversionSTLfiletodesignedsample,(c)
+slicingprocess,(d)3Dprinting,and (e)3Dprinted product.
+second step is to convert the 3D object to the STL (standard a “Carbon Black Conductive PLA Filament”. This conductive
+triangle language) file format. The third step is to separate PLAfilamentisusedinmanyfields,suchaslow-voltagecircuit
+layersoftheobjectconvertedtoSTLformatintolayerswitha applications, touch sensor areas, and touch screen pens. In
+slicing program. The fourth step is to set different printing addition,theProto-PastaPLAfilamenthasavolumeresistance
+parameters,suchasthenumberoflayers,thickness,andfillrate of30Ω/cmfor3Dprintedpartsperpendiculartothefilament
+oftheobjects,andthenitissenttothe3Dprintertocreatethe layers.71 A metal-based conductive PLA filament is produced
+product. In this method, generally polyamide 12 (PA12), by the Multi3D company, and it is commercially available as
+polyamide 11 (PA11), and glass beaded PA12 polymer “Electrifi Conductive PLA Filament”. This conductive PLA
+powders are used. PA12 is widely used in the multijet fusion filamenthasabrowncolorandaverylowvolumeresistanceof
+(MJF)method.InFigure3,thestagesoftheMJFmethodcan 0.006 Ω/cm. This filament is used in many fields, such as
+be seen. electricalcircuit,electrochemical,andsensorapplications.72 In
+the literature, Proto-Pasta, Black Magic, and Electrifi
+Conductive PLA Filaments have been used widely in 3D
+printingmethodsinelectrochemicalapplications.Forexample,
+Vernardouetal.73preparedelectrodesforlithium-ionbatteries
+using 3D printing with a graphene-based PLA filament. They
+fabricated the electrodes with a 3D printer, which had a dual
+extruder. They used a conductive PLA filament with a
+resistance of 0.6 Ω/cm. They also investigated the electro-
+chemicalpropertiesofthe3Dprintedelectrodesina1MLiCl
+Figure 3. Demonstration of the MJF method involving the aqueous solution. They concluded that graphene-based
+application of a polymer powder layer. Reprinted with permission conductive PLA filaments can be used as high-performance
+fromref 68.Copyright2018 Elsevier. electrodematerials.74,75Inrecentyears,theinvestigationof3D
+printing methods in electrochemical application areas has
+increased.76−79 Electrodes for electrochemical energy con-
+In this method,theproductionstepis startedbydeposition
+versionreactionshavebeenobtainedas3Dprintedwithmetal
+ofalayerofPApowderontheplate.Ablackinkfusingagentis
+and polymer-based materials. At the same time, 3D printing
+applied to the powder bed and contains an infrared absorbing
+technology has provided a new approach to material
+agent. Moreover, a substance is added to the powder bed to
+production for a variety of applications because of their low
+prevent the fusion of the particles and to enhance resolution.
+costs.Başetal.80preparedthe3Dprintedanodeelectrodesfor
+In this method, polymer heating is obtained as the melting
+microbial electrolysis cells using conductive PLA filament
+agent absorbs the IR radiation and transforms it into thermal
+(copper-basedElectrififilament).Toincreasethemasstransfer
+energy that allows the material to fuse by passing planar
+inside the cell, electrodes have been designed in different
+infrared rays over the powder bed to form a layer. Then, the
+geometries(rod,1-cycledspiral,2-cycledspiral,3-cycledspiral,
+build plate moves down to form the 3D part, and this process
+is repeated as a layer-by-layer production.68 and 4-cycled spiral) and produced using the 3D printing
+2.2.1. Conductive Polymer-Based Materials and Electro- method. They used cheese whey wastewater as an electrolyte,
+chemicalApplications.PLAandABSpolymerthermoplastics’ and a two-chamber microbial electrolysis cell with different
+shaped 3D printed electrodes to perform the electrochemical
+electrical conductivity can be increased by the addition of
+various conductive materials. Conductive materials for 3D analyses. They interpreted that the organic content of the
+printingareusuallyobtainedusingmetal,carbon,andpolymer waste and the electrode geometry increases the microbial
+composites. By the addition of different conductive carbon electrolysis performance and hydrogen production. In the
+materials (such as graphene, carbon black, nanofibers, and literature, many reports on 3D printable polymer materials
+carbon nanotubes) in different ways, composite materials gain
+havebeenpresentedusingPLA/graphenefilaments,81,82ABS/
+conductive properties.69 For example, a graphene-based PLA carbon black filaments,83 polypropylene/carbon black fila-
+filament is produced by Black Magic 3D (BM), and it is ments,84 polybutylene terephthalate/carbon nanotube/gra-
+commercially available as a “Conductive Graphene PLA phene,85 and carbon nanofiber/graphite/polystyrene compo-
+Filament”. The black-colored BM PLA filament has a 0.6 Ω/ site filaments.86 In the production of 3D printed electrodes
+cmvolumeresistivityvalue.ThisconductivePLAfilamenthas usingthermoplasticmaterials,carbonnanotube,graphene,and
+mechanical strength higher than that of nonconductive PLA carbon black materials were mixed to increase the electrical
+and ABS filaments. Thus, conductive graphene/PLA filaments conductivity of electrodes.87,88 However, electrochemical or
+are utilizedin many applicationareas,such as sensors, printed physical deposition techniques were required to improve their
+circuits, telecommunications, medical devices, aerospace, and conductivity to the desired level. It increases both the
+automotive sectors.70 A carbon-based PLA filament is electrochemical activities and conductivity of the electrodes
+produced by Proto-Pasta, and it is commercially available as by deposition with electrochemically active nanomaterials,
+40641 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+Table 3. 3D Printed Electrodes’ Electrochemical Coating Applications
+3Dprintingmethod filaments applicationfield coatingmaterial coatingprocess ref
+FDM graphene/PLAfilament electrode nickel−copper electrochemical 78
+FDM conductivecarbon-PLAfilament electrode nickel−copper electrochemical 95
+FDM BlackMagicPLAfilament electrode gold electrochemical 89
+FDM BlackMagicPLAfilament electrode nickel−platinum electrochemical 96
+FDM BlackMagicPLAfilament electrode nickel−iron electrochemical 99
+FDM conductivecarbon-PLAfilament electrode nickel electrochemical 100
+FDM ElectrifiPLAfilament electrode copper electrochemical 101
+FDM BlackMagicPLAfilament graphene/PLAcompositeelectrode bismuth electrochemical 102
+FDM graphene/PLAfilament electrode nickel electrochemical 103
+FDM Proto-PastaPLAfilament battery/electrode zinc−copper electrochemical 104
+FDM ABSresin compositeelectrode copper electrochemical 105
+FDM BlackMagicPLAfilament electrode molybdenumsulfide electrochemical 106
+such as graphene and polypyrene,89 as well as noble metals.90 reaction(OER)andhydrogenevolutionreaction(HER)using
+Moreover, commercially available PLA and ABS filaments in the FDM method. They produced graphene/PLA electrodes
+3D printing technology have provided an advantage in the for HER with a commercially available conductive filament
+manufacturing of the electrodes without the need for an calledBlackMagic.Theystatedthatthe3Dprintedgraphene/
+extrusionstep.Forexample,BinHamzahetal.91produced3D PLA electrode exhibited low HER catalytic activity because of
+printedABS/blackcarbonelectrodesbytheFDMmethodand their poor electrical conductivity. Production of 3D printed
+investigatedtheirelectrochemicalbehavior.Theyprepared3D conductive materials is currently limited in research level for
+printed electrodes in both horizontal and vertical directions. the most applications. Especially, for conductive polymeric
+When the performance of the electrodes was compared, they filaments, there are gaps for improving electrical and
+observed that the vertically printed 3D printed electrode conductive properties. In another study, Hüner et al.96
+showedamoreadvancedcurrentthanthehorizontallyprinted prepared graphene-based 3D printed electrodes using the 3D
+electrode. Moreover, they concluded that the conductive printing method and then were co-deposited with different
+surface areas of all 3D printed electrodes were equal in their molar ratios of Ni and Pt to examine the HER features of the
+capacitive measurements. Electrochemical activation of gra- electrodes in the alkaline medium. In the electrochemical
+phene/polymer-based filaments are also another issue for the measurementsofthepreparedelectrodes,theydeterminedthat
+electrochemical energy conversion studies.92 Thanks to the the uncoated graphene-based electrode had the least HER
+activation techniques, the amount of PLA is reduced to kinetic activity in an alkaline medium. However, they stated
+improvetheelectrode’sconductivemedia.Joãoetal.93studied that HER activities increased when they coated the electrodes
+the use of 3D printed electrodes for fuel bioethanol quality withNiandPtelements.Conductivegraphene-based,carbon-
+controlusingtheFDMmethod.Theelectrodeswereprepared based, and metal-based polymeric filaments could allow
+by a mixture of carbon black and Proto-Pasta PLA filaments. production of novel 3D printed electrodes for electrochemical
+Theelectrodeswereproducedinhollowcubesof4cm×4cm applications.Toincreasetheelectricalconductivityandkinetic
+with a wall thickness of 2 mm. Prior to using the electrodes, activity of the 3D printed electrodes it is necessary to adjust
+theyappliedapolishingprocesstopreventpossibleleaks.They the printing parameters and electrochemical coating on the
+also performed an optimized chemical/electrochemical pro- electrode surface with a thin film. 3D printed electrodes also
+cessing step in the electrochemical cell. Then, nonconductive can be used for electrochemical analysis, by replacing
+polymericmaterialisremovedfromthesurfaceoftheworking traditional carbon electrodes. For example, Akshay Kumar et
+electrode to provide higher conductive layers. Their work al.97 prepared electrodes by 3D printing and used materials
+concluded that the 3D printed CB/PLA electrode has with high catalytic efficiency to improve their electrochemical
+exhibited a good conductivity at low currents after chemical performance. Then, they used an easy and cost-effective dip-
+or electrochemical surface treatment, and thus successfully coatingtechniqueforthecoatingoftheelectrodes.Toexamine
+completed for fuel bioethanol analysis. To improve the thecatalyticandkineticactivitiesof the3Dprintedelectrodes
+conductivity of PLA-based conductive filaments, electro- for HER reactions, the electrodes were coated with different
+chemical Cu coating is also a useful method.94 Application transitionmetals,suchasWS ,WSe ,MoS ,andMoSe .They
+2 2 2 2
+of Cu coating can provide an opportunity for using different concluded that using dip-coated 3D printed electrodes in
+shaped geometries to design electrodes, capacitors, sensors, energy conversion applications improved the surface proper-
+and electrical circuits. Hüner et al.95 prepared electrodes by a ties. Moreover, they also stated that the surfaces of the 3D
+3D printing method using carbon/conductive PLA filament. printed electrodes can be coated with various transition or
+Toincreasetheconductivityandelectrochemicalperformance noble metals, and they may be used in electrochemical
+of the electrodes, Ni−Cu binary coatings of different volume applications in future electronics, sensor, and energy storage
+ratios were deposited electrochemically on the 3D printed systems. Siowwoon et al.98 prepared 3D printed nanocarbon/
+electrodes. According to their results, the kinetic performance PLA electrodes with MoS -coated for photoassisted electro-
+2
+ofNi−Cu-coated3Dprintedelectrodesincreasedcomparedto catalytic HER using the atomic layer deposition (ALD)
+theuncoated3Dprintedelectrode.Moreover,theydetermined method and optimized the ALD process at low temperatures.
+that the resistance value of the Ni−Cu-coated 3D printed ThecoatingofMoS onthe3Dprintednanocarbonelectrodes
+2
+electrodesdecreasedby99.5%.Inanotherstudy,Fosteretal.81 is changed between 38 and 900 ALD cycles, which is
+produced 3D printed electrodes for the oxygen evolution performed at low deposition temperature. They explained
+40642 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+that the prepared electrodes have higher electrocatalytic how 3D printed novel electrodes act in electrochemical
+activity, reaching an overpotential of 480 mV at lower coating applications.109 3D printed electrodes will be able to explore
+cycles. Moreover, they stated that the ALD deposition novel areas for electrochemical devices and it contributes to
+technique is suitable to produce complex structures with new applications where electrodes may be designed in
+ambiguous areas, like 3D printed objects. A list of electro- extraordinary geometries for battery performance where
+chemicalcoatingsofvariousmetalsontheelectrodesprepared traditional geometries (cylindrical, planar, button, etc.) do
+by the 3D printing method is given in Table 3. not perform well.
+Kim et al.107 produced 3D printed objects using three 2.3. Metal-Based Materials. Metal-based materials have
+different commercially available thermoplastic-based conduc- higher demand than polymeric-based conductive PLA
+tive filaments (Electrifi, Black Magic, and Proto-Pasta). Then, filaments in electrochemical energy conversion applications
+they electrochemically coated the 3D printed objects with due to their higher conductivity values. Materials, like Ti,110
+copper for 5, 15, 30, and 60 min. They investigated the Ti Al V alloy,111,112 Fe−Mn alloy,113 bronze,114 Al6061,115
+6 4
+electricalpropertiesofthe3Dprintedobjectsafterthecopper Al3003,116 nickel,117 stainless steel (SS),118−120 and copper121
+coating process. According to their results, the 3D printed areusedinametal-based3Dprintingmethod.Inthismethod,
+sample prepared using the Electrifi filament and coated with metal powders with particle sizes ranging from 50 to 100 μm
+copper for 60 min was the best electrode. They also claimed areutilized.Theuseofpowderswithsmallparticlesizesallows
+that the copper coating reduces the electrical resistance, theformationofhomogeneouslayers.Whentheparticlesizeis
+increases thermal stability, and current density of the decreased, the minimum compressible layer thickness value is
+electrodes. Dos Santos et al.99 prepared 3D printed PLA/ reduced.Powderswithlargeparticlesizescauseuncontrollable
+graphene-basedelectrodesforOERreactionsandperformeda porosity in the produced parts.122 Binders such as liquid glue
+coatingprocessontheelectrodewithNi−Fe(oxy)hydroxideas or laser beam are used as binding agents to glue the powders
+an electrocatalyst. They stated that the 3D printed PLA/ into the desired structural form.76 During the AM process,
+grapheneelectrodewasaneffectiveelectrocatalystagainstOER after the solid layer is formed, the second layer of powder is
+reaction.Theyconcludedthata10%contributionofFeinthe spread across the previous layer in preparation for other
+coating solution had significant kinetic activity for OER and bonding operations.123 In general, a lot of different materials
+the initial potential of OER reactions was comparable to areusedintheformofsmallparticlesofceramic,wood,acrylic,
+iridium(Ir)catalysts.FortheNi-coated3Dprintedelectrodes, marble, and metal powders. One of the key advantages of this
+another study was conducted by Bui et al.100 for HER and technology is that unbound powder particles act as a support
+OER performance in alkaline media. They produced 3D material during the printing process. Therefore, any support
+printedelectrodesusingconductivecarbonPLAfilament.The material is not necessary for the printing process. Moreover,
+3D printed electrodes were electrochemically coated with after theprinting process is finished,all theremaining powder
+nickel(Ni)inanalkalineenvironment.AccordingtotheirCV particlescanberecoveredeffectively.Thus,metalprinterswill
+results,theystatedthatoxidationandreductionpeaksoccurred be in a good level in five years, and they may be a game
+inthepositiveandnegativescanninglimitsforOERandHER. changer in production industry.
+Asagraphene-basedBlackMagicPLAapplication,Iffelsberger 2.3.1. Metallic Additive Manufacturing Methods and
+et al.106 prepared electrodes by 3D printing. They deposited Their Electrochemical Applications. As a good electrode
+electrochemically MoS on the surfaces of the prepared production method, the metallic AM technique has generated
+x
+electrodes and the coating of MoS provided an excellent much interest in electrochemical energy conversion studies. It
+x
+electrochemical activity for HER in an acidic medium (0.5 M is possible to use many production techniques and surface
+H SO ). As another electrochemical energy conversion modification methods in metallic 3D printed parts. Develop-
+2 4
+application,graphene-basedconductivePLA-based3Dprinted ment in the application of AM has become very popular in
+electrodes were also studied for photoelectrochemical sensors electrochemical applications like battery production in desired
+and supercapacitor applications in the form of a circular disk. geometries, biosensors, supercapacitors, and fuel cell systems,
+3Dprintedelectrodesforsupercapacitorapplicationsexhibited etc. Because it is possible to bind powder particles together
+a specific capacitance of 98.37 Fg−1 and it has also supplied using high-power laser beams to fuse powder particles just
+that promising capacitance performance with stable cycling below their melting point with SLS or reach their melting
+stability to 1000 charge/discharge cycles.108 Utilizing of temperature with SLM to combine the powder particles.124
+conductive materials are appropriate for 3D printing may These laser beam coupling systems can be used in titanium,
+offer novel electrodes for electrochemical applications. steel, aluminum, bronze, and nickel, or precious-metal-based
+Morphological and structural properties of electrodes used in alloys.125−127Itispossibletousemanyproductiontechniques
+electrochemical applications can be arranged according to andsurfacemodificationmethodsinmetallic3Dprintedparts.
+printing parameters. The composition, material, and pretreat- Development in the application of AM has become very
+mentparametersofthepolymerfilamentsareimportantinthe popularinelectrochemicalapplicationslikebatteryproduction
+preparation process of the 3D printed electrodes. The infill indesiredgeometries,biosensors,supercapacitors,andfuelcell
+ratio, the print layer thickness, and printing orientation of systems, etc. SLS and SLM techniques are some of the most
+electrodes are prepared using the FDM method can all be preferredmetal-based3Dprintings.Apartfromthesemethods,
+changed, and so researchers may have an opportunity to the EBM method, which uses electron beams instead of lasers
+explain whether these parameters can change the electro- to bindmetal powders,is one of theotherpreferred methods.
+chemical properties of carbon and graphene-based electrodes. This method is seen as an alternative to the SLM
+Asanimportantissue,changingtheshapeandsizeofdifferent technique.128,129 The powder bed binder jetting (PBBJ)
+electrodes with complex geometries have not yet been method forms metal powders using a liquid binder. In this
+sufficiently investigated. Moreover, due to the constraints in method, the sintering or pressing method should be used to
+producing different geometric shapes, little is known about improve the mechanical properties.23 In the powder directed
+40643 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+energy deposition (PDED) or direct laser metal deposition Moreover, the SLM 3D printed parts’ bond strength is higher
+(DLMD)method,themetalpowdercomingtotheactivearea than that of the SLS 3D printed parts. In general, the
+iscalledthemeltingpool.Then,itismeltedwithaheatsource commercial SLM3D printingprocess uses20−50μmparticle
+focused on this point for solid object formation.130,131 In the size metal powders to print metal layers between 20 and 100
+electrochemical energy conversion systems, porous electrodes μm thickness.137 It is difficult to further reduce the size of the
+show high performance in industrial processes because the metalparticlesduetopostpressstructuraldefectsandtechnical
+larger surface area can offer major advantages over electrodes difficulties. The minimum feature size reported for SLM is in
+duetotheirhighermasstransfer.Forexample,Arenasetal.132 therangeof40−200μm.138Asapromisingenergyconversion
+fabricated the highly porous SS structure with the M2Multi- application,AmbrosiandPumera139investigatedthehydrogen
+laser (Concept Laser GmbH) 3D printing device using the production performance of the SS electrode structure
+SLM method. It was electrochemically coated with Ni in an produced by the SLM method. They stated that the SS
+acidicbathsolutionusingarectangularchannelflowcell.They electrodeproducedbytheSLMmethodwasconductive,butit
+concludedthatthemasstransportpropertiesofthe3Dprinted had poor catalytic properties against hydrogen and oxygen
+Ni-coated SS electrode were better than typical planar and evolution reactions. To provide higher catalytic activity and
+expanded metal structures. In another study, Ibrahim et al.133 corrosion resistance, Ni, Pt, and IrO were coated on SS
+2
+producedSSelectrodesusingtheSLMtechnique.Theyaimed electrode surfaces. In Figure 5, basket-shaped electrode
+toobtainporouselectrodeswithincreasedsurfaceareaforuse production procedures in the SLM method can be seen.
+in the electrochemical field. For this purpose, they tried to
+determine the most suitable printing parameters using A
+Concept Laser Mlab Cusing brand metal printer. They
+concluded that, by low laser power and high scanning speed,
+porousstructureswouldprintmoreappropriately.Inaddition,
+high-costequipmentandmethodswereusedfortheprocessing
+of the metallic materials. In metallic AM, objects may be
+produced in high precision with desired dimensions and
+details. In 3D printed products from the metal powders, it is
+seen that there is a great advantage in the desired geometries.
+Thanks to the AM method, it is possible to obtain electrodes Figure 5. Production steps of an electrode produced by the SLM
+with high surface area. As a result of coating the produced method. Reprinted with permission from ref 139. Copyright 2018
+productsusingdifferentAMmethods,propertiesofpartssuch John Wiley andSons.
+as higher strength, corrosion resistance, conductivity, and
+electrocatalytic activity can be enhanced for any applications. As seen in Figure 5, a coated basket-shaped electrode was
+The ability to produce unique geometries in desired obtained successfully, and the direct electrolysis process may
+dimensions means that a wide range of effective systems may be used for similar structures. In another study, Ambrosi et
+be achieved in electrodes for many applications. These al.140 produced SS electrodes with helical structures by the
+advantageous of metallic AM undoubtedly provides the SLM method. They coated thin film IrO to increase the
+2
+revolutionary development of electrodes used in this field. In catalytic activity of SS electrodes. In Figure 6, helical-shaped
+summary, that great innovations would be possible in the use electrodes with dimensions ranging from 1.5 to 9 cm can be
+of AM method in the field of electrochemistry. seen.
+2.3.1.1. Selective Laser Melting Method. In the SLM
+method,thepowderparticlesarecompletelymeltedduetothe
+significantly high laser melting process.134,135 In Figure 4, the
+schematic illustration of the fundamental working principle of
+the SLM method can be seen.
+Thisprocessismoresuitabletocreatedensemetalparts.In
+this technique, the surface roughness of the samples is higher
+than the other electrodes produced by the SLS technique.136
+Figure 6. Helical SS electrodes produced by the SLM method.
+Reprintedwithpermissionfromref140.Copyright2016JohnWiley
+and Sons.
+When the electrochemical performance of the IrO -coated
+2
+SSelectrodewascomparedwiththeglassycarbonelectrode.It
+was observed that the IrO -coated SS electrode had a lower
+2
+initial potential than the glassy carbon electrode. In another
+study, Browne et al.141 used ALD in combination with metal
+3Dprintingtocreateactivemetal-basedelectrodes.Thus,they
+aimed to produce highly corrosive 3D printed electrodes
+without the need for any coating. While producing the SS
+Figure 4.Workingprinciple ofthe SLM method. electrodes with the SLM method, they optimized the activity
+40644 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+by adjusting the TiO layer thickness with the ALD method. metallic powder by the SLM method. After the 3D printing
+2
+The schematic representation of the SLM and ALD methods process,itwaselectrochemicallycoatedwithPttoincreasethe
+can be seen in Figure 7. catalyticactivityoftheelectrodesample.Accordingtoauthors’
+knowledgethisstudyhasdemonstratedforthefirsttimeahigh
+surface area printed electrode with an integrated reactant
+deliverysystem.AsanotherapplicationfortheSLMtechnique,
+Zhao et al.144 fabricated titanium interdigitated electrodes
+usingtheSLMmethod.Designoftheinterdigitatedelectrodes
+can be seen in Figure 9.
+Figure 7. Preparation of electrodes using the SLM method and
+coating of the electrodes using the ALD method. Reprinted with
+permission fromref 141.Copyright2019John Wileyand Sons.
+As a photoelectrochemistry application, Lee et al.142
+investigated fabricating metal-based 3D printed photoelectr-
+Figure 9. Interdigitated electrodes prepared by the SLM method.
+odes. These electrodes consisted of conical arrays, and they
+Reprinted withpermission from ref144.Copyright2014Elsevier.
+were produced by the SLM method. Then, their photo-
+electrochemical water separation performance was investi-
+gated. Due to high surface area need for efficient photo- To produce this geometry, an SLM machine (Realizer
+electrochemical water separation, they prepared conical array SLM50)andTi 6Al 4Vmetalpowderwereusedfortheprinting
+shaped geometry. In Figure 8, the production steps of the 3D process. This geometry was coated with polypyrene using the
+printed electrodes from Ti powder can be seen. electrodeposition method, and it reached capacitance values
+comparable to those of the other electrodes produced by the
+lithography method. To obtain corrosion-resistant electrodes,
+the SLM method has been widely studied. For example,
+Kashapov et al.145 prepared electrodes using a 3D printer
+(Realizer SLM 50 model) for cleaning the surfaces of metallic
+products obtained with SLM technology. They used SS316
+metalpowderwithaparticlesizeof20−40μmtomanufacture
+Figure8.ProductionstepsofaTi-basedconicalelectrode.Reprinted the electrodes. In another example, Qin et al.146 conducted
+withpermissionfromref142.Copyright2017JohnWileyandSons.
+experiments to increase the corrosion resistance of electrodes
+produced by the SLM method. Electrodes were fabricated by
+To improve the surface area and light absorption in the SLM technique using Ti and Cu materials. The active
+photoelectrochemical water separation, a conical shape was surfaceareaofthepreparedelectrodeswasdeterminedbyaCu
+selected. They concluded that the irregularity of the conical wire and epoxy, and the electrochemical properties of the
+surface structure caused by the AM process affected the electrodes were investigated. According to their results, it was
+electrodeperformance.Aspolymericapplications,metal-based determined that the heat-treated samples were less likely to
+structures were also studied comprehensively for HER and undergo pitting corrosion. In addition, it was stated that the
+OER applications to produce pure hydrogen and oxygen in wasteofrawmaterialwasgreatlyreducedwhentheelectrodes
+electrolysisprocesses.Forexample,Huangetal.143investigated were printed with the SLM method by comparison of
+theproductionofelectrodeswithhighcatalyticactivityforthe traditional methods. Yang et al.147 produced a current
+OER reaction by the SLM method. In addition, they used the collector, bipolar plate, gasket, and gas diffusion layer parts
+SLM method to produce a cellular SS design with high for polymer electrolyte membrane (PEM) water electrolysis
+electrochemical surface area and mechanical properties and using the SLM method with a laser powder bed machine
+were first to do so in the literature. The SLM technique was (Renishaw AM250). Produced samples can be seen in Figure
+usedtooptimizeporesizeandelectrochemicalsurfaceareaby 10.
+comparing the 3D electrode with commercial metal foam Figure 10a−c shows the image of the parallel flow channel,
+structures. As a result of their studies, they stated that the 3D pin flow channel, and pin flow channel, respectively. The
+electrodeproducedbytheSLMtechniquewasveryuseful,and imagesofAMbipolarplatesafterpolishingandcleaningcanbe
+itmightbeusedtoproduceelectrodeswiththeSLMmethod, seeninFigure10d−f,andthesurfacesofAMplatesappearto
+rapidly in different shapes. To obtain a staggered path for the be much smoother and better for assembling. The properties
+gasflow,gasdiffusionequipmentmaybedesignedtomaximize of the interdigitated bipolar plates were investigated by
+the active surface area within a predefined volume.110 In performing both ex situ and in situ experiments. At 80 °C,
+another SLM study, Benedetti et al.110 designed an electrode forinsitutests,theyachievedexcellentperformanceat1.716V
+to improve gas distribution to the active regions of a porous by 2 A/cm2. By designing a simpler PEM water electrolyzer
+structure. This design is made of Ti material using Ti Al V cell and reducing the number of the electrolyzer parts, they
+6 4
+40645 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+Figure 10. Designed and produced parts for a PEM water
+electrolyzers: (a) parallel flow channel, (b) pin flow channel, (c)
+pinflowchannelwithLGDL,(d)AMplatewithparallelflowchannel
+afterprintingandpolishing,(e)AMplatewithpinflowchannelafter
+polishing, and (f) AM integrated plate with pin flow channel with
+LGDL after polishing. Reprinted with permission from ref 147.
+Copyright2018Elsevier.
+decreasedthecontactresistance,whichwasveryimportantfor
+the PEM water electrolyzers’ electrochemical performance. In
+another study for PEM water electrolyzers, Ambrosi et al.148
+investigatedtheproductionofallcomponentsforaPEMwater
+electrolyzer by the AM method. These parts were prepared Figure 11. Production steps for 3D printed PEM water electrolyzer
+components. Reproduced from ref 148. Copyright 2018 American
+usingboththeSLMandFDMmethods.Theypreferredtouse
+Chemical Society.
+SSformetalpartsandtheFDMmethodwithPLAfilamentfor
+the other parts. Moreover, they used the electrochemical
+coating process to modify the electrode’s surface and
+electrochemicalactivities.ThesepartscanbeseeninFigure11.
+To increase the catalytic activity of the metallic electrodes,
+theanodewascoatedwith Ni−Fedoublehydroxidefilms and
+the cathode was coated with Ni−MoS . In situ tests of the
+2
+uncoated and coated electrodes were performed using the
+linear sweep voltammetry (LSV) technique.
+It was stated that all AM produced parts of the PEM
+electrolyzer cell had high electrochemical performance. In
+addition,Yangetal.149producedbipolarplatesusingtheSLM
+technique with a Magics 20A Renishaw AM250 metal printer.
+TheyconcludedthattheAMmethodmaybecapableofrapid
+and low-cost prototype development for renewable hydrogen
+production. Fuel cell and electrolyzer studies are very popular
+in metallic AM due to its flexibility to produce gas diffusion
+electrodes and bipolar plates. For example, scanning electron
+microscope (SEM) images of metallic 3D printed bipolar
+plates can be seen in Figure 12.
+Figure 12. 3D printed bipolar plates produced by the SLM method
+Figure 12a,b shows the SEM images of the flow channel and SEM images of the AM cathode bipolar plate before and after
+before and after polishing, respectively. Before polishing, the polishing.(a)SEMimageoflandbeforepolishing.(b)SEMimageof
+surfaceofthebipolarplatehasroughsurface,andmeltingpool land after polishing. (c) Image of 3D printed bipolar plate before
+on the surface of the flow channel can be seen. Figure 13c,d polishing, and (d) image of 3D printed bipolar plate after polishing.
+showsthesurfaceareaofthe3Dprintedcathodebipolarplates Reprinted withpermission from ref149.Copyright2017Elsevier.
+beforeandafterpolishing,respectively.Thankstothepolishing
+process, the surface of the bipolar plates is become smoother impingementsystem.SS316Lpowdersinthesizeof5−40μm
+andmost of theexcess SSpowder is removed. As canbe seen wereusedintheSLMmethod.Duringtheprocess,thepowder
+in Figure 12, polishing process is very important for the SLM bed was preheated to a temperature of 200 °C and kept in a
+method after 3D printing of the energy conversion device purified argon environment until the oxygen level dropped
+equipment’s. In another study, Laleh et al.150 studied the below 100 ppm before fabrication. These parameters were
+production of high relative density SS316L specimens in a jet chosen as the preliminary trials to produce a high-density
+40646 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+Table 4. Electrochemical Applications of Electrodes
+Prepared by the SLM Method
+powder afterprocess applicationfield ref
+SS TiO coating photoelectrochemistry 141
+2
+SS electropolishing OERelectrode 143
+titanium cleaning supercapacitor 144
+titanium cleaning photoelectrochemistry 142
+SS MoS−Ni,Ni/Fe electrolyzer 148
+2
+coating
+SS Pt,Ni,IrO coating electrochemicalcell 139
+2
+titanium Ptcoating gasreactanttransport 110
+SS IrO coating electrochemicalcell 140
+2
+titanium annealing rotatingplasma 152
+electrode
+SS heating plasmaelectrolyte 145
+titanium− heating corrosiontestcell 146
+copper
+Figure 13. Working principle of the SLS method. Reprinted with atmosphere.154 Building materials may be selected from
+permission fromref 155.Copyright2014Elsevier.
+polymer, glass, ceramic, and polymer composites. An
+illustration of the 3D printing method with the SLS method
+material. The powder layers were scanned relatively in a is given in Figure 13.
+meanderscanningstrategy byrotating 67°betweenthelayers. Inthismethod,partscanbeproducedwithaparticlesizeof
+These results indicated that the SS316L specimens produced approximately200μm.156Atthesametime,theSLSmethodis
+by SLM had higher hardness and lower corrosion resistance suitable for processing many different materials like 3D
+compared to the commercially available electrodes. Moreover, printing process polymer−metal powders, ceramics, polycar-
+in another corrosion resistant electrode study, Yang et al.151 bonate, nylon and nylon-glass composites, and hydroxyapa-
+improved the corrosion resistance of electrodes produced by tite.157 This method is also highly preferred in the production
+the SLM method. In their study, they used Al-12Si metal ofenergyconversionmaterials.Forexample,Alayavallietal.158
+powder to produce electrodes with two different geometries. produced a graphite bipolar plate directly for methanol fuel
+ThegeometriesproducedbytheSLMmethodwerecompared cells by the SLS method and used phenolic resin as a binder.
+to conventional manufacturing techniques. They prepared Theydeterminedthattheporesofthetestedpartsunderliquid
+electrodesforelectrochemicalmeasurementsusingcopperwire pressurewerecompletelyclosedandtherewasnoleakage.For
+and epoxy to examine the electrochemical properties of the acidic environments, the bipolar layers should be both
+specimens. According to electrochemical measurements and corrosion resistant and easily modified to any geometry.
+weight loss analysis, electrodes produced by the SLM method Therefore, bipolar plates are produced using graphite, non-
+with Al-12Si metal powder showed better corrosion resistance noble,orexpensivenoblemetals.Moreover,theircompatibility
+thantheas-castAl-12SialloyinNaClaqueoussolution.Itwas with the channel design has an important place for the PEM
+concluded that the difference of corrosion resistance between electrolyzer. It has been stated that bipolar plates consist of
+Al-12Si alloys produced by different methods was due to the 23−48% of the total cost of the PEM electrolyzer.159
+siliconparticlesizeinthemicrostructure.Itwasstatedthatthe Therefore, it is aimed to reduce the cost and material
+parts produced by the SLM method had better mechanical consumption with new production methods such as 3D
+properties and worse corrosion properties than the casted printing. For example, Guo et al.160 integrated the branching
+parts.Inaddition,theproductionofelectrodesusingtheSLM structures of a tree leaf on bipolar plates. While designing the
+methodwasseenasamongthepromisingmethodsinthefield bipolar plates, they used Murray’s law to define the optimum
+of electrochemical applications. The electrodes manufactured configuration in biological circulation systems. According to
+by the SLM technique for the electrochemical energy both numerical and experimental studies, they reported that
+conversion systems are listed in Table 4. bioinspired interdigitated designs significantly improved fuel
+As seen in Table 4, SLM electrodes are generally produced cellperformanceby20−25%comparedtotraditionalflowfield
+with titanium and SS materials. The reason for this selection designs.InanotherenergyapplicationwiththeSLStechnique,
+might be their high corrosion resistance and durability in Dobrzanś ki et al.161 prepared electrodes to use in silicon solar
+alkaline and acidic environments. Several processes also cells. They investigated appropriate mixing ratios using
+possible to apply produced electrodes for performance different mixture combinations and they used two different
+improvements like coatings, surface treatments etc. Taking silver powders with different particle sizes to fabricate the
+intoconsiderationfortheapplicationareasoftheelectrodes,it electrodes. According to their results, the silver powder could
+is seen that the SLM electrodes appeal to a very wide range not be used in the preparation of the contact layer without
+compared to other 3D printing methods.153 SiO due to many cracks in the silicon plates. As high
+2
+2.3.1.2. Selective Laser Sintering Method. Another temperature fuel cell, solid oxide fuel cells (SOFCs) are
+important metallic 3D printing method is the SLS method. another promising application for the SLS 3D printed
+In the SLS method, a high-energy laser beam is used for the electrodes.162Nielectrodesmaybesinteredonyttria-stabilized
+sintering process. This laser sinters the powder material and zirconia (YSZ) material for lower contact resistance and high-
+fuses it together. The printing bed is preheated to sufficient performance SOFC applications by optimizing laser scanning
+temperaturebyfillingitwithinertgastocreateanon-oxidative speeds (200−6000 mm/s) and laser power (20−190 W).
+40647 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+Figure 14.Schematic representation ofthe DLMD/PDEDmethod.
+Table 5. Some Coatings for Metal-Based 3D Printed Electrodes
+printingmethod printingmaterial method coatingmaterial applicationfield ref
+SLM SS atomiclayerdeposition TiO photoelectrochemistry 141
+2
+SLM SS electrodeposition MoS−NiandNi/Fedoublehydroxide electrolyzers 148
+2
+SLM SS electrodeposition Pt,Ni,andIrO electrolyzers 139
+2
+SLM SS electrodeposition Ni flowcell 132
+SLM titanium electrodeposition Pt gasreactanttransport 110
+SLM SS electrodeposition IrO electrochemicalsystem 140
+2
+SLS graphite electrodeposition Ni DMFCelectrode 158
+2.3.1.3. Direct Laser Metal Deposition Method. Another method can easily produce a heterogeneous material with
+important metallic AM method is the DLMD method. In desiredpropertieswithsuccessiveandsimultaneousdeposition
+DLMD method, or powder-directed energy deposition of different materials. Thanks to this method, contribution to
+(PDED), account for three main parts: a 4 or 5 axis robotic the literature can be provided with different studies by
+arm,apowderinjectionfeedstock,andafocusedlaserusedasa improving the product quality, shortening the manufacturing
+heat source.124 Although the laser is commonly used, electron time, increasing the building volume, and material diversity.
+beam, plasma, or electric arc can be also used as heat Apart from metals and their alloys, the DED method may be
+sources.163,164 In Figure 14, the schematic illustration of the possible to direct ceramic processing for oxide and carbide-
+DLMD method can be seen. based ceramics or high-temperature boride or nitride-based
+In the DLMD/PDED method, raw powder materials are
+ceramics.Itisalsoforeseenthatcoatingsorsmall-sizedspecial
+injected from the stock system and are melted by the heat
+cast ceramic structures may be prepared using the DED
+source. Then, the molten material is deposited on the target
+method for electrochemical energy conversion studies.
+surface. After the deposited material solidifies, it is bonded to
+2.3.1.4. Coating Applications for Metal-Based 3D Printed
+thesubstratelayer-by-layer.165 Thismethodisahighlyflexible
+Electrodes. In electrochemical applications, it is necessary to
+3D printing method for the manufacturing of devices in the
+improve the electrochemical properties and increase the
+medical field or medium- and large-scale repairs.166 In this
+corrosion resistance of the electrodes obtained by metal-
+method, changing the thickness of the printed products by
+based3Dprintingmethodsbecauseduringtheelectrochemical
+adjusting the power values of the heat source or the powder
+reactions, especially in OER, highly corrosive media has
+flow rate are the main advantages.167 For example, Benarji et
+contact with the electrode surface. For example, oxidation
+al.168 investigated the corrosion behavior of electrodes
+reactions occur on the anode side of PEM water electrolyzers
+producedbythePDEDmethod.Theelectrodeswereprepared
+and causes high overpotentials for the cells.170 To overcome
+usingSS316metallicpowderwithaparticlesizeof45−105μm
+this highly oxidative media, a coating process should be done
+and were heat treated after sanding. It was observed that the
+by high catalytic and corrosion resistance materials. The
+electrodes produced by the PDED method had a lower
+coatingsofthe3Dprintedelectrodespreparedbymetal-based
+corrosion rate than the SS316 samples produced by conven-
+powders are given in Table 5.
+tional methods. In addition, it was stated that the decrease of
+AccordingtoTable5,theSLMmethodisthemostcommon
+theferritephaseoftheSS316electrodewiththeapplicationof
+methodinthe3Dprintingprocess.Lowrawmaterialcostsand
+the heat treatment temperature caused an increase in the
+corrosion rate. Thus, as mentioned in this study PDED easy application to any geometry may be the reason for the
+method may change the structure of the SS316 material. For widespread use of SS. In the literature, the electrodeposition
+theDEDmethod,anotherapplicationwasconductedbyMelia method,whichisarelativelyeasiermethodcomparedtoother
+et al.169 They investigated the effects of microstructure and methods, has been preferred for the coating process. Metals
+machining processes on the SS304L electrode 3D printed by such as Ni, Pt, and Ti are selected as coating materials due to
+the DED method. They used 45−90 μm powder to fabricate theirhighercatalyticactivityandcorrosionresistance.Asgiven
+the electrodes and they stated that the corrosion resistance of inTable3,theapplicationfieldof3Dprintersandmetal-based
+theelectrodesmightbeincreasedwithahighercoolingrate.As electrodes have a wide range in electrochemical energy
+oneof themostusedtechniquesfor3Dprinting metals,DED conversion systems.
+40648 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+Table 6. Comparison of the Positive/Negative Aspects of Other Materials Used in the 3D Printing Method and Their
+Applications
+materials applications positiveaspects negativeaspects ref
+•SOFCsandSOECs •controlofporousstructures •limitedoptionofceramicsfor3Dprintingprocess
+•automotiveandaerospaceindustry •easyprintingofcomplex •extremelyhighmeltingpointofceramics
+anatomicalstructuresforhuman
+bodyorgans
+173,
+ceramics •biomedical •reductioninproductiontime •dimensionalprecisionerrorsandlowsurface
+174
+quality
+•providingbettercontroloverthe •sinteringorbondingprocessmayberequiredafter
+microstructureandcomposition the3Dprintingofceramicmaterials
+•noneedforanymolding
+•automotivesector •easyprintingoflargeparts •highcost
+•chemical •highaccuracy •poormechanicalstrength
+epoxy-basedresin,
+•healthandbiomedical(tissue,spine •verygoodsurfacequality •fragileparts 175,
+photoresin,or
+hydrogel surgery,neurosurgery,and •postprocessingsuchassanding, •lowpartlife 176
+traumatology,etc.) andmillingisnotrequired
+•noneedforanymolding
+•automotiveandaerospacesectors •thermalstability •brittleness
+•marine •chemicalandsolventresistance •poorimpactresistance
+•energysector •environmentalstability •inhomogeneouspolymerarchitecture 177,
+thermosetpolymers
+•biomedical •mechanicalstrength 178
+•lowcost
+•fastproduction
+•aerospace •lowdielectricconstant •itisnotwidelyusedin3Dprintingbecauseitis
+•electronics •lowmoistureabsorption difficulttolinkphotopolymerizablegroupsto 179,
+cyanateesters(CE) theirchains
+•satellitecommunications •highthermostability 180
+•insulationsandadhesives •excellentwateruptake
+2.4. Other Materials and Their Electrochemical researchers are displayed great efforts to bring it to a higher
+Applications.AM,whichiswidelyknownasthe3Dprinting technologylevel.183−185Forexample,Masciandaroetal.184and
+technique, is used as a highly flexible technology that can be Xing et al.186 have produced 3D printed YSZ electrolyte self-
+applied to conventional thermoplastics and thermosets, supports for utilization in SOFCs. They stated that the 3D
+ceramics, carbons, epoxies, and cyanate esters, as well as a printingmethodisapromisingtechniquetoobtainelectrolyte
+combination of other materials.171,172 In Table 6, comparison self-support in SOFC applications. In another study, Jia et
+of the positive/negative aspects of other materials used in the al.187preparedthe3DprintedYSZelectrolytesupportsusedin
+3D printing method and their applications is listed. monolithic SOFC stacks with the SLM method. They stated
+Thermoplastics and thermosets come to the fore in the 3D that will have great potential for the development of SLA 3D
+printing process, especially because they are accessible and printing processes of ceramic preparation in SOFC stacks and
+common materials in FDM. However, material selection for 3D printing technology will contribute to the future
+thermoplastics is mostly limited to PLA and ABS filaments. commercialization of SOFC stacks. Therefore, AM methods
+Thermoset polymers (epoxy resin, polyester, melamine, urea, thatcanpreciselyutilizethiskindofmaterialstoproducefully
+etc.) is a stronger polymer compared to thermoplastics and functional, low-cost, high-efficiency energy conversion and
+theyaremoresuitabletohightemperatureandtoxicchemical storagedevicesareofgreatimportance.Itisnotedthatthe3D
+environmentapplications becausetheymaintaintheirsizeand printing process has great potential in the production of
+shape owing to the strong covalent bonds between polymer electrochemical energy conversion and storage devices
+chains.181,182 Ceramic or concrete materials can be produced (electrodes, supercapacitors, etc.) compared to traditional
+by3Dprintingmethodswithporesandwithoutanycracksvia production methods along with the use of environmentally
+optimizationofparametersandadjustmentofgoodmechanical friendly materials. Moreover, chemically active materials like
+properties.3Dprintedceramicproductshaveoccurredatrend catalysts are at the center of energy conversion applications.
+totailormaterialswithahighstrength-to-weightratio,anditis For this reason, the selection of a suitable active functional
+simplified the formation of complex ceramic lattices for many material is crucial to obtain high performance in the
+applications.52However,comparedwithmetals,polymers,and electrochemical reactions. Carbon-based materials such as
+othermaterials,ceramics-basedmaterialshaveoneofthemost graphene, graphene oxide (GO), carbon black (CB), carbon
+critical challenges in AM method due to their extremely high fiber (CF), and carbon nanotube (CNT) are often used as
+melting temperature. With the increasing interest to 3D catalysts, supports, and electrodes in energy conversion
+printedcomponentsofSOFCsandSOECs,studiesfocusedon applications.188,189 These materials have extraordinary me-
+3D printed high temperature electrochemical devices become chanical,chemical,electrical,andopticalproperties.Therefore,
+populardue totheiradvantageous.Therefore, the3D printing carbon-based materials combined with AM technology have
+process has a very important place to overcome these basic attractedsubstantialattentionfromtheresearchcommunityin
+limitationsandreliabilityissuesofmanufacturingofSOFCsby energy storage and electrochemical energy conversion
+enhancing their durability and specific power per unit volume applications like batteries, electrodes, supercapacitors, and
+and mass. However, the use of the 3D printing process in catalyst support.190,191 Moreover, carbon materials with
+SOFC manufacturing is still in development stage, and different conductive properties can be gained conductive
+40649 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+propertiesindifferentways,andthesematerialscanbequickly Table 7. Different Shaped Electrodes Prepared by Various
+obtained as energy materials using different types of 3D 3D Printing Methods
+printingmethods.83,192,193Forexample,Bianetal.194produced
+3D porous carbon anode electrode structures using the 3D
+printingmethodtoimprovepowergenerationinmicrobialfuel
+cells (MFC). Compared with 2D flat anode materials, they
+stated that 3D porous carbon anode structures have a larger
+surface area, good mass transfer, excellent biocompatibility,
+and an increase in their electrochemical performance. More-
+over, they commented that with the use of 3D printing
+technology, the pore sizes of the 3D anode electrodes can be
+adjusted by optimizing the surface area and mass transfers for
+the best MFC performances. 3D printed porous carbon
+materials are widely used for supercapacitors and battery
+electrodes. Idrees et al.195 proposed a 3D printed porous
+supercapacitor based on the use of activated carbon derived
+from packaging waste. They concluded that the super-
+capacitors made with the extrusion-based 3D printing method
+have a capacitance of 328.95 mFcm−2 at 2.5 mA. They stated
+that this high capacitance value is due to the porous carbon
+used as the active material and the high loading of activated
+carbon materials on the electrodes. Considering all these
+circumstances, these materials based on 3D printing
+technology and their applications will provide an opportunity
+for further research on 3D printable materials in electro-
+chemical energy conversion applications in the future.
+3. DIFFERENTGEOMETRICSHAPESINTHEADDITIVE
+MANUFACTURING PROCESSES FOR
+ELECTROCHEMICAL ENERGY CONVERSION
+APPLICATIONS
+Contrary to popular belief, 3D printing methods offer a wide
+opportunity for energy materials. Different geometric shapes
+are obtained by combining the products produced by the 3D
+printing method. It is possible to obtain parts, such as
+electrodes and bipolar plates with 3D printing methods in the
+energy field. The production stages of these products and
+geometry structures are very interesting. These different
+geometric shapes have common points in terms of both
+production techniques and their application areas. The
+geometric structures produced using different methods such
+as SLS, SLM, FDM, SLA, DIW, and IJP should be compared.
+InTable7,electrodesproducedusingthedifferent3Dprinting
+methods can be seen.
+As seen in Table 7, different geometries for several
+applications have many advantages in terms of their
+techniques. One of these advantages is the significant increase
+in the surface area because of their geometric shapes. Today,
+the geometric structures of classical electrodes, which are
+preferredinmanyapplications,areinsufficienttodevelopthese
+systems. To determine geometric shapes used in 3D printing
+methods, the electrodes are named as interdigitated and
+framework according to their structural properties and spatial
+dimensions.203 For example, Arthur et al. stated that it would
+notbeanappropriateapproachto3Dprintthickelectrodesfor
+batteries to store more energy.207 Geometry designs with an
+interdigitated structure are arranged mutually by interlacing.
+These are located in such a way that the anode and the
+cathode are positioned opposite to each other in the spatial ohmic losses decrease with the lower distance between the
+plane.208 It was stated that these three-dimensionally inter- interdigitated and framework electrodes compared to other
+locking structures minimize the ionic path length between the conventional electrodes. Long et al.210 examined the energy
+electrodes in a thick cell.209 It was also concluded that the capacity and active surface area properties of electrodes in
+40650 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+order to compare the advantages of 3D design interdigitated products but also reduce energy consumption required during
+electrodeswith2Dparallelplateelectrodes.Accordingtotheir the production process. Moreover, the AM method has been
+results,theystatedthattheelectrodeswithconventionalplanar accepted as one of the new generation solutions in the
+battery configurations have a much lower ohmic resistance production novel electrodes in the fields of energy storage,
+than conventional batteries. Bowen et al.211 used a similar energy conversion, and electrochemical applications. It is
+geometrystructureintheirstudyandtheystatedthatthehigh difficult to produce flow channels, such as electrodes and
+voltage obtained was due to the structure of the geometry in bipolar plates, which are utilized in energy applications with
+the interdigitated electrodes. Furthermore, film-structured machiningmethodsduetoboththecostandcomplexityofthe
+geometries can be 3D printed in a thin layer. The difference geometric structures. Therefore, the AM method has become
+between these electrodes from conventional electrodes is a increasingly popular in terms of freedom of design, material
+solid structure that can be designed in microstructures. In savings, and ease of generation of complex structures. A wide
+addition, it is possible to add polymer or fibers during the variety of materials, from polymer materials to metals,
+printing of 3D film electrodes. For example, since the ceramics, thermosets, resins, and esters, may be 3D printed
+interdigitate has a greater height than the film structure, the using different methods, with rapid advances in AM
+anode and cathode are always interdigitated in pairs in this technologies. However, there are not many studies on the
+structure. It was determined that when using the larger height applicabilityofothermaterialsinelectrochemicalstudiesusing
+interdigitate,moreporosityisprovidedbyincreasingtheactive the AM method owing to still in development. Therefore,
+surface area of the electrodes.203 When the framework of the expanding the selection of materials for 3D printing of
+electrodes was examined structurally, they had a porous electrochemical device components, as well as research and
+structurelikeasieve.Thankstothisporousstructure,theyare development in electrochemical energy conversion applica-
+frequentlyused inareas,suchmaterial loading.The geometric tions, are still topics to be explored. In addition, AM enables
+designsoftheelectrodeshaveshownunlimitedvariability.For theuseofawidevarietyofprintablematerials,whichwillopen
+example, Cheng et al.204 stated that the electrodes are subject new opportunities in the design and application areas of 3D
+to shrinkage and structural damage during the fabrication. printing technologies. The 3D printed production of complex
+They have performed electrodes with a self-supporting mesh geometries and electrodes for electrochemical applications
+hemispheresurfacedesigntoavoiddegradation.Intheanalysis using the AM method will lead the way to electrochemical
+measurements, they concluded that the radial array designs transformationindifferentgeometricshapesinthefuture.Asa
+with a spherical surface have a higher capacity than the very important result, these geometric shapes may be formed
+conventional solid-state batteries. In this way, they stated that as wearable flexible technologies that are compatible with not
+the 3D printed electrodes are compatible with electronic only the human body, but also any animal body. Thanks to
+devices,anditispossibletousecomplexstructuresbythehelp flexiblebiosensors,machinesthatinteractwithhumanlearning
+ofa3Dprinting.Asaresultofthesestudies,theimportanceof communicationmaybeprovidedbyflexiblestructuresareable
+charge transfer in electrochemical systems was emphasized, tobeproducedbyAMmethod.Theymaybealsousedinthe
+and it was stated that a continuous conductive network development of wearable battery systems compatible with the
+structureisneededforelectrontransferinelectrodes.212Thus, human body or systems that can facilitate the design phase of
+AM technology provides structural integrity by improving the vehicleswithfuelcells.Therefore,inthefuture,theuseofthis
+geometric structure designs and increasing the surface area in technology will increase in various areas including R&D level
+electrochemicalenergyconversiondevices.Thepreparationof and industrial applications.
+electrodes with different geometries using 3D printing ■
+methods can contribute to decreasing ohmic losses and AUTHOR INFORMATION
+improving their performance by increasing the amount of
+Corresponding Author
+catalyst loaded on the electrodes. Thanks to increasing
+Mehmet Fatih Kaya − Engineering Faculty, Energy Systems
+performance improvements have created the need to make
+Engineering Department, Heat Engineering Division, Erciyes
+compare the geometric designs of the electrodes prepared in
+University,38039Kayseri,Turkey;ErciyesUniversityH2FC
+3D. It is especially designed for use in electrochemical energy
+Hydrogen Energy Research Group, 38039 Kayseri, Turkey;
+storage devices such as supercapacitors and batteries. For
+BATARYASANEnerjiveSan.Tic.Ltd.Şti,YıldırımBeyazıt
+example, it is determined that conical array, microstructures,
+Mah.,Ası̧kVeyselBul.,38039Kayseri,Turkey; orcid.org/
+helicalshaped,basketshapeorsquareshapestructuresprovide
+0000-0002-2444-0583; Email: kayamehmetfatih@
+higher power and stability than traditional 2D electrode
+erciyes.edu.tr
+designs. In addition, in the future studies it is expected other
+unique shaped designs will be prepared for electrochemical Authors
+energy conversion devices by 3D printing technologies. Bulut Hüner − Engineering Faculty, Energy Systems
+Engineering Department, Heat Engineering Division, Erciyes
+4. CONCLUSIONS AND FUTURE PERSPECTIVES
+University,38039Kayseri,Turkey;ErciyesUniversityH2FC
+The production of complex parts or geometries, which are Hydrogen Energy Research Group, 38039 Kayseri, Turkey
+difficult to produce with traditional manufacturing methods, Murat Kıstı − Engineering Faculty, Energy Systems
+can be achieved using AM technologies without the need for Engineering Department, Heat Engineering Division, Erciyes
+any mold or production line. As an emerging technology, the University,38039Kayseri,Turkey;ErciyesUniversityH2FC
+AM method provides potential benefits in the electrode Hydrogen Energy Research Group, 38039 Kayseri, Turkey
+manufacturing sector, and it recently paved the way for the Süleyman Uysal − Engineering Faculty, Energy Systems
+development of novel designs in industrial applications. Engineering Department, Heat Engineering Division, Erciyes
+Herein, we showed that AM technologies not only decrease University,38039Kayseri,Turkey;ErciyesUniversityH2FC
+the waste materials used in the manufacturing stages of Hydrogen Energy Research Group, 38039 Kayseri, Turkey;
+40651 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+BATARYASANEnerjiveSan.Tic.Ltd.Şti,YıldırımBeyazıt EBM Electron Beam Melting
+Mah., Ası̧k Veysel Bul., 38039 Kayseri, Turkey FDM Fused Deposition Modeling
+Il̇ayda Nur Uzgören − Engineering Faculty, Energy Systems GO Graphene Oxide
+Engineering Department, Heat Engineering Division, Erciyes HER Hydrogen Evolution Reaction
+University,38039Kayseri,Turkey;ErciyesUniversityH2FC LMD Laser Metal Deposition
+Hydrogen Energy Research Group, 38039 Kayseri, Turkey LSV Linear Sweep Voltammetry
+Emre Ö zdoğan − Engineering Faculty, Energy Systems LOM Laminated Object Fabrication
+Engineering Department, Heat Engineering Division, Erciyes MFC Microbial Fuel Cell
+University,38039Kayseri,Turkey;ErciyesUniversityH2FC MJM Multi-Jet modeling
+Hydrogen Energy Research Group, 38039 Kayseri, Turkey; OER Oxygen Evolution Reaction
+BATARYASANEnerjiveSan.Tic.Ltd.Şti,YıldırımBeyazıt PA Polyamide
+Mah., Ası̧k Veysel Bul., 38039 Kayseri, Turkey PA11 Polyamide 11
+Yakup Ogün Süzen − Engineering Faculty, Department of PA12 Polyamide 12
+Mechanical Engineering, Erciyes University, 38039 Kayseri, PBBJ Powder Bed Binder Jetting
+Turkey;ErciyesUniversityH2FCHydrogenEnergyResearch PBIH Powder Bed and Inkjet Head 3D printing
+Group, 38039 Kayseri, Turkey PC Polycarbonate
+Nesrin Demir − Engineering Faculty, Energy Systems PDED Powder Directed Energy Deposition
+Engineering Department, Heat Engineering Division, Erciyes PE Polyethylene
+University,38039Kayseri,Turkey;ErciyesUniversityH2FC PEM Polymer Electrolyte Membrane
+Hydrogen Energy Research Group, 38039 Kayseri, Turkey; PEI Poly(ether imide)
+orcid.org/0000-0001-8863-8911 PEEK Polyether Ether Ketone
+PET Poly(ethylene terephthalate)
+Complete contact information is available at:
+PETG Poly(ethylene terephthalate)-Glycol
+https://pubs.acs.org/10.1021/acsomega.2c05096
+PLA Polylactic Acid
+PP Plaster Based 3D Printing
+Notes
+PPy Polypropylene
+The authors declare no competing financial interest.
+PPS Polyphenylene Sulfide
+■
+PPSU Polyphenylsulfone
+ACKNOWLEDGMENTS
+PS Polystyrene
+Theauthorswouldliketogivethanksforthefinancialsupport PU Polyurethane
+from the Scientific and Technological Research Council of SEM Scanning Electron Microscope
+Turkey(TUBITAK)1001ResearchProjectsFundingProgram SLA Stereolithography
+withprojectnumber120M234.Theauthorsalsowouldliketo SLM Selective Laser Melting
+thank the Scientific Research Projects Unit of Erciyes SLS Selective Laser Sintering
+University for funding and supporting the project under the SOECs Solid Oxide Electrolyzer Cells
+contract numbers FDK-2020-10548 and FYL-2020-10547. SOFCs Solid Oxide Fuel Cells
+Author B.H. thanks the Scientific and Technological Research STL Standard Triangle Language
+Council of Turkey (TUBITAK) for their scholarships under SS Stainless Steel
+the“2211-CPriorityAreasPh.D.ScholarshipProgram”(grant UV Ultraviolet
+number 1649B032000098). S.U. thanks the Scientific and VP Vat Polymerization
+Technological Research Council of Turkey (TUBITAK) for
+their scholarship under the “2210-C National Priority Areas ■
+M.Sc. Scholarships Program” (grant number REFERENCES
+1649B022006356).AuthorsB.H.andM.K.thanktheScientific
+(1) Zhang, F.; Zhao, P.; Niu, M.; Maddy, J. The survey of key
+and Technological Research Council of Turkey (TUBITAK)
+technologiesinhydrogenenergystorage.Int.J.HydrogenEnergy2016,
+for their scholarships under the “2250 Graduate Scholarships 41(33),14535−14552.
+Performance Program”. B.H. and M.K. also thank the Turkish (2)Solangi,K.;Islam,M.;Saidur,R.;Rahim,N.;Fayaz,H.Areview
+̈
+Higher Education Institution YOK for their 100/2000 Ph.D. onglobalsolarenergypolicy.Renewableandsustainableenergyreviews
+Scholarship Program. 2011, 15(4), 2149−2163.
+■ (3) Wiser, R.; Rand, J.; Seel, J.; Beiter, P.; Baker, E.; Lantz, E.;
+LIST OF ABBREVIATIONS Gilman, P. Expertelicitationsurveypredicts37% to49% declinesin
+wind energycostsby 2050. NatureEnergy 2021, 6(5), 555−565.
+ABS Acrylonitrile-Styrene-Butadiene (4) Toklu, E. Biomass energy potential and utilization in Turkey.
+ALD Atomic Layer Deposition Renewable Energy 2017, 107, 235−244.
+AM Additive Manufacturing (5)Zakhidov,R.CentralAsiancountriesenergysystemandroleof
+BM Black Magic 3D renewable energy sources. Applied Solar Energy 2008, 44 (3), 218−
+CAD Computer Aided Design 223.
+(6)Maczulak,A.E.Renewableenergy:sourcesandmethods;Infobase
+CB Carbon Black
+Publishing, 2010.
+CE Cyanate Ester
+(7) Bechmann, F. Changing the future of additive manufacturing.
+CF Carbon Fiber
+Metal Powder Report2014, 69(3), 37−40.
+CLIP Continuous Liquid Interface Production
+(8) Reynders, C. 3D printers create a blueprint for future of
+CNT Carbon Nanotube sustainabledesignandproduction.TheGuardian2014;https://www.
+DLMD Direct Laser Metal Deposition theguardian.com/sustainable-business/3d-printing-blueprint-future-
+DLP Digital Light Processing sustainable-design-production.
+40652 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+(9)Verhoef,L.A.;Budde,B.W.;Chockalingam,C.;GarciaNodar, review.JournalofMaterialsEngineeringandPerformance2018,27(1),
+B.; van Wijk, A. J.M. The effect of additive manufacturing on global 1−13.
+energy demand: An assessment using a bottom-up approach. Energy (27) Salmi, M. Additive manufacturing processes in medical
+Policy2018, 112,349−360. applications. Materials2021, 14(1),191.
+(10) Azarniya, A.; Colera, X. G.; Mirzaali, M. J.; Sovizi, S.; (28) Sampson, K. L.; Deore, B.; Go, A.; Nayak, M. A.; Orth, A.;
+Bartolomeu,F.;StWeglowski,M.;Wits, W.W.;Yap,C.Y.; Ahn,J.; Gallerneault, M.; Malenfant, P. R.; Paquet, C. Multimaterial vat
+Miranda, G.; Silva, F. S.; Madaah Hosseini, H. R.; Ramakrishna, S.; polymerization additive manufacturing. ACS Applied Polymer
+Zadpoor, A. A. Additive manufacturing of Ti-6Al-4V parts through Materials2021, 3 (9),4304−4324.
+laser metal deposition (LMD): Process, microstructure, and (29) Schmidt, J.; Brigo, L.; Gandin, A.; Schwentenwein, M.;
+mechanicalproperties.J. AlloysCompd. 2019, 804,163−191. Colombo, P.; Brusatin, G. Multiscale ceramic components from
+(11)Raju,R.;Duraiselvam,M.;Petley,V.;Verma,S.;Rajendran,R. preceramic polymers by hybridization of vat polymerization-based
+Microstructural and mechanical characterization of Ti6Al4V refur- technologies. AdditiveManufacturing 2019, 30, 100913.
+bishedpartsobtainedbylasermetaldeposition.MaterialsScienceand (30) Appuhamillage, G. A.;Chartrain, N.; Meenakshisundaram, V.;
+Engineering:A2015, 643,64−71. Feller, K. D.; Williams, C. B.; Long, T. E. 110th anniversary: Vat
+(12)Liu,Z.;Wang,Y.;Wu,B.;Cui,C.;Guo,Y.;Yan,C.Acritical photopolymerization-based additive manufacturing: Current trends
+review of fused deposition modeling 3D printing technology in and future directions in materials design. Ind. Eng. Chem. Res. 2019,
+manufacturingpolylacticacid parts.International Journalof Advanced 58(33),15109−15118.
+ManufacturingTechnology 2019, 102 (9),2877−2889. (31)Li,J.;Pumera,M.3Dprintingoffunctionalmicrorobots.Chem.
+(13) Popescu, D.; Zapciu, A.; Amza, C.; Baciu, F.; Marinescu, R. Soc. Rev.2021, 50(4),2794−2838.
+FDMprocessparametersinfluenceoverthemechanicalpropertiesof (32) Mallick, M. M.; Franke, L.; Rösch, A. G.; Lemmer, U. Shape-
+polymerspecimens:A review.Polym.Test. 2018, 69,157−166. versatile 3D thermoelectric generators by additive manufacturing.
+(14) Dey, A.; Yodo, N. A systematic survey of FDM process ACS Energy Letters2021, 6 (1),85−91.
+parameter optimization and their influence on part characteristics.
+(33)Zhang,D.;Lim,W.Y.S.;Duran,S.S.F.;Loh,X.J.;Suwardi,A.
+Journalof Manufacturing andMaterialsProcessing2019, 3 (3),64.
+Additive Manufacturing of Thermoelectrics: Emerging Trends and
+(15) Salentijn, G. I.; Oomen, P. E.; Grajewski, M.; Verpoorte, E. Outlook. ACS Energy Letters2022, 7, 720−735.
+Fused deposition modeling 3D printing for (bio) analytical device
+(34) Kodama, H. Automatic method for fabricating a three-
+fabrication: procedures, materials, and applications. Analytical
+dimensional plastic model with photo-hardening polymer. Review of
+chemistry2017, 89(13),7053−7061.
+scientific instruments1981, 52(11),1770−1773.
+(16) Vaithilingam, J.; Prina, E.; Goodridge, R. D.; Hague, R. J.;
+(35) Mekonnen, B. G.; Bright, G.; Walker, A. A study on state-of-
+Edmondson, S.; Rose, F. R.; Christie, S. D. Surface chemistry of
+the-arttechnologyoflaminatedobjectmanufacturing(LOM).CAD/
+Ti6Al4V components fabricated using selective laser melting for
+CAM, Robotics and Factories of the Future; Springer, 2016; pp 207−
+biomedicalapplications.MaterialsScienceandEngineering:C2016,67,
+216.
+294−303.
+(36) Park, J.; Tari, M. J.; Hahn, H. T. Characterization of the
+(17) Sterling, A. J.; Torries, B.; Shamsaei, N.; Thompson, S. M.;
+laminated object manufacturing (LOM) process. Rapid Prototyping
+Seely,D. W.Fatigue behaviorandfailuremechanismsofdirectlaser
+Journal 2000,6, 36−50.
+depositedTi-6Al-4V. MaterialsScienceandEngineering:A2016, 655,
+(37) Crump, S. S. Apparatus and method for creating three-
+100−112.
+dimensional objects.Google Patents: 1992
+(18) Galarraga, H.; Lados, D. A.; Dehoff, R. R.; Kirka, M. M.;
+(38) Yang, Y.; Chen, Z.; Song, X.; Zhu, B.; Hsiai, T.; Wu, P.-I;
+Nandwana,P.Effectsofthemicrostructureandporosityonproperties
+Xiong, R.; Shi, J.; Chen, Y.; Zhou, Q.; Shung, K. K. Three-
+of Ti-6Al-4V ELI alloy fabricated by electron beam melting (EBM).
+Dimensional Printing of High Dielectric Capacitor Using Projection
+AdditiveManufacturing 2016, 10,47−57.
+Based StereolithographyMethod. NanoEnergy 2016, 22,414−421.
+(19) Zhu, F.; Macdonald, N. P.; Skommer, J.; Wlodkowic, D.
+(39) Huang, Y.; Leu, M. C.; Mazumder, J.; Donmez, A. Additive
+Biologicalimplicationsoflab-on-a-chipdevicesfabricatedusingmulti-
+manufacturing: current state, future potential, gaps and needs, and
+jetmodellingandstereolithographyprocesses.Bio-MEMSandMedical
+recommendations. J. Manuf.Sci. Eng. 2015, 137(1), 014001.
+MicrodevicesII;InternationalSocietyforOpticsandPhotonics,2015;
+(40) Forster, A. M.; Forster, A. M. Materials testing standards for
+Vol. 9518,p 951808.
+additive manufacturing of polymer materials: state of the art and
+(20)Kitsakis,K.;Moza,Z.;Iakovakis,V.;Mastorakis,N.;Kechagias,
+standards applicability.NationalInstitute of StandardsandTechnology;
+J. An investigation of dimensional accuracy of multi-jet modeling
+Gaithersburg, MD,2015; https://doi.org/10.6028/NIST.IR.8059.
+parts. Proceedings of the International Conference in Applied
+(41) Abbott, A.; Tandon, G.; Bradford, R.; Koerner, H.; Baur, J.
+Mathematics, Computational Science and Engineering; Crete, Greece,
+Process-structure-property effects on ABS bond strength in fused
+2015.
+(21) Cotteleer, M.; Joyce, J. 3D opportunity: Additive manufactur- filament fabrication. AdditiveManufacturing 2018, 19, 29−38.
+(42)Park,S. J.;Lee,J.E.;Lee,H.B.; Park,J.;Lee,N.-K.;Son,Y.;
+ing paths to performance, innovation, and growth. Deloitte Review
+2014, 14,5−19. Park, S.-H. 3D printing of bio-based polycarbonate and its potential
+(22) Farzadi, A.; Waran, V.; Solati-Hashjin, M.; Rahman, Z. A. A.; applications in ecofriendly indoor manufacturing. Additive Manufac-
+Asadi, M.; Osman, N. A. A. Effect of layer printing delay on turing 2020, 31,100974.
+mechanicalpropertiesanddimensionalaccuracyof3Dprintedporous (43) Matos, B. D. M.; Rocha, V.; da Silva, E. J.; Moro, F. H.;
+prototypes in bone tissue engineering. Ceram. Int. 2015, 41 (7), Bottene,A.C.;Ribeiro,C.A.;dosSantosDias,D.;Antonio,S.G.;do
+8320−8330. Amaral,A.C.;Cruz,S.A.;deOliveiraBarud,H.G.;SilvaBarud,H.d.
+(23) Ziaee, M.; Crane, N. B. Binder jetting: A review of process, Evaluation of commercially available polylactic acid (PLA) filaments
+materials,and methods. AdditiveManufacturing 2019, 28,781−801. for3Dprintingapplications.J.Therm.Anal.Calorim.2019,137(2),
+(24)Li,X.;Liu,B.;Pei,B.;Chen,J.;Zhou,D.;Peng,J.;Zhang,X.; 555−562.
+Jia, W.; Xu, T. Inkjet Bioprinting of Biomaterials. Chem. Rev. 2020, (44) Guo, R.; Stuebling, E.-M.; Beltran-Mejia, F.; Ulm, D.; Kleine-
+120(19),10793−10833. Ostmann, T.; Ehrig, F.; Koch, M. 3D printed terahertz rectangular
+(25) Angelopoulos, I.; Allenby, M. C.; Lim, M.; Zamorano, M. waveguides of polystyrene and TOPAS: a comparison. Journal of
+Engineering inkjet bioprinting processes toward translational Infrared,Millimeter, and TerahertzWaves 2019, 40(1),1−4.
+therapies.Biotechnologyandbioengineering 2020, 117(1), 272−284. (45) Houshyar, S.; Sathish Kumar, G.; Padhye, R.; Shanks, R. A.;
+(26) Zhang, Y.; Wu, L.; Guo, X.; Kane, S.; Deng, Y.; Jung, Y.-G.; Bhattacharyya, A. Polyamide-nanodiamond filament. Mater. Lett.
+Lee, J.-H.; Zhang, J. Additive manufacturing of metallic materials: a 2021, 285, 128992.
+40653 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+(46)Larraza,I.;Vadillo,J.;Calvo-Correas,T.;Tejado,A.;Olza,S.; production scale multi jet fusion printing process. Additive
+Peña-Rodríguez, C.; Arbelaiz, A.; Eceiza, A. Cellulose and Graphene Manufacturing 2018, 22,381−387.
+BasedPolyurethaneNanocompositesforFDM3DPrinting:Filament (69) Redondo, E.; Muñoz, J.; Pumera, M. Green activation using
+Properties andPrintability. Polymers2021, 13(5), 839. reducingagentsofcarbon-based3Dprintedelectrodes:Turninggood
+(47)Haleem,A.;Javaid,M.Polyetheretherketone(PEEK)andits electrodes to great.Carbon 2021,175,413−419.
+manufacturingofcustomised3Dprinteddentistrypartsusingadditive (70)BlackMagic3D.BlackMagic3DConductiveGrapheneComposite,
+manufacturing. Clinical Epidemiology and Global Health 2019, 7 (4), 2022; https://3dcompare.com/materials/product/black-magic-3d-
+654−660. conductive-graphene-composite-1-75-mm/ (accessed2022).
+(48)Jiang,S.;Liao,G.;Xu,D.;Liu,F.;Li,W.;Cheng,Y.;Li,Z.;Xu, (71) Proto-Pasta. Proto-Pasta Composite PLA Electrically Conductive
+G. Mechanical properties analysis of polyetherimide parts fabricated Filament, 2022; https://www.proto-pasta.com/pages/conductive-pla
+by fused deposition modeling. High Perform. Polym. 2019, 31 (1), (accessed2022).
+97−106.
+(72) Filament, E. Electrifi Conductive PLA Filament, 2022; https://
+(49)Hoskins, T.;Dearn,K.;Kukureka,S.Mechanical performance
+www.multi3dllc.com/product/electrifi/ (accessed2022).
+ofPEEKproducedbyadditivemanufacturing.Polym.Test.2018,70,
+(73) Vernardou, D.; Vasilopoulos, K.; Kenanakis, G. 3D printed
+511−519.
+graphene-based electrodes with high electrochemical performance.
+(50) de Leon, A. C.; Chen, Q.; Palaganas, N. B.; Palaganas, J. O.;
+Appl. Phys.A: Mater. Sci.Process.2017, 123 (10),1−7.
+Manapat, J.; Advincula, R. C. High performance polymer nano-
+(74) Louloudakis, D.; Vernardou, D.; Spanakis, E.; Katsarakis, N.;
+composites for additive manufacturing applications. React. Funct.
+Koudoumas, E. Electrochemical properties of vanadium oxide
+Polym.2016, 103, 141−155.
+coatings grown by APCVD on glass substrates. Surf. Coat. Technol.
+(51) Serrano, A.; Borreguero, A. M.; Garrido, I.; Rodríguez, J. F.;
+2013, 230, 186−189.
+Carmona,M.Theroleofmicrostructureonthemechanicalproperties
+(75) Vernardou, D.; Louloudakis, D.; Spanakis, E.; Katsarakis, N.;
+of polyurethane foams containing thermoregulating microcapsules.
+Koudoumas, E. Electrochemical properties of vanadium oxide
+Polym.Test. 2017,60, 274−282.
+coatings grown by hydrothermal synthesis on FTO substrates. New
+(52)Ngo,T.D.;Kashani,A.;Imbalzano,G.;Nguyen,K.T.;Hui,D.
+J. Chem. 2014, 38(5), 1959−1964.
+Additive manufacturing (3D printing): A review of materials,
+(76) Ambrosi, A.; Pumera, M. 3D-printing technologies for
+methods, applications and challenges. Composites Part B: Engineering
+2018, 143,172−196. electrochemical applications. Chem. Soc. Rev. 2016, 45 (10), 2740−
+(53) Rabe, M. 3D printing on textiles-new ways to textile surface 2755.
+modification.54thMan-MadeFibersCongr.,Dornbirn,Austria,2015. (77) Lee, K. Y.; Ambrosi, A.; Pumera, M. 3D-Printed Metal
+(54) Tsuji, H. Poly (lactic acid): synthesis, structures, properties, Electrodes for Heavy Metals Detection by Anodic Stripping
+processing,and applications;Wiley, 2011. Voltammetry. Electroanalysis2017, 29(11),2444−2453.
+(55) Ghalia, M. A.; Dahman, Y. Biodegradable poly (lactic acid)- (78) Kumar, K. A.; Ghosh, K.; Alduhaish, O.; Pumera, M. Metal-
+based scaffolds: synthesis and biomedical applications. Journal of plated 3D-printed electrode for electrochemical detection of
+PolymerResearch 2017, 24(5),74. carbohydrates.Electrochem. Commun.2020, 120, 106827.
+(56)Swetham,T.;Reddy,K.M.M.;Huggi,A.;Kumar,M.ACritical (79)Rohaizad,N.;Mayorga-Martinez,C.C.;Novotny,́ F.;Webster,
+Reviewonof3DPrintingMaterialsandDetailsofMaterialsusedin R.D.;Pumera,M.3D-PrintedAg/AgClPseudo-ReferenceElectrodes.
+FDM.Int. J. Sci.Res. Sci.Eng. 2017, 3 (2),353−361. Electrochem. Commun.2019, 103, 104−108.
+(57)Katz,S.Plastics:commonobjects,classicdesigns;withacollector’s (80)Bas,̧ F.;Kaya,M.F.3Dprintedanodeelectrodesformicrobial
+guide; HarryN. Abrams: NewYork, 1984. electrolysis cells. Fuel 2022,317,123560.
+(58) Coon, C.; Pretzel, B.; Lomax, T.; Strlic,̌ M. Preserving rapid (81)Foster,C.W.;Down,M.P.;Zhang,Y.;Ji,X.;Rowley-Neale,S.
+prototypes:areview.Heritage Science2016, 4(1),1−16. J.;Smith,G.C.;Kelly,P.J.;Banks,C.E.3Dprintedgraphenebased
+(59) Olivera, S.; Muralidhara, H.B.; Venkatesh,K.; Gopalakrishna, energystorage devices.Sci. Rep.2017, 7(1), 42233.
+K.; Vivek, C. S. Plating on acrylonitrile-butadiene-styrene (ABS) (82)ManzanaresPalenzuela,C.L.;Novotny,́ F.;Krupicǩ a,P.;Sofer,
+plastic:areview.J. Mater. Sci.2016, 51(8), 3657−3674. Z. k.; Pumera, M. 3D-Printed Graphene/Polylactic Acid Electrodes
+(60) Ultimaker. Ultimaker Filament, 2022; https://ultimaker.com/ PromiseHighSensitivityinElectroanalysis.Anal.Chem.2018,90(9),
+materials(accessed2022). 5753−5757.
+(61)Teixeira,L.A.C.;Santini,M.C.SurfaceconditioningofABS (83) Zhang, J.; Yang, B.; Fu, F.; You, F.; Dong, X.; Dai, M.
+for metallization without the use of chromium baths. Journal of
+Resistivity and its anisotropy characterization of 3D-printed
+materialsprocessingtechnology 2005, 170 (1−2),37−41.
+acrylonitrile butadiene styrene copolymer (ABS)/carbon black(CB)
+(62) Karahaliou, E. K.; Tarantili, P. Stability of ABS compounds
+composites. Applied Sciences 2017, 7(1), 20.
+subjected to repeated cycles of extrusion processing. Polym. Eng. Sci.
+(84)Kwok,S.W.;Goh,K.H.H.;Tan,Z.D.;Tan,S.T.M.;Tjiu,W.
+2009, 49(11),2269−2275.
+W.; Soh, J. Y.; Ng, Z. J. G.; Chan, Y. Z.; Hui, H. K.; Goh, K. E. J.
+(63) Dupaix, R. B.; Boyce, M. C. Finite strain behavior of poly
+Electrically conductive filament for 3D-printed circuits and sensors.
+(ethylene terephthalate)(PET) and poly (ethylene terephthalate)-
+Applied MaterialsToday 2017, 9,167−175.
+glycol(PETG). Polymer2005, 46(13),4827−4838.
+(85)Gnanasekaran,K.;Heijmans,T.;VanBennekom,S.;Woldhuis,
+(64)Maddah,H.A.Polypropyleneasapromisingplastic:Areview.
+H.; Wijnia, S.; de With, G.; Friedrich, H. 3D printing of CNT-and
+Am. J. Polym.Sci. 2016, 6(1), 1−11.
+graphene-based conductive polymer nanocomposites by fused
+(65) Dudek, P. FDM 3D printing technology in manufacturing
+deposition modeling. Applied materialstoday 2017, 9, 21−28.
+compositeelements.Archivesofmetallurgyandmaterials2013,58(4),
+1415−1418. (86) Rymansaib, Z.; Iravani, P.; Emslie, E.; Medvidovic-́Kosanovic,́
+M.; Sak-Bosnar, M.; Verdejo, R.; Marken, F. All-Polystyrene 3D-
+(66)Mohamed,O.A.;Masood,S.H.;Bhowmik,J.L.Optimization
+offuseddepositionmodelingprocessparameters:areviewofcurrent Printed Electrochemical Device with Embedded Carbon Nanofiber-
+researchandfutureprospects.AdvancesinManufacturing2015,3(1), Graphite-PolystyreneCompositeConductor.Electroanalysis2016,28
+42−53. (7), 1517−1523.
+(67)Sood,A.K.;Ohdar,R.K.;Mahapatra,S.S.Parametricappraisal (87) Spinelli, G.; Kotsilkova, R.; Ivanov, E.; Petrova-Doycheva, I.;
+ofmechanicalpropertyoffuseddepositionmodellingprocessedparts. Menseidov, D.; Georgiev, V.; Di Maio, R.; Silvestre, C. Effects of
+Materials&Design2010, 31(1), 287−295. Filament Extrusion, 3D Printing and Hot-Pressing on Electrical and
+(68)O’Connor,H.J.;Dickson,A.N.;Dowling,D.P.Evaluationof Tensile Properties of Poly (Lactic) Acid Composites Filled with
+the mechanical performance of polymer parts fabricated using a Carbon Nanotubes andGraphene.Nanomaterials 2020, 10(1),35.
+40654 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+(88) Mirzaee, M.; Noghanian, S.; Wiest, L.; Chang, I. Developing transitionmetalchalcogenideMoSxforhydrogenevolutionreaction.
+Flexible3DPrintedAntennaUsingConductiveABSMaterials.IEEE Applied MaterialsToday 2020, 20,100654.
+Xplore2015, DOI: 10.1109/APS.2015.7305043. (107) Kim, M. J.; Cruz, M. A.; Ye, S.; Gray, A. L.; Smith, G. L.;
+(89)Foo,C.Y.;Lim,H.N.;Mahdi,M.A.;Wahid,M.H.;Huang,N. Lazarus, N.; Walker, C. J.; Sigmarsson, H. H.; Wiley, B. J. One-Step
+M.Three-Dimensional PrintedElectrode andIts NovelApplications Electrodeposition of Copper on Conductive 3D Printed Objects.
+inElectronic Devices.Sci. Rep.2018, 8 (1),7399. Additive Manufacturing 2019, 27,318−326.
+(90) Phan, Q. T.; Poon, K. C.; Sato, H. A review on amorphous (108)Foo,C.Y.;Lim,H.N.;Mahdi,M.A.;Wahid,M.H.;Huang,
+noble-metal-based electrocatalysts for fuel cells: Synthesis, character- N.M.Three-dimensionalprintedelectrodeanditsnovelapplications
+ization, performance, and future perspective. Int. J. Hydrogen Energy inelectronic devices. Sci.Rep.2018, 8 (1),7399.
+2021, 46,14190. (109) Choi, K.-H.; Ahn, D. B.; Lee, S.-Y. Current status and
+(91) Bin Hamzah, H. H.; Keattch, O.; Covill, D.; Patel, B. A. The challenges in printed batteries: toward form factor-free, monolithic
+EffectsofPrintingOrientationonTheElectrochemicalBehaviourof integratedpowersources.ACSEnergy Letters2018,3(1),220−236.
+3D Printed Acrylonitrile Butadiene Styrene (ABS)/Carbon Black (110) Benedetti, T. M.; Nattestad, A.; Taylor, A. C.; Beirne, S.;
+Electrodes.Sci.Rep. 2018,8 (1),9135. Wallace, G. G. 3D printed electrodes for improved gas reactant
+(92) Browne, M. P.; Novotny,́ F.; Sofer, Z. k.; Pumera, M. 3D transport for electrochemical reactions. 3D Printing and Additive
+Printed Graphene Electrodes Electrochemical Activation. ACS Appl. Manufacturing 2018, 5 (3),215−219.
+Mater.Interfaces2018, 10(46),40294−40301. (111) Wauthle, R.; Vrancken, B.; Beynaerts, B.; Jorissen, K.;
+(93) Joaõ , A. F.; Squissato, A. L.; Richter, E. M.; Muñoz, R. A. Schrooten, J.; Kruth, J.-P.; Van Humbeeck, J. Effects of build
+Additive-manufactured sensors for biofuel analysis: copper determi- orientationandheattreatmentonthemicrostructureandmechanical
+nation in bioethanol using a 3D-printed carbon black/polylactic propertiesofselectivelasermeltedTi6Al4Vlatticestructures.Additive
+electrode.Anal.Bioanal. Chem. 2020, 412,2755. Manufacturing 2015, 5, 77−84.
+(94)Kaya,M.F.;Demir,N.K.;Hüner,B.;Özcan,R.U.EffectofCu (112) Mower, T. M.; Long, M. J. Mechanical behavior of additive
+Coating on The Physical and Electrochemical Properties of manufactured,powder-bedlaser-fusedmaterials.MaterialsScienceand
+Conductive PLA Filament. International Journal of 3D Printing Engineering:A2016, 651, 198−213.
+TechnologiesandDigital Industry2019, 3(2), 128−136. (113)Hong,D.;Chou,D.-T.;Velikokhatnyi,O.I.;Roy,A.;Lee,B.;
+(95) Hüner, B.; Demir, N.; Kaya, M. F. Electrodeposition of NiCu Swink, I.; Issaev, I.; Kuhn, H. A.; Kumta, P. N. Binder-jetting 3D
+bimetalon3Dprintedelectrodesforhydrogenevolutionreactionsin printingandalloydevelopmentofnewbiodegradableFe-Mn-Ca/Mg
+alkalinemedia.Int. J. Hydrogen Energy 2022, 47,12136. alloys. Acta biomaterialia2016, 45,375−386.
+(96)Hüner, B.;Demir,N.;Kaya, M.F.Ni-Pt coatingongraphene (114) Bai, Y.; Williams, C. B. An exploration of binder jetting of
+based 3D printed electrodes for hydrogen evolution reactions in copper. RapidPrototypingJournal 2015, 21,177.
+alkalinemedia.Fuel 2023, 331, 125971. (115)Gussev,M.;Sridharan,N.;Norfolk,M.;Terrani,K.;Babu,S.
+(97) Akshay Kumar, K. P.; Ghosh, K.; Alduhaish, O.; Pumera, M. Effect of post weld heat treatment on the 6061 aluminum alloy
+Dip-coating of MXene and transition metal dichalcogenides on 3D- produced by ultrasonic additive manufacturing. MaterialsScienceand
+printed nanocarbon electrodes for the hydrogen evolution reaction. Engineering:A2017, 684, 606−616.
+Electrochem. Commun.2021, 122,106890. (116) Wolcott, P.; Hehr, A.; Pawlowski, C.; Dapino, M. Process
+(98)Ng,S.;Zazpe,R.;Rodriguez-Pereira,J.;Michalicǩ a,J.;Macak, improvements and characterization of ultrasonic additive manufac-
+J. M.; Pumera, M. Atomic layer deposition of photoelectrocatalytic turedstructures.JournalofMaterialsProcessingTechnology2016,233,
+material on 3D-printed nanocarbon structures. Journal of Materials 44−52.
+ChemistryA2021, 9(18),11405−11414. (117) Amorim, F. L.; Lohrengel, A.; Müller, N.; Schäfer, G.;
+(99) Dos Santos, P. L.; Rowley-Neale, S. J.; Ferrari, A. G.-M.; Czelusniak, T. Performance of sinking EDM electrodes made by
+Bonacin, J. A.; Banks, C. E. Ni-Fe(Oxy) Hydroxide Modified selective laser sintering technique. International Journal of Advanced
+Graphene Additive Manufactured (3D-Printed) Electrochemical Manufacturing Technology 2013, 65(9−12),1423−1428.
+Platforms as An Efficient Electrocatalyst for the Oxygen Evolution (118) Shashank, S.; Pinto, T.; Ramachandra, C.; Raghavendra, M.
+Reaction.ChemElectroChem. 2019, 6(22),5633−5641. Optimization of EDM Electrode by Direct Metal Laser Sintering
+(100)Bui,J.C.;Davis,J.T.;Esposito,D.V.3D-PrintedElectrodes (DMLS) method for SS316L Material. IOP Conference Series:
+for Membraneless Water Electrolysis. Sustainable Energy & Fuels Materials Science and Engineering; IOP Publishing, 2021; Vol. 1013,
+2020, 4,213−225. p 012002.
+(101) Vanec̆ ǩ ová, E.; Bousǎ , M.; Sokolová, R.; Moreno-García, P.; (119) Sahu, A. K.; Mahapatra, S. S.; Chatterjee, S.; Thomas, J.
+Broekmann, P.; Shestivska, V.; Rathousky,́ J.; Gál, M.; Sebechlebská, Optimization of surface roughness by MOORA method in EDM by
+T.; Kolivosǩ a, V. Copper Electroplating of 3D Printed Composite electrode prepared via selective laser sintering process. Materials
+Electrodes.J. Electroanal.Chem. 2020, 858, 113763. Today: Proceedings2018, 5 (9),19019−19026.
+(102)Walters,J.;Ahmed,S.;TerreroRodriguez,I.;O’Neil,G.Trace (120) Kıstı, M.; Uysal, S.; Kaya, M. F. Development of Pt coated
+AnalysisofHeavyMetals(Cd,Pb,Hg)Using3DPrintedGraphene/ SS316 mesh gas diffusion electrodes for a PEM water electrolyzer
+PLACompositeElectrodes.Electroanalysis2020, 32(4), 859−866. anode. Fuel 2022, 324, 124775.
+(103)Browne,M.P.;Pumera,M.ImpuritiesinGraphene/PLA3D- (121)Vinod,A.;Srinivasa,C.Studiesonlaser-sinteringofcopperby
+Printing Filaments Dramatically Influence The Electrochemical directmetallasersinteringprocess.Proceedingsofthe5thInternational
+Properties ofThe Devices. Chem. Commun.2019, 55,8374−8377. & 26th All India Manufacturing Technology, Design and Research
+(104) Dijkshoorn, A.; Šcú lac, L.; Sanders, R.; Olthuis, W.; Conference (AIMTDR2014); December12−14,2014; pp 377−371.
+Stramigioli, S.; Krijnen, G. 3D-Printing of a Lemon Battery via (122) Sutton, A. T.; Kriewall, C. S.; Leu, M. C.; Newkirk, J. W.
+Fused Deposition Modelling and Electrodeposition. 2020 IEEE Powders for additive manufacturing processes: Characterization
+International Conference on Flexible and Printable Sensors and Systems techniques and effects on part properties. Solid Freeform Fabrication
+(FLEPS);IEEE,2020; pp1−4. 2016, 1, 1004−1030.
+(105)Chen,P.;Shi,Y.;Zhang,L.;Li,J.;Zhu,X.;Fu,Q.;Liao,Q. (123) Chin, S. Y.; Dikshit, V.; Meera Priyadarshini, B.; Zhang, Y.
+Performance of a Thermally Regenerative Battery with 3D-Printed Powder-Based 3DPrintingforthe Fabrication ofDevice with Micro
+Cu/CCompositeElectrodes:EffectofElectrodePoreSize.Ind.Eng. and Mesoscale Features.Micromachines 2020, 11(7),658.
+Chem. Res.2020, 59(49),21286−21293. (124) Ghosal, P.; Majumder, M. C.; Chattopadhyay, A. Study on
+(106) Iffelsberger, C.; Ng, S.; Pumera, M. Catalyst coating of 3D direct laser metal deposition. Materials Today: Proceedings 2018, 5
+printed structures via electrochemical deposition: Case of the (5), 12509−12518.
+40655 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+(125)Gokuldoss,P.K.;Kolla,S.;Eckert,J.Additivemanufacturing (146)Qin,P.;Liu,Y.;Sercombe,T.B.;Li,Y.;Zhang,C.;Cao,C.;
+processes: Selective laser melting, electron beam melting and binder Sun,H.;Zhang,L.-C.Improvedcorrosionresistanceonselectivelaser
+jetting�Selectionguidelines. Materials2017, 10(6),672. meltingproducedTi-5Cualloyafterheattreatment.ACSBiomaterials
+(126)Harun, W.;Kamariah,M.;Muhamad, N.;Ghani,S.; Ahmad, Science& Engineering2018, 4(7), 2633−2642.
+F.; Mohamed, Z. A review of powder additive manufacturing (147) Yang, G.; Mo, J.; Kang, Z.; Dohrmann, Y.; List, F. A., III;
+processes for metallic biomaterials. Powder Technol. 2018, 327, Green,J.B.,Jr;Babu,S.S.;Zhang,F.-Y.Fullyprintedandintegrated
+128−151. electrolyzercellswithadditivemanufacturingforhigh-efficiencywater
+(127) Ambrosi, A.; Shi, R. R. S.; Webster, R. D. 3D-printing for splitting. AppliedEnergy 2018, 215, 202−210.
+electrolytic processes and electrochemical flow systems. Journal of (148) Ambrosi, A.; Pumera, M. Multimaterial 3D-Printed Water
+MaterialsChemistryA2020, 8(42),21902−21929. Electrolyzer with Earth-Abundant Electrodeposited Catalysts. ACS
+(128) Zäh, M. F.; Lutzmann, S. Modelling and simulation of Sustainable Chem. Eng. 2018,6 (12),16968−16975.
+electronbeam melting.Production Engineering2010, 4 (1),15−23. (149) Yang, G.; Mo, J.; Kang, Z.; List, F. A., III; Green, J. B., Jr;
+(129)Bhavar,V.;Kattire,P.;Patil,V.;Khot,S.;Gujar,K.;Singh,R. Babu,S.S.;Zhang,F.-Y.Additivemanufacturedbipolarplateforhigh-
+A review on powder bed fusion technology of metal additive efficiency hydrogen production in proton exchange membrane
+manufacturing.Additive manufacturinghandbook 2017, 251−253. electrolyzer cells. international journal of hydrogen energy 2017, 42
+(130) Singh, A.; Kapil, S.; Das, M. A comprehensive review of the (21),14734−14740.
+methodsand mechanismsforpowderfeedstock handlingindirected (150) Laleh, M.; Hughes, A. E.; Xu, W.; Gibson, I.; Tan, M. Y.
+energydeposition.AdditiveManufacturing 2020, 35, 101388. Unexpected erosion-corrosion behaviour of 316L stainless steel
+(131)Ramakrishnan,A.;Dinda,G.Directlasermetaldepositionof produced by selective lasermelting. Corros.Sci. 2019, 155,67−74.
+Inconel738. MaterialsScienceandEngineering: A2019,740,1−13. (151)Yang,Y.;Chen,Y.;Zhang,J.;Gu,X.;Qin,P.;Dai,N.;Li,X.;
+(132)Arenas,L.;PoncedeLeón,C.;Walsh,F.3D-Printed Porous Kruth, J.-P.; Zhang, L.-C. Improved corrosion behavior of ultrafine-
+Electrodes for Advanced Electrochemical Flow Reactors: A Ni/ grained eutectic Al-12Si alloy produced by selective laser melting.
+Stainless Steel Electrode and Its Mass Transport Characteristics. Materials& Design2018, 146,239−248.
+Electrochem. Commun.2017, 77,133−137. (152)Liu,Y.;Zhao,X.-H.;Lai,Y.-j.;Wang,Q.-X.;Lei,L.-M.;Liang,
+(133)Ibrahim,K.A.;Wu,B.;Brandon,N.P.Electricalconductivity S.-j. A brief introduction to the selective laser melting of Ti6Al4V
+and porosity in stainless steel 316L scaffolds for electrochemical powdersbysupreme-speedplasmarotatingelectrodeprocess.Progress
+devices fabricated using selective laser sintering. Materials & Design in NaturalScience:Materials International2020, 30(1), 94−99.
+2016, 106,51−59. (153) Browne, M. P.; Dodwell, J.; Novotny, F.; Jasḱ aniec, S.;
+(134)Brandt,M.Theroleoflasersinadditivemanufacturing.Laser Shearing, P. R.; Nicolosi, V.; Brett, D. J.; Pumera, M. Oxygen
+additivemanufacturing 2017, 1−18. evolutioncatalystsunderprotonexchangemembraneconditionsina
+(135)Jiao,L.;Chua,Z.Y.;Moon,S.K.;Song,J.;Bi,G.;Zheng,H. conventionalthreeelectrodecellvs.electrolyserdevice:acomparison
+Femtosecond laser produced hydrophobic hierarchical structures on study and a 3D-printed electrolyser for academic labs. Journal of
+additive manufacturingparts.Nanomaterials 2018, 8(8),601. MaterialsChemistry A2021,9 (14),9113−9123.
+(136) Hwa, L. C.; Rajoo, S.; Noor, A. M.; Ahmad, N.; Uday, M. (154)Yap,C.Y.;Chua,C.K.;Dong,Z.L.;Liu,Z.H.;Zhang,D.Q.;
+Recent advances in 3D printing of porous ceramics: A review. Curr. Loh,L.E.;Sing,S.L.Reviewofselectivelasermelting:Materialsand
+Opin. SolidStateMater. Sci.2017, 21(6), 323−347. applications. Appliedphysicsreviews2015, 2 (4),041101.
+(137) Nagarajan, B.; Hu, Z.; Song, X.; Zhai, W.; Wei, J. (155) Jaiganesh, V.; Christopher, A. A.; Mugilan, E. Manufacturing
+Development of micro selective laser melting: The state of the art ofPMMAcamshaftbyrapidprototyping.ProcediaEngineering2014,
+andfuture perspectives. Engineering2019, 5(4), 702−720. 97, 2127−2135.
+(138) Sadowski, M.; Ladani, L.; Brindley, W.; Romano, J. (156) Kazmer, D. Three-dimensional printing of plastics. Applied
+Optimizing quality of additively manufactured Inconel 718 using Plastics EngineeringHandbook; Elsevier, 2017;pp 617−634.
+powder bed laser melting process. Additive Manufacturing 2016, 11, (157)Munir,K.;Li,Y.;Wen,C.Metallicscaffoldsmanufacturedby
+60−70. selective laser melting for biomedical applications. Metallic Foam
+(139) Ambrosi, A.; Pumera, M. Self-Contained Polymer/Metal 3D Bone;Elsevier, 2017; pp 1−23.
+Printed Electrochemical Platform for Tailored Water Splitting. Adv. (158)Alayavalli,K.;Bourell,D.L.Fabricationofmodifiedgraphite
+Funct.Mater.2018, 28(27),1700655. bipolar plates by indirect selective laser sintering (SLS) for direct
+(140) Ambrosi, A.; Moo, J. G. S.; Pumera, M. Helical 3D-Printed methanol fuelcells. Rapid prototypingjournal 2010, 16, 268.
+MetalElectrodesasCustom-Shaped3DPlatformforElectrochemical (159)Ayers,K.E.;Anderson,E.B.;Capuano,C.;Carter,B.;Dalton,
+Devices. Adv.Funct.Mater. 2016,26(5), 698−703. L.; Hanlon, G.; Manco, J.; Niedzwiecki, M. Research advances
+(141) Browne, M. P.; Plutnar, J.; Pourrahimi, A. M.; Sofer, Z.; towardslowcost,highefficiencyPEMelectrolysis.ECSTrans.2010,
+Pumera,M.AtomicLayerDepositionasaGeneralMethodTurnsany 33(1), 3.
+3D-Printed Electrode into a Desired Catalyst: Case Study in (160) Guo, N.; Leu, M. C.; Koylu, U. O. Bio-inspired flow field
+Photoelectrochemisty.Adv. Energy Mater.2019, 9(26),1900994. designs for polymer electrolyte membrane fuel cells. International
+(142)Lee,C.Y.;Taylor,A.C.;Beirne,S.;Wallace,G.G.3D-Printed Journal of hydrogenenergy2014, 39(36),21185−21195.
+ConicalArraysofTiO2ElectrodesforEnhancedPhotoelectrochem- (161) Dobrzanś ki, L.; Musztyfaga, M.; Drygała, A. Selective laser
+icalWaterSplitting.Adv. Energy Mater.2017, 7(21),1701060. sinteringmethodofmanufacturingfrontelectrodeofsiliconsolarcell.
+(143) Huang, X.; Chang, S.; Lee, W. S. V.; Ding, J.; Xue, J. M. Journal of Achievements in Materials and Manufacturing Engineering
+Three-dimensional printed cellular stainless steel as a high-activity 2010, 42(1−2), 111−119.
+catalyticelectrodeforoxygenevolution.JournalofMaterialsChemistry (162) Lomberg, M.; Boldrin, P.; Tariq, F.; Offer, G.; Wu, B.;
+A2017, 5(34),18176−18182. Brandon, N. P. Additive manufacturing for solid oxide cell electrode
+(144) Zhao, C.; Wang, C.; Gorkin, R., Iii; Beirne, S.; Shu, K.; fabrication. ECSTrans.2015, 68(1), 2119.
+Wallace, G. G. Three Dimensional (3D) Printed Electrodes for (163) Dass, A.; Moridi, A. State of the art in directed energy
+Interdigitated Supercapacitors. Electrochem. Commun. 2014, 41, 20− deposition:fromadditivemanufacturingtomaterialsdesign.Coatings
+23. 2019, 9 (7),418.
+(145) Kashapov, L.; Kashapov, N.; Kashapov, R.; Denisov, D. (164) Mazzarisi, M.; Campanelli, S. L.; Angelastro, A.; Dassisti, M.
+Plasmaelectrolytictreatmentofproductsafterselectivelasermelting. Phenomenological modelling of direct laser metal deposition for
+JournalofPhysics:ConferenceSeries;IOPPublishing,2016;Vol.669,p single tracks. International Journal of Advanced Manufacturing
+012029. Technology 2020, 111 (7),1955−1970.
+40656 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+(165) Ahmed, N. Direct metal fabrication in rapid prototyping: A fuelcellresearchinthe3Dprintingprocesses.KHNES2021,32(1),
+review.Journalof Manufacturing Processes 2019, 42,167−191. 11−40.
+(166) Pinkerton, A. Laser direct metal deposition: theory and (186) Xing, B.; Cao, C.; Zhao, W.; Shen, M.; Wang, C.; Zhao, Z.
+applications in manufacturing and maintenance. Advances in laser Dense 8 mol% yttria-stabilized zirconia electrolyte by DLP stereo-
+materialsprocessing; Elsevier, 2010; pp461−491. lithography. Journal of the European Ceramic Society 2020, 40 (4),
+(167)Kim, M.J.; Saldana,C.Thinwalldeposition ofIN625using 1418−1423.
+directed energy deposition. Journal of Manufacturing Processes 2020, (187)Jia,K.;Zheng,L.;Liu,W.;Zhang,J.;Yu,F.;Meng,X.;Li,C.;
+56,1366−1373. Sunarso, J.; Yang, N. A new and simple way to prepare monolithic
+(168)Benarji,K.;RaviKumar,Y.;Jinoop,A.N.;Paul,C.P.;Bindra, solidoxidefuelcellstackbystereolithography3Dprintingtechnology
+K. S. Effect of Heat-Treatment on the Microstructure, Mechanical using8mol%yttriastabilizedzirconiaphotocurableslurry.Journalof
+Properties and Corrosion Behaviour of SS 316 Structures Built by the EuropeanCeramic Society2022, 42(10),4275−4285.
+Laser Directed Energy Deposition Based Additive Manufacturing. (188) Guo, B.; Liang, G.; Yu, S.; Wang, Y.; Zhi, C.; Bai, J. 3D
+Metalsand MaterialsInternational2021, 27(3), 488−499. printing of reduced graphene oxide aerogels for energy storage
+(169)Melia,M.A.;Nguyen,H.-D.A.;Rodelas,J.M.;Schindelholz, devices: a paradigm from materials and technologies to applications.
+E. J. Corrosion properties of 304L stainless steel made by directed Energy Storage Materials2021, 39,146−165.
+energydepositionadditivemanufacturing.Corros.Sci.2019,152,20− (189) Zhou, H.; Yang, H.; Yao, S.; Jiang, L.; Sun, N.; Pang, H.
+30. Synthesis of 3D printing materials and their electrochemical
+(170) Kaya, M. F.; Demir, N.; Rees, N. V.; El-Kharouf, A. J.A. E. applications. Chin.Chem. Lett.2022, 33, 3681.
+Improving PEM water electrolyser’s performance by magnetic field (190)Zhakeyev,A.;Wang,P.;Zhang,L.;Shu,W.;Wang,H.;Xuan,
+application.Applied Energy 2020, 264,114721. J. Additive manufacturing: unlocking the evolution of energy
+(171) Karakurt, I.; Lin, L. 3D printing technologies: techniques, materials. Advanced Science2017, 4(10),1700187.
+materials,andpost-processing.CurrentOpinioninChemicalEngineer- (191)Zheng,Y.;Huang,X.;Chen,J.;Wu,K.;Wang,J.;Zhang,X.A
+ing2020, 28,134−143. review of conductive carbon materials for 3D printing: Materials,
+(172) Egorov, V.; Gulzar, U.; Zhang, Y.; Breen, S.; O’Dwyer, C. technologies, properties, and applications. Materials 2021, 14 (14),
+Evolution of 3D printing methods and materials for electrochemical 3911.
+energystorage. Adv.Mater.2020, 32(29),2000556. (192) Tian, X.; Liu, T.; Yang, C.; Wang, Q.; Li, D. Interface and
+(173)Chen,Z.;Li,Z.;Li,J.;Liu,C.;Lao,C.;Fu,Y.;Liu,C.;Li,Y.; performance of 3D printed continuous carbon fiber reinforced PLA
+Wang, P.; He, Y. 3D printing of ceramics: A review. Journal of the composites. Composites Part A: Applied Science and Manufacturing
+EuropeanCeramic Society2019, 39(4),661−687. 2016, 88, 198−205.
+(174)Zhang,F.;Li,Z.;Xu,M.;Wang,S.;Li,N.;Yang,J.Areviewof (193) Ning, F.; Cong, W.; Qiu, J.; Wei, J.; Wang, S. Additive
+3D printed porous ceramics. Journal of the European Ceramic Society manufacturing of carbon fiber reinforced thermoplastic composites
+2022, 42(8),3351−3373. usingfuseddepositionmodeling.CompositesPartB:Engineering2015,
+(175) Bozkurt, Y.; Karayel, E. 3D printing technology; methods, 80, 369−378.
+biomedical applications, future opportunities and trends. Journal of (194)Bian,B.;Shi,D.;Cai,X.;Hu,M.;Guo,Q.;Zhang,C.;Wang,
+MaterialsResearch andTechnology 2021, 14,1430−1450. Q.;Sun,A.X.;Yang,J.3Dprintedporouscarbonanodeforenhanced
+(176) Peerzada, M.; Abbasi, S.; Lau, K. T.; Hameed, N. Additive powergenerationinmicrobialfuelcell.NanoEnergy2018,44,174−
+manufacturingofepoxyresins:Materials,methods,andlatesttrends. 180.
+Ind.Eng. Chem. Res. 2020,59(14),6375−6390. (195)Idrees,M.;Ahmed,S.;Mohammed,Z.;Korivi,N.S.;Rangari,
+(177) Wang, B.; Zhang, Z.; Pei, Z.; Qiu, J.; Wang, S. Current V. 3D printed supercapacitor using porous carbon derived from
+progressonthe3Dprintingofthermosets.AdvancedCompositesand packaging waste.AdditiveManufacturing 2020, 36, 101525.
+HybridMaterials2020, 3 (4),462−472. (196) Lee, C.-Y.; Zou, J.; Bullock, J.; Wallace, G. G. Emerging
+(178)Wang,B.;Arias,K.F.;Zhang,Z.;Liu,Y.;Jiang,Z.;Sue,H.-J.; approachinsemiconductorphotocatalysis:Towards3Darchitectures
+Currie-Gregg,N.;Bouslog,S.;Pei,Z.Z.;Wang,S.3Dprintingofin- for efficient solar fuels generation in semi-artificial photosynthetic
+situ curing thermally insulated thermosets. Manufacturing Letters systems.JournalofPhotochemistryandPhotobiologyC:Photochemistry
+2019, 21,1−6. Reviews 2019, 39,142−160.
+(179)Zhou,Z.-X.;Li,Y.;Zhong,J.;Luo,Z.;Gong,C.-R.;Zheng,Y.- (197)Liu, J.; Guan,C.; Zhou,C.; Fan, Z.; Ke,Q.; Zhang, G.; Liu,
+Q.; Peng, S.; Yu, L.-M.; Wu, L.; Xu, Y. High-performance cyanate C.; Wang, J. A flexible quasi-solid-state nickel-zinc battery with high
+esterresinswithinterpenetrationnetworksfor3Dprinting.ACSAppl. energy and power densities based on 3D electrode design. Advanced
+Mater.Interfaces2020, 12(34),38682−38689. materials 2016, 28(39),8732−8739.
+(180)Chandrasekaran,S.;Duoss,E.B.;Worsley,M.A.;Lewicki,J. (198) Ding, J.; Shen, K.; Du, Z.; Li, B.; Yang, S. 3D-printed
+P.3Dprintingofhighperformancecyanateesterthermosetpolymers. hierarchicalporousframeworksforsodiumstorage.ACSAppl.Mater.
+Journalof MaterialsChemistryA2018, 6(3), 853−858. Interfaces 2017,9 (48),41871−41877.
+(181)Bhadra,J.;Alkareem,A.;Al-Thani,N.Areviewofadvancesin (199) Yan, W.; Dong, C.; Xiang, Y.; Jiang, S.; Leber, A.; Loke, G.;
+thepreparationandapplicationofpolyanilinebasedthermosetblends Xu,W.;Hou,C.; Zhou,S.;Chen, M.;Hu,R.;Shum,P.P.;Wei,L.;
+andcomposites. Journalof Polymer Research 2020, 27(5),122. Jia, X.; Sorin, F.; Tao, X.; Tao, G. Thermally drawn advanced
+(182)Mishra,S.;Katti,P.;Kumar,S.;Bose,S.Macroporousepoxy- functional fibers: New frontier of flexible electronics. Mater. Today
+carbon fiber structures with a sacrificial 3D printed polymeric mesh 2020, 35, 168.
+suppresses electromagnetic radiation. Chemical Engineering Journal (200)Vanec̆ ǩ ová,E.;Bousǎ ,M.;Lachmanová,Š.N.;Rathousky,́ J.;
+2019, 357,384−394. Gál, M.; Sebechlebská, T.; Kolivosǩ a, V. 3D printed polylactic acid/
+(183)Ferreira,V.J.;Wolff,D.;Hornés,A.;Morata,A.;Torrell,M.; carbonblackelectrodeswithnearlyidealelectrochemicalbehaviour.J.
+Tarancón, A.; Corchero, C. 5 kW SOFC stack via 3D printing Electroanal. Chem. 2020, 857, 113745.
+manufacturing: An evaluation of potential environmental benefits. (201)Silva,V.A.;Fernandes-Junior,W.S.;Rocha,D.P.;Stefano,J.
+AppliedEnergy 2021, 291, 116803. S.; Munoz, R. A.; Bonacin, J. A.; Janegitz, B. C. 3D-printed reduced
+(184)Masciandaro,S.;Torrell,M.;Leone,P.;Tarancón,A.Three- grapheneoxide/polylacticacidelectrodes:Anewprototypedplatform
+dimensional printed yttria-stabilized zirconia self-supported electro- for sensing and biosensing applications. Biosens. Bioelectron. 2020,
+lytes for solid oxide fuel cell applications. Journal of the European 170, 112684.
+CeramicSociety2019, 39(1), 9−16. (202)Novotny,́ F.;Urbanová,V.;Plutnar,J.;Pumera,M.Preserving
+(185)Masaud,Z.;Khan,M.Z.;Hussain,A.;Ishfaq,H.A.;Song,R.- fine structure details and dramatically enhancing electron transfer
+H.;Lee,S.B.;Joh,D.W.;LIM,T.H.Recentactivitiesofsolidoxide ratesingraphene3D-printedelectrodesviathermalannealing:toward
+40657 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658ACS Omega http://pubs.acs.org/journal/acsodf Review
+nitroaromaticexplosivessensing.ACSAppl.Mater.Interfaces2019,11
+(38),35371−35375.
+(203) Zhang, M.; Mei, H.; Chang, P.; Cheng, L. 3D printing of
+structured electrodes for rechargeable batteries. Journal of Materials
+ChemistryA2020, 8(21),10670−10694.
+(204) Cheng, M.; Jiang, Y.; Yao, W.; Yuan, Y.; Deivanayagam, R.;
+Foroozan,T.;Huang,Z.;Song,B.;Rojaee,R.;Shokuhfar,T.;Pan,Y.;
+Lu, J.; Shahbazian-Yassar, R. Elevated-Temperature 3D Printing of
+HybridSolid-StateElectrolyteforLi-IonBatteries.Adv.Mater.2018,
+30(39),1800615.
+(205)Chortos,A.;Hajiesmaili,E.;Morales,J.;Clarke,D.R.;Lewis,
+J.A.3Dprintingofinterdigitateddielectricelastomeractuators.Adv.
+Funct.Mater.2020, 30(1), 1907375.
+(206)Zhang,Y.;Ji,T.;Hou,S.;Zhang,L.;Shi,Y.;Zhao,J.;Xu,X.
+All-printedsolid-statesubstrate-versatileandhigh-performancemicro-
+supercapacitorsforinsitufabricatedtransferableandwearableenergy
+storage via multi-material 3D printing. J. Power Sources 2018, 403,
+109−117.
+(207) Arthur, T. S.; Bates, D. J.; Cirigliano, N.; Johnson, D. C.;
+Malati,P.;Mosby,J.M.;Perre,E.;Rawls,M.T.;Prieto,A.L.;Dunn,
+B.Three-dimensionalelectrodesandbatteryarchitectures.MRSBull.
+2011, 36(7),523−531.
+(208)Sheppard,N.F.;Tucker,R.C.;Wu,C.Electricalconductivity
+measurements using microfabricated interdigitated electrodes. Anal.
+Chem. 1993,65(9), 1199−1202.
+(209)Roberts,M.;Johns,P.;Owen,J.;Brandell,D.;Edstrom,K.;El
+Enany, G.; Guery, C.; Golodnitsky, D.; Lacey, M.; Lecoeur, C.;
+Mazor, H.; Peled, E.; Perre, E.; Shaijumon, M. M.; Simon, P.;
+Taberna, P.-L. 3D lithium-ion batteries from fundamentals to
+fabrication. J. Mater.Chem. 2011, 21(27),9876−9890.
+(210) Long, J. W.; Dunn, B.; Rolison, D. R.; White, H. S. Three-
+dimensionalbatteryarchitectures.Chem.Rev.2004,104(10),4463−
+4492.
+(211) Bowen, C.; Nelson, L.; Stevens, R.; Cain, M.; Stewart, M.
+Optimisation of interdigitated electrodes for piezoelectric actuators
+and active fibre composites. Journal of Electroceramics 2006, 16 (4),
+263−269.
+(212) Sun, H.; Zhu, J.; Baumann, D.; Peng, L.; Xu, Y.; Shakir, I.;
+Huang, Y.; Duan, X. Hierarchical 3D electrodes for electrochemical
+energystorage. NatureReviews Materials2019,4 (1),45−60.
+40658 https://doi.org/10.1021/acsomega.2c05096
+ACSOmega2022,7,40638−40658

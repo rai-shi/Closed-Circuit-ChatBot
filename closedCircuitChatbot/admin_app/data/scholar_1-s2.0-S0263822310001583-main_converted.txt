@@ -1,0 +1,1019 @@
+CompositeStructures92(2010)2793–2810
+ContentslistsavailableatScienceDirect
+Composite Structures
+journal homepage: www.elsevier.com/locate/compstruct
+Review
+A review of recent research on mechanics of multifunctional composite
+materials and structures
+Ronald F. Gibson
+DepartmentofMechanicalEngineering,UniversityofNevada,Reno,MS-312,Reno,NV89557,UnitedStates
+a r t i c l e i n f o a b s t r a c t
+Articlehistory: Inresponsetothemarkedincreaseinresearchactivityandpublicationsinmultifunctionalmaterialsand
+Availableonline8May2010 structuresinthelastfewyears,thisarticleisanattempttoidentifythetopicsthataremostrelevantto
+multifunctionalcompositematerialsandstructuresandreviewrepresentativejournalpublicationsthat
+Keywords: arerelatedtothosetopics.Articlescoveringdevelopmentsinbothmultiplestructuralfunctionsandinte-
+Multifunctional gratedstructuralandnon-structuralfunctionssince2000areemphasized.Structuralfunctionsinclude
+Material mechanical properties like strength, stiffness, fracture toughness, and damping, while non-structural
+Structure
+functionsincludeelectricaland/orthermalconductivity,sensingandactuation,energyharvesting/stor-
+Composite
+age,self-healingcapability,electromagneticinterference(EMI)shielding,recyclabilityandbiodegradabil-
+Nanocomposite
+ity. Many of these recent developments are associated with polymeric composite materials and
+Polymer
+corresponding advances in nanomaterials and nanostructures, as are many of the articles reviewed.
+Thearticleconcludeswithadiscussionofrecentapplicationsofmultifunctionalmaterialsandstructures,
+suchasmorphingaircraftwings,structurallyintegratedelectroniccomponents,biomedicalnanoparticles
+fordispensingdrugsanddiagnostics,andopticallytransparentimpactabsorbingstructures.Severalsug-
+gestionsregardingfutureresearchneedsarealsopresented.
+(cid:2)2010ElsevierLtd.Allrightsreserved.
+Contents
+1. Introduction........................................................................................................ 2793
+2. Multiplestructuralfunctions........................................................................................... 2795
+2.1. Compositestructuralmaterials ................................................................................... 2795
+2.2. Hybridmultiscalestructuralcompositematerials .................................................................... 2795
+3. Integratedstructuralandnon-structuralfunctions......................................................................... 2797
+3.1. Electricaland/orthermalconductivity.............................................................................. 2797
+3.2. Sensingandactuation........................................................................................... 2799
+3.3. Energyharvesting/storage ....................................................................................... 2801
+3.4. Self-healingcapability........................................................................................... 2803
+3.5. Electromagneticinterference(EMI)shielding........................................................................ 2804
+3.6. Recyclabilityandbiodegradability................................................................................. 2805
+4. Recentapplicationsofmultifunctionalmaterialsandstructures.............................................................. 2805
+5. Concludingremarks.................................................................................................. 2807
+Acknowledgements.................................................................................................. 2807
+References ......................................................................................................... 2808
+1.Introduction creased markedly in recent years. Fig. 1 shows how the number
+of English language refereed journal articles in multifunctional
+Thenumberofpublicationsdealingwithvariousaspectsofthe materialsandstructureshassteadilyincreasedsince2000,based
+mechanics of multifunctional materials and structures has in- ondatacollectedfromtheEngineeringVillage(cid:2)web-basedinfor-
+mationservice.Alongwiththeincreaseinthenumberofpublica-
+tionsinthisareacomesaneedforacomprehensivereviewarticle,
+E-mailaddress:ronaldgibson@unr.edu
+0263-8223/$-seefrontmatter(cid:2)2010ElsevierLtd.Allrightsreserved.
+doi:10.1016/j.compstruct.2010.05.0032794 R.F.Gibson/CompositeStructures92(2010)2793–2810
+Nomenclature
+A surfaceareaofsphericalparticle SE EMIshieldingeffectiveness
+C dragcoefficient t flightendurancetime
+D E
+C liftcoefficient U electrical(dielectric)energydensity
+L e
+E nominalstoredbatteryenergy V volumeofsphericalparticle
+B
+E incidentelectricfield W batterysubsystemweight
+i B
+E transmittedelectricfield W payloadsubsystemweight
+t PL
+H incidentmagneticfield W propulsionsubsystemweight
+i PR
+H transmittedelectricfield W structuresubsystemweight
+t S
+k piezoelectriccouplingcoefficientforsensing W mechanical(strain)energydensity
+s m
+k piezoelectriccouplingcoefficientforactuation a conductivityexponent
+a
+k electricalconductivityofcomposite g crackhealingefficiency
+c
+k electricalorthermalconductivityoffiller g efficiencyfactorforbattery
+f B
+k electricalorthermalconductivityofmatrix g propellerefficiency
+m P
+K ModeIfracturetoughnessforhealedspecimen q airdensity
+Ichealed
+K ModeIfracturetoughnessforvirginspecimen u concentrationofcarbonnanotubes
+Icvirgin
+P critical fracture load for healed Mode I fracture speci- u critical concentration of carbon nanotubes, or percola-
+chealed c
+men tionthreshold
+P criticalfractureloadforvirginModeIfracturespecimen
+cvirgin
+S wingplanformarea
+andtheobjectiveofthispaperistoaddressthisneed.Theempha- type(b)wouldbeaload-bearingstructurethathasthecapability
+sisofthepublicationssurveyedwillbeonthemechanicsaspects, ofprovidingitsownnoiseandvibrationcontrol,self-repair,ther-
+althoughthemultidisciplinarynatureofthetopicwillleadtothe malinsulation,andenergyharvesting/storage,whereasanexam-
+inclusion of some publications on relevant disciplines such as ple of type (c) would be a structure combining the functions of
+materials science, thermodynamics, and electronics. In addition, both type (a) and type (b). Most of the recent developments in
+thevastmajorityofthesurveyedarticlesdealwithpolymercom- multifunctionalmaterialsandstructurestendtobeoftype(b).
+posites, and by definition, a multifunctional material must be a Multifunctional materials are necessarily composite materials,
+composite. Due to the large number of articles involved, and the and the strong growthin the use of compositeshas been greatly
+lack of electronic access to many conference proceedings, the influencedbymultifunctionaldesignrequirements.Thetraditional
+emphasisofthisreviewisonthemoreaccessiblerefereedjournal approachtothedevelopmentofstructuresistoaddresstheload-
+articles.Itwasnotpracticaltocoverallofthesearticles,andsince carrying function and other functional requirements separately,
+somearticleshadalreadybeencoveredbypreviousrelatedreview resulting in a suboptimal load-bearing structure with add-on
+articles, an attempt was made to select representative articles in attachments which perform the non-structural functions with
+eachoftherelevantcategories.AccordingtoFig.1,mostoftherel- thepenaltyofaddedweight.Recently,however,therehasbeenin-
+evantarticleshavebeenpublishedsince2000,sothatisthefocus creasedinterestinthedevelopmentofload-bearingmaterialsand
+ofthisreview. structureswhichhaveintegralnon-load-bearingfunctions,guided
+The increased interest in multifunctional materials and struc- by recent discoveries about how multifunctional biological sys-
+turesisdrivenbytheneedforthedevelopmentofnewmaterials temswork.
+andstructuresthatsimultaneouslyperform(a)multiplestructural Duetotheinterdisciplinarynatureofmultifunctionalmaterials
+functions,(b)combinednon-structuralandstructuralfunctions,or andstructures,andtheneedtoavoidduplicationinthecurrentre-
+(c) both. One example of a multifunctional structure of type (a) view,itisappropriatetociteseveralrelevantpreviousreviewarti-
+wouldbeacompositestructurethathashighstrength,highstiff- cles.Forexample,BaurandSilverman[1]reviewedthechallenges
+ness, high fracture toughness and high damping. An example of and opportunities in multifunctional nanocomposite aerospace
+structures,whileYeetal.[2]revieweddevelopmentsintheappli-
+cation of artificial intelligence to functionalize composite air-
+frames. By definition, a multifunctional material must be a
+composite, and it is becoming increasingly apparent that nano-
+structuredcompositescanproduceand/orenhancemultifunction-
+alityinwaysthatconventionalcompositescouldnot.Forexample,
+Thostensonetal.[3]andChouetal.[4]reviewedrecentadvances
+related to the science and technology of carbon nanotubes and
+theircomposites;BreuerandSundararaj[5]reviewedrecentstud-
+iesonpolymer/carbonnanotubecomposites;Lietal.[6]surveyed
+the recent advances related to the use of carbon nanotubes and
+theircompositesassensorsandactuators,whileGibsonetal.[7]
+reviewed recent publications dealing with vibrations of carbon
+nanotubesandtheircomposites,andSunetal.[8]reviewedarti-
+clesdealingwithvarioustypesofenergyabsorptioninnanocom-
+posites. With the addition of very small amounts of carbon
+nanotubes, non-conducting polymers and polymer composites
+Fig.1. RecentEnglishlanguagerefereedjournalpublicationsrelatedtomultifunc-
+canbetransformedtoconductingmaterials,thusenhancingtheir
+tional materials and structures. Data collected from Engineering Village(cid:2) web-
+basedinformationservice. multifunctionality.Accordingly,BauhoferandKovacs[9]havere-R.F.Gibson/CompositeStructures92(2010)2793–2810 2795
+viewedrelevantresearchonelectricalpercolationincarbonnano-
+tube polymer composites. Modeling and analysis of functionally
+gradedmaterials(FGM)havebeenreviewedbyBirmanand Byrd
+[10].Thefieldofstructuralhealthmonitoring(SHM)ishighlyrel-
+evant here, and several review articles have appeared recently.
+Montalvaoetal.[11]reviewedvibration-basedSHMofcomposite
+materials, while a similar review with emphasis on composite
+delamination identification had been published earlier by Zou
+etal.[12].Recentdevelopmentsinself-healingpolymericmateri-
+alswerereviewedbyWuetal.[13].Articlesonenergyharvesting
+forsensornetworksinSHMwerereviewedbyParketal.[14].Pie-
+zoelectric materials are often utilized for energy harvesting, and
+publications on this topic have been reviewed by Sodano et al.
+[15],AntonandSodano[16],andCook-Chennaultetal.[17].Clo-
+sely related to SHM is the study of shape memory polymers
+(SMP),andreviewsofrecentadvancesinSMPhavebeenpublished
+byRatnaandKarger-Kocsis[18].Gibsonetal.[19]editedthePro-
+ceedings of the 2008 SAMPE Fall Technical Conference entitled
+‘‘MultifunctionalMaterials:WorkingSmarterTogether”.Lauetal.
+[20] have archived selected papers from the 2008 International Fig.2. LossmoduliforpurePCandseveralSWNT/PCnanocompositesatdifferent
+Conference on Multifunctional Materials and Structures (MFMS strain levels. Reprinted with permission from [22]. Copyright 2005, American
+InstituteofPhysics.
+08),whichwasheldinHongKong.
+thermal expansion (CTE) [27]. These are all desirable changes,
+2.Multiplestructuralfunctions but if the volume fraction of silica is increased too much, the
+strengthwillstarttodropduetoparticleagglomeration,poorpar-
+2.1.Compositestructuralmaterials ticledispersionandreducedsilica/epoxyinterfacialstrength.Even
+with composites, it is not always possible to simultaneously im-
+Among the most important structural functions that a system proveseveralproperties-insomecases,modificationstocompos-
+canprovidearestiffness,strength,fracturetoughness,ductility,fa- itesleadtomajorimprovementsinsomepropertieswhilecausing
+tiguestrength,energyabsorption,damping,andthermalstability. minorreductionsinotherproperties.Forexample,theincorpora-
+Although structural weight is not a function, it is an extremely tion of rubber microparticles in the epoxy matrix of a glass fiber
+importantdesignconsiderationwhichhasdrivenmoredesignsto- reinforced epoxy composite improved the tensile fatigue life of
+wardslightweightcompositematerialsinrecentyears.Withcon- thecompositebyafactorofthreewhilecausingonlya5.2%reduc-
+ventional structural materials, it has been difficult to achieve tion in the tensile strength and a 12.7% reduction in the elastic
+simultaneous improvement in multiple structural functions, but modulus[28].
+theincreasinguseofcompositematerialshasbeendriveninpart
+bythepotentialforsuchimprovements.Forexample,ithasbeen 2.2.Hybridmultiscalestructuralcompositematerials
+shown that simultaneous improvements in vibration damping
+andfracturetoughnessincompositelaminatesaremadepossible There are increasing reports in the literature that significant
+by incorporating polymeric interleaves between the composite improvements of multiple structural functions can be achieved
+laminae [21]. However, this is only true if the interleaf thickness with new hybrid multiscale composites which incorporate nano-
+islessthanacriticalvalue–furtherincreasesininterleafthickness scale reinforcements as well as conventional micron scale fiber
+causethefracturetoughnesstodropoffwhilethedampingkeeps or particle reinforcements. For example, while fiber-dominated
+increasing. properties(i.e.,longitudinaltensilestrengthandelasticmodulus)
+Theuseofnanoreinforcementsinpolymercompositeshaspro- of conventional unidirectional polymer composites with micron
+duced unprecedented improvements in mechanical properties of size fiber reinforcements are excellent, the corresponding
+thecomposites.Koratkaretal.[22]measuredgreaterthan1000% matrix-dominated transverse tensile strength and longitudinal
+increases(Fig.2)inthelossmodulusofpolycarbonate(PC)without compressive strength properties are often poor. However, these
+significantreductionsinthestoragemoduluswhenthePCwasen- traditionallypoorpropertiescanbesignificantlyimprovedby(a)
+hanced by 2wt.% of single-walled carbon nanotubes (SWNTs). It replacingtheneatresinpolymermatrixwithananocompositema-
+washypothesizedthatfrictionalslidingattheSWNT/PCinterfaces trix (see Fig. 3 from Vlasveld et al. [29]), and/or by (b) growing
+wasthereasonfortheenhancedenergydissipation.Thishypothe- nanoreinforcementslikecarbonnanotubesonthesurfaceofthefi-
+sisissupportedbytheanalysisofZhouetal.[23],whodevelopeda bers(seeFig.4fromZhaoetal.[30]).
+model for the frictional sliding damping mechanism based on In one example of approach (a), Uddin and Sun [31] reported
+interfacial ‘‘stick–slip” frictional motion between the nanotubes that when a silica nanoparticle-enhanced epoxy was used as the
+andthepolymermatrix.RajoriaandJalili[24]reportedthatmul- matrix material in a unidirectional E-glass/epoxy composite, the
+ti-walled carbon nanotubes (MWNTs) were more effective than longitudinalcompressivestrengthandmoduluswerebothsignifi-
+SWNTsinimprovingdampingofepoxy,buttherewasnosignifi- cantly improved. Minimization of particle agglomeration and
+cant effect on the storage modulus. Another way to incorporate resultingimproveddispersionofsilicananoparticlesintheepoxy
+the improved damping associated with nanotube reinforcement matrix due to the use of a sol–gel process based on the use of
+istoembednano-enhancedpolymerfilmsub-layerswithinamul- organosilicasol (colloidal silica in organic solvent) is believed to
+tifunctionalcompositelaminate[25,26]. betheprimaryreasonfortheimprovements.Morerecentresearch
+Bymixingsilicamicroparticlesandepoxyintherightpropor- by thesame authors extendedthe approachtohybrid multiscale
+tions,itispossibletosimultaneouslyincreasestrengthandmodu- composites containing not only the silica nanoparticles from the
+lus of the resulting composite while reducing its coefficient of sol–gel process but alumina nanoparticles and carbon nanofibers2796 R.F.Gibson/CompositeStructures92(2010)2793–2810
+Fig.5. Flexuralmoduliofdifferentnanocompositesatvariousparticleloadings.
+Reprintedfrom[32]withpermissionfromElsevier.
+Fig.3. Nanoparticlereinforcementofthematrixinaunidirectionalfibercomposite.
+Reprintedfrom[29]withpermissionfromElsevier.
+Fig.6. Flexuralstrengthsofdifferentnanocompositesatvariousparticleloadings.
+Reprintedfrom[32]withpermissionfromElsevier.
+Fig. 4. Multi-walled carbon nanotubes grown on the surface of carbon fibers.
+Reprintedfrom[30]withpermissionfromElsevier.
+(CNF)inanepoxymatrix[32].AsshowninFigs.5–7,simultaneous
+improvements of at least 30% in modulus, strength and strain at
+breakarepossiblewithseveraltypesofthesehybridnanocompos-
+ites, Similarly, Liu et al. [33] and Zhang et al. [34] found that
+Young’smodulus,tensilestrengthandfracturetoughnessofepoxy
+all simultaneously improved with the addition of sol–gel-formed
+nanosilica particles, and that the dispersion of the particles was
+excellent. Manjunatha et al. [35] observed that the addition of
+10wt.%sol–gel-formednanosilicatotheepoxymatrixresultedin
+simultaneous improvements of 4.4% in tensile strength, 7.4% in
+tensilemodulusandafactorof2–3intensilefatiguelifeofaglass
+fabric-reinforcedepoxycomposite.Thepresenceofthenanoparti-
+Fig. 7. Flexural strains at break of different nanocomposites at various particle
+cleswasbelievedtosuppressmatrixcrackingandreducedelami- loadings.Reprintedfrom[32]withpermissionfromElsevier.
+nation growth rate, thus improving the fatigue life. Since hybrid
+multiscale composites typicallyhave reinforcement sizes ranging decreasingparticle sizes in both micronand nano ranges as long
+from the micron scale to the nano scale, it is essential to under- asparticleagglomerationwasavoided.ChoandSun[37]laterused
+standtheeffectsofparticlesizeontheresultingcompositeproper- moleculardynamicssimulationtoshowthatifthepolymer–nano-
+ties.Importantobservationsregardingsucheffectswerereported particleinteractionstrengthisgreaterthanthepolymer–polymer
+byChoetal.[36],whomeasuredmodulusandstrengthofvinyles- interactionstrength,thepolymerdensitynearthepolymer–nano-
+terpolymermatrixcompositescontainingsphericalaluminaparti- particleinterfaceandtheYoung’smodulusofthenanocomposite
+clesorglassbeads,withparticlesizesrangingfrom0.5mmdown both increase significantly with reduced particle size. More re-
+to15nm.ItwasfoundthattheYoung’smoduluswasnotaffected search is needed about particle size effects on both structural
+by varying particle sizes in the micron range, but as the particle andnon-structuralpropertiesofnanocompositesandhybridmul-
+sizewasreducedinthenanorange,theYoung’smodulusincreased tiscalecomposites.Thisisparticularlytrueforanalyticalmodeling,
+withdecreasingparticle size. The tensilestrength increased with sincemostofthepublicationstodateinvolveexperimentalwork.R.F.Gibson/CompositeStructures92(2010)2793–2810 2797
+Fig.8. UseofalignedCNTforeststostrengtheninterlaminarregionincompositelaminates.Reprintedfrom[41]withpermissionfromElsevier.
+Approach (b) which involves the growth of nanotubes on the important non-structural functions, including electrical and/or
+surfacesofmicron-sizedfibershasalsobeenthesubjectofnumer- thermal conductivity, sensing and actuation, energy harvesting/
+ous investigations. Thostensonet al. [38]grew carbonnanotubes storage, self-healing capability, electromagnetic interference
+(CNTs)onthesurfaceofcarbonfibersusingchemicalvapordepo- (EMI)shielding,recyclabilityandbiodegradability.
+sition(CVD),thenconductedsinglefiberfragmentationtestsofthe
+modifiedcarbonfibersinanepoxymatrixtodeterminethefiber/ 3.1.Electricaland/orthermalconductivity
+matrixinterfacialshearstrength.Itwasfoundthattheinterfacial
+shearstrengthofthemodifiedcarbonfiberswas15%greaterthan Among the most important non-structural functions that a
+thatofthebaselinecarbonfibers.Veeduetal.[39]alsousedCVDto structure may need are electrical and thermal conductivity, but
+growalignedCNTforestsperpendiculartothesurfaceof2Dwoven themostwidelyusedcompositeshavepolymermatrixmaterials,
+SiC fabric cloth consisting of micron size SiC fibers. The fabrics whicharetypicallypoorconductors.Oneveryimportantapplica-
+were then infiltrated with epoxy resin and stacked to form a 3D tion of polymer composites where electrical conductivity is re-
+composite. Compared with the baseline composite, the 3D com- quired is in aircraft structures, where non-conducting structures
+positewasfoundtoexhibitsimultaneousandsignificantimprove- may be damaged by lightning strikes. Here, conductive polymer
+mentsintheModeIandModeIIfracturetoughnesses,theflexural nanocomposites are being investigated as possible replacements
+modulus,theflexuralstrength,theflexural toughness, the coeffi- for non-conducting polymer matrix materials. This would elimi-
+cientofthermalexpansion,thethermalconductivityandtheelec- natetheneedforadd-onmetallicconductors,whicharetooheavy
+trical conductivity. This is a true multifunctional composite andmaybedifficulttorepair[45].Enhancedthermalconductivity
+combiningstructuralandnon-structuralfunctions,andwillbedis- of composites is important for cooling of electronic circuits and
+cussedfurtherinthenextsection.Furtherstudiesandapplications propulsionsystems.Thestructuraladvantagesofnanocomposites
+ofalignedCNTforeststoconventionalfibercompositeshavebeen havealreadybeensummarizedintheprevioussection,andthere
+reported by Wardle and his colleagues [40–44], who focused on is abundant evidence in the literature of simultaneous improve-
+theuseofthealignedCNTforeststoimproveinterlaminarstrength ments in mechanical and electricalproperties of nanocomposites
+andtoughness.Thesearemajorconcernsaboutconventionalcom- [46–49].
+positelaminatesbecauseoftheweakmatrixresin-richregionsthat Itturnsoutthatverysmallconcentrationsofcarbonnanotubes
+existbetweenthecompositelaminae.AsshowninFig.8,vertically or other conducting nanoreinforcements in polymerslead to dis-
+alignedCNTforestscanbridgeandstrengthenthisinterlaminarre- proportionatelylargeimprovementsintheelectricalconductivity
+gion [41]. More specifically, the authors reported that the CNT ofthenanocomposite.Forexample,Fig.10showsthattheelectri-
+modified interfaces increased the Mode I interlaminar fracture calconductivityofCNT/epoxynanocompositesincreasesbynearly
+toughnessofaerospacegradecarbon/epoxylaminatesbyafactor 6decadeswhentheCNTconcentrationisincreasedbyonly2dec-
+of 1.5–2.5 and the corresponding Mode II value by a factor of 3. ades[9].The‘‘percolationthreshold”,u,whichistheCNTconcen-
+c
+Analytical modeling of fracture toughness of the CNT-modified trationinthepolymerthatcharacterizestheinsulator–conductor
+laminatesbasedonthecrackclosuretechniqueforfiberbridging transition,is only 0.04wt.% in this case. Percolation theory accu-
+wasreportedlaterin[43].Theso-called‘‘fuzzyfiber”(CNTsgrown ratelydescribesthistransitionbyequation
+oncarbonfibers)conceptappliedtocompositelaminatescanpro- k ¼ðu(cid:2)u Þa ð1Þ
+vide both interlaminar and intralaminar reinforcement as illus- c c
+tratedinFig.9[44]. Sandleretal.[50]reportedultra-lowpercolationthresholdsas
+low as 0.0025wt.% for aligned MWNT/epoxy nanocomposites.
+3.Integratedstructuralandnon-structuralfunctions The percolation threshold for CNTs in polymer matrix materials
+issolowbecausetheextremelyhighaspectratiosofCNTsmake
+As indicated in the previous section, the development of it relativelyeasyfor a contiguous conductingpath or percolation
+nanocompositesandhybridmultiscalecompositescontainingboth networktoformalongthetangledCNTsintheinsulatingpolymer
+conventional micron level reinforcements and nano level rein- matrix.Fig.11fromLietal.[51]showshowthepercolationthresh-
+forcementshasmadeitpossibletoachievesimultaneousimprove- old decreases with increasing CNT aspect ratio. Since processing
+ments in not only multiple structural functions, but multiple typicallybreaksupCNTsintoshorterlengths,itisimportanttode-
+non-structural functions as well. This section focuses on several velopprocesseswhichpreservethehighaspectratiosofCNTs,thus2798 R.F.Gibson/CompositeStructures92(2010)2793–2810
+Fig.9. Illustrationoffuzzyfiberreinforcedplastic(FFRP).(A)RadiallyalignedCNTsgrownonadvancedfibercloth(B)CNTintralaminarandinterlaminarreinforcement.
+Reprintedfrom[44]withpermissionfromElsevier.
+Fig.11. EffectofCNTaspectratioonpercolationthresholdforCNTnanocomposites
+with varying dispersion states. Copyright Wiley-VCH verlag GmbH & Co. KGaA.
+Reproducedfrom[51]withpermission.
+theCNTsarestraight.Theimportanceofwavinesswasconfirmed
+Fig. 10. Electrical conductivity of CNT/epoxy nanocomposites at various CNT by Li etal. [53], whoused Monte Carlosimulationsto showthat
+concentrations. Percolation threshold is 0.04wt.%. Reprinted from [9] with
+theelectricalconductivityofcompositeswithwavynanotubes is
+permissionfromElsevier.
+lessthanthatofcompositeswithstraightnanotubes.
+insuringthedesiredlowpercolationthresholds.Thostensonetal. Although the thermal conductivity of CNT/polymer nanocom-
+[52]reportedthata3-rollmillprocessinducesintenseshearmix- posites increases with the increasing CNT concentration, the in-
+ingofaCNT/vinylesternanocompositewhilepreservingthehigh crease is gradual and there is no sharp insulator–conductor
+aspect ratios of the CNTs. Photomicrographs show that CNTs are transition or percolation threshold as in electrical conductivity
+wavy,butmostanalyticalmodelsarebasedontheassumptionthat [54]. Accordingto Shenoginaet al.[54], thedifference lies in theR.F.Gibson/CompositeStructures92(2010)2793–2810 2799
+conductivityratiok/k .Forthermaltransport,evenforverycon- andthecorrespondingpiezoelectriccouplingcoefficientforconver-
+f m
+ductive,highaspectratioCNTs,k/k isonlyabout104,butforelec- sionofelectricalenergytomechanicalenergy(i.e.,foractuation)is
+f m
+trical transport, k f/k m can be as much as 1012–1016. As a result, sffiffiffiffiffiffiffiffiffi
+electricaltransportisdominatedbythepercolatingCNTnetwork, ka¼ W m ð3Þ
+whereas thermal transport is strongly influenced by the polymer U e
+matrix.Althoughthereisalackofapercolationthresholdforther-
+Themostwidelyusedformsofpiezoelectricmaterialsarewa-
+mal conductivity in CNT/polymer composites, small amounts of
+fers[61]andthinfilms[62],andnumerouspublicationshavedealt
+CNTsstillleadtodisproportionateincreasesincompositethermal
+withthemovermanyyears.Piezoelectricmicroelectromechanical
+conductivity. For example, Biercuk et al. [55] found that 1wt.%
+systems(MEMS)forsensingandactuationhavebeenthesubjectof
+SWNTsinepoxyresultedina125%increaseinthermalconductiv-
+extensive research, and the state-of-the-art in this area has been
+ity at room temperature, Bonnet et al. [56] measured a 55%
+veryrecentlyreviewedbyTadigadapaandMateti[63].Soinorder
+increase in thermal conductivity for a 7wt.% SWNT/PMMA com-
+to avoid duplication, we focus here on other important recent
+posite,andKimetal.[57]reporteda57%increaseinthermalcon-
+developments in structurally integrated sensing and actuation in
+ductivity by adding 7wt.% MWNTs in phenolic resin. However,
+load-bearingmultifunctionalcompositestructures.
+since higher filler loadings are required to create significant
+Althoughnotascommonaspiezoelectricwafersorthinfilms,
+improvementsinthermalconductivityofpolymers,thismaylead
+piezoelectric fibers have been investigated as possible active
+toprocessingissues.Forexample,Gangulietal.[58]wereableto
+components of multifunctional fiber-reinforced composites. The
+achievea28-foldincreaseinthermalconductivityofepoxybyadd-
+earliestreportsofpiezoelectricfibercomposites(PFC)wereappar-
+ing 20wt.% chemically functionalized and exfoliated graphite
+entlypublishedbyHagoodandBent[64]andBentetal.[65],who
+flakes,butgraphiteloadinglevelsgreaterthan4wt.%werefound
+embeddedmicronsizedpiezoelectricfibersinanepoxymatrixto
+toincreasetheviscosityofthemixturebeyondthedesirablepro-
+which PZT powder had been added to reduce the fiber/matrix
+cessing window for the vacuum-assisted-resin-transfer molding
+dielectricmismatch.ThePFClaminatewasbuiltupfromPFClam-
+(VARTM) process. In some applications, only small amounts of
+inaeembeddedbetweenconventionalgraphite/epoxylaminaeand
+CNTsareneededtoproduceacceptablethermalconductivity.For
+interlaminar electrodes which applied the electric field required
+example,Sihnetal.[59]foundthatthethrough-thicknessthermal
+for actuation. Good agreement was obtained between measured
+conductivityofepoxyadhesivejointscanbeincreasedbyseveral
+electrically-induceddeformationsandthosepredictedbyamodi-
+ordersofmagnitudewhenalignedMWNT‘‘nanograss”isincorpo-
+fiedClassicalLaminationTheorywhichincludedactuator-induced
+ratedintheepoxyadhesive(Fig.12).
+stressterms[65].Morerecentlydevelopedhollowpiezoelectricfi-
+bers[66,67]offertheadvantageofloweroperatingvoltageanda
+3.2.Sensingandactuation
+broader choice of possible matrix materials compared with solid
+cross-section piezoelectric fibers. Brei and Cannon [67] investi-
+Sensing and actuation are two closely related non-structural
+gatedthehollowpiezoelectricfiberconceptinFig.13,withempha-
+functions,andinmanycases,thesamematerialordevicecanbe
+sis on the effects of three key design parameters (matrix/fiber
+usedforbothfunctions,aswellasforotherfunctionslikeenergy
+Young’s modulus ratio, aspect ratio of the individual fibers, and
+harvesting/storage and structural health monitoring. Several re-
+overall active composite volume fraction) on the performance,
+cent review articles have already covered much of the recent re-
+manufacturingandreliabilityoftheactivecomposites.InFig.13,
+search related to sensors and actuators that can be used in
+in the actuation mode, radial poling of the piezoelectric fiber re-
+multifunctional structures. For example, Li et al. [6] and Gibson
+sultsinlongitudinaldeformationofthefiber,whileinthesensing
+et al. [7] have reviewed recent research related to sensors and
+mode,longitudinaldeformationresultsinradialelectricaloutput.
+actuatorsbasedoncarbonnanotubesandtheircomposites.Are-
+Stillmorerecently,LinandSodano[68,69]developedpiezoelectric
+viewarticlebyRatnaandKarger-Kocsis[18]coversrecentresearch
+structuralfibersconsistingofconductivestructuralfiberssuchas
+onshapememorypolymerswhichhavepotentialapplicationsas
+sensorsand/oractuators.Piezoelectric materialssuchasleadzir-
+conate titanate (PZT), polyvinylidene fluoride (PVDF) and alumi-
+numnitride(AlN)canbeembeddedinstructuresforsensingand
+actuation,astheynaturallypossesstherequiredelectromechanical
+coupling. The effectiveness with which a piezoelectric material
+converts applied mechanical energy to electrical energy (i.e., for
+sensingorenergyharvesting)ischaracterizedbythepiezoelectric
+couplingcoefficient[60]
+sffiffiffiffiffiffiffiffiffi
+U
+k ¼ e ð2Þ
+s W
+m
+Fig.12. Nanograss-enhancedpolymeradhesivejointforimprovedthrough-thick- Fig.13. Hollowpiezoelectricfiberwithradialpolingandlongitudinalactuationof
+nessthermalconductivity.Reprintedfrom[59]withpermissionfromElsevier. thefiber.Reprintedfrom[67]withpermissionfromElsevier.2800 R.F.Gibson/CompositeStructures92(2010)2793–2810
+As indicated earlier, several recent review articles have dealt
+withthegeneralareaofstructuralhealthmonitoring[11–14].Here
+we will focus specifically on the use of embedded piezoelectric
+sensor/actuator networks for damage detection in composite
+structuresduetoitsimportanceinthedevelopmentofmultifunc-
+tionalstructures.LinandChang[71]describedthefabricationand
+initial validation testing of the Stanford-Multi-Actuator-Receiver-
+Transduction (SMART) Layer(cid:3) concept (Fig. 16). This concept in-
+volvestheuseofprintedcircuittechnologytoproduceathinflex-
+ible, dielectric film with an array of networked piezoceramic
+actuators/sensors,whichisembeddedwithinaconventionalcom-
+positelaminate.Itwasshownthataconventionalautoclavepro-
+cess and cure cycle can be used to fabricate carbon/epoxy
+compositelaminatescontainingtheSMARTLayer(cid:3),thatthelayer
+doesnotsignificantlydegradethemechanicalbehaviorofthecom-
+posite,andthatbymeasuringthephasedelaybetweenthetrans-
+mittedandreceivedstresswaveduringthecureprocess,thestate
+Fig. 14. Multifunctional piezoelectric structural fiber. Reprinted from [68] with
+permissionfromElsevier. of cure can be monitored. Subsequent research [72] showed that
+suchlayerscanbeintegratedintocompositestructuresfabricated
+byRTMandfilamentwindingprocesses,andthattheconceptcan
+carbon coated with a piezoelectric interphase layer and an outer beappliedtoeitheractiveorpassivesensingtomonitorthehealth
+electrodelayer(Fig.14).Aswiththehollowpiezoelectricfiberin of the structure throughout its lifetime. Still more recently, Wu
+Fig. 13, radial polingresults in longitudinal actuationofthefiber et al. [73] demonstrated the feasibility of an improved actuator/
+and so forth. Finite element models of piezoelectric structural fi- sensor network for damage detection in composite laminates
+ber/polymermatrixcompositessuchastheoneinFig.15showed basedontheuseofPZTactuatorsandfiberBragggrating(FBG)fi-
+that the electromechanical coupling coefficients available from beropticsensorsinsteadofusingPZTsforbothactuatingandsens-
+such composites can be as high as 65–70% of the corresponding ing. The advantage of this approach lies in the decoupling of the
+couplingcoefficientforthefiberitself,andthatpiezoelectricstruc- signal transmission mechanisms and elimination of the signal
+turalfibercompositesaresuitableforvibrationcontrol,damping, crosstalk between actuator and sensor signals in the PZT actua-
+energyharvestingorstructuralhealthmonitoring. tor/sensor network. Other approaches to active sensor networks
+Thecapabilityofsimultaneouscontrolofstiffnessanddamping fordamagedetectionincompositestructureshavebeenreported
+isasignificantadvantageofanewclassofmaterialsknownasmag- bySuetal.[74,75].Reportsontheuseofartificialneuralnetworks
+netorheological elastomers (MRE), which consist of conventional to analyze the data from the piezoelectric sensor networks and
+elastomers filled with micron-sized magnetizable particles such classifyandlocatethedamageincompositestructureshavebeen
+asiron.AsreportedbyFuchsetal.[70],anappliedmagneticfield published by Watkins et al. [76], Haywood et al. [77], and Yu
+ofvariablestrengthwasusedtocontinuouslyandrapidlycontrol etal.[78].Similarsystemshavebeenadaptedforcontrolofsmart
+stiffnessanddampingofapolybutadieneelastomerfilledwith3– laminatedstructuresbySrivastavaetal.[79].
+7lm diameter carbonyl iron particles. In this case, the optimum Layer-by-layer(LbL)assembly,whichinvolvessequentialdepo-
+concentration of the iron particles for greatest improvement of sitionofdissimilarthinfilmsatthenanoscale,hasmadeitpossible
+dampingandstiffnesswasfoundtobe60wt.%,andotherimportant todevelopsensorsthatarecapableofdetectingmultiplephenom-
+variableswhichgovernthestiffnessanddampingofMREsarethe ena.Forexample,Lohetal.[80]usedtheLbLmethodtofabricatea
+alignmentofthemagneticparticlesandthetemperature. carbon nanotube-polyelectrolyte multilayer composite material
+Fig.15. Finiteelementmodelofpiezoelectricstructuralfiberembeddedinapolymermatrix.Reprintedfrom[68]withpermissionfromElsevier.R.F.Gibson/CompositeStructures92(2010)2793–2810 2801
+Fig.16. Stanford-Multi-Actuator-Receiver-Transduction(SMART)layerconceptofintegratedsensor/actuatornetworkinacompositelaminate.Reprintedfrom[71]with
+permissionfromElsevier.
+formonitoringstrainandcorrosion.Inthiscase,theconcentration Themostcommonmodeofenergyharvestinginvolvestheuse
+of carbon nanotubes determines the sensitivity to strain and the of piezoelectric materials to convert mechanical deformations
+typeofpolyelectrolytedeterminesthesensitivitytopH.Deposition fromvibratingstructuressuchasbeamsandplatestoelectricalen-
+ofsuchaLbLsensoronaminiatureplanarcoilantennaresultsina ergy.ItappearsthatSodanoetal.[84]werethefirsttoreportthat
+passive wireless sensor which does not require a battery power thepoweroutputfromarandomlyvibratingpiezoelectricmaterial
+supply [81]. The LbL method can also be used to fabricate high iscapableofrechargingadischargednickelmetalhydridebattery.
+strengthmultifunctionalcompositesforbiologicalimplants,anti- Theyalsoreportedontheuseofthepiezoelectricoutputtocharge
+corrosion coatings, and thermal/electrical interface materials a capacitor, but concluded that the capacitor discharge occurred
+[82,83]. Shape memory polymers also have great potential for tooquicklyforpracticalenergystorageandthatbatteriesprovided
+useinsensorsandactuators.Thisisparticularlytrueforelectroac- moreflexibilityinuseofthestoredenergy.
+tiveshapememorypolymercompositescontainingconductivefill- Inamultifunctionalstructure,thebatteryshouldbecomepartof
+ers[18]. theload-bearingstructure.Pereiraetal.[85,86]embeddedthinfilm
+lithiumenergycellswithincarbon/epoxylaminatestoformenergy
+3.3.Energyharvesting/storage storagestructuralcomposites.Thelithiumenergycellsdidnotsig-
+nificantly change the strength and stiffness of the carbon/epoxy
+The basic idea behind energy harvesting/storage as related to laminate, and the energy cells charged and discharged normally
+multifunctional structures is to parasitically extract energy from whenthecompositewasmechanicallyloadedtoashighas50%of
+themotionand/ordeformationofahoststructureand convertit itsultimatetensilestrength.Furtherintegrationwas achievedby
+to electrical energy which can be stored and used for other pur- Kimetal.[87],whousedacoppernano-inkjet-printedcircuiton
+poses.Onepopularapplicationistopowersmallelectronicdevices a polymer film to interconnect a thin-film solar module and a
+suchaswirelesssensorsforstructuralhealthmonitoring.Several thin-film lithium-ion battery. The resulting film was embedded
+review articles have already been published on this subject [14– and co-cured within carbon/epoxy prepreg layers to fabricate an
+17],andsincethediscussionofsensorsandactuatorsintheprevi- energyharvesting/storagelaminate.Themultifunctionallaminate
+oussectionisalsohighlyrelevanttoenergyharvesting,theempha- was then subjected to mechanical loading. As shown in Fig. 17,
+sisinthissectionwillbeonrecentdevelopmentsinenergystorage when the ink-jet-printed electrodes are thicker than 4lm, they
+inload-bearingmultifunctionalstructures. did not exhibit any significant resistance change up to the maxi-
+Fig.17. Resistanceofinkjet-printed160lm-wideelectrodeunderstaticloadingforseveralelectrodethicknesses:(a)resistanceand(b)percentageofresistancechange.
+Reprintedfrom[87]withpermissionfromElsevier.2802 R.F.Gibson/CompositeStructures92(2010)2793–2810
+mum strain of 1%. Liu et al. [88] developed a new load/bearing
+structuralbatteryinwhichthepolymercathodeinaconventional
+polymer lithium-ion battery (Fig. 18) was replaced by a higher
+molecular weight, carbon nanofiber-reinforced polymer (Fig. 19),
+theorganicliquidelectrolytewasreplacedwithasolid-statepoly-
+merelectrolyteandtheseparatorregionwasreinforcedwithnon-
+conductingfibers.Althoughthisdesignrepresentsastartingpoint,
+thetensilemodulusofthebatterywasonlyabout3GPa,andthe
+energydensitywaslowcomparedwiththatofaconventionallith-
+ium-ion battery, so further work is needed to develop a usable
+structuralbattery.Snyderetal.[89]investigateddifferentpolymer
+electrolyte formulations for multifunctional structural batteries
+ranging from highly conductive and structurally weak to poorly
+conductiveandhighlystructural.AsshowninFig.20,itwasfound
+thattheelectricalconductivityandtheelasticmodulusofthedif-
+ferentformulationsareinverselyrelated,whichmakesitdifficult
+tooptimizebothproperties.Inaseparatepaper,Snyderetal.[90]
+investigatedthepropertiesofcommercialcarbonfabricmaterials,
+carbonnanotubepapersandnanofoampapersforpossibleuseas Fig.20. Experimentaldatashowinginverserelationshipbetweenelectricalcon-
+anodes in multifunctional lithium-ion batteries. IM-7 and T300 ductivity and compressive modulus for several polymer electrolytes for use in
+PAN-basedcarbonfabricsyieldedthebestbalancebetweenelectro- structuralbatteries.Reprintedfrom[89]withpermission.Copyright2007American
+ChemicalSociety.
+chemical and tensile strength performance, whereas the pitch-
+based fabrics exhibited poor multifunctional performance. The
+nanofoam papers had the best electrochemical performance but grated capacitors can provide energy storage for quick discharge
+themechanicalpropertieswerepoor. athighenergylevels.O’Brienetal.[91]comparedstiffnessanden-
+Althoughstructuralintegratedbatteriesare morepracticalfor ergydensityofvariousstructuralcapacitors.AsshowninFig.21,
+slower discharge over a longer period of time, structurally inte- conventionalcapacitorshavehighenergydensitybutpoorstiffness,
+Fig.18. Constructionofconventionalnon-structuralpolymerlithium-ionbattery.Reprintedfrom[88]withpermissionfromElsevier.
+Fig.19. Constructionofnewstructuralbattery.Reprintedfrom[88]withpermissionfromElsevier.R.F.Gibson/CompositeStructures92(2010)2793–2810 2803
+Fig.21. Energydensityandspecificmodulusofmultifunctionalstructuralcapac-
+itors.Dashedlinerepresentsdesigngoalfortruemultifunctionality.Reprintedfrom
+[91]bypermissionoftheSocietyfortheAdvancementofMaterialandProcess
+Engineering(SAMPLE).
+whereasstructuralcompositeshavegoodstiffnessbutpoorenergy
+density.Noneofthematerialsevaluatedmetthedesigngoalofmul-
+tifunctionalefficiencyforsystemlevelweightsavingsshownbythe
+Fig. 22. Illustration of self-healing of cracks in polymers by the use of a
+dashedlineinFig.21.Inacontinuationofthiswork,Baechleetal. microencapsulatedhealingagentandacatalystforpolymerizingthehealingagent.
+[92] addressed design issues for improving multifunctional effi- Reprintedfrom[96]withkindpermissionfromSpringerScience+BusinessMedia.
+ciencyandscalingissuesrelatedtomanufacturing.LuoandChung
+[93] developed a high capacitance structural capacitor consisting Further research on optimization of the microcapsule concen-
+of a carbon/epoxy laminate with a paper interlayer to reduce tration and choice of catalyst led to crack healing efficiencies of
+through-the-thickness conductivity, but the capacitor was not over90%(g=0.9)inself-healedspecimensandmaximumhealing
+mechanicallytested.LinandSodano[94]demonstratedthattheir efficiencywasachievedwithin10hofthefractureevent[96].Still
+previouslydevelopedSiC/BaTiO piezoelectricstructuralfiber[69] morerecently,Carusoetal.[97]obtainedcompleterecoveryofvir-
+3
+couldbeusedasastructuralcapacitorbytakingadvantageofthe gin fracture toughness (g=1) by replacing the original solvent
+dielectricnatureoftheBaTiO coatingontheSiCfiber(i.e.,theBa- healingagentinthemicrocapsuleswithepoxy–solventmicrocap-
+3
+TiO coatingwasemployedasacylindricalcapacitor).Fiberswith sules containing a mixture of epoxy monomer and solvent. As
+3
+anaspectratioof0.23werefoundtobethebestforenergystorage. showninFig.23b,theresultingload–displacementcurvesindicate
+fullrecoveryofvirginfracturetoughness.Relatedresearchbythe
+3.4.Self-healingcapability same group has considered self-healing polymers under fatigue
+loading [98–100] and low-velocity impact loading [101], as well
+Atrulyautonomousmultifunctionalstructurewillbecapableof as the development of self-healing polymer coatings to provide
+healingitselfwhendamaged,asabiologicalsystemwould,andre- effective corrosion protection for steel substrates [102], and the
+cent research has demonstrated the feasibility of such materials, useofthree-dimensionalmicrovascularnetworksinthesubstrate
+particularlypolymericmaterials.Acomprehensivereviewofpub- beneathanepoxycoatingtoenablecontinuousdeliveryofhealing
+lications in the area of self-healing polymeric materials has re- agents for self-healing of repeated crack damage in the coating
+cently appeared [13], so only a few representative publications [103].
+will be discussed here. White et al. [95] developed self-healing Otherrecentdevelopmentsinself-healingpolymercomposites
+polymersandpolymercompositesbasedontheuseofamicroen- includetheuseofdifferentmethodsofhealingagentmicroencap-
+capsulatedhealingagentandacatalystforpolymerizingtheheal- sulationsuchasnanoporoussilicacapsules[104]andnanoporous
+ingagent.AsshowninFig.22,whendamagecausescracksinthe glass fibers [105]. The use of self-healing polymers as the matrix
+polymer, the cracks break open the microcapsules, causing the materialincarbonfiber-reinforcedcompositeshasalsobeencon-
+healingagenttoleakintothecrackbycapillaryaction.Thehealing sidered by Williams et al. [106]. Yin et al. [107] found that the
+agent then reacts with the catalyst, causing polymerization that self-healing ability of woven glass fabric/epoxy composites con-
+bonds the crack faces together. Mode I fracture toughness tests taining healant microcapsules degraded with storage time. The
+ofvirginepoxyandself-healedepoxyspecimensusingthetapered likely cause is believed to be time-dependent diffusion of the
+double cantileverbeam(TDCB)test in Fig. 23a showed thatfrac- epoxymonomerfromthe microcapsules followingcontractionof
+tureloadandcorrespondingfracturetoughnessfortheself-healed the microcapsules during the cure process. This degradation was
+specimensreachedupto75%ofthecorrespondingvaluesforthe foundto be a self-limiting process as the leaked epoxygradually
+virgin uncracked specimens. The crack healing efficiency for the curedandblockedthediffusionsitesonthemicrocapsules,butit
+fracturetoughnesstestisdefinedas was concluded that further research is needed to improve the
+microcapsuledesignsandmaterials.
+K P
+g¼ Ichealed ¼ chealed ð4Þ Mostoftheresearchon self-healing materialshas beenbased
+K P
+Icvirgin cvirgin onexperimentalwork,andonlyafewpublicationshavedealtwith2804 R.F.Gibson/CompositeStructures92(2010)2793–2810
+Fig.23. Load–displacementcurvesforModeIfracturetoughnesstestsofvirginandself-healedspecimens(a)microcapsulescontainsolventhealingagentonly.Reprinted
+from[95]bypermissionfromMacmillanPublishersLtd,and(b)microcapsulescontainamixtureofepoxymonomerandsolventCopyrightWiley-VCHverlagGmbH&Co.
+KGaA.Reproducedfrom[97]withpermission.
+analytical modeling of the self-healing process. Balazs [108] has whenusedasmatrixmaterialsinmultifunctionalfibercomposite
+brieflyreviewedcomputationalmodelsforself-healingmaterials, structuresisnotclear.However,blendsofICPssuchasPANIwith
+whilepointingoutthattheareaisstillinitsinfancyandthatsolu- established structural polymers like epoxy resins may be a more
+tions will require the development of multidisciplinary methods practical approach. Jia et al. [116] studied electrical conductivity
+involvingmodelsforfluiddynamics,structuralmechanics,chemi- of PANI/epoxy composites having different PANI morphologies.
+calreactivity,andphasetransitions.Barberoetal.[109]haveap- AsshowninFig. 24,thecompositescontainingPANIwireshada
+plied the principles of continuum damage mechanics to the case lowerpercolationthresholdthanthecompositescontainingPANI
+of self-healing composites, while Maiti et al. [110] and Geubelle particles or PANI fibers. This is because the PANI wires have the
+and Maiti [111] employed an artificial crack closure approach highest aspect ratio and are able to more easily form continuous
+involving cohesive modeling and a contact algorithm. Park et al. conductive networks within the non-conducting epoxy. As indi-
+[112]usedaconventionalcurekineticsmodelandelectricalresis- catedinSection3.1,theuseofotherhighaspectratioelectrically
+tance heating of the polymer matrix above the glass transition conducting nanofillers in polymers is also an effective means of
+temperature to achieve self-healing of a carbon fiber/mendomer creatingelectricallyconductingpolymercomposites,whichinturn
+composite. should be suitable for EMI shielding. For example, Huang et al.
+[117] and Al-Saleh and Sundararaj [118] have investigated the
+EMIshieldingcharacteristicsofcarbonnanotube/polymercompos-
+3.5.Electromagneticinterference(EMI)shielding
+ites,whiletheEMIshieldingpropertiesofcarbonnanofiber/poly-
+mercompositeshavebeenstudiedbyYangetal.[119].Areview
+Electromagneticinterference(EMI)occurswhenanundesirable
+ofrecentarticlesonconductivityandEMIshieldingcharacteristics
+disturbance due to electromagnetic conduction or radiation from
+of vapor grown carbon nanofiber/polymer composites has been
+anexternalsourceinterfereswiththeoperationofanelectricalcir-
+publishedbyAl-SalehandSundararaj[120].
+cuit.TheusualsolutiontoEMIistoprotectthecircuitwithanEMI
+shieldingmaterialorstructure,andtheshieldingeffectiveness,SE,
+isdefinedindecibels(dB)as
+E H
+SE¼20log t¼20log t ð5Þ
+E H
+i i
+ElectricallyconductingmetallicmaterialshaveexcellentSE,but
+duetoreducedweightandotherdesirableproperties,non-metallic
+materials such as polymers and polymer composites are increas-
+inglyusedtoreplacemetals.SEisparticularlyimportantformul-
+tifunctionalmaterialsandstructureswhicharetypicallybasedon
+polymer composites, and where both electrical and mechanical
+functions are typically involved. In order to achieve acceptable
+SE,thepolymermustbeeitheranintrinsicallyconductingpolymer
+(ICP)orbefilledwithaconductingmaterialsuchascarbonfibers
+or nanotubes or be coated with a conductive coating. Several re-
+centreviewarticleshavediscussedvariousaspectsofEMIshield-
+ing, especially for polymers. Chung [113] reviewed publications
+onmaterialsforEMI,Geethaetal.[114]surveyedrecentresearch
+onmethodsandmaterialsforEMI,whileWangandJing[115]re-
+viewedarticlesdealingwithICPsforEMI.
+Fig. 24. Electrical conductivity for PANI/epoxy composites at different PANI
+WhileICPssuchaspolyaniline(PANI)andpolypyrrole(PPY)are
+contentsanddifferentPANImorphologies(a)PANIparticles,(b)PANIfibers,and
+very effective for EMI shielding, their mechanical effectiveness (c)PANIwires.Reprintedfrom[116]withpermissionfromElsevier.R.F.Gibson/CompositeStructures92(2010)2793–2810 2805
+3.6.Recyclabilityandbiodegradability requirementsinthedesignofmultifunctionalcomposites,andthis
+makesoptimizationofsuchsystemsanevengreaterchallenge.
+Associetalconcernsaboutenvironmentalimpact,sustainability
+andrenewableenergysourceshaveincreasedinrecentyears,recy- 4.Recentapplicationsofmultifunctionalmaterialsand
+clability and biodegradability have taken on correspondingly structures
+importantrolesasnon-structuralfunctionsofadvancedmaterials.
+This is particularly true for polymers, polymer composites and Much of the research on multifunctional materials and struc-
+nanocomposites.Theseareveryactiveresearchareas,andanum- tureshasbeendrivenbycurrentandpotentialaerospaceapplica-
+berofrelevantreviewarticleshavealreadybeenpublishedabout tions. For example, motivated primarily by potential aircraft
+these subjects, so the objective here will be limited to providing applicationsandbytechnologicaladvancesincompositematerials,
+briefoverviewsofrepresentativereviewarticles. sensing, actuation and controls, the ability of a multifunctional
+Henshawetal.[121],Pickering[122],Ramakrishnaetal.[123], structuretoreconfigure,ormorphitselfasitsoperatingenviron-
+Vaidya and Chawla [124], and DeRosa et al. [125] have reviewed mentand/oritsmissionprofilechangeshasbeenasubjectofgreat
+publications dealing with various recycling issues for polymer researchinterestinrecentyears.Onemajorgoalofsuchresearchis
+composite materials. Due to faster and simpler processing cycles todevelopmultifunctionalaircraftwingswhichcanchangeshape
+forthermoplasticpolymers,recyclingofthermoplasticcomposites indifferentphasesofflightasabirdwingdoes.Amajorapplication
+by processes such as injection or compression molding as ‘‘new” ofthesetechnologiesisformorphingaircraftskins,andacompre-
+compositesiseasierthanfor thermosetmatrix composites. More hensive review of publicationson morphing skins has been pub-
+likely recyclingscenarios for thermoset matrix composites are to lished recently by Thill et al. [143]. Since the publication of this
+eithermechanicallyrecyclethembygrindingthemintosmallpar- reviewarticle,severalrelevantapplications-orientedpublications
+ticles and using them as fillers in ‘‘new” composites, or to ther- have appeared. For example, Wildschek et al. [144] reported on
+mally recycle them by using intense heat to break down the thedevelopmentofanall-composite,all-electricmorphingtrailing
+composite into reusable components. Possible loss of mechanical edgeforflightcontrolonablendedwingbodyairliner,Hartletal.
+properties during recycling is a significant issue, and methods of [145,146]describedtheuseofashapememoryalloyforactivejet
+improving properties of mechanically recycled thermoplastics enginechevronapplications,andMudupuetal.[147]discussedthe
+have been described by Tall et al. [126]. Recycling of composites designandvalidationofafuzzylogiccontrollerandapiezoelectric
+containingnanoparticles,nanofibersornanotubesandothernano- compositeactuatorforasmartprojectilefin.
+wasterequiresspecialconsiderationduetopotentialtoxicity,car- Structurallyintegratedbatteriesforenergystorageareanother
+cinogenicity,andotherhealth-relatedconcerns,asdiscussedinthe recent application of multifunctional structure design. The effec-
+reviewarticlebyBystrzejewski-Piotrowskaetal.[127]. tiveness of a multifunctional system is best defined by using a
+Ifacompositeistobebiodegradable,naturalfibersandpolymer metric that characterizes the particular system, such as flight
+matrixmaterialsmadefromrenewableresourcesareobviouslyof endurance time for an aircraft vehicle. For example, as reported
+greatinterest.Researchonnaturalfiberssuchas jute,ramie,flax byThomasandQidwai[148,149]structurallyintegratedbatteries
+and sisal and their composites has been reviewed by Nabi Saheb can extend the flight endurance time of an electrically-propelled
+and Jog [128], Bogoeva-Gaceva et al. [129], Mishra et al. [130], unmanned air vehicle (UAV). The flight endurance time of the
+Yanetal.[131],Eichhornetal.[132],andCheungetal.[133].Typ- UAVisgivenby[148,149]
+ically,thestrengthandmodulusvaluesfornaturalfibersarewell
+below those of conventional structural fibers such as glass, but E g
+!" qSC3#1=2
+t ¼ B B L g ð6Þ
+due to their low densities, the specific moduli of natural fibers E ðW þW þW þW Þ3=2 2C2 P
+S B PR PL D
+areasgoodorbetterthanthatofglass.Publicationsdealingwith
+thedevelopmentofpolymersfromrenewableresourceshavebeen Thisequationshowsthatintegratingthebatterywiththestruc-
+surveyed by Yu et al. [134], and Raquez et al. [135], while test tureoroneoftheothersubsystemscanleadtoanincreasedflight
+methodsforcharacterizingbiodegradabilityofpolymericmaterials endurancetime,t E.Furtheranalysisofthisequationforchangein
+have been reviewed by Gu and Gu [136]. Natural protein-based t E with changes in battery and structure weight shows that
+materials have received considerable attention for biomedical decreasingtheweightis1.5timesmoreeffectiveinincreasingt E
+applications, as indicated by Kumar et al. [137]. Biodegradable thanisincreasingthebatteryenergy[148],Byintegratingapoly-
+bio-based ‘‘green” nanocomposites consistingof matrix materials merlithium-ionbatteryinthecarbon/epoxycompositewingskin
+such as cellulosic plastics, corn-derived plastics, or plastics made structure of the DARPA Wasp micro air vehicle (MAV), a record-
+frombacterialsourcesreinforcedbynanoclayparticleshavebeen setting flight endurance time for the vehicle was achieved [149].
+the subject of extensive recent research, as reviewed by Pandey AphotoofthisvehicleisshowninFig.25.
+etal.[138],andRayandBousmina.[139].Onedrawbackto‘‘green” Anotherexampleofmultifunctionalstructuretechnologythatis
+compositesisthattheirmechanicalpropertiesaretypicallymore drivenbyaerospaceapplicationsistheintegrationofanelectronic
+sensitive to hygrothermal conditions than those of conventional communications antenna into the load-bearing composite struc-
+composites.Forexample,absorbedmoisturehasbeenfoundtosig- ture of an aircraft. The conformal load bearing antenna structure
+nificantly degrade the mechanical properties of hemp fiber com- (CLAS)developmenteffortsponsoredbytheUSAirForce’sSmart
+posites [140], and flax fiber composites are strongly affected by SkinStructureTechnologyDemonstration(S3TD)programintends
+elevated temperatures [141]. However, special chemical treat- todevelopthetechnologytoembedabroadbandRFantennainto
+mentsfornaturalfiberscanreducetheirsensitivitytohygrother- thecompositeskinofafighteraircraft[150–153].Morerecentre-
+malconditions[142]. searchrelatedtotheCLAShasinvolvedthedesignandfabrication
+Most of the publications listed so far involve experimental ofamicrostripantennawhichisintegratedinathreedimensional
+work,andthereisaneedfordevelopmentofmoreanalyticalmod- orthogonal woven composite structure [154], impact testing of
+elstocomplimenttheexperiments.Analyticalmodelsareneeded thesestructures[155],andwirelessdetectionofdamageincom-
+not only to help in interpreting the experimental results, but in posite structures by making use of the composite structure itself
+optimizing the multifunctional material or system for specific asanantenna/sensorsystem[156].
+applications.Obviously,thereareotherissuessuchashygrother- Compositesandwichstructurespresentsomeinterestingpossi-
+mal response and sound absorption that may become functional bilities for multifunctional applications. For example,Wirtz et al.2806 R.F.Gibson/CompositeStructures92(2010)2793–2810
+Fig.26. RecentEnglishlanguagerefereedjournalarticlesrelatedtomultifunctional
+nanoparticles. Data collected from Engineering Village(cid:2) web-based information
+service.
+havereviewedtheliteratureintheareaofpolymernanocomposite
+foams.
+Fig.25. FirstgenerationDARPAWaspmicroairvehiclewithpolymerlithium-ion
+Among the most challenging and promising applications of
+battery (silver quadrilaterals) integrated in composite wing skin structure.
+Reprintedfrom[149]withkindpermissionfromSpringerScience+BusinessMedia. multifunctionalmaterialsandstructuresarethoseinthebiomed-
+ical field, and much of the recent activity in this area has been
+[157] have described the thermal and mechanical behavior of a driven by advances in nanomaterials and nanostructures. For
+multifunctional thermal energy storage sandwich structure for example, multifunctional nanoparticles have great potential for
+use in the temperature control system of an electronics module. drug/antibodydeliveryincombinationwithdiagnosticsandthera-
+The multifunctional structure has a thermal interface connected peutics.Since2000therehasbeenasurgeinthenumberofjournal
+toahollowaluminumplatewhichhasaseriesofsmallcompart- articlesrelatedtomultifunctionalnanoparticles,asshownclearly
+mentsthat are filledwithphase changematerial.Heatstorage is inFig.26.Suhetal.[164]havereviewedthedevelopmentsinmul-
+viathelatentheatofthephasechangematerial.Thethermalen- tifunctionalnanoparticlesystems(MFNPS)forbiomedicalapplica-
+ergystorageandmechanicalbehaviorofthestructurearecharac- tions, and Fig. 27 illustrates one possible configuration of such a
+terized and it is determined that the structure has an excellent MFNPS.ThematrixoftheMFNPScouldbeametaloxidenetwork
+performance-to-weight ratio. Queheillalt et al. [158] developed a which hosts sub-domain inclusions such as fluorescent optical
+multifunctional heat pipe sandwich structure which integrates probes,magneticallysusceptibleparticlesformagneticresonance
+thethermalmanagementcapabilitiesofaheatpipewithstructural imaging,andporesorfunctionalitieswhichcanhostsmallbioac-
+loadsupport.Ozakietal.[159]reportedonmultifunctionalsand- tivemoleculessuchasdrugsorantibodies.Inclusionscanbeeither
+wich panels for space satellites, in which electronic modules are organic,inorganicorhybridorganic/inorganic[164].Abionanoen-
+embeddedbetweenthefacesheetsofcarbonfibercomposite/hon- gineering design process for multilayered MFNPS is described by
+eycombcoresandwichpanel.Themechanical,electricalandther- Haglundetal.[165],andsuchamultilayeredparticleisillustrated
+mal characteristics of the panel were evaluated, and significant inFig.28.MFNPSoffergreathopeforearlydetectionofcancerand
+reductions in weight, cost and production time were achieved. deliveryoftherapeuticdrugsforcancertreatment.Publicationsre-
+The use of a carbon foam core and carbon fiber composite face latedtothedevelopmentofMFNPSforcancerimagingandtherapy
+sheets to enhance both through-the-thickness and in-plane ther- havebeenreviewedbyParketal.[166].MFNPSwhichhaveacom-
+mal conductivities of sandwich panels for lightweight spacecraft binationofmagneticandfluorescentpropertiesareofgreatinter-
+thermal radiators has been described by Silverman [160]. In the est for in vitro imaging techniques such as MRI, as well as for
+automotive industry, there is great interest in multifunctional therapy and for external magnetic manipulation in building bio-
+structures in which static, dynamic and acoustic behaviors are medicalnanodevices.Corretal.[167]havereviewedrecentpubli-
+optimized.Ratherthantakingthetraditionalapproachoftreating cations in multifunctional magnetic-fluorescent nanocomposites
+the design, manufacture and assembly of the automobile body for biomedical applications. The surface area-to-volume ratio, A/
+structure, acoustic treatments and interior trim separately, Cam- V, for a spherical particle is inversely proportional to its radius,
+eronetal.[161]haveusedfiniteelementmodelstostudyamulti- so A/V for a nanometer-sized particle will be 1000 times greater
+functional approach in which an integrated, multi-layered thanA/Vforamicron-sizedparticle.ThelargeA/Vratiosandresult-
+sandwichisusedtoreplaceatraditionalroofpanelwithitssepa- ing large pore volumes for porous hollow nanostructures make
+ratecomponents.Vaidyaetal.[162]developedamultifunctional them particularly attractive for multifunctional delivery of drugs
+sandwichstructureinwhichthewovenE-glassfacesheetsarecon- andbiomolecules.Recentpublicationsonthesynthesisandappli-
+nected with vertical woven E-glass piles and the foam core. This cationsofhollowmicro/nanostructureshavebeenreviewedbyLou
+constructionenhances theimpactresistance and sound/vibration et al. [168], while biomedical applications of hollow nanostruc-
+dampingandaccommodateswiresorsensors.Sandwichstructures tureshavebeenreviewedbyAnandHyeon[169].
+oftenconsistofcompositefacesheetsandfoamcores,andthereis Anumberofbiomedicalapplicationsformultifunctionalmate-
+increasedactivityintheuseofnanoparticlestoenhanceboththe rialsrequiresubstantialflexibilityinordertoaccommodatelarge
+manufacturing process and the mechanical properties of foams. deformations. For example, artificial muscles must be flexible
+The manufacturing process for foams is enhanced because the and strong enough to be capable of sensing and actuation over
+nanoparticles serve as nucleation sites for bubbles during the largerangesofdeformation.Biomedicalapplicationsincludeperi-
+foaming process, leading to increased density and reduced cell stalticpumps,robotarms,artificialhandsandgrippers.Onesuch
+size. Mechanical properties of the foams are also enhanced due class of materials that has been the subject of considerable re-
+to the reinforcement effect of the nanoparticles. Lee et al. [163] search are the ionic polymer–metal composites (IPMC), whichR.F.Gibson/CompositeStructures92(2010)2793–2810 2807
+Fig.27. Illustrationofmultifunctionalnanoparticlesystem(MFNPS)forbiomedicalapplications.Reprintedfrom[164]withpermissionfromElsevier.
+Fig.28. IllustrationofmultilayeredMFNPS.Reprintedfrom[165]withkindpermissionfromSpringerScience+BusinessMedia.
+areexcitedbyanelectricfield.ShahinpoorandKimhavepublished to determine impact energy and optical transparency was mea-
+a series of four review articles dealing with the fundamentals suredusingaspectrophotometer.Significantimprovementinim-
+[170], manufacturing techniques [171], modeling and simulation pact energy was achieved with the nano-enhanced adhesive
+[172], and industrialand biomedicalapplications [173] ofIPMCs. layers,whiletransparencywassomewhatreducedbutacceptable.
+Electroactivepolymerswithhighdielectricconstantscanalsogen- Related investigations of impact resistant, optically transparent
+erate large deformations under an electric field, as reviewed by compositeshavebeenreportedbyLiuetal.[179],Rojanapitayak-
+Bar-Cohen.[174].Asanotherexample,energyharvestingfromnor- ornetal.[180],Songetal.[181],andHuangetal.[182].
+mal motions and deformations of the human body requires that
+theenergyconversiondevicebeveryflexible.Qietal.[175]have
+5.Concludingremarks
+developed a flexible energy conversion device based on printing
+of piezoelectric PZT ribbons with micrometer-scale widths and
+This article attempts a reasonably comprehensive review of
+nanometerscalethicknessesonrubbersubstrates.Theuseofcar-
+representative journal publications covering developments in
+bon nanotubes in flexible electronic yarns and fabrics for use in
+mechanicsofmultifunctionalcompositematerialsandstructures.
+wearable biomonitoring and telemedicine sensors has been re-
+Mostofthearticleshaveappearedsince2000,andmanyinvolve
+ported by Shim et al. [176]. An energy harvesting backpack for
+polymercomposites,nanomaterialsandnanostructures.Functions
+usebysoldierswasdevelopedbyGranstrometal.[177]whore-
+of interest include structural properties like strength, stiffness,
+placedthenylonshoulderstrapsonastandardbackpackwithflex-
+fracturetoughness,anddamping,andnon-structuralfunctionslike
+iblePVDFpiezoelectricstraps.Duringnormalwalkingmotions,the
+electricaland/orthermalconductivity,sensingandactuation,en-
+relativemotionsbetweenthesoldier’sbodyandthebackpackgen-
+ergy harvesting/storage, self-healing capability, electromagnetic
+erate deformations in the PZT straps, which then convert these
+interference (EMI) shielding, recyclability and biodegradability.
+deformationstoelectricalenergyforuseinpoweringsmallporta-
+Much of the future research on multifunctional materials and
+bleelectronicdevicescarriedbythesoldier.
+structures will be driven by not only structural applications like
+Multifunctionality in impact resistant materials for military
+aircraft,butbyneedsinotherareaslikebiomedical.Thereisaneed
+transport vehicles, helicopters and fighter aircraft is becoming
+formoreanalyticalmodelingworkinmostoftheareascoveredin
+increasinglyimportant,andoneexampleisopticallytransparent,
+thisreview,sincemostofthepublishedresultstodatetendtobe
+impact-resistant nanocomposite materials for windows in such
+experimentalinnature.Analyticalmodelsareneedednotonlyto
+vehicles. The extremely small size and small concentration of
+help in interpreting the experimental results, but in optimizing
+nanoreinforcements makes it possible to improve impact energy
+themultifunctionalmaterialorsystemforspecificapplications.
+absorption while maintaining good transparency. Such materials
+have been investigated by Rai and Singh [178], who fabricated
+andtestedsandwichpanelsconsistingofPMMAsheetswiththin Acknowledgements
+layers of nano-enhanced polymer adhesive sandwiched between
+them.Thepolymeradhesivelayerswereenhancedwith2wt.%of Theauthorgratefullyacknowledgesthefinancialsupportfrom
+35nmsizedaluminapowder.Dropweightimpacttestswereused Award No. FA9550-09-1-0506 from the US Air Force Office of2808 R.F.Gibson/CompositeStructures92(2010)2793–2810
+ScientificResearch,andtheencouragementofDr.LesLee,Program ReinfPlasticsCompos;2009.doi:10.1177/0731684409344652[OnlineFirst,
+Manager for the AFOSR Mechanics of Multifunctional Materials September8,2009].
+[29] VlasveldDPN,BerseeHEN,PickenSJ.Nanocompositematrixforincreased
+andMicrosystemsProgram.Theauthorisverygratefulfortheelec-
+fibrecompositestrength.Polymer2005;46:10269–78.
+tronic access to the Engineering Village(cid:2) web-based information [30] Zhao Z-G, Ci L-J, Cheng H-M, Bai J-B. The growth of multiwalled carbon
+servicethroughtheMathewson-IGTKnowledgeCenterattheUni- nanotubeswithdifferentmorphologiesoncarbonfibers.Carbon2005;43:
+663–5.
+versityofNevada,Reno,withoutwhichthisarticlewouldnothave
+[31] UddinMF,SunCT.Strengthofunidirectionalglass/epoxycompositewithsilica
+beenpossible. nanoparticle-enhancedmatrix.ComposSciTechnol2008;68(7–8):1637–43.
+[32] UddinMF,SunCT.Improveddispersionandmechanicalpropertiesofhybrid
+nanocomposites.ComposSciTechnol2010;70:223–30.
+References [33] Liu S, Zhang H, Zhang Z, Zhang T, Sprenger S. Tailoring the mechanical
+properties of epoxy resin by various nanoparticles. Polym Polym Compos
+[1] Baur J, Silverman E. Challenges and opportunities in multifunctional 2008;16(8):471–7.
+nanocompositestructuresforaerospaceapplications.MRSBull2007;32(4): [34] ZhangH, TangL-C,Zhang Z,FriedrichK, SprengerS. Fracturebehavior of
+328–34. insitunanoparticle-filledepoxyatdifferenttemperatures.Polymer2008;49:
+[2] Ye L, Lu Y, Su Z, Meng G. Functionalized composite structures for new 3816–25.
+generationairframes:areview.ComposSciTechnol2005;65(9):1436–46. [35] ManjunathaCM,TaylorAC,KinlochAJ.Theeffectofrubbermicro-particles
+[3] ThostensonET,RenZ,ChouT-W.Advancesinthescienceandtechnologyof andsilicanano-particlesonthetensilefatiguebehaviorofaglassfibreepoxy
+carbon nanotubes and their composites: a review. Compos Sci Technol composite.JMaterSci2009;44:342–5.
+2001;61:1899–912. [36] ChoJ,JoshiMS,SunCT.Effectofinclusionsizeonmechanicalpropertiesof
+[4] ChouT-W,GaoL,ThostensonET,ZhangZ,ByunJ-H.Anassessmentofthe polymericcompositeswithmicroandnanoparticles.ComposSciTechnol
+scienceandtechnologyofcarbonnanotubecomposites.ComposSciTechnol 2006;66:1941–52.
+2010;70(1):1–19. [37] ChoJ,SunCT.Amoleculardynamicssimulationstudyofinclusionsizeeffect
+[5] BreuerO,SundararajU.Bigreturnsfromsmallfibers:areviewofpolymer/ onpolymericmatrixcomposites.ComputMaterSci2007;41:54–62.
+carbonnanotubecomposites.PolymCompos2004;25(6):630–45. [38] ThostensonET,LiWZ,WangDZ,RenZF,ChouT-W.Carbonnanotube/carbon
+[6] Li C, Thostenson ET, Chou T-W. Sensors and actuators based on carbon fiberhybridmultiscalecomposite.JApplPhys2002;91(9):6034–7.
+nanotubes and their composites: a review. Compos Sci Technol 2008;68: [39] Veedu VP, Cao A, Li X, Ma K, Soldano C, Kar S, et al. Multifunctional
+1227–49. composites using reinforced laminae with carbon nanotube forests. Nat
+[7] GibsonRF,AyorindeEO,WenY-F.Vibrationsofcarbonnanotubesandtheir Mater2006;5:457–62.
+composites:areview.ComposSciTechnol2007;67:1–28. [40] GarciaEJ,HartAJ,WardleBL.Longcarbonnanotubesgrownonthesurfaceof
+[8] Sun L, Gibson RF, Gordaninejad F, Suhr J. Energy absorption capability of fibersforhybridcomposites.AIAAJ2008;46(6):1405–12.
+nanocomposites:areview.ComposSciTechnol2009;69:2392–409. [41] Garcia EJ, Wardle BL, Hart AJ. Joining prepreg composite interfaces with
+[9] Bauhofer W, Kovacs JZ. A review and analysis of electrical percolation in alignedcarbonnanotubes.ComposPartA:ApplSciManuf2008;39:1065–70.
+carbon nanotube polymer composites. Compos Sci Technol 2009;69(10): [42] GarciaEJ,WardleBL,HartAJ,YamamotoN.Fabricationandmultifunctional
+1486–98. propertiesofahybridlaminatewithalignedcarbonnanotubesgrowninsitu.
+[10] BirmanV,ByrdLW.Modelingandanalysisoffunctionallygradedmaterials ComposSciTechnol2008;68:2034–41.
+andstructures.ApplMechRev2007;60(1–6):195–216. [43] BlancoJ,GarciaEJ,GuzmandeViloriaR,WardleBL.LimitationsofModeI
+[11] Montalvao D, Maia NMM, Ribeiro AMR. A review of vibration-based interlaminar toughening of composites reinforced with aligned carbon
+structuralhealthmonitoringwithspecialemphasisoncompositematerials. nanotubes.JComposMater2009;43:825–41.
+ShockVibDigest2006;38(4):295–324. [44] Wicks S, Guzman de Villoria R, Wardle BL. Interlaminar and intralaminar
+[12] Zou Y, Tong L, Steven GP. Vibration-based model dependent damage reinforcement of composite laminates with aligned carbon nanotubes.
+identificationandhealthmonitoringforcompositestructures–areview.J ComposSciTechnol2010;70:20–8.
+SoundVib2000;230(2):357–78. [45] GibsonT,PutthanaratS,FieldingJC,DrainA,WillK,StoffelM.Conductive
+[13] WuDY,MeureS,SolomonD.Self-healingpolymericmaterials:areviewof nanocomposites:focusonlightningstrikeprotection.In:ProcintSAMPEtech
+recentdevelopments.ProgPolymSci2008;33(5):479–522. confandexhibition–fromarttoscience:advancingmaterandproceng;
+[14] ParkG,RosingT,ToddMD,FarrarCR,HodgkissW.Energyharvestingfor 2007.
+structuralhealthmonitoringsensornetworks.JInfrastructSyst2008;14(1): [46] AllaouiA,BaiS,ChengHM,BaiJB.Mechanicalandelectricalpropertiesofa
+64–79. MWNT/epoxycomposite.ComposSciTechnol2002;62:1993–8.
+[15] SodanoHA,InmanDJ,ParkG.Areviewofpowerharvestingfromvibration [47] QiuJ,ZhangC,WangB,LiangR.Carbonnanotubeintegratedmultifunctional
+usingpiezoelectricmaterials.ShockVibDigest2004;36(3):197–205. composites.Nanotechnology2007;18:275708.
+[16] Anton SR, Sodano HA. A review of power harvesting using piezoelectric [48] Kalaitzidou K, Fukushima H, Drzal LT. Multifunctional polypropylene
+materials(2003–2006).SmartMaterStruct2007;16(3):R1–21. compositesproducedbyincorporationofexfoliatedgraphitenanoplatelets.
+[17] Cook-ChennaultKA,ThambiN,SastryAM.PoweringMEMSportabledevices Carbon2007;45:1446–52.
+–areviewofnon-regenerativeandregenerativepowersupplysystemswith [49] Cebeci H, Guzman de Villoria R, Hart AJ, Wardle BL. Multifunctional
+specialemphasisonpiezoelectricenergyharvestingsystems.SmartMater properties of high volume fraction aligned carbon nanotube polymer
+Struct2008;17(4):043001. composites with controlled morphology. Compos Sci Technol 2009;69:
+[18] RatnaD,Karger-KocsisJ.Recentadvancesinshapememorypolymersand 2649–56.
+composites:areview.JMaterSci2008;43(1):254–69. [50] SandlerJKW,KirkJE,KinlochIA,ShafferMSP,WindleAH.Ultra-lowelectrical
+[19] GibsonR,GianarisNJ,LuchtB,BeckwithSW,editors.Proc2008SAMPEfall percolation threshold in carbon-nanotube–epoxy composites. Polymer
+techconf‘‘multifunctionalmaterials:workingsmartertogether”,September 2003;44:5893–9.
+8–11,2008,Memphis,TN:SocforAdvofMaterandProcessEng.,CovinaCA. [51] Li J, Ma PC, Chow WS, To CK, Tang BZ, Kim J-K. Correlations between
+[20] LauK,ChengL,SuZ,VaradanVK.Smartcompositematerials:selectedpapers percolationthreshold,dispersionstate,andaspectratioofcarbonnanotubes.
+from the international conference on multifunctional materials and AdvFunctMater2007;17:3207–15.
+structures (MFMS 08), Hong Kong, 28–31 July 2008. Smart Mater Struct [52] Thostenson ET, Ziaee S, Chou T-W. Processing and electrical properties of
+2009;18(7):070201. carbon nanotube/vinyl ester nanocomposites. Compos Sci Technol
+[21] GibsonRF,ChenY,ZhaoH.Improvementofvibrationdampingcapacityand 2009;69:801–4.
+fracture toughness in composite laminates by the use of polymeric [53] LiC,ThostensonET,ChouT-W.Effectofnanotubewavinessontheelectrical
+interleaves.JEngMaterTechnol2001;123:309–14. conductivity of carbon nanotube-based composites. Compos Sci Technol
+[22] Koratkar NA, Suhr J, Joshi A, Kane RS, Schadler LS, Ajayan PM, et al. 2008;68:1445–52.
+Characterizing energy dissipation in single-walled carbon nanotube [54] Shenogina N, Shenogin S, Xue L, Keblinski P. On the lack of thermal
+polycarbonatecomposites.ApplPhysLett2005;87:063102. percolationincarbonnanotubecomposites.ApplPhysLett2005;87:133106.
+[23] ZhouX,ShinE,WangKW,BakisCE.Interfacialdampingcharacteristicsof [55] Biercuk MJ, Llaguno MC, Radosavljevic M, Hyun JK, Johnson AT. Carbon
+carbonnanotube-basedcomposites.ComposSciTechnol2004;64:2425–37. nanotubecompositesforthermalmanagement.ApplPhysLett2002;80(15):
+[24] Rajoria H, Jalili N. Passive vibration damping enhancement using carbon 2767–9.
+nanotube–epoxy reinforced composites. Compos Sci Technol 2005;65: [56] BonnetP,SireudeD,GarnierB,ChauvetO.Thermalpropertiesandpercolation
+2079–93. incarbonnanotube–polymercomposites.ApplPhysLett2007;91:201910.
+[25] Koratkar NA, Wei BQ, Ajayan PM. Carbon nanotube films for damping [57] Kim YA, Kamio S, Tajiri T, Hayashi T, Song SM, Endo M, et al. Enhanced
+applications.AdvMater2002;14(13–14):997–1000. thermal conductivity of carbon fiber/phenolic resin composites by the
+[26] KoratkarNA,WeiBQ,AjayanPM.Multifunctionalstructuralreinforcement introductionofcarbonnanotubes.ApplPhysLett2007;90:093125.
+featuringcarbonnanotubefilms.ComposSciTechnol2003;63(11):1525–31. [58] Ganguli S, Roy AK, Anderson DP. Improved thermal conductivity for
+[27] TehPL,MariattiM,AkilHM,YeohCK,SeetharamaKN,WagimanANR,etal. chemically functionalized exfoliated graphite/epoxy composites. Carbon
+The properties of epoxy resin coated silica fillers composites. Mater Lett 2008;46(5):806–17.
+2007;61:2156–8. [59] SihnS,GanguliS,RoyAK,QuL,DaiL.Enhancementofthrough-thickness
+[28] Manjunatha CM, Taylor AC, Kinloch AJ, Sprenger S. The tensile fatigue thermal conductivity in adhesively bonded joints through using aligned
+behaviorofaGFRPcompositewithrubberparticlemodifiedepoxymatrix.J carbonnanotubes.ComposSciTechnol2008;68:658–65.R.F.Gibson/CompositeStructures92(2010)2793–2810 2809
+[60] LesieutreGA,DavisCL.Canacouplingcoefficientofapiezoelectricdevicebe [93] LuoX,ChungDDL.Carbonfiber/polymermatrixcompositesascapacitors.
+higher than those of its active material? J Intell Mater Syst Struct ComposSciTechnol2001;61(6):885–8.
+1997;8(10):859–67. [94] LinY,SodanoHA.Characterizationofmultifunctionalstructuralcapacitors
+[61] Giurgiutiu V, Zagrai AN. Characterization of piezoelectric wafer active forembeddedenergystorage.JApplPhys2009;106:114108.
+sensors.JIntellMaterSystStruct2001;11(12):959–76. [95] WhiteSR,SottosNR,GeubellePH,MooreJS,KesslerMR,SriramSR,etal.
+[62] Muralt P, Polcawich RG, Troiler-McKinstry S. Piezoelectric thin films for Autonomichealingofpolymercomposites.Nature2001;409:794–7.
+sensors,actuatorsandenergyharvesting.MRSBull2009;34(9):658–64. [96] BrownEN,SottosNR,WhiteSR.Fracturetestingofaself-healingpolymer
+[63] Tadigadapa S, Mateti K. Piezolectric MEMS sensors: state-of-the-art and composite.ExpMech2002;42:372–9.
+perspectives.MeasSciTechnol2009;20:092001. [97] Caruso MM, Blaiszik BJ, White SR, Sottos NR, Moore JS. Full recovery of
+[64] Hagood NW, Bent AA. Development of piezoelectric fiber composites for fracturetoughnessusinganontoxicsolvent-basedself-healingsystem.Adv
+structuralactuation.In:Proc34thAIAAstructures,structuraldynamicsand FunctMater2008;18(13):1898–904.
+materconference;AIAApaperno.93-1717,LaJolla,CA;1993. [98] BrownEN,WhiteSR,SottosNR.Retardationandrepairoffatiguecracksina
+[65] BentAA,HagoodNW,RogersJP.Anisotropicactuationwithpiezoelectricfiber microcapsule toughened epoxy composite – part I: manual infiltration.
+composites.JIntellMaterSystStruct1995;6:338–49. ComposSciTechnol2005;65:2466–73.
+[66] Fernandez JF, Dogan A, Zhang QM, Tressler JF, Newnham RE. Hollow [99] BrownEN,WhiteSR,SottosNR.Retardationandrepairoffatiguecracksina
+piezoelectriccomposites.SensActuators,A1996;51:183–92. microcapsule toughened epoxy composite – part II: in situ self-healing.
+[67] BreiD,CannonBJ.Piezoceramichollowfiberactivecomposites.ComposSci ComposSciTechnol2005;65:2474–80.
+Technol2004;64:245–61. [100] BrownEN,WhiteSR,SottosNR.Fatiguecrackpropagationinmicrocapsule
+[68] LinY,SodanoHA.Conceptandmodelofapiezoelectricstructuralfiberfor toughenedepoxy.JMaterSci2006;41(19):6266–73.
+multifunctionalcomposites.ComposSciTechnol2008;68:1911–8. [101] PatelAJ,SottosNR,WetzelED,WhiteSR.Autonomichealingoflow-velocity
+[69] LinY,SodanoHA.Fabricationandelectromechanicalcharacterizationofa impact damage in fiber-reinforced composites. Compos Part A: Appl Sci
+piezoelectricstructuralfiberformultifunctionalcomposites.AdvFunctMater Manuf2010;41(3):360–8.
+2009;19:592–8. [102] Cho SH, White SR, Braun PV. Self-healing polymer coatings. Adv Mater
+[70] Fuchs A, Shang Q, Elkins J, Gordaninejad F, Evrensel C. Development and 2009;21(6):645–9.
+characterization of magnetorheological elastomers. J Appl Polym Sci [103] TooheyKS,SottosNR,LewisJA,MooreJS,WhiteSR.Self-healingmaterials
+2007;105:2497–508. withmicrovascularnetworks.NatMater2007;6:581–5.
+[71] LinM,ChangF-K.Themanufactureofcompositestructureswithabuilt-in [104] KirkJG,NaikS,MoosbruggerJC,MorrisonDJ,VolkovD,SokolovI.Self-healing
+networkofpiezoceramics.ComposSciTechnol2002;62:919–39. epoxycompositesbasedontheuseofnanoporoussilicacapsules.IntJFract
+[72] QingXP,BeardS,KumarA,OoiTK,ChangF-K.Built-insensornetworkfor 2009;159(1):101–2.
+structuralhealthmonitoringofcompositestructure.JIntellMaterSystStruct [105] Privman V, Dementsov A, Sokolov I. Modeling of self-healing polymer
+2007;18(1):39–49. composites reinforced with nanoporous glass fibers. J Comput Theor
+[73] WuZ,QingXP,ChangF-K.Damagedetectionforcompositelaminateplates Nanosci2007;4(1):190–3.
+withadistributedhybridPZT/FBGsensornetwork.JIntellMaterSystStruct [106] WilliamsG,TraskR,BondI.Aself-healingcarbonfibrereinforcedpolymerfor
+2009;20:1069–77. aerospaceapplications.ComposPartA:ApplSciManuf2007;38(6):1525–32.
+[74] SuZ,WangX,ChenZ,YeL,WangD.Abuilt-inactivesensornetworkfor [107] YinT,RongMZ,ZhangMQ,ZhaoJQ.Durabilityofself-healingwovenglass
+health monitoring of composite structures. Smart Mater Struct 2006;15: fabric/epoxycomposites.SmartMaterStruct2009;18(7):074001.
+1939–49. [108] BalazsAC.Modelingself-healingmaterials.MaterToday2007;10(9):18–23.
+[75] SuZ,WangX,ChenZ,YeL.Damageassessmentofmulti-layeredcomposite [109] BarberoEJ,BrecoF,LonettiP.Continuumdamage-healingmechanicswith
+structure using an embedded active sensor network. Key Eng Mater applicationtoself-healing.IntJDamageMech2005;14(1):51–81.
+2007;334–335:461–4. [110] MaitiS,ShankarC,GeubellePH,KiefferJ.Continuumandmolecularlevel
+[76] Watkins SE, Akhavan F, Dua R, Chandrashekhara K, Wunsch DC. Impact- modelingoffatiguecrackretardationinself-healingpolymers.JEngMater
+induceddamagecharacterizationofcompositeplatesusingneuralnetworks. Technol2006;128(4):595–602.
+SmartMaterStruct2007;16:515–24. [111] Geubelle PH, Maiti S. Cohesive modeling of fatigue crack retardation in
+[77] HaywoodJ,CoverleyPT,StaszewskiWJ,WordenK.Anautomatedimpact polymers:crackclosureeffect.EngFractMech2006;73(1):22–41.
+monitorforacompositepanelemployingsmartsensortechnology.Smart [112] ParkJS,KimHS,HahnHT.Healingbehaviorofamatrixcrackonacarbon
+MaterStruct2005;14:265–71. fiber/mendomercomposite.ComposSciTechnol2009;69(7–8):1082–7.
+[78] Yu L, Cheng L, Yam LH, Yan YJ, Jiang JS. Online damage detection for [113] Chung DDL. Materials for electromagnetic interference shielding. J Mater
+laminated composite shells partially filled with fluid. Compos Struct Perform2000;9(3):350–4.
+2007;80:334–42. [114] Geetha S, Kumar KKS, Rao CRK, Vijayan M, Trivedi DC. EMI shielding:
+[79] SrivastavaA,AgarwalA,ChakrabortyD,DuttaA.Controlofsmartlaminated methodsandmaterials:areview.JApplPolymSci2009;112(4):2073–86.
+FRP structures using artificial neural networks. J Reinf Plast Compos [115] Wang Y, Jing X. Intrinsically conducting polymers for electromagnetic
+2005;24(13):1353–64. interferenceshielding.PolymAdvTechnol2005;16(4):344–51.
+[80] LohKJ,KimJ,LynchJP,KamNWS,KotovN.Multifunctionallayer-by-layer [116] JiaQM,LiJB,WangLF,ZhuJW,ZhengM.Electricallyconductiveepoxyresin
+carbonnanotube-polyelectrolytethinfilmsforstrainandcorrosionsensing. composites containing polyaniline with different morphologies. Mater Sci
+SmartMaterStruct2007;16:429–38. EngA2007;448:356–60.
+[81] Loh KJ, Lynch JP, Kotov N. Passive wireless sensing using SWMT-based [117] HuangY,LiN,MaY,DuF,LiF,HeX,etal.Theinfluenceofsingle-walled
+multifunctional thin film patches. Int J Appl Electromag Mech 2008;28: carbon nanotube structure on the electromagnetic interference shielding
+887–94. efficiencyofitsepoxycomposites.Carbon2007;45:1614–21.
+[82] OlekM,OstranderJ,JurgaS,MohwaldH,KotovN,KempaK,etal.Layer-by- [118] Al-Saleh MH, Sundararaj U. Electromagnetic interference shielding
+layerassembledcompositesfrommultiwallcarbonnanotubeswithdifferent mechanismsofCNT/polymercomposites.Carbon2009;47:1738–46.
+morphologies.NanoLett2004;4(10):1889–95. [119] YangY,GuptaMC,DudleyKL,LawrenceRW.Electromagneticinterference
+[83] Shim BS, Starkovich J, Kotov N. Multilayer composites from vapor-grown shieldingcharacteristicsofcarbonnanofiber–polymercomposites.JNanosci
+carbonnano-fibers.ComposSciTechnol2006;66:1174–81. Nanotechnol2007;7(2):549–54.
+[84] Sodano HA, Inman DJ, Park G. Generation and storage of electricity from [120] Al-Saleh MH, Sundararaj U. A review of vapor grown carbon nanofiber/
+powerharvestingdevices.JIntellMaterSystStruct2005;16(1):67–75. polymerconductivecomposites.Carbon2009;47(1):2–22.
+[85] PereiraT,GuoZ,NiehS,AriasJ,HahnHT.Embeddingthin-filmlithiumenergy [121] HenshawJM,HanW,OwensAD.Overviewofrecyclingissuesforcomposite
+cellsinstructuralcomposites.ComposSciTechnol2008;68:1935–41. materials.JThermoplastComposMater1996;9(1):4–20.
+[86] Pereira T, Guo Z, Nieh S, Arias J, Hahn HT. Energy storage structural [122] Pickering SJ. Recycling technologies for thermoset composite materials –
+composites:areview.JComposMater2009;43(5):549–60. currentstatus.ComposPartA:ApplSciManuf2006;37(8):1206–15.
+[87] Kim HS, Kang JS, Park JS, Hahn HT, Jung HC, Joung JW. Inkjet printed [123] RamakrishnaS,TanWK,TeohSH,LaiMO.Recyclingofcarbonfiber/PEEK
+electronics for multifunctional composite structure. Compos Sci Technol composites.KeyEngMater1998;137:1–8.
+2009;69(7–8):1256–64. [124] Vaidya UK, Chawla KK. Processing of fibre reinforced thermoplastic
+[88] Liu P, Sherman E, Jacobsen A. Design and fabrication of multifunctional composites.IntMaterRev2008;53(4):185–218.
+structuralbatteries.JPowerSources2009;189(1):646–50. [125] DeRosa R, Telfeyan E, Mayes JS. Current state of recycling sheet molding
+[89] SnyderJF,CarterRH,WetzelED.Electrochemicalandmechanicalbehaviorin compounds and related materials. J Thermoplast Compos Mater
+mechanically robust solid polymer electrolytes for use in multifunctional 2005;18(3):219–40.
+structuralbatteries.ChemMater2007;19(15):3793–801. [126] Tall S, Karlsson S, Albertsson A-Ch. Improvements in the properties of
+[90] Snyder JF, Wong EL, Hubbard CW. Evaluation of commercially available mechanically recycled thermoplastics. Polym Polym Compos 1998;6(5):
+carbonfibers,fabricsandpapersforpotentialuseinmultifunctionalenergy 261–7.
+storageapplications.JElectrochemSoc2009;156(3):A215–24. [127] Bystrzejewski-Piotrowska G, Golimowski J, Urban P. Nanoparticles: their
+[91] O’Brien DJ, Baechle DM, Wetzel ED. Multifunctional structural composite potential toxicity, waste and environmental management. Waste Manage
+capacitorsforUSArmyapplications.In:ProcintSAMPEtechconf,38thfall 2009;29(9):2587–95.
+techconf:globaladvmaterproceng;2006. [128] Nabi Saheb D, Jog JP. Natural fiber composites: a review. Adv Polymer
+[92] Baechle DM, O’Brien DJ, Wetzel ED. Design and processing of structural Technol1999;18(4):351–63.
+compositecapacitors.In:ProcintSAMPEsymposiumandexhibition,MandP [129] Bogoeva-GacevaG,AvellaM,MalinconicoM,GrozdanovA,GentileG,Errico
+–fromcoasttocoastandaroundtheworld;2007. ME.Naturalfibereco-composites.PolymerCompos2007;28(1):98–107.2810 R.F.Gibson/CompositeStructures92(2010)2793–2810
+[130] Mishra S, Mohanty AK, Drzal LT, Misra M, Hinrichsen G. A review on [155] Yao L, Wang X, Xu F, Zhao D, Jiang M, Qiu Y. Fabrication and impact
+pineappleleaffibers,sisalfibersandtheirbiocomposites.MacromolMater performance of three dimensionally integrated microstrip antennas with
+Eng2004;289(11):955–74. microstripandcoaxialfeeding.SmartMaterStruct2009;18:095034.
+[131] Yan L, Mai Y-W, Ye L. Sisal fibre and its composites: a review of recent [156] MatsuzakiR,MelnykowyczM,TodorokiA.Antenna/sensormultifunctional
+developments.ComposSciTechnol2000;60(11):2037–55. composites for the wireless detection of damage. Compos Sci Technol
+[132] EichhornSJ,BaillieCA,ZafeiropoulosN,MwaikamboLY,AnsellMP,Dufresne 2009;69:2507–13.
+A,etal.Currentinternationalresearchintocellulosicfibresandcomposites.J [157] Wirtz R, Zhao T, Jiang Y. Thermal and mechanical characterization of a
+MaterSci2001;36(9):2107–3131. multifunctionalthermalenergystoragestructure.IEEETransComponPackag
+[133] Cheung H-Y, Ho M-P, Lau K-T, Cardona F, Hui D. Natural fibre-reinforced Technol2009;32(1):53–62.
+compositesforbioengineeringandenvironmentalengineeringapplications. [158] QueheillaltDT,CarbajalG,PetersonGP,WadleyHNG.Amultifunctionalheat
+ComposPartB:Eng2009;40(7):655–63. pipesandwichpanelstructure.IntJHeatMassTransfer2008;51(1–2):312–26.
+[134] YuL,DeanK,LiL.Polymerblendsandcompositesfromrenewableresources. [159] OzakiT,TakeyaH,KumeM,SekineK.Multifunctionalcompositestructures
+ProgPolymSci(Oxford)2006;31(6):576–602. forspacesatellites.SAMPEJ2008;44(2):6–11.
+[135] Raquez J-M, Deleglise M, Lacrampe M-F, Krawczak P. Thermosetting [160] Silverman E. Multifunctional carbon foam development for spacecraft
+(bio)materials derived from renewable resources: a critical review. Prog applications.SAMPEJ2005;41(3):19–27.
+PolymerSci(Oxford)2010;35(4):487–509. [161] Cameron CJ, Wennhage P, Goransson P, Rahmqvist S. Structural-acoustic
+[136] Gu J-G, Gu J-D. Methods currently used in testing microbiological designofamultifunctionalsandwichpanelinanautomotivecontext.JSand
+degradationanddeteriorationofawiderangeofpolymericmaterialswith StructMater;2010[publishedOnlineFirstJanuary28,2010].
+variousdegreeofdegradability:areview.JPolymEnviron2005;13(1):65–74. [162] Vaidya AS, Vaidya UK, Uddin N. Impact response of three-dimensional
+[137] KumarR,LiuD,ZhangL.Advancesinproteinousbiomaterials.JBiobased multifunctionalsandwichcomposite.MaterSciEng2008;472(1–2):52–8.
+MaterBioenergy2008;2(1):1–24. [163] LeeJL,ZengC,CaoX,HanX,ShenJ,XuG.Polymernanocompositefoams.
+[138] PandeyJK,PratheepKumarA,MisraM,MohantyAK,DrzalLT,SinghR.Recent ComposSciTechnol2005;65(15–16):2344–63.
+advances in biodegradable nanocomposites. J Nanosci Nanotechnol [164] SuhWH,SuhY-H,StuckyGD.Multifunctionalnanosystemsattheinterfaceof
+2005;5(4):497–526. physicalandlifesciences.NanoToday2009;4(1):27–36.
+[139] Ray SS, Bousmina M. Biodegradable polymers and their layered silicate [165] Haglund E, Seale-Goldsmith MM, Leary JF. Design of multifunctional
+nanocomposites:ingreeningthe21stcenturymaterialsworld.ProgMater nanomedicaldevices.AnnalsBiomedEng2009;37(10):2048–63.
+Sci2005;50(8):962–1079. [166] Park K, Lee S, Kang E, Kim K, Choi K, Kwon IC. New generation of
+[140] TakemuraK.Effectofwaterabsorptiononmechanicalpropertiesofhemp multifunctional nanoparticles for cancer imaging and therapy. Adv Funct
+fiberreinforcedcomposite.KeyEngMater2010;417–418:161–4. Mater2009;19(10):1553–66.
+[141] GeorgeJ,KlompenETJ,PeijsT.Thermaldegradationofgreenandupgraded [167] CorrSA,RakovichYP,Gun’koYK.Multifunctionalmagnetic-fluorescentnano-
+flaxfibres.AdvComposLett2001;10(2):81–8. compositesforbiomedicalapplications.NanoscaleResLett2008;3(3):87–104.
+[142] Stamboulis A, Baillie CA, Peijs T. Effects of environmental conditions on [168] Lou XW, Archer LA, Yang Z. Hollow micro/nanostructures: synthesis and
+mechanicalandphysicalpropertiesofflaxfibers.ComposPartA:ApplSci applications.AdvMater2008;20:3987–4019.
+Manuf2001;32(8):1105–15. [169] An K, Hyeon T. Synthesis and biomedical applications of hollow
+[143] ThillC,EtchesJ,BondI,PotterK,WeaverP.Morphingskins.AeronauticalJ nanostructures.NanoToday2009;4(4):359–73.
+2008;112(1129):117–39. [170] Shahinpoor M, Kim K. Ionic polymer–metal composites: I. Fundamentals.
+[144] Wildschek A, Havar T, Plotner K. An all-composite, all-electric, morphing SmartMaterStruct2001;10:1–15.
+trailingedgeforflightcontrolofablendedwingbodyairliner.ProcInstMech [171] KimK,ShahinpoorM.Ionicpolymer–metalcomposites:II.Manufacturing
+Eng,PartG:JAerospEng2010;224(1):1–9. techniques.SmartMaterStruct2003;12:65–7.
+[145] HartlDJ,LagoudasDC,CalkinsFT,MabeJH.UseofaNi60Tishapememory [172] ShahinpoorM,KimK.Ionicpolymer–metalcomposites:III.Modelingand
+alloy for active jet engine chevron application: I. Thermomechanical simulation as biomimetric sensors, actuators, transducers and artificial
+characterization.SmartMaterStruct2010;19(1):015020. muscles.SmartMaterStruct2004;13:1362–88.
+[146] HartlDJ,MooneyJT,LagoudasDC,CalkinsFT,MabeJH.UseofaNi60Tishape [173] ShahinpoorM,KimK.Ionicpolymer–metalcomposites:IV.Industrialand
+memoryalloyforactivejetenginechevronapplication:II.Experimentally medicalapplications.SmartMaterStruct2005;14:197–214.
+validatednumericalanalysis.SmartMaterStruct2010;19(1):015021. [174] Bar-Cohen Y. Electroactive polymers as artificial muscles: a review. J
+[147] MudupuV,TrabiaMB,YimW,WeinachtP.Designandvalidationofafuzzy SpacecraftRockets2002;39:822–7.
+logic controller for a smart projectile fin with a piezoelectric macro-fiber [175] QiY,JafferisNT,LyonsJrK,LeeCM,AhmadH,McAlpineMC.Piezoelectric
+compositebimorphactuator.SmartMaterStruct2008;17(3). ribbons printed onto rubber for flexible energy conversion. Nano Lett
+[148] ThomasJP,QidwaiMA.Mechanicaldesignandperformanceofcomposite 2010;10:524–8.
+multifunctionalmaterials.ActaMater2004;52:2155–64. [176] Shim BS, Chen W, Doty C, Xu C, Kotov NA. Smart electronic yarns and
+[149] Thomas JP, Qidwai MA. The design and application of multifunctional wearablefabricsforhumanbiomonitoringmadebycarbonnanotubecoating
+structure–batterymaterialsystems.JOM2005;57(3):18–24. withpolyelectrolytes.NanoLett2008;8(12):4151–7.
+[150] TussJ,LockyerA,AltK,UldrichF,KinslowR,KudvaJ,etal.Conformalload [177] GranstromJ,FeenstraJ,SodanoHA,FarinholtK.Energyharvestingfroma
+bearing antenna structure. In: Proc AIAA/ASME/ASCE/AHS/ASC structures, backpack instrumented with piezoelectric shoulder straps. Smart Mater
+structuraldynmaterconf,vol.2;1996.p.836–43. Struct2007;16(5):1810–20.
+[151] LockyerAJ,AltK,KinslowRW,KanH-P,KudvaJN,TussJ,etal.Development [178] Rai KN, Singh D. Impact resistance behavior of polymer nanocomposite
+ofastructurallyintegratedconformalload-bearingmultifunctionantenna: transparentpanels.JComposMater2009;43(2):139–51.
+overviewoftheairforcesmartskin structurestechnologydemonstration [179] LiuY,HedinNE,FongH.Polycarbonate/poly(methylmethacrylate)nanofiber
+program.ProcSPIESmartStructMaterConf1996;2722:55–64. compositeswithimprovedimpactstrength.JApplMater2008;40(3):33–42.
+[152] BerdenMJ,McCarvilleDA.StructurallyintegratedX-bandantennalargescale [180] RojanapitayakornP,MatherPT,GoldbergAJ,WeissRA.Opticallytransparent
+componentwingtest.In:ProcintSAMPEsympexhib:MandP–fromcoast self-reinforced poly (ethylene terephthalate) composites: molecular
+tocoastandaroundtheworld;2007.p.52. orientationandmechanicalproperties.Polymer2005;46(3):761–73.
+[153] Lockyer AJ, Alt KH, Kudva JN, Tuss J. Air vehicle integration issues and [181] SongJ-Y,KimJ-W,SuhK-D. Poly(methylmethacrylate)tougheningwith
+considerationsforCLASsuccessfulimplementation.ProcSPIESmartStruct refractiveindex-controlledcore–shellcompositeparticles.JApplPolymSci
+MaterConf2001;4332:48–59. 1999;71(10):1607–14.
+[154] Yao L,Qiu Y. Design and fabrication of microstrip antennas integrated in [182] Huang J, Yang B, Huang D, Shen J. Core–shell nanoparticles reinforced
+three dimensional orthogonal woven composites. Compos Sci Technol polystyrenewithnoeffectonitstransparency.IntJPolymMater1997;35(1–
+2009;69:1004–8. 4):13–9.

@@ -1,0 +1,849 @@
+Heliyon10(2024)e27403
+Contents lists available at ScienceDirect
+Heliyon
+journal homepage: www.cell.com/heliyon
+Research article
+Structural design and material comparison for aircraft wing box
+beam panel
+Peter Korbaa, Samer Al-Rabeeia, Michal Hovaneca, Ingrid Sekelova´a, Utku Kaleb,c,*
+aDepartment of Aviation Engineering, Faculty of Aeronautics, Technical University of Koˇsice, Rampova´ 7, 041 21, Slovak Republic
+bDepartment of Aeronautics and Naval Architecture, Faculty of Transportation Engineering and Vehicle Engineering, Budapest University of
+Technology and Economics, Budapest, Hungary
+cAviation Academy, Faculty of Technology, Amsterdam University of Applied Sciences, Amsterdam, the Netherlands
+A R T I C L E I N F O A B S T R A C T
+Keywords: This paper aims to present a comprehensive investigation to obtain the structural calculations
+Wing box beam needed to design a rigid panel of aluminum alloy for the wing box beam of an ATR 72–500
+Structural design aircraft. For this design process, several types of materials, including composites like CFRP, are
+Ansys FEM software
+considered so it is possible to compare the actual existing part made of aluminum to them, thus
+checking the advantages these new materials offer. The research presents an introduction to
+structural design and provides a study of the relevant literature. The aircraft’s principal char-
+acteristics and performance abilities were collected so that structural loads can be computed.
+Research used several methods, a design using conventional methods, applying the theory of
+elasticity is performed using the Theory of Farrar, allowing us to obtain an analytical solution to
+the problem, followed by checking the obtained results using Ansys FEM software combined with
+the parts being designed with CATIA. Furthermore, this same panel is calculated using composite
+materials instead of conventional aluminum, allowing us to compare both solutions. This research
+shed light on the intricate process of aircraft structural design, materials selection, and calculation
+methodologies, highlighting the ongoing pursuit of new and advanced materials. This paper
+makes clear that using composite materials presents several advantages over traditional ones,
+allowing for lighter, safer, more fuel-efficient, and more sustainable aircraft. The use of composite
+materials in the construction of airplane structures is driven by many factors. The results show
+that the chosen composite materials reduce weight, are durable, have low maintenance re-
+quirements, reduce noise, enhance fuel economy, and are resistant to corrosion.
+1. Introduction
+The design of aircraft structures is a complex and challenging task that requires a thorough understanding of the physics and
+mechanics involved. In particular, calculating the structural properties of rigid panels located in the wing box beam of an aircraft is a
+real-life problem that design engineers often face during the early stages of aircraft design. This problem requires careful consideration
+of the aircraft’s specific characteristics and the loads the panel will be subjected to.
+For over a century, the development of materials for use in aviation has been a key area of focus within the aeronautical industry.
+From the historic moment when the Wright brothers’ airplane made its inaugural flight in 1903, engineers and scientists have been
+* Corresponding author.
+E-mail addresses: kale.utku@kjk.bme.hu, u.kale@hva.nl (U. Kale).
+https://doi.org/10.1016/j.heliyon.2024.e27403
+Received 12 July 2023; Received in revised form 28 February 2024; Accepted 28 February 2024
+Availableonline5March2024
+2405-8440/© 2024 Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).P. Korba et al. H e l i y o n 10(2024)e27403
+searching for materials with unique characteristics that can meet the rigorous demands of aviation [1,2]. This has been driven by the
+need to improve aircraft safety, efficiency, and overall performance. The characteristics that are highly sought after including among
+others density, mechanical resistance, corrosion resistance, and fatigue resistance.
+The first aircraft model was made up of wood and fabric, the first fulfilling a structural role and the second a lifting role. However,
+due to the characteristics of these materials, they are affected by biological action and do not maintain their properties in all aircraft
+working conditions (such as humidity) [1]. The wide range of operation that an aircraft must have, oscillating from the 50 ◦C reached
+during summer at certain airports to the (cid:0) 60 ◦C existing on a cruise at 40,000 ft, gave way to the use of metal for structural aero-
+nautical manufacturing. Although steel was the first metal used, this fact led to other problems related to its low corrosion resistance
+and high-density factors that mean that they are currently only used in specific parts subjected to high loads, such as landing gear [2].
+The pursuit of materials that possess these desirable characteristics has been a constant challenge for the aeronautical industry.
+Materials used in aviation must be able to withstand the high-stress environments that occur during flight, including extreme tem-
+perature changes, high-altitude conditions, and exposure to harsh chemicals [3]. Developing new materials that can meet these de-
+mands has played a critical role in advancing the aviation industry. It has helped to make air travel safer and more efficient than ever
+before [4].
+Thus, the next stop is to enter into a process of optimization and research in order to find a material that complied with the
+properties described above and with high specific mechanical resistance, aluminum being the starting point during subsequent de-
+cades. Even though aluminum itself does not have good mechanical properties, the use of aluminum alloys adaptable to the aero-
+nautical sector represents a fundamental advance that has covered much of the history of recent aviation. Thus, duralumin arises,
+which has a higher specific resistance than steel and improves its behavior against corrosion [5].
+However, it is necessary to take into account that in addition to the structural function, there are some aircraft components whose
+main request is thermal resistance. Following this point, precious metal alloys such as tungsten or titanium are used based on their
+good mechanical strength and thermal properties. The term “superalloys” means alloys that are superior in heat and corrosion
+resistance and maintain superior properties even at elevated temperatures. Thus, superalloys are synonymous with “high-temperature
+alloys.” Traditionally, superalloys are classified into three types according to their base element: iron-based, nickel-based, and cobalt-
+based superalloys [6].
+However, in a broader sense, alloys that can preserve their mechanical, physical, and chemical stabilities at high temperatures and
+in severely corrosive environments are all called superalloys [6]. At room temperature, however, the mechanical properties of su-
+peralloys are not much different from steel’s, which are much cheaper and quickly produced. However, superalloys stand out from
+other metallic alloys with their high corrosion resistance even in this temperature range, making them ideal candidates for use in
+severely corrosive environments such as offshore petroleum platforms [7,8].
+Nevertheless, their high cost and the complex process of obtaining and machining that they present mean that these metals are
+fundamentally limited to some engine parts. Not surprisingly, superalloys’ main application area is at elevated temperatures despite
+impressive room temperature and cryogenic properties [9]. At high temperatures, superalloys are unique in their mechanical and
+chemical properties [8]. The big leap forward for superalloys was a result of intense effort in developing gas turbine hot section parts to
+meet the needs of military aircraft. Today, military and civil aircraft gas turbines still play a dominant role in developing superalloys.
+Aviation gas turbines represent the majority of all applications of superalloys. Among their other application, power-generation gas
+turbines can be classified, the chemical industry, medical industry, petrochemical equipment, spaceships, rocket engines, nuclear
+reactors, submarines, high-temperature industrial furnaces, and various other applications that need high-temperature and/or
+chemical resistance [10–12].
+Today, the energy sector strategically plays an even more critical role than ever before because of escalating fuel prices [13]. Global
+warming and increasing environmental pollution further necessitate more efficient use of petroleum products. The mandate of
+decreasing fuel consumption and exhaust emissions for aviation and industrial gas turbines is clearly paramount [14]. This dictates the
+key positioning and new development direction of all superalloys. Therefore, in the current technological context, a compromise
+solution that maintains properties close to those of aluminum alloys but with a notable decrease in the weight of the structural
+components has been developed, being the use of composite materials had a fundamental advance during the last years [15].
+Composite materials refer to the combination on a macroscopic scale of two or more uniformly distributed materials, being formed
+by fibers (generally carbon, glass, or Kevlar), which are responsible for supporting most of the loads and providing the pieces with
+strength and rigidity, and by a matrix (thermosetting or thermoplastic resins) that provide cohesion, hold the fibers together and
+transmit loads between them [16]. The fact of being able to obtain properties that either of the two constituents cannot achieve
+independently makes composite materials a versatile solution with a great future in the technological sector.
+In addition to weight reduction, which implies a decrease in fuel consumption, lower greenhouse gas emissions, and less operating
+costs, composite materials have better behavior against impact, corrosion, and abrasion, in addition to high thermal resistance [17].
+The evolution of the composite material within the aircraft developed in the last 45 years demonstrates that aircraft such as the B-787
+and the A350 (contemporary and competing within the same market segment) currently exceed 50 % of composites [3].
+The distribution of materials used in manufacturing the B-787, where there is a preponderance of composite materials compared to
+metals such as aluminum or steel despite being an aircraft designed 15 years ago. This aircraft is fabricated with more than 50% of
+composites. Particularly, steel is used in highly requested areas, such as the pylons of both engines [18]. The fact that both Airbus and
+Boeing, the two leading companies that dominate international aeronautical manufacturing, dedicate significant resources to the
+optimization of structural design and the development of composite materials shows the current trend within the aeronautical sector.
+Another aspect to highlight in the search for innovation in materials and processes to lighten the weight of an aircraft is the use of
+techniques such as topological optimization and additive manufacturing to manufacture parts that, without necessarily being made of
+2P. Korba et al. H e l i y o n 10(2024)e27403
+more advanced materials, are lighter than if they would have manufactured and designed with conventional techniques [19]. This
+process unfolds, starting from a conventional design to iterating removing material that is not mechanically stressed until a final design
+with the same mechanical strength but a significantly lower weight. As a result of this development process, the present assignment
+proposes the structural design of a rigid panel from different points of view. On the one hand, a more traditional design uses aluminum;
+on the other, a more advanced one uses composite materials. This will allow us to compare the results and be able to draw a justified
+conclusion on the trend in aircraft structural design and manufacturing [20].
+For this research, ATR 72–500 airplane has been chosen as our reference aircraft. This aircraft is widely used throughout Europe as
+a regional medium-haul transport, and abundant information and data are available on its airframe and structures. Additionally, the
+ATR 72–500 has a simpler construction compared to other larger aircraft, which means that it is easier to deal with fewer parameters
+and simpler geometries while still maintaining a rigorous calculation method.
+The structural typology of the ATR 72–500 aircraft is semi-monocoque, with a high wing that is structurally a wing box beam type.
+The wing box beam has two main longitudinal crossbar beams, with the wing upper and lower fairings serving as structural parts. Thus,
+the aircraft has a square section beam of a variable section, as the outer part of the wing has a decreasing chord, compared to the
+middle sections, in which the chord is constant. The designed panel is part of the discussed fairing of the wing structure, considering
+the section at the root wing embedding with the fuselage. This is the weakest point of the structure, with a predominance of bending
+forces, and the panel must be designed accordingly.
+Aluminum would have typically made up an aircraft’s main, secondary, and tertiary structure; for many years, metal alloys were
+seen to represent the pinnacle of technological advancement. However, currently, sophisticated composite materials are preferred for
+usage in structural aircraft design. To determine the possible use, we conducted a set of measurements in the simulated environment,
+however, it was not possible to make the measurement and the real environment. This research contributed to the excellence in
+aerospace and studied the increase of composite materials quality in the aerospace industry. Composite materials can reduce the
+weight of materials used in the aerospace industry and at the same time increase the efficiency of performance and safety management.
+This whole article is organized into several sections. Firstly, the main data and parameters of the reference aircraft are presented.
+Followed by Section 2, which reviews the current state of the art. In Section 3, our methodology and material selection is described. In
+this section, current technical solutions employed in aircraft structures and the specific calculation methods used will be discussed,
+including analytical and FEM techniques. Section 4 provides a step-by-step presentation of the results obtained from the methods
+employed to calculate the rigid panel. Section 5 presents a discussion of the findings of this article. Finally, Section 6 draws conclusions
+based on the results obtained.
+2. Related work
+Over the years, the aeronautical sector, in general, and aircraft design, in particular, have experienced substantial growth and
+technological improvements, leading to techniques used today. However, processes related to maneuver envelope and load calcula-
+tions are basic elements which have to be obtained for the development of our problem, and others such as using composite material in
+aircraft design or FEM analysis, are important advantages that have been developed during the last decades.
+Although most of the research of the project is related to aircraft structural design, it is necessary to mention the aids used in the
+software needed for solving the problem. Following this point, it is important to mention reference [21] which is a tutorial of CATIA V5
+which outlines the main capabilities and applications of this software, as well as more specific projects like [22], focused on similar
+works to this paper working with CATIA V5 and Nastran-Patran as computer software for the work of an engineer. Furthermore, FEM
+calculations have been processed with the student version of ANSYS, employing reference [23], which outlines the most important uses
+of ANSYS Mechanical APDL for aeronautical structural purposes.
+The preliminary design calculations of this paper included the definition of the maneuvering envelope of the ATR-72. According to
+Ref. [24], it is crucial not to fly in conditions out of this envelope as fatal disasters can occur. Furthermore, reference [25] also used this
+method to design of a regional turboprop aircraft, and reference [26] discusses the results of diagram n-V. All these considerations are
+based upon international norms such as CS-25 [27,28] for defining legal prescriptions the aircraft has to meet.
+Another important consideration for the dimensioning of the panel is the calculation of loads applied to the wing structure. For this,
+it is necessary to distinguish between loads described in Ref. [26], such as structural, aerodynamic, engine, and fuel mass. In addition,
+further contemporary bibliographies have been revised, such as [29], in which a preliminary design of a wing box structure is per-
+formed by doing several numerical and CFD load calculations and previously cited [22], where loads are calculated before introducing
+them in the FEM analysis.
+For a deeper understanding of aerospace structural design, a book [30] has been used as a general reference to know common
+solutions adopted for this purpose. Other specific problems related to structure, such as buckling, are developed in Refs. [31–33].
+Different wing box calculation approaches are made by integrating static, buckling, fatigue, and manufacturability requirements and
+their different loading conditions. Nonetheless, in the above-cited [22] reference, a similar methodology for wing calculations was
+performed.
+However, the cornerstone of this paper is based upon the Theory of Farrar, which was first conceived in 1949 [34] and expanded in
+1953 [35] and which considers the design of structural elements subject to mainly compressive loads and having to resist buckling as
+the main cause of failure. This theory is specifically designed for metal parts and was revised more recently in 2017 [36] with updates
+regarding computer-aided numerical and FEM considerations.
+The second part of the paper is based on the comparison of our solution using aluminum with a composite material approach. In this
+context, reference [37] has been used as a general-purpose book about aerospace materials, as well as [26,38,39] have been taken as
+3P. Korba et al. H e l i y o n 10(2024)e27403
+references for our paper as they are practical studies of the use of composite materials in similar aerostructures.
+Other important information regarding the ATR 72 aircraft and its technical and geometrical characteristics could be found in the
+airplane’s manual [40], which is a collection of data and procedures needed to safely operate the aircraft, as well as other sources such
+as [41–43], where this aircraft gets an in-depth revision as a starting point to design a new similar regional transport airplane. Finally,
+mathematical models and other important explanations will be presented throughout the paper in corresponding sections.
+3. Methodology and material
+Once the object of the project has been explained and the materials used throughout history in aeronautical structures and the
+current trends within the sector have been analyzed, this section proceeds to explain the chosen approach and the way to get to the
+solution of the problem. Fig. 1 shows the process of design and calculation process. Firstly, the analysis of the situation was performed
+followed by data collection related to the proprieties of the aircraft in question. Further, the calculation of loads took place in the form
+of loads due to the structural mass of the wing, loads due to engines, loads due to aerodynamic effects and loads due to fuel tanks. The
+following simulation permitted the formulation of the results.
+The main parameters and characteristics of the ATR 72–500 needed for calculating loads on the airframe are presented in Tables 1
+and 2. Table 1 provides information on aircraft components and their masses, as well as key performance parameters and Table 2 offers
+crucial information on the wing structure and geometry. All this information is critical for accurately determining the loads the aircraft
+structure must withstand during operation.
+Additionally, the necessary assumptions were made about the mass and lift distribution on the wings, the location of the shear
+center and center of gravity, and the presence of fuel tanks. The assumptions are the following.
+• In this research the normally used reference constants have been considered, assuming standard atmosphere (ISA) at sea level (γ =
+1.4, R =287 J/(kg ⋅ K), ρ SL =1.225 kg/m3) and gravity takes the usual value of g =9.8 m/s2.
+• Mass distribution on wings follows the law m(y) =Kc(y)1.2 and lift distribution is elliptical.
+• During cruise flight, lift provided by the wing is 105 % of total aircraft lift, with HTP providing a negative 5 % of it.
+• Shear center is located at 50 % of the wing chord, the center of gravity at 40 %, and lift at 25 % of the chord, as it is commonly
+accepted.
+• Two fuel tanks per semi-wing are considered between the aft and stern crossbar beams (at 15 % and 60 % of the chord), with a total
+fuel amount of 4189.5 L. Further discussion on this topic will be done later.
+The commonly used sign criteria for bending moments have been considered throughout the whole research. The objective of this
+research can be summarized into two main goals. Firstly, the intention is to validate the correctness of the design of a rigid aluminum
+panel by comparing the analytical results obtained through manual calculations and FEM Ansys software analysis, which permits to
+simulate and analyze complex load conditions, predict structural behavior and performance, and optimize design variations. Secondly,
+the aim is to evaluate the feasibility of replacing the conventional aluminum panel with a CFRP composite variant by comparing their
+respective FEM software calculations.
+As part of the analysis, both for the resolution of the metal wing box and the composite material ones, it is essential to analyze the
+maneuvering envelope for our reference aircraft, obtaining the flight diagram n-V that relates the load factor with the speed of flight.
+For this, MATLAB programming software will be used. Next, the critical loads suffered by the aircraft in symmetrical steady flight will
+Fig. 1. Flowchart of the design and calculation process.
+4P. Korba et al. H e l i y o n 10(2024)e27403
+Table 1
+Mass and performance data of ATR 72–500.
+Magnitude Symbol Value Units
+Maximum Take-Off Weight MTOW 22800 kg lb
+50625
+Maximum Landing Weight MLW 22350 kg lb
+49272
+Maximum Zero Fuel Weight MZFW 20800 kg lb
+45856
+Semi-wing mass Mwing 1522.5 kg
+Engine mass Meng 887 Kg
+Cruise speed Vc(TAS) 140 m/s
+Max. negative lift coef. normal to ref. line Cnmax,neg 0.715
+Lift coef. normal to ref. line at take-off Cnmax,TO 2.145
+Lift coef. normal to ref. line at landing Cnmax,L 2.684
+Lift coef. normal to ref. line at landing Cnmax,L 2.684
+Lift coef. normal to ref. line clean configuration Cnmax 1.511
+Table 2
+Wing data of ATR 72–500.
+Magnitude Symbol Value Units
+Wing surface S 61 m2
+Chord in the root Cr 2.6 m
+Chord in the tip Ct 1.5 m
+Span b 27.05 m
+Fuselage diameter φfus 2.77 m2
+Fuselage longitude Lfus 27.166 m
+One wing longitude bow 12.245 m
+Airfoil’s center of gravity cgaf 0.4 % C
+Airfoil’s lift center caf 0.25 % C
+Distance between motor’s cg and wing leading edge xeng 0.85 m
+Distance between motor’s cg and wing root yeng 2.665 m
+be calculated following the CS 25.333 standard, considering the structural weight of wing and the engines, the aerodynamic loads and
+the fuel tank loads. During the development, different hypotheses will be carried out that will be discussed throughout the sections.
+Again, MATLAB programming software has been used for this item, since it is a convenient platform for the numerical calculations and
+data analysis required for this research, as it was also the case in Refs. [44–46].
+Focusing on the design phase, it will be different for both cases. In the case of the aluminum panel, for the analytical calculation, the
+problem will be approached from the point of view of the Theory of Elasticity and Resistance of Materials, going from loads to tensions
+and then using the Von Mises criterion to calculate the required thickness of the panel, these were also used in the study [45,47,48].
+During the process, the Theory of Farrar, which allows calculating integral panels of metallic materials through the use of an efficiency
+factor (Farrar’s factor) and semi-empirical abacuses, will be used. Mainly, the Theory of Farrar is based on the experimentally
+demonstrated fact that the optimal design is the one where the torsion of the stringers is negligible and decoupled from the bending of
+the stringers themselves, thus pure bending being the main mode of the instability of stringers. To quantify this instability, the
+aforementioned Farrar’s coefficient is used. The rest of the elements involved in this theory will be developed in the results section,
+having once again used MATLAB programming software as the main tool for calculating and developing the iterative process.
+This will allow us to get a first approximation of the design which will be helpful in the second stage of the research. During the
+second stage, the CATIA three-dimensional design software will be used to design the panel and the stringers. At this stage, it is possible
+to make precise measurements and analysis, by means of this software it allows for testing of different design options and evaluating
+their impact on the overall structure. Further, the ANSYS structural calculation software will be used to verify numerically if the chosen
+design is valid, checking the validity of the Theory of Farrar and the behavior of the panel. This stage permits the identification of
+potential issues with the design and suggestions or modifications to improve strength and stability.
+The selection of the right material is crucial as it can significantly affect the aircraft’s weight, durability, and overall performance.
+Therefore, in the final stage of the research, the ANSYS analysis is used to compare the performance of different materials and evaluate
+the benefits and drawbacks of each material. The ANSYS analysis of a composite material panel is carried out in order to compare the
+results between both materials. Furthermore, this analysis allows the researchers to validate and support the new trends in materials
+and manufacturing techniques presented during the related work section.
+5P. Korba et al. H e l i y o n 10(2024)e27403
+4. Results
+4.1. Maneuver envelope
+In this section, the maneuver envelope is calculated at cruise altitude, computing first of all the limit load factor in accordance with
+norm CS 25.337, allowing for values between 2.5 and 3.8 and giving a result of the next allowed value of 2.5, as well as (cid:0) 1 for limit
+negative load factor. On the other hand, dive speed (VD) is calculated after some conversions between Mach number to real speed,
+obtaining VD =125.18 m/s.
+Then, maneuver speed is calculated, obtaining VA =99.51 m/s. After that, it is necessary to calculate maneuver speed again but for
+the negative limit load factor, which gives a value of VH =91.5 m/s using ncruise =1. Then, speed with flaps deployed must be taken into
+account, using the following formulas and considerations, considering the maximum value among them.
+• 1.6VS1 at MTOW and flaps in take-off configuration.
+• 1.8VS1 at MLW and flaps in approximation configuration.
+• 1.8VS0 at MLW and flaps in landing configuration.
+Obtaining a final value of VF =68.14 m/s. Finally, as a previous step, before plotting this calculation into the flight envelope
+diagram, it is necessary to convert from TAS to EAS (true airspeed to equivalent airspeed). Hence, all the results are presented in
+Table 3 and in Fig. 2 as the flight envelope.
+4.2. Calculation of loads
+In this section, the computation of applying loads on the wing box structure will be considered. For this purpose, it is necessary to
+take into consideration structural weight, the weight of the engines, loads due to aerodynamic effects, and loads due to fuel stored
+inside the wing tanks. The case of study, according to norm CS 25.333, will be the calculation of critical loads during the stationary
+symmetric maneuver, given as a result of bending moments, shear and tensile forces, and torque, all for one semi-wing, as there exists a
+plane of symmetry along the middle of the aircraft.
+In following Fig. 3, the main dimensions of the wing can be observed, along with the engine’s position and the line of torque centers
+(where it is assumed torque is applied in each section), at 50 % of the chord (hypothesis). Apart from this, it is necessary to determine
+the exact chord length for each section and the distance between 50 % of chord and a reference straight line for the whole length of the
+semi-wing, which will be called r50.
+Another hypothesis is that the weight distribution of the wing’s structural mass follows this law, with a calculated constant K =
+42.645, obtained from equalling the total mass to the integral of the law along the whole wingspan, see eq. (1).
+m(y)=Kc1.2
+(1)
+With all these preliminary calculations being made, it is now possible to start computing and applying loads on the weakest point of
+the fuselage, which is the embedment of the wing box beam with the main fuselage of the airplane. This is due to the fact that in a
+cantilever beam, the most significant part of stresses is a result of bending moments accumulating from the tip of the beam to its
+embedment, something that can be easily extrapolated to our model.
+• Loads due to the structural mass of the wing
+The weight of the semi-wing, which has been considered to be applied at 40 % of the chord for each section of it, is responsible for
+bending moments (Mf around the x axis), torque (Mt around y axis) and shear forces (V in the direction of z axis). Starting with the
+calculation of bending moment Mf, see eq. (2).
+∫ ∫ytip
+M f= (cid:0) gn lim m(y)ydy=(cid:0) gn limK yc(y)1.2dy=(cid:0) 224706.81Nm (2)
+yemb
+Where yemb is the distance between the middle plane of the aircraft and the embedment at the root of the semi-wing and ytip is the value
+of y coordinate at the tip of the semiwing. The other parameters used have been defined earlier. The negative sign means that the
+Table 3
+Speed in TAS and EAS (m/s).
+Magnitude VTAS VEAS
+VC 140.70 108.00
+VD 163.09 125.18
+VA 129.64 99.51
+VH 119.20 91.50
+VF 68.14 52.30
+6P. Korba et al. H e l i y o n 10(2024)e27403
+Fig. 2. Flight maneuver envelope for ATR 72.
+Fig. 3. Semi-wing dimensions and hypothesis carried out.
+wingtip tends to bend downwards. Then, the torque Mt can be calculated, which occurs at the embedment of the wing at its root, see eq.
+(3).
+∫
+[ (cid:0) ) ]
+∫ytip
+M t=gn lim m(y) (cid:0) x tor(y)(cid:0) x cg(y) (cid:0) r 50(y) dy= (cid:0) gn limK c(y)1.2((cid:0) 0.1c(y)(cid:0) r 50(y))dy= (cid:0) 9614.93Nm (3)
+yemb
+It can be observed that the order of magnitude of this result is much lower compared to the bending moment and that the negative
+signs indicate that the whole aircraft would tend to pitch down. This result is in accordance with the fact that the center of gravity line
+of the wing is located in a more advanced position of the chord than the center of the torque line, where resultants of forces are applied.
+Finally, the value for the shear force on the critical section of the wing is, see eq. (4).
+∫ ∫ytip
+V= (cid:0) gn lim m(y)dy=(cid:0) gn limK c(y)1.2dy=(cid:0) 33796.03N (4)
+yemb
+This result is nothing more than the vertical force that is caused by the weight of the whole of the structural components of the
+wing.
+• Loads due to engines
+Now, shear forces, bending moments and torques created by the existence of one engine per wing have to be considered, with a
+mass of meng =886.6 kg each (taking into account all associated systems), and located 4.653 m from the symmetry plane of the aircraft
+and 85 cm in front of the wing center line. Furthermore, the assumption is made that the engine’s mass is concentrated into one point.
+7P. Korba et al. H e l i y o n 10(2024)e27403
+With this, calculated bending are in eq (5).
+M f= (cid:0) gn limm engy eng=(cid:0) 101173.67Nm (5)
+Similar comments to the ones made to the loads due to structural mass can be made for this section. Now, the computation of the
+torque is shown in eq. (6):
+( (cid:0) ) )
+c y (cid:0) )
+M t=gn limm eng (cid:0) 2eng +x eng(cid:0) r 50 y eng = (cid:0) 46749.06Nm (6)
+Again, it is a torque that induces a pitch down to the aircraft, taking into account the said position of the engines. Finally, shear force on
+the wing root due to the engine mass can be calculated see in (7).
+V= (cid:0) gn limm eng=(cid:0) 21743.75N (7)
+• Loads due to aerodynamic effects
+Another very important source of forces to be taken into account for structural design is aerodynamic forces during flight. Instead of
+being a force created by opposition to displacement of mass (Newton’s Second Law) like in both previous cases, now these are a result
+of airflow around the wings. A critical hypothesis to consider is that lift can be concentrated for each wing section at 25 % of the chord,
+an assumption commonly made.
+The necessary lift to be provided by the wing is 105 % of the total lift required by the airplane. This is because this type of aircraft is
+normally designed and trimmed to fly with horizontal tail planes and elevators providing negative lift (5 % of the total). This means
+that total lift can be calculated as follows, taking into consideration limit load factors and weight of the aircraft, see eq. (8)
+L=1.05n limMZFWg=535626N (8)
+Lift is considered to be elliptical throughout the whole wingspan. As a result, it would be zero at the wingtips and maximum at the
+center, following this next definition, which gives out the lift for each section of the wing, see eq. (9).
+√̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+( )
+4L 2y 2
+l(y)= 1(cid:0) (9)
+πb b
+And now, calculation of bending moments, torque, and shear forces can be started. Talking about the bending moment, the following
+result is obtained in eq. (10).
+√̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+∫ ∫ytip
+4L
+( 2y)
+2
+M f= l(y)ydy=
+πb
+1(cid:0)
+b
+ydy=1513179.56Nm (10)
+yemb
+Which is positive according to what was expected, which means the wingtips bend upwards as a result of the aerodynamic forces
+applied on the wing. Torque is calculated following the next two expressions (eqs. (11) and (12)): the first one evaluates the torque
+created as a result of lift not being applied on the center of the torque line, whereas the second measures torque due to the coefficient of
+moments cm:
+√̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+∫ ∫ytip
+4L
+( 2y)
+2
+M t= l(y)[(x tor(y) (cid:0) x aero(y)+r 50(y)]dy=
+πb
+1(cid:0)
+b
+(0.25c(y)+r 50(y))dy=148707.04Nm (11)
+yemb
+∫ytip
+1
+M t,coeff= 2 ρ SLV E2 ASc m c(y)2dy=(cid:0) 45646.05Nm (12)
+yemb
+It has been obtained that both results have different signs, so the first would make the aircraft pitch up (positive) while the second
+would do the opposite, according to our sign criteria. Moreover, it can be observed that the second value is in absolute value smaller
+than the first one, so overall torque created by aerodynamic effects makes the airplane pitch up, being of positive value. Finally, shear
+force can be computed, which is equal to the total lift provided by the wing, see eq. (13)
+V=L=535626N (13)
+• Loads due to fuel tanks
+The last important item to be taken into consideration to have an estimate of the loads applying to the wing are fuel tanks. Ac-
+cording to geometrical considerations on the wing structure, there are two fuel tanks on each semi-wing, with a height of 14 % of total
+8P. Korba et al. H e l i y o n 10(2024)e27403
+chord for each section, with the leading part of them at 15 % of chord and the rear at 60 % of the wing, just between the bow and aft
+main beams of the wing. Furthermore, the length of the first fuel tank goes from 12 % to 30 % of the semi-wingspan, from the
+embedment of the wing until the engine area, whereas the second one extends from 34.4 % to 89.5 %, taking up part of the volume of
+the non-constant sections of the semi-wing until reaching the total necessary fuel volume of 4189.5 L.
+So, for each tank, it is a requisite to calculate bending moments, torques, and shear forces, considering the positions of their centers
+of gravity (0.975,2.840), in m, x, and y coordinates, for the first tank; (1.029,6.011) for the second. Starting with bending moments in
+eqs. (14) and (15):
+(cid:0) )
+M f1= (cid:0) gn limV ft1ρ f y cg1(cid:0) y emb = (cid:0) 29566.23Nm (14)
+(cid:0) )
+M f2= (cid:0) gn limV ft2ρ f y cg2(cid:0) y emb = (cid:0) 95926.48Nm (15)
+Both bending moments are negative, so they create downward displacement of wingtips. Previously, it has been necessary to
+compute the volumes of each fuel tank. Torques are calculated in eqs. (16) and (17).
+(cid:0) (cid:0) ) (cid:0) ))
+M t1= (cid:0) gn limV ft1ρ f x tor y cg1 (cid:0) x cg1(cid:0) r 50 y cg1 = (cid:0) 6604.14Nm (16)
+(cid:0) (cid:0) ) (cid:0) ))
+M t2= (cid:0) gn limV ft2ρ f x tor y cg2 (cid:0) x cg2(cid:0) r 50 y cg2 = (cid:0) 3179.04Nm (17)
+Where both torques are negative, as their centers of gravity are in a more advanced position compared to the center of torque line of the
+wing. At last, our last results can be calculated, shear forces as a result of fuel tanks on wings see eqs. (18) and (19).
+V 1= (cid:0) gn limV ft1ρ f =(cid:0) 20320.43N (18)
+V 2= (cid:0) gn limV ft2ρ f =(cid:0) 20736.38N (19)
+• Total loads on critical section
+Final results are presented in the following Table 4, and total loads are calculated as the sum of all values for each type of force.
+4.3. First case: aluminum panel
+Now, structural calculations will be addressed, which will allow to give dimensions to the different elements that make up the wing
+box of the ATR72, especially the wing panel that has to stand structural loads. Thus, a simple method will be used that comprises the
+calculation of general parameters of the wing box using classical results of the Theory of Elasticity and Strength of Materials, passing
+from loads to stresses, both normal and tangential. After that, thicknesses can be computed using Von Mises criterion.
+In a second step, Farrar’s theory of design of stiffened integral panels will be applied, which are widely used in aviation and are
+stronger and lighter than those that are reinforced with bolted or screwed small longitudinal beams. The purpose of these beams is to
+stabilize the panel subject to compression loads to avoid buckling.
+Some other important hypotheses and simplifications to be taken into account are that during the preliminary design (before
+applying Farrar’s theory), the panel is modeled as a plain plate of constant width with straight stiffening beams parallel to each other.
+In the real world, many other requirements must be met, which may not be exactly the case.
+4.3.1. Load fluxes calculations and design of wing box
+First of all, the calculations needed to design the wing box will be made assuming that it is a monocoque structure with thin walls.
+This means it will be made up of several panels, comprising upper and lower panels (the ones object of design) and two lateral beams,
+which in turn make up the wing box structural part.
+First of all, it is required to compute inertias, the first of them (cross-inertia) zero due to the symmetric nature of the wing box (a
+rectangle, with its origin in its center point). Apart from that one, it is also necessary to know Ixx, which is also calculated in the
+following eqs. (20) and (21):
+Table 4
+Flight data of ATR 72–500.
+Load type V [N] Mf [Nm] Mt [Nm]
+Aerodynamic 535626.00 1513179.56 148707.04
+cm – – (cid:0) 45646.05
+Fuel tank 1 (cid:0) 20320.43 (cid:0) 29566.23 (cid:0) 6604.14
+Fuel tank 2 (cid:0) 20736.38 (cid:0) 95926.48 (cid:0) 3179.04
+Structural (cid:0) 33796.03 (cid:0) 224706.81 (cid:0) 9614.93
+Engines (cid:0) 21743.75 (cid:0) 101173.67 (cid:0) 46749.06
+Totals 439029.41 1061806.37 36913.81
+9P. Korba et al. H e l i y o n 10(2024)e27403
+I xy=0 (20)
+[ ( ) ]
+1 H 2
+I xx=2⋅ 12H3t H+Lt L 2 (21)
+• Normal stresses
+The first calculations to pass from loads to stress that can be done is for normal stress σ, which can be computed as follows using the
+classical formula for computing normal stresses on a section, see eqs. (22) and (23).
+M M
+σ= xy= fy (22)
+I I
+xx xx
+M H
+σ max= ±
+I
+f
+2
+(23)
+xx
+• Shear stresses
+For shear stresses, it is necessary to compute them both from torque and shear force loads. First of all, torque produces an even
+distribution of shear stress that can be quantified with the following formula, see eq. (24)
+M M
+q 0T= 2At= 2Ht
+L
+(24)
+On the other hand, shear forces create a shear flux which is given by the expression in eq. (25):
+∫s
+S
+q s= (cid:0) Iy tyds (25)
+xx
+0
+Using some symmetry and anti-symmetry results, the two following equations are obtained, which quantify the flux of shear
+stresses from the middle of the panel to the upper left corner of the wing box, and from that point to the middle of the left main beam of
+the wing box, respectively, see eqs. (26) and (27).
+S H
+q 12=q 1(cid:0) Iyt L2s (26)
+xx
+( )
+S H s
+q 23=q 2(cid:0) Iyt H 2(cid:0) 2 s (27)
+xx
+After obtaining the values of shear stresses flux, they can be converted into pure shear stresses by using the following expressions. In
+them, it is necessary to use the maximum value of shear stress flux and add it to the flux coming from the torque. If the resulting flux is
+divided by the thickness of the main beams of the wing box, total pure shear stress can be computed, see eqs. (28) and (29).
+q max=q 0T+q s,max (28)
+q
+τ max= tmax (29)
+H
+Finally, Von Mises criterion is applied to determine the minimum width that the pair of beams need to have in order to stand the
+loads obtained before. This is done using an interactive process on MATLAB where thickness is changed until Von Mises criterion
+converges, see eq. (30).
+√̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+σ2 max+3τ2 max≤σ e (30)
+4.3.2. Theory of Farrar
+Now, this part will focus on the calculations needed to define all the geometric parameters of the stiffened integral panel. For this
+purpose, first, it is required to define a safety margin of 50 %, which gives the following results for each of the previously computed
+loads, see eqs. (31)–(33).
+M f,ult=1.5 ⋅ M f =1592709.56Nm (31)
+M t,ult=1.5 ⋅ M t=55390.87Nm (32)
+V ult=1.5 ⋅ V=658544.12N (33)
+10P. Korba et al. H e l i y o n 10(2024)e27403
+From the last section, it is necessary to consider shear force and torque fluxes with the same methodology as the one explained
+before. This results in a shear stress flux of value qB. However, it will be needed to calculate a load per unit of length which the panel
+would have to stand, and that is called NB, defining the model with these two parameters. NB is now computed in eq. (34).
+N B=M hf, lult (34)
+As Farrar’s Theory can only work with compressive loads, it is necessary to find a way to transform shear fluxes into an equivalent
+compressive load, which is called here Nmax. In order to do so, a parabolic interaction curve is considered in which normal loads and
+shear fluxes are correlated after having defined a safety margin (qA and NA after a 10 % MS definition instead of qB and NB). A non-
+linear equations system can be defined by the next four mathematical expressions in order to obtain Nmax see eqs. (35)–(38).
+( ) ( )
+q 2 N 2
+A + A =1 (35)
+q N
+max max
+( ) ( ) [( ) ( ) ]
+q 2 N 2 q 2 N 2
+A + A =(1+MS)2 B + B (36)
+q N q N
+max max max max
+q q
+B= A
+(37)
+N N
+B A
+q2 τ2 L
+max= max (38)
+N max F2(1+R bR t)2 E t
+The first of these equations represents the definition of the parabola, while the second one shows the relationship between variables
+with and without a 10 % security margin (qA and NA versus qB and NB). The third equation is derived from the application of the
+similarity of triangles and helps to solve the system, whereas the last one shows the relationship between q2 and Nmax according to
+max
+Farrar’s theory results.
+In addition, it is fundamental to define some other parameters necessary for Farrar’s design of stiffened integral panel. These
+parameters are the relationships Rb and Rt and Farrar’s factor of efficiency F, shown in the equation below. As it is necessary when in a
+designing process to maximize efficiency, the optimal values according to theory have been chosen, see eq. (39).
+R b=0.65R t=2.25 → F=0.81 (39)
+These values are applied on the chart shown in Fig. 5, where entering with Rb and Rt values gives out the value of F. It should be
+noted that dotted lines represent isolines of the efficiency of the structural part.
+Having discussed these values, can now apply them and start obtaining geometric parameters for the stiffening of small beams for
+the integrated panel. First of all, thickness (ts) can be calculated knowing the thickness of the proper panel, followed by the computing
+of the width (d) from the spacing between beams, see eqs. (40) and (41).
+t s=R tt (40)
+d=R bb (41)
+In order to perform t calculation, the following set of two equations are used, needing as input the distributed load N applying on
+the integral panel, see eqs. (42) and (43). Of course, this process is iterative and thus done with the help of MATLAB software until
+convergence of the whole system is attained.
+√̅̅̅̅̅̅
+NL
+F=σ (42)
+E
+t
+N
+σ= (43)
+t(1+R R)
+b t
+Combining the last two equations, the final formula is deduced on which a relationship between t and L, N and Et is obtained for the
+optimal efficiency case of study, see eq. (44).
+√̅̅̅̅̅̅ √̅̅̅̅̅̅̅̅
+1 NL L
+t= → t=0.501 e (44)
+F(1+R R) E NE
+b t t t
+Finally, the next set of equations allow for the computing of b value, which is the spacing between one stiffening beam and the next.
+These mathematical formulas have been obtained from Farrar’s Theory and can be combined for the optimal case in such a way that a
+straightforward relationship between t and L, N, and Et can be obtained, just like in previous cases see eqs. (45)–(47).
+( )
+σ t 2
+σ b= σb3.62E t b (45)
+0
+11P. Korba et al. H e l i y o n 10(2024)e27403
+F=1.3136( σ b) 1 4([ R3 bR t(4+R bR t)] 1 4)
+(46)
+σ 1+R R
+0 b t
+√̅ F̅̅̅
+(1+R R)
+( NL3)1
+4
+( NL3)1
+4
+b=1.103[ b t ] → b=1.33 (47)
+R3 bR t(4+R bR t) 1 2 E t E t
+Having already obtained b, the total amount of stiffening small beams can be computed as the quotient between the width of the
+panel l and the spacing of stiffening beams b, see eq. (48).
+l
+n l=
+b
+(48)
+Lastly, a value for average stress flowing through the panel is obtained as shown in eq. (49).
+√̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+N E
+σ m=F m Lax t (49)
+Once all these equations are conveniently programmed for the system to be solved with MATLAB, and after doing all the necessary
+iterations, the following final results in Table 5 for a stiffened integral panel subject to compressive loads are given.
+4.3.3. Ansys FEM study
+After having calculated analytically the dimensions of the integral panel the dimensions of the integral panel analytically, it is
+highly advised to perform a FEM analysis (Finite Element Method) to validate these results. For this purpose, a static structural analysis
+on ANSYS is performed, having defined previously the three-dimensional body on CATIA. This CAD model is then imported into
+ANSYS, taking the shape that can be seen on Fig. 4, where meshing using a structured pattern has already been implemented (it could
+have been better if instead of a student license a full one were used, allowing for a finer meshing).
+The next step is the definition of boundary conditions and loads. Fixed support has been set as a boundary condition for the
+embedment on the wing’s root, impeding any rotation or displacement. Apart from that, on the lateral faces that stand just above the
+main beams of the wing box it has been established that our model can only make displacement on the Z directions, whereas on the
+other face (the one where the load is applied), only displacements along the Y axis are allowed. Regarding the loads, a remote force has
+been applied evenly over the whole surface of the loaded face after multiplying the value obtained for distributed load Nmax by the
+width of panel L. All these considerations are shown in Fig. 5.
+Another critical definition to be made before any calculations are done is to establish a material. In this case, Aluminum alloy 6061
+with thermal treatment T6 has been considered, as it is a widely used material in the aviation industry and particularly common for
+manufacturing pieces like this integral panel. See Fig. 6.
+Once all the parameters of the problem have been defined, now it is turned for the FEM solving of it, giving. As a result, the
+following pictures, among other things. The first and second ones (Figs. 7 and 8) represent the stress field on the panel, obtaining a
+maximum stress below the value of yield strength for this material and thus validating previously done calculations.
+To complement this stress field, Figs. 9 and 10 show the strain field obtained. Obviously, a high correlation between both fields can
+be observed, as a more significant stress means the material will suffer from a bigger deformation and, thus, a higher value for strain.
+To end up with this FEM analysis and to fully validate results, an eigenvalue buckling analysis is performed on ANSYS, demon-
+strated in Figs. 11 and 12. This is very important because Farrar’s theory is widely based on instabilities that may occur on the panels to
+define minimum resistance. This means that it would not be uncommon for buckling to happen for a smaller load than for the plas-
+tification of the weakest section.
+The most important goal of this buckling analysis is to obtain the load factor in relation to the maximum load considered on a static
+structural problem for which buckling occurs. If it has a value below one, buckling will happen before the exhaustion of portant
+capacity on the panel, whereas it would happen above this value for a factor over one. It is interesting to obtain a factor above one but
+not that much, as that means efficient use of materials. Of course, the factor of around two that has been obtained fully validates all the
+Table 5
+Results obtained by Farrar’s theory.
+Magnitude Value
+NA 2.646 ⋅106 N/m
+qA 4.008 ⋅105 N/m
+Nmax 4.578⋅106 N/m
+qmax 6.172 ⋅105 N/m
+σm 487.5 MPa
+t 3.8 mm
+ts 7.58 mm
+b 110.66 mm
+d 71.92 mm
+nl 8
+12P. Korba et al. H e l i y o n 10(2024)e27403
+Fig. 4. Mesh generation for FEM analysis with ANSYS.
+Fig. 5. Boundary conditions and load definition for FEM analysis with ANSYS.
+calculations made before.
+4.4. Second case: composite material panel
+Current trends in material science show that composite materials are advantageous compared to normal ones in many cases. This is
+due to the fact that composites have a much higher specific strength compared to, for example, aluminum, which makes it ideal for
+applications where weight saving is paramount, like in aircraft construction.
+As presented at the beginning of this article, CFRP (Carbon Fibre Reinforced Composites) is now a widespread material for the
+13P. Korba et al. H e l i y o n 10(2024)e27403
+Fig. 6. Properties of the aluminum alloy considered as defined in ANSYS.
+Fig. 7. Stress field obtained with FEM analysis with ANSYS (upper part).
+construction of airframes and aeronautical structures in general, often comprising more than 50 % in weight of the total structural
+mass. So, for this study, the same FEM done previously will be implemented but using Epoxy Woven Carbon Fibre prepreg (230 GPa), a
+commonly used composite on these structures.
+Having done the same analysis as with the aluminum panel, the results consist of Fig. 13 showing the stress field, Fig. 14 showing
+the strain field and Fig. 15 after performing an eigenvalue buckling analysis.
+The most interesting thing about this approach with composites is that a factor of about 3 now decreases maximum stress.
+Consequently, a panel that is not even near to a level of stress that would make it fail but is now lighter than the aluminum counterpart
+is presented now.
+As the density of aluminum is around ρ Al =2700 kg/m3 and the density of CFRP is about ρ CFRP =1750 kg/m3, a 35 % decrease in
+mass has been attained just by changing from one material to the other. In addition, as CFRP is more resistant than aluminum, further
+decreases in the thickness of parts could be done, reducing the weight of the part even more (although this analysis is considered to be
+out of reach for this assignment). As it is know, the weight saving is worth the higher costs of these new materials, which means that
+analysis such as this one is becoming more common and necessary.
+About the eigenvalue buckling analysis, it can be seen that the value of the load factor is higher than in the case of aluminum. This
+validates all the previous results, as this piece would not be prone to instabilities.
+14P. Korba et al. H e l i y o n 10(2024)e27403
+Fig. 8. Stress field obtained with FEM analysis with ANSYS (lower part).
+Fig. 9. Strain field obtained with FEM analysis with ANSYS (upper part).
+5. Discussion
+The results obtained by the calculations presented in this paper using the Theory of Farrar with the help of MATLAB computing
+environment for the rigid panel of 91 cm of width for the top or bottom parts of the wing box at its root are the following: 8 stiffening
+integral beams each with a height of 7.2 cm and a width of 7.6 mm, together with the main panel which is 3.8 mm thick, all made by
+machining an aluminum piece. With this, an average stress of 487.5 MPa flows through the part mainly due to compressive loads in the
+critical scenario.
+These results were validated using ANSYS Mechanical APDL, where applying boundary conditions and loads were set to match
+reality as closely as possible, giving values below yield strength for every element of the mesh as well as a critical buckling factor of
+around 2, which is a good value as it is low enough as to prove that no material is wasted while it is safe enough as buckling would
+never occur before failure of the part due to plastification. After that, a similar analysis was performed but now uses CFRP instead of
+aluminum, which has meant a reduction of mass of around 35 % while retaining good resistance compared to the aluminum part, both
+in maximum stress and buckling factor.
+This last FEM study of the use of CFRP instead of aluminum had some limitations in terms of the definition of the composite, as
+further work could be done so more precise results could be attained by defining the layer structure of this material. Apart from that,
+other limitations may also be commented on, such as the definition of loads and boundary conditions for the FEM analysis, as having
+designed the whole wing structure would have resulted in a more precise solution, something that could be improved in the future.
+In terms of the numerical calculations and design phase of the part, some assumptions and the model of the aircraft could be made
+using a more complex method. However, the authors of this paper believe the one used is appropriate, even though there is always
+15P. Korba et al. H e l i y o n 10(2024)e27403
+Fig. 10. Strain field obtained with FEM analysis with ANSYS (lower part).
+Fig. 11. Eigenvalue buckling analysis: strain field due to buckling at critical load (upper part).
+some room for improvement. Other minor problems arose when the calculation of the solution using MATLAB was being performed, as
+some numerical instabilities were detected.
+This paper has met the main goals set at the beginning of the research, as the goals of designing and calculating a structural part of
+an existing aircraft were fulfilled. Furthermore, by comparing the aluminum and CFRP composite parts, it can be acknowledged that
+the weight reduction these new materials imply over more traditional metallic materials in the aerospace industry and why they are
+increasingly being used today in practice.
+These results may be of high value for other people who want to perform a similar analysis. Even more, any contribution to science
+that implies the use of novel materials, which eventually means a reduction of greenhouse effect gases, is always beneficial for society,
+as having a higher volume of scientific work of this kind is a sign that sustainability objectives form the 2030 agenda are in the way of
+being met.
+In comparison with other recent papers, in Ref. [39], a similar problem is studied using comparable techniques, such as the use of
+CATIA and ANSYS for computer-based analysis of a similar wing structure. Their methodology is very similar, and their results, too, in
+terms of the advantages that composite materials have to offer, as these present a lower strain level and a reduced weight.
+6. Conclusion
+To conclude, a variety of tools and engineering processes were used in this paper, software like CATIA for CAD, ANSYS for FEM
+analysis, and MATLAB for calculations, among others, to design via traditional numerical methods and FEM analysis a stiffened rigid
+panel for the wing box structure of an ATR 72 aircraft. The main objective of the paper is twofold. On the one hand, a real problem has
+16P. Korba et al. H e l i y o n 10(2024)e27403
+Fig. 12. Eigenvalue buckling analysis: strain field due to buckling at critical load (lower part).
+Fig. 13. Stress field obtained with FEM on ANSYS for CFRP panel.
+been sought that is as close as possible to those an engineer faces in his professional career, having adapted part of the work to the
+academic field by using some hypothesis explained in each section. On the other hand, the authors used a wide range of tools to achieve
+a robust solution.
+A lot of time has been spent in the research for documents and reference papers and processing this information by the development
+of equations until some of the expressions shown in this document could be obtained. Also, many very interesting and currently
+relevant topics in the world of Aeronautical Engineering have been worked on throughout the paper, such as new materials, design
+optimization, and main techniques for aircraft manufacturing. This paper’s main goal was to design a real part for a real airplane, a
+kind of work commonly performed at enterprises such as Airbus or ATR.
+As part of the analysis, the following points have been carefully considered.
+• Maneuver envelop of the aircraft and n-V diagram.
+• Calculation of loads according to CS 25.333.
+• Analytical design according to Farrar’s theory.
+• 3D design using CATIA V5.
+• Implementation and comprehension of FEM analysis results.
+Firstly, all the necessary information for the study had to be assembled and studied, and a model for it was established. Then, a
+maneuver envelope according to CS 25 was conceived, so the critical situations in which the structure of the wings would be under
+17P. Korba et al. H e l i y o n 10(2024)e27403
+Fig. 14. Strain field obtained with FEM on ANSYS for CFRP panel.
+Fig. 15. Eigenvalue buckling analysis: strain field due to buckling at critical load for CFRP panel.
+higher stress could be defined. With these parameters, it was possible to define the different applying loads according to regulations
+and the main characteristics of the reference aircraft, obtaining them for the critical section of the wing at the embedment.
+Knowing all the structural loads, the Theory of Farrar for the design of stiffened rigid panels was applied, and the geometry and
+dimensions of this structural part were determined. Further validation of this design was performed by the use of FEM analysis with
+ANSYS, and a comparison between the designed aluminum panel and an equivalent one made with CFRP composite material,
+including the weight reduction that these new materials offer compared to traditional ones.
+It is simple to see why composite materials are currently preferred over metals in the design and manufacturing of modern aircraft.
+Although metals will always be used and, in certain cases, cannot be completely replaced by composites, composites provide a range of
+design options that metal technologies alone cannot match.
+The composites industry seems to have a bright future ahead of it, it is expected to improve and ensure sustained long-term growth,
+and there are always more innovative and newer, exciting products and applications on the horizon.
+Furthermore, this paper can help to get a deeper insight into the topic of aircraft structural calculations and design as well as to
+validate the growing trend in the use of composite materials and their comparison with more traditional materials such as aluminum,
+18P. Korba et al. H e l i y o n 10(2024)e27403
+which has been carried out, allowing us to verify the versatility that composite materials offer and the great advantages they entail in
+terms of weight reduction and increased specific resistance.
+Data availability statement
+Data will be made available on request.
+CRediT authorship contribution statement
+Peter Korba: Writing – review & editing, Supervision, Investigation, Conceptualization. Samer Al-Rabeei: Writing – review &
+editing, Writing – original draft, Validation, Project administration, Methodology, Investigation, Formal analysis, Data curation,
+Conceptualization. Michal Hovanec: Writing – review & editing, Visualization, Supervision, Project administration. Ingrid Sekelova´:
+Writing – review & editing, Writing – original draft, Project administration, Methodology, Investigation, Formal analysis. Utku Kale:
+Writing – review & editing, Validation, Supervision, Project administration.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to
+influence the work reported in this paper.
+Acknowledgement
+This work was supported by the Slovak Research and Development Agency under the number APVV-20-0546 - Innovative mea-
+surement of airspeed of unconventional flying vehicles and within the “Research of an intelligent management logistics system with a
+focus on monitoring the hygienic safety of the logistics chain” project implemented under contract number 313011BWP9.
+This work was also supported by Project No. 2022–2.1.1-NL-2022-00012, which has been implemented with the support provided
+by the Ministry of Culture and Innovation of Hungary from the National Research, Development and Innovation Fund, financed under
+the National Laboratories funding scheme.”
+References
+[1] K. Sharma, G. Srinivas, Flying smart: Smart materials used in aviation industry, Mater. Today Proc. 27 (1) (2020) 244–250.
+[2] R. Petrescu, R. Aversa, B. Akash, R. Bucinell, J. Corchado, A. Apiccella, F. Petrescu, History of aviation - a Short review, Journal of Aircraft and Spacecraft
+Technology 1 (1) (2017) 30–49.
+[3] A. Ghobadi, Common type of Damages in composites and their Inspections, World journal od Mechanics 7 (2) (2017) 24–33.
+[4] L. Setlak, R. Kowalik, T. Lusiak, Practical Use of composite materials used in military aircraft, Materials 14 (17) (2021).
+[5] H. Yoshida, History of the development of Extra super duralumin and future research issues of Al–Zn–Mg alloys, Mater. Trans. 64 (2) (2023) 341–351.
+[6] S. Zhang, D. Zfhao, Aerospace Materials Handbook, CRC Press, Boca Raton, 2016.
+[7] I. Akande, O. Oluwole, O. Fayomi, O. Odunlami, Overview of mechanical, microstructural, oxidation properties and high-temperature applications of
+superalloys, Mater. Today: Proc. 43 (2) (2021) 2222–2231.
+[8] A. Pauzi, M. Ghazali, W. Zamri, A. Rajabi, Wear characteristics of superalloy and Hardface Coatings in gas turbine applications–A review, Metals 10 (9) (2020)
+1171.
+[9] J. Chen, J. Chen, Q. Wang, Y. Wu, Q. Li, Ch Xiao, S. Li, Y. Wang, X. Hui, Enhanced creep resistance induced by minor Ti additions to a second generation nickel-
+based single crystal superalloy, Acta Mater. 232 (2022) 117938.
+[10] R. Darolia, Development of strong, oxidation and corrosion resistant nickel-based superalloys: critical review of challenges, progress and prospects, Int. Mater.
+Rev. 64 (6) (2019) 355–380.
+[11] A. Mouritz, Introduction to Aerospace Materials, Woodhead, 2012.
+[12] R. Reed, Superalloys Applications, Materials Technolonogy, 2007.
+[13] M. Koscakova, P. Korba, I. Sekelova´, P. Koscak, D. Pastir, New trends in aviation development, in: Analysis of Sustainable Aviation Fuels Market, Nový
+Smokovec, 2022.
+[14] M. Klo¨wer, M. Allen, D. Lee, S. Proud, L. Gallagher, A. Skowron, Quantifying aviation’s contribution to global warming, Environ. Res. Lett. 16 (10) (2021)
+104027.
+[15] L. Xing, Y. Li, X. Chen, Status and role of the advanced composite materials in the development of aviation equipment, Acta Mater. Compos. Sin. 39 (9) (2022)
+4179–4186.
+[16] V. Karbhari, Fabrication, quality and service-life issues for composites in civil engineering, in: Durability of Composites for Civil Structural Applications,
+Woodhead Publishing, 2007, pp. 13–30.
+[17] S. Aghniaey, S. Mohammad, S. Mahmoudi, Exergy analysis of a NovelAbsorption Refrigeration Cycle with expander and compressor, Indian Journal ofScientific
+Research 1 (2014) 815–822.
+[18] Y. Xu, J. Zhu, Z. Wu, Y. Cao, W. Zhang, A review on the design of laminated composite structures: constant and variable stiffness design and topology
+optimization, Adv. Compos. Hybrid Mater. 1 (2018) 460–477.
+[19] J. Zhu, H. Zhou, C. Wang, L. Zhou, S. Yuan, W. Zhang, A review of topology optimization for additive manufacturing: Status and challenges, Chin. J. Aeronaut.
+34 (1) (2021) 91–110.
+[20] Y. Xiong, S. Yao, Z. Zhao, Y. Xie, A new approach to eliminating enclosed voids in topology optimization for additive manufacturing, Addit. Manuf. 32 (2020)
+101006.
+[21] I.e. a. Ghionea, Catia V5 Advanced Parametric and Hybrid 3D Design, Routledge, 2022.
+[22] A.K. Kundu, Aircraft Design, Queen’s University Belfast, Belfast, 2010.
+[23] T. Gowda, Optimization of design parameters of aircraft wing structure with Large Cut outs using Damage Tolerant design and finite element analysis approach,
+Int. J. Recent Technol. Eng. 8 (12) (2019).
+[24] H.N. Nabi, T. Lombaerts, Y. Zhang, E. van Kampen, Q. Chu, C.C. de Visser, Effects of structural failure on the safe flight envelope of aircraft, J. Guid. Control
+Dynam. 41 (6) (2018) 1257–1275.
+19P. Korba et al. H e l i y o n 10(2024)e27403
+[25] P. Della Vecchia, Development of Methodologies for the Aerodynamic Design and Optimization of New Regional Turboprop Aircraft, Doctoral Thesis -
+University degli Studi di Napoli Federico II, 2013.
+[26] J. Ainsworth, C. Collier, P. Yarrington, R. Lucking, J. Locke, Aircraft Design Studies Based on the ATR 72, Society of Allied Weight Engineers, 2010.
+[27] European Aviation Safety Agency, Factor of Safety CS 25.303, EASA, 2015.
+[28] European Aviation Safety Agency, Limit Maneuvering Load Factors CS25.337, EASA, 2015.
+[29] P. Lancelot, Transonic flight and movable load modelling for wing-box preliminary sizing, 18th International Journal of Structural Integrity 8 (5) (2019).
+[30] J. Cutler, Understanding Aircraft Structures, Backwell Science, 2006.
+[31] F. Toffol, S. Ricci, A meta-model for composite wingbox sizing in aircraft conceptual design, Compos. Struct. 306 (2023) 116557.
+[32] Z. Wang, Z. Wan, R. Groh, X. Wang, Aeroelastic and local buckling optimisation of a variable-angle-tow composite wing-box structure, Compos. Struct. 258
+(2021) 113201.
+[33] M. Picchi Scardaoni, M. Montemurro, E. Panettieri, Prandtlplane wing-box least-weight design: a multi-scale optimisation approach, Aero. Sci. Technol. 106
+(2020) 106156.
+[34] D. Farrar, The Design of Compression Structures for Minimum Weight, Journal of the Royal Aeronautical Society, 1949.
+[35] D. Farrar, Investigation of Skin Buckling, Aeronautical Research Council Reports and Memoranda, 1953.
+[36] Castillo, M. Acero, Highly orthotropic panels structural stability, Farrar and Bloch waves theory, International Journal of Structural Integrity 8 (5) (2017).
+[37] S. Zhang, D. Zhao, Aerospace Materials Handbook, CRC Press, 2016.
+[38] I. El-Sagheer, Finite element analysis of the behavior of bonded composite patches repair in aircraft structures, Frattura ed Intefrita Strutturale 14 (54) (2020)
+128–138.
+[39] Z. Padovec, Experimental and numerical analyses of optimized composite profiles for aircraft construction, Mech. Compos. Mater. 58 (2) (2022) 283–292.
+[40] Avions de Transport R´egional, ATR 72 Flight Manual, ATR Aircraft, 1989.
+[41] A. Castrichini, Preliminary investigation of use of flexible folding wing tips for static and dynamic load alleviation, Aeronaut. J. 121 (1235) (2016) 73–94.
+[42] V. Cusati, Development of a new mwthodology for the prediction of aircraft fuselage aerodynamic characteristics. Master thesis - Universita degli Studi di Napoli
+Federico II, 2013.
+[43] M.F. Nita, Aircraft Design Studies Based on the ATR 72, Project - Hamburg University of Applied Sciences, Hamburg, 2008.
+[44] T. Lisle, External spur gear root bending stress: a comparison of ISO 6336:2006, AGMA 2101-D04, Ansys Finite Element Analysis and strain gauge techniques,
+Mech. Mach. Theor. 111 (2017) 1–9.
+[45] M. Sˇ korupa, Methodology for designing a system of Public Passenger transport in a functional region, Period. Polytech. Transp. Eng. 52 (1) (2024) 24–32.
+[46] P.C. Vijayan, S. Durairaj, Design and analysis of Passengner aircraft wing box, Int. J. Eng. Res. Technol. 7 (2) (2019).
+¨
+[47] E. Ozbek, S. Ekici, T.H. Karakoc, Systems engineering approach on UAS, in: Unmanned Aerial Vehicle Design and Technology. Sustainable Aviation, Springer,
+2023.
+[48] E. Gunaltili, S. Ekici, A. Kalkan, F.E. Gocmen, U. Kale, Z. Yilmazoglu, T.H. Karakoc, Conceptual Design and optimization of a sustainable and environmentally
+friendly archetypal helicopter within the selection criteria and limitations, Heliyon 9 (6) (2023).
+20

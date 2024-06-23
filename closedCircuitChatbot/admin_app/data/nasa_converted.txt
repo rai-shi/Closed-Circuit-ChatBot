@@ -1,0 +1,721 @@
+ADVANCED COMPOSITE STRUCTURAL CONCEPTS AND MATERIAL
+TECHNOLOGIES FOR PRIMARY AIRCRAFT STRUCTURES*
+c
+Anthony Jackson
+Lockheed Aeronautical Systems Company
+SUMMARY
+Structural weight savings using advanced composites have been demonstrated for
+many years. Most military aircraft today use these materials extensively and Europe
+has taken the lead in their use in commercial aircraft primary structures. A major
+inhibiter to the use of advanced composites in the United States is cost. Material
+costs are high and will remain high relative to aluminum. The key therefore lies in
+the significant reduction in fabrication and assembly costs. The largest cost in
+most structures today is assembly.
+As part of the NASA Advanced Composite Technology Program, Lockheed
+Aeronautical Systems Company has a contract to explore and develop advanced
+structural and manufacturing concepts using advanced composites for transport
+aircraft.
+Wing and fuselage concepts and related trade studies are discussed. These
+concepts are intended to lower cost and weight through the use of innovative
+material forms, processes, structural configurations and minimization of parts. The
+approach to the trade studies and the downselect to the primary wing and fuselage
+concepts is detailed. The expectations for the development of these concepts is
+reviewed.
+INTRODUCTION
+The Lockheed program consists of two phases. Phase 1 is currently underway and
+Phase 2 is an option scheduled to start in 1992. Phase 1 consists of five tasks:
+Task 1, Design/Manufacturing Concept Assessment, is the subject of this paper; Task
+2, Structural Response and Failure Analysis, involves structural analysis methods
+development; Task 3, Advanced Materials Concepts, covers the development of new
+polymeric matrix systems for HSCT; Task 4, Assessment Review, is the phase final
+review leading to a decision on whether to exercise the option for Phase 2; and Task
+5, Box Beam, the subject of another paper at this conference, involves the
+fabrication and assembly of the C-130 wing center box developed under a previous
+NASA contract .
+The goals of this program are to identify emerging technologies which will lead
+to a 25 percent cost saving, a 40 to 50 percent weight saving, and a 50 percent
+reduction in parts count to validate the low cost manufacturing and to verify both
+the structural response and the weight savings.
+APPROACH
+Four wing and three fuselage concepts were selected for this program. These
+concepts are shown in Figure 1. The concepts were selected based on their potential
+for meeting the criteria, with a moderate risk. The Lockheed L-1011 was selected as
+PRKEDHVG PAGE BLANK NOT FILMED@!
+RESIN TRANSFER MOLDED WlNG DESIGN AUTOMATIC TOW PLACEMENT WlNG DESIGN
+'- / 'COCURED RIB CAPS1
+AlTACHMENT SHEAR TIE
+SHEAR TIES
+BRAIDED WING DESIGN MODULAR WINGBOX DESIGN
+/ INTEGRAL SPAR CAP
+",/
+INTEGRAL SPAR
+COBONDED
+RIB CAPS
+INTEGRAL HAT
+ENTIRELY STIFFENERS
+BRAIDED WITH 0 FIBERS
+INTO SKIN LAMINATE
+STRUCTURE IN CAP
+Figure la. Wing ConceptsSANDWICH FUSELAGE DESIGN
+INNER PAN - BRAIDED
+STIFFENER OVERWRAP
+WOVEN OR KNllTED
+PREFORM
+FRAME ATACHMENT
+INTEGRALLY MOLDED
+IANGULAR TUBE BRAIDED
+HAT STIFFENED FUSELAGE DESIGN
+OUTER FUSELAGE SANDWICH PULTRUDED OR ROLL FRAMED COCURED OR
+COCONSOLIDATED TO PANEL
+ONE PIECE BRAIDED STRUCTURE FORMED HAT STIFFENERS
+TAPE LAYED SKIN
+\ \
+Figure lb. Fuselage Conceptsthe baseline airplane for this study. A wing location was selected which is
+relatively highly loaded and w i l l yield test panels which can be tested in existing
+test machines and fixtures. The upper surface has to be buckling critical. The
+fuselage location was selected in a similar manner. Figure 2 shows the location of
+the wing section, and Figure 3 shows the location of the fuselage section. The
+design criteria for the wing are shown in Figure 4 and for the fuselage in Figure 5.
+WING CONCEPTS
+Four wing concepts were selected for the trade studies. Concept #1 is the
+Modular Wing. This concept is built up of various components each of which is
+fabricated using a different process. The stiffeners are pultruded, the skins are
+automatic tape placed, the ribs are press formed and the spars are filament wound.
+Concept 112 is the Resin Transfer Molded Wing. This concept is made from woven
+stitched preforms and is molded in two pieces. Concept 113 is the Advanced Tow
+Placement Wing. This concept also involves other fabrication processes, but the
+covers are made by automatic tow placement (ATP). Concept 114 is the Braided Wing.
+This concept is fabricated mainly by 2D and 3D braiding.
+CONCEPT #I - MODULAR WING
+This design is shown in Figure 6. The covers, spars and ribs are fabricated
+separately and are assembled by conventional methods. The covers are blade
+stiffened. The stiffeners are fabricated from dry preforms which are resin infused
+and either B-staged or fully cured Tee sections. The skins are fabricated in two
+parts. The inner skin is discontinuous at the stiffeners. It can be laid up by
+automatic tape dispenser and can be cut into strips by a waterjet cutter or by a
+Gerber cutter. The outer skin is laid up over a tool containing the stiffeners and
+inner skin strips by automatic tape dispenser. The fabrication sequence is shown in
+Figure 7.
+LOCKHEED L-1011 TRISTAR WlNG
+TOP VIEW WlNG BOX
+FWD
++ - ,184 ,-
+SPANWISE SKIN SPLICE
+I
+-
+192 SECT A A OWS 151.1
+Figure 2. Baseline Wing and Study LocationLOCKHEED L-1011 TRISTAR FUSELAGE
+19 FT 7 IN.
+I
+4
+178 FT 7.5 IN.
+I I
+I1 0
+WINDOW
+Figure 3. Baseline Fuselage and Study Location
+NX 14,000 LBIIN
+NXY 2,000 LBIIN
+10.38 PSI BURST
+P
+7.82 PSI CRUSHING
+L
+ECCENTRICITY .1 Oh
+Gt MIN. .70 E6 PSI
+UPPER COVER LOADS O.W.S. 151.00
+COVERS BUCKLING RESISTANT
+MAX. ALLOWABLE STRAIN .006 INIIN TENSION
+.0044 INAN COMPRESSION
+Figure 4. Wing Design Criteria5
+CONDITION CROWN SIDEWALL KEEL
+MAXIMUM TENSION (LBIIN) 1307 432 318
+MAXIMUM COMPRESSION (LBIIN) 489 705 943
+SHEAR (LBIIN) 150 600 300
+LOADS AT F.S. 750.00
+* SKINS SHEAR BUCKLING RESISTANT BELOW 1G
+MAX. ALLOWABLE STRAIN .006 INIIN TENSION
+.0044 lNilN COMPRESSION
+Figure 5. Fuselage Design Criteria
+Figure 6. Modular Wing ConceptINNER SKlN
+CAPS
+\
+LAY STIFFENERS IN TOOL
+.E DETAILS
+"\. J
+TAPE LAY OUTER SKIN
+Figure 7. Modular Wing Fabrication
+The front and rear spars are fabricated by automatic tow placement. Alterna-
+tives are filament winding or tape winding. The spars are designed as C-sections
+and can be wound as pairs in the form of a rectangular box and cut into C-sections
+after cure.
+The ribs are fabricated as separate caps and webs. Prepreg plies are cut by
+Gerber cutter, stacked, formed to shape and B-staged. The rib caps are then placed
+in the cover fabrication tool along with the inner skin strips and the stiffeners
+before the outer skin is laid directly on the curing tool. A caul plate is placed
+over the assembly which is then bagged and cured.
+The rib webs are compression molded using either thermosets or thermoplastics.
+Final assembly is achieved by using mechanical fasteners.
+CONCEPT #2 - RESIN TRANSFER MOLDED WING
+The design concept for the resin transfer molded (RTM) wing is shown in Figure
+8. The design calls for the wing box to be fabricated in two halves. Each half
+consists of one complete cover and part of the integral front and rear spars and
+with integral rib caps. Consequently, this design has no mechanical fasteners
+penetrating the outer surfaces.
+The wing box would require large woven/stitched preforms. Close stitching
+would be required to debulk the preforms sufficiently to allow them to be assembled
+in the RTM tool. Assembly of the final molded halves would be accomplished by
+mechanical fasteners in the spar webs and by mechanical attachment of the separately
+molded rib webs. Figure 9 shows the fabrication approach.SPAR CAPIWEB
+'A
+STIFFENERS
+STITCHED TO
+COVERS
+MECHANICAL \ COCURED RIB
+CAPISHEAR TIE
+Figure 8. RTM Wing Concept
+INJECT RESIN
+COVERS AND RIBS
+BOX
+Figure 9. RTM Wing FabricationThe wing cover assemblies w i l l weigh approximately 2500 pounds. The largest
+RTM assemblies fabricated today weigh about 250 pounds. This design would thus
+require considerable scale-up of current technology.
+A major concern with this design is the large number of tool parts which would
+be required. Stiffeners are usually normal to the skin, thus giving closed angles
+which would require segmented tools between each adjacent pair of stiffeners. A t
+various locations along the wing span and probably chordwise, sets of vents would be
+required for resin to escape and to release trapped air. These vents would be
+closed progressively as the resin migrates outward from the injection ports. After
+all vents are closed some pressure would be maintained via the injection port to
+reduce the chance of entrapped air settling and causing voids.
+CONCEPT /I3 - ADVANCED TOW PLACEMENT WING
+The design concept for the advanced tow placement (ATP) wing is shown in
+Figure 10. This design calls for the wing box to be tow placed and cured on a
+single mandrel. The large size of the wing box, however, made the handling of a
+single mandrel a major logistical problem. Consequently, the design was modified to
+fabricate the covers and spars separately. Rectangular tubes would be tape wound on
+mandrels and cut into two channel sections to form the blade stiffeners. This
+process allows plies to be picked up and dropped off to add localized reinforcements
+and 0 degree plies in the stiffener webs.
+Spars can be tow placed in pairs around mandrels. An alternative approach
+would be to incorporate the spar caps in the covers and to tow place the webs in
+groups. The fabrication approach is shown in Figure 11.
+The ribs would be press or diaphragm formed.
+CONCEPT /I4 - BRAIDED WING
+The design concept for the braided wing is shown in Figure 12. This design
+calls for a one-piece wing box. Both 2D and 30 braiding were considered. The
+physical size of the wing box being considered does not f i t within the confines of
+any current or planned braider. Today's largest 2D braider would have difficulty
+braiding 45-degree angles with 12k tow over a one-foot diameter mandrel. The size
+of carrier for this type of braider is five feet in diameter. A machine capable of
+braiding an L-1011 size wing box would require an enormous amount of floor and air
+space. More importantly, the individual carriers could not dispense a high enough
+quantity of fiber to make the process automatable. The carriers would require such
+frequent replacement that the process is not feasible in the foreseeable future.
+This is also partly true for 3D braiding. The limitations of closed section
+tubular structures is less severe. Atlantic Research has developed an automated 3D
+braider which utilizes 9216 fiber carriers. A fabrication approach is shown in
+Figure 13.
+Because of the problems in fabricating a complete wing box, this concept was
+dropped from further consideration. The braiding process was retained as an option
+for smaller assemblies as part of the modular wing box concept.INTEGRAL
+SPAR CAPS
+CAPS/SHEAR TIES
+Figure 10. ATP Wing Concept
+ATP CHANNELS
+TAPE LAY SPARS
+TAPE LAY OUTER SKIN
+DIAPHRAGM FORM RI
+Figure 11. ATP Wing FabricationINTEGRAL SPAR CAP
+IINNTTEEGGRRAALL SSPPAARR
+WEBKAP
+RIB CAPS
+INTEGRAL HAT
+STIFFENERS
+BRAIDED WWIlTTHH 00"" FFIIBBEERRSS
+STRUCTURE IINN CCAAPP
+Figure 12. Braided Wing Concept
+Figure 13. Braided Wing FabricationFUSELAGE CONCEPTS
+Three fuselage concepts were selected for the trade studies. Concept /I1 is a
+sandwich design incorporating braided triangular tubes in the sandwich. Concept {I2
+is a geodesic design based on an isogrid concept. Concept {/3 is a hat stiffened
+shell design.
+CONCEPT /I1 - SANDWICH STIFFENED SHELL
+The design concept for the sandwich shell is shown in Figure 14. This design
+consists of a sandwich using braided triangular tubes as the core. The tubes are
+oriented longitudinally. Periodically, there are flanged tubes as shown in Figure
+15 which act as longerons.
+The fabrication approach is to braid the tubes using dry fiber, then to
+pultrude through a resin bath and B stage. A fly-away foam mandrel would be
+required with this approach. The tubes can be fully cured and then assembled using
+an adhesive. This would eliminate the need for foam mandrels but would create many
+bond lines which would be difficult to inspect.
+The inner skin is built up from C-sections which could also be pultruded. The
+outer skin is formed by overwrapping with tow or tape. The fabrication plan for a
+complete barrel section is shown in Figure 16.
+CURVED FRAME MEMBER
+LONGERON WITH CUTAWAY
+FOR FASTENER ACCESS
+INNER PANEL
+CHANNEL SECTION \
+CHANNEL SECTION
+BRAIDED TRIANGULAR
+TUBES
+FLANGED TUBES
+'L
+OUTER SKIN
+Figure 14. Sandwich Stiffened Shell ConceptFigure 15. Flanged Triangular Tube Section
+PULTRUDE BRAIDED TRIANGLES
+FILAMENT WIN
+ASSEMBLE DETAILS
+PULTRUDE INNER SKIN
+PULL FORM FRAMES
+Figure 16. Sandwich Fuselage FabricationCONCEPT 112 - GEODESIC FUSELAGE
+The design concept for the geodesic fuselage is shown in Figure 17. This
+design calls for an isogrid stiffened shell. The helical stiffeners are formed by
+winding Filcoat material alternately in each direction. Filcoat is a patented
+Lockheed designed material consisting of Gr/Ep tape coated with an equal thickness
+of epoxy filled with glass micro-balloons called syntactic. At intersections the
+syntactic is squeezed out. Figure 18 shows a schematic of an intersection. The
+fibers in each direction are continuous and the intersections are the same height as
+the stiffeners.
+The hoop stiffeners are not continuous. They are pull-formed and cut to their
+individual lengths. Intersection clips and overwraps are stitched dry fiber forms
+containing mainly 245 degree and 90 degree plies to provide shear and flange bending
+strength. These clips and overwraps can be combined to minimize parts and are resin
+transfer molded and B-staged.
+The skin is finally tape or tow wrapped over a mandrel. The fabrication
+process is shown in Figure 19.
+CONCEPT 113 - HAT STIFFENED SHELL FUSELAGE
+The design concept for the hat stiffened shell fuselage is shown in Figure 20.
+This design consists of pultruded hat stiffeners cocured to an advance tow placed
+skin. The frames are designed to be resin infusion molded and the complete assembly
+is cocured. An alternative fabrication method for the stiffeners is to braid prior
+to pultrusion. The fabrication process is illustrated in Figure 21.
+RESIN INFUSED
+INTERSECTION CLIP
+3-D WOVEN Fl3ER FORM
+GEODESIC FUSELAGE
+STIFFENER MANDREL TOOL
+COVER
+HOOP STIFFENER
+SEGMENT
+Figure 17. Geodesic Fuselage ConceptLOW DENSITY SYNTACTIC
+(DISCONTINUES THROUGH THE NODES)
+UNIDIRECTIONAL GWEP
+(CONT INUES THROUGH THE NODE)
+Figure 18. Geodesic Intersection
+Figure 19. Geodesic Fuselage FabricationDESIGN FEATURES
+HAT STIFFENED TO INCREASE
+SPACING BETWEEN STIFFENERS
+CO-CURED ASSY
+GOOD DAMAGE TOLERANCE
+RFI FRAMES
+PULTRUDED HAT STIFFENERS
+Figure 20. Stiffened Fuselage Shell Concept
+PULTRUDE STIFFENERS &
+FRAMES
+-
+ASSEMBLE DETAILS
+COCURE ASSEMBLY
+Figure 21. Stiffened Shell Fuselage FabricationThe most effective way to fabricate these panels is as quarter panels.
+Essentially, upper, lower and side panels would be required. The use of closed hat
+stiffeners in the lower, or keel section, needs to be studied further because of
+problems associated with entrapment of bilge fluids. This is not considered to be a
+major problem as composites do not corrode. Drainage must, however, be provided to
+prevent accumulation of fluids and bacteria growth as well as the additional weight.
+TRADE STUDIES
+Figure 22 shows a summary of the options which were considered during the trade
+studies.
+Blade, Jay and hat stiffeners were considered as options for wing skin
+stiffening. The Jay stiffener was eliminated because it is more difficult to
+fabricate than the blade and it did not show a significant enough weight saving to
+justify a higher cost. Hat stiffeners posed several problems in fuel tanks. They
+can trap fuel, they can provide leak paths and, being wide, they are difficult to
+terminate outboard effectively. This led to the use of blade stiffeners in a l l of
+the wing concepts. The blade configurations are, however, different. The blade
+configurations for the three concepts which were carried to completion are shown in
+Figure 23. The ATP stiffeners are built up from side by side channel sections. For
+the modular wing the stiffeners are pultruded with tapered flanges so that they can
+be buried in the skin. For the RTM wing the stiffeners are built up from woven
+stitched fabric.
+The fuselage concepts are unique in themselves, so the stiffener configuration
+was not tradeable.
+CONFIGURATION FABRICATION METHODS MATERIALS
+CONCEPT 1 BRAID ATP RTlWRFl PULT T/S TIP
+MODULAR
+WlNG
+RTM
+WlNG
+ATP
+WlNG
+BRAIDED
+WlNG
+SANDWICH
+FUSELAGE
+GEODESIC
+FUSELAGE
+STIFFENED SHELL .
+FUSELAGE
+Figure 22. Trade Study OptionsATP WlNG MODULAR WlNG
+RTM WlNG
+Figure 23. Stiffener Comparison
+The fabrication methods looked at for each concept are summarized in Figure 22.
+The method selected for each component has already been discussed.
+The trade study also looked at the possible use of thermoplastic materials
+instead of thermosets. The high cost of thermoplastic materials today makes their
+use in subsonic aircraft unlikely. The inherent toughness of the thermoplastic
+materials has some advantages, but the toughened thermosets are much more cost
+effective. Thermoplastics do look good for press formed ribs and even for frames.
+The main disadvantage of mixing materials is that mechanical fasteners would be
+required for assembly as thermosets and thermoplastics are very difficult to bond
+together. Figure 24 shows typical thermoplastic material costs today. Figure 25
+shows a comparison of current and projected material costs. If projected prices do
+in fact become reality, then thermoplastics may be viable candidates for future
+commercial subsonic transports.
+CONCEPT EVALUATION
+Each concept was evaluated for cost, weight, design technology advancement,
+manufacturing technology advancement, producibility, damage tolerance, inspectabil-
+ity, maintainability and repair. The ability of the concept to meet the program
+goals was a major consideration. The scoring system used in the evaluation gave 40
+points to cost, 30 points to weight and 30 points to all other factors. The cost
+score is the cost goal divided by the concept cost multiplied by 40. The weight.
+score is the weight goal divided by the concept weight multiplied by 30. The other
+factors' score is the total of all points other than cost and weight divided by the
+maximum possible score multiplied by 30. This is summarized in Figure 26. The
+individual scores for the other factors are shown in the appendix along with the
+rationale.3
+-I
+2
+I00
+4
+1
+0-99 LBS
+I
+100-1000 LBS
+OVER 1000 LBS
+n
+UNITAPE COMMINGLED TOWPREG
+FABRIC
+Figure 24. Thermoplastic Material Forms Cost Comparison
+TIP COMMINGLED
+TIP UNITAPE
+BMI UNITAPE
+EPOXY FABRIC
+EPOXY UNITAPE
+CURRENT PROJECTED
+PRICES PRICES
+Figure 25. Cost of Various CompositesCOST (40 POINTS)
+COST SCORE = (COST GOAL / COST OF DESIGN) X 40
+WEIGHTS (30 POIEITS)
+WElGIlTS SCORE = (WEIGHT GOAL/ WEIGHT OF DESIGN) X 30
+OTtiEtl FACTORS (30 POINTS)
+OTHER FACTORS SCORE = (SUM OF POIFITS OF DESIGN 1 MAXIMUM POSSIBLE POINTS) X 30
+Figure 26. Scoring System
+WEIGHT TRADES
+The weights for the wing concepts were based on the total weight of the wing
+box structure per aircraft. Optimum sizing of the structure at outer wing station
+151.1 was obtained. A spanwise variation was then used based on previous wing
+studies. Additional weight was added to account for landing gear attach fittings,
+engine mount fittings and access doors.
+Weights for the fuselage concepts were based on sizing of the upper shell at
+station 750. The sizing assumed maximum tension and shear or maximum compression
+and shear. The sizing was then conservatively assumed to be constant at all circum-
+ferential locations. Total weight between Fuselage Stations 235 and 983 was taken.
+A comparison of wing box weights is shown in Figure 27 and the fuselage segment
+weights in Figure 28. A summary of the weight trade study is shown in Figure 29.
+COST TRADES
+The cost trades were based on recurring costs only, although nonrecurring costs
+were considered in the producibility trades. Recurring costs were based on a
+production run of 300 ship sets at a rate of five per month. Labor rates are 1995
+projected as agreed among the ACT program contractors at the Cost Workshops.
+Material costs were assumed to be $40/lb. A sensitivity study on material cost will
+be performed. It was assumed that there would be no purchase of facilities or
+equipment. The fly to buy was dependent on fabrication method. The cost analysis
+program used was ACCEM. It includes material burden, support labor, quality
+control, learning curves and industrial engineering standards. A comparison of the
+wing concept costs is shown in Figure 30 and a comparison of the fuselage costs is
+shown in Figure 31. The cost trade study results are summarized in Figure 32.COVERS
+a
+RIBS & BULKHEADS
+SPARS
+BASELINE MODULAR RTM ATP
+Figure 27. Wing Box Weights
+SKINISTRINGERS
+MINOR FRAMES
+9610 LBS
+BASELINE SANDWICH GEODESIC HATSTIFFENED
+Figure 28. Fuselage Shell WeightsFigure 29. Weight Trade Study Results
+a
+ASSEMBLY
+COVERS
+m
+SPARS
+[7 RIBS
+COVERS & SPARS
+1
+BASELINE
+13% SAVINGS 10% OVER BASELINE 24% SAVINGS
+Figure 30. Wing Concept Cost ComparisonsSKIN
+Efl FRAMES
+STRINGERS
+0
+ASSEMBLY
+BONDED ASSEMBLY
+38% OVER BASELINE 177% OVER BASELINE 30% SAVINGS
+Figure 31. Fuselage Concept Cost Comparison
+CONCEPT COST $ SCORE
+I I 1 1 I
+BASELINE 2,636,425
+(GOAL)-25% (1,977.31 8)
+WING
+MODULAR 2,301,918 34.36
+1
+RTM 2,912,135 27.1 6
+1 1 1 1
+(
+ATP 2,002,760 39.49
+I I
+BASELINE 161,704
+(GOAL)-25% (1 21,278)
+FUSELAGE SANDWICH 221.985 21.85
+HAT STIFFENED 11 2,962 42.95
+Figure 32. Cost Trade Study ResultsCost benefits and drivers for each concept are summarized in Figure 33.
+DOWNSELECT
+Based on the trade studies, one wing and one fuselage concept was selectec from
+the concepts shown in Figures 34 and 35. Figure 36 shows a summary of the rankings
+of the concepts. The Advanced Tow Placement Wing and the Hat Stiffened Shell
+Fuselage designs finished the clear winners. Both came close to the 25 percent cost
+saving target and the 40 percent weight saving target and exceeded the 50 percent
+reduction in parts count. The weight saving goal shown has been reduced to 34
+percent to account for resizing. The 34 percent was an overall goal bearing in mind
+the fact that the wing would be expected t o have a larger savings from resizing than
+would the fuselage which has volume constraints. The selected concepts are shown in
+Figures 37 and 38.
+The original program plan had called for continuing with a backup design for
+both the wing and the fuselage through the end of Phase 1. The primary concepts,
+however, emerged as such clear winners that it was decided to put a l l the remaining
+effort into developing and validating the primary concepts.
+EXPECTATIONS FOR DEVELOPMENT
+Both the selected concepts depend on minimization of mechanical fasteners and
+the fabrication of large components. The development of these concepts depends on
+the minimization of discontinuities, the development of analytical methods, the
+demonstration of repeatable process and the use of in-process controls which will in
+r
+CONCEPT COST BENEFITS COST DRIVERS
+MODULAR MORE EFFlCENT USE TOOL LOADING
+WING OF MATERIALS .M ATERIAL COST
+ADDITIONAL FASTENERS
+INCREASED ASSEMBLY
+RTM STIFFENER SIMPLICITY TOOL LOADING
+WING REDUCED PART COUNT COMPLEX TOOLING
+MINIMAL MECHANICAL MATERIAL COST
+ASSEMBLY
+ATP USE OF ATP EQUIPMENT * HANDLING
+WING INTEGRAL SPAR CAPS TOOL LOADING
+REDUCED ASSEMBLY
+SANDWICH USE OF AUTOMATED HIGH PART COUNT
+FUSELAGE FABRICATION PROCESSES ASSEMBLY
+* MATERIAL COST
+GEODESIC COMMONALITY OF DETAILS HIGH PART COUNT
+FUSELAGE HAND PLACEMENT OF
+DETAILS
+MATERIAL COST
+STIFFENED SHELL REDUCED NUMBER OF PARTS COMPLEX TOOLING
+FUSELAGE COCURED FRAMES
+>
+Figure 33. Cost Benefits and Cost DriversI I
+COVER SPAR RIBCAP
+MODULAR
+WlNG BOX
+RTM
+WlNG BOX
+ATP
+WlNG BOX
+Figure 34. Wing Box Concepts
+GEODESIC
+STIFFENED
+Figure 35. Fuselage Concepts48.88
+STIFFENED 27.54 42.95 87.99
+SHELL
+Figure 36. Downselect Summary
+DESIGN FEATURES:
+ONE PIECE DESIGN - NO SPANWISE1
+C1 IORDWISE JOINTS
+INTEGRAL CONTINUOUS BLADE
+STIFFENERS
+UPPERtLOWER COVERS WlTH
+INTEGRAL SPAR CAPS
+NO FASTENERSILEAI< PATHS
+TtIROUGH THE COVERS
+INTEGRAL RIB CAPS WlTH SHEAR
+CLIPS
+Figure 37. Selected Wing ConceptDESIGN FEATURES:
+HAT STIFFENED TO INCREASE
+SPACING BETWEEN STIFFENERS
+CO-CURED ASSY
+GOOD DAMAGE TOLERANCE
+RFI FRAMES
+PULTRUDED HAT STIFFENERS
+Figure 38. Selected Fuselage Concept
+effect build in the quality and minimize scrap and buy-off. The concepts involve a
+moderate risk but can be approached in an incremental manner which will improve the
+chances of success. Neither concept involves an all or nothing approach and altern-
+ative paths are available if needed.
+SUMMARY AND CONCLUSIONS
+Advanced structural and material trade studies were carried out on four wing
+and three fuselage concepts. The trade studies showed that the Advanced Tow
+Placement Wing concept and the Hat Stiffened Shell Fuselage concept both showed
+excellent potential for meeting the program goals. The weight savings are close
+enough to the goal that there is a reasonable chance of meeting or exceeding this
+goal with further development and refinement. The wing cost is within one percent
+of the goal and the cost of the fuselage concept exceeds the goal. Efforts are now
+underway to validate these designs by more detailed analyses and by fabrication and
+test.APPENDIX
+DESIGN
+CONCEPT TECHbIOLOGY RATIONALE
+ADVANCEMENT
+MODULAR CONVENTIONAL ASSEMBLY METHODS. LARGE COCURED COVER
+WING 4 ASSEMBLIES REPRESENT A SLIGI-IT TECHNOLOGY ADVANCEMENT.
+RTM CONVENTIONAL DESIGN CONFIGURATION WITH EXCEPTION OF COVERISPAfi
+WlNG 5 INTEGRATION AND STITCHED PREFORM.
+ATP CONVENTIONAL DESIGN CONFIGURATION. EMPtIASIS ON LARGE COCURED
+5
+WING ASSEMBLIES. MECI-IANICAL FASTENERS SIGNIFICATANTLY REDUCED.
+SANDWICH UNIQUE DESIGN CONCEPT AMEANABLE TO AUTOMATED FABRICATION
+FUSELAGE 8 TECI-1NIQUES. SIMPLIFIED FRAME TO COVER ATTACHMENT.
+GEODESIC 6 HIGHLY EFFICIENT, DAMAGE TOLERANT DESIGN. DESIGN SUITABLE FOR
+FUSELAGE AUTOMATED MANUFACTURING METHODS.
+STIFFENED SHELL DESIGN CONCEPT IS CURRENT STATE OF THE ART. CONFIGURATION
+FUSELAGE
+ALLOWS FOR COCURING OF ALL STRUCTURAL ELEMENTS.
+4
+TECHNOLOGY
+CCNCEPT ADVANCEMENT RATIONALE
+MANUFACTURING
+MODULAR DIFFICULT TO LAY UP RIB CAPS AND COCURING TO THE COVER
+3
+WING AND STIFFENERS. LITTLE TECHNOLOGY ADVANCEMENT.
+ONE-SHOT COMPLETE RTM WlNG HALF WOUCD BE A TREMENDOUS
+RTM
+9 ADVANCEMENT OF THE TECHNOLOGY. DESIGN ELIMINATES MANY
+WlNG
+COMPONENTS AND FASTENERS.
+ATP OF C-CHANNEL BLOCKS AND ASSEMBLY TO FORM COVERS
+ATP 7 REPRESENTS AN ADVANCEMENT OVER CURRENT METtIODS. CO-
+WING CURING OF INTEGRAL RIB CAPS IS A SIGNIFICANT ADVANCEMENT.
+SANDWICH SIGNIFICANT ADVANCEMENT IN MANDREL TECHNOLOGY. SOME
+ADVANCEMENT IN COMPONET LOCATION ARENA WITH THE MANY
+FUSELAGE 7
+TUBES. A SIGNIFICANT ADVANCEMENT IF PULTRUDED.
+GEODESIC ATP OF HELICAL STIFFENERS AND RFI OF INTERSECTION
+FUSELAGE 7 CLIPS IS A SIGNIFICANT ADVANCEMENT. PULL FORMING OF
+FRAMES IS AN EXTENSION OF TECHNOLOGY.
+STIFFENED SHELL LITTLE ADVANCEMENT ASIDE FROM THE FACT THAT THE
+3
+FUSELAGE FRAMES ARE COCURED.
+*APPENDIX
+INSPECT-
+COPICEPT ABILITY RATIONALE
+SEPARATE COMPONENTS CAFJ BE INSPECTED, BUT ALSO WILL REQUIRE
+tvlODULAR 6
+EXTENSIVE POST PROCESS INSPECTION DUE TO COCONSOLIDATION
+WlNG
+AND/OR BONDING
+PREFORM MAY BE INSPECTED BEFORE MOLD FILLING. WIDE RANGE OF
+RTM
+8 IN-PROCESSMETHODS COULD BE USED FOR MONITORING THE MOLD FILL
+WING
+AND CURE, INCLUDING PROCESS MODELS.
+AT P TOW QUALITY, SIZE AND PLACEMENT MUST BE MONITORED AT ALL TIMES.
+WlPlG 6 WILL DEPEND ON MACHINE. PLACEMENT MONITORING NEEDS TO BE
+DEL'ELOPED.
+SANDWICH TUBES COULD BE INSPECTED IN-LINE, BUT POST PROCESS WILL BE VERY
+FUSELAGE 5 DIFFICULT BETWEEN TUBES.
+GEODESIC VERY COMPLEX GEOMETRY. THE TRUSS INTERSECTIONS ARE
+2
+FUSELAGE UNINSPECTABLE.
+HIGH SCORE BECAUSE COMPONENTS MAY BE INSPECTED BEFORE FINAL
+STIFFENED StIELl
+FUSELAGE 8 CURE. IN-PROCESS INSPECTION OF PULTRUDED HATS AND RTM FRAMES
+HAVE EASY GOEMETRY.
+J
+MAINTAIN-
+CONCEPT RATIONALE
+ABlLlN
+MODULAR 6 MODULAR CONSTRUCTION FACILITATES LESS COSTLY REPAIR
+WING TECHNOLOGY. HEAVY STRUCTURAL DAMAGE IS UNREPAIRABLE AT
+FIELD LEVEL.
+LEAK PATHS ARE ELIMINATED. CONSTRUCTCON FACILITATES LESS COSTLY
+RTM
+6 REPAIR TECHNOLOGY. HEAVY STRUCTURAL DAMAGE IS UNREPAIRABLE
+WlNG
+AT FIELD LEVEL.
+ATP LEAK PATHS ARE ELIMINATED. REPAIR AT FIELD LEVEL IS LESS COSTLY.
+WlNG 7 HEAVY DAMAGE WILL INDUCE REMOVE AND REPLACEMENT OF ENTIRE
+STRUCTURE.
+SANDWICI-1 COMPOSITE MATERIALS ELIMINATE MOST MAINTAINABILITY ISSUES.
+FUSELAGE 8 REPAIR CAN BE EASILY DONE AT THE FIELD LEVEL.
+GEODESIC CREATES REPAIR PROBLEMS THAT CANNOT BE SATISFIED WITHOUT
+FUSELAGE 4 MAJOR RECONSTRUCTION OF LARGE AREAS. REQIURES EXCESSIVE SPARE
+/REPAIR PARTS INVENTORY.
+STIFFENED SHELL 6
+REPAIR PROBLEMS IN TRANSFERING LOAD ACROSS DAMAGED AREA.
+FUSELAGEAPPENDIX
+L
+CObICEPT PRODUCiBlLlN RATIONALE
+MODULAR RIB CAP CONFIGURATION DIFFICULT TO FABRICATE AND EXPENSIVE. NO
+3
+WING PROVISION FOR TOLERANCE FLOAT. LIMITED ACCESS FOR INTERAL FAST.
+RTM 6 THIS COFJCEPT IS HIGH RISK. BUT I-IAS HIGH PAY-OFF. ALSO, HAS SAME
+WING ACCESS PROBLEMS AS THE MODULAR DESIGN.
+ATP CONCEPT HAS LESS RISK THAN RTM DESIGN, AND ALSO LESS PAY-OFF.
+WING 6 SAME ACCESS PROBLEMS AS OTHER WING CONCEPTS.
+TOO MANY PIECES. THE LENGTH AND SMALL CROSS SECTION OF THE
+SANDWICH
+TRIANGLES MAKE MANDREL REMOVAL DIFFICULT. INSPECTION OF BONDED
+FUSELAGE 3
+ASSEMBLY PRESENTS PROBLEMS.
+GEODESIC TOO MANY PARTS. JUNCTIOFI CLIPS VERY DIFFICULT TO FA0 WITH
+FUSELAGE 3 CONTINUOUS FIBER COMPOSITES. VERY COMPLEX TOOLING, MANY PARTS.
+STIFFENED SHELL ALL PROCESSES ARE AUTOMATED INCLUDING RTM. PULTRUSION AND
+8
+FUSELAGE FILAMENT WINDING.
+DURABILITY 1
+CONCEPT DAMAGE RATIONALE
+TOLERANCE
+IJODULAR 3 CONCERN IS THAT IMPACT DAMAGE WILL CAUSE STIFFENER TO PULL
+WING AWAY FROM SKIN DRASTICALLY REDUCING MECHANICAL PROPERTIES.
+THROUGH THE THICKNESS REINFORCEMENTS HOULD PREVENT STIFFENER
+RTM 7
+UNBOND AND MINIMIZE IMPACT DAMAGE. LOWER FIBER VOLUME IS STILL
+WlNG
+A CONCERN, AS IT WOULD REDUCE STRLJCTURAL INTEGRITY.
+ATP
+5 THIS IS TYPICAL OF CURRENT STRUCTURES.
+WlNG
+THINNESS OF FACINGS IS A DURABILIR CONCERN. IMPACT COULD CAUSE
+SANDWICH
+FUSELAGE 3 SEPERATION OF TRIANGULAR TUBES OVER A LARGE REGION. THlS COULD
+REDUCE RESIDUAL PROPERTIES.
+THlS CONFIGURATION IS HIGHLY REDUNDANT AND SHOULD HAVE OUT-
+GEOOESiC 9 STANDING DURABILITY AND DAMAGE TOLERANCE. HOWEVER, THERE IS A
+FUSELAGE HIGH RISK OF CRITICAL MANUFACTURING FLAWS IN THE DIAGONAL
+CROSS-OVERS.
+- ---
+STIFFENED SHELL CONSIDERED SLIGHTLY BETTER THAN CURRENT STRUCTURES BECAUSE OF
+FUSELAGE 6 THE ELIMINATION OF FASTENERS AND HOLES.APPENDIX
+TECHNOLOGY ~ ~ ~ ~ ~ : ~ "
+MAINTAINABILITY1
+CONCEPT ADVANCEMENT PRODUC~BIL~TY INSPECTAOILITY TOTAL
+DESIGN MFG
+MODULAR 4 3 3 3 6 6 25 12.5
+WlNG
+RTM
+WING 5 9 6 7 8 6 41 20.5
+ATP
+WING 5 7 6 5 6 7 36 18.0
+SANDWICH
+FUSELAGE 8 7 3 3 5 8 34 17.0
+GEODESIC 6 7 3 9 2 4 31 15.5
+FUSELAGE
+STIFFENED SHELL 4 3 8 6 0 6 35 17.5
+FUSELAGE

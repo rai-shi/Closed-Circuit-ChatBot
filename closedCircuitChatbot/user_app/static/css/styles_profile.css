@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-image: url('/static/img/13.jpg');
+    position: absolute;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 30px;
+    margin-left: 0; /* Resim ile metin arasındaki boşluğu ayarlayabilirsiniz */
+    font-weight: 900;
+}
+.logo {
+    width: 100px; /* İstediğiniz genişliği ayarlayabilirsiniz */
+    height: 100px; /* İstediğiniz yüksekliği ayarlayabilirsiniz */
+    padding-top: 20px; /* Yukarıdan boşluk ekler */
+    padding-left: 10px;
+}
+
+.form-box {
+    width: 60%;
+    height: 480px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.842);
+    box-shadow: 0 0 20px 9px #6865641e;
+    border-radius: 35px;
+    margin: 2% auto ;
+    overflow: hidden;
+}
+
+
+.form-box {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.about-me {
+    width: 60%; /* İki bölümü eşit genişlikte yapmak için */
+}
+
+.profile {
+    background-color: rgb(255 246 234 / 50%);
+    /* deb887 rengi %50 transparan */
+    padding: 10px; /* İçeriği kenarlardan biraz uzaklaştırmak için */
+    width: 35%;
+
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+    
+}
+
+.profile-picture img {
+    margin-right: 15%; /*Fotoğraf ile kullanıcı adı arasında boşluk bırakmak için*/
+    border-radius: 50%; /* Kenarları yuvarlatma */
+    max-width: 100px; /* Maksimum genişlik */
+    max-height: 100px; /* Maksimum yükseklik */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column; /* Butonları dikey olarak yerleştirir */
+    width: 30%; /* Butonların tam genişlikte olmasını sağlar */
+    margin-top: 35%;
+    
+}
+.settings-btn,
+.logout-btn {
+    margin-top: 10px; /* Butonların üst üste olmaması için boşluk ekler */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.settings-btn:hover,
+.logout-btn:hover {
+    background-color: #f0f0f0; /* Buton üzerine gelindiğinde arka plan rengi */
+    border-radius: 5px;
+}
+
+
+.return-btn {
+    text-decoration: none; /* Alt çizgiyi kaldırır */
+    color: rgb(117, 51, 51); /* Metin rengini kırmızı yapar */
+    margin-top: 55px; /* Üstüne 5px boşluk ekler */
+    font-size: 25px; /* Font boyutunu 15px yapar */
+    display: inline-block; /* Elementi blok olarak ayarlar */
+}
+
+.about-me {
+    margin-top: 3%;
+}
+.about-me {
+    
+    float: left; /* Diğer içeriklerin yanında durmasını sağlar */
+    
+}
+
+/* Küçük ekranlar için stiller */
+@media screen and (max-width: 1350px) {
+    .about-me {
+        overflow-y: auto; /* Dikey scrollbar'ı otomatik olarak ekler */
+        max-height: 400px; /* Maksimum yükseklik belirlenir, aşan içerikler scrollbar ile kaydırılır */
+        float: none; /* Yan yana durma stilini kaldırır */
+        max-height: none; /* Maksimum yüksekliği kaldırır, içerik ne kadar büyük olursa olsun hepsi görülebilir */
+    }
+}
+
+.change-password-screen {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 300px; /* veya istediğiniz genişlik */
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

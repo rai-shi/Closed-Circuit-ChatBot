@@ -1,0 +1,786 @@
+ProgressinAerospaceSciences97(2018)22–34
+ContentslistsavailableatScienceDirect
+Progress in Aerospace Sciences
+journalhomepage:www.elsevier.com/locate/paerosci
+Recent advances in the development of aerospace materials
+Xuesong Zhanga,*, Yongjun Chenb,**, Junling Hua
+aDepartmentofMechanicalEngineering,UniversityofBridgeport,Bridgeport,CT06604,USA
+bMaterials&ProcessEngineering,SikorskyAircraftCorporation,ALockheedMartinCompany,6900MainSt,Stratford,CT06614,USA
+A R T I C L E I N F O A B S T R A C T
+Keywords: In recent years, much progress has been made on the development of aerospace materials for structural and
+Aerospacematerials engineapplications.Alloys,suchasAl-basedalloys,Mg-basedalloys,Ti-basedalloys,andNi-basedalloys,are
+Designcriteria developedforaerospaceindustrywithoutstandingadvantages.Compositematerials,theinnovativematerials,are
+Mechanicalproperties takingmoreandmoreimportantrolesinaircrafts.However,recentaerospacematerialsstillfacesomemajor
+Frettingwear challenges, such as insufficient mechanical properties, fretting wear, stress corrosion cracking, and corrosion.
+Corrosion
+Consequently,extensivestudieshavebeenconductedtodevelopthenextgenerationaerospacematerialswith
+superiormechanicalperformanceandcorrosionresistancetoachieveimprovementsinbothperformanceandlife
+cyclecost.Thisreviewfocusesonthefollowingtopics:(1)materialsrequirementsindesignofaircraftstructures
+and engines, (2) recent advances in the development of aerospace materials, (3) challenges faced by recent
+aerospacematerials,and(4)futuretrendsinaerospacematerials.
+1. Introduction (property/density), damage tolerance, corrosion resistance, and high-
+temperature resistance. The typical yield strength and elongation of
+Therapidgrowthintheaerospaceindustrygivesanimpetusforthe somemetalalloysaresummarizedinFig.2.Thedensityofaluminumis
+fastdevelopmentofnewaircraftmaterials.Themaindrivingforceiscost one-thirdthatofsteel[4],whiletheyieldstrength(YS)ofAl-basedal-
+reductionthroughweightreductionandservicelifeextensionofaircraft loys, such as 7075-T6, can reach up to 520MPa [1]. The density of
+parts/structures. Light weight design of aircraft frames and engines magnesiumisonlytwo-thirdsthatofaluminumandaquarterofsteel,
+design with materials of improved mechanical properties can improve whilethetensilestrengthofMg-basedalloy(Mg97Zn1Y2)canreachupto
+fuel efficiency, increase payload, and increase flight range, which 610MPa[5].Inaddition,Mg-basedalloyspossessexceptionalstiffness,
+directly reduce the aircraft operating cost [1]. Therefore, many re- anddampingcapability.SuchhighspecificpropertiesofMg-basedalloys
+searches have been devoted to developing materials with optimized enable aircraft to further reduce weight and increase payload [5,6].
+properties to reduce weight, improve damage tolerance, fatigue and Ti-based alloys, such as Ti-6Al-4V alloy, B120VCA alloy, and
+corrosionresistance[1]. Ti-10V-2Fe-3Al, possess lower density, higher strength than high
+Thedevelopmentofaircraftmaterialscanbetracedbacktothefirst strengthsteelsathigh-temperature.TheF-22fighteraircraftemployed
+day of flight in the year of 1903 when the airframe was a wooden Ti-10V-2Fe-3Al alloy at 1240MPa tensile strength for arrestor hook
+structure.Aftertheyearof1927,Al-basedalloysachievedthedominant structures[7].Theincreasinguseofcompositematerialsintheaerospace
+position in aircraft materials with the development of cladding and industry is mainly due to their higher specific strength and better
+anodizingtechnologies[2].Al-basedalloys aredominantinaerospace corrosionandfatigueresistancethanmostmetals[1].Forexample,the
+materialsover80years[1].However,thissituationhasbeenchangedin minimum yield strength of carbon fiber reinforced polymer (CFRP) is
+recentfewyears.Fig.1showsthetotalmaterialsusedinBoeingseries 550MPa, while the density of CFRP is only one-fifth that of steel and
+aircraft.Al-based alloystendtodecrease, andcompositeshaveexperi- three-fifthsofAl-basedalloys[8].Moreover,compositematerials,such
+encedarapidincreaseinthetotalmaterialsinthelatestBoeingmodels. as ceramic matrix composites, have been proven to withstand high
+Theattractivenessoflight-weightalloysinthemanufacturingofhigh- operatingtemperatureof1400(cid:1)C[9],whichcansatisfytheincreasing
+performance aircraft parts relies on their high specific properties demand for aircraft speed. Ni-based superalloys have excellent
+* Correspondingauthor.DepartmentofMechanicalEngineering,UniversityofBridgeport,Bridgeport,CT06604,USA.
+** Correspondingauthor.Materials&ProcessEngineering,SikorskyAircraftCorporation,ALockheedMartinCompany,6900MainSt,Stratford,CT06614,USA.
+E-mailaddress:xuezhang@my.bridgeport.edu(X.Zhang).
+https://doi.org/10.1016/j.paerosci.2018.01.001
+Received21August2017;Receivedinrevisedform16January2018;Accepted17January2018
+0376-0421/©2018ElsevierLtd.Allrightsreserved.X.Zhangetal. ProgressinAerospaceSciences97(2018)22–34
+2. Thedesigncriteriaoftheaerospacematerials
+Thematerialpropertyrequirementsforaerospacematerialsvarywith
+theparticularcomponentunderconsideration.Materialsselectionforan
+aircraftdesigndependonthedesignrequirementsofeachcomponent,
+includingloadingconditions,manufacturability,geometriclimits,envi-
+ronmentalaspects,andmaintainability[21].
+2.1. Thedesigncriteriaoftheairframematerials
+Airframematerialsaredesignedtoprovidelong-term(60000flight
+hours)supportforboththestaticweightofaircraftandadditionalload
+subjectedfromservice[1].Thisconceptrequiresairframematerialsto
+possess acceptable densities for the weight reduction and appropriate
+mechanicalpropertiesfortheintendeduse.Italsorequiresmaterialsto
+providesuitabledamagetoleranceforthe purposeoflong-termusein
+extreme temperature conditions (-30-370(cid:1)C), moisture (both extreme
+Fig.1. TotalmaterialsusedinBoeingseriesaircraft[1,3]. humidity and desert environment), and ultra-violet radiation [22].
+Differentapplicationshavetheirspecificdesignandselectioncriteriaof
+airframematerials.Forexample,thewingissubjectedtobendingduring
+flighttosupportthestaticweightoftheaircraftanddynamicloadsdueto
+maneuveringorturbulence.Itisalsosubjectedtoadditionalloadsfrom
+thelandinggear,theleadingedgeslats,andthetrailingedgeflapsduring
+taxiing, take-offs and landings. Therefore, the wing's upper surface is
+undercompressionduringtheflightandtensionduringthetaxing,while
+thelowersurfaceisundertheoppositeloads.Thisrequiresthematerials
+forthewingtoprovidebothhightensilestrengthandhighcompressive
+strength [1]. The fuselage is exposed to the conditions of high cabin
+pressure and shear loads, and requires the materials to possess high
+tensile and shear strength. Al-based alloy is one of the widely used
+airframe materials. For example,2024 Al-based alloy has beenwidely
+usedinfuselagesbecauseofitsmoderateyieldstrength(324MPa),good
+fracture toughness (37MPam1/2), and high elongation rate (21%).
+Moreover,theuseofpolymermatrixcomposites(PMC),suchasCFRP,
+foraircraftstructureshassignificantlyincreasedinrecentyearsbecause
+oftheirhighstrength(3450–4830MPaforstandardmodulusCFRP)and
+elastic modulus (224–241GPa), and high-temperature capability (to
+withstandtemperaturesbetween290and345(cid:1)C)[22].
+Fig.2. Typicalyieldstrengthandelongationofsomemetalalloys.Alalloys
+2.2. Thedesigncriteriaoftheaircraftengine'smaterials
+include2024-T351,2324-T39,7050-T73651,7075-T651,7475-T7351,2099,
+and2199[1];MgalloysincludeMg97Zn1Y2,AZ91,Zk60,andWE43[5];Ti
+Thrustimprovementandweightreductionforaircraftengineshave
+alloys include Ti-5Al5V5Mo3Cr and Ti-6-4 [12], Ti-10V2Fe3Al [13], and
+Ti-600 [14]; Ni alloys include Ni-15.6Cr10⋅6Co5⋅5W [15], alloy 625 [16], beenthedrivingforcesindevelopmentofenginematerials.Theengine
+CM-247LC[17],andwroughtIn718[18];SteelsincludeAISI316L,AISI321, materialsarerequiredtopossesslowdensitiesforweightreduction,and
+AISI304,andAISI347[19]. good mechanical properties in a high-temperature and corrosive envi-
+ronment. Aircraft turbine engines consist of cold sections (fan,
+mechanicalpropertiesthanconventionalstainlesssteelathightemper- compressor, and casing) and hot sections (combustion chamber and
+aturessuchas700(cid:1)C.Forinstance,theyieldstrengthofwroughtNi-Cr-W turbine). Different sections of engines have different temperatures,
+superalloyscanreachupto300MPaat700(cid:1)C,whichis2–3timesmore resultingindifferentselectioncriteriaforaircraftenginematerials.Cold
+thanthestrengthofstainlesssteelat700(cid:1)C[10,11]. sectioncomponentsrequirehighspecificstrengthandcorrosionresistant
+Althoughaerospacematerialshavemadegreatadvancements,they materials.Ti-basedalloys,Al-basedalloys,andpolymercompositesare
+stillfacemajorchallenges.Theapplicationsofaerospacematerialsare optimummaterialschoiceforthisapplication.Theoperatingtempera-
+stilllimitedbytheinsufficientmechanicalpropertiessuchasstrength, tures of the compressor are normally in the range of 500–600(cid:1)C. The
+which is not high enough to meet the increasing demand. Moreover, frequentlyusedmaterialforthispartisTi-basedalloys(Ti-6Al-2Sn-4Zr-
+frettingwearacceleratesthefatiguefailureofcomponentstocausecrack
+6Mo)becauseoftheirhighstrength(YS¼640MPa)athightemperature
+initiationsitesonthematerialsurface.However,thegeneraltheorythat
+(450(cid:1)C)andexcellentcorrosionresistance.Thehotsectionsofaircraft
+identifiesfrettingbehaviorandthepreventionoffrettingisstillunclear enginesrequirematerialswithhighspecificstrength,creepresistance,
+yet[20].Furthermore,corrosionproblemsalsoinhibittheuseofaero- hotcorrosionresistance,andhightemperatureresistance[21,22].The
+spacematerialsandhavecausedalossof$276billionperyearintheUS, operatingtemperaturesoftheturbinesectionareusuallyintherangeof
+whichismuchgreaterthanthelosscausedbynaturaldisasters[21].This
+1400–1500(cid:1)C,whichgreatlyexceedsthelimitofTi-basedalloys(around
+paperaimstoreviewtherecentadvancesofmajoraircraftmaterials,as
+600(cid:1)C)[22,23].Consequently,thewidelyusedmaterialsforthisappli-
+wellastoprovideapictureofcurrentchallengesandfuturetrends. cations are Ni-based superalloys (Ni-14.5Zr-3.2Mo) because of their
+excellentheat-resistancestrength(780MPaat950(cid:1)C)[24].
+23X.Zhangetal. ProgressinAerospaceSciences97(2018)22–34
+3. Recentadvancesinaircraftmaterials alloys.Zinchasthelargestsolubility(31.6wt%)inaluminumthanany
+otherelement,andtheincreaseofZncontentcanimprovethestrength
+3.1. Al-basedalloys [27].MgandCuoftenusedincombinationwithZntoformMgZn2phase,
+Al2CuMg phase, and AlCuMgZn phase in aluminum, resulting in
+Al-based alloys have been the primary materials for the aircraft remarkablesolid-solutestrengthening.Themaximumtensilestrengthof
+structures before the increased use of composites. Al-based alloys still Al-Znbasedalloyisachievedat2.9wt%Mgcontent[27].SomeAl-Zn
+remainasimportantairframestructurematerialsbecauseoftheirseveral based alloys also contain copper at 2wt% to improve tensile strength
+advantagessuchaslowcost,easytomanufacture,andlightweight.Al- [1].Al-ZnbasedalloysexhibitthehigheststrengthofanyAl-basedalloys,
+based alloys can be heated treated and loaded to relatively high level such as 7075 alloy (YS¼510MPa) Therefore, 7075 alloy is used in
+of stresses. The recent researches on the development of 2000, 7000 buildingupperwingskin,stringersandstabilizerswherestrengthisthe
+series Al-based alloys and Al-Li alloys for aircraft applications are top consideration [1,28]. However, the low fracture toughness and
+reviewed. damagetolerance,andpoorcorrosionresistancelimittheuseof7075
+alloyinaerospaceindustry.Recentworksfocusonthedevelopmentof
+3.1.1. 2000seriesAl-Cubasedalloys Al-Znbasedalloyswithbalancedproperties.Dursunetal.reportedthe
+2000seriesAl-basedalloysaremainlyalloyedwithcopperandthey modification of Zn/Mg/Cu ratio can improve the damage toleranceof
+areheattreatabletostrengthcomparabletosteel.Copperhasasolubility high-strengthAl-Znbasedalloys[1].Researchhasshownthattheopti-
+in Al at the amount of 5.65wt%. Cu dissolved in the Al matrix forms mizedpropertiesof7000seriesAl-basedalloyscanbeobtainedwhenthe
+Al2Cuphase,andMagnesiumisoftenusedincombinationwithcopperto Zn/Mgratioisaroundthree,andZn/Curatioisaroundfour[29].For
+form Al2CuMg phase. The precipitation of these two phases results in example,therecentdeveloped7085Al-basedalloyisanalternativefor
+higherstrength[1].Inaddition,2000seriesAl-basedalloyspossesssu- 7075Al-basedalloyinaerospaceapplicationsduetothehighproperties
+periordamagetolerance,andbetterfatigueresistancethanotherseries (YS¼504MPa, Elongation¼14%), and better damage tolerance
+Al-basedalloys.Thepropertiesofsome2000seriesalloys,7000series (44MPam1/2) [30,31]. Zr and Mn have been reportedto improve the
+alloys,andAl-LibasedalloysareshowninTable1.Oneofthetypical mechanicalpropertiesofAl-Znbasedalloys[32,33].TheadditionofZr
+example of 2000 series alloys is 2024 alloy, which has been widely decreases average grain size (approximately 20%), forms rosette-like
+studiedasaircraftfuselagematerialwherethedamagetoleranceisfirst microstructureandintroducesproperdistributionofthesecondphases
+consideration.However,therelativelowyieldstrengthlimitstheuseof [32].MncancombinewithFetoformsecondaryphaseinAl-Znbased
+2024 alloy in high stress region. In addition, the intermetallic phase alloys, which can increase fracture toughness of Al-Zn based alloy by
+resultedbyCuandMgcanactasanodicsitetoreducecorrosionresis- decreasingtheadverseeffectofFeonfracturetoughness.Theoptimum
+tanceof2024alloy[1].Toovercometheseshortcomings,someelements Mncontentat1.0wt%canincreasethefracturetoughnessof7000series
+suchasSn,In,Cd,andAghavebeenstudiedtoimprovethemechanical alloysto47MPam1/2[33].Impuritiessuchasironandsiliconcontrol
+propertiesofAl-Cubasedalloysbyrefiningmicrostructureandgrainsize. canalsoimprovemechanicalpropertiesofAl-Znbasedalloys.Thetypical
+Forexample,theyieldstrength(YS),ultimatetensilestrength(UTS),and example is 7475 alloy, which has higher fracture toughness
+hardnessvalueofAl-Cu-MgbasedalloyincreasewiththecontentofSn (52MPam1/2)andfinergrainsizethanconventional7075alloybecause
+upto0.06wt%,butthendecreasewiththefurtherincreaseofSncontent ofthelowercontentofironandsilicon(total0.22wt%)of7475alloy
+[25].FurtherimprovementofmechanicalpropertiesofAl-Cubasedal- than7075alloy(total0.9wt%).
+loyscanbeachievedbycontrollingtheimpurities,suchasironandsil-
+icon. For example, 2224-T39 Al-Cu based alloy has higher tensile 3.1.3. Al-Libasedalloys
+strength (UTS¼476MPa) than conventional 2024 Al-Cu based alloy ThemaximumsolubilityofLiinAlreachesupto14%atatempera-
+(UTS¼428MPa)becauseofthelowercontentsofiron(0.12wt%)and tureof600(cid:1)C[34].ThemajoreffectofLiinAlistoreducethedensityof
+silicon(0.10wt%)than2024alloy(0.5wt%forbothimpurities)[1]. Al-basedalloys.When1wt%Liisadded,thedensityofAl-basedalloyis
+reducedby3%,whileYoung'smodulusincreasesby6%[35].Therefore,
+3.1.2. 7000seriesAl-Znbasedalloys Al-Li based alloys are lightest Al-based alloys [36]. In addition, the
+7000seriesAl-basedalloysaremainlyalloyedwithzincandtheyare additionofCuisoftenusedincombinationwithLitoformAl2CuLiphase
+heat treatable to the highest strength than any other series Al-based toimprovethemechanicalpropertiesofAlalloys[37].Consequently,the
+Al-Li based alloys possess low density and high specific mechanical
+properties than 2000 and 7000 series alloys. For example, the use of
+Table1 2060-T8Al-Libasedalloyforfuselageskinandupperwingskinappli-
+Mechanicalpropertiesofsomerepresentativealuminumalloys[1,26].
+cations can save 7% weight and 14% weight, respectively, compared
+Alloy UTS Yieldstrength Fracturetoughness,KIC Elongation withthatofconventional2524alloyand2014alloy,respectively[1].
+(Mpa) (Mpa) (Mpam0.5) (%) However,highcontent(>1.8wt%)ofLiinaluminumhasbeenprovedto
+2025- 428 324 37 21 causeananisotropyprobleminAl-basedalloys[1,38].Forexample,the
+T351 yieldstrengthofAA2198Al-Libasedalloyinthelongitudedirectionis
+2026- 496 365 NA 11
+90MPahigherthanthatinthetransversedirection[39].Theanisotropy
+T3511
+2224-T39 476 345 53 10 ofmechanicalpropertiesresultsfromthecrystallographictexture,grain
+2324-T39 475 370 38.5–44.0 8 shape and size, and the precipitates in the aging process. In addition,
+2524-T3 434 306 40(TL) 24 earlier Al-Li based alloys possess low toughness and poor corrosion
+7150X- 808.9 776.5 12.7 14.1 resistance. Recent studies focus on composition optimization to over-
+T6
+7075-T6 656 590 25.5(cid:3)4.6 11 cometheseshortcomings.TheanisotropyproblemofAl-Libasedalloys
+7475- 552 496 42.9 12 canbereducedbyintroducingrecrystallizationthroughoptimizationof
+T651 composites and thermal-mechanical processing [40]. For example, the
+2050-T84 540 500 43 NA 2198Al-Libasedalloycontaining40wt%Mncanberecrystallizedby
+2090-T83 531 483 43.9 3 40%in3minundertheconditionof535(cid:1)C[41].Inaddition,theyield
+2098-T82 503 476 NA 6
+2099-T83 543 520 30(LT) 7.6 strengthofanAl-Li-Cu-Mgalloyattherollingdirectionis80MPahigher
+2199-T8 400 345 53 10
+thanitisat60(cid:1)fromtherollingdirectionintheconditionofunder-aged.
+8090- 500 455 33(LT) 12 However, the yield strength of this alloy can be isotropy in over-aged
+T851 condition [42]. In addition, the low fracture toughness of Al-Li based
+24X.Zhangetal. ProgressinAerospaceSciences97(2018)22–34
+alloyscanbeimprovedbyreducingtheinsolublesecond-phaseparticles 3.3. Ti-basedalloy
+suchasAl7Cu2Fe[4].Forexample,therecentadvanced2199Al-Libased
+alloyhas20MPam1/2higherfracturetoughnessthanearlier8090Al-Li The use of Ti-based alloys has been increased in recent years. As
+based alloy, which is obtained from optimization of composition, showninFig.3,theoperatingemptyweight(OEW)whichistheweight
+thermal-mechanical processing and precipitate microstructure control ofalloperatoritems,equipmentrequiredforflight,andallfluidneces-
+[1]. sary for operation, has witnessed an increasing use of Ti-based alloys
+from1%to19%.Ti-basedalloyshavebeenusedforbothstructureand
+3.2. Mg-basedalloys engineapplications,suchasaircraftspring,helicopterrotorsystemsand
+enginecompressorparts,seeFig.4.TheattractivenessofTi-basedalloys
+Mgisconsideredthelighteststructuralmetal[43]andcandecrease is mainly due to their high specific strength, excellent corrosion resis-
+the weight of structure by approximately 33% when compared to the tance, and well high-temperature performance. Generally, Ti-based al-
+samevolumeofaluminumusedandby77%whencomparedtothesame loys can be divided into three categories based on the type of crystal
+volume of steel used [44]. In addition to low density, the abundance, structure: alpha titanium alloys, beta titanium alloys, and alpha-beta
+castability, and recyclability also contribute to the attractiveness of alloys.TherecentresearchesonthedevelopmentofTi-basedalloysfor
+Mg-basedalloys[45].CommercialMg-basedalloyscanbedividedinto aircraftapplicationsarereviewed.
+two categories: wrought Mg-basedalloys and casting Mg-basedalloys.
+Generally,wroughtMg-basedalloyshavebettertensilepropertiesthan 3.3.1. Alphatitaniumalloys
+castingMg-basedalloysbuthaveahigherasymmetryofyieldbehavior AlphatitaniumalloyscanbedividedintoAlphaandnear-alphaal-
+[46].Admittedly,theuseofMg-basedalloysbythetopaircraftmanu-
+loys,whichentirelyormostlyconsistofαphasewithneutralalloyele-
+facturers (Airbus, Boeing, and Lockheed Martin) is very limited.
+mentsorαstabilizers[23].Ingeneral,alphatitaniumalloyhasalower
+Mg-based alloys AZ91, ZE41, WE43A, and ZE41 are used in the heli- density,highercreepresistanceandbettercorrosionresistancethanbeta
+copterindustrytomakecastgearboxtransmissionssuchasforSikorsky titaniumalloy[23]. Becauseof theseproperties,alpha titanium alloys
+helicopter S-92® and UH60® helicopters [6,43,47]. The drawbacks of such as Cp-Ti, Ti-3Al-2.5V, Ti-5-2.5, Ti-8-1-1, Ti-6-2-4-2S, IMI829,
+Mg-based alloys for the aerospace industry are their insufficient me- IMI834, and Timetal-II00 have been used to manufacture compressor
+chanical properties, poor corrosion resistance, and stress corrosion discbladesinaircraftengines[23,56].Despitetheattractivenessofal-
+crackingissue. phastitaniumalloy,someresearch[14,57]hasshownthatalphaphase
+Toimprovethepoorcorrosionresistanceandinsufficientmechanical can greatly limit the high-temperature capability of titanium alloys.
+properties, some elements such as Al, Zn, Zr, and rare-earth (RE) ele- Fortunately,thealphastabilizingadditionsenablethesealloystoservein
+mentssuchasYarebeingemployedtoimprovethepropertiesofMg- aircraftjetenginesinwhichthetemperaturecanreachupto600(cid:1)C.Al,
+based alloys by refining or modifying the microstructure. The most Sn,Zr,andSihavebeeninvestigatedtoimprovetheheat-resistanceof
+widelystudiedisAlelement.Thelow-densityAlelementhasamaximum alphaornearalphatitaniumalloys.Alisthemostwidelyusedtoimprove
+solubility12.7wt%inMgandcanmergeintoMgtoformthephasesof the strengths of alpha titanium alloys at high temperatures [58]. An
+γ-Mg17Al12andα-Mg,whichisbeneficialtosolid-solutionstrengthening. experiment, conducted by Jiang et al. [59] showed that the tensile
+Mg-Al based alloys have moderate mechanical properties and the strengthofaTi-25Zrtitaniumalloyincreasedfrom931MPato1319MPa
+corrosionresistance,whichcanbesignificantlyimprovedbyincreasing withtheincreasingofAlcontentfrom0%to15%.Theyieldstrengthwas
+Alcontent[5,48].InadditiontoAl,Znelementcanimprovethestrength increased by 47% by raising the addition of Al to 15%. However, the
+andductilityofMg-Albasedalloysatroomtemperature[5].Thesolu- elongation decreased from 14.79% to 5.55% with the increase of Al
+bilityofZnintoMgis6.2wt%,andcanformα-Mgandγ-MgZnphases, content.ThestrengthefficiencyofAlinTi-Zrbasedalloysismainlydue
+whicharebeneficialtoimprovethestrengthsofMg-basedalloy.Withthe tothesizeandmodulusmisfitsbetweenAlandZr.
+increaseoftheZnelementfrom1wt%to5wt%,theyieldstrengthof
+Mg-Znbasedalloysrises.Moreover,theUTSincreasesto216.8MPaand 3.3.2. Betatitaniumalloys
+elongationincreasesto15.8%whenthecontentofZnreachedupto4wt Betatitaniumalloysareentirelyormostlyconsistofβphasewithβ
+%, andthendecreaseswithadditionalZncontentadded[5,49].How- stabilizers. Beta and near-beta alloys have higher tensile and fatigue
+ever,thecorrosionresistanceofMg-Znbasedalloydecreaseswiththe strength than alpha titanium alloys, and easier fabrication into some
+rising Zn content, which is mainly because of the increasing volume semiproducts[60].Thehighstrengthofbetatitaniumalloysisresulted
+fractionsofthesecondphaseMgxZny[50].InMg-Znbasedalloys,Zrand
+YareoftenusedincombinationwithZntoimprovemechanicalprop-
+erties.ZrisconsideredthebestrefinerforMg-basedalloyswithoutAl
+elementduetothereactionofZrandAl[51].ThebenefitofZrinMg-Zn
+basedalloyistorefinethegrainsizeanddispersetheMgZn2phase[52].
+Hommaetal.[52]reportedthattheUTSandYSofanAl-Znbasedalloy
+increased from 275MPa and 148MPa to 357MPa and 310MPa,
+respectively,whenthecontentofZrincreasedfrom0wt%to0.84wt%.
+In addition to Zr, the rare-earth element Y can also improve the me-
+chanicalpropertiesofMg-Znbasedalloys.TheMg97Zn1Y2alloyhasthe
+highest strength (YS¼610MPa) among Mg-based alloys, which is
+caused by adding Y and the rapid powder metallurgy processing [5].
+However,the strengthsofMg-ZnbasedalloyscanbereducedwhenY
+elementexceedsthecriticalamount.Forexample,Xuetal.reportedthat
+theUTSofaMg-Zn-Zralloywasincreasedto230MPabyadding1.08wt
+%amountofY,andthendecreasedto180MPawhentheamountofY
+wasincreasedto3.08wt%.SimilarsituationsoccurredonYS.Inaddi-
+tion, Xu and co-workers studied the effect of Y on elongation rate of
+Mg-Zn based alloy, and the results showed that the elongation was
+decreasedto3.6%whenthecontentofYincreasedto1.08wt%,andthen
+increasedslightlywithadditionalYcontentadded[53]. Fig.3. Titaniumusageinsomeaircrafts[54].
+25X.Zhangetal. ProgressinAerospaceSciences97(2018)22–34
+Fig. 4. Some components made from Ti-
+basedalloy;a)landinggearbeamforBoe-
+ing747,b)Bulkheadforafighteraircraft,c)
+wing box of the B1-B bomber aircraft, d)
+springsusedinBoeingaircraft,e)acasting
+usedinamilitarytransportaircraft[55].
+fromthebeta-stabilizers,suchasV,Mo,Nb,andCr.Thesealloyingatoms [70].SomeelementssuchasZrhasbeenreportedtoimprovehardness
+canreducethebindingenergyofthebeta-Tiatomiccluster,resultingin and strength of Ti-6Al-4V alloy due to the effect of solid solution
+strongerbondsbetweenalloyingatomsandtitaniumatomsthanthoseof
+strengthening,inwhichtheαphaseplateletsarereplacedfineacicularα0
+Ti-Tiatoms,andthebindingenergydecreaseswiththeincreasingcon- phases,resultingcloselamellarspacingstohinderdislocationmovement
+tent of alloying element [61]. In addition, the occurrence of ω phase [71].ThemicrohardnessofTi-6Al-4Valloycanbeincreasedto420HV
+duringcoldrollingalsohasasignificanteffectonmechanicalproperties byadding20wt%Zr.Inaddition,thetensilestrengthcanbeincreased
+of beta titanium alloys [62]. For example, the Ti-3Al-8V-6Cr-4Mo-4Zr from996MPato1317MPabyincreasingZrcontentfrom0wt%to20wt
+alloyhasaminimumUTSat1240MPa,andTi-15V-3Cr-3Al-3Snhasa %.However,theelongationratiodroppedto8.08%.
+minimumUTSat1034MPa.Consequently,thesetwoalloysarewidely
+usedinhigh-stressregionsuchasaircraftlandinggearandaircraftspring
+3.4. Compositematerials
+applications [60]. In addition to Ti-3Al-8V-6Cr-4Mo-4Zr and
+Ti-15V-3Cr-3Al-3Snalloys,fourbetatitaniumalloysareinsteadypro- Theuseofcompositematerialshassignificantlyincreasedandcom-
+duction: Ti-10V-2Fe-3Al, Ti-15Mo-2.7Nb-3Al-0.2Si,
+positesnowconstitutemorethan25%oftheAirbusA380and50%ofthe
+Ti-5Al5V5Mo3Cr0⋅5Fe,andTi-35V-35Cr [63].However,betatitanium
+Boeing787aircrafts,seeFig.5.Compositematerialsshowagreatpo-
+alloysarereportedtopossesslowtensileductility[55].Fortunately,this
+tentialinnotonlystructuralapplicationsbutalsosomeengineparts.The
+shortcoming can be overcome by optimization of composition and
+risinguseofcompositematerialsintheaerospaceindustryismainlydue
+thermal-mechanical processing. For example, the recent developed totheirhigherspecificstrengthandbettercorrosionandfatigueresis-
+Ti-5Al3Zr4Mo4V4Cr (UTS¼1370MPa, elongation¼17%) containing
+tance than most metals. The recent researches on the development of
+3wt%Zrunderagingconditionhasahighervaluesinbothelongation
+ceramic,metal,andpolymermatrixcompositematerialsarereviewed.
+and UTS than Ti-5Al5V5Mo3Cr (UTS¼1200MPa, elongation¼10%)
+[64].Theincreasedductilityinmainlyduetothegrowthofsphericity
+3.4.1. Ceramicmatrixcompositematerial
+primaryαphase.
+Ceramicmatrixcomposites(CMC),suchassiliconcarbide(SiC),sil-
+3.3.3. Alpha-betatitaniumalloys
+icon nitride (Si3N4), alumina (Al2O3), zirconia, aluminum titanate
+Becauseoftheexcellentcombinationsofstrength,fracturetoughness,
+(Al2TiO5), and aluminum nitride (AlN) matrix composite, have been
+widelystudiedinrecentyearsbecauseoftheirattractiveproperties,such
+andductility,thealpha-betaalloyisthemostwidelyusedTi-basedalloy,
+as high-temperature stability (to withstand operating temperature at
+w ush ei dch aa ncc doun stt us df io er da7 a0 lp% hash -ba er te aof at lh loe yU s.S. at ri etan Tiu i-m 6Am l-a 4r Vk ,et. TT ih -6e -2w 2i -d 2e 2l Sy 1400(cid:1)C),highhardness(22.9GPaforanAl2O3basedcomposite),high
+corrosionresistance,andgoodversatility[9,74]. Ceramicmatrixcom-
+(Ti–6Al–2Sn–2Zr–2Cr–2Mo–Si) [65], ATI 425
+positesarenormallyusedinhigh-temperaturesectionsinaircraftsuchas
+(Ti–4Al–2.5V–1.5Fe–0.25O) [66], and TC21 exhaustnozzle.Carbonfiberreinforcedsiliconcarbidehasbeeninves-
+(Ti–6A1–2Zr–2Sn–3Mo–1Cr–2Nb)[67].Thesealloyshavebeenapplied
+tigatedasacandidateforaircraftbrakeswherethetemperaturecould
+to both aircraft structures and engine parts, including the fuselage, reachupto1200(cid:1)Cunderemergencybrakeconditions[75].Despitethe
+landinggear,floorsupportstructure,nacelles,andcompressordiscs[23].
+merits, MMCs are reported to suffer from the poor fracture toughness
+Among these alloys, the most widely used is Ti-6Al-4V, which has
+[76].Toovercomethisshortcoming,variousworks[74,77]havefocused
+accounted for half of U.S. titanium consumption [68]. The Ti-6Al-4V
+on the addition of nanomaterials such as the carbon nanotubes and
+alloyhasayieldstrengthandanultimatetensilestrengthof1180MPa
+graphenetoimprovethefracturetoughnessofceramicmatrixcompos-
+and1300MPaundersubmicrocrystalline(SMC)condition,respectively
+ites.However,Ahmadetal.[74]reportedtheeffectsofcarbonnanotubes
+[69]. However, Ti-6Al-4V alloy has a low hardness value (28.4 HRC)
+(CNTs)onthefracturetoughnessofCMCareinconsistent.Ahmadet al.
+26X.Zhangetal. ProgressinAerospaceSciences97(2018)22–34
+Fig. 5. The percentage of total structural weight attrib-
+uted to composites and the use of composites in Airbus
+A380,a)thepercentageoftotalstructuralweightattrib-
+uted to composites, b) the use of composites in Airbus
+A380[72,73].
+believethatgraphenenanoplatelets(GNPs)areanefficientalternative based MMC reinforced by 30% SiC has a similar density, 60% higher
+forCNTsinceramiccompositebecauseofthesimilarmechanicalprop- elastic modulus, 15% higher tensile strength, and 70% higher specific
+ertiesandbetterdispersibilitytoCNTs.AnexperimentbyWalkeret al. modulusthan2219Al-basedalloys[79].Recently,somemetalsandal-
+[76]demonstratedanincreaseof235%infracturetoughnessofaSi3N4 loys werestudiedas the matricessuchasaluminum,magnesium, tita-
+ceramiccompositebyadding1.5vol%ofgraphene.However,thecon- nium, copper, and nickel [80]. The properties of some matrices are
+tentofgrapheneplateletshouldbelimitedatcriticalvalue.Forexample, showninTable2.Somefiberssuchasceramicreinforcementandcon-
+Liuetal.[77]reportedthefracturetoughnessofaluminaceramiccom- ventionalcarbonfiberwereinvestigatedfortheirpotentialtoimprove
+positeincreasedto4.49MPam1/2whengraphenecontentrosefrom0to the properties of MMC. However, these fibers cannot meet the re-
+0.38vol%, and then dropped to 3.53MPam1/2 when the content of quirementsforfurtherimprovementofmechanicalpropertiesofMMC.
+graphenereachedupto1.33vol%. The carbon nanotubes (CNTs) and graphene nanosheets have recently
+shown attractiveness because of the demands of fibers with a higher
+3.4.2. Metalmatrixcompositematerials strength, lower coefficient of thermal expansion, better self-lubricant
+Metalmatrixcomposites(MMCs)holdpromisefortheaerospacein- ability,andhigherdampingcapacity[81].Theeffectsofcarbonnano-
+dustrybecauseoftheirreinforcedhigheryieldstrength,fracturetough- tubesonMMChavebeenstudiedbyLiaoetal.[81,82].Theyreported
+ness,lowthermalexpansion,andsuitablewearresistance[78].TheAl thatdifferentamountsofmulti-wallednanotube(MWNT)havedifferent
+27X.Zhangetal. ProgressinAerospaceSciences97(2018)22–34
+Table2
+Propertiesofsomemetalmatricesofcomposites[87,88].
+Matrices Densityg/cm3 CTE Thermalconductivity Yieldstrength UTS Young'smodulus Elongation
+10(cid:4)6K(cid:4)2 W/mK MPa MPa GPa %
+Al2024 2.78 22.7 120 345 425 70 5
+Al6061/T6 2.71 23.2 160 193 227 69 10
+AlBeMet 2.1 13.9 240 282 338 199 10
+Ti6Al4V 2.43 8.8 7.2 827 896 110 10
+MgAl6Mn 1.78 26 62 130 220 45 8
+Mg 1.74 26.1 159 30 115 44 6
+MgþNi5% – – – 58 146 – 3
+effectsonAlmatrixcomposites,andtheoptimalcontentoccursat0.5wt intherangeof34–38%.Furthermore,themechanicalpropertiesofCNT
+%.Inaddition,carbonnanotubesinfluencethepropertiesofMgmatrix reinforced copper matrix nanocomposite were studied by Daoush and
+compositeaswell.Forexample,Zhengetal.[83]reportedthatthetensile coworkers[85].TheresultsshowedthatCNTcangreatlyimprovethe
+properties of AZ31 Mg matrix composite can be greatly improved by yieldstrength,withthehighestyieldstrengthachievedatthepointwhen
+introducing1wt%MWNT.Moreover,theeffectsofCNTsonmechanical 15vol%CNTwasaddedintocoppermatrix.Daoushalsofoundthatthe
+propertiesofTimatrixcompositealsohavebeenstudiedbyKondoh[84]. Young's modulus of Cu matrix composite was gradually increased by
+Forinstance,asshowninFig.6,theadditionofMWNTfrom0.18wt%to increasingCNTcontent.InadditiontothematricesofAl,Mg,Ti,andCu,
+0.35wt%cancontinuouslyincreasethetensilestrength,yieldstrength, Hwangetal.studiedtheeffectsofMWNTonthepropertiesofNimatrix
+and hardness of Ti and its nanocomposites. Moreover, the addition of composite[86].Specifically,theYoung'smodulusandyieldstrengthof
+MWNTdoesnotreducetheelongationofTianditscomposites,whichis Nicompositewereincreasedby21GPaand521MPawiththeincreaseof
+Fig.6. ThemechanicalpropertiesoftheextrudedTiandits
+nanocomposites,a)yieldstrength,ultimatetensilestrengths,
+andelongation,b)vickershardness[81].
+28X.Zhangetal. ProgressinAerospaceSciences97(2018)22–34
+MWNTfrom0to6vol%,respectively. ofadditionalalloyelements.Although,steelstillplaysanimportantrole
+intheaerospaceindustry,especiallyforgears,bearings,carriages,and
+3.4.3. Polymermatrixcomposites fasteners, steel as a conventional aerospace and industry alloy has
+Polymer matrix composites (PMCs) can be grouped into two cate- experienceda rapiddecreasein recent years dueto the lower specific
+gories(thermoplasticandthermoset)basedonthedifferencesinmatrix strengthandcorrosionresistancethannewmaterialssuchaslightalloys
+characteristics.Theprominentadvantagesofpolymermatrixcomposites andcomposites[106].
+are their well-known high specific strength and specific modulus. For Toovercometheseshortcomings,recentstudiesfocusonthedevel-
+example,thedensityofcarbonfiber(CF)reinforcedepoxycompositeis opmentofnewlowalloysteelsandnanosteels.Whencomparedtocon-
+onlyhalfthatofAl-basedalloyswhile,thetensilestrengthandelastic ventional carbon steels, low alloy steels show better performance on
+modulusarethreetimesandtwotimeshigher,respectively,thanthoseof hardenability, tempering and softening capacity, wear and corrosion
+Al-basedalloy[89].Theexcellentpropertiesoffiberscontributetoad- resistance.Inrecentstudies,themostattractivetypeoflowalloysteel
+vancesinPMCs,andthepropertiesofsomefibersareshowninTable 3. was shown to be ultrahigh-strength steel (UHSS). UHSS has a yield
+BoththermosetandthermoplasticPMCshavebeenusedforaerospace strength above 1380MPa due to the finer grain size and precipitation
+structureapplicationssuchasailerons,flaps,landing-geardoors.Boeing strengthening[107].SometypicalUTSSare:4130,4140,4340,6150,
+777 and 787 airplanes have up to 50% of their weight in CFRP [90]. 9260,300MandD6ac[106,108].Thecompositions,yieldstrengths,and
+AlthoughtheconventionalCFcanimprovethestrengthofPMCs,theCF applications of these typical ultra-high strength low alloy steels are
+reinforced composites are more likely to suffer stress concentration demonstratedinTable4.However,UHSSarepronetodegradationby
+becauseofthebrittlenessofCF[91].Therefore,recentinvestigationsof hydrogen (H),becausehydrogen atomsat crack tip can weakeninter-
+fibersforPMChavefocusedonthenaturalfibers[92],carbonnanotubes atomicbondsandfacilitatecrackgrowthbyslipandmicrovoid,andthe
+[93],graphene[94],andbasalt[95].Naturalfibers,suchasflax,hemp, distributionofhydrogenishighlynonuniformunderanappliedstress,
+banana,bamboo,andrecycledcellulosefiber(RCF)arebeingusedinthe which can cause localized deformation and localized failure [109]. In
+polymersystemtoimprovethemechanicalpropertiesofPMC[96].Li addition to UHSS, the recent developed nanostructure steels or nano-
+andcoworkers[97]reportedthe tensilestrengthofhigh-densitypoly- steelswithultra-finegrains,nanosizeparticles,andnanosizephaseshave
+ethylene(HDPE)with20%flaxfiberistwicethatofHDPEwithoutany beenstudied.Thenanosteelshaveahigherstrengthandbettercorrosion
+flaxcontent.However,themaindisadvantageofnaturalfibers/polymer resistance due to the prevention of dislocation movement by nano-
+compositesistheincompatibilitybetweenthehydrophilicnaturalfibers particles and fewer defects on the surface of steel [110]. A typical
+andthehydrophobicthermoplasticmatrix[98].Inadditiontonatural example of nanostructure steels is 9Cr oxide dispersion strengthened
+fibers reinforced PMCs, carbon nanotube reinforced PMCs have been (ODS) steel. The strengths of 9Cr ODS steel (YS¼845MPa,
+widely used in military aircraft such as in structure components and UTS¼915MPa) are higher than the conventional SAE 2330 steel
+conductivecoatingsforfighterjets[99].Accordingtoearlierworksby (YS¼689MPa,UTS¼841MPa)[111].
+Qianetal.[100]andBiercuketal.[101],carbonnanotubescansignif-
+icantly improve the elastic modulus, break strength, and hardness of 3.6. Ni-basedsuperalloy
+polymercomposites.However,accordingtothereviewpaperbyMittal
+andcoworkers[93],variousinvestigations[102]reportedthatwhenthe Recent advanced Ni-based superalloys are containing γ'-Ni3(Al,Ti)
+content of CNT exceeded a critical point, the mechanical properties phasewithhighvolumefractions,resultingthehighstrengthofNi-based
+decreasedwithincreasingthecontentofCNT.ComparedtoCNTrein- superalloysathightemperature[113].Forexample,thetensilestrength
+forced PMCs, graphene-based polymer composites have much better ofawroughtNi-Cr-Wsuperalloycanreachupto550MPaat800(cid:1)C[11].
+mechanicalproperties[103].Forexample,Wanetal.[104]reportedthat Duetotheirhighstrengthathightemperature,superalloysarewidely
+the tensile strength of epoxy composite increased from 52.98MPa to usedinsomeaeroenginepartssuchasthecombustorandturbinesection
+71.54MPabyaddingonly0.1wt%grapheneoxide(GO).Furthermore, whereoperatingtemperaturesrangebetween1100and1250(cid:1)C[114].
+basalt is another effective reinforcement in PMCs. A recent test con- TheapplicationsofNi-basedsuperalloyinthePW4000engineareshown
+ducted by Zhang et al. [105] showed that the tensile strength, tensile inFig.7.Ni-basedsuperalloyshaveshownlittleinherentresistanceto
+modulus,flexuralstrength,andflexuralmodulusofpolybutylenesucci- high-temperatureoxidation[113].Chiouandcoworkers[115]reported
+nate continuously increased when basalt fiber content was increased thattheadditionofAlimprovedtheoxidationresistance.Theoxidelayer
+from0to15vol%. thicknessofCM-247LCNi-basedsuperalloyatoxidationtimeof100h
+can be reduced from 20μm to 6μm by adding 1wt% Al, because the
+3.5. Steels formationofAl2O3canpreventtheoutwarddiffusionofcationandin-
+ward diffusion of oxygen ions. In addition, some researchers have re-
+Steel has been used in the aerospace industry ever since the first portedthattheadditionofchromiuminNi-basedsuperalloyimproves
+aircraftwasbuiltbytheWrightBrothers.Withthedevelopmentofnew thehotcorrosionandoxidationresistance.However,thehighcontentof
+technologies,thecompositionofsteelhaschangedfromcarbonandiron Cr is reported detrimental to the microstructural stability [116]. For
+intoacomplexalloycombinedwiththeelementofFeandanabundance example, Chen et al. [116] reported that the stress-rupture life of
+Table3
+Propertiesofsomereinforcementsofcomposites[87].
+Fiber Densityg/cm3 Thermalconductivity Young's Tensile Strainto Fracture Hardness MaximumService
+W/m⋅(cid:1)C modulus strength failure toughness Vickers Temperature
+GPa MPa % MPa⋅m0.5 HV oC
+Alfiber 3.5 22.5 305 2200 0.9 1.75 650 1000
+Alwhisker 3.96 22.5 455 1550 0.225 4.5 2350 1000
+Borsic 2.75 38 400 3000 0.75 3 900 550
+Gr 1.95 140 700 2200 0.75 1.5 700 600
+Sicwhisker 3.17 80 460 7000 0.225 2.75 950 1150
+Sic 3.18 80 465 2750 0.225 2.75 3250 1050
+Boroncarbide 2.5 19 400 2400 0.75 3 900 550
+Be 1.86 185 307 965 3.5 13 260 300
+Tidiboride 4.6 73 525 320 0.15 5.5 2750 1450
+29X.Zhangetal. ProgressinAerospaceSciences97(2018)22–34
+Table4
+Thecompositions,yieldstrength,andapplicationsoftheultra-highstrengthlowalloysteels[106,108,112].
+C Mn Si Ni Cr Mo V Co Maximum Applications
+Yieldstrength
+MPa
+Aermet100 0.23 0.01 0.01 11.14 3.00 1.18 – 13.44 1700 Shaftfittings,landinggearsaxles,turbinecomponents,airframes
+4130 0.31 0.50 0.28 – 0.95 0.20 – – 1110 Axles,rotors,gears,fuselages,snapsprings,crankshafts
+4140 0.41 0.88 0.28 – 0.95 0.20 – – 1110
+4340 0.41 0.70 0.28 1.83 0.80 0.25 – – 2020
+6150 0.51 0.80 0.28 – 0.95 0.20 – – 1225 Snapsprings,propellercones,gear,shaft,pinsandbolts
+9260 0.60 0.88 2.00 – – – – – 1149 Springs
+300M 0.83 0.77 1.63 1.83 0.83 0.40 0.05 – 1689 Landinggears,airframes,fasteners
+D6ac 0.45 0.75 0.28 0.55 1.05 1.00 0.08 – 1379 Landinggears,springs,shafts
+Fig.7. TheuseofNi-basesuperalloyinPW4000engine[117].
+Ni-basedsuperalloywith5.7wt%ofCrwas3.7timeslongerthanthatof interfacebytheeffectofresidualamine.Intrinsicself-healingismostly
+the Ni-based alloy without Cr content. However, the high ratio of Cr undertheconditionofmanualintervention.Kauschetal.[123]inves-
+contentresultsintheformationofthetopologicallyclose-packedphase, tigatedthecrackhealingbehaviorofsomethermoplasticmaterialsand
+which is brittle and depleted potent solid solution strengthening ele- foundthatthestrengthcanberestoredbyheatingthesematerialsover
+mentsfromtheγ'matrix. theglasstransitiontemperaturebecauseoftheinterdiffusionofmolec-
+ular and entanglement of glassy polymer. Wu et al. [124] reviewed
+4. Newmaterialspotentialforaircraft self-healingbehaviorforboththermosetandthermoplasticmaterialsand
+reported that intrinsic self-healing can be achieved by some other
+Self-reliant materials such as self-cleaning polymerics and self- methods such as photo-induced healing, reversible bond formation
+repairing materials have potential for high use in flight vehicles. The healing, and chain ends recombination. Self-healing materials can be
+self-cleaning materials can be found in the natural environment. One potentially used in the aerospace industry. The self-healing materials
+exampleislotusleaves.Whenwaterispouredovertheseleaves,itrolls containingboron(B)canbeusedforaircraftenginepartsthroughthe
+offasbeadsandtakesawaydirtontheleaves[118].Themechanismsof formation of B2O3, which can seal matrix cracks at high temperatures
+self-cleaning materials can be divided into two categories. The first is [121].Inaddition,someself-healingmaterialssuchasself-healinghol-
+basedonthewettabilityofthesurface,andthesecondoneisthepho-
+lowglassfiber-epoxycompositeswithexcellentfatigueresistancecanbe
+tocatalytic feature [119,120]. On the hydrophobic surface of potentiallyusedinaircraftstructuralapplicationsbecauseoftheability
+self-cleaning materials, the material interface is protected from polar tohealmicrocracksbeforecrackgrowthtofailure[121].Furthermore,
+moleculesabsorptionaswaterrollsoffthesurfacewiththedirt[5].Light self-healingmaterialssuchasself-healingepoxycompositecanprotect
+can be captured by a photoactive surface, and this process produces aircraftstructuresfromcorrosionbycoating,becausetheycanrecover
+oxidative radicals which can mineralize and absorb organic molecules theirprotectabilityafterdamages[121].
+[119].Basedontheseproperties,thematerialcanbeappliedtothefabric
+ofseatsandcarpetsinfutureaircraft. 5. Challengesfacedinthedevelopmentofrecentlyadvanced
+In addition to self-cleaning materials, self-repairing or self-healing materials
+materials have been widely studied and researched in last several de-
+cades.Theself-healingmaterialscanbepolymer,ceramicormetalmatrix 5.1. Frettingwear
+composites [121]. Self-repairing materials can protect the integrity of
+structures and maintain the function of materials after mechanical Frettingweariscausedbysmall-amplitude(lessthanabout100μm)
+damageandcorrosion.Theself-healingmaterialscanbedividedintotwo oscillatory movement between two contact bodies [20,125]. Fretting
+categories,whichareextrinsicself-healingandintrinsicself-healing.The wearcancreateinitiatecracksonthedamagedsurfaceandreducefa-
+extrinsicself-healingreliesonthehealingagent,whichisstoredinma- tigue life of components [126]. Fretting wear occurs in both aircraft
+terials in advance by two types ofcontainers:pipelinesandmicrocap- structuralcomponentsandenginepartssuchasthebearingshaft,bolted
+sules.Thecrackscanbere-boundbythereleasingofhealingagentto connection,andblade-discassemblies[127].Ti-basedalloysmostlyare
+crackplanesbecauseofthecapillaryeffect.Zhangetal.[122]notedthat used to connect with other components and often under the fretting
+thecrackshealingprocessismoreefficientbymixingepoxymonomer loads,whicheasilysufferfrettingdamage.Consequently,recentstudies
+andsolvent.Itisbecausetheepoxymonomercanbecuredonthematrix offrettingbehaviorsfocusonTi-basedalloys[128].Afewresearchers
+30X.Zhangetal. ProgressinAerospaceSciences97(2018)22–34
+haveconductedtestsseekingtoeliminatethefrettingwearbehaviorof 5.3. Stresscorrosioncracking(SCC)andhydrogenembrittlement(HE)
+aerospacematerials.Fuandcoworkers[129]investigatedthreemethods
+usedforfrettingdamageprevention:newdesign,surfacemodification, Stresscorrosioncrackingisconsideredasoneofthemostdangerous
+and the use of lubricants. The most widely studied method is surface failuremechanismsbecauseSCCcancauseslowcrackgrowthundera
+modification such as modification of surface hardness and adhesion safeloadingcondition.Whenthecracksizereachedthecriticalvalue,the
+[126].Thedifferenceinhardnessbetweentwomatingpairscangreatly crackbySCCwiththesafeloadingcancausethesuddenfailureofma-
+influence fretting wear. Lemm et al. [130] reported that the total net terials.SCCisresultedfromthree-wayinteraction,whicharemechanical
+wearvolumesofarangeofequal-hardnesssteelpairs(hardnessfrom250 stress,susceptiblealloy,andcorrosiveenvironment[142].Themecha-
+kgfmm(cid:4)2to850kgfmm(cid:4)2)aresimilar,around0.45mm3.However,the
+nismsofHEandSCCarerelevantbecausehydrogeninitiallyoccursatthe
+total net wear volume experienced a small reduction to 0.35mm3 by tipsofcracksinanaqueousenvironment[143].SCCandHEbehaviorsin
+increasing the hardness difference to 600 kgf
+mm(cid:4)2.
+Lemm and somesusceptiblemetallicmaterialssuchassteels[144],Al-basedalloys
+co-worker[130]alsoreportedthatthewearvolumeoftheharderpart [145],andMg-basedalloys[146]havebeenwidelyinvestigated.Mghas
+canreachupto95%oftotalwearvolumebecauseoftheprotectionofthe ahighintrinsicdissolutiontendency,andtheimpuritiesandthesecond
+softer part by oxide-based fretting wear debris. Sarhan et al. [131] phase can act as the local cathodes to accelerate corrosion by local
+studied the relation of hardness and fatigue life on a hard anodized galvanic,whichcontributestotheMg-basedalloys'susceptibilitytoSCC.
+Al7075-T6aerospacealloy.Theresultsshowedthatfatiguelifeofthis In addition to Mg-based alloys, the Al-based alloys with 3.5wt% or
+alloy was optimized by improving surface hardness to 393 HV in highercontentofMgarealsosusceptibleto SCC.Itis knownthatthe
+low-stressregions.However,thehardanodizedcoatinghasnoornega- segregation of Mg along grain boundaries can facilitate the hydrogen
+tiveeffectonfatiguelifeinhigh-stressregions(over200MPa).Zalnez- entry,acceleratethetransportofhydrogen,andprovidesitesforgrain
+had and coworkers [132] reported that the improvement of surface boundaryembrittlementbyhydrogenchemisorption[147].Mgdissolv-
+hardnesscangreatlyimprovethefatiguelifeofaTiNcoatedAl7075-T6 ingintoAlformsthehighlyanodicβphaseofAl3Mg2,whichcanincrease
+alloy in low-cyclic fatigue, and the improvement of adhesion can thesusceptibilityofAl-basedalloystoSCC[142,148].Inordertoprevent
+significantlyimprovethefatiguelifeinhigh-cyclicfatigue.Otherprop- SCCandHE,someelementshavebeenstudiedinrecentyearstoimprove
+ertiessuchastoughness,frictionfactor,andbondingstrengthalsohave crackingresistance[144].Guo[149]studiedsomealloyingelementsin
+beeninvestigatedtopreventfrettingdamage.Duetal.[133]reported Mg-basedalloysandreportedtheMnelementhasapositiveeffectonthe
+thatbondingstrengthandtoughnesshaveagreatereffectthanthefric- improvement of SCC resistance. Peng et al. [150] reported that SCC
+tionfactoronfrettingwearresistanceofdiamond-likeandgraphite-like resistancewasincreasedwiththeincreaseofsizeandspacingofgrain
+carboncoatedTi-basedalloys.Althoughresearchershavestudiedfretting boundaryprecipitates(GBP)byreducingthepropagationrateandthe
+behavior on some materials, the general theory describing fretting concentrationofatomichydrogen.Relatedly,methodssuchastheoret-
+behaviorandpreventionisstillnotmature[20].Furtherworksshould icalandquantummechanicalmodels,recentnano-research,andatom-
+concentrate on the mechanism of fretting and develop more effective isticinvestigationshavebeendevelopedtostudythemechanismofHE
+methodstoimprovefrettingresistance. andSCC.However,theapplicablepredictionapproachremainsnonex-
+istentbecausethemechanismsofHEandSCCarenotaffectedbyone
+5.2. Corrosion parameterbutbymultiplefactorsincludingambientmedium,mechan-
+icalproperties,andmanufacturingprocesses[151,152].
+Corrosioninvolvesthechemicaldegradationofmaterialswhenthe
+materialsreacttotheirenvironment[134].Corrosion,suchasuniform 6. Conclusionandfuturetrends
+corrosion,pittingcorrosion,crevicecorrosion,orgalvaniccorrosion,can
+causefailureofcomponentswhentheremainingmaterialsaftercannot Thepresentreviewshowsthatsignificantprogresshasbeenmadein
+support the applied loads. Moreover, corrosion can compromise com- thedevelopmentofbothaircraftstructuralmaterialsandenginemate-
+ponentsthatarepronetofailbyothermodes[135].Metalcorrosioncan rials.Thedesigncriteriafortheaircraftstructuralmaterialsrequirethe
+causealossof$276billionperyearintheUS,muchgreaterthantheloss materials to possess appropriate mechanical properties with suitable
+causedbynaturaldisasters[21].Basedontheprediction,onlyupto30% damage tolerance under different conditions. Al-based alloys are the
+of the corrosion loss can be avoided by corrosion prevention methods primarymaterialinthisfieldformanyyearsbecauseoftheirwell-known
+[21].Variousstudieshaveinvestigatedcorrosionbehaviorsindifferent mechanical behavior. The use of polymer matrix composites has
+materials,thereforeenablingthestraightforwardselectionofmaterials increasedinrecentyearsduetosuperiormechanicalpropertiessuchas
+foruseindifferentenvironments.However,somesuitablematerialsfor higherspecificstrengthandstiffnesswhencomparedtoAl-basedalloys.
+corrosionresistancemaynotsupportotherrequirements.Forexample, However, the conventional carbon fiber reinforced polymer matrix
+high corrosion resistance materials cannot always be used in aircraft compositesaremorelikelytosufferfromstressconcentration.Inaddi-
+structuresbecauseofthestrength/weightratio.Therefore,methodshave tion, the use of Mg-based alloys, steels and Ti-based alloys in some
+beendevelopedtopreventcorrosionofstructurematerials,andthemost aerospaceapplicationsisrestrictedbysomechallenges.Thecriteriafor
+widelyinvestigatediscoating[21].Thefunctionsofthecoatingare(1)to aircraft engines require the materials to provide suitable mechanical
+providealocalcorrosionbarrier,(2)actasasacrificialanode,and(3) properties, densities,and corrosion resistance at high-temperatures. In
+supplysoluteions[136].However,conventionalcorrosioncoatinghas the compressor section where the temperature is in a range of
+difficulty providing active corrosion inhibitors. Therefore, the defects 500–600(cid:1)C,Ti-basedalloysaretheprimarymaterials.Ni-basedsuper-
+cannot be protected by the transport of inhibitor through the liquid alloys are the primary materials for the high temperature
+corrosivephase[136].Chromium[137]hasbeenstudiedasproviding (1400–1500(cid:1)C)turbinesection.
+efficientcorrosioninhibitors.However,chromiumhasbeenreportedto Inthefuture,specificmechanicalpropertiesandchallengessuchas
+causehealthproblemsandenvironmentdisastersinitshexavalentform frettingwear,corrosion,andSCCwillbethemaindriversinthedevel-
+[138].Althoughsomeotherelements,suchasgraphene[139],cerium opment and selection of next-generation structure materials. The
+sulphate [140], and oxides of rare-earth elements [141] have been airframe materials will be dominated by various materials such as Al-
+studied to improve the protective performance, the mechanism of based alloys, Ti-based alloys, steels, and composites. Further work of
+corrosionbehaviorandpreventionneedtobefurtherstudy. airframematerialsshouldfocusonthefollowingthreetopics:(i)develop
+newmetalalloyswithhigherspecificmechanicalpropertiesbyvarious
+strategies,includingmicrostructurerefinement,impuritiescontrol,and
+thermal-mechanical processing; (ii) develop new methods such as
+31X.Zhangetal. ProgressinAerospaceSciences97(2018)22–34
+compositionmodification,coating,andmicrostructurecontroltoover- [29] X.Li,M.J.Starink,AnalysisofPrecipitationandDissolutioninOveraged7xxx
+comethechallengesofmetalalloys,includingmoreefficientprevention AluminiumAlloysUsingDSC,2000.
+[30] V.Antipov,etal.,High-strengthAl–Zn–Mg–CualloysandlightAl–Lialloys,Met.
+methodforfrettingwearofTi-basedalloys,moreefficientpredictionand
+Sci.HeatTreat.53(9–10)(2012)428–433.
+preventionmethodsforcorrosion,SCC,andHEofAl-basedalloys,Mg- [31] M.Karabin,F.Barlat,R.Shuey,Finiteelementmodelingofplanestraintoughness
+based alloys and steels; (iii) develop new composite materials such as
+for7085aluminumalloy,Metall.Mater.Trans.40(2)(2009)354–364.
+MMC and PMC with more balanced properties by fiber selection. The [32] S.S.Ebrahimi,etal.,Themicrostructure,hardnessandtensilepropertiesofanew
+superhighstrengthaluminumalloywithZraddition,Mater.Des.31(9)(2010)
+futuretrendsofaircraftengine'smaterialsfocusonhowtowithstandthe 4450–4456.
+risingenginetemperatureandmaintainthepropermechanicalproper- [33] S.W.Nam,D.H.Lee,TheeffectofMnonthemechanicalbehaviorofAlalloys,
+Met.Mater.Int.6(1)(2000)13–16.
+ties. The future work should focus on the following topics: (i) further
+[34] S.udDin,etal.,EffectofLiadditiononmicrostructureandmechanicalproperties
+improvethehigh-temperatureresistanceofTi-basedalloysbycontrolling ofAl–Mg–Sialloy,Int.J.Mater.Res.105(8)(2014)770–777.
+phasesthroughalloyingandthermal-mechanicalprocessing;(ii)develop [35] S.udDin,etal.,ThesynergisticeffectofLiadditiononmicrostructure,textureand
+mechanicalpropertiesofextrudedAl–Mg–Sialloys,Mater.Chem.Phys.174
+advanced Ni-based superalloys by alloying with elements to prevent
+(2016)11–22.
+high-temperatureoxidation,suchasAlandZr;(iii)developtheadvanced [36] R.Wanhill,Aerospaceapplicationsofaluminum–lithiumalloys,in:Aluminum-
+CMCwithhigherfracturetoughnessbyrevealingtheoptimizedcontent lithiumAlloys,Elsevier,2014,pp.503–535.
+offibers,suchasgrapheneplatelet. [37] H.Garmestani,etal.,ModelingtheevolutionofanisotropyinAl–Lialloys:
+applicationtoAl–Li2090-T8E41,Int.J.Plast.18(10)(2002)1373–1393.
+[38] S.Kalyanam,etal.,Delaminationcrackinginadvancedaluminum–lithium
+References alloys–Experimentalandcomputationalstudies,Eng.Fract.Mech.76(14)(2009)
+2174–2191.
+[39] P.Cavaliere,etal.,2198Al–Liplatesjoinedbyfrictionstirwelding:mechanical
+[1] T.Dursun,C.Soutis,Recentdevelopmentsinadvancedaircraftaluminiumalloys,
+Mater.Des.56(2014)862–871.
+andmicrostructuralbehavior,Mater.Des.30(9)(2009)3622–3631.
+[40] A.Singh,etal.,TextureevolutionandanisotropyinAl-Li-Cu-Mgalloys,Textures
+[2] E.Starke,J.Staley,Applicationofmodernaluminumalloystoaircraft,Prog.Aero.
+Sci.32(2–3)(1996)131–172.
+Mater.Res.(1999)219–234.
+[3] A.Warren,Developmentsandchallengesforaluminum–Aboeingperspective,in: [41] D.Tsivoulas,P.Prangnell,TheeffectofMnandZrdispersoid-formingadditionson
+recrystallizationresistanceinAl–Cu–LiAA2198sheet,ActaMater.77(2014)
+MaterialsForum,Citeseer,2004.
+1–16.
+[4] R ap.J p. liR ci ao tija o, nJ s,. MLi eu t, aT llh .e Me av to erlu .t Tio ran no s.f 4A 3l-L (9i )ba (2se 01p 2r )od 3u 3c 2t 5s –f 3o 3r 3a 7e .rospaceandspace [42] P.Gregson,etal.,Roleofvacanciesincoprecipitationofδ0–andS–phasesin
+Al–Li–Cu–Mgalloys,Mater.Sci.Technol.2(4)(1986)349–353.
+[5] Y.Chen,etal.,Recentadvancesonthedevelopmentofmagnesiumalloysfor
+biodegradableimplants,ActaBiomater.10(11)(2014)4561–4573. [43] Ostrovsky,I.andY.Henn.Presentstateandfutureofmagnesiumapplicationin
+[6] F.Czerwinski,Controllingtheignitionandflammabilityofmagnesiumfor aerospaceindustry.
+aerospaceapplications,CorrosionSci.86(2014)1–16. [44] M.Chandrasekaran,Y.M.S.John,Effectofmaterialsandtemperatureonthe
+[7] R.Boyer,R.Briggs,Theuseofβtitaniumalloysintheaerospaceindustry, forwardextrusionofmagnesiumalloys,Mater.Sci.Eng.A381(1)(2004)
+J.Mater.Eng.Perform.14(6)(2005)681–685.
+308–319.
+[45] W.Jian,etal.,UltrastrongMgalloyvianano-spacedstackingfaults,Mater.Rese.
+[8] CESedupackDatabse.
+Lett.1(2)(2013)61–66.
+[9] A.Sommers,etal.,Ceramicsandceramicmatrixcompositesforheatexchangers
+inadvancedthermalsystems—areview,Appl.Therm.Eng.30(11)(2010) [46] C.Bettles,M.Gibson,Currentwroughtmagnesiumalloys:strengthsand
+1277–1291.
+weaknesses,Jom57(5)(2005)46–49.
+[47] A.A.Luo,Magnesiumcastingtechnologyforstructuralapplications,J.Magnesium
+[10] G.M.Sim,etal.,EffectofNbprecipitatecoarseningonthehightemperature
+Alloys1(1)(2013)2–22.
+strengthinNbcontainingferriticstainlesssteels,Mater.Sci.Eng.A396(1)(2005)
+159–165. [48] Z.Wen,etal.,CorrosionbehaviorsofMganditsalloyswithdifferentAlcontents
+[11] G.Bai,etal.,EffectoftemperatureontensilebehaviorofNi–Cr–Wbased
+inamodifiedsimulatedbodyfluid,J.Alloy.Comp.488(1)(2009)392–399.
+superalloy,MaterialsScienceandEngineering:A528(4)(2011)1974–1978. [49] B.Zhang,L.Geng,Y.Wang,ResearchonMg-zn-caAlloyasDegradable
+Biomaterial,INTECHOpenAccessPublisher,2011.
+[12] P.-J.Arrazola,etal.,Machinabilityoftitaniumalloys(Ti6Al4VandTi555.3),
+J.Mater.Process.Technol.209(5)(2009)2223–2230. [50] Y.Song,etal.,TheeffectofZnconcentrationonthecorrosionbehaviorofMg–xZn
+[13] G.Srinivasu,etal.,Tensileandfracturetoughnessofhighstrengthβtitanium
+alloys,CorrosionSci.65(2012)322–330.
+alloy,Ti–10V–2Fe–3Al,asafunctionofrollingandsolutiontreatment [51] S.Liu,etal.,Refinementeffectofcerium,calciumandstrontiuminAZ91
+temperatures,Mater.Des.47(2013)323–330.
+magnesiumalloy,J.Mater.Process.Technol.209(8)(2009)3999–4004.
+[52] T.Homma,etal.,EffectofZradditiononthemechanicalpropertiesofas-extruded
+[14] Z te. mL piy ei rn ag t, ure et ,a Jl .., AH lli og yh .c Cy oc mle pf .a 5ti 0g 9ue (5p )ro (2p 0er 1t 1y )o 2f 0T 8i 1-6 –0 20 08a 6ll .oyatambient Mg–Zn–Ca–Zralloys,Mater.Sci.Eng.A527(9)(2010)2356–2362.
+[53] D.Xu,etal.,EffectofYconcentrationonthemicrostructureandmechanical
+[15] J.Wang,etal.,Themicrostructureevolutionanditseffectonthemechanical
+propertiesofas-castMg–Zn–Y–Zralloys,J.Alloy.Comp.432(1)(2007)129–134.
+propertiesofahot-corrosionresistantNi-basedsuperalloyduringlong-term
+thermalexposure,Mater.Des.39(2012)55–62. [54] M.J.Krane,etal.(Eds.),Proceedingsofthe2013InternationalSymposiumon
+[16] O€.O€zgün,etal.,Injectionmoldingofnickelbased625superalloy:sintering,heat LiquidMetalProcessing&Casting,Springer,2016.
+[55] J.C.Williams,E.A.Starke,Progressinstructuralmaterialsforaerospacesystems,
+treatment,microstructureandmechanicalproperties,J.Alloy.Comp.546(2013)
+192–207.
+ActaMater.51(19)(2003)5775–5799.
+[56] L.Jing-an,Propertiesandapplicationsoftitaniumalloys,NonferrousMetals
+[17] M.Z.Alam,etal.,Effectofcyclicoxidationonthetensilebehaviorofdirectionally
+solidifiedCM-247LCNi-basedsuperalloyat870(cid:1)C,Mater.Sci.Eng.A527(23) Process.4(2002)002.
+(2010)6211–6218. [57] W.Jia,etal.,Ontheinfluenceofprocessingparametersonmicrostructural
+evolutionofanearalphatitaniumalloy,Mater.Sci.Eng.A530(2011)135–143.
+[18] Z.Wang,etal.,Themicrostructureandmechanicalpropertiesofdeposited-IN718
+byselectivelasermelting,J.Alloy.Comp.513(2012)518–523. [58] M.Atapour,etal.,Corrosionbehaviorofβtitaniumalloysforbiomedical
+applications,Mater.Sci.Eng.C31(5)(2011)885–891.
+[19] N.Arivazhagan,etal.,InvestigationonAISI304austeniticstainlesssteeltoAISI
+[59] X.Jiang,etal.,StructureandmechanicalpropertiesofTiZrbinaryalloyafterAl
+4140lowalloysteeldissimilarjointsbygastungstenarc,electronbeamand
+frictionwelding,Mater.Des.32(5)(2011)3036–3050.
+addition,Mater.Sci.Eng.A586(2013)301–305.
+[20] K.Sikdar,S.Shekhar,K.Balani,FrettingwearofMg–Li–Albasedalloys,Wear318 [60] R.Boyer,R.Briggs,Theuseofbetatitaniumalloysintheaerospaceindustry,
+(1)(2014)177–187.
+J.Mater.Eng.Perform.22(10)(2013)2916–2920.
+[61] Y.Song,etal.,Theoreticalstudyoftheeffectsofalloyingelementsonthestrength
+[21] D.Kesavan,M.Gopiraman,N.Sulochana,Greeninhibitorsforcorrosionofmetals:
+areview,Chem.Sci.Rev.Lett.1(1)(2012)1–8.
+andmodulusofβ-typebio-titaniumalloys,Mater.Sci.Eng.A260(1)(1999)
+269–274.
+[22] Z.Huda,P.Edi,Materialsselectionindesignofstructuresandenginesof
+supersonicaircrafts:areview,Mater.Des.46(2013)552–560. [62] X.Zhao,etal.,BetatypeTi–MoalloyswithchangeableYoung'smodulusforspinal
+fixationapplications,ActaBiomater.8(5)(2012)1990–1997.
+[23] C.Veiga,J.Davim,A.Loureiro,Propertiesandapplicationsoftitaniumalloys:a
+briefreview,Rev.Adv.Mater.Sci.32(2)(2012)133–148. [63] J.D.Cotton,etal.,Stateoftheartinbetatitaniumalloysforairframeapplications,
+JOM67(6)(2015)1281–1303.
+[24] P.Zhang,etal.,PlasticdeformationbehaviorandprocessingmapsofaNi-based
+superalloy,Mater.Des.2015(65)(1980-2015)575–584. [64] J.Lu,etal.,Precipitationbehaviorandtensilepropertiesofnewhighstrength
+betatitaniumalloyTi-1300,J.Alloy.Comp.637(2015)1–4.
+[25] S.Banerjee,etal.,EffectoftraceadditionsofSnonmicrostructureandmechanical
+propertiesofAl–Cu–Mgalloys,Mater.Des.31(8)(2010)4007–4015. [65] J.Wood,etal.,Thermomechanicalprocessingandheattreatmentof
+Ti–6Al–2Sn–2Zr–2Cr–2Mo–Siforstructuralapplications,Mater.Sci.Eng.A243
+[26] E.Salamci,Mechanicalpropertiesofspraycast7XXXseriesaluminiumalloys,
+Turk.J.Eng.Environ.Sci.26(4)(2002)345–352.
+[66]
+Y(1 .) Q( u1 ,9 e9 t8 a) l1 .,0 B9 e– h1 a1 v8 io.
+randmodelingofhightemperaturedeformationofanαþβ
+[27] J.Yu,X.Li,ModellingoftheprecipitatedphasesandpropertiesofAl-Zn-Mg-Cu
+titaniumalloy,Mater.Sci.Eng.A555(2012)99–105.
+alloys,J.PhaseEquilibriaDiffusion32(4)(2011)350.
+[67] Y.Zhu,etal.,Characterizationofhotdeformationbehaviorofas-castTC21
+[28] ELING.AluminiumAlloys.Availablefrom:http://www.eling.rs/
+titaniumalloyusingprocessingmap,Mater.Sci.Eng.A528(3)(2011)
+AluminiumAlloys.html.
+1757–1763.
+32X.Zhangetal. ProgressinAerospaceSciences97(2018)22–34
+[68] C.Cui,etal.,Titaniumalloyproductiontechnology,marketprospectsand [106] Prasad,N.E.andR.Wanhill,AerospaceMaterialsandMaterialTechnologies.
+industrydevelopment,Mater.Des.32(3)(2011)1684–1691. [107] J.R.Davis,Alloying:understandingthebasics,in:ASMInternational,2001.
+[69] S.Zherebtsov,etal.,MechanicalPropertiesofTi-6Al-4VTitaniumAlloywith [108] G.Murray,HandbookofMaterialsSelectionforEngineeringApplications,CRC
+SubmicrocrystallineStructureProducedbySeverePlasticDeformation,2005. Press,1997.
+[70] R.-H.Hu,J.-K.Lim,Hardnessandwearresistanceimprovementofsurface [109] J.C(cid:2)wiek,Preventionmethodsagainsthydrogendegradationofsteel,J.Achiev.
+compositelayeronTi–6Al–4Vsubstratefabricatedbypowdersintering,Mater. Mater.Manuf.Eng.43(1)(2010)214–221.
+Design(1980-2015)31(5)(2010)2670–2675. [110] F.Buazar,A.Cheshmehkani,M.Kassaee,Nanosteelsynthesisviaarcdischarge:
+[71] R.Jing,etal.,StructureandmechanicalpropertiesofTi–6Al–4Valloyafter mediaandcurrenteffects,J.Iran.Chem.Soc.9(2)(2012)151–156.
+zirconiumaddition,Mater.Sci.Eng.A552(2012)295–300. [111] K.Mo,etal.,Synchrotronstudyonloadpartitioningbetweenferrite/martensite
+[72] L.A.Pilato,M.J.Michno,AdvancedCompositeMaterials,SpringerScience& andnanoparticlesofa9CrODSsteel,J.Nucl.Mater.455(1)(2014)376–381.
+BusinessMedia,1994. [112] A.Uluc,etal.,Theroleofheattreatmentandalloyingelementsonhydrogen
+[73] J.Pora,CompositematerialsintheairbusA380–fromhistorytofuture,in: uptakeinAermet100ultrahigh-strengthsteel,J.Electroanal.Chem.739(2015)
+ProceedingsofICCM13,PlenaryLecture,CD-ROM,2001. 130–136.
+[74] I.Ahmad,B.Yazdani,Y.Zhu,Recentadvancesoncarbonnanotubesandgraphene [113] E.Ezugwu,Z.Wang,A.Machado,Themachinabilityofnickel-basedalloys:a
+reinforcedceramicsnanocomposites,Nanomaterials5(1)(2015)90–114. review,J.Mater.Process.Technol.86(1)(1999)1–16.
+[75] S.Fan,etal.,Progressofceramicmatrixcompositesbrakematerialsforaircraft [114] S.Soo,etal.,MachinabilityandsurfaceintegrityofRR1000nickelbased
+application,Rev.Adv.Mater.Sci.44(2016)313–325. superalloy,CIRPAnn.-Manuf.Technol.60(1)(2011)89–92.
+[76] L.S.Walker,etal.,Tougheningingrapheneceramiccomposites,ACSNano5(4) [115] M.-S.Chiou,etal.,Effectsofaluminumadditiononthehightemperature
+(2011)3182–3190. oxidationbehaviorofCM-247LCNi-basedsuperalloy,Int.J.Electrochem.Sci.10
+[77] J.Liu,H.Yan,K.Jiang,Mechanicalpropertiesofgrapheneplatelet-reinforced (2015)5981–5993.
+aluminaceramiccomposites,Ceram.Int.39(6)(2013)6215–6221. [116] J.Chen,etal.,Improvementofstress–rupturepropertybyCradditioninNi-based
+[78] J.Liu,J.Li,C.Xu,Interactionofthecuttingtoolsandtheceramic-reinforcedmetal singlecrystalsuperalloys,Mater.Sci.Eng.A528(10)(2011)3791–3798.
+matrixcompositesduringmicro-machining:areview,CIRPJ.Manuf.Sci.Technol. [117] D.Locq,P.Caron,Onsomeadvancednickel-basedsuperalloysfordisk
+7(2)(2014)55–70. applications,AerospaceLab(3)(2011)1–9.
+[79] T.Prater,Frictionstirweldingofmetalmatrixcompositesforuseinaerospace [118] Compony,A.FUTURETECHNOLOGIES.Availablefrom:http://www.airbus.com/
+structures,ActaAstronaut.93(2014)366–373. innovation/future-by-airbus/the-concept-plane/the-airbus-concept-cabin/future-
+[80] A.D.Moghadam,etal.,Mechanicalandtribologicalpropertiesofself-lubricating technologies/.
+metalmatrixnanocompositesreinforcedbycarbonnanotubes(CNTs)and [119] G.Soliveri,etal.,Doublesideself-cleaningpolymericmaterials:thehydrophobic
+graphene–areview,Compos.PartBEng.77(2015)402–420. andphotoactiveapproach,Colloid.Surface.Physicochem.Eng.Aspect.483
+[81] S.C.Tjong,Recentprogressinthedevelopmentandpropertiesofnovelmetal (2015)285–291.
+matrixnanocompositesreinforcedwithcarbonnanotubesandgraphene [120] I.P.Parkin,R.G.Palgrave,Self-cleaningcoatings,J.Mater.Chem.15(17)(2005)
+nanosheets,Mater.Sci.Eng.RRep.74(10)(2013)281–350. 1689–1695.
+[82] J.-z.Liao,M.-J.Tan,I.Sridhar,Sparkplasmasinteredmulti-wallcarbonnanotube [121] R.Das,C.Melchior,K.Karumbaiah,Self-healingCompositesforAerospace
+reinforcedaluminummatrixcomposites,Mater.Des.31(2010)S96–S100. Applications.AdvancedCompositeMaterialsforAerospaceEngineering:
+[83] X.Zeng,etal.,Anewtechniquefordispersionofcarbonnanotubeinametalmelt, Processing,PropertiesandApplications,2016,p.333.
+Mater.Sci.Eng.A527(20)(2010)5335–5340. [122] M.Zhang,M.Rong,Designandsynthesisofself-healingpolymers,Sci.China
+[84] K.Kondoh,etal.,Characteristicsofpowdermetallurgypuretitaniummatrix Chem.55(5)(2012)648–676.
+compositereinforcedwithmulti-wallcarbonnanotubes,Compos.Sci.Technol.69 [123] H.Kausch,K.Jud,Molecularaspectsofcrackformationandhealinginglassy
+(7)(2009)1077–1081. polymers,Plast.RubberProcess.Appl.2(3)(1982)265–268.
+[85] W.M.Daoush,etal.,Electricalandmechanicalpropertiesofcarbonnanotube [124] D.Y.Wu,S.Meure,D.Solomon,Self-healingpolymericmaterials:areviewof
+reinforcedcoppernanocompositesfabricatedbyelectrolessdepositionprocess, recentdevelopments,Prog.Polym.Sci.33(5)(2008)479–522.
+Mater.Sci.Eng.A513(2009)247–253. [125] M.Shen,etal.,Dual-rotaryfrettingwearof7075alloyinmediaofoilandwater,
+[86] J.Hwang,etal.,Interfaceanalysisofultra-highstrengthcarbonnanotube/nickel Wear301(1)(2013)540–550.
+compositesprocessedbymolecularlevelmixing,Carbon57(2013)282–287. [126] A.Amanov,etal.,FrettingwearandfrictionreductionofCPtitaniumand
+[87] S.Du,Advancedcompositematerialsandaerospaceengineering,FuheCailiao Ti–6Al–4Valloybyultrasonicnanocrystallinesurfacemodification,Surf.Coating.
+XuebaoActaMater.Compos.Sin.China24(1)(2007)1–12. Technol.207(2012)135–142.
+[88] matweb-materialpropertydata. [127] G.Majzoobi,R.Hojjati,M.Soori,FrettingfatiguebehaviorofAl7075-T6atsub-
+[89] R.-M.Wang,S.-R.Zheng,Y.G.Zheng,PolymerMatrixCompositesand zerotemperature,Tribol.Int.44(11)(2011)1443–1451.
+Technology,Elsevier,2011. [128] G.Wu,etal.,EffectoffrettingonfatigueperformanceofTi-1023titaniumalloy,
+[90] S.Pimenta,S.T.Pinho,Recyclingcarbonfibrereinforcedpolymersforstructural Wear309(1)(2014)74–81.
+applications:technologyreviewandmarketoutlook,WasteManag.31(2)(2011) [129] Y.Fu,J.Wei,A.W.Batchelor,Someconsiderationsonthemitigationoffretting
+378–392. damagebytheapplicationofsurface-modificationtechnologies,J.Mater.Process.
+[91] J.M.F.d.Paiva,A.D.N.d.Santos,M.C.Rezende,Mechanicalandmorphological Technol.99(1)(2000)231–245.
+characterizationsofcarbonfiberfabricreinforcedepoxycompositesusedin [130] J.Lemm,etal.,Theinfluenceofsurfacehardnessonthefrettingwearofsteel
+aeronauticalfield,Mater.Res.12(3)(2009)367–374. pairs—itsroleindebrisretentioninthecontact,Tribol.Int.81(2015)258–266.
+[92] K.L.Pickering,M.A.Efendy,T.M.Le,Areviewofrecentdevelopmentsinnatural [131] A.A.Sarhan,E.Zalnezhad,M.Hamdi,Theinfluenceofhighersurfacehardnesson
+fibrecompositesandtheirmechanicalperformance,Compos.PartAAppl.Sci. frettingfatiguelifeofhardanodizedaerospaceAL7075-T6alloy,Mater.Sci.Eng.
+Manuf.83(2016)98–112. A560(2013)377–387.
+[93] G.Mittal,etal.,Areviewoncarbonnanotubesandgrapheneasfillersin [132] E.Zalnezhad,A.A.Sarhan,M.Hamdi,Investigatingthefrettingfatiguelifeofthin
+reinforcedpolymernanocomposites,J.Ind.Eng.Chem.21(2015)11–25. filmtitaniumnitridecoatedaerospaceAl7075-T6alloy,Mater.Sci.Eng.A559
+[94] T.K.Das,S.Prusty,Graphene-basedpolymercompositesandtheirapplications, (2013)436–446.
+Polym.Plast.Technol.Eng.52(4)(2013)319–331. [133] D.Du,etal.,Frettingwearandfrettingfatiguebehaviorsofdiamond-likecarbon
+[95] V.Dhand,etal.,Ashortreviewonbasaltfiberreinforcedpolymercomposites, andgraphite-likecarbonfilmsdepositedonTi-6Al-4Valloy,Appl.Surf.Sci.313
+Compos.PartBEng.73(2015)166–180. (2014)462–469.
+[96] N.Saba,etal.,Areviewondynamicmechanicalpropertiesofnaturalfibre [134] B.A.Shaw,R.G.Kelly,WhatIsCorrosion?,2006.
+reinforcedpolymercomposites,Construct.Build.Mater.106(2016)149–159. [135] S.Findlay,N.Harrison,Whyaircraftfail,Mater.Today5(11)(2002)18–25.
+[97] Li,X.,etal.,Theinfluenceoffibercontentonpropertiesofinjectionmoldedflax [136] F.Presuel-Moreno,etal.,Corrosion-resistantmetalliccoatings,Mater.Today11
+fiber-HDPEbiocomposites. (10)(2008)14–23.
+[98] H.Ku,etal.,Areviewonthetensilepropertiesofnaturalfiberreinforcedpolymer [137] V.Moutarlier,B.Neveu,M.Gigandet,Evolutionofcorrosionprotectionforsol–gel
+composites,Compos.PartBEng.42(4)(2011)856–873. coatingsdopedwithinorganicinhibitors,Surf.Coating.Technol.202(10)(2008)
+[99] C.Kingston,etal.,Releasecharacteristicsofselectedcarbonnanotubepolymer 2052–2058.
+composites,Carbon68(2014)33–57. [138] A.Nematollahzadeh,S.Seraj,B.Mirzayi,Catecholaminecoatedmaghemite
+[100] D.Qian,etal.,Loadtransferanddeformationmechanismsincarbonnanotube- nanoparticlesfortheenvironmentalremediation:hexavalentchromiumions
+polystyrenecomposites,Appl.Phys.Lett.76(20)(2000)2868–2870. removal,Chem.Eng.J.277(2015)21–29.
+[101] M.Biercuk,etal.,Carbonnanotubecompositesforthermalmanagement,Appl. [139] J.Hu,etal.,Areviewontheuseofgrapheneasaprotectivecoatingagainst
+Phys.Lett.80(15)(2002)2767–2769. corrosion,AnnJMater.Sci.Eng.1(3)(2014)16.
+[102] L.Chen,X.-J.Pang,Z.-L.Yu,Studyonpolycarbonate/multi-walledcarbon [140] S.Kozhukharov,etal.,Protectiveabilityofhybridnano-compositecoatingswith
+nanotubescompositeproducedbymeltprocessing,Mater.Sci.Eng.A457(1) ceriumsulphateasinhibitoragainstcorrosionofAA2024aluminiumalloy,Prog.
+(2007)287–291. Org.Coating73(1)(2012)95–103.
+[103] T.Kuilla,etal.,Recentadvancesingraphenebasedpolymercomposites,Prog. [141] M.L.Zheludkevich,etal.,Oxidenanoparticlereservoirsforstorageandprolonged
+Polym.Sci.35(11)(2010)1350–1375. releaseofthecorrosioninhibitors,Electrochem.Commun.7(8)(2005)836–840.
+[104] Y.-J.Wan,etal.,Mechanicalpropertiesofepoxycompositesfilledwithsilane- [142] N.Winzer,etal.,Acriticalreviewofthestresscorrosioncracking(SCC)of
+functionalizedgrapheneoxide,Compos.PartAAppl.Sci.Manuf.64(2014) magnesiumalloys,Adv.Eng.Mater.7(8)(2005)659–693.
+79–89. [143] V.Raja,T.Shoji,StressCorrosionCracking:TheoryandPractice,Elsevier,2011.
+[105] Y.Zhang,etal.,Mechanicalandthermalpropertiesofbasaltfiberreinforcedpoly
+(butylenesuccinate)composites,Mater.Chem.Phys.133(2)(2012)845–849.
+33X.Zhangetal. ProgressinAerospaceSciences97(2018)22–34
+[144] J.Shu,etal.,Theeffectofcopperandmolybdenumonpittingcorrosionandstress [148] D.S.D'Antuono,etal.,Grainboundarymisorientationdependenceofβphase
+corrosioncrackingbehaviorofultra-pureferriticstainlesssteels,CorrosionSci.57 precipitationinanAl–Mgalloy,ScriptaMater.76(2014)81–84.
+(2012)89–98. [149] K.W.Guo,Areviewofmagnesium/magnesiumalloyscorrosionanditsprotection,
+[145] R.Goswami,etal.,Microstructuralevolutionandstresscorrosioncracking RecentPat.Corros.Sci.2(2010)13–21.
+behaviorofAl-5083,Metall.Mater.Trans.42(2)(2011)348–355. [150] G.Peng,etal.,Influenceofrepetitious-RRAtreatmentonthestrengthandSCC
+[146] Y.Uematsu,T.Kakiuchi,M.Nakajima,Stresscorrosioncrackingbehaviorofthe resistanceofAl–Zn–Mg–Cualloy,Mater.Sci.Eng.A528(12)(2011)4014–4018.
+wroughtmagnesiumalloyAZ31undercontrolledcathodicpotentials,Mater.Sci. [151] J.Woodtli,R.Kieselbach,Damageduetohydrogenembrittlementandstress
+Eng.A531(2012)171–177. corrosioncracking,Eng.Fail.Anal.7(6)(2000)427–450.
+[147] A.K.Vasudevan,R.D.Doherty,AluminumAlloys–contemporaryResearchand [152] M.Djukic,etal.,Hydrogenembrittlementoflowcarbonstructuralsteel,Procedia
+Applications:ContemporaryResearchandApplications,vol.31,Elsevier,2012. Mater.Sci.3(2014)1167–1172.
+34

@@ -1,0 +1,7 @@
+$ git status
+cat .gitignore
+
+# Untracked files:
+aliases
+collections
+qdrant_storage

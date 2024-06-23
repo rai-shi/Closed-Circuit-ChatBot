@@ -1,0 +1,698 @@
+molecules
+Article
+Fluorine-Containing Flow Modifier for BN/PPS Composites
+Enabled by Low Surface Energy
+BoCao1,2,*,XiaodanHuang1,WenxiangZhang1andPengWu1
+1 SchoolofMaterialsScienceandEngineering,SouthChinaUniversityofTechnology,
+Guangzhou510640,China
+2 KeyLabGuangdongHighProperty&FunctionalPolymerMaterials,andKeyLaboratoryofPolymer
+ProcessingEngineering,MinistryofEducation,Guangzhou510640,China
+* Correspondence:shawn78521@sina.com
+Abstract:Inthisstudy,afluorine-containingflowmodifier(Si-DF)withlowsurfaceenergyissuc-
+cessfullysynthesized,whichisappliedtofabricateidealelectronicpackagingmaterials(BN/PPS
+composites)withhighthermalconductivity,excellentdielectricproperties,processability,andtough-
+nessbyconventionalmeltblending.Si-DPFislocatedattheinterfacebetweentheBNfillersandthe
+PPSmatrix,whichnotonlyimprovesthedispersionofBNfillersbutalsostrengthenstheinteraction.
+Withthehelpof5wt%Si-DF,BN/PPS/Si-DF(70/25/5)stillexhibitsthehighthermallyconductive
+coefficient(3.985W/m·K)andlowdielectricconstant(3.76at100MHz)althoughBNfillersare
+loadedashighas70wt%. Moreover,thesampleprocessesalowerstabletorquevalue(2.5N·m),
+andtheareaunderthestress–straincurvesisalsoincreased.Thisworkprovidesanefficientwayto
+develophigh-performancepolymer-basedcompositeswithhighthermallyconductivecoefficients
+andlowdielectricconstantsforelectronicpackagingapplications.
+Keywords:BN/PPScomposites;fluorine-containingflowmodifier;dispersion;thermalconductivity;
+dielectricproperty
+Citation:Cao,B.;Huang,X.;Zhang,
+W.;Wu,P.Fluorine-ContainingFlow
+ModifierforBN/PPSComposites
+EnabledbyLowSurfaceEnergy. 1. Introduction
+Molecules2022,27,8066. https://
+Polyphenylenesulfide(PPS)hasbeenwidelyusedaselectronicpackagingmaterialin
+doi.org/10.3390/molecules27228066
+thefieldofelectroniccommunicationsduetoitsoutstandingthermaldimensionalstability,
+AcademicEditors:NadyaVasileva superiorchemicalresistance,andhighflameretardance. Withcontinuousminiaturization
+DenchevaandZlatanDenchev andincreasedpowerinelectronicdevices,thecomprehensiveperformanceofelectronic
+packagingmaterialsmakesmorestringentrequirements[1–4]. Anidealelectronicpackag-
+Received:31October2022
+ingmaterialshoulddemonstratehighthermalconductivity,excellentdielectricproperties,
+Accepted:17November2022
+processability,andtoughness. Unfortunately,thePPSmatrixhasarelativelylowthermally
+Published:20November2022
+conductivecoefficient(<0.4W/m·K),whichneedstobeenhancedbyincorporatingther-
+Publisher’sNote:MDPIstaysneutral mallyconductiveparticles[5–8]. Somestudieshaveshownthatintroducingalargenumber
+withregardtojurisdictionalclaimsin ofthermallyconductiveparticlesleadstoadramaticincreaseinthethermalconductivityof
+publishedmapsandinstitutionalaffil- thePPS-basedcomposites,suchasboronnitride(BN),expandedgraphite(EG),aluminum
+iations.
+nitride(AlN),andcarbonnanotubes(CNT)[9–12].
+However, ahighloadingofparticleseasilyformsalargenumberofagglomerates,
+deterioratingtheprocessabilityandtoughnessofthecomposites[13,14]. Moreover,the
+seriousagglomerationofparticlesalsoleadstomoreinterfacialthermalbarriers,whichis
+Copyright: © 2022 by the authors.
+notconducivetothefabricationofcompositeswithhighthermallyconductivecoefficients
+Licensee MDPI, Basel, Switzerland.
+and low dielectric constants [15]. Thus, a major challenge in the fabrication of ideal
+This article is an open access article
+electronicpackagingmaterials(PPS-basedcomposites)istoachievetheuniformdispersion
+distributed under the terms and
+ofthermallyconductiveparticlesinthePPSmatrix.
+conditionsoftheCreativeCommons
+Attribution(CCBY)license(https:// Usually, the PPS-based composites with high thermal conductivity are prepared
+creativecommons.org/licenses/by/ by a hot-compression technique in which the surface-modified particles are premixed
+4.0/). with the PPS matrix, which greatly improves the dispersion of the particles [16–19].
+Molecules2022,27,8066.https://doi.org/10.3390/molecules27228066 https://www.mdpi.com/journal/moleculesMolecules 2022, 27, x FOR PEER REVIEW 2 of 11
+Molecules2022,27,8066 Usually, the PPS-based composites with high thermal conductivity are prepare2do fb1y1
+a hot-compression technique in which the surface-modified particles are premixed with
+the PPS matrix, which greatly improves the dispersion of the particles [16–19]. Yang et al.
+[16] modified BN fillers using a silanization reaction with γ-aminopropyl triethoxy
+Yangetal.[16]modifiedBNfillersusingasilanizationreactionwithγ-aminopropyltri-
+silane/aminopropyllsobutyl polyhedraloligomeric silsesquioxane (f-BN) and found that f-
+ethoxysilane/aminopropyllsobutylpolyhedraloligomericsilsesquioxane(f-BN)andfound
+BN fillers had better dispersion in the PPS matrix. The thermally conductive coefficient
+thatf-BNfillershadbetterdispersioninthePPSmatrix. Thethermallyconductivecoeffi-
+( cλ ie)
+n
+v ta (λlu )e
+v
+ao lf
+u
+eth oe
+f
+tf h-B eN f-/ BP NP /S Pc Po Sm cp oo ms pit oe
+s
+w iteit wh i6 th0 6w 0t w%
+t
+%f-B f-N
+BN
+w was
+a
+sim imp pr ro ov ve ed
+d
+t to
+o
+11 .. 11 22 22 WW //m m··K K,
+,
+f fo ou ur
+r
+t ti im me es
+s
+hh ii gg hh ee rr tt hh aa nn tt hh aa tt oo ff tt hh ee PP PP SS mm aa tt rr ii xx (( 00 .. 22 88 66 WW //m m··K K) ).
+.
+R Ry yu
+u
+e et
+t
+a al l.
+.
+[ [1 19 9]
+]
+r re ep po or rt te ed
+d
+t th ha at
+t
+tthhee ggrraaffttiinngg ooff (3(3-A-Ammininoopproroppyyl)l )trtireitehtohxoyxsyislailnaen oenotnot toheth seursfuarcfea coef BoNf B fNillefirsll erersdurecdedu caegd-
+gaglogmloemraetriaotnio. nT.hTe hλe vλavluaelu oef o3f.039. 0W9/Wm/·Km w·Kasw eaxsheixbhitiebdit bedy bthyet mheomdiofideidfi eBdNB cNonctoanintainingi n6g0
+w60t%w.t H%o.wHeovweer,v deur,ed tuoe thtoe cthoemcpolmexpitlye xoift ythoisf tmheisthmoedt,h ito dca,nitncoat nbneo etxbteenedxetden tdo eldartgoe-lsacraglee-
+isncdaluesitnridaul sptrrioadlpurcotidounc. tiTohne.rTehfoerree,f otrhee, tuhneiufonrimfolrym dlyisdpiesrpseerds epdaprtairctliecsl eisni nththe ePPPPSS mmaattrriixx
+ccoouulldd bbee eeaassiillyy rreeaalilzizeeddb byym meletltb lbelnednidnigngte tcehcnhonloolgoyg,yw, hwichhicihs oisf porf impreimime pimorptaonrctaenfcoer tfhoer
+tdheev deleovpemloepnmteonfti doefa ildeelaelc etrloecntircopnaicc kpaagciknaggminagt meraiatlesriianlsin idn uinstdruy.stry.
+IInn tthhiiss wwoorrkk,, aa fflluuoorriinnee--ccoonnttaaiinniinngg ffllooww mmooddiiffiieerr ((SSii--DDFF)) iiss ddeessiiggnneedd aanndd ssyynntthheessiizzeedd
+((FFiigguurree 11)),, wwhhiicchh iiss iinnttrroodduucceedd iinnttoo BBNN//PPPPSS ccoommppoossiitteess ((tthhee wweeiigghhtt rraattiioo ooff BBNN ttoo PPPPSS iiss
+6600::4400 aanndd 7700::3300)) bbyy aa ccoonnvveennttiioonnaall mmeelltt pprroocceessssiinngg tteecchhnniiqquuee.. TThhee --CCFF 33 tteerrmmiinnaall ggrroouuppss
+eennddooww SSii--DDFF wwiitthh loloww susurfrafacec eeneneregryg,y ,wwhhicihc heneanbalbelse SsiS-Di-FD tFo tloocloatcea taet aa ttwaotw-poh-apshea isneteinr--
+ftaecrfea c[1e4[]1. 4I]t. iIst iesxepxepcteecdte tdhatht atthteh BeNBN filfilellresr swwilli llbbe eddisipspeersresded inin tthhee PPPPSS mmaattrriixx,, aanndd tthhee
+BBNN//PPPPSS ccoommppoossitietess wwilill lpprreesseenntt hhiigghh tthheerrmmaall ccoonndduuccttiivviittyy,, eexxcceelllleenntt pprroocceessssaabbiilliittyy,, aanndd
+ttoouugghhnneessss.. TThhee ccoommppoosistiete wwilill allaslos ommaianitnatiani na laowlo wdiedlieecltercitcr ciconcostnasntta nwtitwhi tthhet hheelhpe olpf Soi-f
+DSiF-D. IFn. Iandadditdioitnio, nth,eth deisdpiesprseirosnio mnemcheachnaisnmis mis eisxpexloprleodre. d.
+Figure 1. Synthesis route of Si-DF.
+Figure1.SynthesisrouteofSi-DF.
+22.. EExxppeerriimmeennttaall
+22..11.. MMaaiinn MMaatteerriiaallss
+PPoollyypphheennyylleennee ssuullffiiddee ((PPPPSS)) wwaass ppuurrcchhaasseedd ffrroomm NNaannjjiinngg DDeeyyuuaann SScciieennccee aanndd TTeecchh--
+nologyCo. Ltd. (Nanjing,China)Boronnitride(BN,meandiameterof20–30µm,thermally
+nology Co. Ltd. Boron nitride (BN, mean diameter of 20–30 μm, thermally conductive co-
+conductivecoefficientof33W/m·K)wasreceivedfromQinhuangdaoENOHigh-Tech
+efficient of 33 W/m·K) was received from Qinhuangdao ENO High-Tech Materials Devel-
+Materials Development Co., Ltd. (Qinhuangdao, China) Amino silicone oil was pur-
+opment Co., Ltd. Amino silicone oil was purchased from Shin-Etsu Chemical Industrial
+chasedfromShin-EtsuChemicalIndustrialCo. Ltd. (Tokyo,Japan)9,10-dihydro-9-oxa-
+Co. Ltd. (Tokyo, Japan) 9,10-dihydro-9-oxa-10-phosphaphenanthrene 10-oxide (DOPO)
+10-phosphaphenanthrene10-oxide(DOPO)and3-(Trifluoromethyl)benzaldehydewere
+and 3-(Trifluoromethyl) benzaldehyde were purchased from Shanghai Aladdin Biochem-
+purchasedfromShanghaiAladdinBiochemicalCo. Ltd. (Shanghai,China).
+ical Co. Ltd. (Shanghai, China).
+2.2. SynthesisofSi-DF
+2.2. Synthesis of Si-DF
+Aminosiliconeoil(17.2g,0.02mol),3-(Trifluoromethyl)benzaldehyde(6.96g,0.04mol),
+Amino silicone oil (17.2 g, 0.02 mol), 3-(Trifluoromethyl) benzaldehyde (6.96 g, 0.04
+and 100 mL of ethanol were added sequentially to a 250 mL round-bottom glass flask
+mol), and 100 mL of ethanol were added sequentially to a 250 mL round-bottom glass
+equippedwithanitrogeninlet,acondensingdevice,andamagneticstirrer. Themixture
+wfla as sk se tiq ru reip dp ae td
+8
+w 0i◦t Ch a
+fo
+n ri 8tro hg uen
+n
+tii lnl te ht e, a
+c
+oc mon pd lee tn esi cn og
+n
+vd ee rv si ic oe n, oan fd
+a
+ma inm oag sin lie ct oic
+n
+esti or ir le ar.
+n
+T dh 3e
+-
+mixture was stirred at 80 °C for 8 h until the complete conversion of amino silicone oil and
+(Trifluoromethyl)benzaldehyde,asconfirmedbyFTIR,andthentheintermediate(Si-CF)
+3-(Trifluoromethyl) benzaldehyde, as confirmed by FTIR, and then the intermediate (Si-
+wasobtained. DOPO(8.64g,0.04mol)wasaddedintothesystemandthenfurtherreacted
+for 12 h at room temperature. After the complete conversion of DOPO was tested via
+FTIR, the ethanol was removed using a rotary evaporator, and the residual solid wasMolecules 2022, 27, x FOR PEER REVIEW 3 of 11
+CF) was obtained. DOPO (8.64 g, 0.04 mol) was added into the system and then further
+Molecules2022,27,8066 3of11
+reacted for 12 h at room temperature. After the complete conversion of DOPO was tested
+via FTIR, the ethanol was removed using a rotary evaporator, and the residual solid was
+recrystallized from ethyl acetate to yield a yellowish powder named Si-DF (30.76 g, yield:
+recrystallizedfromethylacetatetoyieldayellowishpowdernamedSi-DF(30.76g,yield:
+9 93 3. .8
+8
+% %) ).
+.
+G GP PC
+C
+d da at ta a:
+:
+M Mn =
+=
+1 13 39 98
+8
+g g/m /mol o, lP ,D PDI =
+I
+=1. 12 .2 2.
+2 .
+n
+2.3. Preparation of BN/PPS Composites
+2.3. PreparationofBN/PPSComposites
+B BN
+N
+a an nd
+d
+P PP PS
+S
+ww ee rr ee dd rr ii ee dd ii nn aa vv aa cc uu uu mm oo vv ee nn aa tt 99 00 ◦° CC ff oo rr 11 22 hh .. TT hh ee BB NN //P PP PS
+S
+c co om mp po os si it te es
+s
+were prepared by melt blending in a twin-screw extruder, and the temperatures of the
+were prepared by melt blending in a twin-screw extruder, and the temperatures of the
+eexxttrruuddeerr wweerree sseett iinn tthhee rraannggee ffrroomm 226655 ◦°CC ttoo 229955 ◦°CC aatt aa ssccrreeww ssppeeeedd ooff 112200 rrppmm.. AAfftteerr
+bbeeiinngg ggrraannuullaatteedd aanndd ddrriieedd,, tthhee ppeelllleettss wweerree iinnjjeeccttiioonn--mmoollddeedd oonn aann iinnjjeeccttiioonn--mmoollddiinngg
+mmaacchhiinnee ttoo oobbttaaiinn ddiiffffeerreenntt ssppeecciimmeennss.. TThhee mmoollddiinngg wwaass ccoonndduucctteedd aatt zzoonnee tteemmppeerraattuurree
+pprroofifilleess ooff 227755--228800-2-29900-2-29900-2-29955◦ C°C.T. Thehec ocmompopsoitseitpe rpepreapraatriaotniopnr opcreoscseasns dancodm cpomospitoiosnitiaorne
+asirme spilmypilllyu siltlruastterdatiendS icnh eSmcheem1,ea n1,d atnhde tchoem cpoomspitoiosnitsioannsd acnodd ceondaem neasmoefst hoef tshaem spalmespalerse
+alirset eldistiendT ianb lTea1b.le 1.
+Scheme 1. Schematic illustration of PPS composites preparation.
+Scheme1.SchematicillustrationofPPScompositespreparation.
+TTaabbllee 11.. CCoommppoossiittiioonnss aanndd ccooddee nnaammeess ooff tthhee ssaammpplleess..
+SamplSeasmples BN(g) BN (g) PPS(gP)PS (g) SiS-Di-DF(Fg ()g)
+BN/PPS (60/40) 60 40 -
+BN/PPS(60/40) 60 40 -
+BN/PPS/Si-DF (60/35/5) 60 35 5
+BN/PPS/Si-DF(60/35/5) 60 35 5
+BN/PPBSN(/7P0P/S3 0()70/30) 70 70 30 30 - -
+BN/PPBSN/S/iP-DPSF/S(7i-0D/F2 5(/705/)25/5) 70 70 25 25 55
+2.4. Characterization
+2.4. Characterization
+T Th he
+e
+F FT TI IR
+R
+ss pp ee cc ttr ra
+a
+(( ss cc aa nn nn ee dd bb ee tt ww ee ee nn 44 00 00 aa nn dd 44 00 00 00 cc mm−−11)
+)
+w we er re
+e
+o ob bt ta ai in ne ed
+d
+o on
+n
+a
+a
+N Ni ic co ol le et
+t
+5 50 0X XC
+C
+s sp pe ec ct trr oo mm ee tt ee rr (( NN ii cc oo ll ee tt ,, GG ll ee nn dd aa ll ee ,, WW II ,, UU SS AA )) .. TT hh ee 11 HH NN MM RR aa nn dd 3311P
+P
+N NM MR
+R
+s sp pe ec ct tr ra
+a
+w we er re
+e
+recorded on an AV400 unity spectrometer (Bruker, Billerica, MA, USA) operated at 400
+recordedonanAV400unityspectrometer(Bruker,Billerica,MA,USA)operatedat400MHz
+MwiHthz DwMithS OD-MdSaOs-da6s aosl vae snotl.vTenhte. Tnhuem nbuemr-abvere-raavgeerdagmedol maromlaar smsa(Mss ()Mann)d anpdo lpyodliysdpiesrpseitry-
+6 n
+s(Mity
+w
+(/MMwn/M)onf) Soif- DSiF-DwFe rweemree amsuearesudrbedy gbeyl gpeelr mpeeramtieoanticohnr ocmhraotmogartaopghrayp(hWy a(tWerast,eMrsi,l fMoridl-,
+fMorAd,, UMSAA, )U.TShAe).c Tohneta ccotnatnagctl easnwgleerse wdeertee rdmeitneremdionneda oDnS aA D10S0Ac1o0n0t accotnatancgtl eaninglsetr iunmsterun-t
+m(KeRnUt (SKSR,HUaSmS,b Huargm,bGuerrgm, Ganeyrm)wanityh) wwaittehr wanatderd aiinodd odmiioedthoamneetahta2n5e ◦aCt 2,r5e °sCp,e rcetisvpeelcyt.iSvcealyn.-
+Sncinangneilnegct erolenctmroincr mosiccorposyc(oSpEyM (S)EimMa)g imesawgeesr ewoebrtea oinbetadinoenda oNn oav NaoNvaan NoSaEnoMS4E3M04s3ca0n sncainng-
+neliencgt reolnecmtroicnr omsciocrpoesc(FopEeI, (HFEilIl,s bHoirlols,bOorRo,, UOSRA, )U. TShAe). toTrhqeu teovrqauluee vsaolfueths eosf atmhep lseasmwpeleres
+wmeeraes umreedasounreadH oana kae Htoarqaukee XtoSrSq-u30e0 XrShSe-o3m00e terhre(Homaaekteer, V(Hreadaekne,,G Verremdaenny, )Gaetramroatnayti)o ant oaf
+r5o0tarptimona otf2 5805 r◦pCmf oatr 21805m °Cin f.oTr h1e0 tmheinrm. Tahlley thcoenrmdualcltyiv ceoncodeufcfitcivieen ctoveaffliuceiesnotf vtahleuesas mofp tlhees
+swaemreplmese awseurree dmoenasauTrePdS 2o2n0 a0 HTPoSt2D2i0s0k Hinostt rDuimske nints(tAruBmCeonrtp (oAraBt iConor,pVoärsatteiroåns,, VSwäsetdereåns),.
+SDwieeldecetnri)c. Dcoinelsetcatnrticv caolunesstaonftt vhaelsuaems pofle tshwe searemmpleeass uwreerde omneaashuigrehd-f roenq ua ehnicgyh-Qfrienqsutreunmcye nQt
+ionfsQtruBmG-e3nDt o(fS hQaBnGg-h3aDi A(SihyainEglehcatir oAniiyci EEqleucitpromneicn tE,qSuhiapnmgehnati,, SChhainngah).aiA, Ccchoirndai)n. gAtcocoIrSdO-
+i5n2g7 -t2os tIaSnOd a5r2d7,-2th setatenndsailreds, ttrhene gttehnssoilfe thsteresnamgtphlse sofw tehree tseasmtepdleosn wanerAe GteSs-t1e0dK NonI uanni vAeGrsSa-l
+materialtestingmachine(Shimadzu,Kyoto,Japan)atthespeedof10mm/min.Molecules 2022, 27, x FOR PEER REVIEW 4 of 11
+10KNI universal material testing machine (Shimadzu, Kyoto, Japan) at the speed of 10
+Molecules2022,27,8066 mm/min. 4of11
+3. Results and Discussion
+3.31.. CRheasrualcttserainzadtiDoni socfu Ssis-DioFn
+3.1. CharacterizationofSi-DF
+During a typical synthetic process, the intermediate Si-CF is first synthesized via a
+Schiff bDausrei nregacatitoynp ibceatlwseyennt haemtiicnop rsoilciecsosn,et hoeil ianntedr m3-(eTdriiaftlueoSrio-CmFetihsyfil)r sbtensyznaltdheehsiyzdeed ivni a
+ana EStcOhHiff sboalsuetiroena.c Ttihoen fbloewtw meeondaifmieirn Soi-sDilFic iosn teheonil paenrdfo3r-m(Terdifl tuhororoumghe tthhyel )adbdenitzioanld reehaycd-e
+tioinn aonf DEOtOPHO saonldu tSiio-nC.F.T Fhieguflroew 2 smhoodwisfi tehreS iin-DfrFariesdt shpeenctprear ofof rSmi-CedF tahnrdo uSgi-hDFth. eThaed dsyitnio-n
+threesaisc toiofn thoef DSiO-CPFO inantedrmSie-dCiFa.tFe iigsu preer2fosrhmoweds bthye tihnef rcaorneddesnpseacttiroano offS ia-mCFinaon sdilSicio-DneF .oTihl e
+ansdy n3t-h(eTsriisfloufotrhoemSeit-hCyFl) inbteenrzmaelddeiahtyedies. pOebrfvoiromuseldy,b tyhteh estcroonngd epnesaakti oonf o-CfaHm=Nin-o (sSiclihciofnf e
+oiland3-(Trifluoromethyl)benzaldehyde. Obviously,thestrongpeakof-CH=N-(Schiff
+base) appears at 1650 cm−1, and the peak of -CF3 appears at 1650 cm−1, which indicates the
+base)appearsat1650cm−1,andthepeakof-CF appearsat1650cm−1,whichindicates
+triggered aldimine polymerization between amin3o silicone oil and 3-(Trifluoromethyl)
+thetriggeredaldiminepolymerizationbetweenaminosiliconeoiland3-(Trifluoromethyl)
+benzaldehyde. The Si-DF is performed through the addition reaction of DOPO and Si-CF.
+benzaldehyde. TheSi-DFisperformedthroughtheadditionreactionofDOPOandSi-CF.
+Additionally, the peak of -CH=N- is absent at the same wavenumber for Si-DF, indicating
+Additionally, thepeakof-CH=N-isabsentatthesamewavenumberforSi-DF,indicat-
+that DOPO has successfully carried out the addition reaction with the intermediate con-
+ingthatDOPOhassuccessfullycarriedouttheadditionreactionwiththeintermediate
+taining the -CH=N- group [14,20–22].
+containingthe-CH=N-group[14,20–22].
+FiFgiugruer 2e. 2F.TFITRI Rspsepcetrcatr oafo Sfi-SCi-FC aFnadn dSiS-Di-FD. F.
+The1HNMRspectrumofSi-DFisdisplayedinFigure3a.Thepeaksat−0.12–0.16ppm,
+The 1H NMR spectrum of Si-DF is displayed in Figure 3a. The peaks at −0.12–0.16
+0.32–0.46ppm,and1.16–1.42ppmareattributedtotheprotonsin-Si-CH ,Si-CH -,and
+ppm, 0.32–0.46 ppm, and 1.16–1.42 ppm are attributed to the protons in -Si-3CH3, Si-C2H2-,
+-CH -CH -, respectively. The peaks at 5.29–5.32 ppm and 5.07–5.11 ppm are attributed
+and -C2H2-C2H2-, respectively. The peaks at 5.29–5.32 ppm and 5.07–5.11 ppm are attributed
+totheprotonsin-NH-andP-CH.Thepeaksat6.5–8.2ppmareattributedtotheprotons
+to the protons in -NH- and P-CH. The peaks at 6.5–8.2 ppm are attributed to the protons
+inthebenzenering. The31PNMRspectraofDOPOandSi-DFareshowninFigure3b.
+in the benzene ring. The 31P NMR spectra of DOPO and Si-DF are shown in Figure 3b.
+Basedonthe31PNMRspectrumofDOPO,thepeaksat14.40–15.75ppmareobserved,
+Based on the 31P NMR spectrum of DOPO, the peaks at 14.40–15.75 ppm are observed,
+Molecules 2022, 27, x FOR PEER REVwIEw hWih leil e thth e e pp ee aa kk ss aa rr ee aa bb ss ee nn tt a at t t th he es sa am me ew wav aven eu num mbe br ef ro fr oS ri - SD i-F D,a Fn , d ann de w nep wea pk es aa kr se o ab r5es eoorf bv1-e1d
+at31.50–34.85ppm. TheresultsfromFTIR,1HNMR,and31PNMRshowthattheflow
+served at 31.50–34.85 ppm. The results from FTIR, 1H NMR, and 31P NMR show that the
+modifierSi-DFhasbeensuccessfullysynthesized.
+flow modifier Si-DF has been successfully synthesized.
+Figure3.(a)1HNMRspectrumofSi-DF.(b)31PNMRspectraofSi-DFandDOPO.
+Figure 3. (a) 1H NMR spectrum of Si-DF. (b) 31P NMR spectra of Si-DF and DOPO.
+3.2. Phase Morphology
+For highly filled polymer-based composites, how to disperse the fillers in the matrix
+is a key issue presenting a challenge in the fabrication of high-performance composites.
+To display the effect of Si-DF on the dispersion of BN fillers, the morphology of the BN
+fillers in the samples is observed by SEM (Figure 4).
+There exists serious agglomeration of BN fillers in the sample BN/PPS (60/40) (Figure
+4a1) and BN/PPS (70/30) (Figure 4b1). With the addition of Si-DF, the morphology of the
+BN fillers presents a striking contrast. It is obviously found that BN fillers exhibit a homo-
+geneous dispersion in the samples BN/PPS/Si-DF (60/35/5) (Figure 4a2) and BN/PPS/Si-
+DF (70/25/5) (Figure 4b2).
+Figure 4. SEM images of BN/PPS (60/40) (a1), BN/PPS/Si-DF (60/35/5) (a2), BN/PPS (70/30) (b1) and
+BN/PPS/Si-DF (70/25/5) (b2).
+In our previous work, we demonstrated that the fluorine-containing flow modifiers
+(PMFs) with low surface energy were located at the MH/LLDPE interface in the highly
+filled MH/LLDPE composites (80:20 by weight), which improved the dispersion of MHMolecules 2022, 27, x FOR PEER REVIEW 5 of 11
+Figure 3. (a) 1H NMR spectrum of Si-DF. (b) 31P NMR spectra of Si-DF and DOPO.
+3.2. Phase Morphology
+For highly filled polymer-based composites, how to disperse the fillers in the matrix
+is a key issue presenting a challenge in the fabrication of high-performance composites.
+Molecules2022,27,8066 To display the effect of Si-DF on the dispersion of BN fillers, the morphology5 ooff 1t1he BN
+fillers in the samples is observed by SEM (Figure 4).
+There exists serious agglomeration of BN fillers in the sample BN/PPS (60/40) (Figure
+3.2. PhaseMorphology
+4a ) and BN/PPS (70/30) (Figure 4b ). With the addition of Si-DF, the morphology of the
+1 1
+BN filleFrosr phirgehsleynfitsll ead sptroilkyimnger c-boansterdascto.m Itp ioss oitbesv,ihoouwslyto fdoiuspnedr stehtahte BfiNlle frisllienrsth eexmhiabtriitx ai shomo-
+akeyissuepresentingachallengeinthefabricationofhigh-performancecomposites. To
+geneous dispersion in the samples BN/PPS/Si-DF (60/35/5) (Figure 4a ) and BN/PPS/Si-
+2
+displaytheeffectofSi-DFonthedispersionofBNfillers,themorphologyoftheBNfillers
+DF (70/25/5) (Figure 4b ).
+2
+inthesamplesisobservedbySEM(Figure4).
+FigFuigruer 4e.4 S.ESEMM imimaaggeess ooff BBNN//PPPPSS ((6600//4400))( a(a 1)1,),B BNN/P/PPPSS//SSi-iD-DFF( 6(06/03/53/55/5))( a( 2a)2,)B, NBN/P/PPSPS(7 (07/03/03)0()b ( 1b)1) and
+BNa/nPdPBSN/S/i-PDPFS/ (S7i0-D/2F5/(57)0 /(b252)/. 5)(b2).
+InT ohuerre pexriesvtsioseursio wusoargkg,l owmee rdaetimonoonfsBtNraftiellder tshinatt htehsea fmlupolerBinNe/-PcPoSnt(a60in/4i0n)g(F filgouwre m4ao1)difiers
+andBN/PPS(70/30)(Figure4b ). WiththeadditionofSi-DF,themorphologyoftheBN
+(PMFs) with low surface energ1y were located at the MH/LLDPE interface in the highly
+fillerspresentsastrikingcontrast. ItisobviouslyfoundthatBNfillersexhibitahomoge-
+filled MH/LLDPE composites (80:20 by weight), which improved the dispersion of MH
+neousdispersioninthesamplesBN/PPS/Si-DF(60/35/5)(Figure4a )andBN/PPS/Si-DF
+2
+(70/25/5)(Figure4b ).
+2
+Inourpreviouswork,wedemonstratedthatthefluorine-containingflowmodifiers
+(PMFs)withlowsurfaceenergywerelocatedattheMH/LLDPEinterfaceinthehighly
+filledMH/LLDPEcomposites(80:20byweight),whichimprovedthedispersionofMH
+particles[23]. Meanwhile,thedistributionofflowmodifierscanbeestimatedbyevaluating
+thewettingcoefficient(ω )[24]. Herein,Young’smodelisusedtocalculatetheω ofSi-DF.
+a a
+Additionally,when−1<ω <1,Si-DFispreferredtolocateattheinterface. Thesurface
+a
+energy of the individual components (PPS, BN, and Si-DF) is examined by measuring
+the contact angles, and the interfacial energies are calculated using the surface energy
+of the individual components using the geometric-mean equation or harmonic-mean
+equation[25–27]. AllofthedataarelistedinTables2and3,respectively.Molecules2022,27,8066 6of11
+Table2.ContactanglesandsurfaceenergiesofPPS,BNandSi-DF.
+ContactAngle(◦) γ γd γp
+Samples
+Water Diiodomethane
+(mJ/m2) mJ/m2) (mJ/m2)
+PPS 90.37 24.76 46.99 46.63 0.36
+BN 89.12 64.89 26.8 22.5 4.3
+Si-DF 98.45 51.20 34.08 33.78 0.3
+Table3.PreferentialdistributionofSi-DFintheBN/PPScompositesaccordingtointerfacialenergies
+γandwettingcoefficientsωa.
+Basedon Basedon
+Interfacial FlowModifiers
+Energy
+Geometric-Mean Harmonic-Mean ωG ωH
+Distribution
+Equation(mJ/m2) Equation(mJ/m2)
+γ 6.52 11.75
+BN/PPS
+γ Si-DF/PPS 1.04 2.06 −0.37 −0.31 BN/PPSinterface
+γ 3.47 5.74
+Si-DF/BN
+Asseen,thevaluesofω forSi-DFare−0.37and−0.31,respectively,ascalculated
+a
+from the geometric-mean equation, the harmonic-mean equation, and Young’s model,
+indicatingthatSi-DFtendstolocateattheinterfacebetweentheBNfillersandPPSmatrix.
+Combiningwiththephasemorphologyandtheoreticalcalculations,itisconcludedthatthe
+distributionofSi-DFatthetwo-phaseinterfaceiseffectivelyabletoreducetheformation
+ofagglomerationinthematrix.
+3.3. ThermalConductivity
+Figure5presentsthethermallyconductivecoefficient(λ)valuesofthePPSmatrixand
+BN/PPScomposites. TheλvalueofthePPSmatrixis0.372W/m·K.Thecompositesreveal
+adramaticenhancementinthermalconductivityincomparisonwiththePPSmatrix. Theλ
+valuesofBN/PPS(60/40)andBN/PPS(70/30)are3.379W/m·Kand3.569W/m·K,which
+areapproximately9and9.6timeshigherthanthatofthePPSmatrix,respectively. Withthe
+additionofSi-DF,thesamplespresenthigherthermalconductivity,andthecorresponding
+λvaluesareincreasedto3.873W/m·KofBN/PPS/Si-DF(60/35/5)and3.985W/m·Kof
+BN/PPS/Si-DF(70/25/5),respectively. Thisimpliesthatefficientthermaltransferpathways
+couldbeformedatahighloadingofBNfillersinthePPSmatrixbytheintroductionof
+Si-DF[16,28]. Additionally,itisbelievedthatthehomogeneousdispersionofBNfillers
+inthePPSmatrixisthekeytotheformationofthermaltransferpathways. Furthermore,
+Si-DFformsaprotectivelayerontheBNsurfaces,whichshowsrelativelylowerinterfacial
+Molecules 2022, 27, x FOR PEER REVIEW 7 of 11
+thermalbarrierswiththePPSmatrixcomparedtothesampleswithoutSi-DF,resultingin
+higherλvalues.
+Figure5.ThermalconductivityofPPSmatrixandBN/PPScomposites.
+Figure 5. Thermal conductivity of PPS matrix and BN/PPS composites.
+Table 4 summarizes the reported thermally conductive coefficient and thermal con-
+ductivity enhancement for the BN/PPS composites. It is noted that the BN/PPS composites
+with higher BN filler contents in this work show a high thermally conductive coefficient
+and the highest thermal conductivity enhancement. This work provides a relatively more
+efficient and facile method to improve the thermal conductivity of BN/PPS composites.
+Table 4. Comparison of thermally conductive coefficient and thermal conductivity enhancement in
+BN/PPS composites.
+Thermally Thermal
+Filler Loading Conductive Conductivity
+Samples Strategy Year [Ref]
+[wt%] Coefficient Enhancement
+[W/m·K] [%]
+BN/PPS 60 2.638 822.3 Hot-compression 2017 [15]
+Surface-modification,
+BN/PPS 60 1.122 292.3 2017 [16]
+Hot-compression
+BN/PPS 40 (vol) 2.45 880 Hot-compression 2017 [18]
+BN/PPS 60 3.1 785.8 Surface-modification 2017 [19]
+BN/PPS 60 2.7 610.5 Melt blending 2017 [19]
+BN/PPS 60 3.873 941.1 Melt blending This work
+BN/PPS 70 3.985 971.2 Melt blending This work
+3.4. Dielectric Property
+As a key parameter of electronic packaging materials, a low dielectric constant is con-
+ducive to reducing the signal propagation time in electronic components, which is very
+important in practical applications. The dielectric constant-frequency curves of the PPS
+matrix and BN/PPS composites are displayed in Figure 6. The PPS matrix possesses a di-
+electric constant value of 3.32 at 100 MHz. It can be seen that the dielectric constant value
+of the samples is increased as the loading of BN fillers, and the corresponding values are
+increased to 3.75 for BN/PPS (60/40) and 3.98 for BN/PPS (70/30). It is worth noting that
+the introduction of Si-DF is beneficial in decreasing the dialectic constant of the samples.
+For samples BN/PPS/Si-DF (60/35/5) and BN/PPS/Si-DF (70/25/5), the dielectric constant
+values decreased to 3.55 and 3.76, respectively. The lower dielectric constant should be
+attributed to the weakening of interface polarization [29,30]. Si-DF not only improves the
+dispersion of BN fillers but also strengthens the interaction between the BN fillers and
+PPS matrix, weakening the polarization between the BN fillers and PPS matrix, resulting
+in relatively lower dielectric constant values of the BN/PPS composites.Molecules2022,27,8066 7of11
+Table4summarizesthereportedthermallyconductivecoefficientandthermalconduc-
+tivityenhancementfortheBN/PPScomposites. ItisnotedthattheBN/PPScomposites
+withhigherBNfillercontentsinthisworkshowahighthermallyconductivecoefficient
+andthehighestthermalconductivityenhancement. Thisworkprovidesarelativelymore
+efficientandfacilemethodtoimprovethethermalconductivityofBN/PPScomposites.
+Table4.Comparisonofthermallyconductivecoefficientandthermalconductivityenhancementin
+BN/PPScomposites.
+Thermally Thermal
+FillerLoading Conductive Conductivity
+Samples Strategy Year[Ref]
+[wt%] Coefficient Enhancement
+[W/m·K] [%]
+BN/PPS 60 2.638 822.3 Hot-compression 2017[15]
+Surface-modification,
+BN/PPS 60 1.122 292.3 2017[16]
+Hot-compression
+BN/PPS 40(vol) 2.45 880 Hot-compression 2017[18]
+BN/PPS 60 3.1 785.8 Surface-modification 2017[19]
+BN/PPS 60 2.7 610.5 Meltblending 2017[19]
+BN/PPS 60 3.873 941.1 Meltblending Thiswork
+BN/PPS 70 3.985 971.2 Meltblending Thiswork
+3.4. DielectricProperty
+As a key parameter of electronic packaging materials, a low dielectric constant is
+conducive to reducing the signal propagation time in electronic components, which is
+veryimportantinpracticalapplications. Thedielectricconstant-frequencycurvesofthe
+PPSmatrixandBN/PPScompositesaredisplayedinFigure6. ThePPSmatrixpossesses
+adielectricconstantvalueof3.32at100MHz. Itcanbeseenthatthedielectricconstant
+valueofthesamplesisincreasedastheloadingofBNfillers,andthecorrespondingvalues
+areincreasedto3.75forBN/PPS(60/40)and3.98forBN/PPS(70/30).Itisworthnotingthat
+theintroductionofSi-DFisbeneficialindecreasingthedialecticconstantofthesamples.
+ForsamplesBN/PPS/Si-DF(60/35/5)andBN/PPS/Si-DF(70/25/5),thedielectricconstant
+valuesdecreasedto3.55and3.76,respectively. Thelowerdielectricconstantshouldbe
+attributedtotheweakeningofinterfacepolarization[29,30]. Si-DFnotonlyimprovesthe
+Molecules 2022, 27, x FOR PEER REVIEWdi spersionofBNfillersbutalsostrengthenstheinteractionbetweentheBNfillersandPPS8 of 11
+matrix, weakeningthepolarizationbetweentheBNfillersandPPSmatrix, resultingin
+relativelylowerdielectricconstantvaluesoftheBN/PPScomposites.
+FiF gi ug ru er e 6.6 . DD ieie lele cc tt rr ii cc cc oon ns st ta an nt t- -fr fe req qu uen ec ny cycu cr uve rvs eo sf P oP
+f
+S PPm Sa t mrix ata rn ixd aB nN d/ BPP NS /Pco Pm
+S
+p co os mite ps o.
+sites.
+3.5. Processability
+The processability of BN/PPS composites is evaluated by the torque rheology test
+[31]. Figure 7 shows the torque vs. time curves for the BN/PPS composites. As expected,
+the stable torque values of the samples are increased with the loading of BN fillers, and a
+pronounced decrease in the torque values of the BN/PPS composites with the addition of
+Si-DF is observed. For samples BN/PPS (60/40) and BN/PPS (70/30), the stable torque val-
+ues are 3.0 N·m and 11.7 N·m. When 5 wt% of Si-DF is added, the corresponding values
+are decreased to 2.1 N·m of BN/PPS/Si-DF (60/35/5) and 2.5 N·m of BN/PPS/Si-DF
+(70/25/5), respectively, indicating that Si-DF has an obvious advantage in improving the
+processability of the BN/PPS composites. Si-DF tends to be located at the interface and
+effectively reduces the melt viscosity, which prevents BN fillers from aggregation and de-
+creases the friction between the BN fillers and between the BN fillers and the PPS matrix.
+Figure 7. Torque versus time of BN/PPS composites.
+3.6. Mechanical Properties
+Mechanical properties are critical for composites, especially tensile strength and
+toughness. In this work, tensile testing of the PPS matrix and BN/PPS composites is con-
+ducted, and the results are shown in Figure 8. The tensile strength of the PPS matrix is 38
+MPa. With the addition of BN fillers, the tensile strength of the samples increased, and the
+corresponding strength increased to 48 MPa for BN/PPS (60/40) and 43 MPa for BN/PPS
+(70/30). The tensile strength is slightly decreased for the samples with Si-DF. The tough-
+ness of the samples is evaluated by calculating the fracture work derived from the areaMolecules 2022, 27, x FOR PEER REVIEW 8 of 11
+Figure 6. Dielectric constant-frequency curves of PPS matrix and BN/PPS composites.
+Molecules2022,27,8066 8of11
+3.5. Processability
+The processability of BN/PPS composites is evaluated by the torque rheology test
+3.5. Processability
+[31]. Figure 7 shows the torque vs. time curves for the BN/PPS composites. As expected,
+the staTbhleep troorcqeussea bvialiltuyeosf oBfN t/hPeP sSacmomplpeoss aitrees iisnecvreaalusaetded wbiythth tehteo rloquadeirnhgeo olofg ByNte sftil[l3e1r]s., and a
+Figure 7 shows the torque vs. time curves for the BN/PPS composites. As expected,
+pronounced decrease in the torque values of the BN/PPS composites with the addition of
+thestabletorquevaluesofthesamplesareincreasedwiththeloadingofBNfillers,and
+Si-DF is observed. For samples BN/PPS (60/40) and BN/PPS (70/30), the stable torque val-
+apronounceddecreaseinthetorquevaluesoftheBN/PPScompositeswiththeaddition
+ues are 3.0 N·m and 11.7 N·m. When 5 wt% of Si-DF is added, the corresponding values
+ofSi-DFisobserved. ForsamplesBN/PPS(60/40)andBN/PPS(70/30),thestabletorque
+are decreased to 2.1 N·m of BN/PPS/Si-DF (60/35/5) and 2.5 N·m of BN/PPS/Si-DF
+values are 3.0 N·m and 11.7 N·m. When 5 wt% of Si-DF is added, the corresponding
+(7 v0 a/ l2 u5 e/ s5 a) r, ere ds ep cre ec at si ev del ty o, 2i .n 1d Nic·mati on fgB Nth/aPtP SSi/-SDi-FD Fha(6s0 a/3n5 /o5b)v anio du 2s
+.
+5a Ndv·man ot faBgNe /iPnP iSm/Spir-DovFing the
+p(r7o0c/2e5s/s5a)b,irleistpye octfi vtheley ,BinNd/iPcaPtSin cgotmhaptoSsi-iDteFs.h Sais-DanF otbevnidous stoa dbvea nlotacgaeteidn iamt pthroev iinngtetrhfeace and
+efpfreoccteivssealbyi lrietyduofceths ethBeN m/PePltS vcioscmopsiotsyi,t ews.hSici-hD pFrteevnednsttso BbNe lfoicllaetresd farotmthe aigngterrefgaacetioannd and de-
+creeffaescetisv tehlye frreidcuticoens btheetwmeeeltn vtihseco BsNity ,fiwllehricsh anpdre vbeentwtseBeNn tfihlele BrsNfr foimllerasg garnedg atthioen PaPnSd matrix.
+decreasesthefrictionbetweentheBNfillersandbetweentheBNfillersandthePPSmatrix.
+FiFgiguurree 77.. TToorrqquuee vveerrssuusst itmimeeo foBf NB/NP/PPSPcSo cmopmospiotessi.tes.
+3.6. MechanicalProperties
+3.6. Mechanical Properties
+Mechanicalpropertiesarecriticalforcomposites,especiallytensilestrengthandtough-
+nessM. Inecthhaisnwicoarlk ,ptreonpsielerttieesst inagreo fctrhiteicPaPlS fmora trcioxmanpdosBiNte/sP, PeSspcoemciaplolsyi tetsenissciloen dsturcetnedg,th and
+toaungdhtnheesrse.s Iunlt sthairse wshoorwk,n teinnsFiilgeu trees8ti.nTgh oeft ethnesi lPePsStr emnagttrhixo fatnhde PBPNS/PmPaStr cixomisp38osMitPesa .is con-
+dWucitthedt,h aenadd dthiteio rnesouflBtsN arfiel lsehrso,wthne inte nFsigileursetr 8e.n Tgthhe otfenthseiles asmtrpenlegsthin ocrfe tahseed P,PaSn dmtahterix is 38
+McoPrar.e Wspiotnhd tihneg asdtrdenitgiothni onfc rBeNas efdillteors4,8 tMheP taenfosrilBeN st/rPePnSg(t6h0 /o4f0 t)haen dsa4m3pMlePsa ifnocrrBeaNs/ePdP,S and the
+(70/30). ThetensilestrengthisslightlydecreasedforthesampleswithSi-DF.Thetoughness
+corresponding strength increased to 48 MPa for BN/PPS (60/40) and 43 MPa for BN/PPS
+ofthesamplesisevaluatedbycalculatingthefractureworkderivedfromtheareaunder
+(70/30). The tensile strength is slightly decreased for the samples with Si-DF. The tough-
+thestress–straincurve[32,33]. TheworkofthefractureofthePPSmatrixis13.66MJ/m3,
+ness of the samples is evaluated by calculating the fracture work derived from the area
+and the work of the fracture is decreased with the loading of BN fillers. For samples
+BN/PPS(60/40)andBN/PPS(70/30),theworkofthefracturedecreasedto7.46MJ/m3and
+5.53MJ/m3,respectively. ThisisunderstandablebecauseBNfillersaggregateeasilyand
+formagglomerationsinthePPSmatrix. Asexpected,afteradding5wt%ofSi-DF,thework
+of the fracture of the samples increased to 11.05 MJ/m3 of BN/PPS/Si-DF (60/35/5) and
+8.97MJ/m3ofBN/PPS/Si-DF(70/25/5),indicatingthatSi-DPFhasanobviousadvantage
+inimprovingthetoughnessofthehighlyfilledBN/PPScomposites. Thisresultismainly
+ascribed to the distribution of Si-DF; that is, Si-DPF tends to be located at the interface
+andformsa“barrierlayer”forBNfillers. Si-DFnotonlyreducestheagglomerationbut
+alsotransferstheexternalforcereceivedbythesamplestothesmallaggregateofBNfiller,
+whichisabletoactasthestressconcentrationpointstodissipatetheexternalenergy,and
+thetoughnessofthesampleisachieved.Molecules 2022, 27, x FOR PEER REVIEW 9 of 11
+under the stress–strain curve [32,33]. The work of the fracture of the PPS matrix is 13.66
+MJ/m3, and the work of the fracture is decreased with the loading of BN fillers. For sam-
+ples BN/PPS (60/40) and BN/PPS (70/30), the work of the fracture decreased to 7.46 MJ/m3
+and 5.53 MJ/m3, respectively. This is understandable because BN fillers aggregate easily
+and form agglomerations in the PPS matrix. As expected, after adding 5 wt% of Si-DF, the
+work of the fracture of the samples increased to 11.05 MJ/m3 of BN/PPS/Si-DF (60/35/5)
+and 8.97 MJ/m3 of BN/PPS/Si-DF (70/25/5), indicating that Si-DPF has an obvious ad-
+vantage in improving the toughness of the highly filled BN/PPS composites. This result is
+mainly ascribed to the distribution of Si-DF; that is, Si-DPF tends to be located at the in-
+terface and forms a “barrier layer” for BN fillers. Si-DF not only reduces the agglomeration
+but also transfers the external force received by the samples to the small aggregate of BN
+Molecules2022,27,8066 filler, which is able to act as the stress concentration points to dissipate the external ener9goyf1, 1
+and the toughness of the sample is achieved.
+FiF gi ugu rer e 8.8 S. tS rt ar ia ni –n s– ts rt er se ss s cucu rvrv ese s ofo f PP PP
+S
+S mm ata rt ir xi x anan dd BB NN /P/ PP SP cS oc mom pop so its eit se
+.
+s.
+4. Conclusions
+4. Conclusions
+Afluorine-containingflowmodifierSi-DFwassuccessfullysynthesizedandapplied
+A fluorine-containing flow modifier Si-DF was successfully synthesized and applied
+tothefabricationofidealelectronicpackagingmaterials(BN/PPScomposites)byconven-
+to the fabrication of ideal electronic packaging materials (BN/PPS composites) by conven-
+tionalmeltblendingtechniques. Si-DFwithlowsurfaceenergywasdominantlylocatedat
+tional melt blending techniques. Si-DF with low surface energy was dominantly located
+theBN/PPSinterface,leadingtotherelativelyhomogeneousdispersionoftheBNfillers,
+at the BN/PPS interface, leading to the relatively homogeneous dispersion of the BN fill-
+thussuccessfullyachievingsimultaneouslyhighthermalconductivity,excellentdielectric
+ers, thus successfully achieving simultaneously high thermal conductivity, excellent die-
+properties,processability,andtoughnessinBN/PPScomposites,solvingthewell-known
+lepcrtoribcl epmropthearttiepso, lpyrmoecer-sbsaasbeildityco, manpdo tsoituegshwnietshs hinig BhNlo/PaPdSin cgotmhperomsiatellsy, scoolnvdinugc ttihvee wfilellel-rs
+kunsouwanll yprporbelseemnt thhiagth ptohlyermmearl-bcaosneddu ccotimviptyosbituets pwoiothr phriogche lsosaadbiinligty thanerdmtoalulyg hcnoensdsudcutieveto
+fitlhleersu nuasuvaolildya pbrleesaegngt rhegigahti othneormftahl ecofinllderusc.tiTvhitey Sbiu-Dt Fpoloocra pterdocaetsstahbeiliintyte rafnadc etoeuffgehctnivesesly
+dcuoen tsotr tuhcet eudntahveorimdaabllceo angdgurcetgivaetiopnat ohfs tahned firleledrusc. eTdheth Sei-iDntFe rlfoaccaitaeldh eaat tthrees iinsttaenrfcaecbe eetfwfeece-n
+titvheelyB Nconfisltlerursctaendd ththeermPaPlS cmonadtruixctaivsew pealtlh. sM aenadn wrehdiulec,etdh ethcea rienftuelrlfyacdiaelv heleoapt erdesaisdtdanitcive e
+bwetewaekeenn etdhet hBeNp ofillalreirzsa tainodn btheetw PePeSn mthaetfirilxle arss awnedllt.h Meemaantwrixh,ilwe,h tihche rceadreufcueldlyt hdeevdeielolepcetrdi c
+adcodnitsitvaen twoefatkheenceodm thpeo spitoelsa.rIiznaatidodni tbioentw,teheenB tNhe/ fPilPleSres xahnidb itthede mexacterlilxe,n wtphricohce rsesdaubcileitdy tahned
+dtioeluegchtrnice scso.nMstoasntt imof ptohret acnotmlyp,tohsiistews. oIrnk apdadvietdiotnh, ethwea ByNfo/rPPcoSn esxtrhuibctiitnedg iedxecaellleelnetc tproron-ic
+cepsascakbaigliitnyg amnda tteoruiaglshnthersosu. Mghotsht eimraptioorntaanldtleys, itghniso fwfloorwk pmaovdedifi ethrse. way for constructing
+ideal electronic packaging materials through the rational design of flow modifiers.
+AuthorContributions: Conceptualization,B.C.;methodology,B.C.andX.H.;software,W.Z.;val-
+Aiudtahtioorn C,oXn.Htr.ibauntdioPn.Ws: .C; oinnvceespttiugaaltiizoant,ioBn.C, B..aCn.d; mXe.Hth.o;ddoaltoagcyu, rBa.tCio. nan,dX .XH..H; .w; sroitfitnwga—reo, rWig.iZna.;l vdarlia-ft
+dpatrieopna,r aXt.iHon. ,aBn.Cd .;Pw.Writ.;i nign—versetvigieawtioann,d Be.dCi.t ianngd,B X.C.H.;.v; idsuaatali zcautrioanti,oPn.W, X.;.sHu.p; ewrvriistiinogn—,Wo.rZig.Ainlalla udtrhaoftr s
+phreapvaerraetaiodna, nBd.Ca.;g wrereidtintog—therepvuiebwli sahnedd evdeirtsiinogn, oBf.Cth.;e vmisaunauliszcartiipotn., P.W.; supervision, W.Z. All au-
+thors have read and agreed to the published version of the manuscript.
+Funding:ThisresearchwasfundedbyGuangdongBasicandAppliedBasicResearchFoundation
+(No.2021A1515110134)andtheOpeningProjectofKeyLaboratoryofPolymerProcessingEngineer-
+ing(SouthChinaUniversityofTechnology),MinistryofEducation(No.KFKT2102).
+InstitutionalReviewBoardStatement:Notapplicable.
+InformedConsentStatement:Notapplicable.
+DataAvailabilityStatement:Thedatathatsupportthefindingsofthisstudyareavailablefromthe
+authorsuponreasonablerequest.
+ConflictsofInterest:Theauthorsdeclarenoconflictofinterest.
+SampleAvailability:Samplesofthecompoundsareavailablefromtheauthors.
+References
+1. Shahil,K.M.;Balandin,A.A.Graphene-MultilayerGrapheneNanocompositesasHighlyEfficientThermalInterfaceMaterials.
+NanoLett.2012,12,861–867.[CrossRef][PubMed]
+2. Han,Z.;Fina,A.ThermalConductivityofCarbonNanotubesandTheirPolymerNanocomposites:AReview.Prog.Polym.Sci.
+2011,36,914–944.[CrossRef]Molecules2022,27,8066 10of11
+3. Lee,G.W.;Park,M.;Kim,J.;Lee,J.I.;Yoon,H.G.EnhancedThermalConductivityofPolymerCompositesFilledwithHybrid
+Filler.Compos.PartAAppl.Sci.Manuf.2006,37,727–734.[CrossRef]
+4. Song,S.H.;Park,K.H.;Kim,B.H.;Choi,Y.W.;Jun,G.H.;Lee,D.J.;Kong,B.S.;Paik,K.W.;Jeon,S.EnhancedThermalConductivity
+ofEpoxy-GrapheneCompositesbyUsingNon-OxidizedGrapheneFlakeswithNon-CovalentFunctionalization.Adv.Mater.
+2013,25,732–737.[CrossRef][PubMed]
+5. Xu,L.;Chen,G.;Wang,W.;Li,L.;Fang,X.AFacileAssemblyofPolyimide/GrapheneCore–ShellStructuredNanocomposites
+withBothHighElectricalandThermalConductivities.Compos.PartAAppl.Sci.Manuf.2016,84,472–481.[CrossRef]
+6. Kim,H.S.;Jang,J.U.;Yu,J.;Kim,S.Y.ThermalConductivityofPolymerCompositesBasedontheLengthofMulti-WalledCarbon
+Nanotubes.Compos.PartBEng.2015,79,505–512.[CrossRef]
+7. Gu,J.;Yang,X.;Lv,Z.;Li,N.;Liang,C.;Zhang,Q.FunctionalizedGraphiteNanoplatelets/EpoxyResinNanocompositeswith
+HighThermalConductivity.Int.J.HeatMassTransf.2016,92,15–22.[CrossRef]
+8. Huang,X.;Zhi,C.;Jiang,P.;Golberg,D.;Bando,Y.;Tanaka,T.PolyhedralOligosilsesquioxane-ModifiedBoronNitrideNanotube
+BasedEpoxyNanocomposites: AnIdealDielectricMaterialwithHighThermalConductivity. Adv. Funct. Mater. 2013, 23,
+1824–1831.[CrossRef]
+9. Han,Y.;Shi,X.;Yang,X.;Guo,Y.;Zhang,J.;Kong,J.;Gu,J.EnhancedThermalConductivitiesofEpoxyNanocompositesVia
+Incorporatingin-SituFabricatedHetero-StructuredSiC-BNNSFillers.Compos.Sci.Technol.2020,187,10944.[CrossRef]
+10. Guo,Y.;Xu,G.;Yang,X.;Ruan,K.;Ma,T.;Zhang,Q.;Gu,J.;Wu,Y.;Liu,H.;Guo,Z.SignificantlyEnhancedandPrecisely
+ModeledThermalConductivityinPolyimideNanocompositeswithChemicallyModifiedGrapheneViainSituPolymerization
+andElectrospinning-HotPressTechnology.J.Mater.Chem.C2018,6,3004–3015.[CrossRef]
+11. Xie, S.H.; Zhu, B.K.; Li, J.B.; Wei, X.Z.; Xu, Z.K. Preparation and Properties of Polyimide/Aluminum Nitride Composites.
+Polym.Test.2004,23,797–801.[CrossRef]
+12. Jiang, Q.; Wang, X.; Zhu, Y.; Hui, D.; Qiu, Y. Mechanical, Electrical and Thermal Properties of Aligned Carbon Nan-
+otube/PolyimideComposites.Compos.PartBEng.2014,56,408–412.[CrossRef]
+13. Guan,X.;Cao,B.;Cai,J.;Ye,Z.;Lu,X.;Huang,H.;Liu,S.;Zhao,J.DesignandSynthesisofPolysiloxaneBasedSideChainLiquid
+CrystalPolymerforImprovingtheProcessabilityandToughnessofMagnesiumHydrate/LinearLow-DensityPolyethylene
+Composites.Polymers2020,12,911.[CrossRef][PubMed]
+14. Cao,B.;Wang,O.;Cai,J.;Xie,W.;Liu,S.;Zhao,J.Silicone/Fluorine-FunctionalizedFlowModifierwithLowSurfaceEnergyfor
+ImprovingInterfacesinHighlyFilledComposites.Compos.Sci.Technol.2021,214,108984.[CrossRef]
+15. Gu,J.;Guo,Y.;Yang,X.;Liang,C.;Geng,W.;Tang,L.;Li,N.;Zhang,Q.SynergisticImprovementofThermalConductivitiesof
+PolyphenyleneSulfideCompositesFilledwithBoronNitrideHybridFillers.Compos.PartAAppl.Sci.Manuf.2017,95,267–273.
+[CrossRef]
+16. Yang,X.;Tang,L.;Guo,Y.;Liang,C.;Zhang,Q.;Kou,K.;Gu,J.ImprovementofThermalConductivitiesforPpsDielectric
+NanocompositesViaIncorporatingNH -POSSFunctionalizednBNFillers.Compos.PartAAppl.Sci.Manuf.2017,101,237–242.
+2
+[CrossRef]
+17. Pan, C.; Kou, K.; Jia, Q.; Zhang, Y.; Wu, G.; Ji, T.ImprovedThermalConductivityandDielectricPropertiesofhBN/PTFE
+CompositesViaSurfaceTreatmentbySilaneCouplingAgent.Compos.PartBEng.2017,111,83–90.[CrossRef]
+18. Jiang,Y.;Liu,Y.;Min,P.;Sui,G.BN-MWCNT/PPScore-shellStructureParticlesandTheir3DSegregatedArchitectureComposites
+withHighThermalConductivities.Compos.Sci.Technol.2017,144,63–69.[CrossRef]
+19. Ryu,S.;Kim,K.;Kim,J.SilaneSurfaceModificationofBoronNitrideforHighThermalConductivitywithPolyphenyleneSulfide
+ViaMeltMixingMethod.Polym.Adv.Technol.2017,28,1489–1494.[CrossRef]
+20. Chao,P.;Li,Y.;Gu,X.;Han,D.;Jia,X.;Wang,M.;Zhou,T.;Wang,T.NovelPhosphorus–Nitrogen–SiliconFlameRetardantsand
+TheirApplicationinCycloaliphaticEpoxySystems.Polym.Chem.2015,6,2977–2985.[CrossRef]
+21. Ding,C.;Hu,D.;He,X.;Lai,Y.;Shao,G.Fabricationandmicrostructureevolutionofmonolithicbridgedpolysilsesquioxane-
+derivedSiCceramicaerogels.Ceram.Int.2022,48,25833–25839.[CrossRef]
+22. Shao,G.;Shen,X.;Huang,X.MultilevelStructuralDesignandHeterointerfaceEngineeringofaHost–GuestBinaryAerogel
+towardMultifunctionalBroadbandMicrowaveAbsorption.ACSMater.Lett.2022,4,1787–1797.[CrossRef]
+23. Cao,B.;Zhou,Y.;Wu,Y.;Cai,J.;Guan,X.;Liu,S.;Zhao,J.;Zhang,M.SimultaneousImprovementofProcessabilityandToughness
+ofHighlyFilledMH/LLDPECompositesbyUsingFluorine-ContainingFlowModifiers.Compos.PartAAppl.Sci.Manuf.2020,
+134,105900.[CrossRef]
+24. Zhang,W.;Li,X.;Shan,Z.;Wang,S.;Xiao,Y.SurfaceModificationofMagnesiumHydroxidebyWetProcessandEffectonthe
+ThermalStabilityofSiliconeRubber.Appl.Surf.Sci.2019,465,740–746.[CrossRef]
+25. Jalali Dil, E.; Favis, B.D. Localization of Micro- and Nano-Silica Particles in Heterophase Poly(Lactic Acid)/Poly(Butylene
+Adipate-Co-Terephthalate)Blends.Polymer2015,76,295–306.[CrossRef]
+26. Zha, X.J.; Pu, J.H.; Ma, L.F.; Li, T.; Bao, R.Y.; Bai, L.; Liu, Z.Y.; Yang, M.B.; Yang, W. A Particular Interfacial Strategy
+in PVDF/OBC/MWCNT Nanocomposites for High Dielectric Performance and Electromagnetic Interference Shielding.
+Compos.PartAAppl.Sci.Manuf.2018,105,118–125.[CrossRef]
+27. Wang, X.; Peng, S.; Chen, H.; Yu, X.; Zhao, X. Mechanical Properties, Rheological Behaviors, and Phase Morphologies of
+High-ToughnessPLA/PBATBlendsbyin-SituReactiveCompatibilization.Compos.PartBEng.2019,173,107028.[CrossRef]Molecules2022,27,8066 11of11
+28. Yuan,C.;Duan,B.;Li,L.;Xie,B.;Huang,M.;Luo,X.ThermalConductivityofPolymer-BasedCompositeswithMagneticAligned
+HexagonalBoronNitridePlatelets.ACSAppl.Mater.Interfaces2015,7,13000–13006.[CrossRef]
+29. Guo,Y.;Ruan,K.;Shi,X.;Yang,X.;Gu,J.FactorsAffectingThermalConductivitiesofthePolymersandPolymerComposites:A
+Review.Compos.Sci.Technol.2020,193,108134.[CrossRef]
+30. Kim,K.;Kim,M.;Kim,J.ThermalandMechanicalPropertiesofEpoxyCompositeswithaBinaryParticleFillerSystemConsisting
+ofAggregatedandWhiskerTypeBoronNitrideParticles.Compos.Sci.Technol.2014,103,72–77.[CrossRef]
+31. Hidalgo,J.;Jiménez-Morales,A.;Torralba,J.M.TorqueRheologyofZirconFeedstocksforPowderInjectionMoulding.J.Eur.
+Ceram.Soc.2012,32,4063–4072.[CrossRef]
+32. Zhou,Y.;Chen,C.;Zhu,S.;Sui,C.;Wang,C.;Kuang,Y.;Ray,U.;Liu,D.;Brozena,A.;Leiste,U.H.;etal.APrinted,Recyclable,
+Ultra-Strong,andUltra-ToughGraphiteStructuralMaterial.Mater.Today2019,30,17–25.[CrossRef]
+33. Shah,D.;Maiti,P.;Jiang,D.D.;Batt,C.A.;Giannelis,E.P.EffectofNanoparticleMobilityonToughnessofPolymerNanocomposites.
+Adv.Mater.2005,17,525–528.[CrossRef]

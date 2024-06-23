@@ -1,0 +1,2520 @@
+materials
+Review
+Laser Powder-Bed Fusion of Ceramic Particulate Reinforced
+Aluminum Alloys: A Review
+TatevikMinasyan* andIrinaHussainova*
+DepartmentofMechanicalandIndustrialEngineering,TallinnUniversityofTechnology,Ehitajate5,
+19086Tallinn,Estonia
+* Correspondence:tatevik.minasyan@taltech.ee(T.M.);irina.hussainova@taltech.ee(I.H.)
+Abstract: Aluminum(Al)anditsalloysarethesecondmostusedmaterialsspanningindustrial
+applicationsinautomotive,aircraftandaerospaceindustries.Tocomplywiththeindustrialdemand
+forhigh-performancealuminumalloyswithsuperbmechanicalproperties,onepromisingapproach
+isreinforcementwithceramicparticulates.Laserpowder-bedfusion(LPBF)ofAlalloypowderspro-
+videsvastfreedomindesignandallowsfabricationofaluminummatrixcompositeswithsignificant
+grainrefinementandtexturelessmicrostructure. Thisreviewpaperevaluatesthetrendsininsitu
+andexsitureinforcementofaluminumalloysbyceramicparticulates,whileanalyzingtheireffect
+onthematerialpropertiesandprocessparameters.Thecurrentresearcheffortsaremainlydirected
+towardadditivesforgrainrefinementtoimprovethemechanicalperformanceoftheprintedparts.
+Reinforcingadditiveshasbeendemonstratedasapromisingperspectivefortheindustrialization
+ofAl-basedcompositesproducedvialaserpowder-bedfusiontechnique.Inthisreview,attention
+ismainlypaidtoborides(TiB , LaB , CaB ), carbides(TiC,SiC),nitrides(TiN,Si N , BN,AlN),
+2 6 6 3 4
+hybridadditivesandtheireffectonthedensification,grainrefinementandmechanicalbehaviorof
+theLPBF-producedcomposites.
+(cid:1)(cid:2)(cid:3)(cid:1)(cid:4)(cid:5)(cid:6)(cid:7)(cid:8)(cid:1)
+(cid:1)(cid:2)(cid:3)(cid:4)(cid:5)(cid:6)(cid:7)
+Keywords: laser powder-bed fusion; additive manufacturing; aluminum alloys; reinforcement;
+Citation:Minasyan,T.;Hussainova,I.
+ceramicparticulates;grainrefinement;crystallographictexture;mechanicalproperties
+LaserPowder-BedFusionofCeramic
+ParticulateReinforcedAluminum
+Alloys:AReview.Materials2022,15,
+2467. https://doi.org/10.3390/
+1. Introduction
+ma15072467
+Inmanyengineeringsolutions,productperformanceisdeterminedbyweight,which
+AcademicEditors:SweeLeongSing
+canbescaleddownbymaterial-efficientconstructionandtheuseoflow-densityalloys[1,2].
+andWaiYeeYeong
+Duetoexceptionalstrength/stiffness-to-weightratio,lowdensity,gooddamagetolerance,
+Received:18February2022 ability to be heat treated and the low cost, aluminum (Al) alloys are extensively used
+Accepted:21March2022 inmanyexclusivefields,suchas: automotive,aerospace,marinenavigation,railtransit,
+Published:27March2022 architecturalconstruction,microelectronicsandconsumerapplications[3–7].
+Inthemeantime,owingtothemoderatestrengthandrelativelypoorwearresistance
+Publisher’sNote:MDPIstaysneutral
+withregardtojurisdictionalclaimsin of aluminum alloys, they are not applicable as structural materials for critical parts of
+publishedmapsandinstitutionalaffil- aircraftsorsatellites[8,9];therefore,thereisaneedtoimprovethemechanicalproperties
+iations. of aluminum alloys to be used for special applications. Along the modern industrial
+developments,thedemandforcomplex-shapedproductsindiversesectorsiswidespread.
+Problemsrelatedtotraditionalcastingofaluminumalloysincludecoarsemicrostructures,
+alongprocesschainwithlimitedflexibility[10],useofPM/castingmolds[11]andahigh
+Copyright: © 2022 by the authors. rateoftooldegradation[12].
+Licensee MDPI, Basel, Switzerland. Additivemanufacturing(AM)providesanintegratedwayofitemproduction[13].
+This article is an open access article
+Additivemanufacturing,alsoknownas3Dprinting,referstothelayer-wisefabrication
+distributed under the terms and
+processoffunctionalobjectsadoptingnearlyunlimitedgeometricalcomplexity,processing
+conditionsoftheCreativeCommons
+freedom,highlevelofaccuracyandcustomizationwitheliminationoftraditionaleconomy-
+Attribution(CCBY)license(https://
+of-scale constraints [14]. Furthermore, the material efficiency and design flexibility of
+creativecommons.org/licenses/by/
+AMtechnologymeettherequirementsforresourceoptimization,masscustomizationand
+4.0/).
+Materials2022,15,2467.https://doi.org/10.3390/ma15072467 https://www.mdpi.com/journal/materialsMaterials2022,15,2467 2of38
+acceleratesthetimetoenterthemarket. Intermsofdissimilarmaterialjoiningandhybrid
+structures,AMisconsideredaversatiletoolforcompletespatialcontroloflocalmaterial
+composition,microstructureandproperties[15].
+AmongthemostadvancedAMtechnologiesavailable,laserpowder-bedfusionhas
+gainedincreasedattentioninboththeindustrialandacademicsectors. Theessenceofthe
+processliesbeneaththeselectivemelting/solidificationofthedesiredsectionsofconsecu-
+tivepowderlayersbyaprecise(computer-controlled)high-energylaserbeamdirectedby
+3DCAD(computer-aideddesign)file[16–18].Withinthescanningprocess,thelaserenergy
+issuppliedintothepowderlayer,andthepowderparticles–laserbeaminteractiontakes
+placeoveraveryshortdurationresultinginhighheating/coolingrates[19–21]. Theheat
+isabsorbedbythepowderparticlesfollowingbothbulkcouplingandpowdercoupling
+mechanisms[11]. Thelaser-aidedprocessingnotonlyproduceslayersoffusedpowder,
+butalsocreatesmetallurgicalbondwithitsprecedinglayer,whichleadstoaproperdensi-
+ficationandcompetentmechanicalbehaviorofthefabricatedparts. Generally,theLPBF
+processcanbeascribedwiththefollowingsteps: scatteringandabsorptionoflaserwaves
+bythepowderparticles,heattransfer,meltingandcoalescenceofparticles,generationof
+themeltpoolanditssolidification[22,23]. Duetoahighcoolingrate(upto106K/s),the
+microstructureofthefabricatedsamplescandramaticallydifferfromtheconventionally
+preparedcounterparts[3,24]. Duringsolidification,themeltedmaterialtendstoundergoa
+significantnon-equilibriummetallurgicalprocess,demonstratingdifferentmodesofheat
+andmasstransfer,causingtheformationofuniquemicrostructures[25].
+Duringthelasertreatment,eachpowderlayerpossessesitsinnatethermalhistory,
+generatingacomplexthermalcycle,whichresultsinhighresidualstresses,periodiccracks,
+undesirablemicrostructuralfeaturesandalackofmorphologicaluniformity[26]. Intricate
+physicsgoverningthelaserbeam–feedstockinteraction(energyabsorption,heatandmass
+transfer),insituchemicalreactions,phasetransformationsandlackofinsightsofuncon-
+trollablenon-equilibriummetallurgicalprocessesrestricttheprintabilityofmanyalloys
+byLPBF[13,27]. Todate,mostcommercialaluminumalloysforimportantapplications
+remainchallengingforprocessingbyLPBFduetofeedstockparticles’poorflowability,high
+affinitytooxygen,highlaserreflectivity(hencelowabsorptivity),highmaterialthermal
+conductivity,largesolidificationrangeandsolidificationcracking[4,10,14]. The2xxx,6xxx
+and7xxxseriesofhigh-strengthage-hardenablealuminumalloyscontainelementsthat
+widenthesolidificationtemperaturerange,leadingtothesegregationofphaseswithlow
+meltingpointduringepitaxialgraingrowth[28]. Moreover,thehighthermalconductiv-
+ityandhighlaserreflectivityofmaterialsrequireexcessheattoreachmelting. Thiscan
+causevaporizationofvolatilealloyingelements(Zn,Mg,etc.) andleadtoheterogeneity
+withinthecompletedpart[10]. Hence,alloyswithalargesolidificationrangehaveapoor
+applicabilitytoAMduetotheformationofhotcracksatvariousprocessstages[23].
+There are several near-eutectic Al–Si alloy grades suitable for LPBF and available
+onthemarket. Thesematerialsdisplayanexcellentfluidity, highthermalconductivity,
+lowcoefficientofthermalexpansion(CTE)andoutstandingcastability[29]. Hypoeutectic
+Al–Si(7–12wt.%)-Mg(>1wt.%)alloys[10,30]possessthelargestshareamongAlalloys
+applicableforLPBFprocess. TheincorporationofsiliconisacriticalissueforAl–Sialloys,
+sinceSireducesthemeltingpointandnarrowsthesolidificationtemperaturerangethrough
+theformationofaeutectic,thusinhibitingcrackformationandpropagation. Nevertheless,
+LPBF-fabricatedAl–Sialloysgenerallyfaceissuesoflowstrength,lowductility,moderate
+fatigue and wear resistance, which limit their use as structural components [4,8], and,
+hence,thereisanadmittednecessitytodevelopnovelaluminumalloysforLPBF.Owing
+toextremelyquicksolidificationprocessinherenttoLPBF,themajorityofhigh-strength
+alloys, traditionallyesteemedtobe“non-weldablematerials”, sufferfromhotcracking
+andporosityalongthecolumnargrainboundary. However,evensodetermined“print-
+able”alloysthroughLPBFpossessanon-uniformmicrostructureanddemonstratepoor
+mechanicalperformance[31].Materials 2022, 15, x FOR PEER REVIEW 3 of 41
+Materials2022,15,2467 3of38
+so determined “printable” alloys through LPBF possess a non-uniform microstructure
+and demonstrate poor mechanical performance [31].
+For a wide acceptance of the alloys for industrial use, the materials must ensure a
+For a wide acceptance of the alloys for industrial use, the materials must ensure a
+number of required properties. The ideal alloy must be highly matched for the extreme
+numberofrequiredproperties. Theidealalloymustbehighlymatchedfortheextreme
+thermal conditions by means of decreasing fabrication defects. Meanwhile, it is crucial for
+thermalconditionsbymeansofdecreasingfabricationdefects. Meanwhile,itiscrucialfor
+it to possess a suitable microstructure along with specific mechanical properties, which
+ittopossessasuitablemicrostructurealongwithspecificmechanicalproperties,which
+are comparable to the existing peak-aged wrought alloys, and to maintain a major part of
+arecomparabletotheexistingpeak-agedwroughtalloys,andtomaintainamajorpart
+its strength at elevated or high temperatures [30]. To further improve the mechanical
+ofitsstrengthatelevatedorhightemperatures[30]. Tofurtherimprovethemechanical
+performance of LPBF-prepared aluminum alloys, a substantial amount of research has
+performanceofLPBF-preparedaluminumalloys,asubstantialamountofresearchhasbeen
+been devoted to the following:
+devotedtothefollowing:
+(i) Studying the modification of existing compositions by minor alloying constituents to
+(i) Studyingthemodificationofexistingcompositionsbyminoralloyingconstituentsto
+generate strengthening phases upon the fabrication process or during post-
+generatestrengtheningphasesuponthefabricationprocessorduringpost-processing
+processing (heat treatment) [32]. (The effects of common modifying elements are
+(heattreatment)[32].(TheeffectsofcommonmodifyingelementsaregiveninFigure1).
+given in Figure 1)
+(ii) Theadditionofgrainrefiners(stable,non-solublesolidceramicparticulates)toreduce
+(ii) The addition of grain refiners (stable, non-soluble solid ceramic particulates) to
+hot-tearsusceptibility,graingrowthanddislocationmotionbydevelopingaluminum
+reduce hot-tear susceptibility, grain growth and dislocation motion by developing
+matrixcomposites(AMC)[8,33]. Thelatterconveysacombinationofpropertiesof
+aluminum matrix composites (AMC) [8,33]. The latter conveys a combination of
+twoormorephysicallydistinctphaseswiththeaimtoproducepartswithfarsuperior
+properties of two or more physically distinct phases with the aim to produce parts
+propertiestotheindividualcomponents[34].
+with far superior properties to the individual components [34].
+(iii) Heattreatment[35–37].
+(iii) Heat treatment [35–37].
+Figure 1. The influence of the main and modifying components on LPBF fabricated Al
+Figure 1. The influence of the main and modifying components on LPBF fabricated Al alloys
+alloys[14,27,30,33,38–54].
+[14,27,30,33,38–54].
+AM processes are categorized as master forming technologies, where customized
+AM processes are categorized as master forming technologies, where customized
+designedobjects’propertiesaregeneratedbythefabricationprocessitself. Therefore,the
+designed objects’ properties are generated by the fabrication process itself. Therefore, the
+composition and aluminum alloy chemistry undertake a central role during the LPBF
+composition and aluminum alloy chemistry undertake a central role during the LPBF
+process [1]. Combining the advantages offered by AM with the favorable mechanical
+process [1]. Combining the advantages offered by AM with the favorable mechanical
+propertiesofaluminumalloyswillcreateviablemass-marketmanufacturingstrategiesthat
+properties of aluminum alloys will create viable mass-market manufacturing strategies
+willincreasetheadoptionandimplementationofbothacrosstheworld[7].
+that will increase the adoption and implementation of both across the world [7].
+In this review paper, the focus is placed on the laser powder-bed fusion of the ce-
+In this review paper, the focus is placed on the laser powder-bed fusion of the ceramic
+ramicparticulate(boride,carbide,nitrideandhybridadditive)reinforcedaluminumalloys,
+particulate (boride, carbide, nitride and hybrid additive) reinforced aluminum alloys,
+concentratingontheeffectofadditivesonthemicrostructureandgrainrefinementofthe
+concentrating on the effect of additives on the microstructure and grain refinement of the
+producedmaterials. Thereafter,themechanicalpropertiesandthemechanismsresponsible
+produced materials. Thereafter, the mechanical properties and the mechanisms
+fortheirchangeareconfrontedtoleadtoadeeperunderstandingofthepossibleperfor-
+manceofceramicparticulatereinforcedaluminummatrixcomposites(AMCs). Thelistof
+usedreinforcementsandtheiruniquefeaturesduringtheLPBFprocess,aswellasdiagramsMaterials2022,15,2467 4of38
+showingthestrengthening,hardeningandgrain-refiningeffectoftheaddedparticulates,
+arespecified. ThepropertiesandefficiencyofAMCspreparedbythetraditionalorother
+additivemanufacturingtechniquesarebeyondthescopeofthispaper.
+ReinforcementwithCeramicParticulates
+TheinfluenceofrapidcoolingduringLPBFontheAlalloymicrostructureisdescribed
+bythreefactors: (i)constitutionalchangesduetoagreatlevelofundercooling;(ii)individ-
+ualphaserefinement,whenthescaleofmicrostructuralrefinementisstronglyrelatedto
+thevelocityofthesolidificationinterface;(iii)generationofphasesinmetastablestate[10].
+Incontrasttocoarse-grainedcastAlalloys,LPBF-fabricatedAlalloysexhibitarefined
+microstructure,reduceddendriticbranching,decreasedsegregationpatterns,extensions
+of solid solubility of alloying components, formation of metastable crystalline, quasi-
+crystalline,amorphousphases[10]andmicrostructuralanisotropy[55].
+Generally,theanisotropyinLPBF-fabricatedpartsisamajorprocessingbottleneck
+triggeredbythegenerationofcoarsecolumnargrainswithapreferentialcrystallographic
+texturingalongthebuilddirection[56]. ThemainmicrostructuralcharacteristicsinLPBF-
+fabricatedhypoeutecticAl–Sialloysarecolumnarprimary-AlgrainsandtheeutecticSi
+phase. Theformationofsuchcolumnargrainsisinducedbythehighthermalgradients,
+which hinders nucleation ahead of the solidification front stimulating epitaxial grain
+growthduringLPBF[57]. Epitaxiallygrowncolumnargrainsareformedduringpartial(or
+complete)meltingoftheprecedingsolidifiedlayersuponlaserscanningofnewlayersand
+furtherdevelopthroughsuccessiveirradiatedlayers. Moreover,theformationofcolumnar
+grainscanleadtointergranularhottearing[58]. Aneffectivesolutionistoprovokethe
+equiaxedgrainformationduringcoolingprocess,whichisreacheduponmodulatingthe
+thermalgradient,coolingrateandalterationofcoolingconditions[59,60].
+OneoftheapproachesformicrostructureandpropertiesoptimizationduringLPBF
+processingiseitherexsituorinsituinoculation. Insitureactionsintheparticle-reinforced
+compositesystemsprohibittheformationofinterfacialcompounds,supportthenucleation
+andgrowthfromtheparentmatrixphasetogeneratechemicallymorestablereinforcing
+compounds. Thedistributionoftheinsitureinforcementsismorehomogeneousandpro-
+videsastronginterfacialbondingwiththematrix[61]. Thechemicalreactionbetweenthe
+reactantsmightalsooriginateanextrathermalenergyforthefusion,whichcanstrengthen
+the matrix-reinforcement binding. Such assets lead to supreme material performances,
+allowingMMCs(metalmatrixcomposites)toreachmechanicalpropertiesfarsuperiorto
+theexsitureinforcedornon-reinforcedmetals/alloys. However, duetoawidevariety
+oftechnologicalchallenges,theseMMCsareseldomimplementedforcommercialappli-
+cations. Successful design requires a large number of factors to be considered, such as
+powdercompositions,presenceofnativeoxidefilmsonpowderparticles,powderflow,
+exothermicityoftheinsitureactionandprocessparameters. The“insitu”formedelements,
+suchasO,CandN,mightdissolveinametalmatrix,causingsignificantembrittlement.
+Furthermore,additionalheatreleasedduringtheprocessmightcausemeltpoolinstability,
+leadingtoanintensivepowdersplashandevaporation[62,63].
+Commonly,forgrainrefinement,theadditionofstablegrainrefiners(inoculants)with
+thesmallestpossiblelatticemismatchtoaluminumiswidelyusedinconventionalcasting
+processes. Refiners suppress the columnar solidification and promote the formation of
+a fine, uniform, equiaxed grain structure by stimulating heterogeneous nucleation and
+achievingthecolumnar-to-equiaxedtransition[64]. Thelattermagnifiesthetotalareaof
+grainboundariesperunitvolume,decreasingtheresidualliquidfilmthicknessalongthe
+solidification process, and thus prohibits the formation and propagation of cracks [28].
+Theheterogeneousnucleationofα-Alduringsolidificationtakesplacepreferablyonthe
+inoculants,whichprovidethelow-energyinterfacesbetweenarefinerandamatrix[65].
+Todeterminethecomparativevaluesofinterfacialenergy,atomicmatchingthroughout
+the interface is generally employed as an indicator. To reduce interfacial energy, the
+mainrequirementsarecoherentorsemi-coherentinterfacesandreproducibleorientationMaterials2022,15,2467 5of38
+relationships(ORs)betweentwocrystals,asdifferentlatticeparameterscausedistortionof
+thelattice,resultinginanexcessstrainenergy,whichisdeterminedbyalatticemismatch
+(also called as lattice disregistry, δ) [58]. The selection of potent grain refiners with the
+smallestdisregistrywiththematrixcrystalthroughoutaspecificinterfaceisfavored[58].
+Ifdisregistryvalueisbelow10%,bothinsituformedandaddedinoculantshavetheability
+toinduceheterogeneousnucleationofAlgrains[66].
+NucleantparticlesserveadualroleintheAMCsasrefinersandreinforcements,and
+theycanbeclassifiedinthreecategories: non-oxideceramics,oxideceramicsandcarbon-
+basedcompounds. Generally,theceramicparticulatesofahighhardness,goodthermal
+stability,relativelyhighlaserabsorptivityandcompatibilitywithmetals/alloysaresuitable
+constituentsforthepreparationofhigh-performanceAMCs[67]. Tomeetthedemandto
+satisfythe“lightweightandhighstrength”concept,novelAMCsarecontinuouslyunder
+development[5,11,68].
+FortheconventionalAMCs,relativelycoarseceramicparticleswithasizerangingfrom
+severaltenstohundredsofmicrometersarebroadlyutilizedasreinforcements. However,
+reasonedbylimitedinterfacialwettabilitybetweenreinforcementandmatrix,thelarge
+particlesaresusceptibletocrackingduringmechanicalloading,causingreducedductility
+andinducingprematurefailureofAMCs[69]. Consequently, bothtensilestrengthand
+ductilityofAMCsincreaseifthefine-sizedreinforcementsareused. Onthataccount,the
+introductionofthenano-scaledceramicparticlescanremarkablyenhancethemechanical
+performanceofAMCs[70,71].
+However,theagglomerationofnanoparticlesmaycauseunfavorablemicrostructural
+changesandaffectthemechanicalbehaviorofthecomposites,aswellasaffectingthermal
+andrheologicalbehaviorofthemeltpool(increasingviscosity,especiallyincaseofhigh
+volumeofnanoparticles)andshiftingtheLPBFparameterwindow. TheLPBFmethod
+enableseffectivefabricationofcompositesreinforcedwithceramicreinforcements,taking
+intoaccounttheuniquemetallurgicalnatureoftheprocess,hightemperaturesandthermal
+convectioninamicron-sizedmoltenpool[23,72,73].
+2. Non-OxideAdditives
+Non-oxideadditives(borides,carbides,nitrides,etc.) areoneofthemostusedrein-
+forcementsforAlalloysduetotheirhighmeltingtemperaturesandchemicalstability[74].
+AMCsmergetheductilityandtoughnessofaluminumwiththehighstrengthandmodulus
+oftheceramicreinforcement[75],henceachievinganimprovementoftheoverallcharac-
+teristicsanddurability[12]. Thelowlaserabsorptivityofaluminumintheinfraredrange
+challenges the controlled melting, while the increase in the laser absorption of ceramic
+particulatedecorated/mixedaluminumalloyatalaserwavelengthof1064nmpromotes
+theLPBFprocess. Theintroductionofceramicparticlestothepurealloyincreaseslaser
+absorptivity of the overall powder mixture, as (i) non-oxide ceramic particles display
+high laser absorptivity and (ii) the added ceramic particles increase surface roughness
+ofdecoratedpowder,promotingmultiplereflectionsofthelaserinthepowderbed[28].
+As shown in Figure 2a–c, the ray absorption of the SiC/AlSi10Mg and TiB /AlSi10Mg
+2
+powdermixturesishighercomparedtopureAlSi10Mgalloy. Thereisalowerintensityof
+interactionsbetweenlaserraysandparticlesofpureAlSi10MgcomparedtoSiCandTiC
+addedcompositepowder. (Figure2d–g)[76].MMaatteerriiaallss 22002222,, 1155,, x24 F6O7R PEER REVIEW 6 6ooff 4318
+FF ii gg uu rr ee 2 2. . IIrrrraaddiiaannccee ddiissttrriibbuuttiioonn ffoorr SSiiCC//AAllSSii1100MMgg ((aa )),, AAllSSii1100MMgg ((b b)),, TTiiBB22//AAllSSii1100MMgg ((cc )) ppoowwddeerr
+mmiixxttuurreess ((ttoopp vviieeww)).. IIlllluussttrraattiioonn ooff ttrraacckk ssppoott ooff eeaacchh llaasseerr rraayy oonn tthhee ppaarrttiiccllee ssuurrffaaccee ooff AAllSSii1100MMgg
+((dd)),, SSiiCC//AAllSSii1100MMgg ((ee)),, TTiiBB22//AAlSlSi1i01M0Mgg (f()f )(s(isdidee vvieieww) )aanndd nnuummeerricicaal lrreepprreesseennttaattiioonn ooff llaasseerr––ppaarrttiiccllee
+iinntteerraaccttiioonnss ((gg)) ((rreepprroodduucceedd wwiitthh ppeerrmmiissssiioonn ffrroomm [[7766]]))..
+2.1. Borides: GrainRefiningandStrengtheningEffectofTiB ,LaB ,CaB
+2.1. Borides: Grain Refining and Strengthening Effect of TiB22, LaB66, CaB66
+As one of the proven highly effective grain refiners for Al alloy, TiB particles ex-
+As one of the proven highly effective grain refiners for Al alloy, TiB2 par2ticles exhibits
+hibitsgoodthermalstability,goodwettabilityandinterfacialcompatibility,inadditionto
+good thermal stability, good wettability and interfacial compatibility, in addition to the
+theacknowledgedcrystallographicorientationrelationshipwithAlmatrix,contributing
+acknowledged crystallographic orientation relationship with Al matrix, contributing to a
+to a comprehensive mechanical performance of AMCs [59,73]. The addition of TiB to
+comprehensive mechanical performance of AMCs [59,73]. The addition of TiB22 to
+AlSi10Mgincreasesthelaserabsorptivityofthepowderbedbyalmost1.5times[76]. To
+AlSi10Mg increases the laser absorptivity of the powder bed by almost 1.5 times [76]. To
+provideevendistribution,smallparticlesizeandadequateinterfacialbondingoftheTiB
+provide even distribution, small particle size and adequate interfacial bonding of the TiB2 2
+particles,insitufabricationapproacheshavebeenimplemented,offeringtheadvantages
+particles, in situ fabrication approaches have been implemented, offering the advantages
+ofacleaninterfacebetweenceramicparticlesandmatrixalloyandfinemorphologyofin
+of a clean interface between ceramic particles and matrix alloy and fine morphology of in
+situformedparticles[5]. BothinsituandexsitufabricationofTiB reinforcedAlalloysare
+situ formed particles [5]. Both in situ and ex situ fabrication of T2iB2 reinforced Al alloys
+discussedbelow.
+are discussed below.
+In Ref. [77], 0.5–8 wt.% nano-sized TiB particles were introduced into AlSi10Mg,
+In Ref. [77], 0.5–8 wt.% nano-sized TiB22 particles were introduced into AlSi10Mg,
+which resulted in the elimination of columnar grains and refined elongated dendritic
+which resulted in the elimination of columnar grains and refined elongated dendritic
+structures from 4.6 to 2 µm, as shown in Figure 3a–d and Table 1. Similar results were
+structures from 4.6 to 2 µm, as shown in Figure 3a–d and Table 1. Similar results were
+obtainedinRefs.[59,73],astheintroductionof1–5wt.%and5.3wt.%(3.4vol%)TiB to
+2
+o Ab lSta i1in 0e Md g i ,n r eR spef es c. t [ iv59 el,7 y,3 l] e, das to th ree m in at rr ko ad bu lect gi ro an in o rf e 1 fi– n5 e mw et. n% t da on wd n5. t3 o w 1.5t. 5% µ ( m3. (4 F v igo ul% re) 3 T e–iB g2, it ,jo ).
+AlSi10Mg, respectively, led to remarkable grain refinement down to 1.55 µm (Figure 3e–
+However,theincorporationofonly1wt.%TiB intoAlSi10Mg[78]didnotdemonstrate
+2
+g a,i d,j r) a. mH ao tw ice dv ie ffr e, rt eh ne c ein bc eo twrp eo er nat ri eo in n foo rf ceo dnl ay n d1 pw ut r.% e a lT loiB y2 pi an rt to s ;A holS wi1 e0 vM erg , t[ h7 e8] g rd ai id n sn izo et
+demonstrate a dramatic difference between reinforced and pure alloy parts; however, the
+distributionbecamedistinctlynarrow(Figure3h).
+grain size distribution became distinctly narrow (Figure 3h).
+A microstructure with average grain size of 1.38 µm for the vertical sector was ob-
+served[79]when6.5wt.%TiB wasadded(Figure3k).However,theincreaseinTiB content
+2 2
+Table 1. Characteristics of boride (particulate) reinforced AMCs fabricated by laser powder-bed
+to~11.6wt.%(almosttwotimes)[80]didnotresultinfurthergrainrefinement(Figure3l).
+fusion.
+Used Device, Relative Average
+σs/σu ε/εc Hardness
+System Process Density Grain N
+(MPa) (%) (HV)
+Parameters (%) Size (μm)
+SLM 150 HL
+P = 350–450 W
+AlSi10Mg/
+ν = 1800 mm/s 99.95 ~6.3 - - ~126 HV0.2 [78]
+1 wt.% TiB2
+d = 50 µm
+h = 50 µmMaterials2022,15,2467 7of38
+Table1.Characteristicsofboride(particulate)reinforcedAMCsfabricatedbylaserpowder-bedfusion.
+UsedDevice, Average
+System Process Relative Grain σ y/σ u ε/ε c Hardness N
+Density(%) (MPa) (%) (HV)
+Parameters Size(µm)
+SLM150HL
+P=350–450W
+AlSi10Mg/ ν=1800mm/s
+99.95 ~6.3 - - ~126HV0.2 [78]
+1wt.%TiB2 d=50µm
+h=50µm
+Ev=77.7–100.0J/mm3
+ProxDMP200SLM
+P=210W
+AlSi10Mg/ ν=1000mm/s
+3.4vol.%TiB2 d=30µm
+99.975 2.08 σ u=522.9–529 ε≈7.5–8.6 - [59]
+h=100µm
+Ev=70J/mm3
+AlSi10Mg/
+SLM150 Upto99.09 6.32±0.07
+σ y≈270
+ε≈3.6 ~124HV0.2
+1wt.%TiB2
+P=450W
+σ u=397
+A 2wlS ti1 .%0M Tig B/
+2
+ν d= =1 56 00 µ0 m–2600mm/s Upto99 2.20±0.11 σ σy u≈ ≈2 48 43
+4
+ε≈4.2 ~127HV0.2 [73]
+h=50µm
+A 5wlS ti1 .%0M Tig B/
+2
+Ev=69.2–112.5J/mm3 ~96–97.8 1.55±0.14 σ σy u≈ =42 27 20 ε≈4.1 ~129HV0.2
+AlSi10Mg 99.56±0.16 4.64
+σ y=270.1±4.3
+ε=4.7±0.4
+125.9±1.4HV10
+σ u=430.7±1.6
+AlSi10Mg/
+ProxDMP200, 99.82±0.10 3.45
+σ y=317.6±2.1
+ε=9.5±0.3 140.5±1.3HV10
+0.5wt.%TiB2
+3DSystems
+σ u=484.1±3.3
+AlSi10Mg/ P=220–280W
+99.92±0.04 2.0
+σ y=320.1±3.2
+ε=12.7±0.2 147.1±1.5HV10 [77]
+2wt.%TiB2 ν=800–2000mm/s σ u=500.7±3.5
+d=30µm
+AlSi10Mg/
+h=90µm 99.91±0.02 ~2.0
+σ y=323.7±1.9
+ε=8.7±0.5 151.1±2.1HV10
+5wt.%TiB2 σ u=522.9±3.6
+AlSi10Mg/
+99.92±0.05 ~2.0
+σ y=340.8±1.7
+ε=6.2±0.2 161.5±2.5HV10
+8wt.%TiB2 σ u=544.4±2.6
+AlSi10Mg/
+B PL =T- 2S 63 01 –0
+350W
+1 fo.6 r3 toµ pm σ σy u= =3 53 32 6. .3 9± ±6 1. 47
+.4
+ε=16.5±1.7 -
+ν=900–1500mm/s >99.5 [79]
+6.5wt.%TiB2
+d h== 13 10 0µ –m 170µm 1 fo.3 r8 siµ dm
+e
+σ σy u= =2 57 17 7. .9 3± ±6 9. .9
+1
+ε=15.4±1.6
+House-built
+P=200–300W
+AlSi10Mg/ ν=800–2000mm/s
+11.6wt.%TiB2 d=30µm
+99.5 ~2 σ u=530±16 ε=15.5±1.2 191±4HV0.3 [80]
+h=105µm
+Ev=31.7–119.0J/mm3
+RenishawAM400
+P=250–300W
+AlCu/
+ν=1125–4500mm/s Upto99.5 0.5–2
+σ u=391±7.3
+ε=12.5±0.8 - [50]
+~4.7wt.%TiB2
+d=30µm
+σ y=317.8±9.3
+h=90µm
+SLM250HL
+P=190W
+Al-Cu-Mg-Si/ ν=165mm/s
+5vol.%TiB2 d=40µm
+>99.0 2.5±0.1 σ yc=191±12 ε c≈60 - [81]
+h=80µm
+Ev=359.8J/mm3Materials2022,15,2467 8of38
+Table1.Cont.
+UsedDevice, Average
+System Process Relative Grain σ y/σ u ε/ε c Hardness N
+Density(%) (MPa) (%) (HV)
+Parameters Size(µm)
+AconityLAB
+P=200W
+Al-Cu/ ν=1000mm/s
+~4wt.%TiB2 d=30µm
+99.9±0.1 0.64±0.26 σ u=401±2 ε=17.7±0.8 113±2HV10 [82]
+h=100µm
+Ev=66.67J/mm3
+SLM250HL
+Al-12Si P=320W - - σ yc=211±4 - 119HV0.05
+ν=1655mm/s
+[64,83]
+d=50µm
+Al-12Si/ h=110µm
+2wt.%TiB2 Ev=35.1J/mm3 ≈99.1 ~5.1 σ yc=225±4 ε c≈30 142±6HV0.05
+AlSi10Mg 99.08±0.1 6.1
+σ y=243±9 ε tr≈5.5
+σ u=420±9 ε long≈3.7
+AlSi10Mg/
+99.03±0.08 4.0
+σ y≈242 ε tr≈6.4
+0.05wt.%LaB6
+SLM125HL
+σ u≈430 ε long≈4.8
+AlSi10Mg/ P=300W
+99.17±0.05 2.5
+σ y≈245 ε tr≈7
+0.2wt.%LaB6 ν=1650mm/s σ u≈435 ε long≈6.5
+d=30µm - [84]
+AlSi10Mg/
+h=130µm 99.46±0.18 2.2
+σ y≈240 ε tr≈6.5
+0.5wt.%LaB6 Ev=46.6J/mm3 σ u≈427 ε long≈6.9
+AlSi10Mg/ T=200◦C
+99.49±0.13 1.8
+σ y≈235 ε tr≈7.1
+1wt.%LaB6 σ u≈429 ε long≈5.8
+AlSi10Mg/
+99.48±0.22 1.6
+σ y≈238 ε tr≈7.0
+2wt.%LaB6 σ u≈445 ε long≈5.6
+AconityLABmachine
+2024Alalloy P=200–300W 98.3 - - - 66±6HV5
+ν=600–1200mm/s
+d=30µm [28]
+2 20 w24 t.%Al Ca all Bo 6y/ Eh v= =10 50 6–µ 1m 67J/mm3 >99.5 0.91±0.32 σ σy u= =3 34 98 1± ±1 26
+2
+ε=12.6±0.6 132±4HV5
+Ev—laservolumetricenergydensity,E l—laserlinearenergydensity,P—laserpower,ν—scanningspeed,h—hatching
+distance, d—layer thickness, σu—ultimate tensile strength, σy—yield strength, σuc—ultimate compressive strength,
+σyc—compressiveyieldstrength,ε—elongation,εlong—elongationatlongitudinaldirection,εtr—elongationattransverse
+direction,εc—compressionstrain,RT—roomtemperature,-meansnodataavailable.
+Partial melting of TiB was reported in Ref. [73] despite the fact that TiB is con-
+2 2
+sideredarefractorymaterial. Adding5vol.%(or8.3wt.%)TiB toanAl–Cualloy[81]
+2
+resultedinaremarkablegrainsizereductionfrom23to2.5µm. InRef.[82],theinsitu
+TiB (4wt.%)reinforcedAl–Cu–Ag–Mg–Tialloyhadfineequiaxedgrainswith~0.64µm
+2
+average size without preferential orientation (Figure 3p). The reported grain size was
+smaller than that stated in Refs. [73,80]. In Refs. [64,83], the addition of 2 wt.% TiB
+2
+toanAl–12Sialloyproducedatexturelessmicrostructurewithanaveragegrainsizeof
+~5µm,meaningthatincaseofsimilarcontentofincorporatedTiB ,coarsergrainswere
+2
+grownintheAl–12SialloythaninAlSi10Mg(Figure3m,n). Forcomparison,ahot-pressed
+sample’sEBSDimageisshowninFigure3o,which,interestingly,showedahigherdegree
+ofgrainrefinement.
+Forabareminimumborideadditiverange,atleast2wt.%TiB issufficienttosignifi-
+2
+cantlyalterthefinalmorphologyandcrystallographictextureofLPBF-processedmateri-
+als[64,73,77,82,83].MMaatteerriiaallss 22002222,, 1155,, 2x4 F6O7R PEER REVIEW 99 ooff 3481
+FFiigguurree 33.. EBESBDSD (el(eecletrcotrno bnacbkascckastctaertt deriffdriafcftriaocnti)o cno)locro mloarpms faoprs LfPoBrFL-pPrBeFp-aprreedp Aarle adlloAyls aalnlody AsManCds
+reinforced with borides ((a)–(n) and (p)–(v)) (subfigure (o) represents hot-pressed (HP) sample)
+AMCsreinforcedwithborides((a–n)and(p–v))(subfigure(o)representshot-pressed(HP)sample)
+(reproduced with permission from [28,59,64,73,77–80,83,84]).
+(reproducedwithpermissionfrom[28,59,64,73,77–80,83,84]).Materials 2022, 15, x FOR PEER REVIEW 10 of 41
+A microstructure with average grain size of 1.38 µm for the vertical sector was
+observed [79] when 6.5 wt.% TiB2 was added (Figure 3k). However, the increase in TiB2
+content to ~11.6 wt.% (almost two times) [80] did not result in further grain refinement
+(Figure 3l).
+Partial melting of TiB2 was reported in Ref. [73] despite the fact that TiB2 is considered
+a refractory material. Adding 5 vol.% (or 8.3 wt.%) TiB2 to an Al–Cu alloy [81] resulted in
+a remarkable grain size reduction from 23 to 2.5 µm. In Ref. [82], the in situ TiB2 (4 wt.%)
+reinforced Al–Cu–Ag–Mg–Ti alloy had fine equiaxed grains with ~0.64 µm average size
+without preferential orientation (Figure 3p). The reported grain size was smaller than that
+stated in Refs. [73,80]. In Refs. [64,83], the addition of 2 wt.% TiB2 to an Al–12Si alloy
+produced a textureless microstructure with an average grain size of ~5 µm, meaning that
+in case of similar content of incorporated TiB2, coarser grains were grown in the Al–12Si
+alloy than in AlSi10Mg (Figure 3m,n). For comparison, a hot-pressed sample’s EBSD
+image is shown in Figure 3o, which, interestingly, showed a higher degree of grain
+refinement.
+Materials2022,15,2467 For a bare minimum boride additive range, at least 2 wt.% TiB2 is suffici1e0not ft3o8
+significantly alter the final morphology and crystallographic texture of LPBF-processed
+materials [64,73,77,82,83].
+TThhee ggrraaiinn rreefifinniinngg ((ccoolluummnnaarr ttoo eeqquuiiaaxxeedd ttrraannssiittiioonn)) eeffffeecctt ooff TTiiBB22 ((FFiigguurree 44aa,,bb)) iiss
+aassccrriibbeedd ttooi tistsg ogoododst asbtailbitiylitiyn ainm ae lmtpeolto lp,osuolp, psluypinpglyniunmg enruoumselroowu-se nloewrg-yenbearrgryie rbnaurrcileer-
+antuiocnleastitioesn (csriytesst al(cermysbtrayl oes)mabnrdyoasr)e daundct ioan riendtuhceticornit icinal athmeo ucrnittiocfalt oatamlouunndte rocfo otlointagl
+ruenqdueirrecodotloinign irteiaqtueirthede ftoor minaittiiaotne othfee qfourimaxaetdiocnr yosft aelqsu[i7a7x]e.dT chreysptaarlsti c[l7e7s].p Tuhshe epdatrotictlhees
+gpruasihnebdo tuon tdhaer igersapinin boanudndsatarbieilsi zpeing raanidn sbtoaubnildizaer igersaainn dboliumnidtagrriaeisn agnrdo wlimthita glornagint ghreohwetaht
+flaluoxndgi rtehcet ihoena[t5 9fl]u.xF udritrheecrtmionor e[5,9d]u. eFtuortahleorwmeorrteh, edrmuea ltoco an dlouwcteivr itthyeorfmTaiBl 2co(~n7d7u.8ctWiv/itmy Kof)
+aTsiBco
+2
+(m~7p7a.r8e Wdt/omAKl)( a~s1 0co8mWp/amreKd) t[o7 3A],l T(~iB1208p aWrt/imcleKs) p[7re3v],e TnitBh 2e paatrfltuicxleast parheivgehntte hmeapte frlautux raet,
+rae hdiugchi ntegmthpeertaetmurpee, rraetduurceinggra tdhiee ntetm. Tpherealtautrtee rgrraedsuieltnst.i nThthe elaftoterrm raetsiuolntso inf fithnee feoqrmuiaatxieodn
+gorf afiinnse, ewqeuaiakxeendin ggrathines,t ewxetuarkeenainndg athneis toetxrotuprye oafndfa banriicsaotterdopAyM ofC fsab[5r9ic]a.teOdv AerMalCl,sg [r5a9in].
+rOevfienreamll,e ngtraisinju rsetiffiineedmweintht ias cjoumstbifiineadt iwonitohf ah icgohmcboionliantigorna toefs hdiugrhin cgoLoPliBngF, raanteins cdreuarsiendg
+number of nucleation sites and limitations on grain growth [73,80], which lie beneath
+LPBF, an increased number of nucleation sites and limitations on grain growth [73,80],
+threemainmechanisms: constitutionalsupercooling,heterogeneousnucleationandZener
+which lie beneath three main mechanisms: constitutional supercooling, heterogeneous
+pinning. Meanwhile,randomorientationsofTiB particlesprovidetherandomizationof
+nucleation and Zener pinning. Meanwhile, rando2m orientations of TiB2 particles provide
+Algrainorientationandtextureelimination[77].
+the randomization of Al grain orientation and texture elimination [77].
+FFiigguurree 44..G Grarpahpihciaclaill luilslutrsattriaotnioonf gorfa ignrfaoirnm faotriomnadtiuornin dgusorilnidgi fiscoaltiidoinfiicnataiomne litnin ga pmooelltoinfgA lpSoi1o0lM ogf
+(Aa)lSain10dMAglS (ia1)0 aMngd- TAilBS 2i1A0MMCg-T(biB)2( rAepMroCd (ubc)e (drewpritohdpuecremd iwssiitohn pferrommis[s7i7o]n). from [77]).
+TThhee ggrraaiinn rreefifinniinngg eeffffeecctt ooff TTiiBB22 iiss aallssoo rreeppoorrtteedd ttoo bbee aa rreessuulltt ooff tthhee ffoorrmmaattiioonn ooff AAll33TTii
+aanndd tthheec crryysstatalllologgrarapphhiciaclallylyc ochoehreernetnitn itnertfearcfaecbee tbweteweneeAnl 3ATli 3aTni danTdiB T2,iwB2h, wichhipcrho mprootmesotthees
+nthuec lneuatciloenatoiofnA ol 3fT Aiol3nTit hoen stuhref ascuerofafcTei Bo2f pTaiBrt 2i cplaerstiicnleasn iAn lamn eAltl. mWeitlht.o WutitthhoeuAt lt3hTei lAayl3eTri,
+TlaiBy2era,d TdiBit 2iv aedsdairteiveeass ialyrec oeanstialmy icnoantteadmbiynaimtepdu bryit iiemswpuitrhitaiehs iwghitthe nad heingchy tteonfdoernmcya etou tfeocrtmic
+ma iecurotescttriucc mtuircerowstitrhucAtulraen wd,itthh eArel foanred,, btehienrgefionrseu, fbfieciinengt iinnsunfuficclieeantti nign α n-uAcllegartainings α[8-A5]l.
+Hgroawinesv [e8r5,]in. HRoefw.[e8v1e]r,,a inp rRefeefr. a[b8l1e],n aa tpurreaflesrtaabclkei nngatsuerqaule sntcaeckoifnAg lsaetqoumesnocen oTfi BA2la antdomdisr eocnt
+refiningarereported. Meanwhile,inRef.[82],itwashighlightedthattheabsenceofthe
+Al Tilayerdoesnotprovealackofnucleation,sincetheAl Tilayercanfullytransform
+3 3
+intoα-Alduringthecoolingprocessviaaperitecticreaction.
+BesidesTiB ,otherborides,suchasCaB andLaB hadshownapromisingrefining
+2 6 6,
+capability. The addition of 0.05–2 wt.% LaB to AlSi10Mg resulted in grain refinement
+6
+down to 1.6 µm (Figure 3q–t). LaB particles form a highly coherent interface with the
+6
+Al matrix. A higher amount of LaB nanoparticles (>0.5 wt.%) did not further provide
+6
+grainrefinementandrestrictedlongitudinalelongationduetotheweakeningofmeltpool
+boundariesbysegregationoftheexcessLaB nanoparticles[84]. Theadditionof2wt.%
+6
+CaB nanoparticlestothehigh-strength2024aluminumalloyresultedinanequiaxed,crack-
+6
+freemicrostructurewithanaveragegrainsizeof0.91 ± 0.32µmandahighlycoherent
+interface with Al (Figure 3u,v and Figure 5a,b) [28]. No decomposition of CaB was
+6
+observed. However,noteveryCaB nanoparticlefunctionsasanucleant;alargequantity
+6
+ofthemisacquiredintheliquidphasebetweenthegrowinggrains,andtheyareforcedto
+thegrainboundarieswheretheystabilizethemicrostructureviaZenerpinning.Materials 2022, 15, x FOR PEER REVIEW 11 of 41
+TiB2 and direct refining are reported. Meanwhile, in Ref. [82], it was highlighted that the
+absence of the Al3Ti layer does not prove a lack of nucleation, since the Al3Ti layer can
+fully transform into α-Al during the cooling process via a peritectic reaction.
+Besides TiB2, other borides, such as CaB6 and LaB6, had shown a promising refining
+capability. The addition of 0.05–2 wt.% LaB6 to AlSi10Mg resulted in grain refinement
+down to 1.6 µm (Figure 3q–t). LaB6 particles form a highly coherent interface with the Al
+matrix. A higher amount of LaB6 nanoparticles (>0.5 wt.%) did not further provide grain
+refinement and restricted longitudinal elongation due to the weakening of melt pool
+boundaries by segregation of the excess LaB6 nanoparticles [84]. The addition of 2 wt.%
+CaB6 nanoparticles to the high-strength 2024 aluminum alloy resulted in an equiaxed,
+crack-free microstructure with an average grain size of 0.91 ± 0.32 µm and a highly
+coherent interface with Al (Figures 3u,v and 5a,b) [28]. No decomposition of CaB6 was
+observed. However, not every CaB6 nanoparticle functions as a nucleant; a large quantity
+Materials2022,15,2467 11of38
+of them is acquired in the liquid phase between the growing grains, and they are forced
+to the grain boundaries where they stabilize the microstructure via Zener pinning.
+F Fi ig gu ur re e 5 5. . E EB BS SD D in inv ver es re s epo pl oe l efig fiu gr ue r egr ga rin ai nor oie rn ieta nt ti ao tn io m na mp a o pf oL fP LB PFe Bd F e2 d02 24 0 2a 4llo ay ll— oy2 — w 2t.% w tC .%aB C6 a(a B),
+6
+r (aes ),p re ec sti pv ee c tH ivA eA HD AF A-S DT FE -M ST Ean Md aA nD dF A-S DT FE -M ST Eim Mag imes a go ef sC oa fB C6 an Bano np aa nr oti pc ale rs ti cw lei sth win i thα i- nAl α -g Ara lin g ra(b in)
+6
+(HAADF-STEM stands for high-angle annular dark-field scanning transmission electron
+(b)(HAADF-STEMstandsforhigh-angleannulardark-fieldscanningtransmissionelectronmicro-
+microscope, ADF for annular dark-field)(reproduced with permission from [28]).
+scope,ADFforannulardark-field)(reproducedwithpermissionfrom[28]).
+I In n R Re ef f. . [ [7 77 7] ], , t th he e a ad dd di it ti io on n o of f 0 0. .5 5– –8 8 w wt t. .% % T Ti iB B2 t to o A Al lS Si i1 10 0M Mg g r re es su ul lt te ed d i in n i in nc cr re ea as se ed d s st tr re en ng gt th h
+2
+( (u up p 55 44 44 MM PP aa )) aa nn dd hh aa rr dd nn ee ss ss ( w(w iti hth 2 2 00 %% );) h; h owow eve ev re ,r t, h t eh he ih ghig ch o c no ten nte tn ot f o Tf i BTiB (>2 2(> %2 )% r) e sr ues ltu el dte id n
+2
+in a reduced ductility (6.2%), which was still higher than for a reference AlSi10Mg.
+areducedductility(6.2%),whichwasstillhigherthanforareferenceAlSi10Mg. Simul-
+Simultaneous enhancement of strength (up to 537 MPa and 530 MPa) and ductility (16.5%
+taneousenhancementofstrength(upto537MPaand530MPa)andductility(16.5%and
+a 1n 5.d 5 %15 ). w5% as) w aca hs i ea vc eh die iv ne Rd ei fn s .R [e 7f 9s ,. 8 [ 07 ]9 ,, r8 e0 s] p, er ce ts ip vee lc yt ,iv we hly e, n w 6h .5en w 6 t.. %5 w ant. d% 1 a 1n .6d w 1 t1 .. %6 w Tit B.% w T eiB re2
+2
+were introduced to AlSi10Mg. The increased strength was mainly attributed to the Hall–
+introducedtoAlSi10Mg. TheincreasedstrengthwasmainlyattributedtotheHall–Petch
+Petch relationship, loading-bearing and Orowan strengthening mechanisms. The grain
+relationship,loading-bearingandOrowanstrengtheningmechanisms. Thegrainboundary
+b mo ou dn id fia cr ay ti om no bd yif Tic ia Btio nn a nb oy - T pi aB rt2 in cua ln ao te-p sa ar nti dcu thla ete ps r oa mnd o tt eh de dp ir so lom co att ie od n d pi ls alo stc ia ct itio yn b ypl na ast nic oi -t Sy i
+2
+bpyre cnipaintaot-eSsi impprreocvipeidtadteusc tiilmityp.rLoavBeda ddduitciotinlitrye.s uLltaeBd6i naadsduibtitolen imrepsruolvteemd enint ofas trseunbgttlhe
+6
+iamndprdouvcetmilietny;t hoofw setvreern,gththe raenindf odrcuicntgilietfyfe; chtowwaesvneort, atshpe rorneionufonrcceidn,ga seifnfetcht ewcaasse onfoTt iBas.
+2
+pronoTuhnecheidg,h aess tine ltohneg caatsioen o(f~ T1i7B.27.% )wasrecordedinRef.[82],whentheAl–Cualloywas
+reinfTorhcee hdigwhiethst4 elwont.g%atTioiBn (;~h1o7w.7e%v)e wr,aths ereaclolorydsede xinh iRbeitfe. d[8a2]s,i wgnhiefinc athnetl yAll–oCwue ralsltoryen wgaths
+2
+raenidnfhoarcrdedn ewssi.thT h4e watd.%di tTioiBn2o; fh2owwet.v%erC, athBe
+6
+a[2ll8o]yrse seuxlhteibditienda an sinigcnreifaisceadntellyo nlogwateior nstorefn2g02th4
+aanlldo yh,aurpdntoes1s2. .T6%he, aadnddiitmiopnr oofv 2e dwtte.%ns CilaeBa6n [d28y]i reeldsuslttreedn ignt han(T ianbclreea1s).ed elongation of 2024
+alloy, up to 12.6%, and improved tensile and yield strength (Table 1).
+2.2. Carbides: GrainRefiningandStrengtheningEffectofTiC,SiC,B C
+4
+22..22.. 1C.aTribtiadneisu: GmraCinar Rbiedfien:inTgiC and Strengthening Effect of TiC, SiC, B4C
+2.2.1.T TiCitaenxiuhmibi Ctsasrebvideera: lTfiCav orable characteristics required for Al alloys reinforcement;
+among them, there are moderate density (4.91 g/cm3), high hardness (28–32 GPa) [86],
+TiC exhibits several favorable characteristics required for Al alloys reinforcement;
+highmodulusofelasticity(upto440GPa)[87],goodwettability,goodlaserabsorptivity
+among them, there are moderate density (4.91 g/cm3), high hardness (28–32 GPa) [86],
+(higherthanTiB )andlowlatticemismatch(6.9%)withAl. TiCparticlereinforcedAMCs
+high modulus of2 elasticity (up to 440 GPa) [87], good wettability, good laser absorptivity
+haveahighstrength,stiffnessandmodulus,goodcorrosionandwearperformance[22,72].
+(higher than TiB2) and low lattice mismatch (6.9%) with Al. TiC particle reinforced AMCs
+However,whenformedinsituinthemeltpool,theTiCphasepossessesunstablechemical
+composition(portrayedasTiC ,wherexisin0.48–1range)duetothegenerationofcarbon
+x
+atomvacancies. Consequently,thenucleatingbehaviorofTiC forα-Alisnotconsistent,
+x
+sincetheTiC +Al→Al C reactionisfavored,whichresultsinweakenedgrainrefining
+x 4 3
+performance[88].
+InRef.[89],anincreaseintheTiCcontentfrom1to10wt.%whenaddedtotheAl–15Si
+alloyresultedinanincreaseinmeltpoolfluidityandadecreaseintheundercoolingdegree,
+leadingtosignificantgraincoarsening(Figure6). Ultimately,withtheaddedthreshold
+limitofTiC(10wt.%),theprimarySiparticlesprecipitateoutanddistributeonthesurface
+oftheAlmatrix(Figure6d).Materials 2022, 15, x FOR PEER REVIEW 12 of 41
+have a high strength, stiffness and modulus, good corrosion and wear performance
+[22,72]. However, when formed in situ in the melt pool, the TiC phase possesses unstable
+chemical composition (portrayed as TiCx, where x is in 0.48–1 range) due to the generation
+of carbon atom vacancies. Consequently, the nucleating behavior of TiCx for α-Al is not
+consistent, since the TiCx+Al→Al4C3 reaction is favored, which results in weakened grain
+refining performance [88].
+In Ref. [89], an increase in the TiC content from 1 to 10 wt.% when added to the Al–
+15Si alloy resulted in an increase in melt pool fluidity and a decrease in the undercooling
+degree, leading to significant grain coarsening (Figure 6). Ultimately, with the added
+Materials2022,15,2467 12of38
+threshold limit of TiC (10 wt.%), the primary Si particles precipitate out and distribute on
+the surface of the Al matrix (Figure 6d).
+Figure 6. Microstructure evolution of the Al–15Si alloy reinforced with 1 wt.% (a), 2.5 wt.% (b), 7.5
+Figure 6. Microstructure evolution of the Al–15Si alloy reinforced with 1 wt.% (a), 2.5 wt.%
+wt.% (c) and 10 wt.% TiC (d) (reproduced with permission from [89]).
+(b),7.5wt.%(c)and10wt.%TiC(d)(reproducedwithpermissionfrom[89]).
+AAlltteerrnnaattiivveellyy,, tthhee ffaabbrriiccaattiioonn ooff AAllSSii1100MMgg//55 wwt.t%.%-n-naannoo-T-TiCiC [[7700]] uunnddeerr aann iinnccrreeaasseedd
+Materials 2022, 15, x FOR PEER
+REVIl ElaaWssee rr eenneerrggyy ccaauusseedd tthhee nnaannoo--TTiiCC ppaarrttiicclleess ttoo aaccccuummuulalattee inin cclulussteterrss, ,foforrmminingg ththee mmicicroronn--13
+of 41
+ssiizzeedd aagggglloommeerraatteess. .HHoowweevveerr, ,tthhee ddiissppeerrssiioonn ooff rreeiinnffoorrcceemmeenntt bbeeccaammee mmoorree uunniiffoorrmm,, aass
+sshhoowwnn iinn FFiigguurree 77aa––dd..
+FFiigguurree 7.7S. ESMEMim aigmesapgoerst rapyoinrtgradyisipnegr sidoinspdeegrsreioeno fdTieCgarened roesf pTecitCiv eamndic rorestsrpuecctutirveeo fmfabicrricoastterducture of
+fAalbSri1ic0aMtegd/ 5AwlSti.%10TMiCgc/o5m wpto.%sitTeipCr occoemsspedosaittev aprriooucessEs le(dE va)t: 3v1a4riJo/ums (E12l 5(E.7v1):J /3m14m J3/m)(a ()1,24540.7J1/ mJ/mm3) (a),
+4(14706 J.0/mJ/ (m17m63.0) (Jb/m),m7333) J(/bm), 7(23933 J./3mJ/ (m29m3.33) J(c/m)amnd3) 1(1c)0 0anJ/dm 11(40400 J./0mJ/ (m44m0.30) J(/dm)(mre3p) r(odd)u (creedprwodithuced with
+ppeerrmmiissssioionnf rformom[7 [07])0.]).
+AnincreaseinenergyinputresultedinchangeinTiCappearance, fromaggregate
+An increase in energy input resulted in change in TiC appearance, from aggregate to
+to ring (circular) structures, due to intensive Marangoni flow (Figure 8a–d) in LPBFed
+ring (circular) structures, due to intensive Marangoni flow (Figure 8a–d) in LPBFed
+AlSi10Mg/3wt.%TiCcomposites[71].
+AlSi10Mg/3 wt.%TiC composites [71].
+Figure 8. SEM images demonstrating the dispersion states of nano-TiC particles in LPBFed
+AlSi10Mg/3 wt.%TiC composites at Ev = 160 J/mm3 (a), Ev = 200 J/mm3 (b), Ev = 240 J/mm3 (c) and Ev
+= 280 J/mm3 (d) (reproduced with permission from [71]).
+The formation of ring-structured TiC was reported in Ref. [22] as well. At 5 and 7.5
+wt.% TiC addition, at elevated Marangoni force and a lower viscous drag force, the
+ceramic particulates are captured in the circular melt motion (Figure 9b,c) and generate
+distinct circular structures in solidified build (Figure 9e–g). The circular-structured TiC
+agglomerate formation was not found in Ref. [70] when 5 wt.% TiC was used, which can
+probably be justified by the application of different process parameters.Materials 2022, 15, x FOR PEER REVIEW 13 of 41
+Figure 7. SEM images portraying dispersion degree of TiC and respective microstructure of
+fabricated AlSi10Mg/5 wt.%TiC composite processed at various El (Ev): 314 J/m (125.71 J/mm3) (a),
+440 J/m (176.0 J/mm3) (b), 733 J/m (293.3 J/mm3) (c) and 1100 J/m (440.0 J/mm3) (d) (reproduced with
+permission from [70]).
+An increase in energy input resulted in change in TiC appearance, from aggregate to
+ring (circular) structures, due to intensive Marangoni flow (Figure 8a–d) in LPBFed
+Materials2022,15,2467 13of38
+AlSi10Mg/3 wt.%TiC composites [71].
+FFiigguurere8 .8. SESMEMim iamgeasgdeesm donesmtraotninsgtrathteindgi sptheres iodnissptaetressioonf nsatnaot-eTsiC opf arntiacnleos-TiniCL PpBFaerdticles in LPBFed
+AAllSSi1i100MMg/g3/3w wt.%t.T%iCTicCom copomsipteossaitteEs
+v
+a=t E16v0 =J /1m60m J3/m(am), E3 ( va=), 2E0v0 =J/ 2m0m0 3J/(mb)m, E3 v(b=),2 4E0v J=/ m24m03 J/mm3 (c) and Ev
+(=c )2a8n0d JE/mv=m238 0(dJ/) m(rmep3r(do)d(urecperdod wucietdh wpiethrmpeirsmsiiossnio fnrofrmom [7[711]]))..
+The formation of ring-structured TiC was reported in Ref. [22] as well. At 5 and
+The formation of ring-structured TiC was reported in Ref. [22] as well. At 5 and 7.5
+7.5wt.%TiCaddition, atelevatedMarangoniforceandalowerviscousdragforce, the
+wcerta.%m icTpiCar tiacduldaitteisoanre, caatp teulreevdaitnedth eMciarcrualnargmoneilt fmoortcieo na(nFidg uare l9obw,c)ear nvdigsecnoeursa tedrag force, the
+cdeisrtainmcticci rpcaurlatricsutrluactteusr easrien csaoplidtuifireeddb iunil dth(eF igcuirrceu9lea–rg )m. Tehlte mciroctuiloanr- s(tFruigctuurreed 9Tbi,Cc) and generate
+Materials 2022, 15, x FOR PEER REVIEW 14 of 41
+dag isg tlo inm ce tr a ct ie rcfo ur lm ara t sio tn ruw ca tusn reo st f io nu n sd oli in dR ife if e. d[7 0 b] uw ih lden (5 Fiw gt u.% reT i 9C e–w ga )s
+.
+u Tse hd e, w cih ri cc uh lc aa rn
+-structured TiC
+probablybejustifiedbytheapplicationofdifferentprocessparameters.
+agglomerate formation was not found in Ref. [70] when 5 wt.% TiC was used, which can
+probably be justified by the application of different process parameters.
+Figure 9. Velocity vector plots around a TiC reinforcing particle in the melt pool (the dashed circles
+Figure9. VelocityvectorplotsaroundaTiCreinforcingparticleinthemeltpool(thedashedcircles
+highlight the circular motion) and micrographs demonstrating typical morphology of LPBF-
+highlightthecircularmotion)andmicrographsdemonstratingtypicalmorphologyofLPBF-processed
+processed AlSi10Mg/TiC nanocomposites with different TiC contents: 2.5 wt.% (a,d), 5 wt.% (b,e)
+AlSi10Mg/TiCnanocompositeswithdifferentTiCcontents:2.5wt.%(a,d),5wt.%(b,e)and7.5wt.%
+and 7.5 wt. % (c,f). Schematics of the formation mechanism of novel circular TiC configurations
+(c,f).SchematicsoftheformationmechanismofnovelcircularTiCconfigurationsduringfusionprocess
+dur ai tn fg ix f eu ds Eio vn = p 5r 7o 1.c 4e 3s Js / a mt mfi3xe (gd ) (E rev p= r 5 od71 u. c4 e3 d J w/m ithm p3 e ( rg m) i( sr se iop nro frd ou mce [2d 2 ]w ).ith permission from [22]).
+ThTeh perperseesnecnec eoof finin ssiittuu ffoorrmmeeddD D002222--AAl 3lT 3Tiii nioncoucluanlatnst(sw (iwthitteht rtaegtorangaolsntarul csttururec)twuraes) was
+revealedinRef.[31]fortheAlSi10Mg/5wt.%TiCcomposite. Heterogeneousnucleationof
+revealed in Ref. [31] for the AlSi10Mg/5 wt.%TiC composite. Heterogeneous nucleation of
+α-AlontheD0 -Al Tinanoparticles(Figure10c–f)occurred,leadingto(i)columnar-to-
+α-Al on the D0 2-2Al T3i nanoparticles (Figure 10c–f) occurred, leading to (i) columnar-to-
+22 3
+equiaxedtransitionwithsubsequentgrainrefinementfrom~80µmto~1µm(Figure11a,b),
+equiaxed transition with subsequent grain refinement from ~80 µm to ~1 µm (Figure
+11a,b), and (ii) the preferred orientation of the of α-Al (200) phase was removed (Figure
+10a,b). In situ formed Al Ti served as a more effective nucleant as compared to TiC, mainly
+3
+due to the small lattice mismatch between Al and Al Ti, which was reduced to 0.09%.
+3
+Figure 10. Diffractograms of the LPBFed AlSi10Mg (a) and AlSi10Mg/5 wt.%TiC (b) specimens,
+HRTEM image of the D022–Al3Ti/Al matrix (c) and interface (d), SAED patterns taken at the D022-
+Al3Ti along (010) Al3Ti (e), FFT patterns of the D022–Al3Ti/Al matrix interface (f) (SAED stands for
+selected area electron diffraction and FFT for fast Fourier transform, (reproduced with permission
+from [31]).
+Yet, another variable parameter centers on powder production for the LPBF process.
+In Ref. [90], the LPBF of the ball-milled composite powder of AlSi10Mg/5 wt.%TiC is
+reported. After printing, the TiC particles maintained their nanoscale nature and were not
+subjected to a significant coarsening, which resulted in an increased hardness of the alloy
+from 140 to 185 HV and the tensile strength from 400 to 482 MPa (Table 2). The
+0.1
+elongation of the composite part (10.8%) was similar to the elongation measured for theMaterials 2022, 15, x FOR PEER REVIEW 14 of 41
+Figure 9. Velocity vector plots around a TiC reinforcing particle in the melt pool (the dashed circles
+highlight the circular motion) and micrographs demonstrating typical morphology of LPBF-
+processed AlSi10Mg/TiC nanocomposites with different TiC contents: 2.5 wt.% (a,d), 5 wt.% (b,e)
+and 7.5 wt. % (c,f). Schematics of the formation mechanism of novel circular TiC configurations
+during fusion process at fixed Ev = 571.43 J/mm3 (g) (reproduced with permission from [22]).
+The presence of in situ formed D022-Al3Ti inoculants (with tetragonal structure) was
+Materials2022,15,2467 14of38
+revealed in Ref. [31] for the AlSi10Mg/5 wt.%TiC composite. Heterogeneous nucleation of
+α-Al on the D022-Al3Ti nanoparticles (Figure 10c–f) occurred, leading to (i) columnar-to-
+equiaxed transition with subsequent grain refinement from ~80 µm to ~1 µm (Figure
+an11da(,bii)), tahnedp (riei)f etrhree dproerfieernretadt ioornieonftathtieono foαf -tAhel (o2f0 α0)-Aplh (a2s0e0w) pahsarseem woavse dre(mFiogvuerde (1F0iag,ubr)e. In
+si1t0uaf,bo)r.m Ine sditAu lf 3oTrimseedrv Aeld3Tai ssearvmeodr aese af fmecotriev eefnfeucctilveae nntuacslecaonmt apsa croemdptoarTediC t,om TiaCin, mlyadinuley to
+thdeusem toa ltlhlea tstmicaellm laisttmicaet mchisbmetawtcehe bneAtwleaennd AAl la 3nTdi, Awlh3Tici,h wwhaicshr ewdausc reeddtuoce0d.0 t9o% 0..09%.
+Figure 10. Diffractograms of the LPBFed AlSi10Mg (a) and AlSi10Mg/5 wt.%TiC (b) specimens,
+Figure10.DiffractogramsoftheLPBFedAlSi10Mg(a)andAlSi10Mg/5wt.%TiC(b)specimens,HRTEM
+imH aR gT eE oM
+ft
+him ea Dg 0e o –f
+A
+th le
+T
+D i/0 A22l– mAl a3tT ri i/ xA (l
+c
+)m aa nt drix
+in
+( tc e)
+r
+fa an cd
+e
+i (n dt )e ,r Sf Aac Ee
+D
+(d p),
+a
+tS tA erE nD
+s
+tp aa kt et ner an ts
+t
+t ha ek Den
+0
+at
+-
+Ath le TD i0 a2l2o-
+ng
+Al3Ti along (01202) Al33Ti (e), FFT patterns of the D022–Al3Ti/Al matrix interface (f) (SAED22 stan3ds for
+(010)Al Ti(e),FFTpatternsoftheD0 –Al Ti/Almatrixinterface(f)(SAEDstandsforselectedarea
+selected3 area electron diffraction and2 F2FT f3or fast Fourier transform, (reproduced with permission
+elfercotmro n[3d1]if)f. ractionandFFTforfastFouriertransform,(reproducedwithpermissionfrom[31]).
+Yet,anothervariableparametercentersonpowderproductionfortheLPBFprocess.
+Yet, another variable parameter centers on powder production for the LPBF process.
+In Ref. [90], the LPBF of the ball-milled composite powder of AlSi10Mg/5 wt.%TiC is
+In Ref. [90], the LPBF of the ball-milled composite powder of AlSi10Mg/5 wt.%TiC is
+reported. After printing, the TiC particles maintained their nanoscale nature and were
+reported. After printing, the TiC particles maintained their nanoscale nature and were not
+nsoutbsjuecbtjeedct teod at soigansiifgicnainfitc caonatrsceonairnsge,n winhgic,hw rheiscuhltreeds uinl taend iinncraenasiendc rheaarsdendehssa rodf nthees salolofyth e
+alflrooymf r1o4m0 1to4 018to5 1H85V0H
+.1
+Va0n.1d atnhde tthenestielen ssitlreesntgrtehn gfrthomfr o4m00 4t0o0 4to824 8M2PMa P(aTa(bTlaeb l2e).2 )T.hTeh e
+eleolonnggaatitoionno off tthhee ccoommppoossiittee ppaarrtt ((1100..88%%)) wwaass ssimimilialar rtoto ththe eeleolnognagtaiotino nmmeaesausruedre fdorf otrheth e
+pureAlSi10Mgalloy. Thiscanbeexplainedbyvariouseffects: (i)anincreaseddislocation
+densitynearreinforcement/matrixinterface,(ii)TiCnanoparticlesactingasabarrierfor
+dislocationmovement,(iii)delayingcrackpropagation,thusimprovingthetensilestrength.
+AlternatingtheTiCconcentration,laserenergydensityandpowderprocessingtechnique
+yielddifferentcompositeattributes,asshowninTable2.
+Table2.CharacteristicsofcarbidereinforcedAMCsfabricatedbylaserpowder-bedfusion.
+Relative Average
+System UsedDevice, Density Grain σ y/σ u ε/ε c Hardness N
+ProcessParameters (MPa) (%) (HV)
+(%) Size(µm)
+Al-15Si σ u=398 ε=2.6 154HV1
+Al-15Si/ SLM125
+1wt.%TiC P=360W
+σ u=578 ε=7.86 146HV1
+ν=600mm/s >98.5 - [89]
+Al-15Si/
+2.5wt.%TiC
+d=20µm σ u≈450 ε≈4 150HV1
+h=60µm
+Al-15Si/
+10wt.%TiC
+σ u≈313 ε=2.24 177HV1Materials2022,15,2467 15of38
+Table2.Cont.
+Relative Average
+System UsedDevice, Density Grain σ y/σ u ε/ε c Hardness N
+ProcessParameters (MPa) (%) (HV)
+(%) Size(µm)
+SLMsystem
+P=80,100,120
+and140W
+ν=200mm/s σ u=452 ε=9.8 157.4HV0.1
+d=50µm
+AlSi10Mg/
+3wt.%TiC h E= =5 10 60µ Jm /mm3 >98.5 - [71]
+E=200J/mm3 - - ≈173HV0.1
+E=240J/mm3 σ u=486 ε=10.9 188.3HV0.1
+E=280J/mm3 - - 180.6HV0.1
+SLMsystem
+P=110W
+ν=100–350mm/s
+AlSi10Mg/
+d=50µm >98 - - - 181.2HV0.2 [70]
+5wt.%TiC
+h=50µm
+E =1100,733,440,
+l
+314J/m
+EOSM290
+P=320W
+AlSi10Mg/
+ν=1100mm/s 99.75 0.5–1
+σ u≈456
+ε=2.97 131HV0.05 [31]
+5wt.%TiC
+d=30µm
+σ y≈338
+h=130µm
+SLMsystem
+P=100W
+AlSi10Mg/ Full
+5wt.%TiC
+ν=150mm/s
+dense
+- σ u=482 ε=10.8 185HV0.1 [90]
+d=50µm
+h=50µm
+3DSystemsProXDMP
+AlSi10Mg/ 320
+10wt.% P=300W
+- ~3
+σ u=488±6
+ε=10.1±2.2 - [88]
+Al-Ti-C-B ν=1400mm/s σ y=287±3
+masteralloy d=30µm
+h=100µm
+2024alloy 98.2 ~30 σ u=240±10 ε=0.3±0.2 108HV0.2
+2024/
+EOSM290 98.5 - - -
+1wt.%TiC
+P=200W
+2024/ ν=100mm/s
+95.7 - - - - [92]
+1wt.%TiH2 d=40µm
+h=90µm
+2024/
+T=180◦C
+(1wt.%TiC 97.1 ~2 σ u=390±15 ε=12.0±0.5 120HV0.2
++1wt.%TiH2)
+AlSi10Mg 98.22 12.1
+σ u=393.8±14.5
+ε=4.5±0.9 127.8±2.4HV.1
+σ y=224.2±7.2
+ASi10Mg/
+1.5wt.%TiC EOSM280 99.02 1.5
+σ u=552.4±12.1 ε=12±0.6
+142±2.9HV0.1
++1.5wt.%TiB2 P=270W
+σ y=325±10.2
+ν=1600mm/s [93]
+ASi10Mg/ d=30µm 97.12 7.7 σ u=360.6±8.5 ε=3.8±0.2 134.4±1.4HV0.1
+3wt.%TiB2 h=110µm σ y=200±8.8
+ASi10Mg/
+98.23 1.7
+σ u=453±10
+ε=4.8±1.1 138.3±1.7HV0.1
+3wt.%TiC σ y=267.5±7.8Materials2022,15,2467 16of38
+Table2.Cont.
+Relative Average
+System UsedDevice, Density Grain σ y/σ u ε/ε c Hardness N
+ProcessParameters (MPa) (%) (HV)
+(%) Size(µm)
+RT
+σ u=356±10 ε=4.5±0.5
+σ y=220±4
+100◦C
+AtRT
+σ u=327±2 ε=5±1
+AlSi10Mg full - σ y=230±3 -
+dense 150◦C
+σ u=282±3 ε=11.5±2.5
+σ y=213±3
+SLM-125HL
+200◦C
+P=150W
+σ u=245±8 ε=11±1.2
+ν=1200mm/s σ y=194±7
+[91]
+d=30µm RT
+Th= =1 20 05 0µ ◦Cm <R 1T .5 σ σu y== 23 23 73 ±± 72 ε=2.8±0.
+100◦C
+AtRT
+- σ u=344±2 ε=3.5±0.2
+AlSi10Mg/ full σ y=245±2 -
+2vol.%TiCN
+dense 150◦C
+- σ u=308±9 ε=4.2±0.2
+σ y=235±4
+200◦C
+- σ u=270±1 ε=4.9±0.4
+σ y=209±10
+AlSi10Mg
+σ u=366
+ε=6.8 ~141HV0.2
+σ y=193
+AlSi10Mg/ -
+0.7wt.%
+σ u=417
+ε=5.2 ~139HV0.2
+(B4C+Ti)
+SLM-120
+σ y=234
+AlSi10Mg/ P=200W
+5.7wt.% ν=1200mm/s
+Almost σ u=307
+ε=3.6 ~170HV0.2
+(B4C+Ti) d=30µm
+f du el nl
+se
+σ y=126 [94]
+h=70µm
+AlSi10Mg/
+1 (B1 4.5 Cw +Tt. i%
+)
+T=200◦C σ σu y== 12 11 78 ε=3.4 ~175HV0.2
+AlSi10Mg/
+17.2wt.%
+σ u=165
+ε=1.7 ~222HV0.2
+(B4C+Ti)
+σ y=72
+EOSINTM280
+AlSi7Mg P ν== 13 25 00 0W
+mm/s
+P ≈o 0r .o 5s 9i %ty ~4.55 σ u=388.3±49.6 ε=7.03±1.25 n≈ a1 n.8 o5 -hG aP rda
+ness
+[8]
+d=40µm
+AlSi7Mg/ h=190µm Porosity ε=10.64± ≈2.11GPa
+2wt.%SiC T=80◦C ≈0.25% ~3.14 σ u=502.94 1.06 nano-hardness
+SLM280HL
+P=120W
+AlSi10Mg/ ν=250mm/s
+2vol.%SiC d=30µm ~92.04 - - - - [95]
+(~2.4wt.%) h=60µm
+T=150◦C
+Ev=267J/mm3Materials2022,15,2467 17of38
+Table2.Cont.
+Relative Average
+System UsedDevice, Density Grain σ y/σ u ε/ε c Hardness N
+ProcessParameters (MPa) (%) (HV)
+(%) Size(µm)
+P=150W
+Ev=333J/mm3
+98.7 4.44 σ u=343±59 ε=3.3±1.7 134.4±3.2HV0.1
+P=180W
+A 2l vS oi1 l.0 %M Sg iC/
+Ev=400J/mm3
+97.69 4.96 σ u=377±28 ε=2.9±0.95 135.6±3.5HV0.1
+[95]
+(~2.4wt.%) P=210W
+Ev=467J/mm3
+97.36 6.73 σ u=440±17 ε≈7.4 131.7±2.6HV0.1
+P=240W
+Ev=533J/mm3
+97.40 - σ u=450±30 ε=4.9 129.7±6.9HV0.1
+ReaLizerSLM-100
+P=200W 97.4(by
+Al–12Si/
+ν=375–1500mm/s X-raymicro
+10vol.%SiC - - - - [34]
+d=50µm tomography
+(~11.8wt.%)
+h=100µm (XMT))
+Ev≈20–80J/mm3
+EOSINTM280
+P=240–320W
+AlSi10Mg/
+ν=500–1800mm/s - 2.35
+σ u≈450
+- 208.5HV0.1 [96]
+10wt.%SiC
+d=30µm
+σ y≈410
+h=80–160µm
+Self-developed
+NRD-SLM-III
+P=340–490W
+AlSi10Mg/
+15wt.%SiC
+ν=600–2100mm/s 97.7 - σ u=341.9 ε≈3 217.4HV0.2 [97]
+d=40µm
+h=60–180µm
+T=200◦C
+AlSi10Mg/
+15wt.%SiCp Self-developed ≈97.8 σ uc=545.4 ε c≈4.7% ≈210HV0.2
+(300mesh) NRD-SLM-III -
+P=500W
+AlSi10Mg/
+ν=1200mm/s
+15wt.%SiCp d=40µm ≈98.5 σ uc=642.4 ε c≈6.1% ≈240HV0.2 [98]
+(600mesh)
+h=120µm
+AlSi10Mg/
+T=200◦C
+15wt%SiCp 98.9 σ uc=764.1 ε c≈7.0% 316.1HV0.2
+(1200mesh)
+Self-developed
+P=80–110W
+AlSi10Mg/ N=100mm/s
+~89.2–96.1 - - - 214HV0.1 [11]
+20wt.%SiC d=50µm
+h=50µm
+E =800–1100J/m
+l
+AlSi10Mg/
+20wt.%SiC SLMapparatuswithYb 86.4 ~127HV0.1
+D50SiC=50µm laser - - -
+P=100W
+AlSi10Mg/
+ν=100mm/s [13]
+20wt.%SiC 93.7 188HV0.1
+d=30µm
+D50SiC=15µm
+h=50µm
+AlSi10Mg/
+20wt.%SiC ~97.2 218.5HV0.1
+D50SiC=5µmMaterials 2022, 15, x FOR PEER REVIEW 15 of 41
+pure AlSi10Mg alloy. This can be explained by various effects: (i) an increased dislocation
+density near reinforcement/matrix interface, (ii) TiC nanoparticles acting as a barrier for
+dislocation movement, (iii) delaying crack propagation, thus improving the tensile
+Materials2022,15,2467 18of38
+strength. Alternating the TiC concentration, laser energy density and powder processing
+technique yield different composite attributes, as shown in Table 2.
+FFiigguurree 1111.. EEBBSSDD ccoolloorr mmaappss ffoorr LLPPBBFF--pprreeppaarreedd AAll aallllooyyss aanndd AAMMCCss rreeiinnffoorrcceedd wwiitthh ccaarrbbiiddeess,,
+carbonitride, carbide/hydride and carbide/boride additives (a)–(n) (reproduced with permission
+carbonitride, carbide/hydride and carbide/boride additives (a–n) (reproduced with permission
+from [31,88,91–93]).
+from[31,88,91–93]).
+TableW 2h. Cilheaurasicntegriastsicins golfe cacrabribdied reerinefinorfcoerdce AmMeCnts hfaabsripcraotevde nbyt olabseera pnowefdfeecrt-ibveed wfuasyiofno. rgrain
+refinement,theuseofasecondadditivewasshowntocomplementtheeffectsofasingle
+Used Device, Relative Average
+species. InRef.[92],thedualrσeyi/nσfuo r cingphasesεw/εec reused,resultiHngaridnnaecsrsa ck-freesample
+System Process Density Grain N
+producedfromthe2024alloy/(M1wPat.)% TiC+1wt.%(%T)i H powdersm(iHxtVur)e . Itwasshownthat
+Parameters (%) Size (μm) 2
+unreinforcedalloycontainedcolumnarmicrostructure(Figures11gand12a–c),whilethe
+Al-15Si 2024alloy/1wt.%TiC+1wt.%σ Tui = H 39 c8 o mpositewε a = s 2 c. o6 m posedofs1 u5 p4 e H rfiV n1 e equiaxedgrains
+2
+Al-15Si/ SLM125
+(Figures11hand12d–h). σu = 578 ε = 7.86 146 HV1
+1 wt.% TiC P = 360 W
+Al-15Si/ ν = 600 mm/s >98.5 - [89]
+σu ≈ 450 ε ≈ 4 150 HV1
+2.5 wt.% TiC d = 20 µm
+Al-15Si/ h = 60 µm
+σu ≈ 313 ε = 2.24 177 HV1
+10 wt.% TiCMaterials 2022, 15, x FOR PEER REVIEW 19 of 41
+AlSi10Mg/ ν = 100 mm/s
+20 wt.% SiC d = 30 µm 93.7 188 HV0.1
+D50SiC = 15 µm h = 50 µm
+AlSi10Mg/
+20 wt.% SiC ~97.2 218.5 HV0.1
+D50SiC = 5 µm
+While using a single carbide reinforcement has proven to be an effective way for
+grain refinement, the use of a second additive was shown to complement the effects of a
+single species. In Ref. [92], the dual reinforcing phases were used, resulting in a crack-free
+sample produced from the 2024 alloy/1 wt.%TiC+1 wt.%TiH2 powders mixture. It was
+shown that unreinforced alloy contained columnar microstructure (Figures 11g and 12a–
+Materials2022,15,2467 19of38
+c), while the 2024 alloy/1 wt.%TiC+1 wt.%TiH2 composite was composed of superfine
+equiaxed grains (Figures 11h and 12d–h).
+Figure 12. Schematic representation of microstructures and solidification mechanisms of LPBF-
+Figure12.SchematicrepresentationofmicrostructuresandsolidificationmechanismsofLPBF-fabricated
+fabricated 2024 Al alloy (a)–(c) and 2024/TiC-TiH2 composite (d)–(h) (reproduced with permission
+2024Alalloy(a–c)and2024/TiC-TiH composite(d–h)(reproducedwithpermissionfrom[92]).
+from [92]). 2
+Ti-richparticles(TiCandAl Ti)withirregularorcubicshapearepresentinthegrains
+3
+exhibT iti e-r dic ih
+n
+p Fa igrt ui rc ele 1s
+3
+( aT ,i bC
+.
+Tan hd
+e
+LA 1l3T -Ai)
+l
+w Ti ith
+w
+i ir tr he agu fala cr
+e
+-o cr
+e
+ncu teb ri -c
+c
+ush ba icp (e
+F
+a Cr Ce )p sr te rs ue cn tt
+u
+i rn
+e
+t ih se
+a
+g rr ea si un ls
+t
+2 3
+oex fh Ti ib Hited
+d
+ein
+co
+F mig pu or se
+i
+t1 i3 oa n,b (.
+T
+T iHhe →L1 T2- iA +Hl3T )i w anit dh
+r
+a
+e
+afa cc tie o- nce bn ete twr-c eu enbic
+T
+i(F aC ndC)
+A
+s ltr muc et lu t.re
+I
+tis
+is
+a
+w
+re os ru tl ht
+mof e T ni tH io2 2n id ne gco thm atp io nsi Rti eo fn .[ 3(T 1]i ,H a2 2→ forT mi+ aH ti2o2 ) n a on fd t hr eea Dc 0tion -A b le Ttw ipe he an s eTi w a itn hd a A tel t rm agel ot n. aIt l si ts r uw co turt rh e
+22 3
+wm ae sn rti eo pn oi rn tg
+ed
+th
+.
+Aat hin
+ig
+R he lf y. [ c3 o1 h] e, ra
+e
+f no tr im nta et rio fan
+c
+eof
+b
+t eh te
+w
+D ee0 n22- LA 1l3-T Ai lp Th ia ase
+n
+dwαit -h
+A
+a
+l
+t wet ar sag oo bn sea rl
+v
+s etr du (c wtu itr he
+2 3
+0w .2a 4s
+%
+re lp ao ttr it ce ed m. A
+is
+mhi ag th cl hy
+)
+c (o Fh ige ure rent
+1
+i 3n ct )e ,r if na dc ie
+c
+ab te it nw ge te hn
+a
+tL L1 12-A -Al3lTi
+T
+a in md
+i
+gα h-A tsl ew rva es ao sbs se ur bv se trd
+a
+( tw efi oth
+r
+2 3
+h0. e2 t4 e%
+ro
+gla et nti ec oe
+u
+m siαsm -Aa lt nch u)
+c
+l( eF aig tiu or ne
+;
+1 h3 oc w),
+e
+i vn ed ri ,c aat ci on hg
+e
+t rh ea nt
+t
+L in1 t2- eA rfl a3T cei m waig sh nt
+o
+s te grv ee
+n
+ea rs
+a
+s tu edbs btr ea twte
+e
+f eo nr
+ThieCteraongdenAelo(uFsi gαu-Arel n1u3dcl)e.atFioonll;o hwoiwngevtehre, a“ cToihtrearennsitt iinotnerzfoacnee ”waths enoorty g(edneemraotends tbraettwedeeinn
+Materials 2022, 15, x FOR PEER REVIEW 20 of 41
+FTiigCu raend12 A),lT i(-Fciogvuerree d13Tdi)C. nFoanlloopwairntgic ltehse, a“nTdi tthraennsiTtiiConp zaortnicel”e sththeeomrys e(dlveems,obnesctoramteedt hine
+eFfifgeucrtiev 1e2n),u Tclie-caotivoenresdu bTsitCra tneasnfoopraαr-tAiclleass, wanedll .then TiC particles themselves, become the
+effective nucleation substrates for α-Al as well.
+FFiigguurree 1133.. TTEEMM iimmaaggeesso offL 1L1-2A-Al lT3Ti(ia ()aa)n adnTdi CTpiCa rptiaclretsic(lbe)s, H(bR),T HEMRTimEMag eimanadger easnpdec trievsepFeFctTivpea tFteFrTn
+2 3
+p oa ft αte -Arn
+l
+/o Lf 1α- -A Al l/L T1 i2i- nA tel3rT fai ci ent (e c)rf aa nc de ( αc -)
+A
+a ln /d
+T
+iα C-A inl t/ eT ri fC
+ac
+i en (t der )f (a rc ee
+p
+r( od d) u(r ce ep dro wd itu hce pd
+er
+w mi it sh
+s
+ip oe nr fm roi mssi [o 9n
+2
+]f )r .om
+2 3
+[92]).
+On account of the inhibition of columnar grains, elimination of cracks, a refined
+microstructure and Orowan strengthening, the 2024 alloy/TiC+TiH2 AMC showed a
+simultaneous enhancement of tensile strength and ductility.
+Another study on the fabrication of double TiB2-TiC reinforced AMCs [93] revealed
+that the addition of dual ceramic phases improved laser absorptivity by almost two-fold,
+substantially refining the Al grains (Figure 11i,k) and resulting in the increment in tensile
+strength (552 MPa) and elongation (12%) (Table 2). It was revealed that the dual
+reinforcement more remarkably affected the mechanical performance, improved
+densification and grain refinement compared to the single reinforcement with the same
+total content (Table 2 and Figure 11j,l).
+Double or triple reinforcements formed during in situ chemical reactions generate a
+composite material highly coherent with the metal matrix. When 0–17.2 wt.% (Ti-B4C)
+mixture was added to AlSi10Mg [94], the full densification of samples and in situ
+formation of ceramic phases were reported due to the combined LPBF and combustion
+synthesis (CS) process. Silicon atoms released from the alloy combine with Ti and C atoms,
+yielding the formation of transitional ternary carbide Ti3SiC2, while the remaining B4C and
+Ti are responsible for the formation of TiB2 and TiC particulates (Figure 14). The
+generation of the Ti3SiC2 phase resulted in a significant drop in porosity of the fabricated
+sample. The heat released during the combustion reaction allowed for carrying out the
+fabrication in low laser energy regime.Materials2022,15,2467 20of38
+On account of the inhibition of columnar grains, elimination of cracks, a refined
+microstructureandOrowanstrengthening,the2024alloy/TiC+TiH AMCshowedasimul-
+2
+taneousenhancementoftensilestrengthandductility.
+AnotherstudyonthefabricationofdoubleTiB -TiCreinforcedAMCs[93]revealed
+2
+that the addition of dual ceramic phases improved laser absorptivity by almost two-
+fold, substantially refining the Al grains (Figure 11i,k) and resulting in the increment
+in tensile strength (552 MPa) and elongation (12%) (Table 2). It was revealed that the
+dual reinforcement more remarkably affected the mechanical performance, improved
+densificationandgrainrefinementcomparedtothesinglereinforcementwiththesame
+totalcontent(Table2andFigure11j,l).
+Doubleortriplereinforcementsformedduringinsituchemicalreactionsgenerate
+acompositematerialhighlycoherentwiththemetalmatrix. When0–17.2wt.%(Ti-B C)
+4
+mixturewasaddedtoAlSi10Mg[94],thefulldensificationofsamplesandinsituformation
+of ceramic phases were reported due to the combined LPBF and combustion synthesis
+(CS)process. SiliconatomsreleasedfromthealloycombinewithTiandCatoms,yielding
+theformationoftransitionalternarycarbideTi SiC ,whiletheremainingB CandTiare
+3 2 4
+responsiblefortheformationofTiB andTiCparticulates(Figure14). Thegenerationof
+2
+theTi SiC phaseresultedinasignificantdropinporosityofthefabricatedsample. The
+3 2
+Materials 2022, 15, x FOR PEER REVIhEeWa treleasedduringthecombustionreactionallowedforcarryingoutthefabrica2ti1o nof i4n1
+lowlaserenergyregime.
+FF ii gg uu rr ee 11 44 .. II nn ss ii tt uu ff oo rr mm aa tt ii oo nn mm ee cc hh aa nn ii ss mm oo ff TT iBiB2,, TT ii CC ,, TT ii3SS ii CC2 cc ee rr aa mm ii cc pp hh aa ss ee ss ii nn tt hh ee mm oo ll tt ee nn pp oo oo ll
+2 3 2
+(reproduced with permission from [94]).
+(reproducedwithpermissionfrom[94]).
+22..22..22.. SSiilliiccoonn CCaarrbbiiddee:: SSiiCC
+TThhee SiSCiCp arptaicrlteicrleei nrfeoirncfeodrcAeMd CAsMarCesa paprleie dapinpalieerdo spina ceaearnodspealeccet roannidc enelceacptrsounlaic-
+teionnca,pbsouthlaitniomn, ibliotathry ina nmdilciitvarilyia annfide clidvsi,lidanu efiteoldtsh,e diruhei tgoh tshpeeirc ihfiicghst srpenecgitfhica sntrdenstgiftfhn aenssd,
+isntiaffdndeistsio, nint oadabdriatisoino ntore saibsrtaasnicoen. SrieCsishtaasnacem. SuicCh hhiagsh ae rmlauscehr ahbisgohreprt ilvaisteyr( ≈ab7s8o%rp)ttihvaitny
+a(l≈u7m8%in)u tmha(n≈ a7l%u)m,minoudme r(a≈t7e%de),n msitoyd(e3r.a2t1eg d/ecnms3it)y, a(n3d.2i1t gin/ccmre3a)s, easntdh eitl aisnecrraebasseosr ptthive itlyasoefr
+tahbesbolrepntdiveidtym oifx ttuhree b[l1e3n,3d4e,d97 m,98ix].tuDrue r[i1n3g,3l4a,s9e7r,9ir8r]a. dDiautrioinng, SliaCsepr airrtriacdleisattieonnd, tSoiCh epaatrutipclteos
+etxetnrdem toe lhyehatig uhpt etom epxetrraetmureel,yl ehaigdhin tgemtoprearpaitdurreea, cletiaodninragt etos. rHapeindc ere,athcetiodne crraetaesse. Hinetnhceer,m thael
+cdoencdreuacstiev iitny trheesrumltsali ncofunrdtuhecrtivriistey irnetseumltps eirna tfuurreth,tehre rliisfee tiinm teeamnpdeflrautiudritey, tohfet hliefemtiemltep aonodl.
+Mflueaidniwtyh oilfe ,thane imncerlet apsoeoinl. SMiCeacnowntheinlet,i nanth ienicnrietaiasle feine dSsitCo cckoanntedn,th ienn cteh,ei nintihtieabl lfeeneddsmtoeclkt
+paonodl,, hinecnrceea,s iens tthhee bvliescnods imtyeoltf paoloiql,u iindcrmeaelsteas nthder evsiuscltossiintya olfo aw leiqrufliudi dmiteyl.t Tahnedr erefosurel,tsb ointh a
+tlhoewrmero -fkluinideittiyc. faTchtoerrsefsohroeu, lbdobthe ctohnesrimdeor-ekdinbeetifco rfeacsetolercs tisnhgotuhled cobne tecnotnasnidderseizde boefftohree
+rseeilnefcotrincign gthSei Cco[n1t1e,n1t3 ]a.nd size of the reinforcing SiC [11,13].
+TThhee cchheemmicicaallr ereaactcitoionnb ebtewtweeenensi lsiicloicnonca crabridbeidaen adnadl uamluimnuinmumme mltealtt taemt tpemerapteurraetsuerexs-
+ceexecdeiendgin94g0 Km94a0y Kre sultminaSyi Cderecsoumltp ositiino nacScioCrd ingdteoc4oAml(pl)o+s3itSioiCn( s)→ aAccl 4oCrd3(isn)g+ 3Si(tso)
+r 4e Aac l(t li )o +n 3. SA iCl 4(C s)3→c Aom l4Cpo 3(u s)n +d 3Sis i(k s)n o rw ean ctt io onb .e Abr li 4t Ctl 3e ca on md pu on us nta db le is, c ka nu osi wng
+n
+d te og r ba ed a bt rio itn tleo f ath ne
+d
+mechanicalpropertiesoftheAMCs. ItisreactivewithH Oinhumidconditionsandmight
+unstable, causing degradation of the mechanical prop2erties of the AMCs. It is reactive
+with H2O in humid conditions and might form amorphous aluminum hydroxide. This
+process is followed by a volume increase and can induce the residual stresses into the
+surrounding aluminum matrix. Therefore, the inhibition of the Al4C3 formation is a crucial
+issue to be overcome [11,34].
+At a processing temperature above 1670 K, Al4SiC4 (ternary carbide) is formed
+following the 4Al(l)+4SiC(S)→Al4SiC4(S)+3Si reaction [13]. Al4SiC4, due to its high hardness
+of 1200 HV, low brittleness, remarkable chemical stability in wet conditions, is a favored
+reinforcement for aluminum [11]. At temperatures above 2800 °C, SiC particles partially
+or fully decompose into silicon and carbon vapor [34,97]. The increase in applied energy
+results in a high degree of SiC decomposition, causing surface turbulence, melt pool
+instability, non-continuous scan tracks and, consequently, an uneven surface finish.
+It should be noted that the size of used SiC reinforcing particles ranges from tens of
+micrometers down to nanoscale, and the resultant mechanical properties of AMCs are
+significantly affected by particle size [8,13]. In Refs. [8,34], the LPBF of AlSi7Mg/2 wt.%
+nano-SiCp (40 nm) and Al-12Si/10 vol.%SiC (≈11.7 wt.%) (SiC ≈ 25 µm), respectively, were
+reported. Nano SiC in AlSi7Mg matrix serves as a grain refinement agent (Figure 11m,n)
+due to the nucleation of numerous heterogenous sites and formation of nanosized Al4C3
+(Figure 15b,c). The use of nano-SiC yielded low porosity, near-full densification and
+improvement in tensile strength without sacrificing ductility. However, inferior
+densification was observed in Ref. [34] when a micron size reinforcement was used.Materials2022,15,2467 21of38
+formamorphousaluminumhydroxide. Thisprocessisfollowedbyavolumeincreaseand
+caninducetheresidualstressesintothesurroundingaluminummatrix. Therefore, the
+inhibitionoftheAl C formationisacrucialissuetobeovercome[11,34].
+4 3
+Ataprocessingtemperatureabove1670K,Al SiC (ternarycarbide)isformedfollow-
+4 4
+ingthe4Al +4SiC →Al SiC +3Sireaction[13]. Al SiC ,duetoitshighhardnessof
+(l) (S) 4 4(S) 4 4
+1200HV,lowbrittleness,remarkablechemicalstabilityinwetconditions,isafavoredrein-
+forcementforaluminum[11].Attemperaturesabove2800◦C,SiCparticlespartiallyorfully
+decomposeintosiliconandcarbonvapor[34,97]. Theincreaseinappliedenergyresults
+inahighdegreeofSiCdecomposition,causingsurfaceturbulence,meltpoolinstability,
+non-continuousscantracksand,consequently,anunevensurfacefinish.
+ItshouldbenotedthatthesizeofusedSiCreinforcingparticlesrangesfromtensof
+micrometers down to nanoscale, and the resultant mechanical properties of AMCs are
+significantlyaffectedbyparticlesize[8,13]. InRefs.[8,34],theLPBFofAlSi7Mg/2wt.%
+nano-SiCp(40nm)andAl-12Si/10vol.%SiC(≈11.7wt.%)(SiC≈25µm),respectively,were
+reported. NanoSiCinAlSi7Mgmatrixservesasagrainrefinementagent(Figure11m,n)
+duetothenucleationofnumerousheterogenoussitesandformationofnanosizedAl C
+4 3
+(Figure15b,c). Theuseofnano-SiCyieldedlowporosity,near-fulldensificationandim-
+Materials 2022, 15, x FOR PEER REVIEW 22 of 41
+provementintensilestrengthwithoutsacrificingductility. However,inferiordensification
+wasobservedinRef.[34]whenamicronsizereinforcementwasused.
+Figure15.CrosssectionSEMimagesoftheLPBF-edAlSi7Mg/2wt.%nano-SiCcomposite(a,b)and
+Figure 15. Cross section SEM images of the LPBF-ed AlSi7Mg/2 wt.% nano-SiC composite (a,b) and
+theillustrationoftheformationrouteofdifferentphasesduringtheLPBFprocess(c)(reproduced
+the illustration of the formation route of different phases during the LPBF process (c) (reproduced
+wwiitthh ppeerrmmiissssiioonn ffrroomm [[88]]))..
+The successful fabrication of AlSi10Mg/2 vol.% nano-SiC (~2.4 wt.%) composite
+The successful fabrication of AlSi10Mg/2 vol.% nano-SiC (~2.4 wt.%) composite
+reinforcedbyAl SiC phasewasreportedinRef.[95]. Withanincreaseinlaserpower,the
+reinforced by Al44SiC44 phase was reported in Ref. [95]. With an increase in laser power, the
+eutecticstructuregraduallychangedfromthickflakestonetworkshapesandthentoafine
+eutectic structure gradually changed from thick flakes to network shapes and then to a
+structure,asshowninFigure16.
+fine structure, as shown in Figure 16.
+Atlowappliedenergy,theeutecticstructurerepresentsacollectionofthickflakes. In
+contrast,highenergyinputprovidessufficientwettabilitybetweenSiCandAl,promoting
+thereactionproducttransformationintoAl SiC andahomogeneouslydispersedeutectic
+4 4
+structure (Figure 17), which positively affects the mechanical properties of the AMC.
+DespitetheanalogouscontentofnanoSiCaddedtotheAlalloy,themechanicalproperties
+ofthesamplesinthisworkarefarinferiortothosereportedinRef.[8].
+Figure 16. High-magnification SEM micrographs of as-built AlSi10Mg/SiC composites fabricated at
+different laser powers of 120 W (a), 180 W (b), 210 W (c), 240 W (d) and graphical illustration for
+development of eutectic structure (e) (reproduced with permission from [95]).
+At low applied energy, the eutectic structure represents a collection of thick flakes.
+In contrast, high energy input provides sufficient wettability between SiC and Al,
+promoting the reaction product transformation into Al4SiC4 and a homogeneously
+dispersed eutectic structure (Figure 17), which positively affects the mechanical properties
+of the AMC. Despite the analogous content of nano SiC added to the Al alloy, the
+mechanical properties of the samples in this work are far inferior to those reported in Ref.
+[8].Materials 2022, 15, x FOR PEER REVIEW 22 of 41
+Figure 15. Cross section SEM images of the LPBF-ed AlSi7Mg/2 wt.% nano-SiC composite (a,b) and
+the illustration of the formation route of different phases during the LPBF process (c) (reproduced
+with permission from [8]).
+The successful fabrication of AlSi10Mg/2 vol.% nano-SiC (~2.4 wt.%) composite
+reinforced by Al4SiC4 phase was reported in Ref. [95]. With an increase in laser power, the
+Materials2022,15,2467 eutectic structure gradually changed from thick flakes to network shapes and the2n2 otfo3 8a
+fine structure, as shown in Figure 16.
+FFiigguurree 1166.. HHiigghh--mmaaggnniiffiiccaattiioonn SSEEMM mmiiccrrooggrraapphhss ooff aass--bbuuilitlt AAlSlSi1i100MMgg/S/iSCiC cocmompopsoitseitse fsabfarbicraicteadte adt
+Materials 2022, 15, x FOR PEER REV aIdE tiWf df ie fr fe en ret nl tas lae sr
+e
+p ro pw ower es ro sf
+o
+1 f2 10
+2
+0W
+W
+(a () a,
+)
+1 ,8 10
+8
+0W
+W
+(b (b),
+)
+,2 21 10
+0
+W
+W
+( (c c) ),
+,
+2 24 40
+0
+W
+W
+( (d d)
+)
+aa nn dd gg rr aa pp hh ii cc aa ll ii ll ll uu ss tt rr aa tt2 ii o3o nno fff oo4 rr1
+development of eutectic structure (e) (reproduced with permission from [95]).
+developmentofeutecticstructure(e)(reproducedwithpermissionfrom[95]).
+At low applied energy, the eutectic structure represents a collection of thick flakes.
+In contrast, high energy input provides sufficient wettability between SiC and Al,
+promoting the reaction product transformation into Al4SiC4 and a homogeneously
+dispersed eutectic structure (Figure 17), which positively affects the mechanical properties
+of the AMC. Despite the analogous content of nano SiC added to the Al alloy, the
+mechanical properties of the samples in this work are far inferior to those reported in Ref.
+[8].
+FFigiguurree1 177..M Micicrroossttrruucctuturreec chhaannggeesso offt htheec coommppoossitietessa attl olowwt tooh higighhe enneerrggyya apppplilcicaattioionn( (rreepprroodduucceedd
+with permission from [95]).
+withpermissionfrom[95]).
+AAnn ininccrreeaassee inin SSiCiC ccoonntetenntt uupp toto 1100 wwt.t%.% reressuultletedd inin ininccrreeaasseedd tetennssiliele aanndd yyieieldld
+ssttrreennggtthh;; hhoowweevveerr,,t htheeS SiCiC,,S Siia annddi nins istiutuf oformrmededA Al 4lS4SiCiC 44,, rreedduuccee tthhee eelolonnggaattiioonn ooff ththee
+ccoommppoossiitteess [[9966]].. WWhheenn ccoommppaarriinngg tthhee pprrooppeerrttiieess ooff AAlSlSi1i100MMgg/1/51–52–02 w0wt.%t.% SiCSi Ccocmopmopsiotse-s
+it[e1s1,[1131,,9173,,9987],,9 8it] ,sihtoshuoldu lbdeb memenetniotinoende dthtahta tththee hhiigghheesstt hhaarrddnneessss ((331166..22HHVV 00..22)) aanndd ddeennssiittyy
+(9(988.9.9%%)) wweerreea acchhieievveeddf oforrA AlSlSi1i100MMgg//1155 wwtt..%%SSiiCC,, wwhheenn tthhee SSiiCC ppaarrttiiccllee ssiizzee wwaass 11220000
+mmeesshh[ 9[988]]( T(aTbalbel2e) .2)T. hTehlea rlgaerrgSeriC SpiCa rptiacrletiscrleesd urecdeducteends tileensstirleen sgtrthenagstcho masp caormedptaoreadp utor ea
+aplluorye [a9l7lo].yT [h97e]u. Tseheo fufisen eorf SfiinCerp SariCti cpualrattiecsuylaiteelsd syiteoldash tiog ah ehrigdheegrr edeegorfedee onfs difiecnastiifoicna,teiolen-,
+vealteevdatmedic rmositcrruocstturruacltuunraiflo rumniiftoyramnidtys imanudlt asnimeouulstainmeporuosv eimmepnrtoivnemcoemnpt riens sicvoemsptrreensgstivhe,
+hsatrrednngetshs, ahnadrdsntreasisn a[n1d1, 9s8tr]a.iInn [R11ef,9s8.][.1 1In,1 R3]e,ftsh. e[1i1n,1s3it]u, tfhoer mine sditAu lf 4oSrimC 4edis Ashl4oSwiCn
+4
+itso ssheorwven
+atsoa sterravnes itaiso naz otrnaen,sliitmiointi nzgonthee, ilnimteirtainctgio tnhoe fiSnitCeraancdtioanlu mofi nSuiCm acrnyds taallsumsiminuulmta nceroyusstalyls
+wsiimthurletiannfeoorcuisnlgy cwaipthac rietyinffoorrcthinegA cla.pacity for the Al.
+2.3. Nitrides: Grain Refinement and Strengthening Effect
+2.3.1. Titanium Nitride: TiN
+Besides the favorable characteristics of ceramic materials, TiN (titanium nitride) also
+demonstrates excellent light absorptivity. TiN has good coherency with Al, owing to small
+difference (4.72%) in lattice parameters (aAl = 0.4049 nm and aTiN = 0.4240 nm). Meanwhile,
+the laser reflectivity (at 1064 nm laser wavelength) of the AlSi10Mg/TiN composite
+powder is around 25%, which is much lower than that of AlSi10Mg powder (62%) [99].
+In Refs. [99,100], when fabricating AlSi10Mg/2 wt.%TiN composite, the mutual
+diffusion and in situ reaction between the TiN clusters and aluminum generates a graded
+interfacial layer composed of Al3.21Si0.47 and (Ti,Al)N (Figure 18).Materials2022,15,2467 23of38
+2.3. Nitrides: GrainRefinementandStrengtheningEffect
+2.3.1. TitaniumNitride: TiN
+Besidesthefavorablecharacteristicsofceramicmaterials,TiN(titaniumnitride)also
+demonstratesexcellentlightabsorptivity. TiNhasgoodcoherencywithAl,owingtosmall
+difference(4.72%)inlatticeparameters(a =0.4049nmanda =0.4240nm). Meanwhile,
+Al TiN
+thelaserreflectivity(at1064nmlaserwavelength)oftheAlSi10Mg/TiNcompositepowder
+isaround25%,whichismuchlowerthanthatofAlSi10Mgpowder(62%)[99].
+InRefs.[99,100],whenfabricatingAlSi10Mg/2wt.%TiNcomposite,themutualdif-
+Materials 2022, 15, x FOR PEER REVIEW 24 of 41
+fusionandinsitureactionbetweentheTiNclustersandaluminumgeneratesagraded
+interfaciallayercomposedofAl Si and(Ti,Al)N(Figure18).
+3.21 0.47
+FFigiguruer1e8 .1G8.r aGprhaicpahlirceaplr erseenptraetisoennotafttihoenm oofv etmhee nmtsoovfeamggerengtast eodf TaigNgpraergtiactleesda TndiNth epanrotvieclles and the novel
+ggrardaeddelda ylearyfeorr mfoartimonamtioecnh amniescmh(arnepisromd u(creedpwroitdhupceermd iwssiiothn fproemrm[1i0s0s]i)o.n from [100]).
+Theformedlayerisofcentralimportancetotheenhancementinmicrohardnessdueto
+The formed layer is of central importance to the enhancement in microhardness due
+animprovedinterfacebondingandaprecipitationofstiff(Al,Ti)N.Thecombinedinfluence
+ot fo
+s
+ua pn
+e
+ri fim nep gr ro av ine sd
+(
+0i .2n 8t 4erµf mac ),e
+u
+nb io fon rd min pg
+ar
+ta icn led
+d
+ia
+s
+pp err se ic oi np ,i ft oa rt mio en
+d
+no of
+v
+es lt li aff
+y
+e( rA al n, dTi h) iN gh. The combined
+diennfsliufiecantcioen osifg snuifipcaenrtfliyniem gprroavinesth (e0m.2e8c4h aµnmica)l,a undniwfoearrmch paraarcttiecrliest idcsisopftehresfiaobnri,c faoterdmed novel layer
+AaMndCs h. Tighhe Adlemnastirfiixc–aMtigo2nSi –sTiigNncifoihcearnentltyin itmerfpacreosvleea tdhteo amperecchipaintaitciaonl astnredn gwtheeanrin cgh, aracteristics of
+benefitingtheenhancementinstrength[100].
+the fabricated AMCs. The Al matrix–Mg Si–TiN coherent interfaces lead to a precipitation
+2
+AnincreaseinTiNcontent(0–6wt.%)improvesstrength,ductilityandhardnessof
+strengthening, benefiting the enhancement in strength [100].
+nano-TiNparticlereinforcedAlSi10Mg[101]. Itwasshownthat4wt.%TiNisacritical
+threshoAldn tionicnrheibaistep ionro TsiitNy. Tchoenctoemntp (o0s–it6es whatd.%a)r eimlatpivreolvyerasn sdtoremnggrtahin, doruiecntitlaittiyo na,nd hardness of
+annadnthoe-TgriNain psiazretidcelcer eraesiendffororcmed3. 8A6ltoSi11.109Mµgm [w1h0e1n].t hIte cwonatse nsthoofwTinN tinhcarte a4s ewdtfr.%om TiN is a critical
+0–6wt.%duetointensiveheterogenousnucleation(Figures19a–dand20,Table3).
+threshold to inhibit porosity. The composites had a relatively random grain orientation,
+and the grain size decreased from 3.86 to 1.19 µm when the content of TiN increased from
+0–6 wt.% due to intensive heterogenous nucleation (Figures 19a–d and 20, Table 3).
+Figure 19. EBSD orientation maps from the top view and distribution of sub-structured (in yellow)
+and recrystallized (in blue) grains of the as-built AlSi10Mg reinforced with 0% TiN (a,e), 2%TiN
+(b,f), 4% TiN (c,g) and 6%TiN (d,h) EBSD color maps of 7050 Al alloy (i), 7050-0.18TiN (j), 7050-
+1.82Ti (k) and 7050-2(Ti+TiN) (l) (reproduced with permission from [66,101]).Materials 2022, 15, x FOR PEER REVIEW 24 of 41
+Figure 18. Graphical representation of the movements of aggregated TiN particles and the novel
+graded layer formation mechanism (reproduced with permission from [100]).
+The formed layer is of central importance to the enhancement in microhardness due
+to an improved interface bonding and a precipitation of stiff (Al,Ti)N. The combined
+influence of superfine grains (0.284 µm), uniform particle dispersion, formed novel layer
+and high densification significantly improve the mechanical and wear characteristics of
+the fabricated AMCs. The Al matrix–Mg Si–TiN coherent interfaces lead to a precipitation
+2
+strengthening, benefiting the enhancement in strength [100].
+An increase in TiN content (0–6 wt.%) improves strength, ductility and hardness of
+nano-TiN particle reinforced AlSi10Mg [101]. It was shown that 4 wt.% TiN is a critical
+threshold to inhibit porosity. The composites had a relatively random grain orientation,
+Materials2022,15,2467 and the grain size decreased from 3.86 to 1.19 µm when the content of TiN 2i4nocfr3e8ased from
+0–6 wt.% due to intensive heterogenous nucleation (Figures 19a–d and 20, Table 3).
+Materials 2022, 15, x FOR PEER REVIEW 25 of 41
+Figure 19. EBSD orientation maps from the top view and distribution of sub-structured (in yellow)
+Figure19.EBSDorientationmapsfromthetopviewanddistributionofsub-structured(inyellow)
+and raencAdrysrse tcsarhyllositzwaellndiz ei(ndin ( Fibnilgbuuleur)ee )g g2rr0aai,i nnossn oolfyft htahe eaf rsa-abscu-tbiiloutnAil tloS Aif1 0lTSMiiN1g0 rMesiengrf vorreecsie ndafswo rihtcheedt0e% rwoTigitNehn (0oa%,ue)s ,T 2ni%NuTc il(Neaa,et)i,o n2% TiN
+(b,sfu),b (4bs%t,fr) a,T4te%iNs,T ia(Ncn,(gdc), g ta)hnaend dm 66a%%joTTriNiiNty(d (o,hdf), hEpB)a SrEDtBiccSloeDlos r camoraleop drs oimsfp7a0ep5r0ss eAodlf aa7lll0oo5yn0(gi )A ,t7hl0 e5a0 lgl-0or.y1a8 iT(nii )Nb, o(7ju0),5n700d-5a00r-.11ie.88sT2 ToiiNw i(nj)g, 7050-
+1.8t2oT ti(h k()eka )pn audns7dh05 i7n00-g25( 0eTi-f+2feT(TciNtis+) T(ol)ifN (trhe)p e(r los)o d(ulriecdepidrfiowcdaituthicopenedr mf wriosisntihot.n pferormmi[s6s6,i1o0n1 ]f).rom [66,101]).
+FigFuirgeu r2e0.2 0G.rGarpahpihciacla lilillulussttrraattiioonn ddeemmoonnsstrtraatitninggth tehme omrpohrpolhooglyogevyo eluvtoioluntfioornt hfoerT itNhe/ ATliSNi1/0AMlSgi10Mg
+AMACM dCudriunrgin LgPLBPFB F(r(erpeprroodduucceedd wwiitthh ppeerrmmisissisoinonfr ofrmom[1 0[11]0).1]).
+It was found that all the specimens were dominated by high-angle grain boundaries
+(HAGBs), and with an increase in TiN content, the volume of low-energy HAGBs
+increased. TiN nanoparticles also promote recrystallization and possesses a crucial role in
+recrystallized nucleation during the LPBF process, as shown in Figure 19e–h.
+Table 3. Characteristics of nitride reinforced AMCs fabricated by laser powder-bed fusion.
+Used Device, Relative Al Grain
+σ σ ε/ε Hardness
+y/ u c
+System Process Density Size N
+(MPa) (%) (HV)
+Parameters (%) (μm)
+Dimetal-80 SLM
+system
+P = 100 W
+AlSi10Mg/2 wt.% TiN
+ν = 200–600 97.6 0.284 - - 145 ± 4.9 HV0.1 [99,100]
+(D50 = 80 nm)
+TiN
+mm/s
+d = 30 µm
+h = 80 µm
+Porosity σ = 359.4 ± 8.5 134.6 ± 4.4
+u
+AlSi10Mg 3.86 ε = 3.9 ± 0.3
+=0.9% σ = 264 ± 10.5 HV0.1
+y
+SLM-280 HL
+AlSi10Mg/ Porosity σ = 386.1 ± 12.6 148.5 ± 4.1
+u
+P = 100 W 1.37 ε = 4.4 ± 0.27
+2 wt.% TiN =0.2% σ = 295.9 ± 4.6 HV0.1
+y
+ν = 1200 mm/s [101]
+AlSi10Mg/ Porosity σ = 491.8 ± 5.5 156.9 ± 4.9
+u
+d = 30 µm 1.24 ε = 7.5 ± 0.29
+4 wt.% TiN =0.01% σ = 315.4 ± 5.2 HV0.1
+y
+h = 90 µm
+AlSi10Mg/ Porosity σ = 325.1 ± 14.2 150.4 ± 3.1
+u
+1.19 ε = 2.9 ± 0.32
+6 wt.% TiN =3.7% σ = 261.6 ± 3.5 HV0.1
+y
+7050 Al alloy 98.5 91.8 σ = 75 ± 25 ε ≈ 0.6
+u
+SLM-280 HL
+7050/0.18 wt.% TiN 98.9 88 σ = 111 ± 3 ε = 1.1 ± 0.2
+u
+P = 210 W
+7050/0.36 wt.% TiN - - σ ≈140 ε ≈ 1
+u
+ν = 115 mm/s - [66]
+7050/0.54 wt.% TiN - - σ ≈ 60 ε ≈ 0.9
+u
+d = 30 µm
+7050/1.82 wt.% Ti 99.6 2.3 σ = 427 ± 12 ε = 3.9 ± 1.1
+u
+h = 50 µm
+7050/3.64 wt.% Ti - - σ ≈ 480 ε ≈ 6.1
+uMaterials2022,15,2467 25of38
+Table3.CharacteristicsofnitridereinforcedAMCsfabricatedbylaserpowder-bedfusion.
+Average
+System UsedDevice, Relative Grain σ y/σ u ε/ε c Hardness N
+ProcessParameters Density(%) (MPa) (%) (HV)
+Size(µm)
+Dimetal-80SLMsystem
+AlSi10Mg/ P=100W
+2wt.%TiN ν=200–600mm/s 97.6 0.284 - - 145±4.9HV0.1 [99,100]
+(D50TiN=80nm) d=30µm
+h=80µm
+AlSi10Mg
+Porosity
+3.86
+σ u=359.4±8.5
+ε=3.9±0.3 134.6±4.4HV0.1
+=0.9% σ y=264±10.5
+AlSi10Mg/ SLM-280HL Porosity
+1.37
+σ u=386.1±12.6
+ε=4.4±0.27 148.5±4.1HV0.1
+2wt.%TiN P=100W =0.2% σ y=295.9±4.6
+ν=1200mm/s [101]
+AlSi10Mg/ d=30µm Porosity 1.24 σ u=491.8±5.5 ε=7.5±0.29 156.9±4.9HV0.1
+4wt.%TiN h=90µm =0.01% σ y=315.4±5.2
+AlSi10Mg/ Porosity
+1.19
+σ u=325.1±14.2
+ε=2.9±0.32 150.4±3.1HV0.1
+6wt.%TiN =3.7% σ y=261.6±3.5
+7050Alalloy 98.5 91.8 σ u=75±25 ε≈0.6
+7050/0.18wt.%TiN 98.9 88 σ u=111±3 ε=1.1±0.2
+7050/0.36wt.%TiN - - σ u≈140 ε≈1
+7050/0.54wt.%TiN SLM-280HL - - σ u≈60 ε≈0.9 -
+7050/1.82wt.%Ti P ν= =2 11 10 5W
+mm/s
+99.6 2.3 σ u=427±12 ε=3.9±1.1
+[66]
+7050/3.64wt.%Ti d=30µm - - σ u≈480 ε≈6.1
+h=50µm
+7050/5.46wt.%Ti - - σ u≈350 ε≈2.5
+7050/2wt.%(TiN+Ti) 99.7 0.775 σ u≈550 ε≈8.6
+7050/4wt.%(TiN+Ti) - - σ u=613±15 ε=8.8±0.8
+7050/6wt.%(TiN+Ti) - - σ u≈408 ε≈13.2
+SLMapparatus
+P=200W
+ν=100–300mm/s
+97 4.5
+d=30µm
+AlSi10Mg/
+h=60–100µm
+1 (5w 0t n.% m)AlN Ev=1100J/mm3 - - - [67]
+Ev=660J/mm3 60 2
+Ev=420J/mm3 Fulldense 1.4
+Ev=220J/mm3 Fulldense 2
+Self-made
+P=200W
+AlSi10Mg/
+ν=100mm/s - - - - 77–85.3HV0.05 [102]
+2wt.%AlN
+d=30µm
+h=80µm
+AlSi10Mg E PO =S 3I 8N 0T WM290 P =o 0.r 1o 5s %ity σ u≈180 ε≈5.6 103HV0.2
+ν=1300mm/s - [103]
+1A wlS ti .1 %0M BNg/ d h== 23 00 0µ µm
+m
+P =o 0.r 8o 1s %ity σ u=230 ε≈2.3 136HV0.2
+AlSi10Mg -
+σ u=432±15
+ε=5.12±0.29 128±3HV0.2
+σ y=275±13
+AlSi10Mg/
+(5 ~v 5o .8l.% wtS .%i3 )N4 E PO =S 1I 8N 0T –3M 0029 W0 99.49±0.17 σ σu y== 34 04 87 ±± 11 28 ε=3.58±0.15 140±7HV0.2
+ν=300–800mm/s
+- [104]
+AlSi10Mg/ d=30µm
+1 (~0 1v 1o .5l.% wtS .%i3 )N4 Th= =3 10 5– 07 ◦0 Cµm 99.18±0.16 σ σu y== 34 68 25 ±± 11 82 ε=2.47±0.23 153±3HV0.2
+AlSi10Mg/
+15vol.%Si3N4 98.41±0.22 σ u=399±21 ε=0.66±0.31 187±13HV0.2
+(~17.1wt.%)
+As shown in Figure 20, only a fraction of TiN serves as heterogenous nucleation
+substrates,andthemajorityofparticlesaredispersedalongthegrainboundariesowingto
+thepushingeffectsofthesolidificationfront.
+Itwasfoundthatallthespecimensweredominatedbyhigh-anglegrainboundaries
+(HAGBs), and with an increase in TiN content, the volume of low-energy HAGBs in-Materials2022,15,2467 26of38
+creased. TiNnanoparticlesalsopromoterecrystallizationandpossessesacrucialrolein
+recrystallizednucleationduringtheLPBFprocess,asshowninFigure19e–h.
+TheuseofhybridTi–TiNreinforcementsfor7050AlalloywasreportedinRef.[66],
+exhibitingsignificantsynergisticgrainrefinementandahigherstrengtheningascompared
+topure7050Alalloyandasinglereinforced7050-TiNand7050-Ti. Althoughbothsingle-Ti-
+Materials 2022, 15, x FOR PEER REVIrEeWin forcedandhybrid-reinforcedalloypossessedacrack-freemicrostructure(Figure2271 ogf– l4)1,
+thehybridreinforcementprovidedgreatergrainrefinement(Figure19k,l).
+FFiigguurree 2211.. SSEEMM iimmaaggeess ooff LLPPBBFF--ffaabbrriiccaatteedd 77005500 aallllooyy ((aa,b,b)),,7 7005500//00..1188%%TTiiNN ((dd,,ee)),, 77005500//11..8822%%TTii ((gg,,hh))
+and 7050/2%(Ti+TiN) (j,k) samples after etching. Schematic diagram of solidification, columnar and
+and7050/2%(Ti+TiN)(j,k)samplesafteretching. Schematicdiagramofsolidification,columnar
+equiaxed grain formation of fabricated 7050 (c), 7050-TiN (f), 7050-Ti (i) and 7050/(Ti+TiN) (l).
+andequiaxedgrainformationoffabricated7050(c),7050-TiN(f),7050-Ti(i)and7050/(Ti+TiN)(l).
+Solidification of 7050/(Ti+TiN): agglomeration of TiN particles in high-temperature liquid Al (m), in
+Solidificationof7050/(Ti+TiN):agglomerationofTiNparticlesinhigh-temperatureliquidAl(m),
+situ Al3Ti in Ti-rich liquid Al (n), Ti absorption at the interface between TiN and liquid Al (o),
+insituAl TiinTi-richliquidAl(n),TiabsorptionattheinterfacebetweenTiNandliquidAl(o),
+dispersion3 of TiN in Ti-rich liquid Al (p) (reproduced with permission from [66]).
+dispersionofTiNinTi-richliquidAl(p)(reproducedwithpermissionfrom[66]).
+Meanwhile, the 7050 and 7050-0.18%TiN specimens are prone to cracking, consist of
+Meanwhile, the 7050 and 7050-0.18%TiN specimens are prone to cracking, consist
+columnar grains and possess relatively high porosity (Figures 19 i,j and 21a–f). The reason
+of columnar grains and possess relatively high porosity (Figure 19i,j and Figure 21a–f).
+for grain refinement, when Ti is added to pure alloy and to 7050-TiN, is the formation of
+Thereasonforgrainrefinement,whenTiisaddedtopurealloyandto7050-TiN,isthe
+L12 structured Al3Ti, which promotes heterogeneous nucleation and contributes to the
+formation of L1 structured Al Ti, which promotes heterogeneous nucleation and con-
+2 3
+tr ra ip buid
+t
+ef so tr om ta ht eio rn
+a
+po idf c foo rn mst ait tu iot nio on fal
+c
+os nu sp tie tr uc to ioo nli an lg
+s
+uz pon ere cs
+o
+o(F lii ng gur ze
+o
+n2 e1 sn) (.
+F
+iB ge us ri ede 2s
+1
+nA ).l3BT ei,
+s
+if din ese
+AM lg TZ in ,fi2 np eha Mse g Zw nas p f ho arm see wd aw si ft oh r mco eh de wre in tht i cn ot he erf ra ec ne t iw ni tt eh r fA acl e; h wo iw the Ave l;r h, oth we e i vn e rs ,it tu h efo inrm sie tud
+3 2
+fA ol r2mC eu dM Ag lsh Co uw Me gd sn ho on w-c eo dhe nr oe nn -t
+c
+i on ht ee rr efa nc te
+i
+nw teit rh
+fa
+A cel. wU il tt hra Afin l.e
+U
+g lr ta rain fis
+n
+( e77 g5
+r
+an im ns) (w 77e 5re
+n
+r mep )o wr ete rd
+e
+2
+in the LPBF-prepared 7050-2 wt.%(Ti+TiN) composite, vastly benefiting from the Ti/TiN
+reportedintheLPBF-prepared7050-2wt.%(Ti+TiN)composite,vastlybenefitingfromthe
+synergism.
+Ti/TiNsynergism.
+It can be concluded that the addition of 2–4 wt.% TiN-Ti hybrid additives notably
+It can be concluded that the addition of 2–4 wt.% TiN-Ti hybrid additives notably
+improved the quality of LPBF-fabricated AMCs.
+improvedthequalityofLPBF-fabricatedAMCs.
+2.3.2. Aluminum Nitride: AlN
+AlN is one of the favorable reinforcing candidates for aluminum alloys due to its
+superior combination of high thermal conductivity (~250 W/mK) [105] and high hardness
+(~12 GPa) [106]. AlN shows high chemical stability, good compatibility with Al alloy
+combined with a good interfacial adherence without any interfacial reaction [107].
+Besides, due to a low thermal expansion coefficient (similar to Si), AlN has been broadlyMaterials2022,15,2467 27of38
+2.3.2. AluminumNitride: AlN
+AlN is one of the favorable reinforcing candidates for aluminum alloys due to its
+superiorcombinationofhighthermalconductivity(~250W/mK)[105]andhighhardness
+Materials 2022, 15, x FOR PEER REVI(E~W12 GPa) [106]. AlN shows high chemical stability, good compatibility with A2l8a lolfo 4y1
+combinedwithagoodinterfacialadherencewithoutanyinterfacialreaction[107]. Besides,
+duetoalowthermalexpansioncoefficient(similartoSi),AlNhasbeenbroadlyemployed
+ienmthpeloayveida tiionn tahned atrvainatsipoonr taantido ntaranndspisosrhtaotwionn toanbde aisn ashpopwronp rtioat ebree inanfo racpepmreonptrifaotre
+arleuimnfionrucemmaelnlot yfsor[ 1a0lu2]m. inum alloys [102].
+IInna as esreiersieosf wofo wrkosr[k6s7 ,1[6077,,110078,]1,0it8w], aist owbsaesr voebdsetrhvaetdth ethaaptp tlhieed aepnperligeydh eandeargdyra mhaadti ca
+edffreacmtaotnict hefefeAcltN onp athrtei cAlelNd ipstarritbiuclteio dni.stAritbluotwionen. Aertg lyo,wra nendeormgyA, rlaNnddoismtr iAbulNtio dnisotcricbuurtrieodn
+doucecutorrtehde dreulea ttiov ethlye croenlastiisvteenlyt cporensssiustreenat rporuensdsutrhee airnotruonddu tcheed ipnatrrotidcluecse(dF ipgaurrteic2l2eas ,(cF);igaunrde
+a2t2hai,gch); laansder aetn heirgghy, laasceirrc eunlaerr-gsytr,u ac tcuirrceudlAarl-Nstrduiscttruibreudti oAnlNw adsisctormibupteilolend wbayst hcoemcepnetrlliepde tbayl
+ftohrec ece(Fnitgriupreeta2l2 bfo,drc)e. (Figure 22b,d).
+FFiigguurree2 222..C Chharaarcatcetreisrtiisctsicosf voefl ovceitlyocvietyct ovreocbtotar inoebdtaairnoeudn darAoluNndre iAnfloNrc irneginpfaorrtcicinlegs apnadrttihceleirs raenspde ctthiveeir
+driesstrpibecuttiivoen sdtiastteriinbuthtieosno lsitdaitfiee dinA tlhme astorliixdaitfiEe vd= A5l5 m0Ja/tmrixm a3t( aE,cv )=a n5d50E vJ/m=1m003 0(aJ/,cm) amn3d( bE,dv )=( r1e0p0r0o dJ/umcemd3
+(b,d) (reproduced with permission from [108]).
+withpermissionfrom[108]).
+HHoowweevveerr,,e exxcceessssiviveee enneerrggyyr reessuultlstsi ninp paarrtticiclelessc cooaarrsseenniningga anndda ad deeccoonnssttrruuccttioionno offt thhee
+cciirrccuulalarr-s-strturucctuturerdedA lANl.NIn. RIne f.R[5e8f.] ,[t5h8e],p rtehpea rpartieopnaoraftaionna lmofo satnf ualllymdoesnt siffiuelldy codmenpsoisfiieted
+wcoitmhp1owsitte.% wAitlhN 1a nwdt.%re fiAnleNd ganradi nrsefoinfeindc rgeraasiends wofe ianrcrreesaissetdan wceeahra srebseisetnanrecpe ohratesd b.eIenn
+Rreepf.o[r1t0e2d]., Iint wRaesf. s[h1o0w2]n, itt hwatasd ushrionwgnL tPhBaFt doufArinlSgi 1L0PMBgF- 2ofw At.l%SiA10lMNgp-o2w wdte.%rsAmlNix tpuorwe,dtheres
+smoliixdtiufireed, tmhea tseorliiadlifuiendd meragtoeersiavl aurnioduesrgmoeicsr voastrriouuctsu mrailcrtorasntrsufoctrumraalt itornanssffroormmathtieonfisr sfrtotmo
+tthhee fofiursrtth tloa ytehre (dfoiruerctthio nlaaylecro l(udmirencatriomnaiclr ocsotlruumctnuarre tmoiccoroasrtsreuccetullruel atrom ciocraorssetr uccetlulurela)r,
+amffiicrmroisntrgutchtueriem), paofrftiarmnciengo ftahded iemdppoarrttainclcees ,osfo laiddidfiecda tipoanrtriacltees,,t hseolliidfeifsipcaatnioonf trhaetem, tehlte
+pliofoeslspaannd ofs uthbes emqueletn ptocorylss taanldg rsouwbstehqruaeten.t crystal growth rate.
+2.3.3. BoronNitride: BN
+Thehightensilestrengthandlowdensity(2.1g/cm3,whichisclosetothatofpristine
+Al),makeshexagonalboronnitride(h-BN)aneffectivereinforcingagentfortheAMCs[109].
+Itwasrevealedthateven1wt.%additionofBNmicro-flakestoAlSi10Mgincreasedthe
+tensilestrengthandhardnessascomparedtoapurealloyduetotheformationofAlNand
+AlB phasesviasolid-stateAl–BNreaction[103].
+2Materials2022,15,2467 28of38
+2.3.4. SiliconNitride: Si N
+3 4
+AwholebasketoffavorablepropertiesofSi N (siliconnitride),includingremarkable
+3 4
+strength,highhardness,highelasticmodulus,lowerCTE,superiorhardnesscomparedto
+otherceramics,[110–112],similardensitywithaluminum,whichwillensurehomogeneous
+dispersion, and high wettability with the aluminum matrix [104] makes it a promising
+reinforcing agent. The enhanced strength and elastic modulus of the LPBF-prepared
+AlSi10Mg-Si N composite,owingtotheimpededdislocationmotionduringdeformation
+3 4
+andload-bearingeffectofaddedreinforcingSi N areachieved.ThemutualdiffusionofAl
+3 4,
+andSiatomsandtheabsenceofinsituformedbrittlephasesincreasedtheAlmatrix-Si N
+3 4
+particlesbondingstrength[104]. TheadditionofSi N totheAlalloy,however,reduces
+3 4
+processstabilityandthusnarrowstheoptimalrangeofprocessparameters[104].
+3. ComparisonofCeramicReinforcements’InfluenceonLPBFProcessandthe
+PropertiesoftheAMCs
+Asshownabove,evensmallportionsofceramicorhybridadditives(metal–ceramic),
+suchas0.5–0.7wt.%,areabletodramaticallyimprovetheperformanceoftheAMCs. Ac-
+cordingly,matchingceramicadditiveswithanoptimizedfractionandparticlesizeprovides
+good wettability, compatible interfaces and a strong bonding between the constituents,
+whichhindercrackpropagationandcontributetoahardeningandstrengtheningofAMCs.
+TheadditionofTiB totheAlSi10Mgalloyresultsinfullydensesampleswithsignificantly
+2
+refinedgrains(downto0.5µm),randomizedcrystallographicorientation,increasedhardness
+upto191HV,tensilestrengthupto540MPaandelongationto17.7%(Figures23–26).Similarly,
+M aterials 2022, 15, x FOR PEER REVIEhWig htensilestrengthisobservedfortheTiC/Al-15Si,double-reinfor3c0e odf 4T1 iC-TiB 2/AlSi10Mg
+andhybridTiN-Ti/7050AMCs,however,withlowerelongation(Figure23a,b).
+FFigiguurer 2e3.2 T3e.nsTielen sstrileengstthr eanndg tehlonagnadtioenl orensuglatst ioofn LPrBeFsu plrtespaorfedL cPeBraFmpicr peapratirceudlatce erreainmfoirccepd articulatereinforced
+AlSi10Mg (a) and other Al alloys (b) (data from [8,28,31,50,59,66,71,73,77,79,80,82,84,88–
+AlSi10Mg(a)andotherAlalloys(b)(datafrom[8,28,31,50,59,66,71,73,77,79,80,82,84,88–98,101,103,104]).
+98,101,103,104]).
+The tensile fracture of the AlSi10Mg-6.5 wt.%TiB2 composite showed that the fracture
+path of the AMC is not flat, as in the case of AlSi10Mg, but rather random for both
+horizontal and vertical samples (Figure 24a,b) [79]. Generally, the reinforced composites
+with refined microstructure have high ductility due to less stress concentration. Based on
+the fine-sized equiaxed dimples (Figure 24e,f), the failure mode of the AMC is a ductile
+fracture, stating improved ductility. However, the holes and the tears on the fracture
+surface might have led to premature failure of the AMC (Figure 24c,d). Similarly, in the
+AlSi10Mg-0.2 wt.%LaB6 composite, cracking predominantly occurred within the melt
+pool boundaries, and the LaB6 nanoparticles led to more ductile fracture of the composite,
+owing to fine equiaxed dimples [84]. Ductile-type failure was reported for AlSi10Mg with
+homogeneously dispersed circular-structured TiC (3 wt.%). The latter contributed to the
+improvement of tensile strength without sacrificing ductility [71]. The dual TiB2 and TiC
+reinforced AMC’s tensile fracture (Figure 24m,n) possesses fewer pores and deeper
+dimples as compared to AlSi10Mg (Figure 24o,p) and shows mixed ductile and brittle
+fracture mode. The relatively hard intragranular TiB2 and TiC particles accommodate the
+dislocations in the grains, contributing to strain hardening and uniform elongation [93].
+Both brittle and ductile fractures were observed in the case of 0.7 wt.% hybrid Ti-B4C
+addition. However, the further increase in additive content led to fracture changes from
+ductile to brittle [94].Materials2022,15,2467 29of38
+Materials 2022, 15, x FOR PEER REVIEW 31 of 41
+Materials 2022, 15, x FOR PEER REVIEW 32 of 41
+Figure 24. The schematic diagram of probable crack propagation path (a,b) and tensile fracture
+Figure24.Theschematicdiagramofprobablecrackpropagationpath(a,b)andtensilefracturemorphol-
+morphology for horizontal (c,e) and vertical samples (d,f) of the AlSi10Mg/6.5 wt.%TiB2 composite.
+ogyforhorizontal(c,e)andverticalsamples(d,f)oftheAlSi10Mg/6.5wt.%TiB composite.FractureSEM
+Fracture SEM images of AlS10Mg/2 vol.%SiC (g,h), AlSi10Mg (i,j) and AlSi10M2g/10 vol.%Si3N4 (k,l),
+TimiBaAg 2.e lSsMio1f0eMAanlgS w1(m0hM,nilg)e /a, n2cdve oArlal.%Smi1S0iicCM (grg/e1,hi.n5) ,fwAotrl.S%cie1Td0iCM +2g10.5(2i ,4wj),t a.%AnTdli–BA12l 2(SoSi1,ip0 )M a(rngepd/r1 o0Advuloc–leC.d%u wS ii3atNhl l4poe(ykrsm,l )i,sssAhioolSnwi 1fr0 oMimngf e(mrio,nr)
+hanadrd[A7 n9l,Se9is31s,09 M5 c, o1g0 m/41] p)..5a rwetd.% tToi CA+l1S.150wMt.%g TwiBi2th(o s,pim)(irleaprr oaddudcietdivweist h(Fpiegrumriess 2io5nbf)r.o m[79,93,95,104]).
+When analyzing SiC reinforced AlSi10Mg, huge attention was given to applied
+energy, as under low energy, brittle Al4C3 is formed. However, higher energy promotes
+the formation of Al4SiC4, along with a well-dispersed eutectic structure, hence prohibiting
+the premature failure of the composite [95]. Similar to SiC (Figure 24g,h), in Si3N4
+reinforced AMC (Figure 24k,l), the nature of the fracture is ductile brittle, dominated by
+brittle, whereas pure AlSi10Mg (Figure 24i,j) shows a ductile-brittle composite fracture
+dominated by ductile. Due to Si3N4, crack propagation is suppressed when the tip meets
+the Si3N4–AlSi0Mg interface. However, because of the irregular distribution of Si3N4 and
+the changes in propagation path of the connected cracks, more cleavage steps were
+formed [104]. When TiN nanoparticles are added to AlSi10Mg, the fracture behavior of
+the alloy remains in mixed failure mode; however, large-size agglomerates formed during
+excess addition of TiN, decreasing both strength and ductility [101].
+Analyses show that the highest hardness was shown by 15 wt.%SiC reinforced
+AMCs, followed by the 17.2 wt.% hybrid B4C-Ti and 11.6 wt.%TiB2 reinforced materials
+(Figure 25a). Hardness values of TiC and Si3N4 reinforced AMCs are comparable with
+FFiigguurree 2255.. HHaarrddnneessss rreessuullttss ooff LLPPBBFF pprreeppaarreedd cceerraammiicc ppaarrttiiccuullaattee rreeiinnffoorrcceedd AAllSSii1100MMgg ((aa)) aanndd ootthheerr
+Al alloys (b) (data from [11,13,28,31,64,70,71,73,77,78,80,82,83,89,90,92–96,98–105]).
+Alalloys(b)(datafrom[11,13,28,31,64,70,71,73,77,78,80,82,83,89,90,92–96,98–105]).
+The AMCs reinforced with TiB2, TiC, hybrid TiN-Ti and TiC-TiH2 additives are
+subjected to in situ formation of L12-Al3Ti or D022-Al3Ti (Table 4), which serve as active
+nucleation sites and promote grain refinement in the 0.5–2 µm range (Figure 26a,b). The
+substantial grain refinement, down to submicron level, is achieved by the incorporation
+of TiN and CaB6 into AMCs, resulting in both significantly enhanced hardness and tensile
+strength (Figure 26a,b).
+Figure 26. Average grain size of LPBF prepared ceramic particulate reinforced AlSi10Mg (a) and
+other Al alloys (b) (data from [8,28,31,50,59,66,67,73,77–84,88,91–93,96,99–101]).
+The degree of improvement depends on additive content and composition of the Al
+alloy. Table 4 briefly summarizes the influence of the reported ceramic additives on the
+LPBF process and their content limitation.
+Table 4. The effect of reinforcing compounds on the fabrication and properties of AMCs and their
+optimal content limit.
+Reinforcing Minimum
+Influence on the LPBF Process and the Properties of the Al Alloys
+Compound Optimal LimitMaterials 2022, 15, x FOR PEER REVIEW 32 of 41
+TiB2. Meanwhile, ceramic reinforced 2024, Al–12Si and Al–Cu alloys show inferior
+hardness compared to AlS10Mg with similar additives (Figure 25b).
+Figure 25. Hardness results of LPBF prepared ceramic particulate reinforced AlSi10Mg (a) and other
+Al alloys (b) (data from [11,13,28,31,64,70,71,73,77,78,80,82,83,89,90,92–96,98–105]).
+The AMCs reinforced with TiB2, TiC, hybrid TiN-Ti and TiC-TiH2 additives are
+subjected to in situ formation of L12-Al3Ti or D022-Al3Ti (Table 4), which serve as active
+nucleation sites and promote grain refinement in the 0.5–2 µm range (Figure 26a,b). The
+substantial grain refinement, down to submicron level, is achieved by the incorporation
+Materials2022,15,2467 30of38
+of TiN and CaB6 into AMCs, resulting in both significantly enhanced hardness and tensile
+strength (Figure 26a,b).
+FFiigguurree 2266.. AAvveerraaggee ggrraaiinn ssiizzee ooff LLPPBBFF pprreeppaarreedd cceerraammiicc ppaarrttiiccuullaattee rreeiinnffoorrcceedd AAllSSii1100MMgg ((aa)) aanndd
+other Al alloys (b) (data from [8,28,31,50,59,66,67,73,77–84,88,91–93,96,99–101]).
+otherAlalloys(b)(datafrom[8,28,31,50,59,66,67,73,77–84,88,91–93,96,99–101]).
+TThhee dteengsrielee forfa cimtupreroovfetmheenAtl Sdie1p0eMngd-s6 .o5nw atd.%diTtiiBve ccoomntpeonst iatensdh coowmepdotshiatitotnh eoff rtahcet uArel
+2
+aplalothy. oTfatbhlee 4A bMriCefliys snuomt mflaatr,izaess itnheth ienfcluaesencoef oAf ltShie1 0rMepgo,rtbeudt creartahmeric raadnddiotimvefso ornb tohteh
+LhPoBriFz opnrotacleassn danvde rtthieciarl csoanmtepnlet sli(mFiigtautrioen2.4 a,b)[79]. Generally,thereinforcedcomposites
+withrefinedmicrostructurehavehighductilityduetolessstressconcentration. Basedon
+Tthabelfie n4e. -Tshize eedffeecqt uoifa rxeeindfodrcimingp lceosm(pFoiguunrdes 2o4ne t,hf)e, ftahberifcaaitliuonre anmdo pdreopoefrttihees oAf MAMCCiss aanddu tchteilire
+ofpraticmtuarl ec,onstteantitn ligmiimt. proved ductility. However, the holes and the tears on the fracture
+surfacemighthaveledtoprematurefailureoftheAMC(Figure24c,d). Similarly,inthe
+Reinforcing Minimum
+Influence onA thlSei 1L0PMBgF- 0P.r2owcets.%s aLnadB thcoem Pproopsietret,icersa ockf itnhge pArle dAolmloiynsa ntlyoccurredwithinthemeltpool
+Compound 6 Optimal Limit
+boundaries, and the LaB nanoparticles led to more ductile fracture of the composite,
+6
+owingtofineequiaxeddimples[84]. Ductile-typefailurewasreportedforAlSi10Mgwith
+homogeneouslydispersedcircular-structuredTiC(3wt.%). Thelattercontributedtothe
+improvementoftensilestrengthwithoutsacrificingductility[71]. ThedualTiB andTiC
+2
+reinforcedAMC’stensilefracture(Figure24m,n)possessesfewerporesanddeeperdimples
+ascomparedtoAlSi10Mg(Figure24o,p)andshowsmixedductileandbrittlefracturemode.
+TherelativelyhardintragranularTiB andTiCparticlesaccommodatethedislocationsin
+2
+thegrains,contributingtostrainhardeninganduniformelongation[93]. Bothbrittleand
+ductilefractureswereobservedinthecaseof0.7wt.%hybridTi-B Caddition. However,
+4
+thefurtherincreaseinadditivecontentledtofracturechangesfromductiletobrittle[94].
+WhenanalyzingSiCreinforcedAlSi10Mg,hugeattentionwasgiventoappliedenergy,
+as under low energy, brittle Al C is formed. However, higher energy promotes the
+4 3
+formationofAl SiC ,alongwithawell-dispersedeutecticstructure,henceprohibitingthe
+4 4
+prematurefailureofthecomposite[95]. SimilartoSiC(Figure24g,h),inSi N reinforced
+3 4
+AMC (Figure 24k,l), the nature of the fracture is ductile brittle, dominated by brittle,
+whereaspureAlSi10Mg(Figure24i,j)showsaductile-brittlecompositefracturedominated
+byductile. DuetoSi N ,crackpropagationissuppressedwhenthetipmeetstheSi N –
+3 4 3 4
+AlSi0Mginterface. However,becauseoftheirregulardistributionofSi N andthechanges
+3 4
+inpropagationpathoftheconnectedcracks,morecleavagestepswereformed[104]. When
+TiNnanoparticlesareaddedtoAlSi10Mg, thefracturebehaviorofthealloyremainsin
+mixedfailuremode;however,large-sizeagglomeratesformedduringexcessadditionof
+TiN,decreasingbothstrengthandductility[101].
+Analysesshowthatthehighesthardnesswasshownby15wt.%SiCreinforcedAMCs,
+followedbythe17.2wt.%hybridB C-Tiand11.6wt.%TiB reinforcedmaterials(Figure25a).
+4 2
+HardnessvaluesofTiCandSi N reinforcedAMCsarecomparablewithTiB . Meanwhile,
+3 4 2
+ceramicreinforced2024,Al–12SiandAl–Cualloysshowinferiorhardnesscomparedto
+AlS10Mgwithsimilaradditives(Figure25b).Materials2022,15,2467 31of38
+TheAMCsreinforcedwithTiB ,TiC,hybridTiN-TiandTiC-TiH additivesaresub-
+2 2
+jected to in situ formation of L1 -Al Ti or D0 -Al Ti (Table 4), which serve as active
+2 3 22 3
+nucleationsitesandpromotegrainrefinementinthe0.5–2µmrange(Figure26a,b). The
+substantialgrainrefinement,downtosubmicronlevel,isachievedbytheincorporationof
+TiNandCaB intoAMCs,resultinginbothsignificantlyenhancedhardnessandtensile
+6
+strength(Figure26a,b).
+Table4.TheeffectofreinforcingcompoundsonthefabricationandpropertiesofAMCsandtheir
+optimalcontentlimit.
+Reinforcing MinimumOptimal
+InfluenceontheLPBFProcessandthePropertiesoftheAlAlloys
+Compound Limit
+Exhibitsgoodwettability,interfacialcompatibilitywithAl.Increases
+densificationlevel,servesasgrainrefineralongwithinsituformedAl Ti,
+3
+TiB 2–6.5wt.%
+2 stabilizesgrainboundaries,leadstorandomizedcrystallographicorientation,
+dramaticallyimprovesstrength,hardnessandductility.
+FormshighlycoherentinterfacewithAl,leadstosignificantgrainrefinement,
+LaB microstructuralhomogeneity,isotropicmechanicalproperties,doesnothave Upto0.5wt.%
+6
+hugeeffectonstrengthenhancement,butimprovesductility.
+Servesasexcellentgrainrefiner,microstructurestabilizeratthegrain
+CaB boundaries,formshighlycoherentinterfacewithAl,improveshardness, Upto2wt.%
+6
+tensilestrength,withoutsacrificingductility.
+UsingfineTiCparticlesleadstofullydensepartfabricationwithimproved
+strength,ductilityandhardness.TheinsituformedD0 -Al Tiinoculants
+22 3
+provideheterogeneousnucleationofα-Al,leadingtograinrefinement,and
+TiC Upto5wt.%
+removethepreferredorientationoftheα-Al(200)phase.Dependingonthe
+TiCcontentandprocessparameters,novelcircular(ring)structuresareformed
+withinthematrix,enhancingthemechanicalperformanceofAMCs.
+Thegas-atomizedpowdersreleaseenormousTiC particlesduringLPBF
+B
+process,largelypromotingthenucleationofAlgrains,grainrefinementand
+TiC ~0.5wt.%
+B resultinginweakcrystallographictextureofAMCs.TiC particlesalongwith
+B
+precipitatedSienhancetheyieldstrength,tensilestrengthandelongation.
+TheadditionofTiCNsignificantlyreducestheaveragegrainsize,improves
+TiCN yieldstrengthandductilityovernativeLPBFAlSi10Mgandrarelyinducesthe 2wt.%
+formationofbrittleAl C .
+4 3
+DuetodecompositionofTiH andreactionofAlwithTi,awell-bonded
+2
+interfacebetweenL1 -Al Tiandα-Alwasobservedactingassubstratefor
+2 3
+α-Alheterogeneousnucleation.Meanwhile,thepresenceofTicreates“Ti
+1wt.%TiC
+TiC+TiH transitionzone”betweenTiCandmatrix,creatingpotentnucleationsitesfor
+2 1wt.%TiH
+α-Alaswell.Owingtorestrictionofcolumnargraingrowth,thejointeffectof 2
+refinementstrengthening,thereinforcedAMCsexhibitenhancedmechanical
+performance,tensilestrengthandductility.
+DualTiB +TiCparticlesinduceheterogeneousnucleationofAland
+2
+significantlyrefinethegrainsoftheAlmatrix.Doublereinforcementresultsin 1.5wt.%TiC
+TiC+TiB
+2 simultaneousenhancementinstrength,ductilityandhardness,actingmore 1.5wt.%TiH
+2
+efficientlythansinglespecies.
+Useoffine(nanosizedorfew-micron-sized)SiCresultsingrainrefinement,
+decreaseinporosity,enhancementofhardness,tensilestrengthandductility
+SiC Upto2wt.%
+but,dependingontheprocessparameters,cancauseinsituformationof
+Al C orAl SiC phases.
+4 3 4 4Materials2022,15,2467 32of38
+Table4.Cont.
+Reinforcing MinimumOptimal
+InfluenceontheLPBFProcessandthePropertiesoftheAlAlloys
+Compound Limit
+InsituformedTiC,TiB andTi SiC serveasnucleantsandreinforcements.
+2 3 2
+TheTi+B Ccontentincreaseresultsinimprovementinhardness,however
+4
+Ti+B C muchlowerelongationandtensilestrength.Thereleasedheatduringthe 0.7wt.%
+4
+combustionreactionallowsforfabricatingthematerialsatlowapplied
+laserenergy.
+Al C itselfisabrittleandunstablephaseandisbestavoided.However,small
+4 3
+Al 4C
+3
+amountsofformednanosizedAl 4C 3canenhancethemechanicalproperties -
+ofAMCs.
+Al SiC alongwithintermetallicMg Siincreasereinforcement/matrix
+4 4 2
+wettabilityandtheresultantinterfacialbondingcoherence.Al SiC servesas
+4 4
+Al SiC thetransitionzone,whichhindersthedirectcontactofSiCandaluminum -
+4 4
+crystals.UltrafineAl SiC hasareinforcingeffect,improvingthemechanical
+4 4
+propertiesofSiCreinforcedAMCs.
+TiNparticlesrefinetheα-Algrainsduetointensiveheterogeneousnucleation
+andincreasethefractionoflow-energyhigh-anglegrainboundaries,
+enhancingthehardnessandstrength.DuetotheAl+TiNreaction,Al Si
+3.21 0.47
+TiN anda(Ti,Al)Ngradedlayerisformed,whichsignificantlyenhancesthe 4wt.%
+hardnessduetoimprovinginterfacebondingstrength.Thecoherentinterfaces
+betweenthematrix,Mg SiandTiNparticlesleadtoprecipitation
+2
+strengthening,whichcontributestotheoverallstrengthincrease.
+Providescrack-freemicrostructureandsignificantgrainrefinementdueto
+TiN+Ti formationofAl 3Tiphaseanddifferentprecipitates,improvesthehardnessand 4wt.%
+tensilestrength.
+TheAlNparticlesshowhighchemicalstabilityandgoodcompatibilitywithAl
+alloy.Theypromotedensification,refinetheα-Algrains,create
+AlN 1wt.%
+strain-hardenedtribo-layer,enhancingthewearresistanceandstabilizingthe
+coefficientoffriction.
+TheformationofAlNandAlB phasesduringthesolid-statereactionof
+2
+Al+BNresultsinincreasedtensilestrengthandhardness,thoughatthe
+BN 1wt.%
+expenseofporosityincrease.However,increaseinBNcontentandparticle
+sizedecreaseswettabilityandpreventsuniformmetalspreading.
+Si N particlesincreasethemeltpool’sviscosityanddisturbthestability,
+3 4
+suggestingamuchnarrowerwindowforLPBFprocessparameters.Owingto
+Si N hindereddislocationmotionduringdeformation(becauseofdifferenceofAl 10vol.%
+3 4
+andSi N )andtheload-bearingeffectofSi N particles,theAMCspossess
+3 4 3 4
+improvedstrengthandelasticmodulus.
+ThedegreeofimprovementdependsonadditivecontentandcompositionoftheAl
+alloy. Table4brieflysummarizestheinfluenceofthereportedceramicadditivesonthe
+LPBFprocessandtheircontentlimitation.
+4. SummaryandOutlook
+LPBFtechnologiesarenowcommerciallyavailableandattractahugedealofatten-
+tioninresearchcommunity. AlthoughthenumberofaluminumalloyssuitableforAM
+throughLPBFisquitelimited, theprocesskeepsevolving, and, inthenearestfuture, a
+widespreadapplicationofAMofhigh-strengthaluminumalloysisexpectedtooccurin
+theaerospacemarket.
+ThecostofindustrialmetalprintersremainsthechiefcapitalexpenditureofAMparts
+toachieveeconomies-of-scalecostreduction. Althoughtheindustryhassuffereddueto
+COVID-19, the reverse has now begun. In light of current metal printers’ high prices,
+they are mostly used in high-value industries, such as aerospace, defense and medical.Materials2022,15,2467 33of38
+Otherfields,suchasenergy,arestartingtoshowinterestinpowderbedfusiontechnology,
+althoughdevelopingeconomicallyviableapplicationsrequiressufficienttime.
+A2.6percentannualgrowthrateispredictedforaluminumconsumptionglobally
+Materials 2022, 15, x FOR PEER REVIuEpWt o2029. In2021,globalaluminumconsumptionisprojectedat64.2millionmetr3ic5 toofn 4s1
+alone(Figure27).
+FFiigguurree2 277.. CCaallccuullaatteedd aalluummiinnuummc coonnssuummppttiioonnu uppt too2 2002299( (aaddaapptteeddf rfroommR Reef.f.[ 1[11133])].).
+HHoowweevveer,r,f ufeuleelf fiecfifeicniceyncayn dalnodw lcoawrb ocnarebmonis seiomnisasrieotnh eamrea nthtrea fmorannterwa -eforar anirelwin-eerrsa,
+waihrilcinhehrsa,v ewghroicuhn dhbarveaek ignrgoduensdigbnreeaqkuinipgp eddeswigitnh ceoqmupipopsietde mwaittehr iaclsomcopmopsirties inmga5t0erpiearls-
+cceonmtopfritshiengp r5im0 apreyrcsetrnutc otuf rteh,eh epnricmeealriym sintrautcintugrteh, ehuesneceo fenliumminearotiunsga tlhuem uinsue mofp naurtms[e1r1o4u]s.
+Inaddition,theworld’sbiggestaluminumproducersarelimitingtheproductionofAl,
+aluminum parts [114]. In addition, the world’s biggest aluminum producers are limiting
+planningtoreduceenergyconsumptionandencouragetheproducerstodevelopgreenand
+the production of Al, planning to reduce energy consumption and encourage the
+low-carbontechnologiesandproducehigh-quality,high-strengthandlong-lifealuminum
+producers to develop green and low-carbon technologies and produce high-quality, high-
+products through innovations [115]. This means that there is a need for revolutionary
+strength and long-life aluminum products through innovations [115]. This means that
+actionstokeepadditivemanufacturingofaluminumalloysontrack.
+there is a need for revolutionary actions to keep additive manufacturing of aluminum
+Overthenextdecade,thedevelopmentofnew3DprintableAlalloysisexpectedto
+alloys on track.
+bringdownthecostandenlargethematerials’capacityandportfolio. Forexample,the
+Over the next decade, the development of new 3D printable Al alloys is expected to
+lightweightaluminum–lithiumalloyscouldcontributetoreducingaircraftweight,also
+bring down the cost and enlarge the materials’ capacity and portfolio. For example, the
+benefitingfromexcellentfatigueresistanceandcryogenictoughnessinadditiontolight
+lightweight aluminum–lithium alloys could contribute to reducing aircraft weight, also
+weightandhighspecificmodulus.
+benefiting from excellent fatigue resistance and cryogenic toughness in addition to light
+AsnumerousreinforcementsareusedtofurtherenhancethepropertiesofAlalloys,
+weight and high specific modulus.
+onebigstepaheadwillbeusingdifferentreinforcingparticles(ceramics)andcoveringthem
+As numerous reinforcements are used to further enhance the properties of Al alloys,
+withcompatiblecoatingstoprovidesuitablewettabilityandinterface,orincorporatingthe
+one big step ahead will be using different reinforcing particles (ceramics) and covering
+reinforcingparticlesintoAlalloyparticlestoprovideahomogeneousdistribution. Another
+them with compatible coatings to provide suitable wettability and interface, or
+mainchallengeistherecyclingoftheusedfeedstockandtheutilizationofthespattered
+incorporating the reinforcing particles into Al alloy particles to provide a homogeneous
+debristopreparenewpowdersforfurtheruse.
+distribution. Another main challenge is the recycling of the used feedstock and the
+AsthedesignofnewalloysapplicablefortheLPBFprocessistimeandcostconsuming,
+utilization of the spattered debris to prepare new powders for further use.
+ahigh-throughputandreliabletechniqueisneededtoexperimentallyvalidatethecustom
+As the design of new alloys applicable for the LPBF process is time and cost
+alloysandeffectivelyintroducethemintothemarket. Therefore,adeepunderstandingof
+consuming, a high-throughput and reliable technique is needed to experimentally
+theimpactofthealloyingconstituentsontheprocessabilityofthefeedstockbyLPBFand,
+validate the custom alloys and effectively introduce them into the market. Therefore, a
+ultimately,thepropertiesoftheproduceditemsinapplication,isofacrucialimportance.
+deep understanding of the impact of the alloying constituents on the processability of the
+Inthisreviewpaper,theeffectofnon-oxideceramic(borides,nitrides,carbides)and
+feedstock by LPBF and, ultimately, the properties of the produced items in application, is
+hybridreinforcingadditivesonthedensification,grainrefinementandrespectivemechan-
+of a crucial importance.
+icalcharacteristicsofLPBF-fabricatedAMCswasdiscussed. Acomprehensiveanalysis
+In this review paper, the effect of non-oxide ceramic (borides, nitrides, carbides) and
+ofresearchstudiesondensification,compositionalandmicrostructuralcharacteristicsof
+hybrid reinforcing additives on the densification, grain refinement and respective
+theinsituandexsitureinforcedaluminumalloysproducedbyLPBFmethodwasaccom-
+pmlieshchedantiocadle mchoanrsatcrtaetreistthicesc aopf aLbPilBitFy-ofafbdriifcfaetreedn tAceMraCmsi cwaadsd idtiivsceusstsoetda.i lAor cthoemmpreechheannsicivale
+parnoapleyrstiise sowf ithreaspeaprlcicha tisotnudtoieas woind edvaenriseitfyicoaftiponro, cecsosmpparoasmitieotnerasl . and microstructural
+characteristics of the in situ and ex situ reinforced aluminum alloys produced by LPBF
+• Generally,anincorporationoftheceramicparticlesintoAlalloysresultsinasignificant
+method was accomplished to demonstrate the capability of different ceramic additives to
+improvementinstrength,ductilityandhardnessofthefabricatedpartsaccompanied
+tailor the mechanical properties with application to a wide variety of process parameters.
+• Generally, an incorporation of the ceramic particles into Al alloys results in a
+significant improvement in strength, ductility and hardness of the fabricated parts
+accompanied by a refined microstructure and with randomization of
+crystallographic orientation of reinforced AMCs.Materials2022,15,2467 34of38
+byarefinedmicrostructureandwithrandomizationofcrystallographicorientationof
+reinforcedAMCs.
+• MostoftheAMCscanbedensifiedtoover99%relativedensity;moreover,non-oxide
+ceramicadditivessignificantlyimprovelaserabsorptivityofapowderfeedstock.
+• The addition of ceramic particulates shifts the process window to a higher energy
+regime;however,anappliedexcessenergymayresultintheevaporationordecompo-
+sitionofceramicsparticles(mainlySiC).
+• Theapplicationofalaserre-meltingstrategycanfurtherincreasethedensification
+degreeandthesurfacequalityofAMCs;however,italsocancausetheevaporation
+andlossofceramicparticles.
+• Hybridreinforcementsareproventobetheeffectiveadditives,providingtheformation
+ofawidevarietyofreinforcingphaseswithacoherentinterfacewithmatrices.
+• Theuseofceramicswithafine-particlesizeresultsinanincreaseddegreeofdensification,
+microstructuralandcompositionaluniformity,aswellasanapparentgrainrefinement.
+• TheadditionofTiB ,CaB ,TiC,TiNtoAlalloysleadstoaconsiderablegrainrefine-
+2 6
+ment,downtothesubmicronlevel,duetotheintensiveheterogeneousnucleationand
+graingrowthinhibition.
+• Anadditionofmatchingceramicspreventsthehottearingandgivestheprospectto
+consolidatecrack-susceptibleAlalloysbyalaserpowder-bedfusiontechnique.
+• Thehighestelongationof17.7%isdemonstratedbytheAlSi10Mg/TiB composite;
+2
+however, the highest strength of 613 MPa is recorded for the hybrid TiN-Ti rein-
+forcedAMCs.
+• Thehighesthardnessof316HVisestimatedforSiCreinforcedAMCs,whichpossess
+arelativelyhighstrengthandmoderateductility.
+AuthorContributions: Conceptualization,T.M.andI.H.;datacuration,I.H.;fundingacquisition,
+I.H.;investigation,T.M.;methodology,I.H.andT.M.;resources,I.H.;supervision,I.H.;visualization,
+T.M.;writing—originaldraft,T.M.;writing—reviewandediting,I.H.andT.M.Allauthorshaveread
+andagreedtothepublishedversionofthemanuscript.
+Funding:ThisworkwassupportedbytheEstonianResearchCouncil(ETAG),Estonia,underthe
+grantsPRG643(I.Hussainova)andPSG220(S.Aydinyan).
+InstitutionalReviewBoardStatement:Notapplicable.
+InformedConsentStatement:Notapplicable.
+DataAvailabilityStatement:Thedatasupportingthefindingsofthisstudyisavailablewithinthearticle.
+ConflictsofInterest:Theauthorsdeclarenoconflictofinterest.
+References
+1. Spierings,A.B.;Dawson,K.;Uggowitzer,P.J.;Wegener,K.InfluenceofSLMscan-speedonmicrostructure,precipitationofAl3Sc
+particlesandmechanicalpropertiesinSc-andZr-modifiedAl-Mgalloys.Mater.Des.2018,140,134–143.[CrossRef]
+2. Otani,Y.; Sasaki,S.Effectsoftheadditionofsiliconto7075aluminumalloyonmicrostructure,mechanicalproperties,and
+selectivelasermeltingprocessability.Mater.Sci.Eng.A2020,777,139079.[CrossRef]
+3. Muhammad, M.; Nezhadfar, P.; Thompson, S.; Saharan, A.; Phan, N.; Shamsaei, N. A comparative investigation on the
+microstructure and mechanical properties of additively manufactured aluminum alloys. Int. J. Fatigue 2021, 146, 106165.
+[CrossRef]
+4. Li,P.;Li,R.;Yang,H.;Yuan,T.;Niu,P.;Wang,M.;Li,L.;Chen,C.SelectivelasermeltingofAl-3.48Cu-2.03Si-0.48Sc-0.28Zralloy:
+Microstructureevolution,propertiesandmetallurgicaldefects.Intermetallics2020,129,107008.[CrossRef]
+5. Qian,W.;Zhao,Y.;Kai,X.;Yan,Y.;Gao,X.;Jin,L.Microstructureandpropertiesof6111Almatrixcompositesreinforcedbythe
+cooperationofinsituZrB2particlesandY.J.AlloysCompd.2020,829,154624.[CrossRef]
+6. Qbau,N.;Nam,N.;Hien,N.;Ca,N.Developmentoflightweighthighstrengthaluminumalloyforselectivelasermelting.J.
+Mater.Res.Technol.2020,9,14075–14081.[CrossRef]
+7. Totten,G.E.;Tiryakiog˘lu,M.;Kessler,O.(Eds.)EncyclopediaofAluminumandItsAlloys;CRCPress:BocaRaton,FL,USA,2018.
+[CrossRef]
+8. Wang,M.;Song,B.;Wei,Q.;Shi,Y.ImprovedmechanicalpropertiesofAlSi7Mg/nano-SiCpcompositesfabricatedbyselective
+lasermelting.J.AlloysCompd.2019,810,151926.[CrossRef]Materials2022,15,2467 35of38
+9. Tan,Q.;Fan,Z.;Tang,X.;Yin,Y.;Li,G.;Huang,D.;Zhang,J.;Liu,Y.;Wang,F.;Wu,T.;etal. Anovelstrategytoadditively
+manufacture7075aluminiumalloywithselectivelasermelting.Mater.Sci.Eng.A2021,821,141638.[CrossRef]
+10. Zhang,J.;Song,B.;Wei,Q.;Bourell,D.;Shi,Y.Areviewofselectivelasermeltingofaluminumalloys:Processing,microstructure,
+propertyanddevelopingtrends.J.Mater.Sci.Technol.2018,35,270–284.[CrossRef]
+11. Gu,D.;Chang,F.;Dai,D.SelectiveLaserMeltingAdditiveManufacturingofNovelAluminumBasedCompositesWithMultiple
+ReinforcingPhases.J.Manuf.Sci.Eng.2015,137,021010.[CrossRef]
+12. Famodimu,O.H.;Stanford,M.;Oduoza,C.F.;Zhang,L.Effectofprocessparametersonthedensityandporosityoflasermelted
+AlSi10Mg/SiCmetalmatrixcomposite.Front.Mech.Eng.2018,13,520–527.[CrossRef]
+13. Chang,F.; Gu,D.; Dai,D.; Yuan,P.Selectivelasermeltingofin-situAl SiC +SiChybridreinforcedAlmatrixcomposites:
+4 4
+InfluenceofstartingSiCparticlesize.Surf.CoatingsTechnol.2015,272,15–24.[CrossRef]
+14. Zhou,L.;Huynh,T.;Park,S.;Hyer,H.;Mehta,A.;Song,S.;Bai,Y.;McWilliams,B.;Cho,K.;Sohn,Y.Laserpowderbedfusionof
+Al–10wt%Cealloys:Microstructureandtensileproperty.J.Mater.Sci.2020,55,14611–14625.[CrossRef]
+15. Wallis,C.;Buchmayr,B.;Bermejo,R.;Supancic,P.Fabricationof3Dmetal-ceramic(Al-AlN)architecturesusinglaser-powderbed
+fusionprocess.Addit.Manuf.2020,38,101799.[CrossRef]
+16. Minasyan,T.;Aghayan,M.;Liu,L.;Aydinyan,S.;Kollo,L.;Hussainova,I.;Rodríguez,M.A.CombustionsynthesisofMoSi2
+basedcompositeandselectivelasersinteringthereof.J.Eur.Ceram.Soc.2018,38,3814–3821.[CrossRef]
+17. Minasyan,T.;Ivanov,R.;Toyserkani,E.;Hussainova,I.Laserpowder-bedfusionofMo(Si,Al) —Basedcompositeforelevated
+2
+temperatureapplications.J.AlloysCompd.2021,884,161034.[CrossRef]
+18. Wang, J.; Liu, T.; Luo, L.; Cai, X.; Wang, B.; Zhao, J.; Cheng, Z.; Wang, L.; Su, Y.; Xue, X.; et al. Selective laser melting of
+high-strengthTiB2/AlMgScZrcomposites:Microstructure,tensiledeformationbehavior,andmechanicalproperties.J.Mater.Res.
+Technol.2021,16,786–800.[CrossRef]
+19. Minasyan,T.;Ivanov,R.;Toyserkani,E.;Hussainova,I.Mo(Si,Al) bylaserpowderbedfusionofAlSi10Mgandcombustion
+2
+synthesizedMoSi2.Mater.Lett.2021,307,131041.[CrossRef]
+20. Minasyan,T.;Aydinyan,S.;Toyserkani,E.;Hussainova,I.ParametricStudyonInSituLaserPowderBedFusionofMo(Si 1−x,Alx) 2.
+Materials2020,13,4849.[CrossRef]
+21. Kuai,Z.;Li,Z.;Liu,B.;Liu,W.;Yang,S.Effectsofremeltingonthesurfacemorphology,microstructureandmechanicalproperties
+ofAlSi10Mgalloyfabricatedbyselectivelasermelting.Mater.Chem.Phys.2022,125901.[CrossRef]
+22. Gu,D.;Yuan,P.ThermalevolutionbehaviorandfluiddynamicsduringlaseradditivemanufacturingofAl-basednanocomposites:
+Underlyingroleofreinforcementweightfraction.J.Appl.Phys.2015,118,233109.[CrossRef]
+23. Yu,W.;Sing,S.;Chua,C.;Kuo,C.;Tian,X.Particle-reinforcedmetalmatrixnanocompositesfabricatedbyselectivelasermelting:
+Astateoftheartreview.Prog.Mater.Sci.2019,104,330–379.[CrossRef]
+24. Kumar,M.B.;Sathiya,P.Methodsandmaterialsforadditivemanufacturing:Acriticalreviewonadvancementsandchallenges.
+Thin-WalledStruct.2020,159,107228.[CrossRef]
+25. Bayat,M.;Nadimpalli,V.K.;Pedersen,D.B.;Hattel,J.H.Afundamentalinvestigationofthermo-capillarityinlaserpowderbed
+fusionofmetalsandalloys.Int.J.HeatMassTransf.2020,166,120766.[CrossRef]
+26. Martin,J.H.;Yahata,B.D.;Hundley,J.M.;Mayer,J.A.;Schaedler,T.A.;Pollock,T.M.3Dprintingofhigh-strengthaluminium
+alloys.Nature2017,549,365–369.[CrossRef]
+27. Griffiths,S.;Rossell,M.D.;Croteau,J.;Vo,N.Q.;Dunand,D.C.;Leinenbach,C.Effectoflaserrescanningonthegrainmicrostruc-
+tureofaselectivelasermeltedAl-Mg-Zralloy.Mater.Charact.2018,143,34–42.[CrossRef]
+28. Mair,P.;Goettgens,V.S.;Rainer,T.;Weinberger,N.;Letofsky-Papst,I.;Mitsche,S.;Leichtfried,G.Laserpowderbedfusionof
+nano-CaB6decorated2024aluminumalloy.J.AlloysCompd.2021,863,158714.[CrossRef]
+29. Zhou,L.;Hyer,H.;Chang,J.;Mehta,A.;Huynh,T.;Yang,Y.;Sohn,Y.Microstructure,mechanicalperformance,andcorrosion
+behaviorofadditivelymanufacturedaluminumalloy5083with0.7and1.0wt%Zraddition.Mater.Sci.Eng.A2021,823,141679.
+[CrossRef]
+30. Plotkowski,A.;Sisco,K.;Bahl,S.;Shyam,A.;Yang,Y.;Allard,L.;Nandwana,P.;Rossy,A.M.;Dehoff,R.Microstructureand
+propertiesofahightemperatureAl–Ce–Mnalloyproducedbyadditivemanufacturing.ActaMater.2020,196,595–608.[CrossRef]
+31. Fan,Z.;Yan,X.;Fu,Z.;Niu,B.;Chen,J.;Hu,Y.;Chang,C.;Yi,J.InsituformationofD022-Al3Tiduringselectivelasermeltingof
+nano-TiC/AlSi10Mgalloypreparedbyelectrostaticself-assembly.Vacuum2021,188,110179.[CrossRef]
+32. Kaufman,J.G.IntroductiontoAluminumAlloysandTempers. Availableonline:https://books.google.ee/books?hl=en&lr=
+&id=idmZIDcwCykC&oi=fnd&pg=PR7&dq=Introduction+to+Aluminum+Alloys+and+Tempers&ots=YF2Do8uYO4&sig=
+lVfaG-D2QRHLKNTb8Nivh0VpmmA&redir_esc=y#v=onepage&q=Introduction%20to%20Aluminum%20Alloys%20and%20
+Tempers&f=false(accessedon25August2021).
+33. Montero-Sistiaga,M.L.;Mertens,R.;Vrancken,B.;Wang,X.;VanHooreweder,B.;Kruth,J.-P.;VanHumbeeck,J.Changingthe
+alloycompositionofAl7075forbetterprocessabilitybyselectivelasermelting. J.Mater. Process. Technol. 2016,238,437–445.
+[CrossRef]
+34. Astfalck,L.;Kelly,G.K.;Li,X.;Sercombe,T.B.OntheBreakdownofSiCduringtheSelectiveLaserMeltingofAluminumMatrix
+Composites.Adv.Eng.Mater.2017,19,1600835.[CrossRef]Materials2022,15,2467 36of38
+35. Li,X.;Wang,X.;Saunders,M.;Suvorova,A.;Zhang,L.;Liu,Y.;Fang,M.;Huang,Z.;Sercombe,T.Aselectivelasermeltingand
+solutionheattreatmentrefinedAl–12Sialloywithacontrollableultrafineeutecticmicrostructureand25%tensileductility.Acta
+Mater.2015,95,74–82.[CrossRef]
+36. Zhuo, L.; Wang, Z.; Zhang, H.; Yin, E.; Wang, Y.; Xu, T.; Li, C.Effectofpost-processheattreatmentonmicrostructureand
+propertiesofselectivelasermeltedAlSi10Mgalloy.Mater.Lett.2018,234,196–200.[CrossRef]
+37. Wang,M.;Song,B.;Wei,Q.;Zhang,Y.;Shi,Y.Effectsofannealingonthemicrostructureandmechanicalpropertiesofselective
+lasermeltedAlSi7Mgalloy.Mater.Sci.Eng.A2018,739,463–472.[CrossRef]
+38. Zhang,C.;Zhu,H.;Hu,Z.;Zhang,L.;Zeng,X.Acomparativestudyonsingle-laserandmulti-laserselectivelasermelting
+AlSi10Mg:Defects,microstructureandmechanicalproperties.Mater.Sci.Eng.A2019,746,416–423.[CrossRef]
+39. Li,W.;Li,S.;Liu,J.;Zhang,A.;Zhou,Y.;Wei,Q.;Yan,C.;Shi,Y.EffectofheattreatmentonAlSi10Mgalloyfabricatedbyselective
+lasermelting:Microstructureevolution,mechanicalpropertiesandfracturemechanism.Mater.Sci.Eng.A2016,663,116–125.
+[CrossRef]
+40. Ji,Y.;Dong,C.;Kong,D.;Li,X.DesignmaterialsbasedonsimulationresultsofsiliconinducedsegregationatAlSi10Mginterface
+fabricatedbyselectivelasermelting.J.Mater.Sci.Technol.2020,46,145–155.[CrossRef]
+41. Wang,Y.;Shi,J.EffectofhotisostaticpressingonnanoparticlesreinforcedAlSi10Mgproducedbyselectivelasermelting.Mater.
+Sci.Eng.A2020,788,139570.[CrossRef]
+42. Bi,J.;Lei,Z.;Chen,Y.;Chen,X.;Tian,Z.;Lu,N.;Qin,X.;Liang,J.Microstructure,tensilepropertiesandthermalstabilityof
+AlMgSiScZralloyprintedbylaserpowderbedfusion.J.Mater.Sci.Technol.2020,69,200–211.[CrossRef]
+43. Thapliyal, S.; Shukla, S.; Zhou, L.; Hyer, H.; Agrawal, P.; Agrawal, P.; Komarasamy, M.; Sohn, Y.; Mishra, R.S. Design of
+heterogeneousstructuredAlalloyswithwideprocessingwindowforlaser-powderbedfusionadditivemanufacturing.Addit.
+Manuf.2021,42,102002.[CrossRef]
+44. Lu,J.;Lin,X.;Kang,N.;Cao,Y.;Wang,Q.;Huang,W.Keyholemodeinducedsimultaneousimprovementinstrengthandductility
+ofScmodifiedAl–Mnalloymanufacturedbyselectivelasermelting.Mater.Sci.Eng.A2021,811,141089.[CrossRef]
+45. Thapliyal,S.; Komarasamy,M.; Shukla,S.; Zhou,L.; Hyer,H.; Park,S.; Sohn,Y.; Mishra,R.S.Anintegratedcomputational
+materialsengineering-anchoredclosed-loopmethodfordesignofaluminumalloysforadditivemanufacturing.Materialia2019,9,
+100574.[CrossRef]
+46. Yang,K.;Shi,Y.;Palm,F.;Wu,X.;Rometsch,P.ColumnartoequiaxedtransitioninAl-Mg(-Sc)-Zralloysproducedbyselective
+lasermelting.Scr.Mater.2018,145,113–117.[CrossRef]
+47. Kurnsteiner,P.; Bajaj,P.; Gupta,A.; Benjamin,W.; Weisheit,A.; Li,X.; Leinebach,C.; Gault,B.; Jagle,E.; Raabe,D.Control
+ofthermallystablecore-shellnano-precipitatesinadditivelymanufacturedAl-Sc-Zralloys. Addit. Manuf. 2020,32,100910.
+[CrossRef]
+48. Zhou,L.;Hyer,H.;Thapliyal,S.;Mishra,R.S.;McWilliams,B.;Cho,K.;Sohn,Y.Process-DependentComposition,Microstructure,
+andPrintabilityofAl-Zn-MgandAl-Zn-Mg-Sc-ZrAlloysManufacturedbyLaserPowderBedFusion.Met.Mater.Trans.A2020,
+51,3215–3227.[CrossRef]
+49. Zhou,S.;Su,Y.;Wang,H.;Enz,J.;Ebel,T.;Yan,M.Selectivelasermeltingadditivemanufacturingof7xxxseriesAl-Zn-Mg-Cu
+alloy:Crackingeliminationbyco-incorporationofSiandTiB .Addit.Manuf.2020,36,101458.[CrossRef]
+2
+50. Biffi,C.A.;Bassani,P.;Fiocchi,J.;Albu,M.;Tuissi,A.SelectivelasermeltingofAlCu-TiB2alloyusingpulsedwavelaseremission
+mode:Processability,microstructureandmechanicalproperties.Mater.Des.2021,204,109628.[CrossRef]
+51. Jia,Q.;Rometsch,P.;Kürnsteiner,P.;Chao,Q.;Huang,A.;Weyland,M.;Bourgeois,L.;Wu,X.Selectivelasermeltingofahigh
+strengthAlMnScalloy:Alloydesignandstrengtheningmechanisms.ActaMater.2019,171,108–118.[CrossRef]
+52. Kang, N.; El Mansori, M.; Lin, X.; Guittonneau, F.; Liao, H.; Huang, W.; Coddet, C. In-situ synthesis of aluminum/nano-
+quasicrystallineAl-Fe-Crcompositebyusingselectivelasermelting.Compos.PartBEng.2018,155,382–390.[CrossRef]
+53. Kang,N.;Fu,Y.;Coddet,P.;Guelorget,B.;Liao,H.;Coddet,C.Onthemicrostructure,hardnessandwearbehaviorofAl-Fe-Cr
+quasicrystalreinforcedAlmatrixcompositepreparedbyselectivelasermelting.Mater.Des.2017,132,105–111.[CrossRef]
+54. Demir,A.G.;Previtali,B.Multi-materialselectivelasermeltingofFe/Al-12Sicomponents.Manuf.Lett.2017,11,8–11.[CrossRef]
+55. Aboulkhair,N.T.;Simonelli,M.;Parry,L.;Ashcroft,I.;Tuck,C.;Hague,R.3DprintingofAluminiumalloys:AdditiveManufac-
+turingofAluminiumalloysusingselectivelasermelting.Prog.Mater.Sci.2019,106,100578.[CrossRef]
+56. Mair,P.;Braun,J.;Kaserer,L.;March,L.;Schimbäck,D.;Letofsky-Papst,I.;Leichtfried,G.Uniquemicrostructureevolutionofa
+novelTi-modifiedAl-Cualloyprocessedusinglaserpowderbedfusion.Mater.TodayCommun.2022,31,103353.[CrossRef]
+57. Wang,Z.;Wang,X.;Chen,X.;Qiu,C.Completecolumnar-to-equiaxedtransitionandsignificantgrainrefinementinanaluminium
+alloybyaddingNbparticlesthroughlaserpowderbedfusion.Addit.Manuf.2022,51,102615.[CrossRef]
+58. Tan,Q.; Zhang,J.; Mo,N.; Fan,Z.; Yin,Y.; Bermingham,M.; Liu,Y.; Huang,H.; Zhang,M.-X.Anovelmethodto3D-print
+fine-grainedAlSi10MgalloywithisotropicpropertiesviainoculationwithLaB6nanoparticles.Addit.Manuf.2020,32,101034.
+[CrossRef]
+59. Xiao, Y.; Bian, Z.; Wu, Y.; Ji, G.; Li, Y.; Li, M.; Lian, Q.; Chen, Z.; Addad, A.; Wang, H.Effectofnano-TiB2particlesonthe
+anisotropyinanAlSi10Mgalloyprocessedbyselectivelasermelting.J.AlloysCompd.2019,798,644–655.[CrossRef]
+60. Kotadia,H.;Gibbons,G.;Das,A.;Howes,P.AreviewofLaserPowderBedFusionAdditiveManufacturingofaluminiumalloys:
+Microstructureandproperties.Addit.Manuf.2021,46,102155.[CrossRef]Materials2022,15,2467 37of38
+61. Wang, L.; Jue, J.; Xia, M.; Guo, L.; Yan, B.; Gu, D.EffectoftheThermodynamicBehaviorofSelectiveLaserMeltingonthe
+FormationofInsituOxideDispersion-StrengthenedAluminum-BasedComposites.Metals2016,6,286.[CrossRef]
+62. Minasyan,T.;Aydinyan,S.;Liu,L.;Volubujeva,O.;Toyserkani,E.;Hussainova,I.Mo(Si 1−x,Alx) 2-basedcompositebyreactive
+laserpowder-bedfusion.Mater.Lett.2020,281,128776.[CrossRef]
+63. Dadbakhsh,S.;Mertens,R.;Hao,L.;VanHumbeeck,J.;Kruth,J.SelectiveLaserMeltingtoManufacture“InSitu”MetalMatrix
+Composites:AReview.Adv.Eng.Mater.2018,21,1801244.[CrossRef]
+64. Xi, L.; Wang, P.; Prashanth, K.; Li, H.; Prykhodko, H.; Scudino, S.; Kaban, I.EffectofTiB2particlesonmicrostructureand
+crystallographictextureofAl-12Sifabricatedbyselectivelasermelting.J.AlloysCompd.2019,786,551–556.[CrossRef]
+65. Macías,J.G.S.;Douillard,T.;Zhao,L.;Maire,E.;Pyka,G.;Simar,A.Influenceonmicrostructure,strengthandductilityofbuild
+platformtemperatureduringlaserpowderbedfusionofAlSi10Mg.ActaMater.2020,201,231–243.[CrossRef]
+66. Li,X.;Li,G.;Zhang,M.-X.;Zhu,Q.Novelapproachtoadditivelymanufacturehigh-strengthAlalloysbylaserpowderbed
+fusionthroughadditionofhybridgrainrefiners.Addit.Manuf.2021,48,102400.[CrossRef]
+67. Dai,D.;Gu,D.;Xia,M.;Ma,C.;Chen,H.;Zhao,T.;Hong,C.;Gasser,A.;Poprawe,R.Meltspreadingbehavior,microstructure
+evolutionandwearresistanceofselectivelasermeltingadditivemanufacturedAlN/AlSi10Mgnanocomposite.Surf.Coatings
+Technol.2018,349,279–288.[CrossRef]
+68. Wang,P.;Eckert,J.;Prashanth,K.-G.;Wu,M.-W.;Kaban,I.;Xi,L.-X.;Scudino,S.Areviewofparticulate-reinforcedaluminum
+matrixcompositesfabricatedbyselectivelasermelting.Trans.NonferrousMet.Soc.China2020,30,2001–2034.[CrossRef]
+69. Tjong,S.C.NovelNanoparticle-ReinforcedMetalMatrixCompositeswithEnhancedMechanicalProperties.Adv.Eng.Mater.
+2007,9,639–652.[CrossRef]
+70. Gu,D.;Wang,H.;Chang,F.;Dai,D.;Yuan,P.;Hagedorn,Y.-C.;Meiners,W.SelectiveLaserMeltingAdditiveManufacturing
+ofTiC/AlSi10MgBulk-formNanocompositeswithTailoredMicrostructuresandProperties. Phys. Procedia2014,56,108–116.
+[CrossRef]
+71. Gu,D.;Wang,H.;Dai,D.;Yuan,P.;Meiners,W.;Poprawe,R.RapidfabricationofAl-basedbulk-formnanocompositeswithnovel
+reinforcementandenhancedperformancebyselectivelasermelting.Scr.Mater.2015,96,25–28.[CrossRef]
+72. Gu,D.;Wang,H.;Dai,D.;Chang,F.;Meiners,W.;Hagedorn,Y.-C.;Wissenbach,K.;Kelbassa,I.;Poprawe,R.Densification
+behavior,microstructureevolution,andwearpropertyofTiCnanoparticlereinforcedAlSi10Mgbulk-formnanocomposites
+preparedbyselectivelasermelting.J.LaserAppl.2015,27,S17003.[CrossRef]
+73. Xi,L.;Gu,D.;Guo,S.;Wang,R.;Ding,K.;Prashanth,K.G.GrainrefinementinlasermanufacturedAl-basedcompositeswith
+TiB2ceramic.J.Mater.Res.Technol.2020,9,2611–2622.[CrossRef]
+74. Kusoglu,I.M.;Gökce,B.;Barcikowski,S.Useof(nano-)additivesinLaserPowderBedFusionofAlpowderfeedstocks:Research
+directionswithinthelastdecade.ProcediaCIRP2020,94,11–16.[CrossRef]
+75. Liu,L.;Minasyan,T.;Ivanov,R.;Aydinyan,S.;Hussainova,I.SelectivelasermeltingofTiB2-Ticompositewithhighcontentof
+ceramicphase.Ceram.Int.2020,46,21128–21135.[CrossRef]
+76. Gu,D.;Yang,Y.;Xi,L.;Yang,J.;Xia,M.Laserabsorptionbehaviorofrandomlypackedpowder-bedduringselectivelasermelting
+ofSiCandTiB reinforcedAlmatrixcomposites.Opt.LaserTechnol.2019,119,105600.[CrossRef]
+2
+77. Xiao,Y.;Chen,H.;Bian,Z.;Sun,T.;Ding,H.;Yang,Q.;Wu,Y.;Lian,Q.;Chen,Z.;Wang,H.Enhancingstrengthandductilityof
+AlSi10MgfabricatedbyselectivelasermeltingbyTiB nanoparticles.J.Mater.Sci.Technol.2021,109,254–266.[CrossRef]
+2
+78. Xi,L.;Guo,S.;Gu,D.;Guo,M.;Lin,K.Microstructuredevelopment,tribologicalpropertyandunderlyingmechanismoflaser
+additivemanufacturedsubmicro-TiB reinforcedAl-basedcomposites.J.AlloysCompd.2019,819,152980.[CrossRef]
+2
+79. Feng,Z.;Tan,H.;Fang,Y.;Lin,X.;Huang,W.SelectivelasermeltingofTiB /AlSi10Mgcomposite:Processability,microstructure
+2
+andfracturebehavior.J.Mater.Process.Technol.2021,299,117386.[CrossRef]
+80. Li,X.;Ji,G.;Chen,Z.;Addad,A.;Wu,Y.;Wang,H.;Vleugels,J.;VanHumbeeck,J.;Kruth,J.Selectivelasermeltingofnano-TiB
+2
+decoratedAlSi10Mgalloywithhighfracturestrengthandductility.ActaMater.2017,129,183–193.[CrossRef]
+81. Wang, P.; Gammer, C.; Brenne, F.; Niendorf, T.; Eckert, J.; Scudino, S.AheattreatableTiB /Al-3.5Cu-1.5Mg-1Sicomposite
+2
+fabricatedbyselectivelasermelting:Microstructure,heattreatmentandmechanicalproperties.Compos.PartBEng.2018,147,
+162–168.[CrossRef]
+82. Mair,P.;Kaserer,L.;Braun,J.;Weinberger,N.;Letofsky-Papst,I.;Leichtfried,G.Microstructureandmechanicalpropertiesofa
+TiB2-modifiedAl–Cualloyprocessedbylaserpowder-bedfusion.Mater.Sci.Eng.A2020,799,140209.[CrossRef]
+83. Xi,L.X.;Zhang,H.;Wang,P.;Li,H.C.;Prashanth,K.G.;Lin,K.J.;Kaban,I.;Gu,D.D.Comparativeinvestigationofmicrostructure,
+mechanicalpropertiesandstrengtheningmechanismsofAl-12Si/TiB2fabricatedbyselectivelasermeltingandhotpressing.
+Ceram.Int.2018,44,17635–17642.[CrossRef]
+84. Tan,Q.;Yin,Y.;Fan,Z.;Zhang,J.;Liu,Y.;Zhang,M.-X.UncoveringtherolesofLaB6-nanoparticleinoculantintheAlSi10Mg
+alloyfabricatedviaselectivelasermelting.Mater.Sci.Eng.A2020,800,140365.[CrossRef]
+85. Wearing,D.;Horsfield,A.P.;Xu,W.;Lee,P.D.WhichwetsTiB inoculantparticles:AlorAl Ti?J.AlloysCompd.2016,664,460–468.
+2 3
+[CrossRef]
+86. Savalani,M.;Ng,C.;Li,Q.;Man,H.Insituformationoftitaniumcarbideusingtitaniumandcarbon-nanotubepowdersbylaser
+cladding.Appl.Surf.Sci.2012,258,3173–3177.[CrossRef]
+87. Masanta,M.;Shariff,S.;Choudhury,A.R.Evaluationofmodulusofelasticity,nano-hardnessandfracturetoughnessofTiB –TiC–
+2
+Al O compositecoatingdevelopedbySHSandlasercladding.Mater.Sci.Eng.A2011,528,5327–5335.[CrossRef]
+2 3Materials2022,15,2467 38of38
+88. Gao,T.;Zhang,S.;Liu,G.;Sun,Q.;Liu,J.;Sun,Q.;Sun,J.;Wang,Z.;Liu,X.;Wang,X.AhighstrengthAlSi10Mgalloyfabricated
+bylaserpowderbedfusionwithadditionofAlTiCBmasteralloypowders.Materialia2021,16,101103.[CrossRef]
+89. Zhou,Y.;Wen,S.;Wang,C.;Duan,L.;Wei,Q.;Shi,Y.EffectofTiCcontentontheAl-15Sialloyprocessedbyselectivelaser
+melting:Microstructureandmechanicalproperties.Opt.LaserTechnol.2019,120,105719.[CrossRef]
+90. Wang,H.;Gu,D.NanometricTiCreinforcedAlSi10Mgnanocomposites:Powderpreparationbyhigh-energyballmillingand
+consolidationbyselectivelasermelting.J.Compos.Mater.2014,49,1639–1651.[CrossRef]
+91. He,P.;Kong,H.;Liu,Q.;Ferry,M.;Kruzic,J.J.;Li,X.ElevatedtemperaturemechanicalpropertiesofTiCNreinforcedAlSi10Mg
+fabricatedbylaserpowderbedfusionadditivemanufacturing.Mater.Sci.Eng.A2021,811,141025.[CrossRef]
+92. Liu,X.;Liu,Y.;Zhou,Z.;Wang,K.;Zhan,Q.;Xiao,X.GrainrefinementandcrackinhibitionofselectivelasermeltedAA2024
+aluminumalloyviainoculationwithTiC–TiH .Mater.Sci.Eng.A2021,813,141171.[CrossRef]
+2
+93. Cheng,W.;Liu,Y.;Xiao,X.;Huang,B.;Zhou,Z.;Liu,X.Microstructureandmechanicalpropertiesofanovel(TiB +TiC)/AlSi Mg
+2 10
+compositepreparedbyselectivelasermelting.Mater.Sci.Eng.A2021,834,142435.[CrossRef]
+94. Yi,J.;Zhang,X.;Rao,J.H.;Xiao,J.;Jiang,Y.In-situchemicalreactionmechanismandnon-equilibriummicrostructuralevolution
+of(TiB +TiC)/AlSi10MgcompositespreparedbySLM-CSprocessing.J.AlloysCompd.2020,857,157553.[CrossRef]
+2
+95. Wang,Z.;Zhuo,L.;Yin,E.;Zhao,Z.MicrostructureevolutionandpropertiesofnanoparticulateSiCmodifiedAlSi10Mgalloys.
+Mater.Sci.Eng.A2021,808,140864.[CrossRef]
+96. Zhang,D.;Yi,D.;Wu,X.;Liu,Z.;Wang,W.;Poprawe,R.;Schleifenbaumc,J.H.;Zieglerd,S.SiCreinforcedAlSi10Mgcomposites
+fabricatedbyselectivelasermelting.J.AlloysCompd.2021,894,162365.[CrossRef]
+97. Xue,G.;Ke,L.;Zhu,H.;Liao,H.;Zhu,J.;Zeng,X.InfluenceofprocessingparametersonselectivelasermeltedSiCp/AlSi10Mg
+composites:Densification,microstructureandmechanicalproperties.Mater.Sci.Eng.A2019,764,138155.[CrossRef]
+98. Xue,G.;Ke,L.;Liao,H.;Chen,C.;Zhu,H.EffectofSiCparticlesizeondensificationbehaviorandmechanicalpropertiesof
+SiCp/AlSi10Mgcompositesfabricatedbylaserpowderbedfusion.J.AlloysCompd.2020,845,156260.[CrossRef]
+99. Gao,C.;Xiao,Z.;Liu,Z.;Zhu,Q.;Zhang,W.Selectivelasermeltingofnano-TiNmodifiedAlSi10Mgcompositepowderwithlow
+laserreflectivity.Mater.Lett.2018,236,362–365.[CrossRef]
+100. Gao,C.;Wang,Z.;Xiao,Z.;You,D.;Wong,K.;Akbarzadeh,A.SelectivelasermeltingofTiNnanoparticle-reinforcedAlSi10Mg
+composite:Microstructural,interfacial,andmechanicalproperties.J.Mater.Process.Technol.2020,281,116618.[CrossRef]
+101. Gao,C.;Wu,W.;Shi,J.;Xiao,Z.;Akbarzadeh,A.Simultaneousenhancementofstrength,ductility,andhardnessofTiN/AlSi10Mg
+nanocompositesviaselectivelasermelting.Addit.Manuf.2020,34,101378.[CrossRef]
+102. Dai,D.;Gu,D.;Poprawe,R.;Xia,M.Influenceofadditivemultilayerfeatureonthermodynamics,stressandmicrostructure
+developmentduringlaser3Dprintingofaluminum-basedmaterial.Sci.Bull.2017,62,779–787.[CrossRef]
+103. Konopatsky,A.S.;Kvashnin,D.G.;Corthay,S.;Boyarintsev,I.;Firestein,K.L.;Orekhov,A.;Arkharova,N.;Golberg,D.V.;Shtansky,
+D.V.MicrostructureevolutionduringAlSi10Mgmoltenalloy/BNmicroflakeinteractionsinmetalmatrixcompositesobtained
+through3Dprinting.J.AlloysCompd.2021,859,157765.[CrossRef]
+104. Miao,K.;Zhou,H.;Gao,Y.;Deng,X.;Lu,Z.;Li,D.Laserpowder-bed-fusionofSi3N4reinforcedAlSi10Mgcomposites:Processing,
+mechanicalpropertiesandstrengtheningmechanisms.Mater.Sci.Eng.A2021,825,141874.[CrossRef]
+105. Rauchenecker,J.;Rabitsch,J.;Schwentenwein,M.;Konegger,T.Additivemanufacturingofaluminumnitrideceramicswithhigh
+thermalconductivityviadigitallightprocessing.OpenCeram.2021,9,100215.[CrossRef]
+106. Li,Q.;Wang,Z.;Wu,C.;Cheng,X.Microstructureandmechanicalpropertiesofaluminumnitrideco-dopedwithceriumoxide
+viahot-pressingsintering.J.AlloysCompd.2015,640,275–279.[CrossRef]
+107. Dai,D.;Gu,D.Influenceofthermodynamicswithinmoltenpoolonmigrationanddistributionstateofreinforcementduring
+selectivelasermeltingofAlN/AlSi10Mgcomposites.Int.J.Mach.ToolsManuf.2016,100,14–24.[CrossRef]
+108. Gu,D.;Ma,C.;Xia,M.;Dai,D.;Shi,Q.AMultiscaleUnderstandingoftheThermodynamicandKineticMechanismsofLaser
+AdditiveManufacturing.Engineering2017,3,675–684.[CrossRef]
+109. Xue,Y.;Jiang,X.;Bourgeois,L.;Dai,P.;Mitome,M.;Zhang,C.;Yamaguchi,M.;Matveev,A.;Tang,C.;Bando,Y.;etal.Aluminum
+matrixcompositesreinforcedwithmulti-walledboronnitridenanotubesfabricatedbyahigh-pressuretorsiontechnique.Mater.
+Des.2015,88,451–460.[CrossRef]
+110. Minasyan,T.;Liu,L.;Aghayan,M.;Kollo,L.;Kamboj,N.;Aydinyan,S.;Hussainova,I.AnovelapproachtofabricateSi N by
+3 4
+selectivelasermelting.Ceram.Int.2018,44,13689–13694.[CrossRef]
+111. Minasyan,T.;Liu,L.;Aghayan,M.;Rodriguez,M.A.;Aydinyan,S.;Hussainova,I.Mesoporousfibroussiliconnitridebycatalytic
+nitridationofsilicon.Prog.Nat.Sci.2019,29,190–197.[CrossRef]
+112. Minasyan,T.;Liu,L.;Holovenko,Y.;Aydinyan,S.;Hussainova,I.AdditivelymanufacturedmesostructuredMoSi -Si N ceramic
+2 3 4
+lattice.Ceram.Int.2019,45,9926–9933.[CrossRef]
+113. WorldwideAluminumConsumptionForecast2029|Statista. Availableonline: https://www.statista.com/statistics/863681
+/global-aluminum-consumption/(accessedon31January2022).
+114. Boeing: FirstofMany: 787DreamlinerCelebrates10YearssinceFirstFlight. Availableonline: https://www.boeing.com/
+features/2019/12/787-1st-flight-anniversary-12-19.page(accessedon31January2022).
+115. ChinaSetsCarbonReductionPlansforSteel,Aluminium|ArgusMedia.Availableonline:https://www.argusmedia.com/en/
+news/2266222-china-sets-carbon-reduction-plans-for-steel-aluminium(accessedon31January2022).

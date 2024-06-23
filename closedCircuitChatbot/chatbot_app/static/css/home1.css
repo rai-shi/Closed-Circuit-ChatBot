@@ -1,0 +1,325 @@
+.navbar {
+    width: auto;
+    height: 180px;
+    background-size: 100% 129%; /* Resmi kaplamak için */
+    background-position: center; /* Resmi ortalamak için */
+    border-radius: 5px;
+    background-image: url('/static/img/55.jpeg');
+}
+
+
+.navbar-brand  img{
+    width: 70px; /* Genişlik ayarı */
+    height: auto; /* Yükseklik otomatik ayarı, oranları korumak için */
+    max-width: 100px; /* Logo maksimum genişliği */
+}
+
+.navbar-brand {
+    font-size: 20px;
+    max-width: 200px; /* Yazı maksimum genişliği */
+    white-space: nowrap; /* Yazının birden fazla satıra geçmesini engeller */
+    overflow: hidden; /* Taşma durumunda içeriği gizler */
+    text-overflow: ellipsis; /* Taşma durumunda yazıyı keser ve üç nokta ile gösterir */
+    display: flex;
+    align-items: center; /* Yazıyı resmin ortasına hizalar */
+
+}
+
+.navbar-brand span {
+    display: flex;
+    align-items: center; /* Yazıyı resmin ortasına hizalar */
+    font-size: 24px;
+}
+
+.bi.bi-person-circle{
+    color: black;
+    width: 25px;
+    height: 25px;
+}
+
+.navbar-text{
+    font-size: 20px;
+}
+
+.sidenav {
+    height: 100vh;
+    width: 280px; /* Adjust as needed */
+    position: fixed;
+    right: 0;
+    background-color:#ffffff;
+    color: #7a85b1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-radius: 10px;
+    overflow-y: auto;
+    position: absolute;
+    box-shadow: 0px 10px 30px 10px #989dad;
+    max-height: 77%;
+  }
+  .sidenav::-webkit-scrollbar {
+    width: 0px; /* Genişliği 0 yaparak scrollbar'ı görünmez yapar */
+}
+
+.sidenav a {
+    text-decoration: none; /* Altı çizili olmayan link */
+    color: #ADAAAA;
+    font-size: 20px;
+    transition: 0.3s;
+    min-height: 0;
+}
+
+.sidenav-header{
+    padding: 10px;
+    text-align: right;
+    padding-right:25px;
+}
+
+.chat-header{
+    border-bottom: 3px solid #294099;
+    margin-bottom: 8px;
+    color: #294099;
+    padding-bottom: 5px; 
+    padding-right: 10px; 
+    padding-left: 10px; 
+
+
+}
+
+.sidenav li {
+    padding: 8px 12px;
+    border-bottom: 1px solid #efe9e9;
+    font-size: 14px;
+
+}
+
+.chat-container {   
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px; 
+    height: 500px;
+    padding: 20px;
+    padding-top: 40px;
+    margin: 4% 8% 3% 8%;
+    overflow-y: auto;
+
+  }
+  .chat-container::-webkit-scrollbar{
+    width: 0px;
+  }
+
+  /* Chat box styles (for demonstration) */
+.message-container {
+    width: 90%;
+    height:600px;
+    margin-left: 50px;
+    margin-top: 0px;
+    
+  }
+
+.message{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.btn-icon{
+    color: #A7915B;
+}
+
+.logout-button-container{
+    position: fixed;
+    bottom: 15px;
+    background-color: #ffff;;
+    width: 100%;
+    border-radius: 0px 10px;
+}
+
+.logout-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px; /* İsteğe bağlı olarak ekleyebilirsiniz */
+    max-width: 300px;
+}
+
+.logout-button {
+    margin-right: 20px; /* İsteğe bağlı olarak ekleyebilirsiniz */
+}
+
+#logoutBtn {
+    background: none;
+    border: none;
+    color: inherit; /* Eğer rengini değiştirmeniz gerekiyorsa */
+    cursor: pointer;
+    color: #000000;
+}
+
+
+@media (max-width: 770px) {
+    .navbar-text,
+    .sidenav {
+      display: none;
+    }
+  }
+
+/* Küçük ekranlar için stil ayarı */
+@media (max-width: 1450px) {
+    .chat-container,
+    .chat-box {
+        width: 75%; /* Küçük ekranlarda container'ı daha dar yap */
+    }
+}
+
+@media (max-width: 1350px) {
+    .chat-container,
+    .chat-box {
+        width: 65%; /* Küçük ekranlarda container'ı daha dar yap */
+    }
+}
+
+/* Daha küçük ekranlar için stil ayarı */
+@media (max-width: 950px) {
+    .chat-container,
+    .chat-box {
+        width: 55%; /* Daha küçük ekranlarda container'ı daha da dar yap */
+    }
+}
+
+@media (max-width: 770px) {
+    .chat-container,
+    .chat-box {
+        width: 75%; /* Daha küçük ekranlarda container'ı daha da dar yap */
+    }
+}
+
+.message p {
+    margin: 10px !important;
+}
+
+.chat_name {
+    background:none; 
+    border: none; 
+    color: rgb(0, 0, 0); 
+    padding: 5px 0px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 13px; 
+    margin: 1px; 
+    cursor: pointer; 
+}
+
+.btn-icon {
+    display: inline-block;
+    padding: 10px;
+    background-color: #4CAF50; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+.btn-icon img {
+    display: block; 
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    padding: 20px;
+    padding-top: 50px;
+    margin: 3% 8% 0% 8%;
+}
+
+.input-group{
+    margin-left: 50px;
+    width: 91%;
+}
+
+.form-control {
+    border-radius: 10px !important;
+}
+
+.new-chat {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background:none;
+    color: #000000; 
+    padding: 10px 0px; 
+    font-size: 16px;
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.new-chat svg {
+    margin-right: 10px; 
+    width: 20px; 
+    height: 20px; 
+}
+
+.chat-date{
+    font-size: 11px;
+}
+
+.chat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-item {
+    margin-right: 15px;
+}
+
+@keyframes jump-up {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-0.2em); }
+  }
+  
+  @keyframes jump-down {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(0.2em); }
+  }
+  
+
+  
+  .dot {
+    display: inline-block;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+  }
+  
+  .dot-1 {
+    animation-name: jump-up;
+    animation-delay: 0.1s;
+    font-size: 16px; /* İstediğiniz boyuta göre ayarlayabilirsiniz */
+
+  }
+  
+  .dot-2 {
+    animation-name: jump-down;
+    animation-delay: 0.3s;
+    font-size: 16px; /* İstediğiniz boyuta göre ayarlayabilirsiniz */
+
+  }
+  
+  .dot-3 {
+    animation-name: jump-up;
+    animation-delay: 0.5s;
+    font-size: 16px; /* İstediğiniz boyuta göre ayarlayabilirsiniz */
+
+  }
+
+  #deleteButton {
+    background: none;
+    border: none;
+}
+
+.navbar-text{
+    color: #000000;
+    font-size: x-large;
+} 

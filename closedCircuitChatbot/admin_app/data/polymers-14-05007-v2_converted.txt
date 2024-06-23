@@ -1,0 +1,1900 @@
+polymers
+Review
+Scientific Advancements in Composite Materials for Aircraft
+Applications: A Review
+BismaParveez1,* ,M.I.Kittur2,3,IrfanAnjumBadruddin4,* ,SarfarazKamangar4 ,MohamedHussien5,6
+andM.A.Umarfarooq7
+1 DepartmentofManufacturingandMaterialsEngineering,KulliyyahofEngineering,
+InternationalIslamicUniversityMalaysia,KualaLumpur53100,Malaysia
+2 CentreofAdvancedMaterials,FacultyofEngineering,UniversitiMalaya,KualaLumpur50603,Malaysia
+3 DepartmentofMechanicalEngineering,FacultyofEngineering,UniversitiMalaya,
+KualaLumpur50603,Malaysia
+4 MechanicalEngineeringDepartment,CollegeofEngineering,KingKhalidUniversity,
+Abha61421,SaudiArabia
+5 DepartmentofChemistry,FacultyofScience,KingKhalidUniversity,Abha61413,SaudiArabia
+6 PesticideFormulationDepartment,CentralAgriculturalPesticideLaboratory,AgriculturalResearchCenter,
+Dokki,Giza12618,Egypt
+7 CenterofExcellenceinMaterialScience,SchoolofMechanicalEngineering,KLETechnologicalUniversity,
+Hubballi580031,India
+* Correspondence:mirbisma5555@gmail.com(B.P.);magami.irfan@gmail.com(I.A.B.)
+Abstract:Recentadvancesinaircraftmaterialsandtheirmanufacturingtechnologieshaveenabled
+progressivegrowthininnovativematerialssuchascomposites.Al-based,Mg-based,Ti-basedalloys,
+ceramic-based,andpolymer-basedcompositeshavebeendevelopedfortheaerospaceindustrywith
+outstandingproperties. However,thesematerialsstillhavesomelimitationssuchasinsufficient
+mechanicalproperties,stresscorrosioncracking,frettingwear,andcorrosion.Subsequently,extensive
+Citation:Parveez,B.;Kittur,M.I.;
+studies have been conducted to develop aerospace materials that possess superior mechanical
+Badruddin,I.A.;Kamangar,S.;
+performanceandarecorrosion-resistant.Suchmaterialscanimprovetheperformanceaswellasthe
+Hussien,M.;Umarfarooq,M.A.
+ScientificAdvancementsin lifecyclecost.Thisreviewintroducestherecentadvancementsinthedevelopmentofcompositesfor
+CompositeMaterialsforAircraft aircraftapplications. Thenitfocusesonthestudiesconductedoncompositematerialsdeveloped
+Applications:AReview.Polymers foraircraftstructures,followedbyvariousfabricationtechniquesandthentheirapplicationsinthe
+2022,14,5007. https://doi.org/ aircraftindustry.Finally,itsummarizestheeffortsmadebytheresearcherssofarandthechallenges
+10.3390/polym14225007 facedbythem,followedbythefuturetrendsinaircraftmaterials.
+AcademicEditor:Nektaria-Marianthi
+Keywords: metal matrix composites; aircraft components; ceramic matrix composites; polymer
+Barkoula
+matrixcomposites
+Received:25September2022
+Accepted:27October2022
+Published:18November2022
+Publisher’sNote:MDPIstaysneutral 1. Introduction
+withregardtojurisdictionalclaimsin Theacceleratedgrowthinthemodernaviationindustryhasledtoadvancementsin
+publishedmapsandinstitutionalaffil- aircraftmaterials. Theprimarymotivatorsincludecostreduction,weightreduction,and
+iations.
+theextensionoftheservicelifeofthecomponentsintheaircraftstructures. Theuseof
+lightweightmaterialsimprovesmechanicalpropertiesandfuelefficiency,flightrange,and
+payload,asaresultreducingtheaircraftoperatingcosts. Thus,researchersareworking
+onthedevelopmentofmaterialswithoptimizedpropertiesforweightreduction,fatigue
+Copyright: © 2022 by the authors.
+resistance,corrosionresistance,andenhanceddamagetolerance[1]. Theproperselection
+Licensee MDPI, Basel, Switzerland.
+ofthematerialiscrucialindesigningtheaircraftstructure. Compositematerialshavebeen
+This article is an open access article
+preferredextensivelyforthedevelopmentofseveralmilitaryandcommercialaircraft[2],
+distributed under the terms and
+aswellasforUnmannedAerialVehicle(UAV)[3,4]. Overthelast80years,Al-basedalloys
+conditionsoftheCreativeCommons
+Attribution(CCBY)license(https:// havedominatedaerospacematerials[5]. Thehighspecificdensity,corrosionresistance,
+creativecommons.org/licenses/by/ damagetolerance,andhigh-temperatureresistanceofAlalloysmakethemappealingfor
+4.0/). themanufactureofhigh-performanceaircraftparts. Recentadvancesinthedevelopmentof
+Polymers2022,14,5007.https://doi.org/10.3390/polym14225007 https://www.mdpi.com/journal/polymersPolymers2022,14,5007 2of32
+robustAl-LiandAl–Znalloys,aswellasthedamage-resistantAl-LiandAl–Cualloys,have
+resultedinenhancedfatigueandstaticstrength,fracturetoughness,andcorrosionresis-
+tancebythevirtueofvariationinchemicalcompositionandeffectiveheattreatment[6–9].
+Furthermore,Almetalmatrixcomposites(MMC)aregenerallyconstituentsofAlalloys
+(Al-Si,Al–Cu,Al-Si–Mg)asmatrixmaterialsreinforcedwithSiC,Al O ,C,B,B C,AlN,
+2 3 4
+SiO and BN mostly [10]. Al MMC possesses vital properties such as higher strength,
+2,
+significantwear-resistant,lowerthermalexpansion,andhighspecificmodulus[11].
+ThemagnesiumsheetswhenusedasareplacementforAlandsteelexhibitgreater
+potentialforweightreductiondependingonthestressprofilesinvariousapplications[12].
+Althoughthedensityofmagnesiumisonlyaquarterofsteelortwo-thirdsofAl,thetensile
+strengthof610MPacanbeachievedwithMg-basedalloys[13]. Furthermore,Mg-based
+alloyshaveremarkablestiffnessanddampingcapability. Duetosignificantimprovements
+inthepropertiesofMg-basedalloys,weightreductionandanincreaseinthepayloadfor
+aircrafthavebeenachieved[13,14]. However,theflammabilityandcorrosiveproperties
+ofMg-basedalloyslimittheiruseinaircraft[15]. Titaniumalloyspossesssubstantially
+highstrengthincomparisontoAL.However,basedontheassumptionthatthecomponent
+isnotgagelimited,theweightreductioncanbeattainedbyreplacingaluminumdespite
+being60%highindensity. Athightemperatures,Titanium-basedalloys,whichinclude
+Ti-10V-2Fe-3Al,B120VCA,andTi-6Al-4V,havealowerdensityandhigherstrengththan
+high-strength steels. The main characteristics of various titanium alloys, as well as the
+production routes, were evaluated for their applications in the aerospace industry [16].
+These metal matrix composites are typically strengthened by reinforcing boron, boron
+carbide,boronnitride,carbon,aluminumoxide,siliconcarbide,silicondioxide,andso
+oninthematrix[17]. Furthermore, ceramicmatrixcompositesarecapableofenduring
+highoperatingtemperaturesof1400◦C[18]allowingthemtomeettheincreasingdemand
+foraircraftspeed. Fiber-reinforcedcompositessuchasSiC–SiCandC–SiCarecurrently
+substitutingtheexistingmaterialsincrucialaerospaceapplications[19].
+The development of fiber-reinforced polymer composite materials has resulted in
+significantadvancementintheconstructionoflightweightstructures[20]. Recently,theuse
+ofCFRP(CarbonFiberReinforcedPlastic)inairframesandenginepartshasincreasedto
+reduceaircraftfuelconsumption. Carbonfiber-reinforcedpolymer(CFRP)hasaminimum
+yieldstrengthof550MPa,butitsdensityis1/5ofsteeland3/5ofAl-basedalloys[21].
+Althoughaerospacematerialshavemadesignificantadvances,thereexistsomesignificant
+challengessuchasinadequatestrength,whichisinsufficienttomeettheincreasingdemand
+for lightweight materials. This review aims to discuss the composites developed for
+aircraftmaterials. Thepropertiesofthecomposites,theirfabricationtechniques,andtheir
+applicationsinvariousaircraftstructuresarealsodiscussed. Finally,thechallengesandthe
+futurescopeinthedevelopmentofaircraftmaterialsarepresented,followedbyasummary.
+2. MetalMatrixComposites
+Generally, MMCs are classified based on their matrix material. Some of the most
+commonly used metal substrate configurations for aircraft applications are aluminum
+(Al)-based,magnesium-based,andtitanium-basedcompositesaspresentedinTable1.
+2.1. Aluminum-BasedMMCs
+AluminumMatrixComposites(AMCs)areasophisticatedclassofcompositematerials,
+whereintheAlorAl/Alalloysarereinforcedwithasecondaryhigh-strengthmaterial,for
+instance,ceramicsorfiber-reinforcements(carbonfibers). Thepropertiessuchasstrength,
+stiffness,anddensityofthesematerialscanbetailoredaccordingtotheapplicationswhere
+highperformanceisrequired. AMCshavehigherstrengthandstiffness,canbeoperated
+atahighertemperaturerange,possesssuperiordamagetolerance,betterwearresistance,
+easierrepairability,andcanberecycledeasilyincomparisontounreinforcedmetals. AMCs
+offerassuperiorstrengthassteelwithone-thirdoftheweight.Polymers2022,14,5007 3of32
+Al alloys have been widely used for reducing weight, manufacturing, operating,
+and repairing costs for their structural applications in aircraft [1,22]. However, their
+usage in airframes is growing rapidly. This is evident in commercial aircrafts such as
+Airbus A350XWB, A380, and Boeing 787, also business aircrafts such as Dassault and
+Raytheon. Theusageofthesecompositesisincreasingduetotheirimprovedperformance
+ascomparedtoconventionalAlalloys. Thecompositesnotonlyreducetheweightbutalso
+affectmaintenancecosts[23]. AMCscanbeusedinharshenvironmentswherereliability
+and safety are required, as they possess superior fatigue strength as compared to steel.
+AMCs find application in aircraft landing gear, high-pressure seals, and seats. AMCs
+meetthechallengeofreducingtheweightoflandinggearsignificantlytherebyallowing
+manufacturers to reduce the weight by as much as 30% as compared to conventional
+material[24].
+It was observed that with the addition of SiC and Al O to the Al matrix, there
+2 3
+wasanimprovementinhardness,ultimatetensilestrength,andimpactstrength[25–27].
+Furthermore,Fazluretal.[28]reportedthattheapplicationofthermalbarriercoatingof
+Alumina-Titania,Super-Zalloy,PSZ,ZirconiaToughenedAlumina(ZTA),andAlumina
+via a plasma spraying technique significantly improves thermal and fatigue resistance
+ofAMCs.
+Al7075/TiCisfabricatedusingaliquidmetallurgyprocess. Thefindingsrevealed
+anenhancementinthestrengthandwearresistance,therebyindicatingtheirsuitability
+inaerospaceapplications[29]. Toretainmechanicalstrengthandwithstandvibrations,
+Yanandcoworkersconveyedthatanaturalfrequencyisessentialforaerospaceelectronic
+components[30]. Incomparisonwithexistingalloys,theSiC/Alcompositeshaveahigher
+naturalfrequencyleadingtoahigherlifetimeofthecomponent. TheA356composites
+reinforcedwithAl O ,SiCandGrexhibiteda35%increaseintensilestrengthanda40%
+2 3
+increasetherebymakingthematradeoffforhigh-strengthaircraftstructures[31].
+AlltheseexamplesprovedthatthepropertiesofAlcanbealteredbyusingseveral
+technologiesalongwiththeappropriatereinforcementsinvolumefractionsandthesecan
+substitutetheheavierexistingmaterialsinapplication. Inrecentyears,significantapplica-
+tionofAMCshasbeenreportedinvariousfunctionalandstructuralaircraftapplications.
+Duetotheincreasedprominenceoffuelconsumptionandenvironmentalconcerns,AMCs
+arepresentlymoredesirableinthetransportationsector.
+2.2. Magnesium(Mg)-BasedMMCs
+Theaggressivedemandforlighthigh-performancematerialsispossiblyincreasing
+with the usage of Mg-based metal matrix composites because of their lower densities.
+TheMg-basedalloysMMCs,especiallyMg-Alsystems,areexcellentmaterialsforengi-
+neeringlightweightstructuresformilitaryandcivicaircraftapplications. TheMg–matrix
+composites can be used in aircraft, piston ring grooves, disk rotors, gearbox bearings,
+gears,shiftforks,andconnectingrods. However,theirproductioncostishigherdueto
+their complex manufacturing techniques. To cope with this, the usage of inexpensive
+reinforcementmaterialscanprovideroomtomaneuverthislow-densitymaterialintothe
+market. Duetotheirlightweight,MMCsareobservedasdesirablematerialsforaircraft
+structureswhereinweightreductionistheprincipalfactortobeconsidered. However,for
+efficientuseintheaerospaceindustry,furtherinvestigationsarerequiredtoincreasethe
+mechanicalperformanceofmagnesiumanditsalloys. Toproducecomplexstructureswith
+enhanced mechanical performance, microstructure refining in Mg-based alloys such as
+magnesium-lithium(Mg–Li),magnesium–zinc–zirconium(Mg–Zn–Zr),andmagnesium–
+aluminum-zinc (Mg-Al–Zn) is carried out leading to higher plasticity. Several aircraft
+structuresaremanufacturedusingMgalloysthroughcastingandmachining[32]. Forthe
+operatingtemperatureof250◦C,MgalloyssuchasWE43B,ZE41A,EV31A,andQE22A
+reinforcedwithrareearthmaterialsareproposedforaircraftapplications[33]. Recently,jet
+enginemanufacturershaveutilizedsignificantvolumesofMg-basedalloysinaircraftstruc-
+turesforbothmilitaryandcommercialapplications[14]. MagnesiumalloysmanufacturedPolymers2022,14,5007 4of32
+usingtheprocessofinvestmentcastingprovideenhancedmechanicalperformance[34].
+Furthermore,thereinforcementssuchasB C,Al O ,andSiCareaddedtothematrixto
+4 2 3
+improvethetribologicalandmechanicalpropertiesofmagnesiumalloys[35]. Inaddition,
+bytheprocessofelectroplating,thehardnessofchromium-coatedmagnesiumalloyAZ31
+isincreasedfrom49to53BHN[36]. Anotherapproachtoimprovingtheirperformance
+atelevatedtemperaturesistheincorporationofthermallystablereinforcements. AM60
+andAZ91arepresentlythemostwidelyinvestigatedMg-AlalloysmatrixforMgmatrix
+composites,duetotheirprevalentusageintheautomotiveindustry. Thereinforcements
+suchasceramicsparticlesduetotheirhigherstrengths,hardness,elasticmodulus,thermal
+stability,andlowerdensitiesaremostlypreferredforMg–matrixcomposites. Magnesium
+matrixcompositesreinforcedtitaniumdiborideparticlesresultinginanincreaseinthe
+hardness and compression strength of composites mainly due to the inclusion of hard
+ceramicparticlesanditcanbeconsideredasmostsuitableforaerospaceengineering[37].
+Furthermore,Muhammadetal.[38]analyzedtheimpactofaluminaandSiCreinforcements
+onthemechanicalpropertiesofMgalloy. Thehardnessimprovedwiththeincreaseinthe
+percentageofreinforcement. However,thesereinforcementsexhibitedsomelimitations
+suchaslowercompatibility,lowductility,andwettabilitywiththeMgmatrix.
+2.3. Titanium(Ti)-BasedMMCs
+Titaniummatrixcomposites(TMCs)consistofTialloysasthematrixmaterial. Dueto
+theirexcellentcorrosionresistanceandhighstrengthatelevatedtemperatures. TMCsare
+widelyusedintheaerospace,marine,andautomotiveindustries. Titaniumalloysretain
+their strength at even elevated temperatures as compared to Al, which is beneficial for
+the manufacture of aircraft and missile structures, with higher operating temperatures
+andspeeds. TMCsreinforcedwithfibersaremostlyusedindevelopingaircraftstructures.
+TMCsthathavedemonstratedpropertiessuitableforaerospaceapplicationsmostlyconsist
+oftheconventional(Ti6A12Sn4Zr2Mo,Ti6A14V,andsoon.) andadvanced(TiAl,Ti A1,
+3
+andsoon)Timatrixalloysthatarereinforcedwithcontinuousarraysof30–40%vol. ofSiC.
+Thesefiberspossesshighmodulusandstrength[16].
+TMCsaremainlycategorizedintotwogroupsbasedonthetypeofreinforcements:
+ContinuousanddiscontinuousreinforcedTMCs. ContinuouslyreinforcedTMCswerepro-
+ducedbytheinclusionofSiC-coatedboronfibersasreinforcementscalledBorosicfibers[39].
+Asthesefiberswerecostly,theirusageasreinforcementswasdiscontinuedandreplacedby
+carbonfibersandsiliconfibers[40]. Thebehaviorofthesefiber-reinforcedcompositeshas
+notyetbeenstudiedextensivelyforhigh-performanceapplications[41]. Discontinuously
+reinforcedTMCsexhibitedhigherspecificstiffness,specificstrength,thermalstability,wear
+resistance,andhigh-temperaturestabilityascomparedtotheconventionalTi-alloys. These
+superiorpropertiesincreasetheirapplicabilityintheaerospaceindustry. Severalparticu-
+latesarepreferredasreinforcementsforTMCsthatincludeB C,TiB ZrC,TiB,TiN,Al O
+4 2 2 3,
+SiC,andTiC.AmongtheseTiCandTiB aremostlyused[42]andotherreinforcements
+2
+includingnanoSiC[43],Si N [44],nanoAl O [45],andcarbonnanotubes[46]arealso
+3 4 2 3
+foundintheliterature. Ascomparedtocontinuousfiber-reinforcedTMCs,theproduction
+costofDRTCsislow. Huangetal.[47]revealedthatoneoftheefficientwaystoenhance
+theductility,deformability,andhigh-temperaturestrengthofPM-fabricatedDRTCsisby
+tailoringthereinforcementdistribution. Thisledtoanimprovementintheductilenature
+andenhancedthetensilestrengthatroomandhightemperatures. Moreover,Cuietal.[48]
+fabricatedTiAlalloycompositesreinforcedwithcarbonfiberscoatedwithgrapheneby
+powdermetallurgy,meltspun,andvacuummeltingtechniques. Thefabricatedcomposites
+exhibitedgoodfracturestrain,excellentstrength,andmicrohardnesstherebypredicting
+thisapproachassimplerandmoreadvantageoustofabricatefiber-reinforcedTMCs. Liu
+etal.[49]effectivelydesignedanddevelopedaninsituTi64matrixcompositereinforced
+withTiCparticle,ultrafineTi Si needle,andTi SiC bar. Theresultshowedthedeveloped
+5 3 3 2
+compositesexhibitedgoodductilityandstrengthascomparedtothemonolithicTi64alloy.Polymers2022,14,5007 5of32
+The properties improved mainly as a result of the substantial size of the matrix region,
+hybridandsolidsolutionstrengtheningeffect,andtailorednetworkstructure.
+Furthermore,Kimetal.[50]developedB C-reinforcedtitaniummatrix(TiB+TiC)
+4
+compositesviavacuuminductionmeltingandachievedbetterfrictionandwearbehaviorat
+20%ofreinforcementcontent.Additionally,Anetal.[51]successfullydevelopedinsituTi64
+compositesreinforcedwithTiBbypowdermetallurgicalprocess. Thehardnessandwear
+propertiesareremarkablyenhancedasaresultofTiBadditionforminganetworkboundary
+thatactsasa“barrierwall”andeffectivelyresistedabrasionascomparedtotheTi64alloy.
+In another study, Chaudhari et al. [52] fabricated TiB and TiC-reinforced Ti-4Al-2Fe by
+sparkplasmasintering(SPS).Therewasauniquedistributionofreinforcementswithfine
+needlesofTiBnearthesurface,ultrafineTiContop,andcoarserTiBwhiskerinthebulk.
+TheTiClayeronthesurfaceexhibitedthemaximumhardness. Thus,theseexamplesshow
+thatthespecificwearcharacteristicsoftheDRTCscanbeimprovedbysystematiccontrol
+ofthemicrostructureandvolumefractionofreinforcement. Extensiveresearchworkhas
+beencarriedoutonthetougheningmechanismsofTMCsreinforcedwithfibers[53,54].
+Yanqingetal.[55]studiedtheeffectoftheadditionofSiCfibers(uniaxially)onthefracture
+toughness of the Ti64 alloy. The study revealed that the fracture toughness decreased
+uponheattreatmentasaresultofaninterfacialreactionbetweentheTi64matrixandSiC
+fibers[55]. Thesize(diameter)ofthefiberwasfoundtoaffectthefracturetoughnessof
+metalcomposites[56].
+Table1.Propertiesandapplicationsofmetalmatrixcompositesinaircraft.
+Reinforcement
+MatrixMaterial Properties Application References
+Material
+-High-impactenergy
+Titanium SiC Landinggear [57]
+-Weightreduction(32%)
+Al Cu–Nb, -Improvedhigh-temperaturestrength Engines [58]
+-Light-weight
+Alalloy(LM25) SiC -Optimumperformance Aircraftwing [59]
+-Reducesfuelcosts
+-Lowdensity
+Fueltank(doorpart)
+-Highelasticmodulus
+Alalloy SiC andfans [30]
+-Highthermalconductivity
+(F-16fighteraircraft)
+-Preventabilityofresonancevibration
+Alalloy(AA6061) Activatedcarbon -Goodthermalresistance Engines [60]
+-Creepresistance
+Cu Nb3Sn Engines [61]
+-Stiffness
+2.4. ManufacturingofMMCs
+TheMMCs’manufacturingtechniquesaresimplyestablishedonthestateofthematrix
+in the processing technique such as liquid state processing, solid state processing, and
+gaseousstateprocessing.
+2.4.1. LiquidStateProcessing
+InalloyswithalowmeltingpointsuchasAL/Mg,theliquidstateprocessingtech-
+niqueishighlyconvenientbecauseitcanproduceashapeclosetothemeshatalower
+productioncost. Theparticlesor(short)reinforcingfiberscanbemixedwiththemolten
+matrixbeforecasting,toacquireacompositestructure. Theprocessofstirringisusually
+requiredtosubstantiatethatthesubsequentmaterialislessuneven. Traditionalfoundries
+are employed to form composite ingots, which can be processed into extruded billets
+orrolledbilletsforfurtherprocessing. Continuouscastingproduceslongsemi-finished
+productswithconstantsectionsorbars. TheheterogeneityobtainedasaresultofthesePolymers 2022, 14, x FOR PEER REVIEW 6 of 34
+2.4. Manufacturing of MMCs
+The MMCs’ manufacturing techniques are simply established on the state of the ma-
+trix in the processing technique such as liquid state processing, solid state processing, and
+gaseous state processing.
+2.4.1. Liquid State Processing
+In alloys with a low melting point such as AL/Mg, the liquid state processing tech-
+nique is highly convenient because it can produce a shape close to the mesh at a lower
+production cost. The particles or (short) reinforcing fibers can be mixed with the molten
+matrix before casting, to acquire a composite structure. The process of stirring is usually
+required to substantiate that the subsequent material is less uneven. Traditional foundries
+Polymers2022,14,5007 are employed to form composite ingots, which can be processed into extruded billet6so of3r2
+rolled billets for further processing. Continuous casting produces long semi-finished
+products with constant sections or bars. The heterogeneity obtained as a result of these
+tetecchhnnoollooggiieess iiss aa ccoommmmoonnp prorbolbelmem,h, ohwoewveevr,etrh, itshcias ncbane sboelv seodlvbeydd ebfyo rdmeafotiromnaptiroonce spsrion-g
+coerssginrogu opri nggrooufprienggio onfs rwegiitohnlso wwictohn lcoewn tcroanticoennst.rations.
+SSuunn eet tala. l[.6[26]2 u]suesde dulturlatsroansoicn iccavciatvatiitoanti otno dtoispdeisrpsee rasneda tnrdeatt rceaartbcoanr-bcoonat-ecdoa Nteid naN-i
+nnoapnaorptiaclretisc ilnes minoltmeno lmteangmneasgiunmes ituom matonumfaacntuurfae cftiunreelyfi rneeinlyforreciendf ocrocmedpocsoimtesp owsiitthe suwp ittoh
+4u.9p%t ob4y. 9w%eibgyhtw Neiig. hAtnNoit.hAern omthetehromd euthtiolidzeust illiiqzueisdl imqueitdalm toe tianlftioltriantfiel tarnadte raenindfroericnef othrcee
+ptrheefoprrmef osurmch sausc nhoans-pnroenss-purrees isnufriletriantfiioltnr,a ctioomn,pcreosmsiporne smsioolndimngo,l danindg l,oawn-dprloeswsu-prere isnsfuilr-e
+trinafitilotnra. tTiohne. nTohne-pnroens-spurrees sinufrieltirnafitilotrna tuiotinlizuetsil i5z5e–s5575%– 5o7f% SioCf pSaiCrtipcaler tpicrleefoprrmefos rwmisthw Aitlh aAl-l
+loayll oiynginogtso ptslapcleadce odno tnhtehme mhehaetsa ttshtehmem tot o79709–08–1801 0°C◦C ddepepenedndinign gonon ththe eththicickknneesss soof ftthhee
+ppoowwddeerr bbeedd ooff SSiiCC aanndd eexxppoosseesst hthememt otoa an intriotrgoegneant matomspohspehreerfoe rf2o1r 22h12[ 3h0 ][.3T0h].i sTihsisa icso sat -
+ceofsfte-cetfifveecttievceh nteicqhuneiqfouref afobrr ifcaabtirnicgatliignhgt wligehigtwhteaignhdt haingdh -hciogmh-pcroemsspiornessstiroenn gsttrhecnogmthp coosmite-s
+pfoosritaeesr ofsopr aaceeraopsppaliccea taiopnpslic[6a3ti]o.nSsq u[6e3e]z. eScqausetienzge acsasiltliunsgt raast eidlluinstFraigteudre in1, Fisigaumree t1h, oids oa f
+mperethssoudr eo-fa psrseisstseudrein-afislstirsatetido ninofifltpraartitoicnl eosf oprasrthioclretsfi obre srhsopret rffiobremrse pderthforromugedh tlhiqruouidghm leiqta-l.
+uCido mmpeatarel.d Ctoomtrpaadrietido ntoa ltrinadfiilttiroantiaoln i,niftilhtraastaiosnh, oitr thearsp ar oscheosrstienrg ptrimocee,spsirnogd uticmese,a prreoladtuivceelsy
+ac roemlaptilveexlysh caopmep,alenxd shmaipneim, aanldp morionsiimtyali mpoprroosviteys iwmeptrtaobvielsit wy,egtotaobdilditiym, geonosido ndaimlpernesciiosnioanl ,
+parnedcismioinni,m anizda tmioinniimntiezraftaicoina linretaecrftiaocniasl [r6e4a,6ct5i]o.nCsa [r6b4o,6n5fi].b Cera-rrbeoinnf ofirbceerd-rAeilncfoomrcpeods Aitel scowmit-h
+pboestitteerst owuigthh nbeestst,erh atrodungehsns,esstsr,e hnagrtdhnaensds,b settrteenrgwthet taanbdil ibtyethtearv ewbeetetanbsiulitcyce hssafvuell ybeaecnh iseuvce-d
+byusingthistechnique[66].
+cessfully achieved by using this technique [66].
+FFigiguurree 11. .SScchheemmaatitcic ilillulusstrtraatitoionn oof fssqquueeeezzee ccaasstitningg tetecchhnniqiquuee. .
+2.4.2. Solid-StateProcessing
+2.4.2. Solid-State Processing.
+Thesolid-state-basedprocessesmainlyinvolvepowdermetallurgy(PM).Therein-
+The solid-state-based processes mainly involve powder metallurgy (PM). The rein-
+forcingmaterialintheformoffinepowderisintimatelymixedwiththemetalalloy,then
+forcing material in the form of fine powder is intimately mixed with the metal alloy, then
+cold-pressedfollowedbyhot-pressingorsintering. Duetothegrainandfiberarrange-
+cold-pressed followed by hot-pressing or sintering. Due to the grain and fiber arrange-
+ment, secondary processing (such as forging or extrusion) is usually used to achieve a
+ment, secondary processing (such as forging or extrusion) is usually used to achieve a
+fullycompactcompositematerialwithimprovedproperties. PMcanbeusedtoproduce
+fully compact composite material with improved properties. PM can be used to produce
+discontinuousfiber-reinforcedcompositematerialsthateventuallycontainnanoparticles.
+The benefit of this method is that it can produce parts with a shape close to the web.
+Furthermore, functionallygradedmaterialscanbeobtainedbygraduallyincreasingor
+decreasingthereinforcementvolumeinaspecificareaofthecomponenttobedeveloped.
+Onedisadvantageisthatitisdifficulttocontrolthespreadofreinforcingsteel,resultingin
+fewerreinforcingsteelclustersandareas.
+Thevacuumhotpressing(MCFmethod)wasemployedforproducingSiC-reinforced
+TiMC.Siliconcarbidemonofilaments,140mmindiameter,arecoatedwithTi6Al4Vwitha
+thicknessof50mm,andthenstackedtogetherinhexagonalandsquarearrays. Thefiber
+distributioninMCFwasveryuniform,andthefibervolumefractioncanreachupto80%.
+TheresearchontheMCFmethodmainlyfocusesontheconsolidationbehaviorofMCF,
+tooptimizeprocessingparameters. However,themajorproblemliesintheprocessingof
+highlyactivetitaniumalloyswithreinforcements.Polymers 2022, 14, x FOR PEER REVIEW 7 of 34
+discontinuous fiber-reinforced composite materials that eventually contain nanoparticles.
+The benefit of this method is that it can produce parts with a shape close to the web. Fur-
+thermore, functionally graded materials can be obtained by gradually increasing or de-
+creasing the reinforcement volume in a specific area of the component to be developed.
+One disadvantage is that it is difficult to control the spread of reinforcing steel, resulting
+in fewer reinforcing steel clusters and areas.
+The vacuum hot pressing (MCF method) was employed for producing SiC-rein-
+forced TiMC. Silicon carbide monofilaments, 140 mm in diameter, are coated with
+Ti6Al4V with a thickness of 50 mm, and then stacked together in hexagonal and square
+arrays. The fiber distribution in MCF was very uniform, and the fiber volume fraction can
+reach up to 80%. The research on the MCF method mainly focuses on the consolidation
+Polymers2022,14,5007 behavior of MCF, to optimize processing parameters. However, the major problem lie7so fin32
+the processing of highly active titanium alloys with reinforcements.
+2.4.3. Vapor Deposition
+2.4.3. VaporDeposition
+TThhee ggaasseeoouuss trtreeaatmtmeenntt isis ccaarrrrieiedd oouut tmmaaininlyly uutitliilziziningg pplalasmsmaa spsprarayyiningg, ,susuchch asa smmeteatla-l-
+ccooaatetedd fifibbeersr.s .ThTeh eprporcoecsess iss icshcahraacrtaecrtiezreidze bdyb tyhet hmeamtraixt rdixepdoespitoisointi oonn othne tihnediivniddiuvaidl ufia-l
+bfiebrse rosf otfhteh veavpaopro prhpahsaes. eT.hTeh emmanaunfuafcatcutruer eofo cfocmompposoistiet emmataetreirailasl sisi sccaarrrireiedd oouut tuutitliilziziningg
+hhoot tisiosostsatatitci cpprersessisnign gopoepreartaiotinosn. sT.hTe hPeVPDV cDoactoinagti nogn tohne tmheecmhaencihcaanl iccoaml cpoomnepnotns eonft tshoef
+jetht eenjegtineen gpirneevepnretsv wenetasrw. PeVarD. PcoVaDtincgo ahtainsg hhigahs hhaigrdhnheasrsd anneds sloawnd frliocwtiofnr,i cmtioakni,nmg aitk ianng
+iditeaanl fiudnecatliofunnacl tmioentaall mcoeattailncgo iant itnhge ianetrhoespaaecreo sinpdacuestirnyd. uFslturcyt.uFaltuincgtu taetminpgetreamtupreesr aftruormes
+nferogmativnee gtaetmivpeetreamtupreesr attou rheusntdorheudns dorfe ddsegorfedese gCreelessiuCse rlseiquusirree qmuiertealm ceotaatlincgosa ttihnagts cthanat
+wcaitnhswtainthds teaxntdreemxetr ceomnedictoionndsi.t iPoVnsD. PwVaDs cwhoassecnh obseecnaubseec oauf sites othfeitrsmthale rsmtaablilsittya bainlidty caonr-d
+rcoosriorons iroensisretasnisctea,n mcea,kminagk initg aint aenxceexlcleenllte nchtochicoei cfeorf ofrinfiisnhisinhgin ageareorsopsapcaec emmeteatlasl.s T. hTheremrmaal l
+bbaarrrriieerr ccooaattiinnggssf oforra airicrrcarfatfetn egningeinsehsa vheavbeee bnedeenv deleovpeeldopbeydth beyP tVhDe PteVchDn tiqeuchenaisqsuheo wasn
+sihnoFwignu rine 2F.igure 2.
+FFigiguurree 22. .SScchheemmaatitcic ilillulusstrtraatitoionn oof fpphhyyssicicaal lvvaappoorr ddeeppoossitiitoionn tetecchhnniqiquuee. .
+22.5.5. .AApppplilcicaatitoionnss oof fMMMMCCss inin AAirirccrraaftft CCoommppoonneennttss
+TThhee ccoommpprreehheennssivivee aatttrtribibuutetess aanndd mmaannuufafacctuturirningg ccoosststs oof fMMMMCC vvaarryy ggrreeaattlyly bbaasseedd
+oonn mmaatteerriaial lpprrooppeerrttiieess, ,pprroocceessssiningg mmeetthhooddss, ,aanndd pprroodduucctt qquuaalliittyy.. IInn eennggiinneeeerriningg, ,tthhee
+tytyppeess oof fccoommppoossitiete mmaateterriaialsls uusseedd, ,aanndd ththeeirir aapppplilcicaatitoionnss vvaarryy wwidideelyly, ,aass ddoo ththee pproroppeerrtiteiess
+ththaat tddeeccididee tthheeirir sseelleeccttioionn iinn aapppplliiccaattiioonnss. .FFoor reexxaammpplel,e ,inin ththee aaeerorossppaaccee inindduusstrtyry, ,tthhee
+pprrooppeerrtiteiess susuchch asa slolwow cocsot,s ht,ighhi gwhewldealbdialibtyil,i tayn,da hnidghh isgphecsipfiecc mifiocdmulouds uolfu esxotrfuedxetdru adlue-d
+alumina-reinforcedAlarerequired. MMCsareusedinvariousapplications, including
+mina-reinforced Al are required. MMCs are used in various applications, including aero-
+aerospace due to their unique characteristics as demonstrated in Table 1. Applications
+space due to their unique characteristics as demonstrated in Table 1. Applications include
+includeenginecomponents,brakecomponents,anddriveshafts.Thetransportsectorbeing
+engine components, brake components, and drive shafts. The transport sector being a
+acost-sensitivesectoristheirmajorlimitation. Therefore,byreducingthemanufacturing
+cost-sensitive sector is their major limitation. Therefore, by reducing the manufacturing
+cost of MMC, the traditional components can be replaced by MMC components. The
+applicationofMMCintheaerospaceindustryisduetotheirabilitytoprovideenhanced
+specificstrengthandstiffnesswhichconsiderablyimproveaircraftperformance. MMCs
+areusedprimarilyinmilitaryandcommercialaircraft. Forexample,ontheF16aircraft,the
+aluminumaccessdoorshavebeensubstitutedbyMMCreinforcedwithSiCparticles,thus
+improvingfatiguelife. Duetoitshighfatigueresistance,specificstiffness,andstrength,
+continuousfiber-reinforcedMMChasalsobeenusedinmilitaryapplications. Titanium-
+basedcompositesreinforcedwithSiCmonofilamenthavebeenusedastheF119engine
+nozzleactuatorcontroldeviceintheF16[67].MMCreplacedtheheavierInconel718usedin
+theactuatorrodandthestainlesssteelinthepistonrod[68]. MMCreplacescarbon/epoxy
+compositesthathaveforeignbodydamage(FOD)problems. TheBoeing787wasthefirst
+commercialjetaircraftmadeprimarilyofcompositematerials[69].
+TheBoeing787usesmorecompositematerialsinthemainstructureandfuselagethan
+anypriorBoeingcommercialaircraft,asshowninFigure3[70].TheBoeing787iscomprisedPolymers 2022, 14, x FOR PEER REVIEW 8 of 34
+cost of MMC, the traditional components can be replaced by MMC components. The ap-
+plication of MMC in the aerospace industry is due to their ability to provide enhanced
+specific strength and stiffness which considerably improve aircraft performance. MMCs
+are used primarily in military and commercial aircraft. For example, on the F16 aircraft,
+the aluminum access doors have been substituted by MMC reinforced with SiC particles,
+thus improving fatigue life. Due to its high fatigue resistance, specific stiffness, and
+strength, continuous fiber-reinforced MMC has also been used in military applications.
+Titanium-based composites reinforced with SiC monofilament have been used as the F119
+engine nozzle actuator control device in the F16 [67]. MMC replaced the heavier Inconel
+718 used in the actuator rod and the stainless steel in the piston rod [68]. MMC replaces
+carbon/epoxy composites that have foreign body damage (FOD) problems. The Boeing
+787 was the first commercial jet aircraft made primarily of composite materials [69].
+Polymers2022,14,5007 8of32
+The Boeing 787 uses more composite materials in the main structure and fuselage
+than any prior Boeing commercial aircraft, as shown in Figure 3 [70]. The Boeing 787 is
+comprised of 80% composite material by volume. The material composition is 50% com-
+poofsi8t0e%, 20c%om apluomsiitneumma,t e1r5i%al tbityanvioulumm, 1e0.%Th setemela, taenrdia l5%co motphoers ibtiyo nwiesig5h0t%. Pceormfoprmosiinteg, t2h0e%
+daelsuigmni npuromce,s1s5 w%itthitoaunti upmre,co1n0c%epsttieoenls, aalnlodw5e%d Botoheeinrgb yenwgieniegehrts. toP eidrfeonrtmifyin tghet hbeesdt emsiag-n
+teprrioalcse sfsorw tihthe osuptepcirfeicc oanpcpelpictaiotinosna ollfo twheed enBtoierein agirefnragminee.e Arsst oa irdeesunltti,f yaltmheosbte shtamlf aotfe rthiael s
+fufoserltahgees ipse cciofimcpaopspeldic aotfi ocnarobfotnh efiebnetrir-reeainirfforracmede. pAlassatirce saunldt, aoltmheors tcohmalfpoofsitthee mfuasteelraigales.i s
+Ccoommppaorseedd wofitcha rmboonrefi btreard-rietiinofnoarlc eAdl pdleassitgicnasn, dthoisth merectohmodp ocsainte rmedautecrei atlhs.e Cwoemigphatr ebdyw ainth
+moretraditionalAldesigns,thismethodcanreducetheweightbyanaverageof20%[71].
+average of 20% [71]. Still, there are many reasons to consider the usage of lightweight Al
+Still,therearemanyreasonstoconsidertheusageoflightweightAlcompounds.
+compounds.
+FFigiguurer e3.3 O.Ovevrearlall dldisitsrtirbibuutitoionn oof fcocommppoosistiet emmaateteriraialsl suusesedd inin BBooiningg 778877 aairicrcrraaftf t(R(Reepprrinintetedd//adadapaptetded
+wwitihth pperemrmisissisoionn frforomm RReef.f .[7[700])].) .
+3. CeramicsMatrixComposites
+3. Ceramics Matrix Composites
+Ceramic matrix composites (CMC) have been proposed for aircraft structures that
+Ceramic matrix composites (CMC) have been proposed for aircraft structures that
+require high strength and fracture toughness. In addition, they are characterized by
+require high strength and fracture toughness. In addition, they are characterized by light-
+lightweight, low thermal expansion, high temperature, and oxidation resistance, and
+weight, low thermal expansion, high temperature, and oxidation resistance, and re-
+resistancetocatastrophicfailure. Comparedwithtraditionalengineeringmaterialssuchas
+sistance to catastrophic failure. Compared with traditional engineering materials such as
+metals,CMCsaremuchmoreresistanttoaggressiveenvironmentsandhightemperatures.
+metals, CMCs are much more resistant to aggressive environments and high tempera-
+InCMCs,theceramicformsthematrixmaterial,generallyatechnicalceramic,whichis
+tures. In CMCs, the ceramic forms the matrix material, generally a technical ceramic,
+manufacturedbyarelativelycomplexprocessfromrawmaterialswithsmallparticlesize
+which is manufactured by a relatively complex process from raw materials with small
+(micronornanometer),highpurity,andgoodmechanical,thermal,andelectricalresistance.
+particle size (micron or nanometer), high purity, and good mechanical, thermal, and elec-
+Ceramics usually form mixed chemical bonds between ionic and covalent. They have
+trical resistance. Ceramics usually form mixed chemical bonds between ionic and cova-
+highhardness,chemicalstability,lowdensity,andfireresistance(thatis,theymaintain
+lent. They have high hardness, chemical stability, low density, and fire resistance (that is,
+mechanicalstrengthathightemperatures). Table2showsthepropertiesandcompositions
+they maintain mechanical strength at high temperatures). Table 2 shows the properties
+ofvariousCMCsusedinaircraft.
+and compositions of various CMCs used in aircraft.
+Ta ble2.PropertiesandapplicationsofCMCsinaircraft.
+Composites Matrix Reinforcement Properties Application Ref.
+-Hypersonic
+ZrB 2or
+ZrB or -Highoxidationresistance flight(rocket
+HfB 2/SiCor Hf2 B SiCorAl 2O 3 (2000◦Candabove) propulsionand [72]
+Al O 2
+2 3 atmosphericre-entry)
+ZrB /SiC -Goodfracturetoughness
+2 SiCchoppedfiber -High-temperature
+(Whiskeror ZrB -Highroom-temperaturestrength [73]
+2 orSiCwhisker components
+choppedfiber) -High-temperaturestrength
+-Highperformance
+-Reducednoise -Subsonicjetengines
+Oxide/oxide Oxide Oxide [74]
+-Durability (exhaustmixernozzle)
+-WeightreductionPolymers2022,14,5007 9of32
+Table2.Cont.
+Composites Matrix Reinforcement Properties Application Ref.
+-Lightweight
+-Hightemperature
+-Aircraftcompressor,
+-Lightweight
+Glass-ceramic Ceramic Glass combustor,and [75]
+-Betterperformance
+turbine
+-Reducedthrust-specificfuel
+consumption
+C/SiC SiC Carbonfiber -Bettertribologicalproperties -Aircraftbrakes [76,77]
+-Bendingstrength
+C/SiC SiC Carbonfiber -Turbineblades [78]
+-Fracturetoughness
+-Withstandtemperaturesupto
+C/SiC SiC Carbonfiber 1200◦C -Aircraftbrakes [79]
+-Weightreduction
+-Improvedretardation
+-Wearresistance -Aircraftbrake(disks
+SiC SiC Carbonfiber [80]
+-Improvedcarrierloadand androtors)
+availability
+-Reductioninmaintenancecost
+-Structuralre-entry
+components
+-Goodthermo-erosiveproperties -High-performance
+(upto2000◦C) heatshields
+C/SiC SiC Carbonfiber [81]
+-Highoxidationresistance -Brakediscs
+-Highstrength-to-weightratio -Rocketnozzles
+-High-temperature
+heatexchangertubes
+-Averagelinearandmass
+erosionrate
+-Excellentresistanceto
+thermo-oxidativeerosion
+-Erosionresistance
+C–SiC SiC Carbonfiber -Jetvanes [82]
+-Highthermalconductivity
+-Goodstrength
+-LowCTE
+-Excellentthermalshock
+resistance
+-Lightweight
+-Lowdensity -Aircraftbrake
+C/SiC SiC Carbonfiber -Highandstablecoefficientof systems(brakepads [83]
+friction anddisks)
+-Highwearresistance
+-Goodthermalandmechanical
+C/SiC SiC Carbonfiber properties -Aircraftbrakes [84]
+-HigherFrictioncoefficients
+-Enginecombustor
+SiC/SiC
+SiC Carbonfiber -Highfracturestrength (rigandinnerand [85]
+(CERASEPâA373)
+outerliners)
+-Outerflaps
+SiC/C(SEP-
+SiC -Goodspecificstrength (RafaleFighterM88 [85]
+CARBINOXA262)
+engineA262)
+SNECMAM88-2
+-Weightreduction(50%)as engine
+SiC/Carbonfiber
+SiC comparedtosuperalloyflap (Flame-holders,engine [86]
+(C)
+(Inconel718) flaps,andexhaust
+cones)Polymers2022,14,5007 10of32
+InCMC,the“reinforcingphase”canbefibers, whiskers, andcontinuousparticles.
+ThecharacteristicsoftheresultantCMCsaredeterminedbythevolumefraction,distri-
+bution frequency, size, orientation, and geometry of the reinforcement phase. Current
+CMCapplicationsincludeaerospacestructures,high-temperaturetrim,faceplates,internal
+combustionengines,andturbinesasmentionedinTable2. CMCisnowbeingintroduced
+into many new areas, the production cost is significantly reduced, and its application
+range will be expanded. There is a great need to develop cost-effective SiC fibers to
+promoteCMCapplicationswherecostplaysasignificantrole. Theaircraftbrakeshave
+transitionedfromorganicmaterials(suchasnon-asbestosorganicbrakematerials, and
+asbestosfiber-reinforcedresin-basedcomposites)topowdermetallurgymaterials(suchas
+ironandcopper-basedmetals)andcarbon/compositematerialscarbon(carbonbrakes)as
+demonstratedinTable3.
+Table3.Carbonfiber-reinforcedcarboncompositesforaircraftapplications.
+Composites Properties Application Reference
+-Lightweight(40%)
+-Goodthermalshockresistance Boeing767–300
+Carbon/Carboncomposites -Goodtribologicalproperties -Aircraftbrakes [87]
+-Highheatcapacity(2.5steel) (brakedisc)
+-Highstrength(2steel)
+Rocketnozzles(throatand
+Carbon/Carboncomposites -Lightweightascomparedtophenolicnozzle [88]
+exitcones)
+-Smallersizebrakesystems
+C/C-SiC
+-Highcoefficientsoffriction
+(SiCinfiltratedC/C -Emergencybrakesystems [89]
+-Highertransmittedbrakingpower
+composites) -Lowwearrates(attemperaturesabove1000◦C)
+-Microporous
+C/C-SiC -Highthermalshockresistance
+(SiCinfiltratedC/C -Corrosionresistance -Coatedpipes [90,91]
+composites) -Goodsealingagentforthepressurizedpipes
+-Oxidationresistanceathightemperatures
+Figure4showscarbon-carboncomposites(unidirectionallyreinforced)withdifferent
+fiberorientationsforaerospaceapplications[92]. AsshowninTable3,theyhaveexcellent
+high-temperature,mechanical,andthermalperformance,socarbonbrakescancopewith
+thelow-temperatureperformanceoftraditionalbrakes. Furthermore,comparedtosteel
+brakes,carbonbrakessignificantlyreducetheweightofthebrakesystem,whichcontributes
+directlytoreducingfuelconsumptionrelatedtoengineemissions. Thebrakesystemonthe
+Boeing737NGismadeofcarbonandis300kglighterthanthesteelbrakes[93]. C/SiC
+compositebrakesovercometheseshortcomingswhileretainingtheadvantagesofcarbon
+brakes,asshowninTable3. Thesebrakespossessremarkablepropertiessuchaslonglife
+andlowsensitivitytofriction,highfrictioncoefficientandstability,andlowoxidation[94].
+C/SiC brake materials have become the focus of attention as the fourth generation of
+aircraftbrakematerials. C/SiCbrakesexhibitsomeexcellentfrictionproperties,suchas
+ahighstaticfrictioncoefficient, lowersensitivitytowetconditions, lowwearrate, and
+higherbrakingefficiency.
+Asthethrust-to-weightratioofanaircraftengineincreases,theheatflowandimpact
+load on the high-temperature components such as nozzles, combustion chambers, and
+turbinecomponentsbecomemoresevere. Forexample,whenthethrust-to-weightratiois
+10,theturbineinlettemperaturereaches1500◦Candtheturbineinlettemperaturecanrise
+to1800◦Cifthethrust-to-weightratiofurtherincreases[95]. Continuousfiber-reinforced
+ceramicmatrixcomposites(CFRCCMC),suchassiliconcarbidefiber-reinforcedceramic
+matrixcomposites(SiC/SiCCMC)andcarbonfiberreinforcedceramicmatrixcomposites
+(C/SiCCMC),havelowdensitiesrangingfrom2–3g/cm3,high-temperatureresistancePolymers 2022, 14, x FOR PEER REVIEW 11 of 34
+-Low wear rates (at temperatures above 1000 °C)
+-Microporous
+C/C-SiC -High thermal shock resistance
+(SiC infiltrated C/C com- -Corrosion resistance -Coated pipes [90,91]
+posites) -Good sealing agent for the pressurized pipes
+-Oxidation resistance at high temperatures
+Figure 4 shows carbon-carbon composites (unidirectionally reinforced) with differ-
+Polymers2022,14,5007 ent fiber orientations for aerospace applications [92]. As shown in Table 3, they ha1v1eo fe3x2-
+cellent high-temperature, mechanical, and thermal performance, so carbon brakes can
+cope with the low-temperature performance of traditional brakes. Furthermore, com-
+upparteod1 t6o0 0st◦eCel, barnadk,eas,s ccaormbopna rberdaktoesm siognnoifliicthanictlcye rraemduiccse, thhieg hweerigfrhatc otuf rteheto burgahkne essyss[te9m6].,
+Twhheircehfo croen,tCriFbRuCtesC dMirCecitslyc toon rseiddeurceidnga fuperol mcoinsisnugmmptaiotenr iraellathteadt tmo eeentgsitnhee ermeqisusiiroenms.e Tnhtse
+obfraakeero s-yesntgemin eonh othtes eBcoteioinng c7o3m7 pNoGn eins tms.adIet coaf ncairnbcornea asnedt hise 3o0p0 ekrga tliingghtteerm thpaenr athtuer seteteol
+2b0r0a–k3e5s0 [9◦3C],. Cth/eSriCeb cyomrepdousciitneg broarkeevs eonverrecpolmacei nthgetshee shcooortlcinomg isntrgusc wtuhriel.e rAetdadinitiinogn tahlley ,adit-
+evfafencttaivgeelsy oifm cparrobvoens bthraekreesl,i aabsi lsihtyowofna einro T-eanbglei n3e. sT[h9e7s,9e8 b].raCkFeRs CpoCsMseCssh raesmbaereknaublsee dprionpthere-
+ntioezsz sleusc,hc oams lbounsgti olinfec ahnadm lboewrs ,steunrsbitiinveitsyt attoo rfsr,icatniodno, thhiegrhh foritcsteiocnti ocnosefofficaieernot- eanngdi nsteasbsiulictyh,
+aasnMd 8lo8w2, Fo1x0id0PatWio2n2 9[9,4C]F. MC/5S6iC5B b,rFa1k3e5 ,mGaEtnerxi,aLlsE hAaPvXe. bCeFcRomC.eC tMheC fomcauns uoffa cattuternintgiotne cahsn tohle-
+ofoguyritshc goennsiedrearteiodnt oofb aeirtchrealfet abdriankge immaptreorviaelms. eCn/tSoiCfa berraok-eens geixnheibhiott s-soemgme eexncteclolemnpt ofrnicetniotsn,
+sporoitpiesrhtiiegsh, lsyuvcha luase da bhyigdhe vstealtoicp efdricctoiounn tcroieesffaicniednrte, gloiownesrs suecnhsiatsivEituyr otop ew,eAt mcoenridciatiaonnds,
+Rlouwss iwae[a9r9 ]r.ate, and higher braking efficiency.
+FFiigguurree 44.. SScchheemmaattiicc iilllluussttrraattiioonn ooffb brraakkeed diissccssi nint htheea airirccrraaftftl alannddininggg geeaarsrsm maaddeew witihthC C//CC mmaatteerriiaall
+((RReepprriinntteedd//aaddaapptteedd wwiitthh ppeerrmmiissssiioonn ffrroomm RReeff.. [[9922]].. 22000088,, EEllsseevviieerr))..
+3.1. MAasn tuhfaec tthurruinsgt-otof-CwMeCigsht ratio of an aircraft engine increases, the heat flow and impact
+loadS oenv etrhael mhiegthh-otdemscpaenrabteurues ecdomtoppornoecnestss CsuMchC avsi anloiqzuzlieds,,s coolimd,bourstgiaosne ocuhsamprbeecrusr, saonrsd.
+Dtuerpbeinnde icnogmopnotnheendtsif bfeerceonmcee imnothree sceoveeffirec.i eFnotro efxtahmerpmlea,l wexhpeann tshieo nth,rteunsst-itloe-swtreeisgshits rgaetnioe ris-
+a1t0e,d thine tthuerbminaet riinxleatr oteumndpetrhaeturerein rfeoarccihnegs m15a0t0e r°iCal athnadt tshuep tpurrebsisnees idnelnets itfiecmaptieorna.tuDrue ectaon
+trhisise, ttoh e1q80u0a n°Ctit yif othfere tihnrfoursct-etmo-ewnetiigshgte rnaetrioal lfyurktehpetr binelcorweas4e0s% [9b5y].v Coolunmtineu[1o0u0s] .fiber-rein-
+forced ceramic matrix composites (CFRC CMC), such as silicon carbide fiber-reinforced
+3.1.1. ReactionSinteringProcess
+ceramic matrix composites (SiC/SiC CMC) and carbon fiber reinforced ceramic matrix
+compTohseitreesa c(Cti/oSniCs inCtMerCin)g, hparvoec elsoswi sdeemnspiltoieyse rdanfogrinthge frpormod 2u–c3ti ogn/cmof3C, hMigCh-[t1e0m1]p.eIrnatthuirse
+prreoscisetsasn,cthe eucpe troa m16ic00p °aCrt,i calneds,f oasr icnosmtapnacreewd htoe nmcoanrobloitnhfiicb ceerrsaamreicasd, dhiegdhteor Sfri,aicntufirlter atoteusgaht-
+lnoewssp r[e9s6s]u. rTehaenrdefaotrteh, eCteFmRCpe rCaMtuCre oisf 1c7o0n0si◦ dCertoedp rao dpurcoemliiqsuinidg smiliactoenriraels uthltaint gmineeatsr etahce-
+tionbetweenSiandcarbontoformathinmatrix,resultingintoexcellentthermochemical
+compatibilitybetweenreinforcementandmatrix[101,102]. Usingthistechnology,TiB SiC
+2
+ceramicsreinforcedwithmulti-walledcarbonnanotubes(MWCNT)weredevelopedand
+thethermalshockresistanceofthematerialimprovedsignificantly[103].
+3.1.2. LiquidInfiltrationMethod
+Theliquidinfiltrationmethodissimilartothetechnologyusedformetalorpolymer
+infiltration. The pre-formed reinforcement phase is penetrated by the liquid or matrix
+precursorsuspensionundervacuumorexternalpressurebycapillaryaction. Forexample,
+glassmatrixcompositesaredevelopedbythistechnique,whichcontainsvariousfibers
+(SiC, C, Al O and mullite) that are extracted with molten glass in a crucible. Other
+2 3,Polymers 2022, 14, x FOR PEER REVIEW 12 of 34
+requirements of aero-engine hot section components. It can increase the operating tem-
+perature to 200–350 °C, thereby reducing or even replacing the cooling structure. Addi-
+tionally, it effectively improves the reliability of aero-engines [97,98]. CFRC CMC has been
+used in the nozzles, combustion chambers, turbine stators, and other hot sections of aero-
+engines such as M882, F100PW229, CFM565B, F135, GEnx, LEAPX. CFRC. CMC manu-
+facturing technology is considered to be the leading improvement of aero-engine hot-seg-
+ment components, so it is highly valued by developed countries and regions such as Eu-
+rope, America and Russia [99].
+3.1. Manufacturing of CMCs
+Several methods can be used to process CMC via liquid, solid, or gaseous precursors.
+Depending on the difference in the coefficient of thermal expansion, tensile stress is gen-
+erated in the matrix around the reinforcing material that suppresses densification. Due to
+this, the quantity of reinforcement is generally kept below 40% by volume [100].
+3.1.1. Reaction Sintering Process
+The reaction sintering process is employed for the production of CMC [101]. In this
+process, the ceramic particles for instance when carbon fibers are added to Si, infiltrates
+at low pressure and at the temperature of 1700 °C to produce liquid silicon resulting in a
+reaction between Si and carbon to form a thin matrix, resulting into excellent thermochem-
+ical compatibility between reinforcement and matrix [101,102]. Using this technology,
+TiB2SiC ceramics reinforced with multi-walled carbon nanotubes (MWCNT) were devel-
+oped and the thermal shock resistance of the material improved significantly [103].
+3.1.2. Liquid Infiltration Method
+The liquid infiltration method is similar to the technology used for metal or polymer
+infiltration. The pre-formed reinforcement phase is penetrated by the liquid or matrix pre-
+Polymers2022,14,5007 cursor suspension under vacuum or external pressure by capillary action. For exa1m2pofle3,2
+glass matrix composites are developed by this technique, which contains various fibers
+(SiC, C, Al2O3, and mullite) that are extracted with molten glass in a crucible. Other mate-
+rmiaalste arirael sthaoreseth porsoedpurcoeddu cbeyd tbhye tihnefiilntrfialttiroanti oonf ohfyhdyrodcraorcbaorbnosn (sp(iptcihtc horo rpphhenenoolilci crreessinin)) oorr
+oorrggaannoommeettaalllliicc ppoollyymmeerrss,, wwhhiicchh aarree ssuubbsseeqquueennttllyy ppyyrroollyyzzeedd ttoo pprroodduuccee SSiiCC aanndd aa ccaarrbboonn
+mmaattrriixx,, rreessppeeccttiivveellyy.. FFiigguurree 55 sshhoowwss tthhee pprroocceessss ooff ddiirreecctt ooxxiiddaattiioonn rreeqquuiirreedd ffoorr ccoommpplleettee
+ddeennssiiffiiccaattiioonn..
+Figure5.Schematicillustrationofthedirectoxidationprocess.
+Figure 5. Schematic illustration of the direct oxidation process.
+3.1.3. Sol-GelProcess
+3.1.3. Sol-Gel Process
+Thesol-gelprocessinvolvesalowprocessingtemperatureandhighcompositional
+The sol-gel process involves a low processing temperature and high compositional
+uniformity. Initially, when nano-sized particles with a radius of up to 100 nm (such as
+uniformity. Initially, when nano-sized particles with a radius of up to 100 nm (such as
+ceramic particles) are precipitated in a liquid (water or organic solvent), the colloidal
+ceramic particles) are precipitated in a liquid (water or organic solvent), the colloidal
+suspensionisformedbecauseofthechemicalreaction. Theseliquidsolseasilypenetrate
+theperformduetotheirlowviscosity. Polymerizationturnsthesolintoagel. Thegelcan
+becomeceramicatarelativelylowtemperature,therebyreducingthepossibilityofdamage
+tothereinforcingfibers. Sincetheceramiccontentinthegelisrelativelylow,itwillshrink
+significantlyafterdrying. Thedensificationoftheceramicmatrixisusuallyincreasedby
+repeatedinfiltrationanddryingcyclesuntilthedesireddensityisreached. Thevolumetric
+performance of sol-gel ceramics can be further improved by adding ceramic particles.
+Theseparticlesalsoreducetheformationofcracksduringthedryingphase. However,the
+differenceinshrinkagebetweenthesteelbarandthebaseislarge,whichcanleadtocracks.
+Finally,thehigh-temperatureself-propagatingsynthesis(SHS)technology,whichismainly
+usedtomakeporousrefractories,canbeusedtoproduceCMCasSiC(whisker)andAl O .
+2 3
+Thepressureisappliedshortlyafterorduringtheexothermicreactioninsidethematrixto
+densifythematerial[104].
+3.1.4. ChemicalVaporInfiltration(CVI)
+ChemicalVaporInfiltration(CVI),asillustratedinFigure6, isaprocessinvolving
+lowerprocessingtemperaturesthanliquidinfiltration,therebyavoidingfiberdegradation.
+However,theairflowinthepreformcancauseporeocclusion,requiringmultipleimpreg-
+nationandprocessingcyclestocompletelyclosethepores. CVIwasoriginallyusedto
+makecarbon/carboncompositesthroughthepyrolysisofCH4at1000–2000◦C.CVIof
+fiberpreformsisamethodusedinCMC,thematrixofwhichisSiC,Si N ,C,B C,TiC,and
+3 4 4
+Al O ,aswellasNicalon(SiC)andNextel(atypeofAl O )reinforcementmaterials. CVI
+2 3 2 3
+isanextensionofCVDtechnology. WhenCVDisemployedtoincorporateaconsiderable
+amountofmatrixmaterialintothefiberpreform,itiscalledchemicalvaporinfiltrationor
+infiltration. TheCVIprocesshasbeenmodifiedasmicrowave-enhancedCVI(MECVI)and
+twoalternativepre-filtrationsteps,vacuumbagging,andelectrophoreticinfiltration,tore-
+ducethetimeoftheCVIprocessandreducethecostofthisusuallyexpensiveprocess. The
+systemstudiedisbasedonsiliconcarbidefibersinasiliconcarbidematrix(SiC/SiC).The
+vacuumbagging(VB)allowsabetterwayofbondingthematrixparticlestotheintertow
+region. WhenSiCoflargerparticlesizeisused,thereisareductionininfiltrationofthe
+intratowregion.Polymers 2022, 14, x FOR PEER REVIEW 13 of 34
+suspension is formed because of the chemical reaction. These liquid sols easily penetrate
+the perform due to their low viscosity. Polymerization turns the sol into a gel. The gel can
+become ceramic at a relatively low temperature, thereby reducing the possibility of dam-
+age to the reinforcing fibers. Since the ceramic content in the gel is relatively low, it will
+shrink significantly after drying. The densification of the ceramic matrix is usually in-
+creased by repeated infiltration and drying cycles until the desired density is reached. The
+volumetric performance of sol-gel ceramics can be further improved by adding ceramic
+particles. These particles also reduce the formation of cracks during the drying phase.
+However, the difference in shrinkage between the steel bar and the base is large, which
+can lead to cracks. Finally, the high-temperature self-propagating synthesis (SHS) tech-
+nology, which is mainly used to make porous refractories, can be used to produce CMC
+as SiC (whisker) and Al2O3. The pressure is applied shortly after or during the exothermic
+reaction inside the matrix to densify the material [104].
+3.1.4. Chemical Vapor Infiltration (CVI)
+Chemical Vapor Infiltration (CVI), as illustrated in Figure 6, is a process involving
+lower processing temperatures than liquid infiltration, thereby avoiding fiber degrada-
+tion. However, the airflow in the preform can cause pore occlusion, requiring multiple
+impregnation and processing cycles to completely close the pores. CVI was originally
+used to make carbon/carbon composites through the pyrolysis of CH4 at 1000–2000 °C.
+CVI of fiber preforms is a method used in CMC, the matrix of which is SiC, Si3N4, C, B4C,
+TiC, and Al2O3, as well as Nicalon (SiC) and Nextel (a type of Al2O3) reinforcement mate-
+rials. CVI is an extension of CVD technology. When CVD is employed to incorporate a
+considerable amount of matrix material into the fiber preform, it is called chemical vapor
+infiltration or infiltration. The CVI process has been modified as microwave-enhanced
+CVI (MECVI) and two alternative pre-filtration steps, vacuum bagging, and electropho-
+retic infiltration, to reduce the time of the CVI process and reduce the cost of this usually
+expensive process. The system studied is based on silicon carbide fibers in a silicon carbide
+matrix (SiC/SiC). The vacuum bagging (VB) allows a better way of bonding the matrix
+Polymers2022,14,5007 particles to the intertow region. When SiC of larger particle size is used, there is a re1d3uofc3-2
+tion in infiltration of the intratow region.
+Figure6.Schematicillustrationofchemicalvaporinfiltrationprocess.
+Figure 6. Schematic illustration of chemical vapor infiltration process.
+3.2. ApplicationsofCMCsinAircraftComponents
+3.2. Applications of CMCs in Aircraft Components
+Althoughmanymonolithicceramicmaterialsexhibitinherentproperties,themain
+Although many monolithic ceramic materials exhibit inherent properties, the main
+problemsassociatedwiththeiruseinaircraftenginesaretheirsensitivitytodefectsand
+problems associated with their use in aircraft engines are their sensitivity to defects and
+their brittle fracture mode. Continuous fiber CMCs are a class of interesting material
+because(i)theyhavehigh-temperatureperformancecomparedtosuperalloys;(ii)ascom-
+paredwithmonolithicceramics,CMCspossessahigherfracturetoughnessandcanbeused
+wherestructuralintegrityismorenecessary. Therefore,CMCshavegreatpotentialtomeet
+thegeneralrequirementsoftheseaircraftengines. Theycanachievehighermaterialtem-
+peratures,theintroductionofthermalbarriercoating(TBC),andair-cooledsheetsthereby
+discardingtheusageofcoolingairtoimprovetheperformance. Ofcourse,tosuccessfully
+implementCMCsinaero-engines,theoverallbenefitsofthesystemmustbeconsidered.
+In addition, CMCs can significantly reduce weight, thus their T potential applications
+includenon-structuralandstructuralcomponentsofaircraftenginecomponents(referto
+enginelayout)[105]. Table2showsthevariousceramicmatrixcompositesusedinvarious
+aircraftapplications.
+3.2.1. TurbineBlades
+The materials withstanding elevated temperature are especially required for gas
+turbinebladesasshowninFigure7. Carbon/carbon(CC)compositeturbinebladesretain
+the strength at about 1050 ◦C of the turbine exhaust gases and are very light in nature.
+These characteristics make the aircraft possible to achieve speeds of Mach 10 [106]. In
+contrast,titanium-basedcompositescanonlyreachMach3.8(workingtemperature450◦C).
+Takingintoaccountthespecifictensilestrength(s/r)ofCCcompoundsmadeofalternating
+layersofcarbonblanketsandunidirectionalfiberscanreach160MPa/gcm3 at2000◦C,
+whilethespecificstrengthtensilestrengthoftraditionalceramicsreaches40MPa/gcm3up
+to1200◦C[107]. SiC/Al O orSiC(fiber)/Si N CMCasasubstituteforC/Ccomposite
+2 3 3 4
+materialsexhibitspoorperformance(60MPa/gcm3). Inaddition,theSiC-coatedcarbon
+fibercompositesinacarbonmatrixarethehigh-performancematerialsthatarepreferred
+intheaerospaceindustryasmentionedinTable2. Thehigh-performanceoxidecomposite
+(HIPOC)waslaunchedin2009andfocusedonthedevelopmentofseveraloxide-based
+CMCsforhotsegmentapplicationsinaircraftturbinesorgroundengines[107].Polymers 2022, 14, x FOR PEER REVIEW 14 of 34
+their brittle fracture mode. Continuous fiber CMCs are a class of interesting material be-
+cause (i) they have high-temperature performance compared to superalloys; (ii) as com-
+pared with monolithic ceramics, CMCs possess a higher fracture toughness and can be
+used where structural integrity is more necessary. Therefore, CMCs have great potential
+to meet the general requirements of these aircraft engines. They can achieve higher mate-
+rial temperatures, the introduction of thermal barrier coating (TBC), and air-cooled sheets
+thereby discarding the usage of cooling air to improve the performance. Of course, to suc-
+cessfully implement CMCs in aero-engines, the overall benefits of the system must be
+considered. In addition, CMCs can significantly reduce weight, thus their T potential ap-
+plications include non-structural and structural components of aircraft engine compo-
+nents (refer to engine layout) [105]. Table 2 shows the various ceramic matrix composites
+used in various aircraft applications.
+3.2.1. Turbine Blades
+The materials withstanding elevated temperature are especially required for gas tur-
+bine blades as shown in Figure 7. Carbon/carbon (CC) composite turbine blades retain the
+strength at about 1050 °C of the turbine exhaust gases and are very light in nature. These
+characteristics make the aircraft possible to achieve speeds of Mach 10 [106]. In contrast,
+titanium-based composites can only reach Mach 3.8 (working temperature 450 °C). Taking
+into account the specific tensile strength (s/r) of CC compounds made of alternating layers
+of carbon blankets and unidirectional fibers can reach 160 MPa/g cm3 at 2000 °C, while the
+specific strength tensile strength of traditional ceramics reaches 40 MPa/g cm3 up to 1200
+°C [107]. SiC/Al2O3 or SiC (fiber)/Si3N4 CMC as a substitute for C/C composite materials
+exhibits poor performance (60 MPa/g cm3). In addition, the SiC-coated carbon fiber com-
+posites in a carbon matrix are the high-performance materials that are preferred in the
+aerospace industry as mentioned in Table 2. The high-performance oxide composite
+Polymers2022,14,5007 (HIPOC) was launched in 2009 and focused on the development of several oxide-b1a4soefd3 2
+CMCs for hot segment applications in aircraft turbines or ground engines [107].
+FiFgiugruer e7.7 C.rCorsoss ssescetciotino nofo af gaagsa tsutrubrinbein sehsohwoiwngin cgocmopmopnoennetsn mtsamdae doef oCfMCCMs C(Rse(pRreipnrteindt/eadd/aapdteadp ted
+wwithit hpepremrmisissisoino nfrformom RRefe.f [.1[0180]8.] 2.021061,6 E,Elslesveiveire)r ).
+3.2.2. BrakingSystem
+3.2.2. Braking System
+Thebrakingsystemiscurrentlyanimportantfieldintheautomotiveandaviation
+The braking system is currently an important field in the automotive and aviation
+industries. Onactivation,thebrakerespondstohydraulicpressurethroughthedisc(rotor
+industries. On activation, the brake responds to hydraulic pressure through the disc (rotor
+andstator)andthefrictiongeneratedcausesthesurfacetemperatureofthecomponent
+and stator) and the friction generated causes the surface temperature of the component
+volumetoreach3000◦Cand1500◦C.C/Ccompositesascomparedtotraditionalsystems
+volume to reach 3000 °C and 1500 °C. C/C composites as compared to traditional systems
+(high-strengthsteelandsinteredmetal)resultinsignificantweightreduction. Byapplying
+(high-strength steel and sintered metal) result in significant weight reduction. By applying
+this material to the braking system of commercial aircraft, the economic weight can be
+this material to the braking system of commercial aircraft, the economic weight can be
+reducedfrom1100to700kg. Therefore,itnotonlyimprovesthepropertiesofthematerials,
+reduced from 1100 to 700 kg. Therefore, it not only improves the properties of the
+suchasresistanceorenvironmentalstability,butalsothereproducibilityandreliabilityof
+theprocess,aswellasthereductioninfabricationcosts[107].
+3.2.3. Blisks(BladeDiscs)
+Thedesignofblisks(rotatingparts)isstronglydrivenbyaforce/densityratiothat
+is different from that of static components. Lightweight blisks eliminate extra weight,
+reducingaxleloads,bearingchamberloads,etc. Theseseriesofeffectscanbringmuch
+greatersystembenefitsthantheCMCapplicationalone. Themaximumtensilestrength
+at room temperature is almost 500 MPa. Three-dimensional woven fabric discs using
+continuousTyrannoeSi-Ti-C-O(LOXMgrade)aredensifiedbyusingcombinedtechniques
+ofchemicalvaporinfiltration(CVI)andpolymerimpregnationandpyrolysis(PIP).
+3.2.4. ExhaustNozzle
+SeveralcompaniesareevaluatingtheuseofCMCOx-oxide(Ox/Ox)-basedexhaust
+nozzlestoimprovecomponentdurabilityinsubsonicjetengines(comparedtotitanium)
+andavoidtheweightincreaseassociatedwiththeuseofhighermetalalloys. Boeingis
+developingNextel610/aluminosilicatecompositeacousticcoresandexhaustnozzlesfor
+commercialaircraft. GEAviationhasinvestedheavilyinOx/Oxcompounds,andOx/Ox
+materialwasinitiallyusedasthedivergentexhaustsealoftheF414engine[109]. Arust
+CMCexhaustgroundtestdemonstratorwasusedforfuturelarge-scaleciviltransportation
+(High-SpeedCivilTransportation(HSCT)),supersonicaircraft[110].
+3.2.5. TurbineNozzleBlades
+Turbinenozzlebladeshavecomplexshapes. Aslip/hipmoldcastingofSiCwhiskers
+andsiliconnitride(Si N )powderwasusedforshapingresearchasshowninFigure7[111].
+3 4
+However,afewessentialtechnologiessuchasthedevelopmentofmaterialsystems(ther-
+malstabilityofnon-oxidizedsiliconcarbidefibers,matrix,andinterface),theestablish-
+ment of design methods, low-cost manufacturing processes, and the development of
+non-destructiveevaluationtechniquesneedtobefurtherdevelopedbeforetheycanbe
+usedwidelyinCMC.GEaviationtestedtheworld’sfirstrotatingSiCmatrixCMCmaterialPolymers2022,14,5007 15of32
+forlow-pressureturbinebladesofF414engines[112]. Inanapproachtodoubletheuse
+of CMC engine parts in aircraft, projects have been initiated where materials that can
+withstandhighertemperaturesandareweight-savingrequiringnoneedforcoolingair
+wouldbepreferred[113].
+4. PolymerMatrixComposites
+Polymer-matrixcomposites(PMCs)areoneofthelightestcompositematerials. These
+materials have been used on a large scale in current developments for military combat
+aircraft,smallandlargeciviltransportaircraft,andhelicopters[114]. Theextensiveuse
+of these compounds in the current developments of the stated machinery is a brilliant
+exampleofusingthepotentialofsuchcompositematerials[115–117]. Asevidentfrom
+Polymers 2022, 14, x FOR PEER REVIFEiWgu re8,polymermatrixcompositesexhibithighstrength,however,theycanbeuse1d6 oonf ly34
+atlowoperatingtemperatures[118].
+FFigiguurere 88.. SpSepceifciicfi sctrsetnrgetnhg othf aoirfcraaifrtc reanfgtineen gminateermiaalst earsi aal sfuansctiaonf uonf ctteimonpeoraftuterme [p1e1r8a]t.u (rRee-[118].
+(Rperipnrtiendte/add/aapdtaepdt ewditwh iptherpmeirsmsiiosnsi ofrnomfro RmefR. e[1f.1[81]1. 82]0.1230, 1E3l,sEevlsieevr)i.e r).
+EEvveenni nina ac oconnsesrevravtaitvieved edseisging,na,s assh sohwowninn iTna Tbaleb4le, i4t,i sit eias seyatsoy atcoh aiechveieave3 0a% 30w%e iwghetigreh-t
+druecdtuiocnti.oHn.o wHeovweer,vreerc,e rnetclye,ntthlye,u tsheeo ufrseei noffo rreceindfoprlacestdic psliansatiicrcsr ianft aciormcrpafotn ceonmtspwoanselnimts iwtedas
+tolimseictoedn dtaor ysfercaomnedafuryse lfargameceo mfupsoelnaegnet scmomadpeoonfefinbtse rmglaadsse/ eopf ofxiybeorrgfilabsesr/geplaosxs/yp oorly efisbteerr.-
+Cgularrsesn/ptloyl,ywesitthert.h Ceudrerveenltolyp,m weintht othfea ddveavnecloedpmareanmt iodf aanddvagnrcaepdh iaterafimbiedr sa,nthde garpapplhicitaet ifoibneorfs,
+atdhvea anpcpedlicfiabtieorn/ eopf oaxdyvraenscinedc ofimbepro/espitoesxyis rmesainin clyomfopcuosseitdeso ins tmheaimnlayi nfofcuusseeladg oens ttrhuec tmuraei.n
+fuseAlagsetu sdtryuwctausrec.o nductedtomanufacturesamplesofLSU03aircraftpropellerproducts
+usingAfi bsteurd/yep woaxsy croensdinutchterdou tog hmtawnoufmacatnuurefa scatmurpinlegs mof eLtShUod0s3, aniracmraeflty phroanpdelllearm pirnoadtiuocnts
+aunsdinvga cfiubuemr/e-pasosxiyst erdesrines tihnrtoruagnhsf etwr mo omldaninugfa(cVtAurRinTgM m).eTthhoedesp, onxaymmelayt rhixansdu plapmoritnsatthioen
+fiabnedrs vaancduubmin-dasssthisetmed toregseitnh etrrainnstfhere mcoomldpionsgit e(V. TAhReTmMa)t.r iTxhter aenpsofexrys manaytrlioxa dsuappppolrietsd tthoe
+thfiebefirbse arns,dm bainindtsa itnhsemth etofigbeetrhseirn inth tehier sceolmecpteodsipteo. sTithioen maantdrixd itrreacntisofenr,sg aivneys ltohaedc aopmpplioesdit teo
+materialenvironmentalresistance,anddeterminesthemaximumtemperatureofuseofthe
+the fibers, maintains the fibers in their selected position and direction, gives the composite
+compositematerial[119]. Relativelylowglasstransitiontemperatureandlimitedthermal
+material environmental resistance, and determines the maximum temperature of use of
+oxidationstabilitylimittheuseoffiber/epoxycomposites. Comparedtofiber-reinforced
+the composite material [119]. Relatively low glass transition temperature and limited ther-
+epoxyresins,alsoknownashigh-temperatureresistantpolymers,theyprovidetheopportu-
+mal oxidation stability limit the use of fiber/epoxy composites. Compared to fiber-rein-
+nitytoincreasethetemperatureofusebyalmostdouble,buttheirpropertiesaredifficultto
+forced epoxy resins, also known as high-temperature resistant polymers, they provide the
+handle.Earlyhigh-temperatureresintechnologyincreasedthepossibilityofmanufacturing
+opportunity to increase the temperature of use by almost double, but their properties are
+structuralparts. Theexistenceofthesevoidsordefectsseverelyreducedthemechanical
+difficult to handle. Early high-temperature resin technology increased the possibility of
+propertiesandthestabilityofthethermaloxidationofcompositematerials[120,121].
+manufacturing structural parts. The existence of these voids or defects severely reduced
+the mechanical properties and the stability of the thermal oxidation of composite materials
+[120,121].
+In the progress of research on polymers to develop high-performance resin as a ma-
+trix material to meet the challenges of designing the complex design parts of modern air-
+craft, carbon fiber has been preferred as a strong reinforced material. Carbon fiber-rein-
+forced polymer (CFRP) composites have been extensively used in aircraft structures due
+to their light weight, high durability, good thermal resistance, and good mechanical, tribo-
+logical, and electrical properties [122,123]. Some researchers developed nano-structured
+composites with superior dielectric and mechanical properties for aircraft applications by
+reinforcing different types of carbon nanotube (single, double, and multiwalled) in the
+epoxy matrix [124]. Other fibers, such as graphite fibers, kenaf fibers, glass fibers, ramie
+fibers, etc., were also added to the polymer matrixes to develop composites for aircraft
+applications as mentioned in Table 4.Polymers2022,14,5007 16of32
+Intheprogressofresearchonpolymerstodevelophigh-performanceresinasamatrix
+materialtomeetthechallengesofdesigningthecomplexdesignpartsofmodernaircraft,
+carbonfiberhasbeenpreferredasastrongreinforcedmaterial. Carbonfiber-reinforced
+polymer(CFRP)compositeshavebeenextensivelyusedinaircraftstructuresduetotheir
+lightweight,highdurability,goodthermalresistance,andgoodmechanical,tribological,
+andelectricalproperties[122,123].Someresearchersdevelopednano-structuredcomposites
+withsuperiordielectricandmechanicalpropertiesforaircraftapplicationsbyreinforcing
+different types of carbon nanotube (single, double, and multiwalled) in the epoxy ma-
+trix[124]. Otherfibers,suchasgraphitefibers,kenaffibers,glassfibers,ramiefibers,etc.,
+werealsoaddedtothepolymermatrixestodevelopcompositesforaircraftapplicationsas
+mentionedinTable4.
+4.1. ManufacturingofPMCs
+PMCisverypopularduetoitslowcostandsimplemanufacturingmethod. Several
+variables are considered when designing a PMC. These include not only the types of
+moldsandsteelbars, butalsotheirrelativeproportions, thegeometryofthesteelbars,
+and the nature of the interface. The variables must be carefully controlled to develop
+structuralmaterialsoptimizedfortheirconditionsofuse. Commonprocessingtechniques
+forpolymer-basedcompoundsareasfollows:
+4.1.1. InjectionMolding
+The injection molding technique is used for the fabrication of polymers and plas-
+tics[125–128]. Thistechniquehasvarioustypesincludingwater-assistedmolding, gas-
+assistedmolding,injectionfoammolding,compressioninjectionmolding,micro-injection
+molding, and low-pressure molding [129–132]. Injection molding can produce high-
+precisioncompositepartswiththeleastcycletime. Generally,theinjectionmoldingprocess
+involvesfibercompositematerialintheformofparticlesthatarefedusingahopperand
+thentransportedbyascrewwithaheatedbarrel. Oncethematerialinthebarrelreaches
+therequiredamount,thescrewinjectsthematerialviaanozzleintothemoldfollowed
+bycoolingittoobtainthedesiredshape[133–136]. Thefinalproductobtainedismold-
+shapedandofthesamesizeasthatofthemold. Theseproductsareoftenaccompanied
+bydefects,suchassprays,shortshots,sags,flowmarks,floatingfibers,andweldmarks.
+Thedefectscanbetreatedbyspray-coating; however, thisincreasesthemanufacturing
+costsandtime[137]. Itisthewidelyusedmethodtomanufacturepolymercomposites
+reinforcedwithcarbonfibers[138,139].
+4.1.2. ResinTransferMolding(RTM)
+RTMcanmanufacturelargeandcomplex3Dpartswithimprovedmechanicalprop-
+erties,highsurfacefinish,andsmalldimensionaltolerances. RTMisarigidclosedmold
+process. Inthistechnique,thelaminationsequenceispositionedinacavity,thethickness
+ofthepartisdeterminedbetweentwoclosedmoldhalvesandtheresinisinjectedunder
+pressure. Oncetheresinreachesthevent,thegateisfastenedfollowedbytheimpregnation
+of the preform. After curing, the mold is opened and closed, and the part is taken out.
+ThesestepsareoutlinedasevidentinFigure9. Vacuum-assistedresintransfer(VARTM)
+moldingistheadvancedformofRTMinwhichpreformedfibersarepositionedinamold
+followed by a perforated tube placed between the vacuum bag and the resin container.
+The vacuum force draws the resin in the fiber through the perforated tube to combine
+withthelaminatedstructure[140]. Thermosettingresinsaremostlythepreferredmatrix
+usedinRTMduetotheirlowviscosityduringprocessing. Amongthermosettingresins,
+there are several types of aerospace applications suitable for RTM. For example, epoxy
+resins,phenolicresins,cyanateesters,andbismaleimideepoxyresinsarecommonlyused
+inthedevelopmentofaerospacecomposites,especiallycarbonfiber-reinforcedepoxyresin
+laminate[141]. Thewidevarietyofepoxyresinsandcuringagentsenhancetheversatility
+ofthesesystemsregardingthemanufacturingprocessandthephysicalpropertiesthatcanPolymers 2022, 14, x FOR PEER REVIEW 17 of 34
+4.1. Manufacturing of PMCs
+PMC is very popular due to its low cost and simple manufacturing method. Several
+variables are considered when designing a PMC. These include not only the types of
+molds and steel bars, but also their relative proportions, the geometry of the steel bars,
+and the nature of the interface. The variables must be carefully controlled to develop struc-
+tural materials optimized for their conditions of use. Common processing techniques for
+polymer-based compounds are as follows:
+4.1.1. Injection Molding
+The injection molding technique is used for the fabrication of polymers and plastics
+[125–128]. This technique has various types including water-assisted molding, gas-as-
+sisted molding, injection foam molding, compression injection molding, micro-injection
+molding, and low-pressure molding [129–132]. Injection molding can produce high-pre-
+cision composite parts with the least cycle time. Generally, the injection molding process
+involves fiber composite material in the form of particles that are fed using a hopper and
+then transported by a screw with a heated barrel. Once the material in the barrel reaches
+the required amount, the screw injects the material via a nozzle into the mold followed by
+cooling it to obtain the desired shape [133–136]. The final product obtained is mold-
+shaped and of the same size as that of the mold. These products are often accompanied
+by defects, such as sprays, short shots, sags, flow marks, floating fibers, and weld marks.
+The defects can be treated by spray-coating; however, this increases the manufacturing
+costs and time [137]. It is the widely used method to manufacture polymer composites
+reinforced with carbon fibers [138,139].
+4.1.2. Resin Transfer Molding (RTM)
+RTM can manufacture large and complex 3D parts with improved mechanical prop-
+erties, high surface finish, and small dimensional tolerances. RTM is a rigid closed mold
+process. In this technique, the lamination sequence is positioned in a cavity, the thickness
+of the part is determined between two closed mold halves and the resin is injected under
+pressure. Once the resin reaches the vent, the gate is fastened followed by the impregna-
+tion of the preform. After curing, the mold is opened and closed, and the part is taken out.
+These steps are outlined as evident in Figure 9. Vacuum-assisted resin transfer (VARTM)
+molding is the advanced form of RTM in which preformed fibers are positioned in a mold
+followed by a perforated tube placed between the vacuum bag and the resin container.
+The vacuum force draws the resin in the fiber through the perforated tube to combine
+with the laminated structure [140]. Thermosetting resins are mostly the preferred matrix
+used in RTM due to their low viscosity during processing. Among thermosetting resins,
+there are several types of aerospace applications suitable for RTM. For example, epoxy
+resins, phenolic resins, cyanate esters, and bismaleimide epoxy resins are commonly used
+Polymers2022,14,5007 in the development of aerospace composites, especially carbon fiber-reinforced17 eopf3o2xy
+resin laminate [141]. The wide variety of epoxy resins and curing agents enhance the ver-
+satility of these systems regarding the manufacturing process and the physical properties
+that can be obtained [142]. The heavy-loaded primary aircraft structures are fabricated
+beobtained[142]. Theheavy-loadedprimaryaircraftstructuresarefabricatedusingthis
+using this technique ensuring high-quality and low-cost production [143].
+techniqueensuringhigh-qualityandlow-costproduction[143].
+Figure9.ResintransfermoldingprocessforfabricationofPMCs.
+4.1.3. CompressionMolding
+Polymers 2022, 14, x FOR PEER REVIEW 18 of 34
+Compressionmoldingconsistsofpreheatedmoldsthataremountedonmechanical
+orhydraulicpresses. Thebackingmadeofprepregispositionedbetweenthetwomold
+Fhigaulrve 9e.s R,easinn dtratnhsfeern mtohldeiynga prreocepsus fsohr efadbriacagtiaoinn osft PeMaCcsh. other to obtain the desired mold shape.
+It has a high degree of productivity, short cycle time, and dimensional stability, so it
+4.1.3. Compression Molding
+hasbeenusedinvariousapplicationsintheautomotiveindustry[144,145]. Carbonfiber-
+Compression molding consists of preheated molds that are mounted on mechanical
+reinforcedPEEKpolymeristhemainstructure,andelement,usedin,forexample,supports,
+or hydraulic presses. The backing made of prepreg is positioned between the two mold
+hingesoraccessoriesdevelopedforaerospaceapplicationsusingcompressionmolding
+halves, and then they are pushed against each other to obtain the desired mold shape. It
+technology[146].
+has a high degree of productivity, short cycle time, and dimensional stability, so it has
+been used in various applications in the automotive industry [144,145]. Carbon fiber-re-
+in4f.o1r.c4e.dL PaEyEiKn pgoPlyrmeperr iesg the main structure, and element, used in, for example, supports,
+hinges or accessories developed for aerospace applications using compression molding
+Layingprepregistheblendoffiberanduncuredresin,prepregwiththermoplastic
+technology [146].
+or thermosetting resin material, requiring temperature activation. These prepregs are
+4r.1e.4a.d Lya-ytion-gu Psreepmreagt erialsinwhichtheeasilyimpregnatedlayeriscutandplacedintheopen
+mold [147]. VORAFUSE is a technology developed by Dow Automotive Systems that
+Laying prepreg is the blend of fiber and uncured resin, prepreg with thermoplastic
+ocr otmhebrminoesesttcianrgb roensinfi bmeartearniadl, erepqouxiryinrge steinmpfoerrapturreep arcetgivaatpiopnl. icTahteisoen psrteopriemgsp arroev ecycletimeand
+remadayt-etroi-aulseh manatderliianlsg inin wthhicehc tohem epasrielys ismiopnremgnoatleddi nlagyeor fisc coumt apnod spiltaecesdtr iun cthtue roepse.n Theycooperated
+mold [147]. VORAFUSE is a technology developed by Dow Automotive Systems that
+withseveralautomobilecompaniestosignificantlyreducetheweightandthusefficiently
+combines carbon fiber and epoxy resin for prepreg applications to improve cycle time and
+manufacturetheCFRPcompositestructure[148]. Initially,thefiberpreformispositioned
+material handling in the compression molding of composite structures. They cooperated
+inamoldandathinreleaselayerisappliedtothemoldtofacilitateremoval. Abrushis
+with several automobile companies to significantly reduce the weight and thus efficiently
+muasneudfatcotumre othlde CoFrRaPp cpolmyptohseiter esstriunctmuraet [e1r4i8a]l. tInoittihalelyr,e tihnef foibrecre pmreefnotrsm. iTs hpeosriotiollneerds areusedtopress
+int hae mroelsdi nanidn tao thtihne reflaebasreic latyoere ins sauprpeliethd etoi nthtee rmaocltdio ton fbaceitliwtaetee rnemthoevaclo. Ant binruusoh uiss reinforcedlayer
+uasendd toth meomlda otrr iaxpmplya ttehrei arels[i1n4 m9,a1te5r0ia]l. to the reinforcements. The rollers are used to
+press the resin into the fabric to ensure the interaction between the continuous reinforced
+layer and the matrix material [149,150].
+4.1.5. Pultrusion
+4.1.5. PTulhtreuspiounl trusionprocessisthecontinuouspassageofresin-impregnatedfibersorother
+preTfohrem puslttrhursoioung phroacemsso isl dthae tcoanctienrutoauins psapsesaegde otof rgesriand-iumaplrleygnmatoeldd fiabnerds ocru ortehetrh ecompositepart
+paresfosrhmosw thnroinugFhi ga umroeld1 0at[ 1a 5c1e]r.taTinh seppeeudl ttrou gsriaodnuapllryo mceoslsd iasnad lcouwre- tchoes ctommeptohsioted andsuitablefor
+part as shown in Figure 10 [151]. The pultrusion process is a low-cost method and suitable
+fast-curingresinsthatcanbeusedtoproducepartswithconstantcross-sections[152]. This
+for fast-curing resins that can be used to produce parts with constant cross-sections [152].
+isacontinuousprocessthatcanbeusedtomanufacturecompositematerialswithconstant
+This is a continuous process that can be used to manufacture composite materials with
+cross-sectionsandrelativelylonglengths,thusallowingforalowercostofproductionand
+constant cross-sections and relatively long lengths, thus allowing for a lower cost of pro-
+dauchtiiognh andde ga rheiegho dfeagureteo omf aautitoonma[t1io4n7 ][.147].
+FFigiugrue r1e0.1 P0u.ltPruuslitornu spirooncepssr foocre tshse ffoabrrtihcaetifoanb orfi cpaotliyomnero mfpaotrliyx mcoemrpmosaittersi x(acdoamptepdo asnitde sm(oaddi-aptedandmodified
+fied from [151]).
+from[151]).
+4.2. Applications of PMCs in Aircraft Components
+Various polymers including PLA, PP, and epoxy resins were employed as matrix
+materials for the development of composites for aircraft applications as mentioned in Ta-
+ble 4. Fiberglass/epoxy materials were employed to produce non-crucial components such
+as shroud panels, fans, duct fairings, spacers, and seals. However, CFRP finds the most
+practical application in aircraft component design. CFRP is employed in various aircraft
+due to their light weight and ability to withstand the desired conditions as evident fromPolymers2022,14,5007 18of32
+4.2. ApplicationsofPMCsinAircraftComponents
+Various polymers including PLA, PP, and epoxy resins were employed as matrix
+materials for the development of composites for aircraft applications as mentioned in
+Table4. Fiberglass/epoxymaterialswereemployedtoproducenon-crucialcomponents
+suchasshroudpanels,fans,ductfairings,spacers,andseals. However,CFRPfindsthe
+most practical application in aircraft component design. CFRP is employed in various
+aircraftduetotheirlightweightandabilitytowithstandthedesiredconditionsasevident
+fromTable4. A4-seateraircrafthelpedtoreducetheweightbyalmost25%ascompared
+toametalalloy’scounterpartbyusingPMCs[153]. Moreover,inanapproachtoreduce
+theweightoftheaircraft, thecomponentswereintegratedandmadeasonecomposite
+part,suchasthelandinggearintegratedwiththefuselage,inthemainlandinggearbay.
+ThismainlycomprisedCFRPandlimitedtheuseoftitanium[154]. Thecomponentwas
+preparedbyaone-shotcuringprocess,anditcanreducetheassemblyrecurrentcostbyup
+to80%[155,156].
+Table4.Polymermatrixcompositesandtheirreinforcementsinvariousaircraftapplications.
+Matrix Reinforcements Properties Applications Ref
+Hybridkenaf/glass -Highspecificstrength
+Polymer -Aircraftbrakes [157]
+fiber -Rainerosionresistance
+Hybridbamboo/glass -Improvedtensilestrength
+Polypropylene -Aircraftstructures [158]
+fiber -Increasedfatiguelife
+Polymer Ramiefiber -Reductioninweight(12–14%) -Aircraftwingboxes [159]
+-Aircraftbrakes
+-Fuselage
+-Designflexibility -Windowframes
+-Highstiffness -Aircraftwing
+-Reducedscrap -Rotors
+-Resistancetoflamesandheat -Brackets
+-Fatigueresistance -Boxes
+Polymer Carbonfiber [160]
+-Corrosionresistance -Bulkheads
+-Highstrength -Fittings
+-Damageandimpacttolerance -Airframe
+-Vibration-dampingproperties -Blades
+-Fractureresistance -Verticalfins
+-Tailassemblies
+-Foodtrayarms
+-Engineaccessdoor
+Polylacticacid -Improvedflexuralproperties
+Glassfiber -Acousticliners [161]
+(PLA) -Improvedtensileproperties
+-Vanes
+-Flameretardant
+Epoxyresin Fiber -Goodmechanicalperformance -Aircraftstructures [162]
+-Resistancetoirradiation
+-Improvedmechanicalstrength -Controllingstatic
+Epoxyresin Carbonblack -Resistanttooxidation electricityintheavionics [163]
+-Flameretardant system
+-HighOHT(openholetension)
+EpoxyresinCarbon -Aircraftstructural
+Epoxyresin strength [164]
+fiber/S2-Glassfiber framework
+-Highdeformationbeforefracture
+-Excellentperformanceatdifferent
+Nano-carbon temperatureranges
+(graphene,carbon -Resistanttochemicals,andaging,
+Silicone -Aircraftstructure [165]
+nanotube,andcarbon -Uniqueelectricalinsulation
+black) properties
+-ExcellentresistancetooxidationPolymers2022,14,5007 19of32
+Table4.Cont.
+Matrix Reinforcements Properties Applications Ref
+-LockheedMartinF-35
+(lighterfighteraircraft
+-Toughness
+Polymer Carbonfiber wings,horizontalfuselage, [166]
+-Durability
+verticalandhorizontal
+stabilizers)
+-Lightweight
+Carbonfabrics,glass
+Thermosetand -Negativerefractiveindex -Radar-absorbing
+fabrics,andKevlar [167]
+thermoplasticresins -Negativepermittivity,and structures(stealthaircraft)
+fabrics
+permeability
+4.3. FillerDispersionMethodsinPolymerCompositeProcessing
+Fillershavebeenaddedtothematrixinrecentyearstodevelopanovelcomposite,
+whichmeetsthefunctionalrequirements. Althoughcompositeprocessingprocessesvary,
+allmustaddressthefollowingchallenges,whichhaveadirectimpactonthecharacteristics
+ofthecomposites: alignment,dispersion,andfunctionalization. Polymercompositesare
+oftenprocessedusingthefollowingtechniques:
+1. Solutionprocessing
+2. Insitupolymerization
+3. Melt-mixing
+4.3.1. SolutionProcessing
+Thefillersareinitiallyspreadinasolventorsolutionofthepolymer.Thenanenergetic
+agitationsuchasmagneticstirring[168,169],sonicationorreflux[170,171],andhighshear
+mixing[172]canbeusedtomixthesolution.
+Mechanicalorhigh-speedstirringistheeasiestandmostcommonlyusedmethodto
+scatterthefillersinthematrix. Thefillersaredirectlymixedintothepolymermatrixand
+themixtureiscontinuouslystirredforafixedtimetodispersetheparticlesinthematrix.
+Thestirringcanbeachievedthroughamagneticfieldorbyusingamotor.
+Thesonicationmethodusesultrasoundwavestostirfillerparticlesinthepolymer
+matrix. Itisoftenperformedwithanultrasonicbathoraprobe/horn,alsoknownasa
+sonicator. Theultrasoundpromulgatesthroughaseriesofcontractionsovertheprocessof
+sonication. Thecreatedattenuationmovesthroughthemediumofthepolymer,facilitating
+the dispersion of the particles. As a consequence, individual particles are separated,
+allowingforhigh-qualitydispersion. Whereasthissonicationtechniquemayoccasionally
+causestructuraldamagetothefillerparticles,therearealsomethodsfordispersingthe
+particles without causing harm. High-shear mixing methods comprise the usage of a
+three-rollmill,wherethefiller/polymermixtureisfedbetweenthecenterandfeedrollers
+andthencollectedfromanapronroller. Theshearingofthefillerparticlescanoccurasthe
+materialpassesbetweentherollers.
+4.3.2. InSituPolymerization
+The in situ polymerization [173,174] technique generally involves dispersing the
+particles of filler in a neat monomer (or several monomers) or a solution of monomer,
+followedbypolymerizationofthedispersedfiller. Theseeffortsarefrequentlyfollowedby
+extraction/precipitationorsolutioncastingtocreatemodelsfortesting.
+4.3.3. Melt-Mixing
+Meltmixing[175,176]involvesthemixingofapolymermeltwithafiller(drypowder)
+underhigh-shearconditions. Pelletsofpolymeraremeltedtoproduceaviscousliquid
+duringtheprocess. Anextruderorahigh-shearmixerissubsequentlyusedtocombinePolymers2022,14,5007 20of32
+the nanoparticles into the liquid polymer. Injection molding, compression molding, or
+extrusioncanbeusedtocreatethefinalbulknanocompositesamples.
+The conventional approaches for determining the state of nanoparticle dispersion
+are primarily qualitative and involve a visual examination of images from optical mi-
+croscopy[177,178]transmissionelectronmicroscopy(TEM)[179],scanningelectronmi-
+croscopy(SEM)[170,172],orscanningprobemicroscopy(SPM)[180].
+5. PropertiesofPMCs,MMCs,andCMCsRequiredforAircraftApplications
+Materialsforaircraftapplicationsmustpossesshighstrength,andbecreep-resistant,
+fracture-tough,durable,damage-tolerant,andlightweight. TheBoeing747,forexample,
+requiresover6,000,000componentsfromvariousmaterialsystemsandsuppliersaround
+the world. Composites offer a reduction in weight, fatigue, and corrosion, lower part
+count, tailorable strength and stiffness. The various components of aircraft demand a
+different set of properties. For example, the primary drivers for the design of fuselage
+aredamagetoleranceanddurability. Theleadingdriversarecrackinitiationandgrowth
+rate,fracturetoughness,andfatigue,although,strength,stiffness,andcorrosionarethe
+keyparameters. Similarly,thewingdesigndemandshighstrength,damagetoleranceand
+durability. Meanwhile,strength,fatigue,anddamagetolerancearehighlyimportantfor
+thepropulsionstructuresandmaterialsforlandinggearsandtheyareselectedinterms
+ofstrength,corrosionandfatigue[181]. ThepropertiesofthePMCs,MMCsandCMCs
+commonlyusedinaircraftareprovidedinTable5.
+Table5.ComparisonofpropertiesofPMCs,MMCs,andCMCsappliedinaircraft[57–61,72–86,157–167,182–185].
+Composite PMCs MMCs CMCs
+Longchainofmolecules(fiber Predominantlymetallicbondwitha Predominantlyamorphousorcrystalline
+Microstructure
+andmatrices) crystallinestructure structure
+Theseareoneofthelightestofthe Thesecompositesareductileand
+threecompositematerialsandare haverelativelyhighstrengthaswell Thesecompositeshaveveryhighstrength
+Mechanical foundtohavehighspecific ashighmoduluscomparedto andmoduluscomparedtobothPMCsand
+strengthandmodulus.PMCsare CMCsbutarerelativelyheavier MMCsbutareverybrittleinnature.
+brittleinnature. comparedtoPMCs.
+Exhibithigherfracturetoughness Havehigherfracturetoughness Exhibitlowerfracturetoughnessamong
+Fracturetoughness
+thanCMCs comparedtoPMCsandCMCs. thethree.
+Havehigherfatigueresistance Exhibitbetterfatigueresistance
+Fatigue Havelowresistanceunderfatigueloading
+comparedtoMMCsandCMCs comparedtoCMCs
+Havehigherwearresistance Exhibitlowerresistancetowear Exhibithigherwearresistanceand
+Wear
+comparedtoMMCs comparedtoPMCsandCMCs hardnesscomparedtoPMCsandMMCs.
+Creepresistance High High Low
+Density Low Medium Medium
+OperatingTemperature Upto200◦C Upto800◦C Upto2000◦C
+High-temperaturecomponents,subsonic
+jetengines(exhaustmixernozzle),aircraft
+compressors,combustors,turbines,
+turbineblades,aircraftbrakes(disksand
+Brakes,structures,wingboxes, rotors),structuralre-entrycomponents,
+fuselage,windowframes,wing, high-performanceheatshields,rocket
+Landinggear,engines,aircraftwing,
+rotors,brackets,boxes,bulkheads, nozzles,high-temperatureheatexchanger
+ApplicationinAircraft fueltank(doorpart),andfans(F-16
+fittings,airframe,blades,vertical tubes,jetvanes,aircraftenginecombustor
+fighteraircraft).
+fins,tailassemblies, (rigandinnerandouterliners),outerflaps
+foodtraysandarms (RafaleFighterM88engineA262),
+SNECMAM882engine,(Flameholders,
+engineflaps,andexhaustcones),Boeing
+767–300rocketnozzles(throatandexit
+cones),andcoatedpipesPolymers2022,14,5007 21of32
+6. AdvancedCompositesforAircraft
+Advancedcompositeshavebeenimplementedinaircraftstructuresduetotheirlight
+weight,fatigue,andcorrosionresistance[186]. Forexample,sensorsthataremountedon
+lightweightcarbonandglassfibercompositesallowstructuralhealthmonitoring(SHM)
+ofaircraft,therebytohelpinunderstandingthewavepropagationasaresultofdifferent
+loadingcriteria[187].
+6.1. Self-HealingComposites
+Impactloadcausescompositematerialstodeteriorate. Theimpactdamagestartsas
+microscopicvoids,whichdevelopintoprofoundmicrocrackinganddelaminationinthe
+structure,resultinginreducedstructuralintegrityandprematurefailure. Previously,resin
+patches,injection,andheatplatetechniqueswereusedtofixtheseproblems. However,
+those methods have several shortcomings, such as ineffectiveness for unseen damages,
+therequirementfordamagemonitoring,andinapplicabilityduringconstructionactivities.
+Thesefactorsrestricttheusesofcomposites.
+Materialsthatlessendamageorextendthelifespanandeffectivenessofadamaged
+part,system,ordevicecanincreasetheirusefulness. Oneexampleofthissortofmaterial
+isself-healingmaterials. Thepopularityofpolymersandtheircompositesasself-healing
+materialscanbeattributedtotheirincreasedmolecularmobility[188]. Epoxyvinylester,
+bismaleimidetetrafuran(2MEP4F),rawpolymer,cyclopentadienederivatives,cyanateester,
+and other composites including E-glass fiber-reinforced composites (FRCs) and carbon
+FRCs are a few self-healing materials that have recently been studied [188]. A hybrid
+multiscalepolycarbonatecompositewithself-healingcore-shellnanofibersatinterfaces
+wasalsomadeviaco-electrospinning. Wheninterfacialdamage, suchasdelamination,
+occursinlaminatecomposites,thecore-shellisintendedtoself-heal[189].
+Topreventdelaminationfractureofcarbonfiber-reinforcedplastic(CFRP)composites
+inaerospaceapplications,theywereloadedwithmicrocapsuleswithhealingagents. A
+dicyclopentadiene-encapsulatedmicrocapsuleservedasthehealingagentandwascom-
+binedwith20%by-weightepoxyresin. Thespecimens’interlaminarfracturetoughness
+wasrestoredto40%and80%oftheiroriginalvaluesatroomtemperatureand80◦C,respec-
+tively. Utilizingathermoplasticpolymermatrix,thermallyresponsivepolyurethane,and
+theDiels–Alder(DA)reaction,itwaspossibletorepeatedlyhealthedelaminationinsideof
+acarbonfibercompositewith85%and75%healingefficiency,respectively,throughoutthe
+firstandsecondcycles[190]. ByembeddingCFRPwithhollowglassfiber(HGF)within
+eitherglassfiber-reinforcedplastic(GFRP)orcarbonfiber-reinforcedplastic(CFRP)and
+theninfusingitwithuncuredresin,theself-healingfeaturewastransferredtoalaminate.
+Upon damage, a number of these fibers packed with resin burst, releasing the healing
+agentthathasbeenstoredthereandinitiatingthehealingprocess. Thebaselinelaminate
+performancewasroughly89%,andthisarrangementmatchedtheundamagedcondition
+by97%[191].
+Self-healingmaterialsaretypicallyusedinaerostructuressuchasfuselages,wings,
+engines,cascades,andothersasprotectivecoatingsorbarriers. Hypersonicwingsthat
+areemployedattemperaturesexceeding1600◦Ctypicallyhavecarbon/carboncomposite
+nosecones,nozzles,andleadingedges;however,athighertemperatures,oxidationoccurs
+andlowersperformance[192]. Toavoidthis,anoxidation-resistantouterlayerisutilized
+tocreateanouterglasslayeroveraninnerglasslayer. Otheroxidation-preventativebarrier
+coatingsincludesiliconcarbideandsiliconnitridecoatings. Glasscanflowintogapstoseal
+thecoveringagainstoxygenpenetrationwhenitmeltsatelevatedtemperatures[193]. As
+self-healingmaterials,siliconandboron-basedparticulatecomponentsinthecarbonmatrix
+are also employed. These substances react with oxygen to generate glass. Glass seeps
+intocracks,preventingoxygenfromenteringthem. Additionally,thehealingproperties
+of the ethylene/methyl methacrylate (EMMA) copolymer were investigated for use in
+coatingsforaerostructures. Thispolymerisincrediblyself-healingandimpact-resistantat
+highvelocities[188]. Additionally,self-healingUV-responsivemicrocapsuleshaverecentlyPolymers2022,14,5007 22of32
+beenresearchedforapplicationinaeronauticalcoatings. Theyhaveaquicklydegradable
+innerpolymericshell. Whendamageoccurs, someofthesemicrocapsulesburstdueto
+externalpressure,andtheremainingonesaredestroyedbyUVlight,allowingthehealing
+chemicalsthatwereenclosedinthemtobereleasedandfinallycurethecracks[194]. Self-
+healingmaterialsbasedonpolymermatrixcompositesarelessexpensiveandsimpleto
+producethanceramicsandmetals. Additionally,becauseself-healingideasinmetalsand
+ceramicsarestillintheirdevelopment,theyaremorecomplicatedandchallengingtoput
+intopractice.
+6.2. ConductiveComposites
+Staticchargesbuilduponanairplanewhenitreachesahighaltitudebecauseofthe
+interaction of the aircraft’s exterior with external environmental factors, which include
+air particles, ice, hail, dust, volcanic ash, and triboelectric charging. Parts and systems
+malfunction when a threshold value is surpassed due to explosions and broken radio
+transmission. Conductivecompositesystemsmadeofanon-conductivepolymermatrix
+supplemented with nanofiller or carbon-based nanocomposite/nanomaterials have ad-
+dressedtheseproblems[195]. Withthereinforcementofcarbon-basednanoparticlessuch
+ascarbonblack,carbonnanotubes(multiandsingle-walled),graphene,andepoxy/AgSWs
+coating,epoxywasenvisionedasthemostconventionalmatrix[196,197]. Ontheother
+hand,issuesincludingnon-uniformdispersionorhigherloadinghaveledtoagglomera-
+tionsanddegradationinstructuralandelectricalperformance[198]. Thesematerialsalso
+addresstheproblemsoflightningstrikesandicebuildupinaircraft[199].
+Theepoxyresin-infusedmetalfoamswhichweredevelopedfortheleadingedgeof
+theaircraftwingsreducedwettability,insectadhesion,iceaccretion,andparticlewearto
+improvetheflightperformance,safety,andfuelefficiencyoftheaircraft. Aninnovative
+solutionwasexploredinthisworkbyinfusingstainlesssteelcompositemetalfoam(SS
+CMF)withahydrophobicepoxyresinsystem. S-SCMFwasmadewith100%stainless
+steel using a powder metallurgy technique. The infused epoxy filled the macro- and
+microporosities,uniquetoSSCMF’sstructure,creatingaproductwithadensitysimilar
+tothatofaluminum[200]. Furthermore,toimprovetheelectricalconductivityandflame-
+resistance properties, acarbonfiber-reinforced panel(CFRP)wasimpregnatedwithan
+epoxy resin using a combination of 0.5 wt% of carbon nanotubes (CNTs) and 5 wt%
+of Glycidyl-Polyhedral Oligomeric Silsesquioxanes (GPOSS) through a liquid infusion
+technique. Thevibroacoustictestsconfirmedanincrementoftheoveralldampingfactor
+ofthespecimenduetothesimultaneousincorporationofCNTandGPOSSfillers[201].
+Moreover,resinreinforcedwithCNTforhealth-monitoringofaircraftprimarystructures
+wasincorporated[202].
+6.3. Resin-InfusedComposites
+Toenhanceflightsafety,performance,andfuelefficiencyoftheaircraft,epoxy-resin-
+infusedmetalfoamsweredesignedfortheleadingedgeoftheaircraftwings. Thesefoams
+reducedwettability, insectadhesion, iceaccumulation, andparticlewear. Inthisstudy,
+a novel approach was investigated by mixing a hydrophobic epoxy resin system with
+stainless steel composite metal foam (SS CMF). S-S CMF was created utilizing powder
+metallurgy and 100% stainless steel. The infused epoxy filled the macro- and microp-
+orosities,whichwerespecifictothestructureofSSCMF,producingasubstancewithan
+aluminum-likedensity[200].
+Usingamixtureof0.5-weightpercentcarbonnanotubes(CNTs)and5-weightpercent
+glycidyl-polyhedral oligomeric siloxanes (GPOSS), an epoxy resin was infused into a
+carbonfiber-reinforced panel(CFRP)to further increasethe electricalconductivityand
+flame-resistancecapabilities. ThesimultaneousinsertionofCNTandGPOSSfillersled
+to an increase in the specimen’s overall damping factor, according to the vibroacoustic
+measurements[201]. Additionally,thiswasalsothecaseforresinreinforcedwithCNTfor
+thebasicstructuralhealthmonitoringofaircraft[202].Polymers2022,14,5007 23of32
+6.4. Nanocomposites
+Nanocompositesarealsoamongtheinnovativematerialsusedincompositesandare
+distinguishedfromconventionalcompositematerialsbytheirsuperiormechanicalqualities.
+CNTs,MWCNTs,andpolymer-claynanocompositesareamongthetypesofnanocomposite
+materialsthataimtoaddresspre-existingissuesintheaerospaceindustry[203–205]. To
+preventthecomponentsofanaircraftsystemfromdegradingovertime,itwasdiscovered
+thatmolybdenumdisilicatenanoparticlesdistributedinanaluminummatrixexhibited
+good wear resistance [206]. A graphene oxide (GO)-reinforced titanium nanopowder
+matrixtechnologywasemployedtoachievethehighhardnessthatisakeygoalinvarious
+structuralaerospacecomponents[207]. Theaircraftindustry’suseofnanocompositesin
+several subsystems, particularly due to the self-healing capabilities of nanocomposite
+polymers, illustrates the industry’s promising future [208]. Since the nanocomposite
+coatingonjetengineturbinebladespreventedgrainformationevenatextremelyelevated
+temperatures,theywereusedasoverlaycoatingsinseveralaerospaceapplications[209].
+APUmatrixwasembeddedwithconductiveCNTs,andaslightincreaseintheCNT
+weight percentage resulted in a significant improvement in thermal diffusivity. Lower
+surfaceresistivityandflame-retardantqualitieswerediscoveredinthecoating,making
+it perfect for aircraft applications [210]. By decreasing the capacity to absorb moisture,
+nanoclaymadeitpossibletopostponethebreakdownofdielectriccharacteristics,assisting
+radomesinmaintainingradartransparency. Theperformanceofepoxymatrixinaircraft
+radomesisimprovedbytheadditionofnanoclayparticles[211]. Metalmatrixcomposites
+(MMCs)wereadministeredSiCandAl O nanoparticleadditionstoseehowtheywould
+2 3
+affectthefatiguestrengthofaeronauticalcomponents[212]. Thedistributionofthegrains
+andtheirsizehadasignificantimpactontheimprovedfatiguebehavior,anditwasfound
+thatincreasingthepercentageofnanoparticlesincreasedthecomposite’sfatiguestrength.
+ACNT-reinforcedPPnanocompositewasusedtocreateamicroairvehiclewithaflapping-
+wing design inspired by biological structures [213]. In the realm of aircraft technology,
+nanocompositeshaveexperiencedgreatgrowthsincethehigh-endapplicationsrequired
+fortheuseofhighlystructuralmaterialsandnanocompositesappeartoperformwell[214].
+7. ChallengesandtheFuturePerspective
+Inrecenttimes,theneedforthedevelopmentofMMCsforhigh-performanceaircraft
+structureshasrapidlyincreased. Toovercometheexistinglimitations,thedevelopmentof
+newadvancedmaterialswithdifferentcombinationsofhighstrength,improvedstiffness,
+andlowdensityhasbecomeinevitable. ToimprovetheapplicabilityofMMCsinairframe
+constructionandtowithstandcompetitionwiththepresentpolymercomposites,significant
+investigationsarerequiredtoevaluatetheirmechanicalandstructuralperformance. More-
+over,thiscanbeaccomplishedbyincreasingthestrength-to-weightratioorbyreducing
+the absolute weight of the components. Furthermore, the challenging requirements of
+particularcomponentssuchaslowdensityandimprovedmechanicalpropertiescanbe
+fulfilledbytheproperselectionofMMCs.
+The development of safer materials for aircraft applications is crucial. This can be
+achievedbytheusageofinflammablemetalliccompositeswithimprovedpropertiessuchas
+titanium-basedalloys. Thehigh-temperatureresistanceofTi-basedalloyscanbeimproved
+throughthermo-mechanicalprocessingandcontrollingthephasesbyalloying. Further-
+more, an increase in the usage of CMCs in commercial aircraft has been reported [176].
+Inthefuture,themajorcomponentsofgasturbineengineswouldbereplacedbyCMCs
+exceptforafewcomponentssuchasdiscs.
+ThemajorchallengeforthecommercialuseofCMCisthehighcostassociatedwith
+themanufacturingprocess. Itcanbeloweredbyreducingthemanufacturingtimeand
+increasing the usage volume. For the development of complex structures using CMCs,
+textilearchitectureswillberequired.
+Thecontrolofthefrettingwear,fatigueresistance,damagetolerance,andcorrosion
+resistance of airframe materials affecting the maintenance, inspection, and repair costsPolymers2022,14,5007 24of32
+ishighlyrequired. Suchpropertiesofmetallic,ceramic,andpolymercompositesunder
+different conditions need to be evaluated. This leads to the need for the development
+ofnewmaterialwithhighertribologicalandmechanicalpropertiesbyvariousstrategies
+andmethods,includingcompositionmodification,microstructurerefinement,controlof
+impurities,coating,andemployingimprovedfabricationtechniques.
+PMCshaveabroadrangeofunanticipatedapplications. Nevertheless,itisequally
+importanttomakePMCsinawaythatmaximizesthevalueoftheintrinsicqualitiesofthese
+materialswiththeirproposedapplications. Duetotheincreasingdemandforlightweight
+structureswithefficientfuelconsumption,PMCswillbeusedinlargenumbersinaerospace
+propulsionsystems.PotentialdevelopmentsinPMCsforaerospacepropulsionapplications
+willinvolvemultifacetedfibertextilearchitecturestodeliverlocation-specificengineered
+properties. Toservethehigh-temperatureapplicationrequirements,thedevelopmentof
+PMCswillplayamajorroleinaerospacepropulsionsystems.
+Nevertheless, from weight reduction and improved structural performance of the
+materials,costreductionthroughdevelopedmanufacturingtechniquesisalsoimportant.
+Thecostsassociatedwiththemanufacturingprocesswouldhaveasignificantimpacton
+thedeploymentofcompositematerialsintheaircraftindustryasthefabricationtechnique
+constitutes the largest portion of the cost of the airframe. Thus, great efforts are made
+tominimizeproductioncostsbyintroducingcost-effectiveandreliabletechniques. Var-
+iousinvestigationshavebeenconductedtocomprehendthemanufacturingviabilityof
+MMCs[177,178]. Inthelastfewdecades,someoftheseprocesseshavebeenutilizedbythe
+aircraftindustry.However,lackofoperatortraining,availabilityofhomogeneousmaterials,
+processreliability,andcostofferamajorhindranceforlarge-scaleMMCapplications.
+Arelativelypristinetechnologycommonlyknownasadditivemanufacturing(AM)
+providesasignificantpotentialtosolvesomeoftheproblemsinthecontextoftheproduc-
+tionofaerospacecomposites. Itwouldleadtoblendingandmergingtheoperationswithin
+oneprocess,whichatthemomentischallengingtoachievewiththeexistingcomposite
+productionprocesses. ItisimportanttonotethatAMwillnotresolvealltheexistingprob-
+lemswithconventionalproductionprocesses,butitwillpositivelytransformthecourseof
+thedevelopmentofcompositematerials.
+8. Summary
+Thecurrentreviewdemonstratesthattherehasbeensignificantgrowthinthedevel-
+opmentofnewaircraftmaterials. Thedesignspecificationsforaircraftstructuralmaterials
+demandthatthematerialsshouldbedamagetolerantandpossessimprovedmechanical
+propertiesundervariousoperatingconditions. Forseveralyears,aluminum-basedalloys
+havebeenemployedastheprimarymaterialsduetotheiracquaintedmechanicalbehavior,
+buttheiruseathightemperaturesislimited. Amongallmetalliccomposites,titaniumhas
+beenproventowithstandhightemperatures. However,somechallengeslimittheuseof
+Mg-basedalloysandTi-basedalloysinaircraftapplications. Inrecenttimes, theuseof
+polymermatrixcompositeshasgrownrapidly. Thisisduetotheiroutstandingmechan-
+icalcharacteristicsthatincludehighstiffnessandstrength. Thecarbonfiber-reinforced
+polymermatrixcompositeshavebeenexploredextensivelyduetotheirhighstrengthand
+lightweightbuttheyareeasilysusceptibletostressconcentration. Theaircraftmaterials
+shouldpossesssuitablepropertiessuchaslowdensity,andimprovedmechanicalproper-
+ties,andshouldbecorrosion-resistantathightemperatures. Suchpropertiesofmaterials
+alsodependontheirmanufacturingtechnique. Theefficiencyofthefabricationtechnique
+isdeterminedbythetypeandvolumeofthefibermaterialormatrixused,aseachmaterial
+hasdistinctphysicalpropertiessuchasstiffness,tensilestrength,meltingpoint,andso
+on. Inthefuture,significantinvestigationsarerequiredtodiscovernewcompositesfor
+structuresbycombiningdifferentvariantsandemployingnewmanufacturingtechniques.Polymers2022,14,5007 25of32
+AuthorContributions: Conceptualization,B.P.,M.I.K.;methodologyB.P.,M.I.K.;software,I.A.B.;
+S.K.;M.H.;validation,I.A.B.;S.K.;M.H.,M.A.U.;formalanalysis,I.A.B.;S.K.;M.H.,M.A.U.;investi-
+gation,B.P.,M.I.K.;resources,I.A.B.;S.K.;M.H.,M.A.U.;datacuration,B.P.,M.I.K.;writing—original
+draftpreparation,B.P.,M.I.K.;writing—reviewandediting,I.A.B.;S.K.;M.H.,M.A.U.;visualization,
+B.P.,M.I.K.;supervision,I.A.B.;S.K.;M.H.;projectadministration,B.P.,M.I.K.;fundingacquisition,
+I.A.B.,S.K.andM.H.Allauthorshavereadandagreedtothepublishedversionofthemanuscript.
+Funding:ThisresearchwasfundedbyKingKhalidUniversity.
+InstitutionalReviewBoardStatement:Notapplicable.
+InformedConsentStatement:Notapplicable.
+DataAvailabilityStatement:Dataisavailableinthepaperitself.
+Acknowledgments:TheauthorsextendtheirappreciationtotheDeanshipofScientificResearchat
+KingKhalidUniversityforfundingthisworkthroughtheLargeGroupsProjectundergrantnumber
+RGP.2/101/43. TheauthorsalsoacknowledgetheDepartmentofManufacturingandMaterials
+Engineering,InternationalIslamicUniversityMalaysia,Malaysia,fortechnicalsupport.
+ConflictsofInterest:Theauthorsdeclarenoconflictofinterest.
+References
+1. Dursun,T.;Soutis,C.Recentdevelopmentsinadvancedaircraftaluminiumalloys.Mater.Des.2014,56,862–871.[CrossRef]
+2. Vosteen,L.;Hadcock,R.CompositeChronicles:AStudyoftheLessonsLearnedintheDevelopment,Production,andServiceofComposite
+Structures;NASAContractorReport;NASA:Washington,DC,USA,1994;62p.
+3. Sullivan,R.;Rais-Rohani,M.;Lacy,T.;Alday,N.StructuraltestingofanultralightUAVcompositewing. InProceedingsof
+the47thAIAA/ASME/ASCE/AHS/ASCStructures,StructuralDynamics,andMaterialsConference14thAIAA/ASME/AHS
+AdaptiveStructuresConference7th,Newport,RI,USA,1–4May2006;pp.3403–3412.[CrossRef]
+4. Aabid,A.;Parveez,B.;Parveen,N.;Khan,S.A.;Zayan,J.M.;Shabbir,O.ReviewsonDesignandDevelopmentofUnmanned
+AerialVehicle(Drone)forDifferentApplications.J.Mech.Eng.Res.Dev.2022,45,53–69.
+5. Starke,E.A.;Staley,J.T.Applicationofmodernaluminiumalloystoaircraft,Fundam.Alum.Metall.Prod.Process.Appl.2010,32,
+747–783.[CrossRef]
+6. Pantelakis, S.G.; Chamos, A.N.; Kermanidis, A.T. A critical consideration for the use of Al-cladding for protecting aircraft
+aluminumalloy2024againstcorrosion.Theor.Appl.Fract.Mech.2012,57,36–42.[CrossRef]
+7. Kim,S.T.;Tadjiev,D.;Yang,H.T.Fatiguelifepredictionunderrandomloadingconditionsin7475-T7351aluminumalloyusing
+theRMSmodel.Int.J.DamageMech.2006,15,89–102.[CrossRef]
+8. Yu,J.; Li,X.ModellingoftheprecipitatedphasesandpropertiesofAl-Zn-Mg-Cualloys. J.PhaseEquilibriaDiffus. 2011,32,
+350–360.[CrossRef]
+9. Wanhill,R.J.H.AerospaceApplicationsofAluminum-LithiumAlloys;Elsevier:Amsterdam,TheNetherlands,2013.[CrossRef]
+10. Composites,M.;Lakshmikanthan,A.;Angadi,S.;Malik,V.;Saxena,K.K.;Prakash,C.;Dixit,S.;Mohammed,K.A.Mechanicaland
+TribologicalPropertiesofAluminum-BasedMetal-MatrixComposites.Materials2022,15,6111.
+11. Garg,P.;Jamwal,A.;Kumar,D.;Sadasivuni,K.K.;Hussain,C.M.;Gupta,P.Advanceresearchprogressesinaluminiummatrix
+composites:Manufacturing&applications.J.Mater.Res.Technol.2019,8,4924–4939.[CrossRef]
+12. Das,S.Primarymagnesiumproductioncostsforautomotiveapplications.JOM2008,60,63–69.[CrossRef]
+13. Chen,Y.;Xu,Z.;Smith,C.;Sankar,J.Recentadvancesonthedevelopmentofmagnesiumalloysforbiodegradableimplants.
+ACTABiomater.2014,10,4561–4573.[CrossRef]
+14. Czerwinski,F.Controllingtheignitionandflammabilityofmagnesiumforaerospaceapplications.Corros.Sci.2014,86,1–16.
+[CrossRef]
+15. Ostrovsky, L.; Henn, Y. Present state and future of magnesium application in aerospace industry. In Proceedings of the
+InternationalConference“NewChallengesinAeronautics”ASTEC,Moscow,Russia,19–22August2007;Volume7,pp.1–5.
+16. Inagaki,I.;Takechi,T.;Shirai,Y.;Ariyasu,N.Applicationandfeaturesoftitaniumfortheaerospaceindustry. Nippon. Steel
+SumitomoMet.Tech.Rep.2014,106,22–27.
+17. Sayuti,M.MetalMatrixCompositeProductsbyVibrationCastingMethod. Ref. Modul. Mater. Sci. Mater. Eng. 2016,1–29.
+[CrossRef]
+18. Sommers,A.;Wang,Q.;Han,X.;Joen,C.T.;Park,Y.;Jacobi,A.Ceramicsandceramicmatrixcompositesforheatexchangersin
+advancedthermalsystems—Areview.Appl.Therm.Eng.2010,30,1277–1291.[CrossRef]
+19. Rambabu,V.V.K.P.;Prasad,N.E.;Wanhill,R.J.H.AerospaceMaterialsandMaterialTechnologies. Aerosp. Mater. 2017,1,586.
+[CrossRef]
+20. Balakrishnan,S.T.P.; John,M.J.; Oothen,L.P.; Sreekala,M.S.NaturalFibreCompositesandtheirApplicationsinAerospace
+Engineering.InAdvancedCompositeMaterialsforAerospaceEngineering;WoodheadPublishing:Sawston,UK,2014;pp.365–383.Polymers2022,14,5007 26of32
+21. Rajak,D.K.;Pagar,D.D.;Menezes,P.L.;Linul,E.Fiber-reinforcedpolymercomposites:Manufacturing,properties,andapplica-
+tions.Polymers2019,11,1667.[CrossRef]
+22. Merati,A.;Eastaugh,G.Determinationoffatiguerelateddiscontinuitystateof7000seriesofaerospacealuminumalloys.Eng.
+Fail.Anal.2007,14,673–685.[CrossRef]
+23. Giummarra,C.;Thomas,B.;Rioja,R.J.Newaluminumlithiumalloysforaerospaceapplications. InProceedingsoftheLight
+MetalsTechnologyConference,Montreal,QC,Canada,24–26September2007;Volume27,pp.2–3.
+24. AluminiumMatrixCompositesOffersLandingGearWeightReductions.Availableonline:https://www.aero-mag.com/alvant-
+aluminium-matrix-composites-landing-gear-weight-reductions/(accessedon3July2021).
+25. Koli,D.K.;Agnihotri,G.;Purohit,R.AdvancedAluminiumMatrixComposites:TheCriticalNeedofAutomotiveandAerospace
+EngineeringFields.Mater.TodayProc.2015,2,3032–3041.[CrossRef]
+26. Bharath,V.; Nagaral,M.; Auradi,V.Preparationof6061Al-Al2O3metalmatrixcompositebystircastingandevaluationof
+mechanicalproperties.Int.J.Metall.Mater.Sci.Eng.2012,2,22–31.
+27. Meena,K.L.;Manna,D.A.;Banwait,D.S.S.;Jaswanti,D.AnAnalysisofMechanicalPropertiesoftheDevelopedAl/SiC-MMC’s.
+Am.J.Mech.Eng.2013,1,14–19.[CrossRef]
+28. Rahman,J.F.;Yunus,M.;Yezdani,T.M.T.ChartingofaStrategyfortheApplicationofAluminiumMetalMatrixCompositesfor
+DifferentEngineeringServiceRequirements.Int.J.Mod.Eng.Res.2012,2,1408–1413.
+29. Kar,C.;Surekha,B.EffectofredmudandTiConfrictionandwearcharacteristicsofAl7075metalmatrixcomposites.Aust.J.
+Mech.Eng.2019,20,14–23.[CrossRef]
+30. Cui,Y.;Wang,L.;Ren,J.Multi-functionalSiC/Alcompositesforaerospaceapplications. Chin. J.Aeronaut. 2008,21,578–584.
+[CrossRef]
+31. Kumar,M.S.SiCReinforcementintheSynthesisandCharacterizationofA356/AL2O3/Sic/GrReinforcedComposite—Pavinga
+WayfortheNextGenerationofAircraftApplications.Silicon2020,13,2737–2744.[CrossRef]
+32. Kurzynowski,T.;Pawlak,A.;Smolina,I.ThepotentialofSLMtechnologyforprocessingmagnesiumalloysinaerospaceindustry.
+Arch.Civ.Mech.Eng.2020,20,23.[CrossRef]
+33. Kasprzak,W.;Czerwinski,F.;Niewczas,M.;Chen,D.L.CorrelatingHardnessRetentionandPhaseTransformationsofAlandMg
+CastAlloysforAerospaceApplications.J.Mater.Eng.Perform.2015,24,1365–1378.[CrossRef]
+34. Arruebarrena,G.;Hurtado,I.;Väinölä,J.;Cingi,C.;Dévényi,S.;Townsend,J.;Mahmood,S.;Wendt,A.;Weiss,K.;Ben-Dov,A.
+Developmentofinvestment-castingprocessofMg-alloysforaerospaceapplications.Adv.Eng.Mater.2007,9,751–756.[CrossRef]
+35. Dash,D.;Samanta,S.;Rai,R.N.StudyonFabricationofMagnesiumbasedMetalMatrixCompositesanditsimprovementin
+MechanicalandTribologicalProperties—AReview.InIOPConferenceSeries:MaterialsScienceandEngineering;IOPPublishing:
+Bristol,UK,2018;Volume377.[CrossRef]
+36. Viswanathan,R.;Sivashankar,N.;Chandrakumar,S.;Karthik,R.Improvingcorrosionresistanceofmagnesiumalloyforaerospace
+applications.Int.J.Mech.Prod.Eng.Res.Dev.2019,9,769–774.[CrossRef]
+37. Anbarasan,A.;Alvin,P.A.;Kannan,K.;Lokesh,M.Mechanicalcharacterisationofmagnesiummatrixcompositeforaerospace
+application.Int.J.Res.Anal.Rev.2020,7,724–729.
+38. Rashad,M.;Pan,F.;Guo,W.;Lin,H.;Asif,M.;Irfan,M.Effectofaluminaandsiliconcarbidehybridreinforcementsontensile,
+compressiveandmicrohardnessbehaviorofMg-3Al-1Znalloy.Mater.Charact.2015,106,382–389.[CrossRef]
+39. Metcalfe,A.G.InteractionandFractureofTitanium-BoronComposites.J.Compos.Mater.2015,1,356–365.[CrossRef]
+40. Guo,S.FibersizeeffectsonmechanicalbehavioursofSiCfibres-reinforcedTi3AlC2matrixcomposites.J.Eur.Ceram.Soc.2017,
+37,5099–5104.[CrossRef]
+41. Wu,T.;Qiao,J.;Jiang,D.Preparationandpropertiesofcarbonfiber/titaniumalloycompositeforautomobile.Lect.NotesElectr.
+Eng.2016,364,289–295.[CrossRef]
+42. Morsi,K.;Patel,V.V.Processingandpropertiesoftitanium-titaniumboride(TiBw)matrixcomposites—Areview.J.Mater.Sci.
+2007,42,2037–2047.[CrossRef]
+43. Sivakumar,S.R.G.;Ananthi,V.ProductionandmechanicalpropertiesofnanoSiCparticlereinforcedTi–6Al–4Vmatrixcomposite.
+Trans.NonferrousMet.Soc.China2017,27,82–90.[CrossRef]
+44. Dougherty,T.;Xu,Y.;Hanizan,A.MechanicalpropertiesandmicrostructureofPMTi-Si3N4discontinuousfibrecomposite.
+InTMS2016145thAnnualMeeting&Exhibition,AnnualMeetingSupplementalProceedings;Springer:Cham,Switzerland,2016;
+pp.721–728.[CrossRef]
+45. Geng, L.; Ni, D.R.; Zhang, J.; Zheng, Z.Z. Hybrid effect of TiBw and TiCp on tensile properties of in situ titanium matrix
+composites.J.AlloysCompd.2008,463,488–492.[CrossRef]
+46. Munir,K.S.;Kingshott,P.;Wen,C.Carbonnanotubereinforcedtitaniummetalmatrixcompositespreparedbypowdermetallurgy—
+Areview.Crit.Rev.SolidStateMater.Sci.2015,40,38–55.[CrossRef]
+47. Huang,L.J.;Geng,L.;Peng,H.X.Microstructurallyinhomogeneouscomposites:Isahomogeneousreinforcementdistribution
+optimal?Prog.Mater.Sci.2015,71,93–168.[CrossRef]
+48. Cui,S.;Cui,C.;Xie,J.;Liu,S.;Shi,J.CarbonfiberscoatedwithgraphenereinforcedTiAlalloycompositewithhighstrengthand
+toughness.Sci.Rep.2018,8,2364.[CrossRef]
+49. Liu,C.;Huang,L.J.;Geng,L.;Jiao,Y.;Tang,A.InSituSynthesisof(TiC+Ti3SiC2+Ti5Si3)/Ti6Al4VCompositeswithTailored
+Two-scaleArchitecture.Adv.Eng.Mater.2015,17,933–941.[CrossRef]Polymers2022,14,5007 27of32
+50. Kim,I.Y.;Choi,B.J.;Kim,Y.J.;Lee,Y.Z.Frictionandwearbehavioroftitaniummatrix(TiB+TiC)composites.Wear2011,271,
+1962–1965.[CrossRef]
+51. An,Q.;Huang,L.J.;Bao,Y.;Zhang,R.;Jiang,S.;Geng,L.;Xiao,M.Dryslidingwearcharacteristicsofin-situTiBw/Ti Al V
+6 4
+compositeswithdifferentnetworkparameters.Tribol.Int.2018,121,252–259.[CrossRef]
+52. Chaudhari,R.;Bauri,R.AnovelfunctionallygradientTi/TiB/TiChybridcompositewithwearresistantsurfacelayer.J.Alloys
+Compd.2018,744,438–444.[CrossRef]
+53. Zhu,K.;Xu,Y.J.;Jing,T.;Hou,H.L.FracturebehaviorofacompositecomposedbyTi-aluminidemulti-layeredandcontinuous-
+SiCf-reinforcedTi-matrix.RareMet.2017,36,925–933.[CrossRef]
+54. Launey,M.E.;Ritchie,R.O.Onthefracturetoughnessofadvancedmaterials.Adv.Mater.2009,21,2103–2110.[CrossRef]
+55. Yan-Qing,Y.;Xian,L.;Bin,H.;Jian-kang,L.;Yan,C.FracturetoughnessofSiCf/Ti-6Al-4Vcomposites.Trans.Mater.HeatTreat.
+2010,31,1–4.
+56. Hayat,M.D.;Singh,H.;He,Z.;Cao,P.Titaniummetalmatrixcomposites:Anoverview.Compos.PartAAppl.Sci.Manuf.2019,
+121,418–438.[CrossRef]
+57. Takahashi,N.;Sato,T.;Nakatsuka,S.;Fujiwara,K.;Yoshida,K.;Yokozeki,T.TitaniumMetalMatrixCompositedevelopment
+forcommercialaircraftlandinggearstructure.InProceedingsofthe28thInternationalCongressoftheAeronauticalSciences,
+Brisbane,QLD,Australia,23–28September2012;Volume3,pp.1902–1909.
+58. Haghshenas,M.Metal—MatrixComposites.InReferenceModuleinMaterialsScienceandMaterialsEngineering;Elsevier:Amster-
+dam,TheNetherlands,2016;pp.1–28.[CrossRef]
+59. Yeshwanth,G.;Reddy,K.S.StaticanddynamicanalysisofaircraftwingmadebyLM25andALSiCmetalmatrixcomposite.Int.
+J.Eng.Adv.Technol.2019,8,1319–1325.[CrossRef]
+60. Diju,G.;Samuel,J.;RajaDhas,G.E.;Ramanan,M.Ramachandran,ProductionandmicrostructurecharacterizationofAA6061
+matrixactivatedcarbonparticulatereinforcedcompositebyfrictionstircastingmethod. RasayanJ.Chem. 2017,10,784–789.
+[CrossRef]
+61. Mavhungu,S.T.;Akinlabi,E.T.;Onitiri,M.A.;Varachia,F.M.Aluminiummatrixcompositesforindustrialuse:Advancesand
+trends.ProcediaManuf.2017,7,178–182.[CrossRef]
+62. Sun,Y.;Choi,H.;Konishi,H.;Pikhovich,V.;Hathaway,R.;Chen,L.;Li,X.Effectofcore-shellednanoparticlesofcarbon-coated
+nickelonmagnesium.Mater.Sci.Eng.A.2012,546,284–290.[CrossRef]
+63. Shaga, A.; Shen, P.; Sun, C.; Jiang, Q. Lamellar-interpenetrated Al-Si-Mg/SiC composites fabricated by freeze casting and
+pressurelessinfiltration.Mater.Sci.Eng.A.2015,630,78–84.[CrossRef]
+64. Dhanashekar,M.;Kumar,V.S.S.Squeezecastingofaluminiummetalmatrixcomposites—Anoverview.ProcediaEng.2014,97,
+412–420.[CrossRef]
+65. Patil,J.;Patil,M.H.SqueezeCastingFabricationProcessImportanceforMMCFabrication—AReview.Int.J.LatestTechnol.Eng.
+Manag.Appl.Sci.2019,VIII,44–47.
+66. Alhashmy,H.FabricationofAluminiumMatrixComposites(AMCs)bySqueezeCastingTechniqueUsingCarbonFiberas
+Reinforcement.Ph.D.Thesis,UniversityofOttawa,Ottawa,ON,Canada,2012.
+67. Singerman,S.A.;Jackson,J.J.TitaniumMetalMatrixCompositesforAerospaceApplications.InSuperalloys1996,Proceedingsof
+eighthInternationalSymposiumonSuperalloys,Champion,PA,USA,22–26September1996;Minerals,Metals&MaterialsSociety:
+Warrendale,PA,USA;pp.579–586.[CrossRef]
+68. Chawla,N.;Chawla,K.K.MetalMatrixComposites;Springer:NewYork,NY,USA,2013.[CrossRef]
+69. TheGreatMetalTubeintheSky|MaterialStrategies.Availableonline:https://arch5541.wordpress.com/2013/01/08/the-great-
+metal-tube-in-the-sky/(accessedon6July2021).
+70. Journal of Young Investigators. The Boeing 787 Dreamliner: Designing an Aircraft for the Future. 2020. Available online:
+https://www.jyi.org/2010-august/2010/8/6/the-boeing-787-dreamliner-designing-an-aircraft-for-the-future (accessed on
+2July2021).
+71. Fahrenholtz,W.G.;Hilmas,G.E.;Talmy,I.G.;Zaykoski,J.A.Refractorydiboridesofzirconiumandhafnium.J.Am.Ceram.Soc.
+2007,90,1347–1364.[CrossRef]
+72. Silvestroni,L.;Sciti,D.;Melandri,C.;Guicciardi,S.ToughenedZrB -basedceramicsthroughSiCwhiskerorSiCchoppedfiber
+2
+additions.J.Eur.Ceram.Soc.2010,30,2155–2164.[CrossRef]
+73. Halbig,M.C.;Jaskowiak,M.H.;Kiser,J.D.;Zhu,D.Evaluationofceramicmatrixcompositetechnologyforaircraftturbineengine
+applications.InProceedingsofthe51stAIAAAerospaceSciencesMeetingincludingtheNewHorizonsForumandAerospace
+Exposition,Dallas,TX,USA,7–10January2013.[CrossRef]
+74. Siskind,K.S.;Hartford,E.;Orlando,I.;Siskind,K.S.Glass-CeramicMatrixCompositesforAdvancedGasTurbines.InProceedings
+ofthe26thJointPropulsionConference,Orlando,FL,USA,16–18July1990;p.2014.
+75. Fan,S.;Zhang,L.;Cheng,L.;Tian,G.;Yang,S.Effectofbrakingpressureandbrakingspeedonthetribologicalpropertiesof
+C/SiCaircraftbrakematerials.Compos.Sci.Technol.2010,70,959–965.[CrossRef]
+76. Fan,S.; Zhang,L.; Cheng,L.; Zhang,J.; Yang,S.; Liu,H.WearmechanismsoftheC/SiCbrakematerials. Tribol. Int. 2011,
+44,25–28.[CrossRef]
+77. Lu,Z.L.;Lu,F.;Cao,J.W.;Li,D.C.Manufacturingpropertiesofturbinebladesofcarbonfiber-reinforcedSiCcompositebasedon
+stereolithography.Mater.Manuf.Process.2014,29,201–209.[CrossRef]Polymers2022,14,5007 28of32
+78. Fan,S.;Yang,C.;He,L.;Du,Y.;Krenkel,W.;Greil,P.;Travitzky,N.Progressofceramicmatrixcompositesbrakematerialsfor
+aircraftapplication.Rev.Adv.Mater.Sci.2016,44,313–325.
+79. Low,I.M.Advancesinceramicmatrixcomposites:Introduction.InAdvancesinCeramicMatrixComposites,2nded.;Woodhead
+Publishing:Sawston,UK,2018;pp.1–7.[CrossRef]
+80. Kumar,S.;Kumar,A.;Mala,R.B.;Mokhasunavisu,R.R.FabricationandAblationStudiesof4DC/SiCCompositeNozzleunder
+LiquidPropulsion.Int.J.Appl.Ceram.Technol.2015,12,E176–E190.[CrossRef]
+81. Kumar,S.;Kumar,A.;Sampath,K.;Prasad,V.V.B.;Chaudhary,J.C.;Gupta,A.K.;Devi,G.R.Fabricationanderosionstudiesof
+C-SiCcompositeJetVanesinsolidrocketmotorexhaust.J.Eur.Ceram.Soc.2011,31,2425–2431.[CrossRef]
+82. Lee,R.G.B.;Mitic,V.ProceedingsoftheIVAdvancedCeramicsandApplicationsConference;AtlantisPress:Paris,France,2017.
+83. Vaidyaraman,S.;Purdy,M.;Walker,T.;Horst,S.C/SiCMaterialEvaluationforAircraftBrakeApplications.HighTemp.Ceram.
+MatrixCompos.2006,802–808.[CrossRef]
+84. Lacombe,A.;Spriet,P.;Allaria,A.;Bouillon,E.;Habarou,G.CeramicMatrixCompositestomakebreakthroughsinaircraft
+engineperformance.InProceedingsofthe50thAIAA/ASME/ASCE/AHS/ASCStructures,StructuralDynamics,andMaterials
+Conference17thAIAA/ASME/AHSAdaptiveStructuresConference11thAIAANo,PalmSpring,CA,USA,4–7May2009.
+85. Christin,F.Design,FabricationandApplicationsofC/C,C/SiandSiC/SiCComposites.HighTemp.Ceram.MatrixCompos.2006,
+729–743.[CrossRef]
+86. Awasthi,S.;Wood,J.L.Carbon/CarbonCompositeMaterialsforAircraftBrakes.InCeramicEngineeringandScienceProceedings,
+Proceedingsofthe12thAnnualConferenceonCompositesandAdvancedCeramicMaterials;JohnWiley&Sons,Inc.:Hoboken,NJ,USA,
+2008;Volume560,pp.553–559.[CrossRef]
+87. Berdoyes,M.SnecmapropulsionsolideadvancedtechnologySRMnozzles,historyandfuture. InProceedingsofthe42nd
+AIAA/ASME/SAE/ASEEJointPropulsionConference&Exhibit,Sacramento,CA,USA,9–12July2006;Volume4,pp.2888–2903.
+[CrossRef]
+88. Renz, R.; Krenkel, W. C/C-SiC Composites for High Performance Emergency Brake. In Proceedings of the 9th European
+ConferenceonCompositeMaterials,DesignandApplications,Brighton,UK,4–7June2000;Volume2021,pp.1–2.
+89. Schmidt,J.;Scheiffele,M.;Krenkel,W.EngineeringofCMCTubularComponents. HighTemp. Ceram. MatrixCompos. 2006,
+826–831.[CrossRef]
+90. Labanti,M.;Martignani,G.;Mingazzini,C.;Minoccari,G.L.;Pilotti,L.;Ricci,A.;Weiss,R.EvaluationofDamagebyOxidation
+CorrosionatHighTemperaturesofCoatedC/C-SiCCeramicComposite. HighTemp. Ceram. MatrixCompos. 2006,218–223.
+[CrossRef]
+91. Chowdhury,P.;Sehitoglu,H.;Rateick,R.Damagetoleranceofcarbon-carboncompositesinaerospaceapplication.Carbon2018,
+126,382–393.[CrossRef]
+92. HowDoAircraftBrakesWork?|Engineering360.Availableonline:https://insights.globalspec.com/article/12903/how-do-
+aircraft-brakes-work(accessedon2July2021).
+93. Krenkel,W.CarbonFibreReinforcedSiliconCarbideComposites(C/SiC,C/C-SiC).InHandbookofCeramicComposites;Springer:
+Boston,MA,USA,2006;pp.117–148.[CrossRef]
+94. Chen,M.;Qiu,H.;Jiao,J.;Wang,Y.;Xie,W.Hightemperatureoxidationbehaviorofsiliconcarbideceramic.KeyEng.Mater.2016,
+680,89–92.[CrossRef]
+95. Udayakumar,A.;Ganesh,A.S.;Raja,S.;Balasubramanian,M.Effectofintermediateheattreatmentonmechanicalpropertiesof
+SiCf/SiCcompositeswithBNinterphasepreparedbyICVI.J.Eur.Ceram.Soc.2011,31,1145–1153.[CrossRef]
+96. Yoshida,K.Developmentofsiliconcarbidefiber-reinforcedsiliconcarbidematrixcompositeswithhighperformancebasedon
+interfacialandmicrostructurecontrol.J.Ceram.Soc.Jpn.2010,118,82–90.[CrossRef]
+97. Ding,D.;Zhou,W.;Luo,F.;Chen,M.;Zhu,D.MechanicalpropertiesandoxidationresistanceofSiCf/CVI-SiCcompositeswith
+PIP-SiCinterphase.Ceram.Int.2012,38,3929–3934.[CrossRef]
+98. Chen,M.;Qiu,H.;Xie,W.;Zhang,B.;Liu,S.;Luo,W.;Ma,X.ResearchProgressofContinuousFiberReinforcedCeramicMatrix
+CompositeinHotSectionComponentsofAeroengine.InIOPConferenceSeries:MaterialsScienceandEngineering;IOPPublishing:
+Bristol,UK,2019;Volume678.[CrossRef]
+99. Kiser,J.D.;David,K.E.;Davies,C.;Andrulonis,R.;Ashforth,C.Updatingcompositematerialshandbook-17volume5—ceramic
+matrixcomposites.Ceram.Trans.2018,263,413–423.[CrossRef]
+100. TheCeramicSocietyofJapan.AdvancedCeramicTechnologies&Products;SpringerScience&BusinessMedia:Tokyo,Japan,2012;
+Volume585,p.XV.
+101. Fangueiro,R.AdvancedCompositeMaterialsforAerospaceEngineering;WoodheadPublishing:Sawston,UK,2016.
+102. Popov, O.; Vleugels, J.; Huseynov, A.; Vishnyakov, V. Reactive sintering of TiB2-SiC-CNT ceramics. Ceram. Int. 2019, 45,
+22769–22774.[CrossRef]
+103. Levashov, E.A.; Mukasyan, A.S.; Rogachev, A.S.; Shtansky, D.V. Self-propagating high-temperature synthesis of advanced
+materialsandcoatings.Int.Mater.Rev.2017,62,203–239.[CrossRef]
+104. Fujimura,T.;Cabe,J.L.HYPRSO-TTurboEngineResearchforHSTCombinedCycleEngine;SAETechnicalPaper;J-Global:Tokyo,
+Japan,2019.
+105. HypersonicCompositesResistExtremeHeatandStress|NASASpinoff.Availableonline:https://spinoff.nasa.gov/Spinoff2007/
+ip_5.html(accessedon2July2021).Polymers2022,14,5007 29of32
+106. Bansal,J.;Lamon,N.P.CeramicMatrixComposites:Materials,ModelingandTechnology;JohnWiley&Sons:Hoboken,NJ,USA,2014.
+[CrossRef]
+107. Misra,A.CompositeMaterialsforAerospacePropulsionRelatedtoAirandSpaceTransportation;WoodheadPublishing: Sawston,
+UK,2016.[CrossRef]
+108. James, N. (Ed.) Lightweight Composite Structures in Transport: Design, Manufacturing, Analysis and Performance; Woodhead
+Publishing:Sawston,UK,2016.
+109. GEPassportEngineDebutsCeramicMatrixComposite—AerospaceManufacturingandDesign.Availableonline:https://www.
+aerospacemanufacturinganddesign.com/article/ge-passport-engine-debuts-ceramic-matrix-composite-110613/(accessedon
+15July2021).
+110. Destefan,J.CeramicMatrixCompositesMakeInroadsinAerospace;WoodheadPublishing: Sawston,UK,2013. Availableonline:
+https://ceramics.org/ceramic-tech-today/ceramic-matrix-composites-make-inroads-in-aerospace(accessedon15July2021).
+111. Kameda,T.;Sayano,A.;Amiji,N.;Ichikawa,H.;Hamada,H.;Fujita,A.;Uozumi,T.Fabricationandmechanicalpropertiesof
+reactionsinteredsiliconcarbidematrixcomposite.InCeramicEngineeringandScienceProceedings,Proceedingsofthe21stAnnual
+ConferenceonComposites,AdvancedCeramics,Materials,andStructures—A,CocoaBeach,FL,USA,12–16January1997;JohnWiley&
+Sons,Inc.:Hoboken,NJ,USA,2009;pp.419–426.
+112. GESuccessfullyTestsWorld’sFirstRotatingCeramicMatrixCompositeMaterialforNext-GenCombatEngine.Availableon-
+line:https://www.geaviation.com/press-release/military-engines/ge-successfully-tests-worlds-first-rotating-ceramic-matrix-
+composite(accessedon15July2021).
+113. Howard,C.E.CeramicMatrixCompositesinAircraftEnginesProjectedtoDoubleoverFiveYears,StratviewResearchPredicts,
+SAEInternational.2018.Availableonline:https://www.sae.org/news/2018/07/ceramic-matrix-composites-in-aircraft-engines-
+projected-to-double-over-five-years-stratview-research-predicts(accessedon17October2022).
+114. Sharma,A.K.;Bhandari,R.;Sharma,C.;Dhakad,S.K.;Pinca-Bretotean,C.Polymermatrixcomposites: Astateofartreview.
+Mater.TodayProc.2022,57,2330–2333.[CrossRef]
+115. Kesarwani,S.PolymerCompositesinAviationSector.Int.J.Eng.Res.2017,V6,518–525.[CrossRef]
+116. Maria,M.Advancedcompositematerialsofthefutureinaerospaceindustry.IncasBull.2013,5,139–150.[CrossRef]
+117. Atique,M.S.A.;Probha,N.N.;Nafi,A.S.Polymercomposites:Ablessingtomodernaerospaceengineering.InProceedingsofthe
+InternationalConferenceonMechanical,IndustrialandEnergyEngineering,Khulna,Bangladesh,26–27December2014;pp.1–6.
+118. Klocke,F.;Zeis,M.;Klink,A.;Veselovac,D.ExperimentalresearchontheElectrochemicalMachiningofmoderntitanium-and
+nickel-basedalloysforaeroenginecomponents.ProcediaCIRP2013,6,368–372.[CrossRef]
+119. Dwi,A.Z.;Syamsudin,H.ManufacturingFiberglass-EpoxyLSU-03AircraftPropellerUsingHandLay-upandVacuumAssisted
+ResinTransferMoulding(VARTM)Methods.InIOPConferenceSeries:MaterialsScienceandEngineering;IOPPublishing:Bristol,
+UK,2019;Volume645.[CrossRef]
+120. Asim,M.;Paridah,M.T.;Chandrasekar,M.;Shahroze,R.M.;Jawaid,M.;Nasir,M.;Siakeng,R.Thermalstabilityofnaturalfibers
+andtheirpolymercomposites.Iran.Polym.J.2020,29,625–648.[CrossRef]
+121. Khajeh,A.;Mustapha,F.;Sultan,M.T.H.;Bánhegyi,G.;Karácsony,Z.;Baranyai,V.TheEffectofThermooxidativeAgingonthe
+DurabilityofGlassFiber-ReinforcedEpoxy.Adv.Mater.Sci.Eng.2015,2015,372354.[CrossRef]
+122. Barile,C.;Casavola,C.MechanicalCharacterizationofCarbonFiber-ReinforcedPlasticSpecimensforAerospaceApplications;Elsevier
+Ltd.:Amsterdam,TheNetherlands,2018.[CrossRef]
+123. Li,Y.;Wang,S.;Wang,Q.Amoleculardynamicssimulationstudyonenhancementofmechanicalandtribologicalpropertiesof
+polymercompositesbyintroductionofgraphene.Carbon2017,111,538–545.[CrossRef]
+124. Guadagno,L.;Raimondo,M.;Vittoria,V.;Vertuccio,L.;Naddeo,C.;Russo,S.;deVivo,B.;Lamberti,P.;Spinelli,G.;Tucci,V.
+Developmentofepoxymixturesforapplicationinaeronauticsandaerospace.RSCAdv.2014,4,15474–15488.[CrossRef]
+125. Oh,H.J.;Song,Y.S.Surfacestrengtheningofinjectionmoldedpartsbyapplyingathermalinsulationfilm. RSCAdv. 2017,7,
+14302–14308.[CrossRef]
+126. Marcomini,A.L.;Rego,B.T.;Bretas,R.E.S.Improvementoftheshort-andlong-termmechanicalpropertiesofinjection-molded
+poly(etheretherketone)andhydroxyapatitenanocomposites.J.Appl.Polym.Sci.2017,134,1–14.[CrossRef]
+127. Bledzki, A.K.; Faruk, O.Influenceofdifferentendothermicfoamingagentsonmicrocellularinjectionmouldedwoodfibre
+reinforcedPPcomposites.Cell.Polym.2006,25,143–158.[CrossRef]
+128. Wang,Y.H.; Chen,Y.K.; Rodrigue,D.Productionofthermoplasticelastomersbasedonrecycledpeandgroundtirerubber:
+Morphology,mechanicalpropertiesandeffectofcompatibilizeraddition.Int.Polym.Process.2018,33,525–534.[CrossRef]
+129. Yang,B.;Fu,X.R.;Yang,W.;Liang,S.P.;Sun,N.;Hu,S.;Yang,M.B.Effectofmeltandmoldtemperaturesonthesolidification
+behaviorofHDPEduringgas-assistedinjectionmolding:Anenthalpytransformationapproach.Macromol.Mater.Eng.2009,294,
+336–344.[CrossRef]
+130. Zheng, G.Q.; Yang, W.; Huang, L.; Li, Z.M.; Yang, M.B.; Yin, B.; Li, Q.; Liu, C.T.; Shen, C.Y.Theroleofgaspenetrationon
+morphologicalformationofpolycarbonate/polyethyleneblendmoldedbygas-assistedinjectionmolding.J.Mater.Sci.2007,42,
+7275–7285.[CrossRef]
+131. Demers,V.;Turenne,S.;Scalzo,O.Impactofbindersonviscosityoflow-pressurepowderinjectionmoldedInconel718superalloy.
+J.Mater.Sci.2015,50,2893–2902.[CrossRef]Polymers2022,14,5007 30of32
+132. Mohan,D.G.;Gopi,S.;Rajasekar,V.;Krishnan,K.;Mohan,D.G.;Selvarajan,L.;Rajavel,R.;Prakash,B.;Mohan,D.G.;Gopi,S.;etal.
+Microinjectionmouldedpolyetheretherketonebiomaterialsasspinalimplants:Physico-chemicalandmechanicalcharacterisation.
+Mater.TodayProc.2019,27,1–31.[CrossRef]
+133. Leong,Y.W.;Thitithanasarn,S.;Yamada,K.;Hamada,H.CompressionandInjectionMoldingTechniquesforNaturalFiberComposites;
+WoodheadPublishingLimited:Sawaston,UK,2013.[CrossRef]
+134. Dirckx,M.E.;Hardt,D.E.Analysisandcharacterizationofdemoldingofhotembossedpolymermicrostructures.J.Micromechanics
+Microengineering2011,21,085024.[CrossRef]
+135. Ye,H.;Liu,X.Y.;Hong,H.Fabricationofmetalmatrixcompositesbymetalinjectionmolding—Areview.J.Mater.Process.Technol.
+2008,200,12–24.[CrossRef]
+136. Hamidi,M.F.F.A.;Harun,W.S.W.;Samykano,M.;Ghani,S.A.C.;Ghazalli,Z.;Ahmad,F.;Sulong,A.B.Areviewofbiocompatible
+metalinjectionmouldingprocessparametersforbiomedicalapplications.Mater.Sci.Eng.C2017,78,1263–1276.[CrossRef]
+137. Fu,H.;Xu,H.;Liu,Y.;Yang,Z.;Kormakov,S.;Wu,D.;Sun,J.OverviewofInjectionMoldingTechnologyforProcessingPolymers
+andTheirComposites.ESMater.Manuf.2020,8,3–23.[CrossRef]
+138. Arao, Y.; Yumitori, S.; Suzuki, H.; Tanaka, T.; Tanaka, K.; Katayama, T. Mechanical properties of injection-molded carbon
+fiber/polypropylenecompositeshybridizedwithnanofillers.Compos.PartAAppl.Sci.Manuf.2013,55,19–26.[CrossRef]
+139. Li,J.;Yang,S.;Xu,F.;Jiang,S.PropertiesandStructureofFiber-ReinforcedInjection-MoldedPart.InMATECWebofConferences,
+ProceedingsoftheInternationalSymposiumonMaterialsApplicationandEngineering(SMAE2016),ChiangMai,Thailand,20–21August
+2016;EDPSciences:LesUlis,France,2016;Volume67,pp.1–5.[CrossRef]
+140. Sozer,E.M.;Simacek,P.;Advani,S.G.ResinTransferMolding(RTM)inPolymerMatrixComposites;WoodheadPublishingLimited:
+Sawston,UK,2012.[CrossRef]
+141. VanVelthem,P.;Ballout,W.;Daoust,D.;Sclavons,M.;Cordenier,F.;Henry,E.;Dumont,D.;Destoop,V.;Pardoen,T.;Bailly,C.
+InfluenceofthermoplasticdiffusiononmorphologygradientandondelaminationtoughnessofRTM-manufacturedcomposites.
+Compos.PartAAppl.Sci.Manuf.2015,72,175–183.[CrossRef]
+142. Laurenzi,S.;Marchetti,M.AdvancedCompositeMaterialsbyResinTransferMoldingforAerospaceApplications.InComposites
+andTheirProperties;IntechOpen:London,UK,2012.[CrossRef]
+143. Shuart,M.J.;Dexter,H.B.;Marchello,J.M.;Grenoble,R.W.;Dominion,O.AutomatedFabricationTechnologiesforHighPerformance
+PolymerComposites;TechnicalMemorandum(TM);NASA:Washington,DC,USA,1998.
+144. Park,C.H.;Lee,W.I.CompressionMoldinginPolymerMatrixComposites;WoodheadPublishingLimited: Saawston,UK,2012.
+[CrossRef]
+145. Mitschang,P.;Hildebrandt,K.Polymerandcompositemouldingtechnologiesforautomotiveapplications.Adv.Mater.Automot.
+Eng.2012,210–229.[CrossRef]
+146. Eguémann,N.;Giger,L.;Roux,M.;Dransfeld,C.;Thiébaud,F.;Perreux,D.Compressionmouldingofcomplexpartsforthe
+aerospacewithdiscontinuousnovelandrecycledthermoplasticcompositematerials.InProceedingsofthe19thInternational
+ConferenceonCompositeMaterials,Montréal,QC,Canada,28July–2August2013;pp.6616–6626.
+147. RamôaCorreia,J.Pultrusionofadvancedfibre-reinforcedpolymer(FRP)composites.InAdvancedFibre-ReinforcedPolymer(FRP)
+CompositesforStructuralApplications;WoodheadPublishing:Sawston,UK,2013;pp.207–251.[CrossRef]
+148. Holmes,M.Highvolumecompositesfortheautomotivechallenge.Reinf.Plast.2017,61,294–298.[CrossRef]
+149. Elkington,M.;Bloom,D.;Ward,C.;Chatzimichali,A.;Potter,K.Handlayup:Understandingthemanualprocess.Adv.Manuf.
+Polym.Compos.Sci.2015,1,138–151.[CrossRef]
+150. Balakrishnan,S.;John,P.;Pothen,M.J.;Sreekala,L.;Thomas,M.S.NaturalLightweightHybridCompositesforAircraftStructural
+Applications;WoodheadPublishing:Sawaston,UK,2016.[CrossRef]
+151. Acquah,C.;Datskov,I.;Mawardi,A.;Zhang,F.;Achenie,L.E.K.;Pitchumani,R.;Santos,E.Optimizationunderuncertaintyofa
+compositefabricationprocessusingadeterministicone-stageapproach.Comput.Chem.Eng.2006,30,947–960.[CrossRef]
+152. Joshi,S.C.; Chen,X.Time-variantsimulationofmulti-materialthermalpultrusion. Appl. Compos. Mater. 2011,18,283–296.
+[CrossRef]
+153. NeelakanteGowda,G.R.;Varughese,B.;Arumugam,G.A14-seatercivilaircraftdesignwithaninnovativecompositestructure.
+JECCompos.Mag.2013,6,951–952.
+154. Viscardi,M.;Arena,M.;Cerreta,P.;Iaccarino,P.Designandprototypingofanovelcompositearchitectureforawidebodylanding
+gearbay.Mater.TodayProc.2019,34,288–292.[CrossRef]
+155. Viscardi,M.;Arena,M.;Cerreta,P.;Iaccarino,P.;Imparato,S.I.ManufacturingandValidationofaNovelCompositeComponent
+forAircraftMainLandingGearBay.J.Mater.Eng.Perform.2019,28,3292–3300.[CrossRef]
+156. Arena,M.;Chiariello,A.;Castaldo,M.;diPalma,L.Vibrationresponseaspectsofamainlandinggearcompositedoordesigned
+forhigh-speedrotorcraft.Aerospace2021,8,52.[CrossRef]
+157. Arockiam,N.J.;Jawaid,M.;Saba,N.SustainableBioCompositesforAircraftComponents;ElsevierLtd.:Amsterdam,TheNether-
+lands,2018.[CrossRef]
+158. Raja,D.B.P.;Retnam,B.S.J.Effectofshortfibreorientationonthemechanicalcharacterizationofacompositematerial-hybrid
+fibrereinforcedpolymermatrix.Bull.Mater.Sci.2019,42,111.[CrossRef]
+159. Boegler,A.;Kling,O.;Empl,U.;Isikveren,D.PotentialofSustainableMaterialsinWingStructuralDesign;DeutscheGesellschaftfür
+Luft-undRaumfahrt-Lilienthal-ObertheV:Bonn,Germany,2014;Volume327,pp.1–6.Polymers2022,14,5007 31of32
+160. Irving,C.;Soutis,P.E.PolymerCompositesintheAerospaceIndustry;WoodheadPublishing:Sawston,UK,2019.
+161. Yasa, E.; Ersoy, K. A review on the additive manufacturing of fiber reinforced polymer matrix composites, Solid Free. In
+Proceedingsofthe2018InternationalSolidFreeformFabricationSymposium,Austin,TX,USA,13–15August2018;pp.1024–1033.
+162. Toldy,A.;Szolnoki,B.;Marosi,G.Flameretardancyoffibre-reinforcedepoxyresincompositesforaerospaceapplications.Polym.
+Degrad.Stab.2011,96,371–376.[CrossRef]
+163. Zhang,J.;Chevali,V.S.;Wang,H.;Wang,C.H.Currentstatusofcarbonfibreandcarbonfibrecompositesrecycling.Compos.Part
+BEng.2020,193,108053.[CrossRef]
+164. O’Higgins,R.M.;McCarthy,M.A.;McCarthy,C.T.Comparisonofopenholetensioncharacteristicsofhighstrengthglassand
+carbonfibre-reinforcedcompositematerials.Compos.Sci.Technol.2008,68,2770–2778.[CrossRef]
+165. Oladele,I.O.;Omotosho,T.F.;Adediran,A.A.Polymer-BasedComposites:AnIndispensableMaterialforPresentandFuture
+Applications.Int.J.Polym.Sci.2020,2020,8834518.[CrossRef]
+166. Koniuszewska,A.G.;Kaczmar,J.W.Applicationofpolymerbasedcompositematerialsintransportation. Prog. RubberPlast.
+Recycl.Technol.2016,32,1–23.[CrossRef]
+167. Jayalakshmi,C.G.;Inamdar,A.;Anand,A.;Kandasubramanian,B.Polymermatrixcompositesasbroadbandradarabsorbing
+structuresforstealthaircrafts.J.Appl.Polym.Sci.2019,136,47241.[CrossRef]
+168. Kumar,G.B.V.;Gouda,P.S.S.;Umarfarooq,M.A.;Polayya,C.InfluenceofMWCNTsonmechanicalandviscoelasticpropertiesof
+glass-carbonepoxycomposite.AIPConf.Proc.2021,2408,020016.[CrossRef]
+169. Gouda,P.S.S.;Sridhar,I.;Umarfarooq,M.A.CracksuppressioninglassepoxyhybridL-bendcompositesthroughdrawdown
+coatingtechniqueusingnanoandmicrofillers.Mater.TodayProc.2022,62,7292–7296.[CrossRef]
+170. Choukimath,M.C.;Banapurmath,N.R.;Riaz,F.;Patil,A.Y.;Jalawadi,A.R.;Mujtaba,M.A.;Shahapurkar,K.;Khan,T.M.Y.;Alsehli,
+M.;Soudagar,M.E.M.;etal.ExperimentalandComputationalStudyofMechanicalandThermalCharacteristicsofh-BNand
+GNPInfusedPolymerCompositesforElevatedTemperatureApplications.Materials2022,15,5397.[CrossRef]
+171. Ojijo, V.; Ray, S.S. Processing Thermoset-Based Nanocomposites; Springer International Publishing: Cham, Switzerland, 2018.
+[CrossRef]
+172. Hallad,S.A.;Banapurmath,N.R.;Khan,T.M.Y.;Umarfarooq,M.A.;Soudagar,M.E.M.;Hunashyal,A.M.;Gujjar,S.V.;Yaradoddi,
+J.S.;Ganachari,S.S.;Elfasakhany,A.;etal.Statisticalanalysisofpolymernanocompositesformechanicalproperties.Molecules
+2021,26,4135.[CrossRef]
+173. Deshmukh,K.;Ahamed,M.B.;Deshmukh,R.R.;Pasha,S.K.K.;Bhagat,P.R.;Chidambaram,K.BiopolymerCompositeswithHigh
+DielectricPerformance:InterfaceEngineering;ElsevierInc.:Amsterdam,TheNetherlands,2017.[CrossRef]
+174. Potts,J.R.;Dreyer,D.R.;Bielawski,C.W.;Ruoff,R.S.Graphene-basedpolymernanocomposites.Polymers2011,52,5–25.[CrossRef]
+175. Pötschke,P.;Mothes,F.;Krause,B.;Voit,B.Melt-mixedPP/MWCNTcomposites:InfluenceofCNTincorporationstrategyand
+matrixviscosityonfillerdispersionandelectricalresistivity.Polymers2019,11,189.[CrossRef]
+176. Gaska,K.;Manika,G.C.;Gkourmpis,T.;Tranchida,D.;Gitsas,A.;Kádár,R.Mechanicalbehaviorofmelt-mixed3Dhierarchical
+graphene/polypropylenenanocomposites.Polymers2020,12,1309.[CrossRef]
+177. Klapiszewski, Ł.; Pawlak, F.; Tomaszewska, J.; Jesionowski, T. Preparation and characterization of novel pvc/silica-lignin
+composites.Polymers2015,7,1767–1788.[CrossRef]
+178. Nguyen,T.T.;Nguyen,V.K.;Pham,T.T.H.;Pham,T.T.;Nguyen,T.D.Effectsofsurfacemodificationwithstearicacidonthe
+dispersionofsomeinorganicfillersinpematrix.J.Compos.Sci.2021,5,270.[CrossRef]
+179. Pras,M.;Gérard,J.F.;Golanski,L.;Quintard,G.;Duchet-Rumeau,J.Keyroleofthedispersionofcarbonnanotubes(Cnts)within
+epoxynetworksontheirabilitytorelease.Polymers2020,12,2530.[CrossRef][PubMed]
+180. Yan,H.;Shirato,N.;Zhu,X.;Rosenmann,D.;Tong,X.;Xu,W.;Petrovic,C.;Rose,V.;Nazaretski,E.X-rayAssistedScanning
+TunnelingMicroscopyanditsapplicationsformaterialsscience: ThefirstresultsonCudopedZrTe3. Crystals2019, 9, 588.
+[CrossRef]
+181. Boyer,R.R.;Cotton,J.D.;Mohaghegh,M.;Schafrik,R.E.Materialsconsiderationsforaerospaceapplications.MRSBull.2015,40,
+1055–1065.[CrossRef]
+182. Hannula,S.P.;Lintula,P.;Lintunen,P.;Lindroos,T.ProcessingandpropertiesofmetalmatrixcompositessynthesizedbySHS.
+Mater.Sci.Forum2003,426–432,1971–1978.[CrossRef]
+183. May,M.;Rupakula,G.D.;Matura,P.Non-polymer-matrixcompositematerialsforspaceapplications.Compos.PartCOpenAccess
+2020,3,100057.[CrossRef]
+184. Alam,P.;Mamalis,D.;Robert,C.;Floreani,C.;Brádaigh,C.M.Ó.Thefatigueofcarbonfibrereinforcedplastics—Areview.Compos.
+PartBEng.2019,166,555–579.[CrossRef]
+185. Andrianov,A.;Lee,J.;Possa,G.;deSilva,H.Experimentalstudyoftheinsulatingeffectivenessofsiliconerubbercompositesby
+oxyacetyleneablationtesting.J.Aerosp.Technol.Manag.2020,12,1–11.[CrossRef]
+186. Xu,Y.;vanHoa,S.Mechanicalpropertiesofcarbonfiberreinforcedepoxy/claynanocomposites.Compos.Sci.Technol.2008,68,
+854–861.[CrossRef]
+187. Mustapha,F.;Aris,K.D.M.;Wardi,N.A.;Sultan,M.T.H.;Shahrjerdi,A.structuralhealthmonitoring(SHM)forcompositstructure
+undergoingtensileandthermaltesting.J.Vibroengineering2012,14,1342–1353.
+188. Bekas,D.G.;Tsirka,K.;Baltzis,D.;Paipetis,A.S.Self-healingmaterials:Areviewofadvancesinmaterials,evaluation,characteri-
+zationandmonitoringtechniques.Compos.PartBEng.2016,87,92–119.[CrossRef]Polymers2022,14,5007 32of32
+189. Wu,X.F.;Rahman,A.;Zhou,Z.;Pelot,D.D.;Sinha-Ray,S.;Chen,B.;Payne,S.;Yarin,A.L.Electrospinningcore-shellnanofibers
+forinterfacialtougheningandself-healingofcarbon-fiber/epoxycomposites.J.Appl.Polym.Sci.2013,129,1383–1393.[CrossRef]
+190. Das, R.; Melchior, C.; Karumbaiah, K.M. Self-Healing Composites for Aerospace Applications; Elsevier Ltd.: Amsterdam, The
+Netherlands,2016.[CrossRef]
+191. Williams,G.;Trask,R.;Bond,I.Aself-healingcarbonfibrereinforcedpolymerforaerospaceapplications.Compos.PartAAppl.
+Sci.Manuf.2007,38,1525–1532.[CrossRef]
+192. Kim,I.Carbon-CarbonCompositeApplicationAreasandLimitationsFasil.J.Ergon.2016,6,17–19.
+193. Fu, Q.G.; Li, H.J.; Shi, X.H.; Li, K.Z.; Wei, J.; Huang, M. Oxidation protective glass coating for SiC coated carbon/carbon
+compositesforapplicationat1773K.Mater.Lett.2006,60,431–434.[CrossRef]
+194. Zhu,Y.;Cao,K.;Chen,M.;Wu,L.SynthesisofUV-ResponsiveSelf-HealingMicrocapsulesandTheirPotentialApplicationin
+AerospaceCoatings.ACSAppl.Mater.Interfaces2019,11,33314–33322.[CrossRef]
+195. Gao, R.X.K.; Lee, H.M.; Yang, Z.; Thitsartarn, W.; Gao, S.P.; Liu, E.X. Lightning Direct Effect and Electromagnetic Shield-
+ing Analysis of Conductive Aircraft Composite. In Proceedings of the 2019 International Symposium on Electromagnetic
+Compatibility-EMCEUROPE,Barcelona,Spain,2–6September2019;pp.355–359.[CrossRef]
+196. Alemour,B.;Yaacob,M.H.;Lim,H.N.;Hassan,M.R.Reviewofelectricalpropertiesofgrapheneconductivecomposites.Int.J.
+Nanoelectron.Mater.2018,11,371–398.
+197. Bedel,V.;Lonjon,A.;Dantras,É.;Bouquet,M.Innovativeconductivepolymercompositecoatingforaircraftslightningstrike
+protection.J.Appl.Polym.Sci.2020,137,48700.[CrossRef]
+198. Yadav,R.;Tirumali,M.;Wang,X.;Naebe,M.;Kandasubramanian,B.Polymercompositeforantistaticapplicationinaerospace.
+Def.Technol.2020,16,107–118.[CrossRef]
+199. Alemour,B.;Badran,O.;Hassan,M.R.Areviewofusingconductivecompositematerialsinsolvinglighteningstrikeandice
+accumulationproblemsinaviation.J.Aerosp.Technol.Manag.2019,11,1–23.[CrossRef]
+200. Marx,J.C.;Robbins,S.J.;Grady,Z.A.;Palmieri,F.L.;Wohl,C.J.;Rabiei,A.Polymerinfusedcompositemetalfoamasapotential
+aircraftleadingedgematerial.Appl.Surf.Sci.2020,505,144114.[CrossRef]
+201. Arena,M.;Viscardi,M.;Barra,G.;Vertuccio,L.;Guadagno,L.MultifunctionalperformanceofaNano-Modifiedfiberreinforced
+compositeaeronauticalpanel.Materials2019,16,869.[CrossRef][PubMed]
+202. Vertuccio,L.;Guadagno,L.;Spinelli,G.;Lamberti,P.;Tucci,V.;Russo,S.Piezoresistivepropertiesofresinreinforcedwithcarbon
+nanotubesforhealth-monitoringofaircraftprimarystructures.Compos.PartBEng.2016,107,192–202.[CrossRef]
+203. Sun,Y.;Mei,J.;Hu,H.;Ying,J.;Zhou,W.;Zhao,X.;Peng,S.In-situPolymerizationofexfoliatedstructurePA6/organo-clay
+nanocomposites.Rev.Adv.Mater.Sci.2020,59,434–440.[CrossRef]
+204. Kumar,M.;Kumar,R.;Kumar,S.Synergisticeffectofcarbonnanotubesandnano-hydroxyapatiteonmechanicalpropertiesof
+polyetheretherketonebasedhybridnanocomposites.Polym.Polym.Compos.2021,29,1365–1376.[CrossRef]
+205. Wang,Z.;Xiao,H.Nanocomposites:Recentdevelopmentandpotentialautomotiveapplications.SAEInt.J.Mater.Manuf.2009,
+1,631–640.[CrossRef]
+206. Sameezadeh,M.;Emamy,M.;Farhangi,H.Effectsofparticulatereinforcementandheattreatmentonthehardnessandwear
+propertiesofAA2024-MoSi2nanocomposites.Mater.Des.2011,32,2157–2164.[CrossRef]
+207. Hu,Z.;Tong,G.;Nian,Q.;Xu,R.;Saei,M.;Chen,F.;Chen,C.;Zhang,M.;Guo,H.;Xu,J.Lasersinteredsinglelayergraphene
+oxidereinforcedtitaniummatrixnanocomposites.Compos.PartBEng.2016,93,352–359.[CrossRef]
+208. Guo,Y.;Zou,D.;Zhu,W.;Yang,X.;Zhao,P.;Chen,C.;Shuai,M.Infraredinducedrepeatableself-healingandremovabilityof
+mechanicallyenhancedgraphene-epoxyflexiblematerials.RSCAdv.2019,9,14024–14032.[CrossRef]
+209. Zhao,W.;Li,M.;Peng,H.X.FunctionalizedMWNT-dopedthermoplasticpolyurethanenanocompositesforaerospacecoating
+applications.Macromol.Mater.Eng.2010,295,838–845.[CrossRef]
+210. Meenakshi,K.S.;Sudhan,E.P.J.;Kumar,S.A.;Umapathy,M.J.DevelopmentandcharacterizationofnovelDOPObasedphosphorus
+tetraglycidylepoxynanocompositesforaerospaceapplications.Prog.Org.Coat.2011,72,402–409.[CrossRef]
+211. García,C.;Fittipaldi,M.;Grace,L.R.Epoxy/montmorillonitenanocompositesforimprovingaircraftradomelongevity.J.Appl.
+Polym.Sci.2015,132,1–9.[CrossRef]
+212. Divagar,S.;Vigneshwar,M.;Selvamani,S.T.ImpactsofNanoParticlesonFatigueStrengthofAluminumBasedMetalMatrix
+CompositesforAerospace.Mater.TodayProc.2016,3,3734–3739.[CrossRef]
+213. Yang,W.;Wang,L.;Song,B.Dove:Abiomimeticflapping-wingmicroairvehicle.Int.J.MicroAirVeh.2018,10,70–84.[CrossRef]
+214. Bhat,A.; Budholiya,S.; Raj,S.A.; Sultan,M.T.H.; Hui,D.; Shah,A.U.M.; Safri,S.N.A.Reviewonnanocompositesbasedon
+aerospaceapplications.Nanotechnol.Rev.2021,10,237–253.[CrossRef]

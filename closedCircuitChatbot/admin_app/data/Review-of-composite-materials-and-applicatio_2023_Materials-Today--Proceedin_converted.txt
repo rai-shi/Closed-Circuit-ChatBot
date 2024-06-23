@@ -1,0 +1,591 @@
+MaterialsToday:Proceedingsxxx(xxxx)xxx
+Contents lists available at ScienceDirect
+Materials Today: Proceedings
+journal homepage: www.elsevier.com/locate/matpr
+Review of composite materials and applications
+Mahesh Bhonga, Tasneem K.H. Khanb, Kiran Devadea, B. Vijay Krishnac, Sreekanth Surad,
+H.K. Eftikhaare, H. Pal Thethif, Nakul Guptag,*
+aIndira College of Engineering and Management, Pune, India
+bDepartment of Chemistry, (Science & Humanities Department) Anjuman College of Engineering and Technology, Nagpur, Maharashtra, India
+cDepartment of Mechanical Engineering, Institute of Aeronautical Engineering, Hyderabad, Telangana, India
+dDepartment of Aeronautical Engineering, MLR Institute of Technology, Hyderabad, Telangana, India
+eCollege of Engineering Technology, National University of Science and Technology, Dhi Qar, Iraq
+fLovely Professional University, Phagwara, India
+gDepartment of Civil Engineering, GLA University, Mathura, UP, India
+A R T I C L E I N F O A B S T R A C T
+Keywords: This research seeks to discover and analyze the characteristics of composites that contribute to their performance
+Carbon Fiber-Reinforced Composite (CFRC) improvement. Molding techniques are employed in a variety of industries to create composite products. Apart
+Glass Reinforced Plastic (GRP) from their light weight and their high relative stiffness and strength, they have other advantages as well.
+Ceramic Matrix Composite (CMC)
+Fundamental concepts comprise the material and physical properties, in addition to their design, tooling repair,
+Metal matrix composite (MMC)
+inspection, and design. High-strength, lightweight materials helped to make helicopters, aircrafts, and rockets
+Polymer Matrix Composite (PMC)
+that were used for military purposes. It was evident that the components made of metal until that point were
+superior in terms of mechanical performance however, their weight rendered their usage ineffective. Numerous
+companies working in the polymer sector were expanding into new markets and expanding. The improved
+mechanical properties of polymers could solve a number of problems, and this was the case when researchers
+created a new light polymer in the laboratory. Composites are engineered materials made from two or more parts
+that have a wide range of physical, chemical, as well as mechanical characteristics. The distinct features of the
+individual parts and the arrangement of these components inside the structure lead to a myriad of distinct
+characteristics in composites. Composites can be altered to meet a variety of mechanical, geometrical, structural
+and chemical demands. Synthetic materials are utilized in various areas, such as construction (such as bridges
+and structures) as well as the automotive industry (such as bodywork for automobiles) as well as aviation,
+military (such as boats and ships) and even biology. Composites are fast becoming popular in the field of
+medicine, despite the fact that polymeric, metallic, and ceramic biomaterials were used for a long time in
+processes like tissue repair and replacement.
+1. Introduction fields because it allows the development of biomaterials that, once
+created and implanted in humans, can carry out their intended functions
+Composite materials are used in many different fields, including without causing injury to the surrounding tissues or the body as a whole
+construction (for things like buildings and bridges), the automotive in- [2]. The effectiveness with which biomaterials carry out their desig-
+dustry (for things like car bodies), aeronautics (which requires materials nated tasks categorizes them into several groups. Due to their various
+with the properties of high strength and low density), the production of benefits, composite biomaterials have found widespread application in
+housing and industrial parts (for things like storage tanks, bathtubs, both in vitro and in vivo environments. These multiphase materials are
+washing sinks, and shower stalls), and the medical field [1]. Materials easy to produce and can take on multiple forms and characteristics. By
+scientists and engineers collaborate with biomedical engineers to better manipulating essential factors such as constituent volume ratios, fibre
+people’s health, who apply engineering principles to medical biology. particle size, shape, orientation, distribution, matrix type, etc., desirable
+Understanding human anatomy and physiology is essential for both material qualities can be accurately crafted. Compared to metals,
+* Corresponding author.
+E-mail address: nakul030588@gmail.com (N. Gupta).
+https://doi.org/10.1016/j.matpr.2023.10.026
+Received 17 June 2023; Received in revised form 1 October 2023; Accepted 4 October 2023
+2214-7853/Copyright©2023ElsevierLtd.Allrightsreserved.Selectionandpeer-reviewunderresponsibilityofthescientificcommitteeofthe14thInternational
+ConferenceonMaterials,Processing&Characterization–ICMPC2023.
+Pleasecitethisarticleas: MaheshBhongetal.,MaterialsToday: Proceedings,https://doi.org/10.1016/j.matpr.2023.10.026M. Bhong et al. M a t e r i a l s T o d a y : P r o c e e dingsxxx(xxxx)xxx
+polymers, and ceramics, composite biomaterials provide more leeway in materials,” as the Oxford English Dictionary defines it. Composites are
+design and may be tailored to have almost any desired combination of materials in which the matrix and reinforcement have been combined to
+properties. This study aims to introduce the concept of composite bio- produce improved qualities over the material used alone [8]. The final
+materials, explore their potential as replacement and repair compo- composite can have varying properties depending on the method used to
+nents, and present an overview of recent developments in this area. The cut, align, and place the reinforcement fibers. The addition of this pro-
+benefits of metal, polymer, and ceramic biomaterials are compared [3]. tects the reinforcement from chemical and environmental hazards.
+The need is the starting point for most inventions because it motivates so Metal matrix composites, or MMCs, have drawn a lot of interest
+much of what we do. Initially, he was limited to using the rich natural lately because of their special qualities and extensive variety of uses.
+resources surrounding him. Tools are wood and stone, while clothing is MMCs have been the subject of intense research to better understand
+made from animal skins. Next, he discovered he could weave natural their synthesis, methods of processing, and mechanical characteristics
+fibres like cotton and silk to create cloth. The technological revolution of [9]. Choosing the right kind, size, and quantity of reinforcement is
+the previous two centuries has been primarily responsible for the essential for customizing the characteristics of metallic matrices. The
+exponential growth in human knowledge. Wattle and daub, used for tribological characteristics of hybrid composites made of magnesium
+wall construction for almost 6,000 years, is the first example of a com- and reinforced with graphite nanofiber (GNF) and alumina short fiber
+posite material made and used by humans. This construction material (Al2O3sf) were the subject of one investigation [10–13]. The synthesis,
+has been mainly superseded by concrete, a composite material made of characterization, healing evaluation, and mechanics of self-healing
+cement and reinforcements like gravel (aggregates), sometimes known metal matrix composites (SHMMCs) reinforced with shape memory
+as loose stones. Many millions of metric tonnes of concrete are produced alloy (SMA) were examined in a different study. Additionally, studies
+worldwide each year. Concrete has a muscular compression strength but have looked into the application of laser additive manufacturing on
+a relatively weak tensile strength due to its mechanical characteristics several MMC kinds. The design of the material, the interaction between
+[4]. the metal matrix and reinforcement, the techniques of synthesis used in
+Natural fibre composites are originated from the environment itself. the manufacturing process, and the resulting microstructures and
+From the Egyptian and Indus Valley civilizations, clay reinforcement properties were the main topics of this study. The production and use of
+was first utilized as a building material. They are biodegradable, easily MMCs have advanced, as demonstrated by recent studies [14]. These
+available, low in cost and possess moderate strength in engineering, composites are appropriate for a range of product-based manufacturing
+making artefacts etc [5]. Steel reinforcements are frequently added to processes due to their distinct mechanical, electrical, chemical, and
+concrete during casting to increase strength and prevent it from failing thermal characteristics.
+under tensile stress. Fibre-reinforced composites are another popular Construction (for example, buildings and bridges), the automobile
+type (FRP). Carbon fibre-reinforced composites are very popular industry (for example, car bodies), aeronautics (which requires mate-
+because of their lightweight and easy variation in mechanical proper- rials with the properties of high strength and low density), the
+ties. Because of the intensive bond between Hydrogen and Vander Waal manufacturing of household and industrial components (for example,
+forces, the carbon and reinforcement agent coalition become unbreak- storage tanks, bathtubs, washing sinks, and shower stalls), and the
+able [6]. medical field are all areas where composites find practical applications
+Most FRPs are either glass-reinforced plastic or carbon fiber- (for instance, as biomaterials for tissue engineering). The goal of the
+reinforced composite (CFRC). Carbon and glass are utilized to make multidisciplinary discipline of biomaterials engineering is to improve
+CFRC and GRP, respectively, in the form of fibers or inclusions. Epoxy medical diagnosis and treatment using engineered materials [10].
+resin, a thermoplastic, is frequently employed as a binding or matrix Biomedical engineering uses engineering principles in medical biology,
+material. Composite wood, mainly constructed of thin layers of hard- and materials science and engineering collaborate to improve human
+wood boards bound together, is one of the many composites [5]. Others health. Understanding human anatomy and physiology is essential for
+include ceramic matrix composites (CMC), metal matrix composites both fields since this knowledge is used to create biomaterials that, once
+(MMC), polymer matrix composites (PMC), and composites (ACM). completed and implanted in humans, can carry out their intended
+Traditional composites include those made with ceramic, metallic, and functions without causing any harm to the host organism. Different
+polymeric matrices (ceramic matrix composites (CMC), metal matrix biomaterials are classified based on how efficiently they fulfill their
+composites (MMC), and polymer matrix composites (PMC). Due to the designated tasks [11]. Composite biomaterials fall under this category
+utilization of high-strength, low-density fibers, conventional composites and are increasingly used in both in vitro and in vivo applications. These
+have superior strengths, stiffness, and elastic modulus to ACMs [6]. multiphase materials are simple to produce while allowing for novel
+These materials stand out because of their ease of production and their shapes and properties. Changes in the volume ratios of ingredients, the
+resistance to chemicals, heat, and creep. Synthetic materials, such as size, shape, orientation, and distribution of fiber particles, the kind of
+plastics, have significantly advanced thanks to research in their creation. matrix, etc., can readily be made to get the desired material qualities.
+Plastic can be made from various sources, including inorganic chem- Composites, unlike metals, polymers, and ceramics, can have nearly any
+icals, biological matter, or synthetic chemicals. Synthetic organic plas- combination of properties by simply changing the constituent parts. This
+tics, essentially polymers, are often referred to by this word. Polymers study aims to introduce readers to composite biomaterials, explain their
+cannot be made without their constituent monomers. Most of each possible applications in replacement and repair components, and
+monomer is composed of carbon and hydrogen atoms. Trace amounts of analyze the most recent developments in this study area. The benefits
+other elements, such as oxygen, nitrogen, chlorine, and silicon, may also and drawbacks of metal, polymer, and ceramic biomaterials are dis-
+be present. Polymers often take the shape of extremely long chains, cussed [12]. The reason for writing this review about composites and
+which may be linear or branched at numerous locations. Carbon atoms their applications is to provide a complete review of the factors that
+mix easily with other elements and with one another [7]. They create a drive the research and use of these fascinating materials. From their
+solid anchor that can carry loads over considerable distances when high-strength and lightweight characteristics to their pliable designs
+strung together. This review provides an overview of advanced fiber- with durability, versatility, and the ability to sustain themselves, com-
+reinforced polymer (FRP) composite materials, including their posites continue attract engineers and researchers across the globe.
+manufacturing techniques, properties, and applications. The authors Knowing this is a way to understand the constantly changing world of
+discuss various types of fibers, matrices, and reinforcement architec- composite materials and their numerous applications, which contribute
+tures, and highlight the key advancements in composite materials. to technological advances that define our contemporary world.
+Composites are “two essentially different elements that, when mixed, Providing a thorough understanding of composite materials and their
+generate a substance having properties that exceed the constituent uses is the aim of this paper. Its goal is to investigate the characteristics,
+2M. Bhong et al. M a t e r i a l s T o d a y : P r o c e e dingsxxx(xxxx)xxx
+benefits, and drawbacks of composite materials in a range of industries,
+including construction, automotive, aerospace, and more. This review
+will also look at the most recent developments in composite materials
+and talk about how they might affect next technologies. Researchers will
+have a better knowledge of composite materials’ use in contemporary
+engineering and how they have shaped our world by the end of this
+review.
+2. Need for composites & benefits
+Several advantages of composites can be seen when using metals and
+wood. Composites’ real benefits are their lightweight, relative stiffness,
+and strength. Lighter cars have quicker acceleration but get worse gas
+mileage. Shots in golf, tennis, and archery benefit from lightweight
+composites, increasing their accuracy [13]. A wind turbine’s efficiency
+increases as its blades become smaller and lighter. Rubber wheels have
+primarily replaced their wooden counterparts, and colorful nylon and
+polyester have largely replaced cotton in women’s fashion. Lightweight
+aluminum tennis rackets have replaced mainly their heavier wooden
+predecessors, to name just a few instances. Despite their higher initial
+cost due to their numerous desired qualities, composites are increasingly
+being adopted in favor of more conventional materials [14]. Composite
+materials are important because they can address challenges in in-
+dustries around the world. These materials are an effective and afford-
+able way to protect metal components against corrosive chemicals like Fig. 1. Materials used in boing787 Body [16].
+acid rain and salt spray. Their lightweight and high strength properties
+also contribute to fuel economy and reduce operational costs during lighter alternatives [17]. Besides being aerodynamic, these materials
+transportation. They are therefore an environmentally friendly alter- must be simple to manufacture, stable even at high temperatures, and
+native to traditional materials. It offers new opportunities in the corrosion-proof. Until a more sustainable option is created or discov-
+biomedical industry for developing biomaterials which can replace or ered, composite materials have been used, are being used, and will
+repair damaged tissues. They are adaptable, allowing for new design continue to be utilized to fulfill the material needs of such sectors. The
+possibilities that don’t compromise performance or strength. This leads final qualities of a manufactured composite material are determined by
+to an increase in efficiency and productivity across industries. the attributes of each of its constituents, as well as the quantity, shape,
+For instance, carbon-fiber reinforced composites can be five times as and distribution of those attributes [18]. However, material engineers
+strong as 1020-grade steel but weigh just one-fifth as much [15]. frequently engage in the latter. Mass fractions and volume fractions are
+Carbon-fiber composites can be up to seven times as strong as 6061- two ways to describe the proportions of the various stages or compo-
+grade aluminum and have a modulus that is twice as high. Metals, nents. Most composites consist of a matrix and an additional element,
+polymers, ceramics, inorganic glasses, composites, and so on are all the inclusion or dispersion phase. The matrix is often a material with
+examples of materials. Metals have a shorter lifespan when subjected to relatively high flexibility and moderate fracture strength. The shape and
+high temperatures. In general, polymer-rich materials have the potential distribution of the latter stage significantly impact the ultimate char-
+to function at much chillier temperatures. Despite their strength and acteristics of composite materials. The scattered phase’s geometry refers
+thermal expansion capacity, ceramics and polymers are not very prac- to the particles’ sizes and shapes, whereas the distribution includes their
+tical as structural materials since they become brittle at high tempera- positions and orientations within the matrix [19].
+tures as shown in Fig. 1. In a general sense, composites can be Composite materials can be broken down into several categories
+categorized as one of the following: thanks to their evolution over time and the work of many writers. There
+Fiber Composites: The fibers support the stability of the straight are three main groups to which they can be assigned: There are two
+shape. types of composites that use reinforcements: fiber-reinforced compos-
+Particle Composites: Put differently, particles that serve to ites, which use inclusions with fiber-like properties, and particle-
+strengthen matrices. When particles are randomly distributed in a ma- reinforced composites, which use inclusions with uniform axes [20].
+trix, they support in a manner that is consistent in all directions. Con- Construction composites are a hybrid of modern composites and more
+struction materials and synthetics must be excluded. conventional materials. Therefore, the primary distinction between the
+Flake Composites: Flakes can only be strengthened in two di- first two categories is the particle geometry in the dispersed phase.
+mensions due to their shape. It is common to find glass or mica in a Fiber-type particles, like natural fibers, have an irregular geometry but a
+flake’s makeup. more excellent length-to-diameter ratio than particle-type particles,
+Laminar Composites (layered): Two or more layers of the same or which tend to be spherical. Particle- and fiber-reinforced composites can
+different materials make up a laminar composite. be separated into several groups depending on the matrix used. There
+Combined Composites: Composites are made by blending different are three major categories of composites: those with a metal matrix,
+substances. In addition, many composites can be fused to create a single those with a polymer matrix, and those with a ceramic matrix. Particle-
+product. reinforced composites are strengthened by adding short particulates;
+Composites play an unexpectedly significant role in driving inno- these composites can be categorized as large particles or dispersion-
+vation in the electronics industry. These materials offer several advan- strengthened based on the average size of the reinforcements [21].
+tages over others (metals, alloys, ceramics, and polymers), including the Large particles (those with a diameter of at least a millimeter) in the
+ability to be produced with precisely controlled chemical, mechanical, former kind bear the brunt of the stress and help keep the matrix from
+thermal, and physical properties. High mechanical strength and stiff- deforming where the two surfaces meet. These limitations are the pri-
+ness, abrasion, and wear resistance, and so on are typically associated mary means by which large particle composites are strengthened. When
+with heavy materials, but the aerospace industry is always looking for
+3M. Bhong et al. M a t e r i a l s T o d a y : P r o c e e dingsxxx(xxxx)xxx
+it comes to mechanical stress, the matrix bears the brunt of the weight in materials used in construction and manufacturing, the three leading
+dispersion-strengthening composites despite including nanometer-sized composite biomaterials are particle-reinforced, fiber-reinforced, and
+particles. This strengthening mechanism occurs at the atomic level, structural. As before, the performance characteristics of a composite
+where scattered particles stop dislocation lines from spreading along the biomaterial are not always the same as those of its constituent pieces
+matrix. When it comes to composite materials, this approach is by far the (matrix and inclusions) (matrix and inclusions). Evaluating the quality
+most popular option [22]. The system consists of fibers made from of composites made from polymers (PMCs) is crucial, and non-
+mechanically superior materials, such as those with high strength and destructive (NDE) methods play a key role in this evaluation. Ultra-
+elasticity, embedded in a matrix made from a material like metal, sonic testing is a valuable tool as it can measure ultrasonic wave fre-
+polymer, or ceramic. The power and stiffness of a composite are deter- quency and attenuation. This allows for the detection of imperfections
+mined not only by its individual components’ characteristics but also by and damages in PMCs with varying fiber orientations. Monitoring the
+the length-to-diameter ratio of the fibrous phase, which is an arbitrary hits to AE and the energy generated helps detect and classify various
+but essential parameter [23]. emission signals during mechanical testing. This process, known as AE
+Fiber-reinforced composites can be divided into three primary testing, allows for the assessment of the subsurface of PMCs and mea-
+groups: continuous or long and aligned; discontinuous or short and sures heat loss during cooling or curing using infrared thermography
+aligned; and intermittent and randomly oriented. How composites react and thermographic testing.
+to tensile loads in terms of stress–strain relationships depends on the The cardiovascular system, also known as the circulatory system,
+orientation of the load concerning the fiber’s longitudinal axis [24]. plays a crucial role in maintaining internal body temperature and other
+Only composites with threads that run in a straight direction are affected vital functions [31]. The heart, the vascular system, and the blood make
+by this. Fibers that are randomly orientated and continually oriented up the circulatory system, and it’s the blood’s job to carry oxygen and
+display contrasting qualities. Stress and strain illustration, including nutrients around the body. With each heartbeat and blood flow through
+threads, matrices, and composites. Failure strength (stiffness) in fiber the veins and capillaries, metabolic wastes are flushed away. Heart
+materials is typically much higher than in the matrix. The failure strain conditions, both congenital and acquired, such as coronary artery dis-
+is more significant even if the fiber is more brittle than the matrix. As a ease (CAD) and arrhythmias, may necessitate surgery for therapy. In
+result, the failure strength and harmony of fiber-reinforced composites extreme situations of cardiovascular trauma, surgical intervention was
+midway between the individual fibers and the matrix [25]. required to replace or repair damaged parts of the system. Cardiovas-
+A structural composite is a collection of adequately made composites cular biomaterials include pacemakers and stents, two of the most well-
+held together by a uniform adhesive solution. A structural composite’s known devices. Angioplasty is a surgical treatment that uses biomaterial
+final qualities, such as mechanical and structural integrity, are defined stents to repair and prevent blockages in blood vessels and other bodily
+by the compositions of its component ingredients and the geometry of its passages caused by disease or damage. These passages include the
+designs, including the size and shapes of its more substantial building heart’s arteries, veins, pharynx, and digestive tract [32].
+parts [26]. Sandwich panels and laminar composites are the two most Additionally, these polymers are used momentarily to maintain open
+common structural composites. Stalking and gluing together two- channels during medical procedures. Traditional stent materials include
+dimensional sheets with carefully chosen high-strength orientations stainless steel and other iron alloys, titanium and its alloys, magnesium
+yields laminar composites. The individual sheets have such a large ratio and cobalt alloys, and plastics [33]. However, composite biomaterials,
+of surface area to a thickness that the term “two-dimensional” is including metal and polymer matrix composites, are emerging to func-
+invented to describe the result. These sheets are typically composite tion as superior alternatives. Due to their versatility in stent design, low
+materials with aligned fiber reinforcement. Sandwich panels have a soft cost, biodegradability, and ease of production, composites are gaining
+inside surrounded by a tough outside, making them different from popularity. After providing temporary vascular assistance, the body can
+laminar composites [27]. There is a laminating agent that holds the two absorb newer composite stents. Because of their biocompatibility, ach-
+parts together. The outside skins are fabricated from metals, laminar ieved by a design that considers how the stent material’s surface in-
+composites (like plywood), and fiber-reinforced polymers that are all teracts with the surrounding biological tissues, these materials cause less
+extremely strong and rigid. On the other hand, core materials are often irritation to the vascular tissue [34].
+made from wood, honeycomb, or thermosets. One of the most crucial life-sustaining devices for the heart is the
+As was previously indicated, the extensive range of composites with pacemaker, which biomedical engineers developed. When functioning
+diverse combinations of attributes is made possible by their distinctive correctly, this tiny electrochemical mechanism regulates the heart’s
+design and production freedom. So, unlike conventional materials like rhythms to guarantee enough blood pumping and circulation
+steel, the values of composite characteristics are not fixed in advance throughout the body [35]. The four essential components of the pace-
+[28]. However, the strength-to-weight ratio of most composites is rela- maker are the lithium-ion battery, the lead, the connector block, and the
+tively poor. Their versatility has led to their incorporation into enclosure. A case containing the pulse generator, battery, and connect-
+numerous fields, including medicine, transportation, and even space ing block is surgically implanted just beneath the skin of the head. After
+travel. Composites are typically designed to surpass the performance of the lead’s conductive tip has been surgically inserted in the desired heart
+alternative materials and fulfill a specific load requirement. This type of chamber, the information is connected to the connecting block via the
+composite has several applications in the medical field. They are widely subclavian vein. While traditionally, metals like platinum alloy were
+applied in the medical field, where they are used for everything from utilized for most of a pacemaker’s construction, in recent years, com-
+diagnosing and treating injuries to working with biological materials. posites have been used due to their lower toxicity and lower environ-
+When properly fabricated, composite biomaterials can be used to mental impact. Composites, being lighter, have taken the place of metal
+replace or supplement organs that have been damaged due to traumatic shells in devices like pacemakers. A decrease in pacemaker-related skin
+or pathological events [29]. The ability to design composite biomaterials reactions has been observed in the former because of the more excellent
+with tailored physical, chemical, and mechanical properties for corrosion resistance of the former [36].
+specialized applications is a significant factor in their widespread Our incisors, canines, premolars, and molars work together to break
+adoption in modern medical practice. Although biomedical engineering down food into smaller pieces that are easier to swallow. The four canine
+has historically used both natural and synthetic biomaterials, the advent teeth adjacent to the incisors tear food apart, while the premolars and
+of composites has profoundly altered the field. Constant improvements molars accomplish the crushing. Use the eight front teeth, or incisors, for
+in these materials and the groundbreaking design of further enhanced cutting. The human dental system is crucial for speech and other sound
+medical devices have increased survival rates for accidents and diseases, production. The dental plan is susceptible to abnormalities and damage
+as well as the quality of life and life expectancy [30]. Like the composite from sickness, trauma, and congenital conditions, much like any other
+4M. Bhong et al. M a t e r i a l s T o d a y : P r o c e e dingsxxx(xxxx)xxx
+body part. Genetic defects can also explain tooth loss or other dental composite biomaterial of polylactic acid and hyaluronic acid ester.
+abnormalities. The two most common dental illnesses are plaque and Damaged ligaments can mend on their own because of the reduced wear
+caries (commonly known as tooth decay). In the former, a biofilm is built of this prosthesis. The behavior of ethylene-butene copolymer compos-
+by bacteria. Due to a lack of oxygen, these bacteria make lactic acid, ites with ultra-high molecular weight polyethylene (UHMWPE) rein-
+which dissolves phosphate and calcium from enamel, making it weak forcement under cyclic loading was investigated, and it was discovered
+and susceptible to infection. Microorganisms like this love the food that, with the right copolymer type and angle combination, these com-
+scraps that get stuck between and around people’s teeth after a meal. posites could be made into exceptionally fatigue-resistant biomedical
+Depletion of bone-building minerals like calcium and phosphorus can applications. As time went on, researchers found that this fatigue-
+lead to tooth decay and eventual loss. In contrast, the prevalence of resistant material could be used to create a ligament prosthetic.
+cavities in youngsters may be traced back to the food consumed [37]. Despite evidence from animal studies suggesting that PET-reinforced
+Traumatic tooth damage might compromise the tooth’s structural PHEMA cartilage prostheses cause synovitis, they are being used. A
+integrity or make it more susceptible to infection. Since the turn of the high-strength composite material, made by fusing terephthalate poly-
+century, head traumas have become increasingly common due to acci- ester fiber with a collagen matrix, has been created to combat this issue.
+dents and acts of violence, which can devastate a person’s oral health. It After six months of in vivo testing, this material did not negatively
+has become common practice to employ composite biomaterials such as interact with the host tissue. Still, it did not promote the growth and
+polymer matrix composites for dental implants to restore lost teeth for penetration of fibrous tissues between the prosthesis and the host bones.
+both functional and aesthetic purposes. These alternatives are more A joint is the meeting place of two or more bones in the body. These
+biocompatible than conventional metallic dental biomaterials like silver connective tissues allow for mobility and support the entire body. The
+amalgam. While aluminized silver-mercury fillings are incredibly human body has about 300 joints, most of which see regular use. Un-
+harmful, acrylic resins lack the stiffness and mechanical strength fortunately, dislocations, fractures, and other forms of joint injury are
+necessary to serve as prosthetic posterior teeth. Lifting the flap and typical results. Extreme cases of arthritis or trauma may necessitate joint
+exposing the bone can replace a missing or broken tooth. First, a pilot replacement surgery, but in many cases, the joint can be brought back to
+hole is drilled into the bone to secure the screw, holding the bone piece health using therapeutic methods. After surgically exposing the heads of
+in place. As a last step, the prosthetic tooth’s abutment is screwed into the prosthetic femur and tibia, the stems are drilled into the patient’s
+place. natural femur and tibia. Together, these components provide movement
+The most common options are permanent (such as bridges) and that is analogous to that of a natural knee.
+removable dental prostheses. Denture wearers should limit their use of There are a lot of similarities between the functions of the knee and
+removable dental prostheses because they can cause discomfort after the hip joint. Hip replacement surgery is an option for patients who have
+prolonged use. These items are often fabricated using corrosion-resistant experienced severe damage to their hip joints. Metals, polymers, ce-
+polycarbonates reinforced with glass fibers. Ultra-high molecular weight ramics, and composites are frequently used in constructing these
+polyethylene is commonly used in the construction of fixed bridges. biomedical instruments [38]. An acetabular cup or shell is implanted
+Methacrylic matrix composites reinforced with fiber and inorganic into the pelvis using a fixation agent, and a stem leading to the ball is
+particles have been discovered to possess improved mechanical and placed into the femur. Alloyed metals or metallic composites are typi-
+aesthetic qualities compared to the typical polymer matrix composites cally utilized for the branch because of the material’s excellent strength
+used in dentistry. Dental materials containing titanium-hydroxyapatite in tension and compression. Compared to ceramic biomaterials, com-
+are also gaining attention. Because of its bioactive compatibility with posite metals have significantly higher resilience to wear. Consequently,
+the surrounding tissues, hydroxyapatite is chosen for the lower part of they are now employed to construct the ball.
+the implant, and titanium is used for the upper section due to its Treatment of bone fractures with composites is successful. Again,
+incredible mechanical strength. this is because bones have a unique makeup that is tailored to their
+Cartilage is a flexible and elastic kind of bone that can be found in the specific function. The superior performance of these materials dramat-
+ears, nose, ribs, and joints. As an adult, it helps keep the skeleton in ically aids bone growth and healing. Thus, compatibility is just the
+place. This material makes up the majority of the structure in newborns, beginning. The composites utilized as a framework are biodegradable,
+giving place to the more rigid bone formations later on. Polymeric so they remain even after their intended purpose has been fulfilled.
+composites such as poly [2–hydroxyethylmethacrylate] (PHEMA) com- Composites may also be used for internal fastening mechanisms. In the
+bined with polyethylene terephthalate (PET) synthetic fibers can be past, they were made of metal. Metal mechanical aids are incredibly
+utilized to replace cartilage that is either absent at birth or destroyed long-lasting but can deteriorate quickly and are stiffer than bone, which
+during development, trauma, or other causes. It is possible to mimic the can be painful [39]. One practical answer to these problems is polymer
+properties of natural cartilage by modifying the volumes of the two composites. Carbon fiber-based polymers could be used to make a device
+components of this biomaterial. Composite biomaterials, including to support the healing bone because of their high strength and elastic
+ultra-high molecular weight polyethylene and hyaluronic acid, are also qualities, similar to those of natural bone. Due to the nature of the
+used as cartilage substitutes. High durability makes this a common material, there is no risk of corrosion. The biodegradable matrices used
+choice for replacing damaged joint cartilage, spinal fibrocartilage, or to construct the implant can break down while the bone heals, releasing
+menisci. Wear and exhaustion from repeated stress are significant causes any necessary drugs.
+of artificial cartilage failure. We have made steady progress toward Bone cement helps repair broken bones, and prosthetic joints are
+finding answers to these problems. Injectable hydrogels, a polymeric easily implanted. When used, it achieves the same results as regular
+biomaterial, are occasionally used with composite biomaterials to cement. It is a thick, moist material used to seal the area where natural
+reduce wear and expedite healing. bone meets metal or plastic implants. After the adhesive cures, it fills any
+Ligaments are the fibrous fibers that connect bones and cartilage. spaces between the parts and binds them together securely. The poly-
+Many athletes have injuries to the anterior cruciate ligament (ACL). merization process creates a bond between the two substances that is
+Repairing or replacing this tissue with polymeric and composite bio- very stable. Long-lasting casts can be made using fiberglass, polyester
+materials helps arthritic or damaged joints usually function. Similarly, fabrics, and a polyurethane matrix rather than traditional cotton and
+to artificial cartilage, artificial ligaments wear out and eventually break plaster [40]. Models made from composite materials are more robust,
+down due to repeated tension and wear. The inclusions are not durable weatherproof, and amenable to creating high-quality X-ray scans.
+since they are easily worn down, have poor flexural and torsional Despite being more challenging to eliminate, their benefits outweigh the
+strength, and can cause synovial membrane inflammation. For use as a drawbacks. In recent years, a new method that can be used as an
+ligament tissue substitute, researchers have created a biodegradable alternative to the conventional one has emerged: 3-D printed composite
+5M. Bhong et al. M a t e r i a l s T o d a y : P r o c e e dingsxxx(xxxx)xxx
+castings. Their web-like shape increases ventilation while delivering all manufacturing techniques including 3D printing and automated layup
+the benefits of a regular mixed cast. They also allow the development of procedures. By making transportation vehicles lighter and improving
+patient-specific ergonomic solutions that boost health and well-being. If the efficiency of renewable energy sources, composite materials help to
+3-D printing’s speed and quality improvements continue, it may replace reduce energy consumption. Composites are useful for applications in
+conventional manufacturing methods. Composite materials have been electronics, telecommunications, and radar systems because they may
+the basis of cutting-edge designs for external prostheses. Composites be manufactured to have particular electromagnetic properties.
+have supplanted wood, metal, and leather. Composites are preferred
+since they keep the best features of the materials they’re made of while 3. Fabrication methods
+also adding their benefits.
+In contemporary engineering and manufacturing, the effect of com- With such rapid development in such a short period, it’s hard to
+posite materials on sophisticated production processes is a crucial sub- believe composites are only a few decades old. While ceramics show
+ject. Because of their special qualities, composite materials—which are promise for structural applications, there are still challenges to be
+made up of a variety of components with specific properties—have overcome. Price competition causes significant shifts in the composites
+transformed a number of industries. With the use of pertinent data and market [41]. Molding procedures are used to create many different
+references, we will discuss the important influence that composite ma- composite goods. The many techniques of shaping include as shown in
+terials have on advanced manufacturing processes in this section. Fig. 2.
+Because of their excellent strength-to-weight ratio, composites are a Some manufacturing processes include casting, centrifugal casting,
+great choice for industries like aerospace and automotive where continuous casting, slip forming, press molding, transfer molding, pul-
+reducing weight is crucial. Composite materials have great strength and trusion molding, and filament winding. In addition to the methods
+durability, which makes them ideal for longer-lasting and more already mentioned, other methods include thermoplastic molding,
+dependable products in a variety of industries, such as construction and vacuum infusion, wet lay-up, compression molding, and computer nu-
+maritime. Because composites are naturally resistant to corrosion, they merical control (CNC) filament winding.
+can be used in severe settings and applications where traditional ma- A “formulator” can be any business that combines raw materials,
+terials might eventually degrade. The mechanical properties of com- semi-finished products, or finished goods to create a new product. It is
+posites can be precisely tailored by engineers using advanced necessary to blend, mix, or otherwise shape elements of natural or
+manufacturing processes, enabling the design of materials with specified synthetic origin that are usually incompatible. The word “formulation”
+qualities for a wide range of applications. Composites can be combined is used to characterize this method. There can be no therapeutic benefit
+with other materials to create unique patterns and multipurpose com- from a drug without the presence of its active components. Paints,
+ponents by molding them into intricate shapes. Composite production cosmetic creams, mayonnaise, and composite materials are made using a
+has become more economical and effective thanks to advanced light dispersion of numerous immiscible phases that seem homogeneous
+Fig. 2. Fabrication Method [42].
+6M. Bhong et al. M a t e r i a l s T o d a y : P r o c e e dingsxxx(xxxx)xxx
+on the macroscopic size but are heterogeneous on the microscopic scale to-weight ratio [43]. Reduced stiffness and fatigue; increased toughness.
+[42]. The success of the entire section hinges on the method of mixing Superior resistance to corrosion and excellent utility. Protection from
+and the durability of the resulting mixture. Some composite materials electricity, fire, and the elements. Ease of fabrication or familiarity with
+take the most outstanding qualities of different substances and combine a range of fabrication procedures. Longer longevity and lower expen-
+them into one. Matrix-embedded composites are now often classified ditures. For many industries, composites are invaluable, as shown in
+based on the configurations of their reinforcements (also known as Fig. 3.
+fillers). The matrix helps to maintain order and consistency in loads. The
+composite may transfer some of the load’s stresses to itself. Substances 4.1. Use of composites in aerospace structure
+having a history of inconsistency and even anisotropy are the result.
+Many variables, such as matrix and charge type, charge shape and Composites are frequently used to construct various aircraft acces-
+amount, charge concentration, interface quality, and manufacturing sories, including doors, ring tips, ducts, fairings, random, and dielectric
+process, can impact the final product quality of a composite. panels. In mechanical and electrical applications, epoxy resin and E-
+The permutations are nearly endless, with a wide variety of rein- glass roving are used for their high strength and durability [44]. Polar
+forcement and matrix materials (metal, ceramic, or plastic). As a rule, a winding is the term used to describe the technique used. Exceptionally
+composite material will have both a continuous phase and one or more robust, robust, and able to make incredibly complicated patterns while
+discontinuous phases. Many distinct intermittent phases can be found in also being resistant to rust and rust. Alignment and dimensional stability
+hybrid composites. Matrix =constant, reinforcement =supplementary are two features that can be preserved. The probability of dielectric
+change. The most outstanding qualities of many materials are synthe- breakdown is minimal. The maximum possible level of efficiency is
+sized into one composite synthetic. A polymer matrix’s mechanical and reached.
+thermal properties can be enhanced using highly modular re- However, it’s essential to consider the potential downsides as well.
+inforcements and extreme tension. The production of composites using a Delamination is the separation of laminate layers at the layer interface
+polymer matrix provides greater design freedom than that of metals. due to mechanical stress, such as a blow or a drop in temperature. One or
+Benefits include decreased fuel consumption (in airplanes and cars), more fibers may get detached from the matrix. A material must have the
+increased range and payload for missiles, and faster timing in sports (in characteristics to be included in the first table. Due to their versatile
+transport). Reinforced plastics, rubber, steel, organic resins, glass fibers, nature and array of valuable features, composites find use in various
+carbon, and boron are all examples of inorganic composites (resins and fields. Composite materials are currently actively integrated into most
+short fibers). Materials such as ceramic composites, carbon–carbon aerospace programs, and the image below shows how the benefits
+composites (made from carbon and carbon fibers), and concrete (made greatly exceed any potential downsides. While experiencing a flurry of
+from cement, sand, and additives) are all examples of mineral compos- hydraulic action. Subtle Disturbance to the Discrete Arrangement of
+ites (ceramics and ceramic fibers). Another by-product is composite Parts. Problems with production are to be expected. The bearing
+metals (formed, for example, from aluminum and carbon fibers or boron strength of composites is lower than that of metals. Fig. 4 displays car-
+and aluminum fibers). Packaging, automobiles, light structures, civil bon fiber potential in 2017 [45–49].
+engineering, aviation, sports, biomedicine, thermomechanical compo- The aerospace industry relied heavily on autoclaves since composites
+nents, and aerospace are just a few fields that have benefited from were a primary raw material. Glass-fibre reinforced plastic (composites)
+composites. are commonly used in low-speed aircraft. On the other hand, traditional
+MMC machining is always unique; it is typically done apart from metal tooling is the way to go when mass-producing an identical item.
+more popular and traditional metal and alloy types. MMCs are made of a Injection molding using resign works particularly well for producing
+soft matrix (e.g., Mg, Al, Ni, C, Ti, etc.) and reinforced hard particles (e. complex shapes, such as randoms. A random act as a shield for elec-
+g., SiC, Al2O3) to emphasize the natural progression of the material tromagnetic transmission, allowing it to travel farther with less atten-
+removal process and impact manufacturing productivity. When uation [51]. A random two most crucial characteristics are a constant
+machining MMCs, common occurrences include tool damage, abrupt electrical thickness and a wavelength compatible with the radar
+breaking, excessive wear mechanism, a bad surface, and workpiece equipment it will use. Titanium and aluminum-based alloys are the first
+quality degradation. The excessive rate of plastic deformation that oc- materials used to make aircraft. As we know, Carbon fiber reinforced
+curs during the material removal process is what causes the significant composites (CFRC) were introduced to the aerospace industry to address
+heat generation. Owing to the MMCs’ ambiguous structural integrity, a various issues such as lack of mechanical strength, complex shapes, fa-
+variety of variables and procedures can be adjusted for a seamless ma- tigue, and fracture resistance. They also addressed static and dynamic
+terial removal process. Therefore, the distribution of reinforcement for resistance, corrosion resistance, engine vibration reduction, higher rate
+the MMCs portion during the fabrication process plays a crucial role in of fuel consumption, and more. After extensive research in this field, the
+the produced structure and properties of the composite material. The relative strength of aluminum alloy (7075-T6) with CF-reinforced
+selection of the cooling/lubrication procedure must be taken into ac- polyester composite and Ti-6Al-4 V were the most validated composite
+count based on the cutting parameters. A number of writers have materials used in aerospace. All three components have excellent static,
+embraced the sustainable machining method for handling materials that fatigue, and stress management efficiency [52–55].
+are difficult to cut. During the milling process on high-density composite
+materials, one can view an experimental example of the machining 4.2. Automobile and transportation industry
+procedure. During the material removal process, the dense reinforce-
+ment in the workpiece has the potential to fracture, harm the cutting Composite materials have garnered a lot of attention in the auto-
+tool, and create surface fissures. The dynamics of the cutting process are motive and transportation industries due to the possibility of improved
+altered when soft matrix materials and abrasive hard additives are MPG through decreased vehicle weight [56]. In industrialized countries
+combined in composite materials. As a result, various machining tech- like Japan, graphite-dispersed aluminum composites are commonly
+niques, such as dry, MQL, cryogenic, flood, or high-pressure flood used to make frictional auto parts. Composites are used extensively in
+machining processes, must be used to counteract these obstacles. the automobile and railroad industries. Three-wheeled vehicles for the
+disabled, taxis, delivery trucks, sports cars, ambulances, caravans, mo-
+4. Application of composites bile shops, and more are all made with glass fiber-polyester epoxy
+composites outside the United States. GRP is also used in the motorcycle
+It is because composites have properties that set them apart from and scooter industries because of the need for lightweight, weather-
+other materials. The capacity to be transported easily or a high strength- resistant, aerodynamic fairings. Several industries, such as maritime,
+7M. Bhong et al. M a t e r i a l s T o d a y : P r o c e e dingsxxx(xxxx)xxx
+Fig. 3. Sector-wise Composite Materials [44].
+Fig. 4. Carbon Fiber Potential in 2017 [50].
+chemical, mechanical, civil, electrical, and electronic, play essential researchers can focus on particular regions to make significant contri-
+roles in the economy [57–60]. The future studies on composite materials butions to the field of composite materials.
+ought to concentrate on a number of important topics. Automation and
+additive manufacturing are two examples of advanced production sys- 5. Conclusions
+tems that present chances for accuracy and efficiency. Investigation of
+nanocomposites with characteristics enhanced by nanoparticles is war- Composites protect metal components in corrosive chemical condi-
+ranted. Attention needs to be paid to raw material recycling and sus- tions like salt spray and acid rain, reducing maintenance costs. Com-
+tainability. Studies on durability, biocomposites, and multifunctional posites possess shape memory and impact tolerance, making them
+composites show promise. For progress, better characterization highly useful in transportation. Aluminum-based composites in vehicles
+methods, simulation tools, and manufacturing process optimization are are more economical, fuel-efficient, and lightweight than steel or iron
+essential. It is essential to evaluate environmental implications through counterparts. Combining two metal components into a composite
+life cycle assessments. Collaborations across disciplines can tackle further saves weight and resources during setup. Composites and ad-
+intricate problems in this developing sector. Within these paths, hesives/coatings are mutually compatible, offering additional benefits
+8M. Bhong et al. M a t e r i a l s T o d a y : P r o c e e dingsxxx(xxxx)xxx
+due to their shared polymer composition. Composites excel as insulators, [12] Raj, P. Prajul, R. Sridhar, R. Pugazhenthi, G. Anbuchezhiyan, and M. Ganesh.
+maintaining form and performance even in low temperatures. “Investigating the mechanical properties of tungsten carbide metal matrix
+composites with Al 6061.” Materials Today: Proceedings (2023).
+[13] M. Ostolaza, J.I. Arrizubieta, A. Lamikiz, S. Plaza, N. Ortega, Latest Developments
+• Composites open up a wide range of new design options without to manufacture metal matrix composites and functionally graded materials through
+compromising performance or strength. AM: A state-of-the-art review, Materials 16 (4) (2023) 1746.
+• Fiber-reinforced composites are ideal for electronics due to their high [14] J. Cao, F. Li, Q. Yang, K.e. Zhan, Z. Yang, Z. Wang, B. Zhao, A review on interfacial
+structure optimization and its mechanism on the properties of carbon reinforced
+resistance to heat and flame. metal-matrix composites, Compos. Interfaces 30 (5) (2023) 543–583.
+• Innovative surface generation methods provide post-mold paint [15] A.K. Maurya, G. Manik, Advances towards development of industrially relevant
+short natural fiber reinforced and hybridized polypropylene composites for various
+finishes without extensive time and resource investment.
+industrial applications: a review, J. Polym. Res. 30 (1) (2023) 47.
+• Biomaterials using composites can heal damaged tissues and serve as [16] Dinbandhu, Thakur, A., Venugopal Goud, E., Abhishek, K., & Vora, J. J. (2021). An
+replacements for organs, revolutionizing the biomedical industry. Overview of Proteus: The world’s First Man-Made Non-cuttable Material. Recent
+• Aluminum-based composites offer affordability, fuel efficiency, and Advances in Smart Manufacturing and Materials: Select Proceedings of ICEM 2020,
+95-102.
+lightweight properties for vehicles and automobile parts. [17] A. Etale, A.J. Onyianta, S.R. Turner, S.J. Eichhorn, Cellulose: a review of water
+• Composites reduce resource consumption, are compatible with ad- interactions, applications in composites, and water treatment, Chem. Rev. 123 (5)
+(2023) 2016–2048.
+hesives/coatings, and perform well at low temperatures.
+[18] S.K. Sharma, K.K. Saxena, V. Malik, K.A. Mohammed, C. Prakash, D. Buddhi,
+• Effective ways to create composites have led to indispensable ad- S. Dixit, Significance of alloying elements on the mechanical characteristics of Mg-
+vancements in the biomedical field for wound healing and tissue based materials for biomedical applications, Crystals 12 (8) (2022) 1138.
+engineering. [19] M. Abdur Rahman, S. Haque, M.M. Athikesavan, M.B. Kamaludeen, A review of
+environmental friendly green composites: production methods, current progresses,
+and challenges, Environ. Sci. Pollut. Res. 30 (7) (2023) 16905–16929.
+CRediT authorship contribution statement [20] A.E. Krauklis, C.W. Karl, A.I. Gagani, J.K. Jørgensen, Composite material recycling
+technology—state-of-the-art and sustainable development for the 2020s,
+J. Compos. Sci. 5 (1) (2021) 28.
+Mahesh Bhong: Conceptualization. Tasneem K.H. Khan: Method- [21] P.S.S. Kumar, K.V. Allamraju, A review of natural fiber composites [Jute, Sisal,
+ology. Kiran Devade: Supervision. B. Vijay Krishna: . Sreekanth Sura: Kenaf], Mater. Today: Proc. 18 (2019) 2556–2562.
+Writing – original draft. H.K. Eftikhaar: . H. Pal Thethi: . Nakul [22] W. Zhou, Y. Tang, X. Zhang, S. Zhang, H. Xue, H. Pang, MOF derived metal oxide
+composites and their applications in energy storage, Coord. Chem. Rev. 477
+Gupta: . (2023), 214949.
+[23] K.M. Agarwal, R.K. Tyagi, K.K. Saxena, Deformation analysis of Al Alloy AA2024
+through equal channel angular pressing for aircraft structures, Adv. Mater. Process.
+Technol. 8 (1) (2022) 828–842.
+Declaration of Competing Interest [24] A. Haleem, A. Shafiq, S.Q. Chen, M. Nazar, A comprehensive review on adsorption,
+photocatalytic and chemical degradation of dyes and nitro-compounds over
+The authors declare that they have no known competing financial different kinds of porous and composite materials, Molecules 28 (3) (2023) 1081.
+[25] W. Zhang, X.X. Ji, M.G. Ma, Emerging MXene/cellulose composites: Design
+interests or personal relationships that could have appeared to influence strategies and diverse applications, Chem. Eng. J. 458 (2023), 141402.
+the work reported in this paper. [26] A.G. Korpi, S¸. T¸a˘lu, M. Bramowicz, A. Arman, S. Kulesza, B. Pszczolkowski,
+S. Gopikishan, Minkowski functional characterization and fractal analysis of
+surfaces of titanium nitride films, Mater. Res. Express 6 (8) (2019), 086463.
+Data availability
+[27] M.K. Egbo, A fundamental review on composite materials and some of their
+applications in biomedical engineering, J. King Saud Univ.-Eng. Sci. 33 (8) (2021)
+No data was used for the research described in the article. 557–568.
+[28] A. Awasthi, K.K. Saxena, V. Arun, Sustainable and smart metal forming
+manufacturing process, Mater. Today:. Proc. 44 (2021) 2069–2079.
+References [29] A.D. Kandhare, P.A. Thakurdesai, P. Wangikar, S.L. Bodhankar, A systematic
+literature review of fenugreek seed toxicity by using ToxRTool: evidence from
+[1] M. Nachtane, M. Tarfaoui, M.A. Abichou, A. Vetcher, M. Rouway, A. Aaˆmir, preclinical and clinical studies, Heliyon 5 (4) (2019).
+[30] X. Yu, A. Manthiram, A review of composite polymer-ceramic electrolytes for
+H. Naanani, An overview of the recent advances in composite materials and lithium batteries, Energy Storage Mater. 34 (2021) 282–300.
+artificial intelligence for hydrogen storage vessels design, J. Compos. Sci. 7 (3)
+[31] P. Shi, X.Q. Zhang, X. Shen, R. Zhang, H. Liu, Q. Zhang, A review of composite
+(2023) 119.
+lithium metal anode for practical applications, Adv. Mater. Technol. 5 (1) (2020)
+[2] V. Lunetto, M. Galati, L. Settineri, L. Iuliano, Sustainability in the manufacturing of
+1900806.
+composite materials: A literature review and directions for future research,
+[32] G. Beniwal, K.K. Saxena, A review on pore and porosity in tissue engineering,
+J. Manuf. Process. 85 (2023) 858–874. Mater. Today:. Proc. 44 (2021) 2623–2628.
+[3] Q.J. Sun, Q.T. Lai, Z. Tang, X.G. Tang, X.H. Zhao, V.A. Roy, Advanced functional
+[33] Y. Zheng, Y. Yao, J. Ou, M. Li, D. Luo, H. Dou, Z. Chen, A review of composite solid-
+composite materials toward E-skin for health monitoring and artificial intelligence,
+state electrolytes for lithium batteries: fundamentals, key materials and advanced
+Adv. Mater. Technol. 8 (5) (2023) 2201088. structures, Chem. Soc. Rev. 49 (23) (2020) 8790–8839.
+[4] A.R. Bhardwaj, A.M. Vaidya, P.D. Meshram, D. Bandhu, Machining behavior [34] Dinbandhu, Abhishek, K., Thakur, A., Nagaphani Sastry, M., Devaki Devi, K., &
+investigation of aluminium metal matrix composite reinforced with TiC
+particulates, Int. J. Interact. Des. Manuf. (IJIDeM) (2023) 1–15. Nishant, A. (2021). A study on mechanical attributes of epoxy-carbon fiber-
+terminalia bellirica embedded hybrid composites. In Recent Advances in Smart
+[5] I.L.P. Raj, S. Valanarasu, K. Hariprasad, J.S. Ponraj, N. Chidhambaram, V. Ganesh,
+Manufacturing and Materials: Select Proceedings of ICEM 2020 (pp. 163-173).
+Y. Khairy, Enhancement of optoelectronic parameters of Nd-doped ZnO nanowires
+Springer Singapore.
+for photodetector applications, Opt. Mater. 109 (2020), 110396. [35] M. Subramanian, A.T. Hoang, B. Kalidasan, S. Niˇzeti´c, J.M. Solomon,
+[6] D. Zhang, W. Zhang, S. Zhang, X. Ji, L. Li, Synthesis of expanded graphite-based
+D. Balasubramanian, X.P. Nguyen, A technical review on composite phase change
+materials for application in lithium-based batteries, J. Storage Mater. 60 (2023),
+material based secondary assisted battery thermal management system for electric
+106678.
+vehicles, J. Clean. Prod. 322 (2021), 129079.
+[7] K. Zadafiya, D. Bandhu, S. Kumari, S. Chatterjee, K. Abhishek, Recent trends in
+[36] K.K. Saxena, A. Lal, Comparative Molecular Dynamics simulation study of
+drilling of carbon fiber reinforced polymers (CFRPs): A state-of-the-art review,
+J. Manuf. Process. 69 (2021) 47–68. m vae cc ah na cn yi c da el f ep cr to sp , e Pr rt oie cs e do if a c Ear nb go . n 3 8n a (n 2o 0t 1u 2b )e 2s 3w 4i 7th – 2n 3u 5m 5.b er of stone-wales and
+[8] H. Zhang, Z. Lin, Y. Hu, S. Ma, Y. Liang, L. Ren, L. Ren, Low-voltage driven ionic [37] R.A. Mitran, S. Ionit¸ǎ, D. Lincu, D. Berger, C. Matei, A review of composite phase
+polymer-metal composite actuators: structures, materials, and applications, Adv.
+change materials based on porous silica nanomaterials for latent heat storage
+Sci. 10 (10) (2023) 2206135.
+applications, Molecules 26 (1) (2021) 241.
+[9] R.A. Laghari, N. He, M. Jamil, M.I. Hussain, M.K. Gupta, G.M. Krolczyk, A state-of-
+[38] Witzel, O. (2019). Review on composite Higgs models. arXiv preprint arXiv:
+the-art review on recently developed sustainable and green cooling/lubrication
+1901.08216.
+technologies in machining metal matrix composites (MMCs), Int. J. Precis. Eng.
+Manuf.-Green Technol. (2023) 1–24. [39] C K.
+.
+JB aa ys aa sv aa np ko ao rr ,n Si pm ea c,
+t
+rC a. lR c.
+h
+K ae rasa ctv eu rl iu st, icT s. oM
+f
+a Ph re 3s +w -a dr oi p, eW
+d
+.
+l
+eP ae dc h ba ar sa ep da p, hS o.R sp. hD ae tp eu gr lu a,
+s
+sC e.
+s
+[10] K.K. Sadhu, N. Mandal, R.R. Sahoo, SiC/graphene reinforced aluminum metal
+for optical display device applications, J. Lumin. 228 (2020), 117585.
+matrix composites prepared by powder metallurgy: A review, J. Manuf. Process. 91
+(2023) 10–43. [40] B. Wang, S. Zhong, T.L. Lee, K.S. Fancey, J. Mi, Non-destructive testing and
+[11] Menachery, Nice, Shijo Thomas, B. Deepanraj, and N. Senthilkumar. “Processing of evaluation of composite materials/structures: A state-of-the-art review, Adv. Mech.
+Eng. 12 (4) (2020).
+nanoreinforced aluminium hybrid metal matrix composites and the effect of post-
+heat treatment: a review.” Applied Nanoscience 13, no. 6 (2023): 4075-4099.
+9M. Bhong et al. M a t e r i a l s T o d a y : P r o c e e dingsxxx(xxxx)xxx
+[41] K.M. Agarwal, R.K. Tyagi, V. Choubey, K.K. Saxena, Mechanical behaviour of [52] S. Vinoth, G. Kanimozhi, K. Hari Prasad, K. Harish, E.S. Srinadhu,
+Aluminium Alloy AA6063 processed through ECAP with optimum die design N. Satyanarayana, Enhanced ionic conductivity of electrospun nanocomposite
+parameters, Adv. Mater. Process. Technol. 8 (2) (2022) 1901–1915. (PVDF-HFP+TiO2 nanofibers fillers) polymer fibrous membrane electrolyte for
+[42] G. Kalpana, P.V. Kumar, S. Aljawarneh, R.V. Krishnaiah, Shifted adaption DSSC application, Polym. Compos. 40 (4) (2019) 1585–1594.
+homomorphism encryption for mobile and cloud learning, Comput. Electr. Eng. 65 [53] C.V. More, Z. Alsayed, M.S. Badawi, A.A. Thabet, P.P. Pawar, Polymeric composite
+(2018) 178–195. materials for radiation shielding: a review, Environ. Chem. Lett. 19 (2021)
+[43] R. Hsissou, R. Seghiri, Z. Benzekri, M. Hilali, M. Rafik, A. Elharfi, Polymer 2057–2090.
+composite materials: A comprehensive review, Compos. Struct. 262 (2021), [54] D. Bandhu, A. Thakur, R. Purohit, R.K. Verma, K. Abhishek, Characterization &
+113640. evaluation of Al7075 MMCs reinforced with ceramic particulates and influence of
+[44] N. Sahai, K.K. Saxena, M. Gogoi, Modelling and simulation for fabrication of 3D age hardening on their tensile behavior, J. Mech. Sci. Technol. 32 (2018)
+printed polymeric porous tissue scaffolds, Adv. Mater. Process. Technol. 6 (3) 3123–3128.
+(2020) 530–539. [55] A. Awasthi, U.S. Rao, K.K. Saxena, R.K. Dwivedi, Impact of equal channel angular
+[45] B. Castanie, C. Bouvet, M. Ginot, Review of composite sandwich structure in pressing on aluminium alloys: An overview, Mater. Today:. Proc. 57 (2022)
+aeronautic applications, Compos. Part c: Open Access 1 (2020), 100004. 908–912.
+[46] A. Thakur, R. Purohit, R.S. Rana, D. Bandhu, Characterization and evaluation of [56] C.U. Kumari, A.S.D. Murthy, B.L. Prasanna, M.P.P. Reddy, A.K. Panigrahy, An
+mechanical behavior of epoxy-CNT-bamboo matrix hybrid composites, Mater. automated detection of heart arrhythmias using machine learning technique: SVM,
+Today:. Proc. 5 (2) (2018) 3971–3980. Mater. Today:. Proc. 45 (2021) 1393–1398.
+[47] M.N. Bhukya, V.R. Kota, A quick and effective MPPT scheme for solar power [57] A.M. El-Khawaga, A. Zidan, A.I. Abd El-Mageed, Preparation methods of different
+generation during dynamic weather and partial shaded conditions, Eng. Sci. nanomaterials for various potential applications: A review, J. Mol. Struct. 1281
+Technol. Int. J. 22 (3) (2019) 869–884. (2023), 135148.
+[48] M. Humayun, C. Wang, W. Luo, Recent progress in the synthesis and applications [58] V.D. Pon, K.J. Wilson, K. Hariprasad, V. Ganesh, H.E. Ali, H. Algarni, I.S. Yahia,
+of composite photocatalysts: a critical review, Small Methods 6 (2) (2022) Enhancement of optoelectronic properties of ZnO thin films by Al doping for
+2101395. photodetector applications, Superlattice. Microst. 151 (2021), 106790.
+[49] A. Awasthi, K.K. Saxena, R.K. Dwivedi, An investigation on classification and [59] G. Upadhyay, K.K. Saxena, S. Sehgal, K.A. Mohammed, C. Prakash, S. Dixit,
+characterization of bio materials and additive manufacturing techniques for D. Buddhi, Development of carbon nanotube (CNT)-reinforced mg alloys:
+bioimplants, Mater. Today:. Proc. 44 (2021) 2061–2068. fabrication routes and mechanical properties, Metals 12 (8) (2022) 1392.
+[50] M.K. Aslam, M. Xu, A mini-review: MXene composites for sodium/potassium-ion [60] M.S.B. Reddy, D. Ponnamma, R. Choudhary, K.K. Sadasivuni, A comparative
+batteries, Nanoscale 12 (30) (2020) 15993–16007. review of natural and synthetic biopolymer composite scaffolds, Polymers 13 (7)
+[51] H. Zhou, H. Li, L. Li, T. Liu, G. Chen, Y. Zhu, H. Huang, Structural composite energy (2021) 1105.
+storage devices—a review, Mater. Today Energy 24 (2022), 100924.
+10

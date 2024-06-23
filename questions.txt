@@ -1,0 +1,21 @@
+What are the primary benefits of using 7XXX series aluminum alloys in aircraft structures?
+How has the development of 7XXX series aluminum alloys evolved from the early 20th century to the present day?
+What are the main challenges associated with using 7XXX series aluminum alloys in aircraft, and what solutions have been proposed to address these challenges?
+What role does the composition optimization play in enhancing the performance of 7XXX series aluminum alloys?
+What are the unique features of smart materials that make them increasingly important in the aerospace industry?
+How are piezoelectric materials utilized in aerospace applications, and what are their key properties?
+What is the classification of smart materials based on their properties, and which types are most relevant to aerospace industries?
+What advancements in nano-smart materials have been highlighted in the study, and what future perspectives are discussed?
+What is the purpose of twist extrusion (TE) in the context of the research?
+What is the main advantage of using sintered titanium alloys in manufacturing axial compressor components?
+How is the thermodynamic and aerodynamic performance of an air-driven fan system in a turbofan engine analyzed?
+What are the typical dimensions of the titanium billets used in twist extrusion in this study?
+What equipment is used for fractographic analysis of fracture surfaces in the study?
+What are the effects of different welding parameters on the mechanical properties of AA 5083 aluminum alloy plates?
+How is the heat distribution in AA 5083 plates during the FSW process?
+What are the effects of FSW welding parameters on the microstructural properties of AA 5083 plates?
+What are the primary motivations behind the advancements in aircraft materials according to the review?
+What properties make aluminum-based alloys appealing for high-performance aircraft parts?
+What are the key benefits and limitations of using magnesium-based alloys in aircraft structures?
+Why are titanium matrix composites (TMCs) preferred for high-temperature aerospace applications?
+What are the future trends in the development of composite materials for aircraft according to the review?

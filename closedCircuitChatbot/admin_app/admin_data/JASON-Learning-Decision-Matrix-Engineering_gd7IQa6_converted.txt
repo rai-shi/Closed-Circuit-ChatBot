@@ -1,0 +1,29 @@
+Engineering Design Decision MatrixGeneral Instructions for Using the Decision Matrix
+Constraints and Considerations
+Many complex decisions have certain constraints and considerations that must be considered when
+making a choice. A constraint is a limitation or restriction. A possible choice that does not meet the
+constraint will not work. On the other hand, considerations are factors that you want to consider in
+making a decision, but are not “deal-breakers.” For example, imagine you are buying a car. There are
+five people and a large dog in your family. Your car must have room for five people and a dog. If it does
+not, the car will not work for your family. This is a constraint. You would also like to get a car with good
+gas mileage, and you would prefer one that is blue. These factors are considerations, because a red car
+or one with only average gas mileage would still work for your family. You would just give more weight
+to a car that was blue and had good gas mileage if such a car were among your choices and had room
+for five people and a dog.
+Using the Decision Matrix
+1. List each criterion (or factor) you need to consider when deciding on best overall solution or design.
+2. Assign a weight for each criterion from 1 to 5, (with 5 as the highest value). This should reflect how
+important you think the criterion is. Thinking about whether it is a constraint vs a consideration may also
+help you determine its weight (a constraint should be weighted more heavily). This is a judgement call
+students should make. It is important for students to understand that they are not ranking these factors
+in order of importance. Multiple factors may have the same importance.
+3. For each criterion, score each option on a scale of 1-5 (5 being best) based on how well that option
+seems to meet the criteria.
+4. Multiply the weight for each category by the score you gave each option to get the weighted score.
+Calculate total weighted scores for each option and compare.
+5. Students should critically think about whether or not the outcome makes sense overall. If it doesn’t, it
+may mean students need to go back and review how they assigned values or weighted certain
+categories. Alternatively, it may mean that the matrix is revealing an outcome they hadn’t fully
+anticipated, and thus should consider that option more seriously. The more often students practice
+using matrices, the more meaningful and reliable this tool becomes.
+Sample

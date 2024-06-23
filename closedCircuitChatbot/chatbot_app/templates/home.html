@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/static/img/logo.png">
+
+    <title>boTAI</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="{% static  'css/home1.css' %}">
+
+
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <!-- href="{% url 'chatbot_app:home' chat_id=-1 %}" -->
+            <a class="navbar-brand" >
+                <img src='/static/img/logo.png' alt="Logo" class="d-inline-block align-text-top">
+                <span style="color: blue;font-size: 34px;">bo</span><span style="color: rgb(255, 0, 0);font-size: 34px;">TAI</span>
+            </a>
+            <div class="d-flex align-items-center">
+                <a href="{% url 'Profile' %}" class="icon-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-circle" style="margin-right: 5px;"
+                        viewBox="0 0 16 16" href="#">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                        <path fill-rule="evenodd"
+                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                    </svg>
+                </a>
+                <span class="navbar-text me-3">  {{user.first_name}} {{user.last_name}}</span>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Right side navbar (sidenav) -->
+    <div class="sidenav">
+        <div class="sidenav-header">
+            <form action="{% url 'chatbot_app:CreateChat' %}" method="POST">
+                {% csrf_token %}
+                <button class="new-chat" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-pencil-square"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                        <path fill-rule="evenodd"
+                            d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                    </svg>
+                    <u>NEW CHAT</u>
+                </button>
+            </form>
+        </div>
+        <div class="chat-header">
+            <h4>Chat history</h4>
+        </div>
+        <div class="list">
+            <ul>
+                {% if user_chats %}
+                {% for chat in user_chats %}
+                    <div class="row">
+                        <li>
+                            <form action="{% url 'chatbot_app:home' chat_id=chat.id %}" method="POST">
+                            {% csrf_token %}
+                                <button class="chat_name" type="submit" name="form_type" value="chat">{{chat.title}}</button>
+                            </form>
+                            <div class="chat-item">
+                                <span class="chat-date">{{chat.updated_at}}</span>
+                                <form action="{% url 'chatbot_app:DeleteChat' current_chat_id=chat_id  delete_chat_id=chat.id %}" method="POST">
+                                    {% csrf_token %}
+                                    <button  id="deleteButton" type="submit" name="form_type" value="delete"> 
+                                        <i class="fas fa-trash-alt trash-icon"  style="cursor: pointer;color: #7A85B1;"></i> 
+                                    </button>
+                                </form>
+                            </div>
+                        </li>
+                    </div>                
+                {% endfor %}
+                {% endif %}
+                <!-- ... Diğer chat geçmişi maddeleri ... -->
+            </ul>
+        </div>
+        <div class="logout-button-container">
+            <div class="logout-button">
+                <form action="{% url 'Logout' %}" method="POST">
+                    {% csrf_token %}
+                    <button id="logoutBtn" class="btn">Logout
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0z" />
+                            <path fill-rule="evenodd"
+                                d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Chat container -->
+    <div class="chat-container" id="chat_history">
+        <div class="message-container">
+            <div class="row">
+                <div class="col" id="chat-history">
+                    {% if chat_history %}
+                    {% for chat in chat_history %}
+                    <div class="message">
+                        <p><i class="fas fa-user" style="width: 20px;height: 20px;"> </i> {{ chat.human }}</p>
+                    </div>
+                    <div class="message">
+                        <p> <img src="https://www.tusas.com/Content/images/pgLoadOrg.png" alt="" height="20px"
+                                width="20px"> {{ chat.ai|linebreaksbr }}</p>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                    <!-- Yeni mesajları buraya ekleyebilirsiniz -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="input-container" style="margin-top: 80px; ">
+        <!-- <form action="{% url 'chatbot_app:handlePrompt' chat_id=chat_id %}" method="POST">-->
+            {% csrf_token %} 
+            <!-- Giriş kutucuğu -->
+            <div class="input-group">
+                <input type="text" id="user_prompt" class="form-control" name="user_prompt" value="" placeholder="ask something to me">
+                <button class="btn" type="handlePrompt" name="user_prompt_form" value="user_prompt_ready" onclick="sendPrompt()">
+                    
+                    <img src="https://www.tusas.com/Content/images/pgLoadOrg.png" alt="Icon" width="30" height="30">
+
+                </button>
+            </div>
+        <!-- </form> -->
+    </div>
+    <script>
+
+        function sendPrompt() {
+            var chatHistory = document.getElementById('chat_history');
+            var prompt = document.getElementById('user_prompt').value;
+            var csrftoken = jQuery("[name=csrfmiddlewaretoken]").val();
+            document.getElementById('chat-history').innerHTML += "<div class='message'><p><i class='fas fa-user' style='width: 20px;height: 20px;'> </i>" + prompt + "</p></div>";
+            document.getElementById('user_prompt').value = ""; // Soru kutusunu temizle
+            document.getElementById('chat-history').innerHTML += 
+            "<div class='message' id='thinking'><p><img src='https://www.tusas.com/Content/images/pgLoadOrg.png' height='20px' width='20px'><span class='jumping-dots'><span class='dot dot-1'>.</span><span class='dot dot-2'>.</span><span class='dot dot-3'>.</span></span></p></div>";
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+
+
+
+            $.ajax({
+                type: "POST",
+                url: "{% url 'chatbot_app:handlePrompt' chat_id=chat_id %}",
+                data: {
+                    'csrfmiddlewaretoken': csrftoken,
+                    'user_prompt_form': 'user_prompt_ready',
+                    'user_prompt': prompt
+                },
+                success: function(response) {
+                    // AJAX başarılı olduğunda cevabı işle
+                    document.getElementById("thinking").remove();
+                    var aiResponse = response.ai_response;
+                    document.getElementById('chat-history').innerHTML += "<div class='message'><p><img src='https://www.tusas.com/Content/images/pgLoadOrg.png' height='20px' width='20px'>" + aiResponse + "</p></div>";
+                    chatHistory.scrollTop = chatHistory.scrollHeight;
+
+                },
+                error: function(response) {
+                    // Hata durumunda işlemler
+                    console.log(response);
+                }
+            });
+        }
+
+    </script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="{% static 'js/home.js' %}"></script>
+
+</body>
+
+</html>
