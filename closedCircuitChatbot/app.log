@@ -1,5 +1,0 @@
-2024-05-27 10:17:24,102 - closedCircuitChatbot.middleware - INFO - Profiling sonuçları GET /example/path için:
-2024-05-27 10:17:24,103 - closedCircuitChatbot.middleware - INFO - Toplam süre: 123ms
-2024-05-27 10:17:24,103 - closedCircuitChatbot.middleware - INFO - Detaylı fonksiyon süreleri:
-2024-05-27 10:17:24,103 - closedCircuitChatbot.middleware - INFO - Fonksiyon1: 45ms
-2024-05-27 10:17:24,103 - closedCircuitChatbot.middleware - INFO - Fonksiyon2: 78ms
