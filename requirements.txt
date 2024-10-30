@@ -7,6 +7,15 @@ pytz==2023.3.post1
 django-storages==1.14.2
 langchain
 qdrant-client
-
-
+sentence_transformers
+torch
+pypdf
+qdrant-client
+six
+langchain_community
+langfuse
+nltk
+fastembed
+bitsandbytes
+ccelerate>=0.26.0
 # asgiref, sqlparse, tzdata
